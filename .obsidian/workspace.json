@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 552.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,15 +187,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "7d437ec5d7b4aeea",
   "lastOpenFiles": [
     "Obsidian/教程.md",
-    "Obsidian/assets/Pasted image 20260202230956.png",
-    "Obsidian/assets/Pasted image 20260202230917.png",
+    "Obsidian/讲解思路.md",
     "README.md",
-    "Obsidian/讲解思路.md"
+    "Obsidian/assets/Pasted image 20260202230956.png",
+    "Obsidian/assets/Pasted image 20260202230917.png"
   ]
 }
