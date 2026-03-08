@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "1/未命名.md",
                 "mode": "source",
                 "source": false
               },
@@ -215,22 +215,25 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "13566c6ba6e9f645",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "未命名",
+    "Obsidian/讲解思路.md",
+    "1",
+    "Obsidian/教程.md",
+    "Obsidian/assets/Pasted image 20260114204533.png",
+    "Obsidian/assets/Pasted image 20260202230917.png",
+    "Obsidian/assets/Pasted image 20260202230956.png",
+    "1/未命名.md",
+    "未命名.base",
     "未命名 1.base",
-    "未命名.md",
     "未命名 2.base",
     "未命名 3.base",
     "测试.md",
     "README.md",
     "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
-    "未命名.base",
     "Excalidraw",
     "2026-03-08.md",
-    "LICENSE.md",
-    "Obsidian/讲解思路.md",
-    "Obsidian/教程.md",
-    "Obsidian/assets/Pasted image 20260202230956.png",
-    "Obsidian/assets/Pasted image 20260202230917.png"
+    "LICENSE.md"
   ]
 }
