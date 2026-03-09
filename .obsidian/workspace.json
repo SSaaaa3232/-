@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/AI矿产与澳洲经济+深度分析.md",
+                "file": "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI矿产与澳洲经济+深度分析"
+              "title": "AI矿产与澳洲经济-背景"
             }
           }
         ]
@@ -215,44 +215,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "044e45353ecc389c",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "attachments",
     "思考/AI矿产与澳洲经济+深度分析.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挪威沙特模式.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挪威沙特模式.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
+    "思考/AI矿产与澳洲经济",
+    "attachments",
     "github工具/Scrapling-爬虫工具.md",
     "思考",
     "github工具/Edit-Banana.md",
     "未命名.base",
     "读书/这世界既残酷也温柔.md",
     "AI/一个AI的自白：关于我的边界与你的可能性.md",
-    "1/wwen/未命名.md",
-    "github工具/AutoClip.md",
-    "github工具/AI学习项目汇总.md",
-    "tips/Obsidian读书高手做法.md",
-    "Obsidian/README.md",
-    "Obsidian/LICENSE.md",
-    "测试.md",
-    "学校作业/数学作业-第二周.md",
-    "x/已思考/Agent-训练师安全进阶.md",
-    "templates/读书笔记模板.md",
-    "hugging face/README.md",
     "读书",
     "学校作业",
-    "x/已思考/NotebookLM-48小时学习法.md",
-    "x/已思考/BTC-反法币指数.md",
     "x/已思考",
     "x",
     "tips",
     "templates",
-    "hugging face",
-    "github工具",
-    "cli/Ralph-Loop自动循环工具.md",
-    "Obsidian/讲解思路.md",
-    "Obsidian/教程.md",
     "Obsidian/assets/Pasted image 20260114204533.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
-    "Obsidian/assets/Pasted image 20260202230956.png",
-    "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
-    "2026-03-08.md"
+    "Obsidian/assets/Pasted image 20260202230956.png"
   ]
 }
