@@ -1,14 +1,5 @@
 {
   "workspace:goto-tab-1": [],
-  "editor:set-heading-6": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "6"
-    }
-  ],
   "editor:insert-codeblock": [
     {
       "modifiers": [
@@ -110,5 +101,31 @@
       ],
       "key": "T"
     }
-  ]
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "workspace:undo-close-pane": [],
+  "app:go-back": [],
+  "workspace:goto-tab-8": [],
+  "workspace:goto-tab-7": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-last-tab": [],
+  "workspace:next-tab": [],
+  "workspace:previous-tab": [],
+  "editor:set-heading-6": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "workspace:edit-file-title": [],
+  "editor:toggle-comments": []
 }

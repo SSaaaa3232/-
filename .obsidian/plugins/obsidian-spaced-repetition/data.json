@@ -15,7 +15,7 @@
     "clozePatterns": [
       "==[123;;]answer[;;hint]=="
     ],
-    "singleLineCardSeparator": "==",
+    "singleLineCardSeparator": "++",
     "singleLineReversedCardSeparator": "<>",
     "multilineCardSeparator": "===",
     "multilineReversedCardSeparator": "<===>",
