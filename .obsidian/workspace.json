@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
+                "file": "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI矿产与澳洲经济-背景"
+              "title": "AI矿产与澳洲经济-AI改变价值链"
             }
           }
         ]
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 552.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,9 +216,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "b1059913e931db16",
   "lastOpenFiles": [
-    "思考/AI矿产与澳洲经济+深度分析.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
+    "思考/AI矿产与澳洲经济/原文.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
@@ -226,9 +229,6 @@
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
@@ -236,8 +236,6 @@
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
     "思考/AI矿产与澳洲经济",
     "attachments",
     "github工具/Scrapling-爬虫工具.md",
