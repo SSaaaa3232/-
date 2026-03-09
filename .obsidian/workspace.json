@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "思考/AI矿产与澳洲经济.md",
+                "file": "思考/AI矿产与澳洲经济+深度分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI矿产与澳洲经济"
+              "title": "AI矿产与澳洲经济+深度分析"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -218,7 +219,7 @@
   "active": "b1059913e931db16",
   "lastOpenFiles": [
     "github工具/Scrapling-爬虫工具.md",
-    "思考/AI矿产与澳洲经济.md",
+    "思考/AI矿产与澳洲经济+深度分析.md",
     "思考",
     "github工具/Edit-Banana.md",
     "未命名.base",
