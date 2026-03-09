@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github工具/Scrapling-爬虫工具.md",
+                "file": "思考/AI矿产与澳洲经济.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scrapling-爬虫工具"
+              "title": "AI矿产与澳洲经济"
             }
           }
         ]
@@ -217,8 +217,10 @@
   },
   "active": "b1059913e931db16",
   "lastOpenFiles": [
-    "github工具/Edit-Banana.md",
     "github工具/Scrapling-爬虫工具.md",
+    "思考/AI矿产与澳洲经济.md",
+    "思考",
+    "github工具/Edit-Banana.md",
     "未命名.base",
     "读书/这世界既残酷也温柔.md",
     "AI/一个AI的自白：关于我的边界与你的可能性.md",
@@ -244,7 +246,6 @@
     "hugging face",
     "github工具",
     "cli/Ralph-Loop自动循环工具.md",
-    "cli",
     "Obsidian/讲解思路.md",
     "Obsidian/教程.md",
     "Obsidian/assets/Pasted image 20260114204533.png",
