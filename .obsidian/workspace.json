@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "41ff877330647931",
+        "id": "1933082ff282dab9",
         "type": "tabs",
         "children": [
           {
-            "id": "1f1c85bdc369df8d",
+            "id": "b1059913e931db16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "github工具/AI学习项目汇总.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "AI学习项目汇总"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -87,7 +86,7 @@
       {
         "id": "e8b3594a3a04ef2f",
         "type": "tabs",
-        "dimension": 45.38461538461539,
+        "dimension": 45.359628770301626,
         "children": [
           {
             "id": "c38f5f8c18c63b25",
@@ -178,7 +177,7 @@
       {
         "id": "84321158e214785f",
         "type": "tabs",
-        "dimension": 54.61538461538461,
+        "dimension": 54.64037122969838,
         "children": [
           {
             "id": "4b3b70b4834aa4c9",
@@ -215,41 +214,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1f1c85bdc369df8d",
+  "active": "b1059913e931db16",
   "lastOpenFiles": [
-    "hugging face/README.md",
-    "1/wwen/未命名.md",
     "读书/这世界既残酷也温柔.md",
-    "读书",
+    "未命名.base",
+    "AI/一个AI的自白：关于我的边界与你的可能性.md",
+    "1/wwen/未命名.md",
+    "github工具/Edit-Banana.md",
+    "github工具/AutoClip.md",
+    "github工具/AI学习项目汇总.md",
+    "tips/Obsidian读书高手做法.md",
+    "Obsidian/README.md",
+    "Obsidian/LICENSE.md",
+    "测试.md",
     "学校作业/数学作业-第二周.md",
+    "x/已思考/Agent-训练师安全进阶.md",
+    "templates/读书笔记模板.md",
+    "hugging face/README.md",
+    "读书",
     "学校作业",
     "x/已思考/NotebookLM-48小时学习法.md",
     "x/已思考/BTC-反法币指数.md",
-    "x/已思考/Agent-训练师安全进阶.md",
     "x/已思考",
     "x",
-    "tips/Obsidian读书高手做法.md",
     "tips",
-    "templates/读书笔记模板.md",
     "templates",
     "hugging face",
-    "github工具/AI学习项目汇总.md",
-    "github工具/Edit-Banana.md",
-    "github工具/AutoClip.md",
     "github工具",
     "cli/Ralph-Loop自动循环工具.md",
     "cli",
-    "AI/一个AI的自白：关于我的边界与你的可能性.md",
-    "AI",
     "Obsidian/讲解思路.md",
     "Obsidian/教程.md",
     "Obsidian/assets/Pasted image 20260114204533.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
-    "测试.md",
-    "README.md",
     "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
-    "2026-03-08.md",
-    "LICENSE.md"
+    "2026-03-08.md"
   ]
 }
