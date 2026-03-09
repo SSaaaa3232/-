@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d3043f9294685508",
+        "id": "d1659bcbfe6f3f8f",
         "type": "tabs",
         "children": [
           {
-            "id": "0d9c80d53661d681",
+            "id": "cf07f546ed903bed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "思考/如何快速在中国挣100万.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "如何快速在中国挣100万"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -212,11 +217,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "cf07f546ed903bed",
   "lastOpenFiles": [
+    "思考/AI矿产与澳洲经济/原文.md",
+    "思考/如何快速在中国挣100万.md",
+    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
     "Excalidraw/AI矿产与澳洲经济-背景.md",
-    "思考/AI矿产与澳洲经济/原文.md",
     "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
     "Excalidraw/Drawing 2026-03-09 18.09.46.excalidraw.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
@@ -226,14 +233,12 @@
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挪威沙特模式.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挪威沙特模式.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
-    "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
     "思考/AI矿产与澳洲经济",
     "attachments",
