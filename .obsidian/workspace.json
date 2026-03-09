@@ -11,13 +11,14 @@
             "id": "b1059913e931db16",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "未命名.base",
-                "viewName": "表格"
+                "file": "github工具/Scrapling-爬虫工具.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "未命名"
+              "icon": "lucide-file",
+              "title": "Scrapling-爬虫工具"
             }
           }
         ]
@@ -216,11 +217,12 @@
   },
   "active": "b1059913e931db16",
   "lastOpenFiles": [
-    "读书/这世界既残酷也温柔.md",
+    "github工具/Edit-Banana.md",
+    "github工具/Scrapling-爬虫工具.md",
     "未命名.base",
+    "读书/这世界既残酷也温柔.md",
     "AI/一个AI的自白：关于我的边界与你的可能性.md",
     "1/wwen/未命名.md",
-    "github工具/Edit-Banana.md",
     "github工具/AutoClip.md",
     "github工具/AI学习项目汇总.md",
     "tips/Obsidian读书高手做法.md",
