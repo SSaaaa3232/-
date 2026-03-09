@@ -127,5 +127,29 @@
     }
   ],
   "workspace:edit-file-title": [],
-  "editor:toggle-comments": []
+  "editor:toggle-comments": [],
+  "Enhanced-editing:gaoliang2-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Z"
+    }
+  ],
+  "Enhanced-editing:gaoliang3-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "X"
+    }
+  ],
+  "Enhanced-editing:gaoliang1-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ]
 }
