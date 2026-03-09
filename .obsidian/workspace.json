@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1933082ff282dab9",
+        "id": "e9c3a5b079020ceb",
         "type": "tabs",
         "children": [
           {
-            "id": "b1059913e931db16",
+            "id": "e0b7aba0f307ae9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5,
-    "collapsed": true
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,10 +216,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1059913e931db16",
+  "active": "e0b7aba0f307ae9d",
   "lastOpenFiles": [
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
     "思考/AI矿产与澳洲经济/原文.md",
+    "Excalidraw/AI矿产与澳洲经济-背景.md",
+    "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-09 18.09.46.excalidraw.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-个人启示.md",
     "思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
