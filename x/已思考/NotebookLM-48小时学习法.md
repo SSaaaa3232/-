@@ -71,7 +71,9 @@ By hour 48, he could hold a conversation with his thesis advisor without getting
    - 6本书 + 15篇论文 + 所有课堂笔记
 
 2. **问关键问题**
-   - 不是问"总结这个"
+   - 不是问"总结这个",让AI解释概念, 而是让AI“攻击”他
+   - 对任何新主题的第一个提示是：“不要给我解释。问问我自己的想法，然后找出我答案中的所有漏洞
+   - 回答完任何问题后，她会立即输入：“我做了哪些我还没有质疑过的假设？”然后：“如果你是一位教授，想让我在这道题上不及格，你会问什么？”
    - 而是问"这个领域的专家有哪些核心思维模型？"
    - 接着问"专家们在哪些地方有分歧？"
 
@@ -80,7 +82,6 @@ By hour 48, he could hold a conversation with his thesis advisor without getting
    - 错的地方让AI解释为什么错
 
 4. **结果：48小时就能和导师深入讨论**
-
 ---
 
 ## 启发
@@ -88,11 +89,10 @@ By hour 48, he could hold a conversation with his thesis advisor without getting
 - 不是把书导进去就完事了
 - 要问对的问题
 - 要主动思考，不是被动吸收
+- AI不再是导师，而是变成了对手
+- 不是在建立自信，而是在考试前给自己施加压力，检验自己的理解
+- 接受审问。这就是关键所在
 
 ---
 
-## 相关
-
-- 工具：NotebookLM
-- 相关工具：Obsidian + 闪卡
-- Ralph Loop：让AI自动循环尝试
+#高效 
