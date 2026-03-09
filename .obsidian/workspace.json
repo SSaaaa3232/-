@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "66c85d9dc0d9e878",
+        "id": "3fea976fc773a0a3",
         "type": "tabs",
         "children": [
           {
-            "id": "53cbb3710a0197c0",
+            "id": "29f682c2ea1cf21a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -213,8 +212,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "53cbb3710a0197c0",
+  "active": "29f682c2ea1cf21a",
   "lastOpenFiles": [
+    "学习/学习路径与资源.md",
     "x/已思考/如何快速在中国挣100万.md",
     "x/已思考/闲鱼陪伴经济.md",
     "学习/金融",
