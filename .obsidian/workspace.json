@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/读书笔记模板.md",
+                "file": "AI/一个AI的自白：关于我的边界与你的可能性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读书笔记模板"
+              "title": "一个AI的自白：关于我的边界与你的可能性"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -219,6 +218,16 @@
   },
   "active": "29f682c2ea1cf21a",
   "lastOpenFiles": [
+    "Obsidian/讲解思路.md",
+    "Obsidian/教程.md",
+    "Obsidian/README.md",
+    "Obsidian/LICENSE.md",
+    "Obsidian/assets/Pasted image 20260202230956.png",
+    "Obsidian/assets/Pasted image 20260202230917.png",
+    "Obsidian/assets/Pasted image 20260114204533.png",
+    "学习/学习路径与资源.md",
+    "学校作业/数学作业-第二周.md",
+    "templates/读书笔记模板.md",
     "tips/读书提问话术与模拟.md",
     "x/已思考/闲鱼陪伴经济.md",
     "未命名.base",
@@ -226,14 +235,12 @@
     "x/已思考/NotebookLM速通.md",
     "x/已思考/Agent-训练师安全进阶.md",
     "x/已思考/BTC-反法币指数.md",
-    "学习/学习路径与资源.md",
     "学习/金融",
     "学习/英语",
     "学习/心理",
     "学习/历史",
     "学习/人性",
     "学习",
-    "学校作业/数学作业-第二周.md",
     "网站/MIT-OpenCourseWare.md",
     "网站",
     "x/已思考/AI矿产与澳洲经济/原文.md",
@@ -248,15 +255,7 @@
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挪威沙特模式.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-挑战与瓶颈.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-微笑曲线.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-澳大利亚矿产.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-杰文斯悖论.md",
     "x/已思考/AI矿产与澳洲经济",
-    "attachments",
-    "Obsidian/assets/Pasted image 20260114204533.png",
-    "Obsidian/assets/Pasted image 20260202230917.png",
-    "Obsidian/assets/Pasted image 20260202230956.png"
+    "attachments"
   ]
 }
