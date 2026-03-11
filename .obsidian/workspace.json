@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "857bc0c03e3bdcd9",
+        "id": "91f29ef2b4c59850",
         "type": "tabs",
         "children": [
           {
-            "id": "a3860388d86ff8d2",
+            "id": "93b46159d2eccc61",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -211,18 +211,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a3860388d86ff8d2",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "记忆库/强制规则/外部知识吸收.md",
+    "记忆库/强制规则/智能存储路由.md",
+    "记忆库/强制规则/任务追踪.md",
+    "测试.md",
+    "购物车.md",
+    "任务清单.md",
     "x/已思考/江学勤博弈论系列.md",
     "x/已思考/祛魅-快速致富的幻觉.md",
     "Obsidian/AI第二大脑搭建指南.md",
-    "记忆库/强制规则/智能存储路由.md",
-    "记忆库/强制规则/外部知识吸收.md",
-    "记忆库/强制规则/任务追踪.md",
     "记忆库/强制规则",
     "记忆库",
     "日志",
-    "任务清单.md",
     "任务归档",
     "templates/任务卡片模板.md",
     "tips/Obsidian读书高手做法.md",
@@ -235,10 +237,8 @@
     "摄影",
     "templates/读书笔记模板.md",
     "学校作业/数学作业-第二周.md",
-    "测试.md",
     "语录",
     "旅游",
-    "购物车.md",
     "网站/MIT-OpenCourseWare.md",
     "学习/学习路径与资源.md",
     "旅途规划",
