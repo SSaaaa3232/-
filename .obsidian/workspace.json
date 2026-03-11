@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -212,8 +211,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d456166fd0eee7f5",
+  "active": "044e45353ecc389c",
   "lastOpenFiles": [
+    "github工具/AI学习理解Skills.md",
     "x/已思考/前置奖励法.md",
     "github工具/PUA-Skill.md",
     "读书/这世界既残酷也温柔.md",
@@ -251,7 +251,6 @@
     "学习/人性",
     "x/已思考/AI矿产与澳洲经济/原文.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
-    "Excalidraw/AI矿产与澳洲经济-背景.md"
+    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md"
   ]
 }
