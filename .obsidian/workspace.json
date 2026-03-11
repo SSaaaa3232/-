@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ab29fb8f1099f554",
+        "id": "eba283a688285a1e",
         "type": "tabs",
         "children": [
           {
-            "id": "82fa54293e57e374",
+            "id": "d935b12f12f1e841",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "github工具/PUA-Skill.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "PUA-Skill"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -211,10 +216,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "82fa54293e57e374",
+  "active": "d935b12f12f1e841",
   "lastOpenFiles": [
-    "templates/读书笔记模板.md",
+    "github工具/PUA-Skill.md",
     "读书/这世界既残酷也温柔.md",
+    "读书/搞钱必读书单.md",
+    "摄影",
+    "templates/读书笔记模板.md",
     "学校作业/数学作业-第二周.md",
     "测试.md",
     "语录",
@@ -244,13 +252,10 @@
     "学习/心理",
     "学习/历史",
     "学习/人性",
-    "学习",
     "x/已思考/AI矿产与澳洲经济/原文.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
     "Excalidraw/AI矿产与澳洲经济-背景.md",
-    "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-09 18.09.46.excalidraw.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md"
+    "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md"
   ]
 }
