@@ -11,10 +11,14 @@
             "id": "d6ab9c3f8e35ae37",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "x/已思考/江学勤博弈论系列.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "江学勤博弈论系列"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -213,6 +218,8 @@
   },
   "active": "d6ab9c3f8e35ae37",
   "lastOpenFiles": [
+    "x/已思考/江学勤博弈论系列.md",
+    "x/已思考/祛魅-快速致富的幻觉.md",
     "Obsidian/AI第二大脑搭建指南.md",
     "记忆库/强制规则/智能存储路由.md",
     "记忆库/强制规则/外部知识吸收.md",
@@ -245,11 +252,9 @@
     "Obsidian/讲解思路.md",
     "Obsidian/教程.md",
     "Obsidian/README.md",
-    "Obsidian/LICENSE.md",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png",
-    "x/已思考/闲鱼陪伴经济.md",
     "未命名.base",
     "学习/金融"
   ]
