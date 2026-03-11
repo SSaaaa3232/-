@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tips/读书提问话术与模拟.md",
+                "file": "x/未思考/闲鱼陪伴经济.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读书提问话术与模拟"
+              "title": "闲鱼陪伴经济"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -87,7 +88,6 @@
       {
         "id": "e8b3594a3a04ef2f",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "c38f5f8c18c63b25",
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 552.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +208,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "044e45353ecc389c",
+  "active": "681db6b97cb3cf8e",
   "lastOpenFiles": [
+    "tips/阅读提问辅助流程.md",
     "tips/读书提问话术与模拟.md",
+    "脑科学/神经可塑性.md",
+    "脑科学",
     "templates/读书笔记模板.md",
     "x/未思考/闲鱼陪伴经济.md",
     "assets/Pasted image 20260202230917.png.md",
@@ -235,8 +239,6 @@
     "x/未思考/成为X中文区Top10.md",
     "x/未思考/思维结构书单.md",
     "x/未思考/如何快速在中国挣100万.md",
-    "x/未思考/前置奖励法.md",
-    "x/未思考/Stanley爆款文案分析.md",
     "x/未思考/AI矿产与澳洲经济",
     "x/未思考",
     "记忆库/强制规则",
@@ -244,7 +246,6 @@
     "日志",
     "任务归档",
     "摄影",
-    "语录",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
