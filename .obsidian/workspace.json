@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88d9a30baa4ad132",
+        "id": "972d70c2047d6349",
         "type": "tabs",
         "children": [
           {
-            "id": "11495dad4fd7bfe0",
+            "id": "476168746982d15f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,10 +180,14 @@
             "id": "4b3b70b4834aa4c9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "assets/Pasted image 20260202230917.png.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pasted image 20260202230917.png"
             }
           }
         ]
@@ -211,8 +215,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "044e45353ecc389c",
+  "active": "476168746982d15f",
   "lastOpenFiles": [
+    "assets/Pasted image 20260202230917.png.md",
+    "assets",
     "食谱",
     "学习/学习路径与资源.md",
     "x/未思考/AI矿产与澳洲经济/AI矿产与澳洲经济-物理瓶颈.md",
@@ -247,8 +253,6 @@
     "任务归档",
     "摄影",
     "语录",
-    "旅游",
-    "旅途规划",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
