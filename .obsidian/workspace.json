@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3c3cce31e72a5fa3",
+        "id": "5569769384a4ca64",
         "type": "tabs",
         "children": [
           {
-            "id": "d456166fd0eee7f5",
+            "id": "3fc1df12ae8dc740",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -211,8 +211,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "044e45353ecc389c",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "tips/读书提问话术与模拟.md",
     "github工具/AI学习理解Skills.md",
     "x/已思考/前置奖励法.md",
     "github工具/PUA-Skill.md",
@@ -237,7 +238,6 @@
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png",
-    "tips/读书提问话术与模拟.md",
     "x/已思考/闲鱼陪伴经济.md",
     "未命名.base",
     "x/已思考/如何快速在中国挣100万.md",
