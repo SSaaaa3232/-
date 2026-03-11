@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5569769384a4ca64",
+        "id": "e8e079c57e3d700c",
         "type": "tabs",
         "children": [
           {
-            "id": "3fc1df12ae8dc740",
+            "id": "d6ab9c3f8e35ae37",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -211,9 +211,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "d6ab9c3f8e35ae37",
   "lastOpenFiles": [
+    "Obsidian/AI第二大脑搭建指南.md",
+    "记忆库/强制规则/智能存储路由.md",
+    "记忆库/强制规则/外部知识吸收.md",
+    "记忆库/强制规则/任务追踪.md",
+    "记忆库/强制规则",
+    "记忆库",
+    "日志",
+    "任务清单.md",
+    "任务归档",
     "templates/任务卡片模板.md",
+    "tips/Obsidian读书高手做法.md",
     "tips/读书提问话术与模拟.md",
     "github工具/AI学习理解Skills.md",
     "x/已思考/前置奖励法.md",
@@ -241,16 +251,6 @@
     "Obsidian/assets/Pasted image 20260114204533.png",
     "x/已思考/闲鱼陪伴经济.md",
     "未命名.base",
-    "x/已思考/如何快速在中国挣100万.md",
-    "x/已思考/NotebookLM速通.md",
-    "x/已思考/Agent-训练师安全进阶.md",
-    "x/已思考/BTC-反法币指数.md",
-    "学习/金融",
-    "学习/英语",
-    "学习/心理",
-    "学习/历史",
-    "学习/人性",
-    "x/已思考/AI矿产与澳洲经济/原文.md",
-    "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md"
+    "学习/金融"
   ]
 }
