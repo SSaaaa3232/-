@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "eba283a688285a1e",
+        "id": "3c3cce31e72a5fa3",
         "type": "tabs",
         "children": [
           {
-            "id": "d935b12f12f1e841",
+            "id": "d456166fd0eee7f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "github工具/PUA-Skill.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PUA-Skill"
+              "title": "新标签页"
             }
           }
         ]
@@ -216,8 +212,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d935b12f12f1e841",
+  "active": "d456166fd0eee7f5",
   "lastOpenFiles": [
+    "x/已思考/前置奖励法.md",
     "github工具/PUA-Skill.md",
     "读书/这世界既残酷也温柔.md",
     "读书/搞钱必读书单.md",
@@ -255,7 +252,6 @@
     "x/已思考/AI矿产与澳洲经济/原文.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-总结.md",
     "x/已思考/AI矿产与澳洲经济/AI矿产与澳洲经济-背景.md",
-    "Excalidraw/AI矿产与澳洲经济-背景.md",
-    "Excalidraw/Drawing 2026-03-08 18.21.33.excalidraw.md"
+    "Excalidraw/AI矿产与澳洲经济-背景.md"
   ]
 }
