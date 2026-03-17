@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "154c069c2eba6f40",
+        "id": "952e7f4ddc636858",
         "type": "tabs",
         "children": [
           {
-            "id": "e393b27cecc6de6a",
+            "id": "60ba529bc0faf98e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -203,7 +203,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e393b27cecc6de6a",
+  "active": "60ba529bc0faf98e",
   "lastOpenFiles": [
     "x/未思考/纳瓦尔宝典15条底层规律.md",
     "x/未思考/要脸-那你的英语口语永远练不好.md",
