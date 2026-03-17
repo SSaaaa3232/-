@@ -11,10 +11,14 @@
             "id": "87cc6e10fb4af0c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "脑科学/神经可塑性.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "神经可塑性"
             }
           }
         ]
@@ -205,6 +209,8 @@
   },
   "active": "87cc6e10fb4af0c5",
   "lastOpenFiles": [
+    "学习/英语口语/练习记录/2026-03-17-P1工作话题.md",
+    "学习/英语口语/练习记录",
     "学习/英语口语/场景库.md",
     "记忆库/强制规则/英语口语练习.md",
     "学习/英语口语",
@@ -233,14 +239,12 @@
     "记忆库/强制规则/智能存储路由.md",
     "记忆库/强制规则/外部知识吸收.md",
     "记忆库/强制规则/任务追踪.md",
-    "学校作业/数学作业-第二周.md",
     "脑科学",
     "assets",
     "食谱",
     "x/未思考/AI矿产与澳洲经济",
     "x/未思考",
     "记忆库/强制规则",
-    "记忆库",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
