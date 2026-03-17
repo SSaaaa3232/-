@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "512e84ff9066ab78",
+        "id": "6b4dd25d6a2bfff5",
         "type": "tabs",
         "children": [
           {
-            "id": "681db6b97cb3cf8e",
+            "id": "8ab3b06c9ea715f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "x/未思考/收购无聊生意变富.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "收购无聊生意变富"
+              "title": "新标签页"
             }
           }
         ]
@@ -207,13 +203,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "681db6b97cb3cf8e",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "读书/搞钱必读书单.md",
+    "读书/博弈心理书单.md",
+    "x/未思考/闲鱼陪伴经济.md",
+    "x/未思考/思维结构书单.md",
+    "x/未思考/收购无聊生意变富.md",
     "x/未思考/江学勤博弈论系列.md",
     "x/未思考/Stanley爆款文案分析.md",
     "学习/学习路径与资源.md",
     "x/未思考/Agent-训练师安全进阶.md",
-    "x/未思考/闲鱼陪伴经济.md",
     "已思考/闲鱼陪伴经济-阅读笔记.md",
     "已思考",
     "x/未思考/前置奖励法.md",
@@ -228,15 +228,11 @@
     "记忆库/强制规则/外部知识吸收.md",
     "记忆库/强制规则/任务追踪.md",
     "x/未思考/纳瓦尔宝典15条底层规律.md",
-    "x/未思考/收购无聊生意变富.md",
     "学校作业/数学作业-第二周.md",
     "购物车.md",
     "测试.md",
-    "x/未思考/思维结构书单.md",
     "x/未思考/成为X中文区Top10.md",
     "x/未思考/要脸-那你的英语口语永远练不好.md",
-    "学习/人性/决策的6个心智模型.md",
-    "x/未思考/BTC-反法币指数.md",
     "脑科学",
     "assets",
     "食谱",
