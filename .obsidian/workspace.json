@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -207,8 +207,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87cc6e10fb4af0c5",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "github工具/self-improving-agent.md",
     "github工具/Scrapling-爬虫工具.md",
     "github工具/browser-use.md",
     "github工具/Typeless.md",
@@ -237,7 +238,6 @@
     "已思考/闲鱼陪伴经济-阅读笔记.md",
     "已思考",
     "x/未思考/前置奖励法.md",
-    "任务清单.md",
     "艺术家风格",
     "脑科学",
     "assets",
