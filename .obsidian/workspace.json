@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github工具/Scrapling-爬虫工具.md",
+                "file": "github工具/AI学习理解Skills.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scrapling-爬虫工具"
+              "title": "AI学习理解Skills"
             }
           }
         ]
@@ -207,11 +207,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "87cc6e10fb4af0c5",
   "lastOpenFiles": [
+    "github工具/Scrapling-爬虫工具.md",
     "github工具/browser-use.md",
     "github工具/Typeless.md",
-    "github工具/Scrapling-爬虫工具.md",
     "github工具/PUA-Skill.md",
     "github工具/Edit-Banana.md",
     "github工具/AutoClip.md",
