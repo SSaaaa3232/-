@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "674e57ed372815f3",
+        "id": "3e64a06385032352",
         "type": "tabs",
         "children": [
           {
-            "id": "c4f79b7d5f0556fe",
+            "id": "21eccd08d5309142",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记忆库/GitHub提示词模板项目.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "GitHub提示词模板项目"
+              "title": "新标签页"
             }
           }
         ]
@@ -185,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5,
-    "collapsed": true
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,10 +202,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c4f79b7d5f0556fe",
+  "active": "044e45353ecc389c",
   "lastOpenFiles": [
-    "记忆库/提示词模板库.md",
     "记忆库/GitHub提示词模板项目.md",
+    "记忆库/提示词模板库.md",
     "记忆库/强制规则/提示词补充规则.md",
     "记忆库/强制规则/任务追踪.md",
     "记忆库/强制规则/内容总结可视化工作流.md",
