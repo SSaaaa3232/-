@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-资源/书单/这世界既残酷也温柔.md",
+                "file": "1-项目/投资理财/BTC-反法币指数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "这世界既残酷也温柔"
+              "title": "BTC-反法币指数"
             }
           }
         ]
@@ -207,14 +207,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "2275b05b5e69e9a1",
   "lastOpenFiles": [
-    "3-资源/Claude提示工程思维导图.md",
+    "4-系统/强制规则/内容处理与知识吸收工作流.md",
+    "4-系统/templates/投资笔记模板.md",
+    "4-系统/templates/AI案例分析模板.md",
+    "4-系统/templates/任务卡片模板.md",
+    "4-系统/templates/复盘模板.md",
+    "1-项目/投资理财/BTC-反法币指数.md",
+    "1-项目/投资理财/2026四大经济周期同时转向.md",
+    "1-项目/投资理财/2026四大经济周期思维导图.excalidraw.md",
+    "1-项目/投资理财/2026四大经济周期思维导图.md",
+    "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
     "3-资源/书单/这世界既残酷也温柔.md",
+    "3-资源/Claude提示工程思维导图.md",
     "1-项目/购物车.md",
     "3-资源/Drawing 2026-03-18 13.29.11.excalidraw.md",
-    "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
-    "1-项目/投资理财/2026四大经济周期同时转向.md",
     "1-项目/商业模式/闲鱼陪伴经济.md",
     "1-项目/商业模式/OpenClaw保险AI案例思维导图.excalidraw",
     "1-项目/商业模式/OpenClaw保险AI助理3万案例.md",
@@ -226,18 +234,10 @@
     "1-项目/任务清单.md",
     "README.md",
     "4-系统/强制规则/定期整理自动化.md",
-    "4-系统/templates/投资笔记模板.md",
-    "4-系统/templates/复盘模板.md",
-    "4-系统/templates/AI案例分析模板.md",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/AI/英伟达GTC2026黄仁勋演讲要点.md",
     "4-系统/强制规则/自我反思与错误记录.md",
     "3-资源/书单/写作是门手艺.md",
-    "4-系统/强制规则/内容处理与知识吸收工作流.md",
-    "4-系统/强制规则/智能存储路由.md",
-    "4-系统/强制规则/任务追踪.md",
-    "4-系统/强制规则/英语口语练习.md",
-    "4-系统/强制规则/提示词补充规则.md",
     "1-项目/个人成长",
     "3-资源/lenny数据/podcasts",
     "3-资源/lenny数据/newsletters",
