@@ -11,10 +11,14 @@
             "id": "a8dd8040abe7f11b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "记忆库/强制规则/NotebookLM工作流.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "NotebookLM工作流"
             }
           }
         ]
@@ -177,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -205,6 +209,10 @@
   },
   "active": "a8dd8040abe7f11b",
   "lastOpenFiles": [
+    "记忆库/强制规则/英语口语练习.md",
+    "记忆库/强制规则/智能存储路由.md",
+    "记忆库/强制规则/外部知识吸收.md",
+    "记忆库/强制规则/NotebookLM工作流.md",
     "AI/一个AI的自白：关于我的边界与你的可能性.md",
     "github工具/AI学习理解Skills.md",
     "github工具/self-improving-agent.md",
@@ -218,7 +226,6 @@
     "学习/英语口语/练习记录/2026-03-17-P1工作话题.md",
     "学习/英语口语/练习记录",
     "学习/英语口语/场景库.md",
-    "记忆库/强制规则/英语口语练习.md",
     "学习/英语口语",
     "x/未思考/纳瓦尔宝典15条底层规律.md",
     "x/未思考/要脸-那你的英语口语永远练不好.md",
@@ -230,9 +237,6 @@
     "读书/搞钱必读书单.md",
     "x/未思考/闲鱼陪伴经济.md",
     "x/未思考/收购无聊生意变富.md",
-    "x/未思考/Stanley爆款文案分析.md",
-    "学习/学习路径与资源.md",
-    "x/未思考/Agent-训练师安全进阶.md",
     "已思考",
     "艺术家风格",
     "脑科学",
