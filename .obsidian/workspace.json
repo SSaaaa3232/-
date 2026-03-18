@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "470f6f3a5e6f88e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d9bc9688b25a709",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeae9280d9150cc4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6bc1d4b98e6672f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbfde94020db7715",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37f8f40eef564c7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a2dcea77f1a87c3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "eb396b5a5e008fb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258.5
+  },
+  "right": {
+    "id": "8690fabddddba01a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8b3594a3a04ef2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c38f5f8c18c63b25",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a33e821cf1c6aab8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "43db2db0c476903a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "自律 的反向链接列表"
+            }
+          },
+          {
+            "id": "3ba1c15db41d0f4c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "044e45353ecc389c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "b0c8a769ceabf72e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "ebd43352eee3ad24",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 552.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "aeae9280d9150cc4",
+  "lastOpenFiles": [
+    "3-资源/这世界既残酷也温柔.md",
+    "1-项目/任务清单.md",
+    "3-资源/书单/搞钱必读书单.md",
+    "3-资源/书单/思维结构书单.md",
+    "3-资源/书单/博弈心理书单.md",
+    "3-资源/书单",
+    "1-项目/赚钱思路/祛魅-快速致富的幻觉.md",
+    "1-项目/赚钱思路/收购无聊生意变富.md",
+    "1-项目/赚钱思路/如何快速在中国挣100万.md",
+    "1-项目/投资理财/TRX质押铸造USDD攻略.md",
+    "1-项目/投资理财/BTC-反法币指数.md",
+    "1-项目/赚钱思路",
+    "1-项目/英语学习/要脸-那你的英语口语永远练不好.md",
+    "1-项目/英语学习",
+    "1-项目/知识笔记/纳瓦尔宝典15条底层规律.md",
+    "1-项目/知识笔记/江学勤博弈论系列.md",
+    "1-项目/知识笔记/前置奖励法.md",
+    "1-项目/知识笔记/人性-最大的市场.md",
+    "1-项目/知识笔记",
+    "1-项目/AI学习/NotebookLM速通.md",
+    "1-项目/AI学习/Agent-训练师安全进阶.md",
+    "1-项目/AI学习",
+    "1-项目/投资理财",
+    "1-项目/商业模式/闲鱼陪伴经济.md",
+    "1-项目/商业模式",
+    "1-项目/内容创作/高互动内容写作公式.md",
+    "1-项目/内容创作/成为X中文区Top10.md",
+    "1-项目/内容创作/Stanley爆款文案分析.md",
+    "1-项目/内容创作",
+    "未命名.md",
+    "3-资源/艺术家风格/墨比斯.md",
+    "4-系统/强制规则/任务追踪.md",
+    "4-系统/强制规则/内容总结可视化工作流.md",
+    "2-领域/投资理财",
+    "2-领域/医美创业",
+    "1-项目/未思考/江学勤博弈论系列.md",
+    "Obsidian/assets/Pasted image 20260202230956.png",
+    "Obsidian/assets/Pasted image 20260202230917.png",
+    "Obsidian/assets/Pasted image 20260114204533.png"
+  ]
+}
