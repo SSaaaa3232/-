@@ -11,10 +11,14 @@
             "id": "aeae9280d9150cc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-项目/内容创作/Lenny-Rachitsky-全部内容开源.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Lenny-Rachitsky-全部内容开源"
             }
           }
         ]
@@ -205,6 +209,7 @@
   },
   "active": "aeae9280d9150cc4",
   "lastOpenFiles": [
+    "1-项目/内容创作/Lenny-Rachitsky-全部内容开源.md",
     "3-资源/这世界既残酷也温柔.md",
     "1-项目/任务清单.md",
     "3-资源/书单/搞钱必读书单.md",
@@ -240,7 +245,6 @@
     "4-系统/强制规则/内容总结可视化工作流.md",
     "2-领域/投资理财",
     "2-领域/医美创业",
-    "1-项目/未思考/江学勤博弈论系列.md",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
