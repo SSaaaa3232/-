@@ -1,11 +1,11 @@
 {
   "type": "excalidraw",
-  "version": 2,
+  "version": "2.0.0",
   "source": "https://x.com/kasong2048/status/2034092771150336200",
   "elements": [
     {
       "type": "text",
-      "version": 1,
+      "version": "2.0.0",
       "id": "root",
       "x": 300,
       "y": 30,
