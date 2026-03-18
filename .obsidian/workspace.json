@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github工具/AI学习理解Skills.md",
+                "file": "AI/一个AI的自白：关于我的边界与你的可能性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI学习理解Skills"
+              "title": "一个AI的自白：关于我的边界与你的可能性"
             }
           }
         ]
@@ -207,8 +207,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "87cc6e10fb4af0c5",
   "lastOpenFiles": [
+    "github工具/AI学习理解Skills.md",
     "github工具/self-improving-agent.md",
     "github工具/Scrapling-爬虫工具.md",
     "github工具/browser-use.md",
@@ -237,7 +238,6 @@
     "x/未思考/Agent-训练师安全进阶.md",
     "已思考/闲鱼陪伴经济-阅读笔记.md",
     "已思考",
-    "x/未思考/前置奖励法.md",
     "艺术家风格",
     "脑科学",
     "assets",
