@@ -11,12 +11,14 @@
             "id": "2275b05b5e69e9a1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "1-项目/投资理财/2026四大经济周期思维导图.excalidraw"
+                "file": "3-资源/书单/这世界既残酷也温柔.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "2026四大经济周期思维导图"
+              "icon": "lucide-file",
+              "title": "这世界既残酷也温柔"
             }
           }
         ]
@@ -205,10 +207,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2275b05b5e69e9a1",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "1-项目/投资理财/2026四大经济周期同时转向.md",
+    "3-资源/Claude提示工程思维导图.md",
+    "3-资源/书单/这世界既残酷也温柔.md",
+    "1-项目/购物车.md",
+    "3-资源/Drawing 2026-03-18 13.29.11.excalidraw.md",
     "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
+    "1-项目/投资理财/2026四大经济周期同时转向.md",
     "1-项目/商业模式/闲鱼陪伴经济.md",
     "1-项目/商业模式/OpenClaw保险AI案例思维导图.excalidraw",
     "1-项目/商业模式/OpenClaw保险AI助理3万案例.md",
@@ -232,9 +238,6 @@
     "4-系统/强制规则/任务追踪.md",
     "4-系统/强制规则/英语口语练习.md",
     "4-系统/强制规则/提示词补充规则.md",
-    "4-系统/强制规则/内容总结可视化工作流.md",
-    "4-系统/强制规则/外部知识吸收.md",
-    "1-项目/投资理财/SEC加密资产解释.md",
     "1-项目/个人成长",
     "3-资源/lenny数据/podcasts",
     "3-资源/lenny数据/newsletters",
