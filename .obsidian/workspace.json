@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5,
-    "collapsed": true
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,6 +208,7 @@
   },
   "active": "a8dd8040abe7f11b",
   "lastOpenFiles": [
+    "记忆库/强制规则/提示词补充规则.md",
     "Claude提示工程思维导图.md",
     "x/已思考/2026-03/Claude提示工程大师指南.md",
     "x/已思考/2026-03/Claude提示工程思维导图.excalidraw",
