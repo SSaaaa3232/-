@@ -1,11 +1,11 @@
 {
   "type": "excalidraw",
-  "version": 2,
+  "version": "2.0.0",
   "source": "https://x.com/DtDt666/status/2034108473974067585",
   "elements": [
     {
       "type": "text",
-      "version": 1,
+      "version": "2.0.0",
       "id": "root",
       "x": 250,
       "y": 20,

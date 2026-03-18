@@ -1,11 +1,11 @@
 {
   "type": "excalidraw",
-  "version": 2,
+  "version": "2.0.0",
   "source": "https://x.com/fxtrader/status/2033851461138866373",
   "elements": [
     {
       "type": "text",
-      "version": 1,
+      "version": "2.0.0",
       "id": "root",
       "x": 200,
       "y": 20,
