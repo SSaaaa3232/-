@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7cbceff9914d0986",
+        "id": "f3d2f8bdf2f8817a",
         "type": "tabs",
         "children": [
           {
-            "id": "afb96d3bb2a9b749",
+            "id": "2275b05b5e69e9a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4-系统/强制规则/内容处理与知识吸收工作流.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "内容处理与知识吸收工作流"
+              "title": "新标签页"
             }
           }
         ]
@@ -207,12 +203,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "2275b05b5e69e9a1",
   "lastOpenFiles": [
-    "4-系统/强制规则/智能存储路由.md",
+    "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
+    "3-资源/AI/英伟达GTC2026黄仁勋演讲要点.md",
     "4-系统/强制规则/自我反思与错误记录.md",
-    "4-系统/强制规则/任务追踪.md",
+    "3-资源/书单/写作是门手艺.md",
+    "1-项目/投资理财/2026四大经济周期同时转向.md",
     "4-系统/强制规则/内容处理与知识吸收工作流.md",
+    "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
+    "4-系统/强制规则/智能存储路由.md",
+    "4-系统/强制规则/任务追踪.md",
     "4-系统/强制规则/英语口语练习.md",
     "4-系统/强制规则/提示词补充规则.md",
     "1-项目/商业模式/OpenClaw保险AI案例思维导图.excalidraw",
@@ -233,17 +234,12 @@
     "3-资源/lenny数据/podcasts/matt-lemay.md",
     "3-资源/lenny数据/podcasts/rachel-lockett.md",
     "3-资源/lenny数据/podcasts/robby-stein.md",
-    "3-资源/lenny数据/podcasts/sam-lessin.md",
-    "3-资源/lenny数据/podcasts/sherwin-wu-v2.md",
-    "3-资源/lenny数据/podcasts/stewart-butterfield.md",
     "3-资源/lenny数据/podcasts",
     "3-资源/lenny数据/newsletters",
     "3-资源/lenny数据/index.json",
     "3-资源/lenny数据",
     "3-资源/书单",
     "1-项目/赚钱思路",
-    "1-项目/英语学习",
-    "1-项目/知识笔记",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
