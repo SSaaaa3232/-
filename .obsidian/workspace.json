@@ -181,8 +181,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
             }
           },
           {
@@ -224,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 552.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,8 +243,10 @@
   },
   "active": "44fa86c508cd2a92",
   "lastOpenFiles": [
-    "1-项目/个人成长/真正有效的决策框架.md",
+    "1-项目/个人成长/纳瓦尔宝典44条哲学解读.md",
     "1-项目/AI学习/一个AI的自白：关于我的边界与你的可能性.md",
+    "3-资源/书单/AI时代底层操作系统书单.md",
+    "1-项目/个人成长/真正有效的决策框架.md",
     "1-项目/个人成长/4个变廉价的习惯.md",
     "1-项目/每日安排.md",
     "4-系统/强制规则/内容处理与知识吸收工作流.md",
@@ -268,7 +271,6 @@
     "1-项目/AI学习/NotebookLM速通.md",
     "1-项目/AI学习/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
     "3-资源/AI/零代码克隆纳瓦尔数字分身教程.md",
-    "3-资源/AI/学新领域第一步把它抓下来.md",
     "3-资源/诗词",
     "3-资源/学习方法",
     "1-项目/游戏",
