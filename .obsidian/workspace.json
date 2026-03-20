@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb9b20c380bfb09",
+        "id": "9d9f7900b8833e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "af660f443d4ea8e7",
+            "id": "9344f066f2771751",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "6aa73b88f64b3790",
+            "id": "44fa86c508cd2a92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#个人成长/目标框架",
+                "query": "tag:#Ai",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5,
-    "collapsed": true
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,80 +240,40 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "floating": {
-    "id": "b1bb137d76f47583",
-    "type": "floating",
-    "children": [
-      {
-        "id": "cb28a623ceea5bfd",
-        "type": "window",
-        "children": [
-          {
-            "id": "24ad96ec0dc421d2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "17468ef210d1c5df",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1-项目/AI学习/一个AI的自白：关于我的边界与你的可能性.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "一个AI的自白：关于我的边界与你的可能性"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 775,
-        "y": 38,
-        "width": 695,
-        "height": 864,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "17468ef210d1c5df",
+  "active": "44fa86c508cd2a92",
   "lastOpenFiles": [
-    "4-系统/强制规则/碎片知识收集规则.md",
-    "1-项目/每日安排.md",
-    "3-资源/语录/经典语录.md",
+    "1-项目/个人成长/真正有效的决策框架.md",
     "1-项目/AI学习/一个AI的自白：关于我的边界与你的可能性.md",
+    "1-项目/个人成长/4个变廉价的习惯.md",
+    "1-项目/每日安排.md",
+    "4-系统/强制规则/内容处理与知识吸收工作流.md",
+    "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
+    "3-资源/AI/各领域X账号推荐.md",
+    "3-资源/AI/Vibe-Design-Stitch.md",
+    "3-资源/AI/AI-Agent刚需8个Skills.md",
+    "3-资源/AI/2026华语AI圈Top100-KOL.md",
+    "1-项目/购物车.md",
+    "1-项目/学习路径与资源.md",
     "1-项目/任务清单.md",
+    "1-项目/AI学习/Agent-训练师安全进阶.md",
+    "4-系统/强制规则/碎片知识收集规则.md",
+    "3-资源/语录/经典语录.md",
     "3-资源/诗词/注解/打茶围.md",
     "3-资源/诗词/黄金锏.md",
     "3-资源/诗词/注解/休沐.md",
     "3-资源/诗词/注解",
     "3-资源/诗词/山园小梅.md",
     "3-资源/诗词/注解/少年慕艾.md",
-    "4-系统/强制规则/内容处理与知识吸收工作流.md",
-    "1-项目/AI学习/Agent-训练师安全进阶.md",
     "1-项目/AI学习/AI矿产与澳洲经济/原文.md",
     "1-项目/AI学习/NotebookLM速通.md",
     "1-项目/AI学习/AI矿产与澳洲经济/AI矿产与澳洲经济-AI改变价值链.md",
-    "1-项目/个人成长/真正有效的决策框架.md",
-    "1-项目/个人成长/4个变廉价的习惯.md",
     "3-资源/AI/零代码克隆纳瓦尔数字分身教程.md",
     "3-资源/AI/学新领域第一步把它抓下来.md",
-    "3-资源/书单/New-Ideas-from-Dead-Economists.md",
-    "3-资源/AI/顶级Skill长什么样.md",
-    "3-资源/AI/各领域X账号推荐.md",
-    "3-资源/AI/Vibe-Design-Stitch.md",
-    "1-项目/内容创作/算法分发时代自救指南.md",
-    "3-资源/Obsidian/README.md",
-    "3-资源/Obsidian/obsidian-spaced-repetition插件.md",
     "3-资源/诗词",
     "3-资源/学习方法",
     "1-项目/游戏",
     "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
     "1-项目/商业模式/OpenClaw保险AI案例思维导图.excalidraw",
-    "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "1-项目/个人成长",
     "3-资源/lenny数据/podcasts",
     "3-资源/lenny数据/newsletters",

@@ -76,11 +76,11 @@ Stitch 的 CLI 版本，给 Agent 调用的。
 
 ## 对我有什么用？
 
-| 工具 | 用途 |
-|------|------|
-| Stitch | 一句话生成 UI 设计 |
-| Stitch SDK | Agent 自动生成页面 |
-| NotebookLM CLI | 自动生成播客/总结 |
+| 工具             | 用途           |
+| -------------- | ------------ |
+| Stitch         | 一句话生成 UI 设计  |
+| Stitch SDK     | Agent 自动生成页面 |
+| NotebookLM CLI | 自动生成播客/总结    |
 
 ---
 
