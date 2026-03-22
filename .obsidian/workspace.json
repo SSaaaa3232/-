@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -279,10 +279,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "ceda66cca37505b7",
+  "active": "4a83ee299795daaf",
   "lastOpenFiles": [
-    "1-项目/每日安排.md",
     "1-项目/任务清单.md",
+    "1-项目/每日安排.md",
     "3-资源/书单/系统思考-丹尼斯舍伍德.md",
     "3-资源/书单/AI时代底层操作系统书单.md",
     "4-系统/templates/读书笔记模板.md",
