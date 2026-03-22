@@ -35,8 +35,7 @@
               "title": "每日安排"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -242,11 +241,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "5bd8f7756946d848",
+  "active": "5a35faa780739895",
   "lastOpenFiles": [
+    "1-项目/每日安排.md",
     "1-项目/任务清单.md",
     "Excalidraw/第一性原理 2026-03-22 18.17.46.excalidraw.md",
-    "1-项目/每日安排.md",
     "3-资源/书单/第一性原理.md",
     "Excalidraw/第一性原理 2026-03-22 18.10.53.excalidraw.md",
     "Excalidraw/第一性原理 2026-03-22 16.34.21.excalidraw.md",
