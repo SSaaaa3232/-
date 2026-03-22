@@ -49,7 +49,8 @@
               "title": "每日安排"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,11 +295,15 @@
       }
     ]
   },
-  "active": "f1133b6d5c73b522",
+  "active": "5bd8f7756946d848",
   "lastOpenFiles": [
     "1-项目/任务清单.md",
-    "Excalidraw/第一性原理 2026-03-22 15.38.53.excalidraw.md",
     "3-资源/书单/第一性原理.md",
+    "Excalidraw/第一性原理 2026-03-22 16.34.21.excalidraw.md",
+    "Excalidraw/第一性原理 2026-03-22 16.27.53.excalidraw.md",
+    "Excalidraw/第一性原理 2026-03-22 15.57.18.excalidraw.md",
+    "3-资源/书单/世界观-理查德德威特.md",
+    "Excalidraw/第一性原理 2026-03-22 15.38.53.excalidraw.md",
     "Excalidraw/第一性原理 2026-03-22 14.40.28.excalidraw.md",
     "Excalidraw/第一性原理 2026-03-22 14.18.55.excalidraw.md",
     "1-项目/每日安排.md",
@@ -319,10 +324,6 @@
     "4-系统/强制规则/自我反思与错误记录.md",
     "4-系统/强制规则/碎片知识收集规则.md",
     "4-系统/强制规则/定期整理自动化.md",
-    "4-系统/templates/投资笔记模板.md",
-    "4-系统/templates/复盘模板.md",
-    "1-项目/AI学习/Agent-训练师安全进阶.md",
-    "1-项目/个人成长/决策的6个心智模型.md",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
     "3-资源/诗词",
