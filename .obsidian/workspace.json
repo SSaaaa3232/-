@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-系统/提示词模板库.md",
+                "file": "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提示词模板库"
+              "title": "Mac-Bridge工作原理详解"
             }
           },
           {
@@ -243,6 +243,8 @@
   },
   "active": "5a35faa780739895",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "4-系统/提示词模板库.md",
     "3-资源/AI/顶级Skill长什么样.md",
     "1-项目/每日安排.md",
     "3-资源/AI/AI-Agent刚需8个Skills.md",
@@ -270,8 +272,6 @@
     "3-资源/书单/系统思考-丹尼斯舍伍德.md",
     "1-项目/知识笔记/第一性原理.md",
     "3-资源/书单/AI时代底层操作系统书单.md",
-    "4-系统/templates/读书笔记模板.md",
-    "4-系统/templates/主题整合模板.md",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
     "3-资源/诗词",
