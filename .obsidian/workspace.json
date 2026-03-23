@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-资源/书单/第一性原理.md",
+                "file": "3-资源/书单/New-Ideas-from-Dead-Economists.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一性原理"
+              "title": "New-Ideas-from-Dead-Economists"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -220,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -243,6 +242,8 @@
   },
   "active": "5a35faa780739895",
   "lastOpenFiles": [
+    "3-资源/书单/世界观-理查德德威特.md",
+    "3-资源/书单/第一性原理.md",
     "1-项目/知识笔记/第一性原理.md",
     "测试笔记.md",
     "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
@@ -256,12 +257,10 @@
     "Excalidraw/第一性原理",
     "4-系统/未命名",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 18.17.46.excalidraw.md",
-    "3-资源/书单/第一性原理.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 18.10.53.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 16.34.21.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 16.27.53.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 15.57.18.excalidraw.md",
-    "3-资源/书单/世界观-理查德德威特.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 15.38.53.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.40.28.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.18.55.excalidraw.md",
