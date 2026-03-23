@@ -27,24 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GudaStudio Commands.md",
+                "file": "测试笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GudaStudio Commands"
-            }
-          },
-          {
-            "id": "fc095408b0980bcb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "GudaStudio Commands 2026-03-23 17.56.29.excalidraw"
+              "title": "测试笔记"
             }
           },
           {
@@ -62,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -268,9 +255,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "fc095408b0980bcb",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "GudaStudio Commands.md",
+    "3-资源/github工具/claude code/GudaStudio Commands.md",
+    "3-资源/github工具/claude code",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "3-资源/书单/New-Ideas-from-Dead-Economists.md",
     "3-资源/书单/世界观-理查德德威特.md",
@@ -297,7 +285,6 @@
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.18.55.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 13.42.02.excalidraw.md",
-    "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
     "Excalidraw",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
@@ -305,7 +292,6 @@
     "3-资源/学习方法",
     "1-项目/游戏",
     "1-项目/投资理财/2026四大经济周期思维导图.excalidraw",
-    "1-项目/商业模式/OpenClaw保险AI案例思维导图.excalidraw",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
