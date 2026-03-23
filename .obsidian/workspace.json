@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
+                "file": "4-系统/提示词模板库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mac-Bridge工作原理详解"
+              "title": "提示词模板库"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -242,12 +243,15 @@
   },
   "active": "5a35faa780739895",
   "lastOpenFiles": [
-    "1-项目/内容创作/Vibe-Coding超级个体时代.md",
+    "3-资源/AI/顶级Skill长什么样.md",
+    "1-项目/每日安排.md",
+    "3-资源/AI/AI-Agent刚需8个Skills.md",
+    "测试笔记.md",
     "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
+    "1-项目/内容创作/Vibe-Coding超级个体时代.md",
     "1-项目/任务清单.md",
     "Excalidraw/第一性原理",
     "4-系统/未命名",
-    "1-项目/每日安排.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 18.17.46.excalidraw.md",
     "3-资源/书单/第一性原理.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 18.10.53.excalidraw.md",
@@ -268,8 +272,6 @@
     "3-资源/书单/AI时代底层操作系统书单.md",
     "4-系统/templates/读书笔记模板.md",
     "4-系统/templates/主题整合模板.md",
-    "3-资源/书单/New-Ideas-from-Dead-Economists.md",
-    "4-系统/强制规则/内容处理与知识吸收工作流.md",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
     "3-资源/诗词",
