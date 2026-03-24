@@ -48,8 +48,19 @@
               "icon": "lucide-file",
               "title": "每日安排"
             }
+          },
+          {
+            "id": "d6aba0c15e954161",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -234,7 +245,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -255,13 +266,13 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "5a35faa780739895",
+  "active": "d6aba0c15e954161",
   "lastOpenFiles": [
+    "3-资源/书单/New-Ideas-from-Dead-Economists.md",
     "测试笔记.md",
     "3-资源/github工具/claude code/GudaStudio Commands.md",
     "3-资源/github工具/claude code",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
-    "3-资源/书单/New-Ideas-from-Dead-Economists.md",
     "3-资源/书单/世界观-理查德德威特.md",
     "3-资源/书单/第一性原理.md",
     "1-项目/知识笔记/第一性原理.md",
