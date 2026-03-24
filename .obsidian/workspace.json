@@ -49,8 +49,7 @@
               "title": "每日安排"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -255,8 +255,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "5a35faa780739895",
   "lastOpenFiles": [
+    "测试笔记.md",
     "3-资源/github工具/claude code/GudaStudio Commands.md",
     "3-资源/github工具/claude code",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
@@ -264,7 +265,6 @@
     "3-资源/书单/世界观-理查德德威特.md",
     "3-资源/书单/第一性原理.md",
     "1-项目/知识笔记/第一性原理.md",
-    "测试笔记.md",
     "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
     "CLAUDE.md",
     "4-系统/提示词模板库.md",
