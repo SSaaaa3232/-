@@ -1,17 +1,36 @@
-# Ralph Loop - AI 自动循环执行工具
+# Ralph Loop - Claude Code 插件
 
-> 让 AI 自动循环做事，直到完成目标
+> ⚠️ 注意：此笔记原为独立项目 Ralph (snarktank/ralph)，现已更新为 Claude Code 插件版本。
 
 ---
 
-## 是什么
+## Claude Code 插件版
 
-**Ralph** 是一个开源的 AI Agent 循环工具（12.4k stars）。
+**来源：** claude-code-plugins
+**功能：** Loop 自动化 - 让 AI 自动循环执行任务
 
-核心功能：
+### 安装
+```bash
+/plugin install ralph-loop
+```
+
+### 使用
+```bash
+/ralph-loop [任务描述]
+```
+
+---
+
+## 旧版独立项目（参考）
+
+~~**Ralph** 是一个开源的 AI Agent 循环工具（12.4k stars）。~~
+
+~~核心功能：
 - 让 AI **自动循环执行**任务
 - 每次循环用**全新上下文**，避免遗忘
-- 直到所有任务完成 或 达到循环次数上限
+- 直到所有任务完成 或 达到循环次数上限~~
+
+> 此内容已过时，详见：[Ralph GitHub](https://github.com/snarktank/ralph)（已归档）
 
 ---
 
