@@ -41,22 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/每日安排.md",
+                "file": "3-资源/AI/Claude-Code-Skills整理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每日安排"
+              "title": "Claude-Code-Skills整理"
             }
           },
           {
-            "id": "d6aba0c15e954161",
+            "id": "756ac8d88fd792f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "代.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "代"
             }
           }
         ],
@@ -117,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -245,12 +248,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 552.5,
-    "collapsed": true
+    "width": 552.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,8 +268,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "d6aba0c15e954161",
+  "active": "756ac8d88fd792f6",
   "lastOpenFiles": [
+    "3-资源/AI/Claude-Code-Skills整理.md",
+    "代.md",
+    "1-项目/每日安排.md",
     "3-资源/书单/New-Ideas-from-Dead-Economists.md",
     "测试笔记.md",
     "3-资源/github工具/claude code/GudaStudio Commands.md",
@@ -280,7 +285,6 @@
     "CLAUDE.md",
     "4-系统/提示词模板库.md",
     "3-资源/AI/顶级Skill长什么样.md",
-    "1-项目/每日安排.md",
     "3-资源/AI/AI-Agent刚需8个Skills.md",
     "1-项目/内容创作/Vibe-Coding超级个体时代.md",
     "1-项目/任务清单.md",
@@ -295,7 +299,6 @@
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.40.28.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.18.55.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
-    "Excalidraw/第一性原理/第一性原理 2026-03-22 13.42.02.excalidraw.md",
     "Excalidraw",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
