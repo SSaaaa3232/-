@@ -1,10 +1,24 @@
-# 从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层
+
 
 > 链接: https://x.com/IceBearMiner/status/2037888800341610684?s=20
 
 ## 摘要
 
 作者用两天时间从零构建了一个生产级 Agentic CLI，46 个文件、一万行 TypeScript 代码。以 Claude Code 为参照系，拆解了 AI CLI 的核心技术：SSE 缓冲区管理、system prompt 分段缓存、工具权限拦截、上下文压缩、多 Agent 协作、插件系统、MCP 协议集成等。核心结论：调用 API 是十行代码的事，难点在于 Harness Engineering。
+
+---
+
+- [ ] SSE缓冲区
+- [ ] 工具权限拦截
+- [ ] 压缩上下文
+- [ ] 逆向混淆代码
+- [ ] 
+
+
+
+
+
+
 
 ---
 
