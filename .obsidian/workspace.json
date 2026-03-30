@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-项目/英语学习/anki.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anki"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -229,42 +228,42 @@
   },
   "active": "c138a149a74f073c",
   "lastOpenFiles": [
-    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
+    "测试笔记.md",
+    "CLAUDE.md",
+    "README.md",
+    "2-流转/Inbox/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
+    "1-项目/任务清单.md",
+    "1-项目/每日安排.md",
+    "1-项目/购物车.md",
     "1-项目/英语学习/anki.md",
+    "1-项目/学习/未命名.md",
+    "1-项目/英语口语/场景库.md",
+    "1-项目/英语口语/练习记录/2026-03-17-P1工作话题.md",
+    "1-项目/英语学习/要脸-那你的英语口语永远练不好.md",
+    "3-资源/claude code/skills/顶级Skill长什么样.md",
+    "3-资源/claude code/从零开始两天构建一个 Claude Code.md",
+    "代.md",
+    "3-资源/claude code/skills",
+    "3-资源/claude code",
+    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
     "Excalidraw/Drawing 2026-03-29 19.18.14.excalidraw.md",
     "3-资源/AI/Vibe-Design-Stitch.md",
     "3-资源/AI/各领域X账号推荐.md",
     "3-资源/AI/学新领域第一步把它抓下来.md",
-    "2-流转/Inbox/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
     "3-资源/github工具/claude code/Claude Code 插件集.md",
     "2-流转/Inbox",
     "2-流转",
     "3-资源/书单/New-Ideas-from-Dead-Economists.md",
-    "测试笔记.md",
-    "3-资源/AI/Claude-Code-Skills整理.md",
-    "代.md",
-    "1-项目/每日安排.md",
+    "3-资源/claude code/skills/Claude-Code-Skills整理.md",
     "3-资源/github工具/claude code/GudaStudio Commands.md",
     "3-资源/github工具/claude code",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "3-资源/书单/世界观-理查德德威特.md",
-    "3-资源/书单/第一性原理.md",
-    "1-项目/知识笔记/第一性原理.md",
-    "1-项目/知识笔记/Mac-Bridge工作原理详解.md",
-    "CLAUDE.md",
-    "4-系统/提示词模板库.md",
-    "3-资源/AI/顶级Skill长什么样.md",
-    "3-资源/AI/AI-Agent刚需8个Skills.md",
-    "1-项目/内容创作/Vibe-Coding超级个体时代.md",
-    "1-项目/任务清单.md",
     "Excalidraw/第一性原理",
     "4-系统/未命名",
-    "Excalidraw/第一性原理/第一性原理 2026-03-22 18.17.46.excalidraw.md",
     "Excalidraw",
     "3-资源/AI/英伟达GTC2026思维导图.excalidraw",
     "3-资源/诗词/注解",
-    "3-资源/诗词",
-    "3-资源/学习方法",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
