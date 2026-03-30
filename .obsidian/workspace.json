@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Claude Code CLI 拆解"
             }
+          },
+          {
+            "id": "5af701110571cac4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-30 15.38.29.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-30 15.38.29.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +240,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "97777841088dbad9",
+  "active": "5af701110571cac4",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-30 15.38.29.excalidraw.md",
     "3-资源/claude code/Claude Code CLI 拆解.md",
     "3-资源/claude code/工程范式.md",
     "Excalidraw/工程范式 2026-03-30 09.57.27.excalidraw.md",
@@ -259,7 +273,6 @@
     "2-流转/Inbox",
     "2-流转",
     "3-资源/书单/New-Ideas-from-Dead-Economists.md",
-    "3-资源/claude code/skills/Claude-Code-Skills整理.md",
     "3-资源/github工具/claude code",
     "Excalidraw/第一性原理",
     "4-系统/未命名",
