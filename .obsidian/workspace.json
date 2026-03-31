@@ -48,28 +48,6 @@
               "icon": "lucide-file",
               "title": "Claude code源码解析"
             }
-          },
-          {
-            "id": "73564a473dde4fda",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Claude code源码解析 2026-03-31 20.34.53.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Claude code源码解析 2026-03-31 20.34.53.excalidraw"
-            }
-          },
-          {
-            "id": "063fedc36eebb110",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ],
         "currentTab": 2
@@ -280,10 +258,13 @@
   },
   "active": "cbd9476cd8e2d508",
   "lastOpenFiles": [
-    "Excalidraw/Claude code源码解析 2026-03-31 20.34.53.excalidraw.md",
+    "Excalidraw/Claude code源码解析 2026-03-31 21.01.39.excalidraw.md",
     "Claude code源码解析.md",
+    "Excalidraw/Claude code源码解析 2026-03-31 20.50.45.excalidraw.md",
     "Excalidraw/Claude code源码解析 2026-03-31 20.24.55.excalidraw.md",
     "1.md",
+    "Excalidraw/Claude code源码解析 2026-03-31 20.42.50.excalidraw.md",
+    "Excalidraw/Claude code源码解析 2026-03-31 20.34.53.excalidraw.md",
     "Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Screenshot",
     "3-资源/claude code/工程范式.md",
@@ -307,9 +288,6 @@
     "代.md",
     "3-资源/claude code/skills",
     "3-资源/claude code",
-    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-29 19.18.14.excalidraw.md",
-    "3-资源/AI/Vibe-Design-Stitch.md",
     "2-流转/Inbox",
     "2-流转",
     "3-资源/github工具/claude code",
