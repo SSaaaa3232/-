@@ -81,10 +81,3 @@ source: https://x.com/AlchainHust/status/2038944798816505991?s=20
 - 多agent协作
 
 ![[Claude code源码解析 2026-03-31 21.01.39.excalidraw]]
-- Claude Code的Agent系统可能是整个源码中最复杂的部分。看完之后我理解了为什么它的多任务能力这么强。因为它实现了一套企业级的组织管理架构​
-- 
-utils/swarm/ 目录下有一个完整的多Agent协作框架。每个Team有Leader和多个Teammate，支持三种执行方式（同进程隔离、tmux窗口、iTerm2分割窗格）。每个Agent有自己的邮箱文件做异步通信。每个Agent可以在独立的Git Worktree中工作，互不干扰。
-
-还有个权限冒泡机制：Teammate遇到需要确认的操作，权限请求会冒泡给Leader而不是直接弹给用户。Leader决定是否批准。
-
-这跟管理真人团队一模一样。任务怎么拆分、信息怎么流转、冲突怎么解决、结果怎么合并。
