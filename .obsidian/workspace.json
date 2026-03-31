@@ -25,12 +25,14 @@
             "id": "5af701110571cac4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-30 15.38.29.excalidraw.md"
+                "file": "1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-30 15.38.29.excalidraw"
+              "icon": "lucide-file",
+              "title": "1"
             }
           },
           {
@@ -43,7 +45,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -249,9 +252,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "97777841088dbad9",
+  "active": "5af701110571cac4",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-03-30 15.38.29.excalidraw.md",
+    "未命名.md",
+    "1.md",
     "1-项目/任务清单.md",
     "1-项目/每日安排.md",
     "3-资源/claude code/工程范式.md",
@@ -278,10 +283,8 @@
     "3-资源/AI/Vibe-Design-Stitch.md",
     "3-资源/AI/各领域X账号推荐.md",
     "3-资源/AI/学新领域第一步把它抓下来.md",
-    "3-资源/github工具/claude code/Claude Code 插件集.md",
     "2-流转/Inbox",
     "2-流转",
-    "3-资源/书单/New-Ideas-from-Dead-Economists.md",
     "3-资源/github工具/claude code",
     "Excalidraw/第一性原理",
     "4-系统/未命名",
