@@ -107,4 +107,4 @@ Package manager: pnpm (not npm) - use pnpm install
 
 - [[x/未思考/AI逼你深度思考-牛津方法]]
 - [[记忆库/强制规则/深度思考工作流]]
-- [[github工具/browser-use]]
+- [[browser-use]]
