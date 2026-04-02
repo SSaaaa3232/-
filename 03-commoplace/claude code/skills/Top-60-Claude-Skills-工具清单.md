@@ -84,13 +84,13 @@
 
 ## 六、连接 AI 到现有工具
 
-| # | 工具 | 说明 |
-|---|------|------|
-| 36 | n8n | 开源工作流自动化，400+ 集成 |
-| 37 | Langflow | 可视化 drag-and-drop agent 管道 |
-| 38 | Huginn | 自托管 web agents，监控、告警、数据收集 |
-| 39 | DSPy | 斯坦福研究，编程而非提示 foundation models |
-| 40 | Temporal | 持久化工作流引擎 |
+| #   | 工具       | 说明                             |
+| --- | -------- | ------------------------------ |
+| 36  | n8n      | 开源工作流自动化，400+ 集成               |
+| 37  | Langflow | 可视化 drag-and-drop agent 管道     |
+| 38  | Huginn   | 自托管 web agents，监控、告警、数据收集      |
+| 39  | DSPy     | 斯坦福研究，编程而非提示 foundation models |
+| 40  | Temporal | 持久化工作流引擎                       |
 
 ---
 
@@ -110,28 +110,28 @@
 
 ## 八、生产级基础设施
 
-| # | 工具 | 说明 |
-|---|------|------|
-| 48 | FastAPI | Python Web 框架，服务 AI 应用 |
-| 49 | Portkey Gateway | 路由到 250+ LLM，单一 API |
-| 50 | OmniRoute | 44+ AI 提供商的 API 代理 |
-| 51 | lmnr | trace 和评估 agent 行为 |
-| 52 | Codebase Memory MCP | 代码库转持久知识图谱 |
+| #   | 工具                  | 说明                     |
+| --- | ------------------- | ---------------------- |
+| 48  | FastAPI             | Python Web 框架，服务 AI 应用 |
+| 49  | Portkey Gateway     | 路由到 250+ LLM，单一 API    |
+| 50  | OmniRoute           | 44+ AI 提供商的 API 代理     |
+| 51  | lmnr                | trace 和评估 agent 行为     |
+| 52  | Codebase Memory MCP | 代码库转持久知识图谱             |
 
 ---
 
 ## 九、学习资源
 
-| # | 资源 | 说明 |
-|---|------|------|
-| 53 | Awesome Claude Skills | 最佳 skill 列表 |
-| 54 | Anthropic Skills Repo | 官方参考实现 |
-| 55 | Awesome Agents | 100+ 开源 agent 工具列表 |
-| 56 | PromptingGuide | 提示工程综合指南 |
-| 57 | Anthropic Prompt Engineering Tutorial | 9 章实战练习 |
-| 58 | SkillsMP | 80,000+ 社区 skill 市场 |
-| 59 | MAGI//ARCHIVE | 每日新鲜 AI repos |
-| 60 | Anthropic Official Docs | API、提示最佳实践、工具使用 |
+| #   | 资源                                    | 说明                  |
+| --- | ------------------------------------- | ------------------- |
+| 53  | Awesome Claude Skills                 | 最佳 skill 列表         |
+| 54  | Anthropic Skills Repo                 | 官方参考实现              |
+| 55  | Awesome Agents                        | 100+ 开源 agent 工具列表  |
+| 56  | PromptingGuide                        | 提示工程综合指南            |
+| 57  | Anthropic Prompt Engineering Tutorial | 9 章实战练习             |
+| 58  | SkillsMP                              | 80,000+ 社区 skill 市场 |
+| 59  | MAGI//ARCHIVE                         | 每日新鲜 AI repos       |
+| 60  | Anthropic Official Docs               | API、提示最佳实践、工具使用     |
 
 ---
 

@@ -119,5 +119,3 @@ Step 0 的问题：
 ## 相关
 
 - 标签：#AI #Prompt #Skill #YC
-- GitHub：https://github.com/garrytan/gstack
-- 参考：[[AI-Agent刚需8个Skills]]

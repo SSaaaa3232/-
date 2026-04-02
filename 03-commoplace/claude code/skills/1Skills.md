@@ -30,10 +30,6 @@
 **仓库：** PleasePrompto/notebooklm-skill
 **描述：** 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案
 
-### curation-skills
-**仓库：** ai4curation/curation-skills
-**描述：** 多种知识和整理任务
-
 ---
 
 ## 总结与分析

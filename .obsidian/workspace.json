@@ -8,105 +8,90 @@
         "type": "tabs",
         "children": [
           {
-            "id": "97777841088dbad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-logs/任务清单.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "任务清单"
-            }
-          },
-          {
-            "id": "5af701110571cac4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1"
-            }
-          },
-          {
-            "id": "9505f67ff393a145",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/书单/《The Anthology of Elon Musk》.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《The Anthology of Elon Musk》"
-            }
-          },
-          {
-            "id": "3abfad4380d6ee82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/claude code/prompt/prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "prompt"
-            }
-          },
-          {
-            "id": "ba3b069eab09dd42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/claude code/prompt/PPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PPT"
-            }
-          },
-          {
-            "id": "34f14092424f02a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/Obsidian/未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
             "id": "5a98d8fb90a592aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-commoplace/claude code/prompt/年报转化可视化网页.md",
+                "file": "03-commoplace/claude code/skills/skills.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "年报转化可视化网页"
+              "title": "skills"
+            }
+          },
+          {
+            "id": "83bf115797df5934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-commoplace/claude code/skills/1Skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1Skills"
+            }
+          },
+          {
+            "id": "1d293c1014a5e2f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-commoplace/claude code/skills/AI-Agent刚需8个Skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI-Agent刚需8个Skills"
+            }
+          },
+          {
+            "id": "6a649954cf0c73e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-commoplace/claude code/skills/Claude-Code-Skills整理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Claude-Code-Skills整理"
+            }
+          },
+          {
+            "id": "bcf0bc729fcc7998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-commoplace/claude code/skills/Top-60-Claude-Skills-工具清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Top-60-Claude-Skills-工具清单"
+            }
+          },
+          {
+            "id": "a966b0473b41b1f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-commoplace/claude code/skills/顶级Skill长什么样.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "顶级Skill长什么样"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -313,42 +299,42 @@
   },
   "active": "5a98d8fb90a592aa",
   "lastOpenFiles": [
-    "03-commoplace/openclaw/plugin/MemOS.md",
-    "03-commoplace/claude code/prompt/年报转化可视化网页.md",
+    "03-commoplace/claude code/skills/顶级Skill长什么样.md",
+    "03-commoplace/claude code/skills/Top-60-Claude-Skills-工具清单.md",
+    "03-commoplace/claude code/skills/Claude-Code-Skills整理.md",
+    "03-commoplace/claude code/skills/AI-Agent刚需8个Skills.md",
+    "03-commoplace/claude code/skills/1Skills.md",
+    "03-commoplace/claude code/skills/skills.md",
+    "未命名",
+    "03-commoplace/1.md",
+    "03-commoplace/书单/《The Anthology of Elon Musk》.md",
     "03-commoplace/claude code/prompt/prompt.md",
     "03-commoplace/claude code/prompt/PPT.md",
     "03-commoplace/Obsidian/未命名.md",
+    "03-commoplace/claude code/Claude Code CLI 拆解.md",
     "03-commoplace/claude code/工具.md",
+    "03-commoplace/github工具/GudaStudio Commands.md",
+    "06-inbox/Inbox/AI学习项目汇总.md",
+    "03-commoplace/claude code/plugin/Claude Code 插件集.md",
+    "03-commoplace/claude code/plugin",
+    "06-inbox/Inbox/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
+    "03-commoplace/claude code/prompt/年报转化可视化网页.md",
+    "03-commoplace/openclaw/plugin/MemOS.md",
     "Excalidraw/prompt 2026-04-02 09.59.13.excalidraw.md",
     "03-commoplace/openclaw/plugin",
     "03-commoplace/openclaw",
     "03-commoplace/claude code/实践思路/年报转化可视化网页.md",
     "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
     "03-commoplace/claude code/实践思路/ppt agent.md",
-    "03-commoplace/书单/《The Anthology of Elon Musk》.md",
     "Excalidraw",
     "03-commoplace/github工具/Xcrawl.md",
     "03-commoplace/claude code/实践思路",
-    "06-inbox/Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
-    "03-commoplace/1.md",
-    "03-commoplace/claude code/GudaStudio Commands.md",
+    "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
     "03-commoplace/github工具/self-improving-agent.md",
-    "03-commoplace/github工具/Scrapling-爬虫工具.md",
-    "03-commoplace/github工具/Ralph-Loop自动循环工具.md",
-    "03-commoplace/github工具/PUA-Skill.md",
-    "03-commoplace/github工具/Edit-Banana.md",
-    "03-commoplace/github工具/browser-use.md",
-    "03-commoplace/claude code/Claude Code CLI 拆解.md",
-    "02-logs/任务清单.md",
     "04-outputs",
-    "4-系统 1/强制规则/英语口语练习.md",
-    "4-系统 1/强制规则/自我反思与错误记录.md",
-    "4-系统 1/强制规则/碎片知识收集规则.md",
     "4-系统 1/未命名",
     "4-系统 1/日志",
     "4-系统 1/强制规则",
-    "4-系统 1/任务归档",
-    "4-系统 1/templates",
     "03-commoplace/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
