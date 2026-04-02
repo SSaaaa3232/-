@@ -1,26 +1,27 @@
-# 学一个新领域，第一步是把它抓下来
-
-> 来源：https://x.com/RookieRicardoR/status/2034793001864872440
-> 作者：耳朵
-> 日期：2026-03-19
-
 ---
-
-## 核心思路
-
-遇到好的内容源 → 批量抓下来 → 做成私人知识库 → 用AI对话学习
+source: https://x.com/RookieRicardoR/status/2034793001864872440
+阅读日期: 2026-03-19
+---
 
 ---
 
 ## 工具：XCrawl
 
-提供4个核心能力：
+- 目的：批量抓取
+- 提供4个核心能力：
 1. **Search**：搜索引擎查询，返回结构化结果
 2. **Map**：扫描站点，列出所有URL
 3. **Scrape**：抓取指定URL，输出干净Markdown
 4. **Crawl**：全站递归爬取
 
 ---
+# example：批量抓取
+
+- Simon Willison
+
+- AI 工具链领域最活跃的独立开发者之一，博客[simonwillison.net](https://simonwillison.net/)
+-  上有超过十年的技术文章，内容覆盖 Python、SQLite、LLM 应用、数据工程……信息密度极高。
+
 
 ## 案例：抓取Simon Willison博客
 
