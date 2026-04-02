@@ -104,23 +104,9 @@
               "icon": "lucide-file",
               "title": "年报转化可视化网页"
             }
-          },
-          {
-            "id": "72bdb5ee9238cd64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/openclaw/plugin/MemOS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MemOS"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -177,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -326,10 +311,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "72bdb5ee9238cd64",
+  "active": "5a98d8fb90a592aa",
   "lastOpenFiles": [
-    "03-commoplace/claude code/prompt/年报转化可视化网页.md",
     "03-commoplace/openclaw/plugin/MemOS.md",
+    "03-commoplace/claude code/prompt/年报转化可视化网页.md",
     "03-commoplace/claude code/prompt/prompt.md",
     "03-commoplace/claude code/prompt/PPT.md",
     "03-commoplace/Obsidian/未命名.md",
