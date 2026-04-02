@@ -1,16 +1,24 @@
 ---
 source: https://x.com/RookieRicardoR/status/2034793001864872440
 阅读日期: 2026-03-19
+链接: https://www.xcrawl.com/?keyword=ut0qflxk
+skill文档: https://docs.xcrawl.com/zh/doc/developer-guides/openclaw/
+tags:
+  - 工具
+  - OpenClaw
+  - Skill
+  - 爬虫
 ---
 
 ---
 
 ## 工具：XCrawl
 
-- 目的：批量抓取
-- 提供4个核心能力：
-1. **Search**：搜索引擎查询，返回结构化结果
-2. **Map**：扫描站点，列出所有URL
+- 目的：批量抓取（公开内容）
+
+- 4个核心能力：
+1. **Search**：搜索引擎查询，返回结构化结果，中英文检索不同
+2. **Map**：扫描站点，列出所有URL，检索站点结构
 3. **Scrape**：抓取指定URL，输出干净Markdown
 4. **Crawl**：全站递归爬取
 
@@ -65,25 +73,7 @@ source: https://x.com/RookieRicardoR/status/2034793001864872440
 用 xcrawl-scrape 抓取筛选出的这 80 个 URL 的内容，输出 Markdown，保存到本地文件夹。
 ```
 
----
 
-## 几点心得
-
-| 心得 | 说明 |
-|------|------|
-| Map先行 | 先看站点结构，避免抓垃圾 |
-| 英文搜索 | 技术领域优先搜英文，质量更高 |
-| Markdown输出 | 直接保存到笔记库，不用转换 |
-| 稳定性 | 自动轮换IP，批量抓取很稳 |
-
----
-
-## 核心变化
-
-> 以前：学新领域 → 找资料→ 读→ 整理笔记
-> 现在：Search找源 → Map探路 → Scrape抓取 → 存本地 → AI对话学习
-
-**学习的瓶颈从"找不到好内容"变成"怎么问出好问题"。**
 
 ---
 

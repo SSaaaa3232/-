@@ -74,9 +74,19 @@
               "icon": "lucide-file",
               "title": "Xcrawl"
             }
+          },
+          {
+            "id": "8af22cf332972cc8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -282,8 +292,9 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "7922bcd773e46cb8",
+  "active": "8af22cf332972cc8",
   "lastOpenFiles": [
+    "03-commoplace/github工具/Xcrawl.md",
     "03-commoplace/claude code/prompt/prompt.md",
     "03-commoplace/claude code/GudaStudio Commands.md",
     "工具.md",
@@ -310,7 +321,6 @@
     "4-系统 1/templates/投资笔记模板.md",
     "4-系统 1/templates/复盘模板.md",
     "4-系统 1/templates/任务卡片模板.md",
-    "4-系统 1/templates/主题整合模板.md",
     "4-系统 1/未命名",
     "4-系统 1/日志",
     "4-系统 1/强制规则",
