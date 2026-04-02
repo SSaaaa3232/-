@@ -53,44 +53,14 @@
             "id": "3abfad4380d6ee82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/claude code/prompt/prompt.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "prompt"
-            }
-          },
-          {
-            "id": "7922bcd773e46cb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-commoplace/claude code/prompt/prompt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "prompt"
-            }
-          },
-          {
-            "id": "5aa16c20c4d376b8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "prompt 2026-04-02 09.19.46.excalidraw"
+              "title": "新标签页"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Harness-Engineering",
+                "query": "ppt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -296,18 +265,21 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "7922bcd773e46cb8",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
     "03-commoplace/claude code/prompt/prompt.md",
-    "Excalidraw",
+    "03-commoplace/claude code/实践思路/年报转化可视化网页.md",
+    "Excalidraw/prompt 2026-04-02 09.59.13.excalidraw.md",
+    "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
     "03-commoplace/claude code/实践思路/ppt agent.md",
+    "工具.md",
+    "03-commoplace/书单/《The Anthology of Elon Musk》.md",
+    "Excalidraw",
     "03-commoplace/github工具/Xcrawl.md",
     "03-commoplace/claude code/实践思路",
     "06-inbox/Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
     "03-commoplace/1.md",
     "03-commoplace/claude code/GudaStudio Commands.md",
-    "工具.md",
     "03-commoplace/github工具/self-improving-agent.md",
     "03-commoplace/github工具/Scrapling-爬虫工具.md",
     "03-commoplace/github工具/Ralph-Loop自动循环工具.md",
@@ -315,7 +287,6 @@
     "03-commoplace/github工具/Edit-Banana.md",
     "03-commoplace/github工具/browser-use.md",
     "03-commoplace/claude code/Claude Code CLI 拆解.md",
-    "03-commoplace/书单/《The Anthology of Elon Musk》.md",
     "02-logs/任务清单.md",
     "04-outputs",
     "4-系统 1/强制规则/英语口语练习.md",
@@ -325,8 +296,6 @@
     "4-系统 1/强制规则/提示词补充规则.md",
     "4-系统 1/强制规则/定期整理自动化.md",
     "4-系统 1/强制规则/内容处理与知识吸收工作流.md",
-    "4-系统 1/强制规则/任务追踪.md",
-    "4-系统 1/templates/读书笔记模板.md",
     "4-系统 1/未命名",
     "4-系统 1/日志",
     "4-系统 1/强制规则",
