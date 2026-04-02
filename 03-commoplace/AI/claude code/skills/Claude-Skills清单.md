@@ -135,12 +135,5 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | 51  | lmnr                | trace 和评估 agent 行为     |
 | 52  | Codebase Memory MCP | 代码库转持久知识图谱             |
 
----
-
-## 核心公式
-
-> **Skills** = 教 AI **如何**做事
-> **MCP** = 给予 AI **访问**外部工具和数据
-> **Repos** = 驱动一切的开源引擎
 
 ---
