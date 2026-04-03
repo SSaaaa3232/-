@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Claude-Skills清单"
             }
+          },
+          {
+            "id": "15e15895df762e19",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-03 14.04.21.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-03 14.04.21.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,10 +240,11 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "0f77e03482b72073",
+  "active": "15e15895df762e19",
   "lastOpenFiles": [
-    "onchain-transaction-analyzer.md",
     "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
+    "Excalidraw/Drawing 2026-04-03 14.04.21.excalidraw.md",
+    "onchain-transaction-analyzer.md",
     "Deep Research Synthesizer.md",
     "03-commoplace/AI/claude code/skills/skill分析/browser",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/Flowchart Decision Builder.md",
@@ -262,7 +276,6 @@
     "03-commoplace/AI/claude code/skills/skill分析/Garry Tan skills分析.md",
     "03-commoplace/AI/claude code/skills/skill分析",
     "03-commoplace/AI/claude code/skills/顶级Skill长什么样.md",
-    "03-commoplace/AI/本地部署 1.md",
     "03-commoplace/AI/claude code/plugin",
     "03-commoplace/openclaw/plugin",
     "03-commoplace/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
