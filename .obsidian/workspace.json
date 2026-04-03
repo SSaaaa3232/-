@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
+                "file": "03-commoplace/AI/claude code/skills/定义.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude-Skills清单"
+              "title": "定义"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -228,16 +229,19 @@
   },
   "active": "0d36fbd7dbcf37a6",
   "lastOpenFiles": [
+    "03-commoplace/AI/claude code/prompt/PPT.md",
+    "03-commoplace/AI/claude code/prompt/年报转化可视化网页.md",
+    "03-commoplace/AI/claude code/prompt/prompt.md",
+    "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
     "03-commoplace/AI/claude code/skills/skill分析/Garry Tan skills分析.md",
     "03-commoplace/AI/claude code/skills/skill分析/browser/Deep Research Synthesizer.md",
     "03-commoplace/AI/claude code/实践思路/ppt agent.md",
     "03-commoplace/AI/Vibe-Design-Stitch.md",
-    "定义.md",
+    "03-commoplace/AI/claude code/skills/定义.md",
     "02-logs/任务清单.md",
     "06-inbox/Inbox/2026-04-03-全球成长生产力博主推荐.md",
     "06-inbox/Inbox/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
     "03-commoplace/AI/claude code/skills/skill分析/安全审查",
-    "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
     "03-commoplace/AI/claude code/skills/skill分析/安全审查/Source Validation Skill.md",
     "03-commoplace/AI/claude code/skills/skill分析/企业/competitive-intelligence-skill.md",
     "03-commoplace/AI/claude code/skills/skill分析/知识管理",
@@ -260,10 +264,7 @@
     "03-commoplace/AI/claude code/skills/skill分析/加密/onchain-transaction-analyzer.md",
     "03-commoplace/AI/claude code/skills/skill分析/browser",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/Flowchart Decision Builder.md",
-    "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/Infographic Builder.md",
-    "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/UI/UX Layout Advisor.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/UI",
-    "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/Excalidraw Diagram Generator.md",
     "03-commoplace/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
