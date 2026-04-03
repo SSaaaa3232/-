@@ -158,6 +158,7 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |
 | Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |
 | devops-assistant | 给 AI 赋予 “懂运维、部署、Git、自动化” 的专业能力 |
+|                  |                                |
 
 ---
 # 知识管理

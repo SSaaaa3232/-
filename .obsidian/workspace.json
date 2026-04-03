@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Claude-Skills清单"
             }
-          },
-          {
-            "id": "15e15895df762e19",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-03 14.04.21.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-03 14.04.21.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,10 +227,10 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "15e15895df762e19",
+  "active": "0f77e03482b72073",
   "lastOpenFiles": [
-    "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
     "Excalidraw/Drawing 2026-04-03 14.04.21.excalidraw.md",
+    "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
     "onchain-transaction-analyzer.md",
     "Deep Research Synthesizer.md",
     "03-commoplace/AI/claude code/skills/skill分析/browser",
