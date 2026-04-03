@@ -60,12 +60,17 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 ## 安全审查
 
 
-| skill                     | 说明                                       | 解决痛点 |
-| ------------------------- | ---------------------------------------- | ---- |
-| skill-vetter              | 安装技能前扫描风险：网络外发、敏感环境变量、系统目录写入、可疑base64解码。 | 安全扫描 |
-| `openclaw-backup`         | OpenClaw备份 - 加密备份和恢复                     |      |
-| `openclaw-control-center` | OpenClaw控制中心 - 仪表盘和token追踪               |      |
+| skill                     | 说明                                       | 解决痛点  |
+| ------------------------- | ---------------------------------------- | ----- |
+| skill-vetter              | 安装技能前扫描风险：网络外发、敏感环境变量、系统目录写入、可疑base64解码。 | 安全扫描  |
+| `openclaw-backup`         | OpenClaw备份 - 加密备份和恢复                     |       |
+| `openclaw-control-center` | OpenClaw控制中心 - 仪表盘和token追踪               |       |
+| Source Validation Skill   | 优先高质量来源，检测信息可靠性                          | 真相过滤器 |
 
+## 代码
+
+- [[Source Validation Skill]]
+- 
 ---
 ## self-improve
 
@@ -169,16 +174,18 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 # 企业
 
 
-| skill            | 说明                             | 人格   |     |
-| ---------------- | ------------------------------ | ---- | --- |
-| Claude SEO       | 全站审计、模式验证、关键词分析                |      |     |
-| Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |      |     |
-| Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |      |     |
-| devops-assistant | 确保你的开发和实验流程是**规范化、自动化且可追溯**的   | 数字管家 |     |
-|                  |                                |      |     |
+| skill                          | 说明                             | 人格    |     |
+| ------------------------------ | ------------------------------ | ----- | --- |
+| Claude SEO                     | 全站审计、模式验证、关键词分析                |       |     |
+| Marketing Skills               | 20+ skills，CRO、文案、SEO、邮件序列     |       |     |
+| Superpowers                    | 20+ 测试过的  skills，TDD、调试、计划执行管道 |       |     |
+| devops-assistant               | 确保你的开发和实验流程是**规范化、自动化且可追溯**的   | 数字管家  |     |
+| competitive-intelligence-skill | 理性化作决策                         | 首席分析师 |     |
+|                                |                                |       |     |
 ## 代码
 
 - [[devops-assistant]]
+- [[competitive-intelligence-skill]]
 - 
 
 ---

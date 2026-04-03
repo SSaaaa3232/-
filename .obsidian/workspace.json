@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
+                "file": "03-commoplace/AI/Vibe-Design-Stitch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude-Skills清单"
+              "title": "Vibe-Design-Stitch"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -227,10 +226,14 @@
       "obsidian-spaced-repetition:复习卡片": false
     }
   },
-  "active": "0f77e03482b72073",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "knowledge-structuring-skill.md",
+    "03-commoplace/AI/claude code/skills/skill分析/安全审查",
     "03-commoplace/AI/claude code/skills/Claude-Skills清单.md",
+    "03-commoplace/AI/claude code/skills/skill分析/安全审查/Source Validation Skill.md",
+    "03-commoplace/AI/claude code/skills/skill分析/企业/competitive-intelligence-skill.md",
+    "03-commoplace/AI/claude code/skills/skill分析/知识管理",
+    "03-commoplace/AI/claude code/skills/skill分析/知识管理/knowledge-structuring-skill.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/视频创作/video-script-generator.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/视频创作",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/视频创作/Video Editing Planner.md",
@@ -256,15 +259,11 @@
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/UI",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual/Excalidraw Diagram Generator.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/visual",
-    "03-commoplace/AI/claude code/skills/skill分析/Creat/content",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/Structured Copywriting Skill.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/long-form-summary-compresso.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/Content Repurposing Engine.md",
     "03-commoplace/AI/claude code/skills/skill分析/Creat/content/SCQA.md",
     "03-commoplace/AI/claude code/REPO.md",
-    "03-commoplace/AI/Vibe-Design-Stitch.md",
-    "03-commoplace/AI/claude code/plugin/Claude Code 插件集.md",
-    "03-commoplace/AI/claude code/结构拆解/harness/工程范式.md",
     "03-commoplace/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
