@@ -21,6 +21,9 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | Deep Research Skill       | 8 阶段研究，自动继续                                 |                        |
 | last30days-skill          | AI agent skill，研究任何主题并综合总结<br>              |                        |
 | deep-research-synthesizer | 把**大量、杂乱、长篇的资料**自动**过滤噪音 → 提炼规律 → 合成高价值结论** | 从海量信息里提纯高价值洞察，而不只是简单缩句 |
+| `octolens`                | 品牌提及追踪 - Twitter、Reddit、GitHub等             |                        |
+| `reddit` / `reddit-fetch` | Reddit浏览和内容获取                               |                        |
+| `xiaohongshu`             | 小红书搜索和浏览                                    |                        |
 
 ### 代码
 
@@ -96,18 +99,20 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | `youtube-video-analyzer`           | YouTube分析 - 字幕、评论、总结、情感分析         |               |
 | `video-summary-skill`              | 视频总结                              |               |
 | 视频创作                               |                                   |               |
+| caption-subtitle-formatter         | 处理底部的字幕，格式化字幕                     | HeyGen        |
 | `generate-video`                   | AI视频生成                            |               |
 | `remotion`                         | 视频创作                              |               |
 | `video-frames`                     | 视频帧提取                             |               |
-| `octolens`                         | 品牌提及追踪 - Twitter、Reddit、GitHub等   |               |
-| `reddit` / `reddit-fetch`          | Reddit浏览和内容获取                     |               |
-| `xiaohongshu`                      | 小红书搜索和浏览                          |               |
+| Video Editing Planner              | 剪辑师，一套逻辑严密、节奏紧凑的指南                |               |
+| video-script-generator             | 总编剧，**有逻辑、有情绪、能留住观众的**语言脚本        |               |
 | 文案创作                               |                                   |               |
+| hook-generator                     | 引人注目                              |               |
 | scqa-writing-framework             | 用于结构化沟通的框架                        | 写作结构（骨架）      |
 | Structured-Copywriting-Skill       | 专门写 “高转化、有结构” 文案                  | 文案风格（肌肉 + 包装） |
 | 总结长文                               |                                   |               |
 | long-form-summary-compresso        | “浓缩精华” ：把长文压短，只留干货，不丢重点           | 长篇内容摘要压缩器     |
 | content-repurposing-engine         | 让 AI 把长文自动改成推文、短视频脚本、摘要           | 知识变现          |
+|                                    |                                   |               |
 
 ### 代码
 
@@ -119,6 +124,10 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 - [[Infographic Builder]]
 - [[Flowchart Decision Builder]]
 - [[UX Layout Advisor]]
+- [[caption-subtitle-formatter]]
+- [[hook-generator]]
+- [[Video Editing Planner]]
+- [[video-script-generator]]
 - 
 ---
 
@@ -139,32 +148,34 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 ---
 ## 代码
 
-| Skill                              | 用途                              |
-| ---------------------------------- | ------------------------------- |
-| `skill-creator`                    | 把你的需求（Goal）转化成 AI 能理解的**结构化指令** |
-| `skill-vetter`                     | skill安全审查                       |
-| `use-findskill`                    | 发现和安装skill                      |
-| `find-skills`                      | 搜索skill                         |
-| `supabase-postgres-best-practices` | Postgres性能优化和最佳实践               |
-|                                    |                                 |
+| Skill                              | 用途                              | 人格         |
+| ---------------------------------- | ------------------------------- | ---------- |
+| `skill-creator`                    | 把你的需求（Goal）转化成 AI 能理解的**结构化指令** |            |
+| `skill-vetter`                     | skill安全审查                       |            |
+| `use-findskill`                    | 发现和安装skill                      |            |
+| `find-skills`                      | 搜索skill                         |            |
+| `supabase-postgres-best-practices` | Postgres性能优化和最佳实践               |            |
+| workflow-automation-agent          | 根据任务属性分配最合适的工具逻辑                | 排兵布阵的指挥官   |
+| Code Review Skill                  | 检查代码                            | 极其挑剔的资深架构师 |
 
 ## 代码
 
 - [[Skill Creator]]
 - [[Workflow Automation Agent]]
+- [[Code Review Skill]]
 - 
 
 ---
 # 企业
 
 
-| skill            | 说明                             | 解决痛点      |     |
-| ---------------- | ------------------------------ | --------- | --- |
-| Claude SEO       | 全站审计、模式验证、关键词分析                |           |     |
-| Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |           |     |
-| Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |           |     |
-| devops-assistant | 确保你的开发和实验流程是**规范化、自动化且可追溯**的   | 数字管家，提出建议 |     |
-|                  |                                |           |     |
+| skill            | 说明                             | 人格   |     |
+| ---------------- | ------------------------------ | ---- | --- |
+| Claude SEO       | 全站审计、模式验证、关键词分析                |      |     |
+| Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |      |     |
+| Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |      |     |
+| devops-assistant | 确保你的开发和实验流程是**规范化、自动化且可追溯**的   | 数字管家 |     |
+|                  |                                |      |     |
 ## 代码
 
 - [[devops-assistant]]
@@ -174,11 +185,15 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 # 知识管理
 
 
-| skill               | 说明                                            |
-| ------------------- | --------------------------------------------- |
-| Obsidian Skills     | Obsidian CEO 构建，自动标签、自动链接                     |
-| notebooklm-skill    | 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案     |
-| obsidian-note-taker | Claude Desktop Skill，用于生成格式化的 Obsidian 笔记<br> |
-| `notion`            | Notion API - 创建、搜索、更新页面                       |
+| skill                       | 说明                                            |       |
+| --------------------------- | --------------------------------------------- | ----- |
+| Obsidian Skills             | Obsidian CEO 构建，自动标签、自动链接                     |       |
+| notebooklm-skill            | 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案     |       |
+| obsidian-note-taker         | Claude Desktop Skill，用于生成格式化的 Obsidian 笔记<br> |       |
+| knowledge-structuring-skill | 梳理成**结构化、可复用的精华笔记**，碎片化思考**变成**系统化文档**        | 首席整理官 |
+|                             |                                               |       |
+## 代码
 
+- [[knowledge-structuring-skill]]
+- 
 ---
