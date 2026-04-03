@@ -75,7 +75,11 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | `reddit` / `reddit-fetch` | Reddit浏览和内容获取                   |      |
 | `xiaohongshu`             | 小红书搜索和浏览                        |      |
 | `youtube-video-analyzer`  | YouTube分析 - 字幕、评论、总结、情感分析       |      |
-|                           |                                 |      |
+| scqa-writing-framework    | 用于结构化沟通的框架                      |      |
+
+### ps.
+
+- [[SCQA]]
 
 ---
 # 论文
