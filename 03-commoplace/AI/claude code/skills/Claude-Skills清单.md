@@ -139,26 +139,36 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 ---
 ## 代码
 
-| Skill                              | 用途                               |
-| ---------------------------------- | -------------------------------- |
-| `skill-creator`                    | 创建新skill，元 skill，描述工作流生成完整 skill |
-| `skill-vetter`                     | skill安全审查                        |
-| `use-findskill`                    | 发现和安装skill                       |
-| `find-skills`                      | 搜索skill                          |
-| `supabase-postgres-best-practices` | Postgres性能优化和最佳实践                |
+| Skill                              | 用途                              |
+| ---------------------------------- | ------------------------------- |
+| `skill-creator`                    | 把你的需求（Goal）转化成 AI 能理解的**结构化指令** |
+| `skill-vetter`                     | skill安全审查                       |
+| `use-findskill`                    | 发现和安装skill                      |
+| `find-skills`                      | 搜索skill                         |
+| `supabase-postgres-best-practices` | Postgres性能优化和最佳实践               |
+|                                    |                                 |
 
+## 代码
+
+- [[Skill Creator]]
+- [[Workflow Automation Agent]]
+- 
 
 ---
 # 企业
 
 
-| skill            | 说明                             |
-| ---------------- | ------------------------------ |
-| Claude SEO       | 全站审计、模式验证、关键词分析                |
-| Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |
-| Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |
-| devops-assistant | 给 AI 赋予 “懂运维、部署、Git、自动化” 的专业能力 |
-|                  |                                |
+| skill            | 说明                             | 解决痛点      |     |
+| ---------------- | ------------------------------ | --------- | --- |
+| Claude SEO       | 全站审计、模式验证、关键词分析                |           |     |
+| Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |           |     |
+| Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |           |     |
+| devops-assistant | 确保你的开发和实验流程是**规范化、自动化且可追溯**的   | 数字管家，提出建议 |     |
+|                  |                                |           |     |
+## 代码
+
+- [[devops-assistant]]
+- 
 
 ---
 # 知识管理
