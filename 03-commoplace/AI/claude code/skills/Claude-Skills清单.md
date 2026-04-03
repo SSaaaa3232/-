@@ -198,7 +198,7 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | notebooklm-skill            | 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案     |       |
 | obsidian-note-taker         | Claude Desktop Skill，用于生成格式化的 Obsidian 笔记<br> |       |
 | knowledge-structuring-skill | 梳理成**结构化、可复用的精华笔记**，碎片化思考**变成**系统化文档**        | 首席整理官 |
-|                             |                                               |       |
+| baoyu-url-to-markdown       | 转化纯净Markdown                                  |       |
 ## 代码
 
 - [[knowledge-structuring-skill]]
