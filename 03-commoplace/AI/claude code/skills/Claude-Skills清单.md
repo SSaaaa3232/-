@@ -56,31 +56,84 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 ## 创作
 
 
-| skill                     | 说明                              | 解决痛点 |
-| ------------------------- | ------------------------------- | ---- |
-| `canvas-design`           | 视觉艺术设计 - 海报、艺术作品、PDF文档          |      |
-| `generate-image`          | AI图片生成                          |      |
-| `generate-video`          | AI视频生成                          |      |
-| `slack-gif-creator`       | Slack GIF制作                     |      |
-| `video-frames`            | 视频帧提取                           |      |
-| `video-summary-skill`     | 视频总结                            |      |
-| `frontend-design`         | 前端界面设计                          |      |
-| `frontend-slides`         | HTML演示文稿                        |      |
-| `building-native-ui       | Expo原生UI构建                      |      |
-| PDF Processing            | PDF 读取、提取表格、表单填写、合并拆分           |      |
-| video-summary-skill       | 用 AI 总结 YouTube 和 B站 视频         |      |
-| `remotion`                | 视频创作                            |      |
-|                           |                                 |      |
-| `octolens`                | 品牌提及追踪 - Twitter、Reddit、GitHub等 |      |
-| `reddit` / `reddit-fetch` | Reddit浏览和内容获取                   |      |
-| `xiaohongshu`             | 小红书搜索和浏览                        |      |
-| `youtube-video-analyzer`  | YouTube分析 - 字幕、评论、总结、情感分析       |      |
-| scqa-writing-framework    | 用于结构化沟通的框架                      |      |
+| 分类                                 | 说明                                | 解决痛点          |
+| ---------------------------------- | --------------------------------- | ------------- |
+| 图片创作                               |                                   |               |
+| `canvas-design`                    | 视觉艺术设计 - 海报、艺术作品、PDF文档            |               |
+| `generate-image`                   | AI图片生成                            |               |
+| PDF Processing                     | PDF 读取、提取表格、表单填写、合并拆分             |               |
+| `slack-gif-creator`                | Slack GIF制作                       |               |
+| Flowchart Decision Builder         | 专门生成「带判断、带分支」的决策流程图               | 复杂逻辑变成一目了然    |
+| ```excalidraw-diagram-generator``` | 文字转架构图 / 流程图                      | Excalidraw    |
+| infographic-builder                | 文字内容，整理成**适合做成信息图 / 数据图 / 海报**的结构 | 报告、PPT、科普材料   |
+| UI设计                               |                                   |               |
+| UI/UX Layout Advisor               | **界面设计建议**，告诉你怎么排版、怎么布局更好看、更好用    |               |
+| `frontend-design`                  | 前端界面设计                            |               |
+| `frontend-slides`                  | HTML演示文稿                          |               |
+| `building-native-ui                | Expo原生UI构建                        |               |
+| 视频总结                               |                                   |               |
+| video-summary-skill                | 用 AI 总结 YouTube 和 B站 视频           |               |
+| `youtube-video-analyzer`           | YouTube分析 - 字幕、评论、总结、情感分析         |               |
+| `video-summary-skill`              | 视频总结                              |               |
+| 视频创作                               |                                   |               |
+| `generate-video`                   | AI视频生成                            |               |
+| `remotion`                         | 视频创作                              |               |
+| `video-frames`                     | 视频帧提取                             |               |
+| `octolens`                         | 品牌提及追踪 - Twitter、Reddit、GitHub等   |               |
+| `reddit` / `reddit-fetch`          | Reddit浏览和内容获取                     |               |
+| `xiaohongshu`                      | 小红书搜索和浏览                          |               |
+| 文案创作                               |                                   |               |
+| scqa-writing-framework             | 用于结构化沟通的框架                        | 写作结构（骨架）      |
+| Structured-Copywriting-Skill       | 专门写 “高转化、有结构” 文案                  | 文案风格（肌肉 + 包装） |
+| 总结长文                               |                                   |               |
+| long-form-summary-compresso        | “浓缩精华” ：把长文压短，只留干货，不丢重点           | 长篇内容摘要压缩器     |
+| content-repurposing-engine         | 让 AI 把长文自动改成推文、短视频脚本、摘要           | 知识变现          |
 
-### ps.
+### 代码
 
 - [[SCQA]]
+- [[Content Repurposing Engine]]
+- [[long-form-summary-compresso]]
+- [[Structured Copywriting Skill]]
+- [[Excalidraw Diagram Generator]]
+- [[Infographic Builder]]
+- [[Flowchart Decision Builder]]
+- [[UI/UX Layout Advisor]]
+- 
+---
 
+# Excalidraw Diagram Generator
+
+## Overview
+
+Transforms ideas into diagram structures for visualization, learning, and planning.
+
+**Keywords**: diagrams, visualization, excalidraw, workflows, mapping
+
+## Features
+
+- Node and connector generation
+- Logical hierarchy
+- Clear labels
+
+## Output Format
+
+- Diagram title
+- Nodes and connections
+- Layout suggestion
+
+## Instructions
+
+- Identify main elements
+- Create nodes
+- Connect logically
+- Suggest layout
+
+## Constraints
+
+- Avoid clutter
+- Maintain clarity
+```
 ---
 # 论文
 

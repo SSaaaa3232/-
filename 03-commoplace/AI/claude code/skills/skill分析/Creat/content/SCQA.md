@@ -4,7 +4,7 @@ tags:
   - Skill
   - 写作
   - 框架
-阅读日期:
+阅读日期: 2026-03-04
 ---
 # SCQA Writing Framework:
 
