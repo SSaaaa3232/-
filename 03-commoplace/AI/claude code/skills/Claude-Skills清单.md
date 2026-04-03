@@ -11,16 +11,21 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 # skills
 ## browser
 
-| skill               | 说明                             | 解决痛点             |
-| ------------------- | ------------------------------ | ---------------- |
-| agent-browser       | 让AI替你操作网页，不需要配置环境、处理反爬、维护代码。   | 不想重复操作网页         |
-| bb-browser          | 调用本地浏览器状态，已登录的直接用，不用每次扫码。      | 不再扫码登录           |
-| OpenCLI             | 把评论、关注、搜索等操作做成CLI，覆盖主流平台       | joeseesun一键操作多平台 |
-| `agent-reach`       | 互联网搜索和交互                       |                  |
-| `web-search`        | AI网页搜索                         |                  |
-| Deep Research Skill | 8 阶段研究，自动继续                    |                  |
-| last30days-skill    | AI agent skill，研究任何主题并综合总结<br> |                  |
+| skill                     | 说明                                          | 解决痛点                   |
+| ------------------------- | ------------------------------------------- | ---------------------- |
+| agent-browser             | 让AI替你操作网页，不需要配置环境、处理反爬、维护代码。                | 不想重复操作网页               |
+| bb-browser                | 调用本地浏览器状态，已登录的直接用，不用每次扫码。                   | 不再扫码登录                 |
+| OpenCLI                   | 把评论、关注、搜索等操作做成CLI，覆盖主流平台                    | joeseesun一键操作多平台       |
+| `agent-reach`             | 互联网搜索和交互                                    |                        |
+| `web-search`              | AI网页搜索                                      |                        |
+| Deep Research Skill       | 8 阶段研究，自动继续                                 |                        |
+| last30days-skill          | AI agent skill，研究任何主题并综合总结<br>              |                        |
+| deep-research-synthesizer | 把**大量、杂乱、长篇的资料**自动**过滤噪音 → 提炼规律 → 合成高价值结论** | 从海量信息里提纯高价值洞察，而不只是简单缩句 |
 
+### 代码
+
+- [[Deep Research Synthesizer]]
+- 
 ---
 ## memory
 
@@ -33,6 +38,21 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | openclaw-backup      | 定时备份整个Agent的配置文件和记忆库，一键回档             | 不小心把AI"养死"能恢复   |
 | Context Optimization | 降低 token 成本，提高 KV-cache 效率            |                 |
 
+---
+## onchain
+
+`
+
+| skill                        | 说明                 |
+| ---------------------------- | ------------------ |
+| onchain-transaction-analyzer | 翻译区块链上的钱包、合约、代币转账记 |
+|                              |                    |
+
+
+### 代码
+
+- [[onchain-transaction-analyzer]]
+- 
 ---
 ## 安全审查
 
@@ -67,7 +87,7 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 | ```excalidraw-diagram-generator``` | 文字转架构图 / 流程图                      | Excalidraw    |
 | infographic-builder                | 文字内容，整理成**适合做成信息图 / 数据图 / 海报**的结构 | 报告、PPT、科普材料   |
 | UI设计                               |                                   |               |
-| UI/UX Layout Advisor               | **界面设计建议**，告诉你怎么排版、怎么布局更好看、更好用    |               |
+| UI/UX Layout Advisor               | **界面设计建议**，告诉你怎么排版、怎么布局更好看、更好用    | **设计思路和规范**   |
 | `frontend-design`                  | 前端界面设计                            |               |
 | `frontend-slides`                  | HTML演示文稿                          |               |
 | `building-native-ui                | Expo原生UI构建                        |               |
@@ -98,52 +118,11 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 - [[Excalidraw Diagram Generator]]
 - [[Infographic Builder]]
 - [[Flowchart Decision Builder]]
-- [[UI/UX Layout Advisor]]
+- [[UX Layout Advisor]]
 - 
 ---
 
-# Excalidraw Diagram Generator
 
-## Overview
-
-Transforms ideas into diagram structures for visualization, learning, and planning.
-
-**Keywords**: diagrams, visualization, excalidraw, workflows, mapping
-
-## Features
-
-- Node and connector generation
-- Logical hierarchy
-- Clear labels
-
-## Output Format
-
-- Diagram title
-- Nodes and connections
-- Layout suggestion
-
-## Instructions
-
-- Identify main elements
-- Create nodes
-- Connect logically
-- Suggest layout
-
-## Constraints
-
-- Avoid clutter
-- Maintain clarity
-```
----
-# 论文
-
-
-| skill                      | 说明                    |     |
-| -------------------------- | --------------------- | --- |
-| paper-craft-skills         | 论文工艺：深度解读、漫画生成、速览总结   |     |
-| ai-paper-reader-skill      | 帮助 Claude 更好地理解 AI 论文 |     |
-| `comprehensive-researcher` | 综合研究 - 多源交叉验证         |     |
-| `deep-thinking`            | 深度思考 - 批判性分析          |     |
 
 ---
 ## 文档
@@ -178,6 +157,7 @@ Transforms ideas into diagram structures for visualization, learning, and planni
 | Claude SEO       | 全站审计、模式验证、关键词分析                |
 | Marketing Skills | 20+ skills，CRO、文案、SEO、邮件序列     |
 | Superpowers      | 20+ 测试过的  skills，TDD、调试、计划执行管道 |
+| devops-assistant | 给 AI 赋予 “懂运维、部署、Git、自动化” 的专业能力 |
 
 ---
 # 知识管理
