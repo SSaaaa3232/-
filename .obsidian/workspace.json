@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16a7a1860fd6dfab",
+        "id": "f2cbf81151bc3447",
         "type": "tabs",
         "children": [
           {
-            "id": "c30983d7187ac821",
+            "id": "97aa7197d0a01802",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ppt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -216,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 823.2
+    "width": 464.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,11 +233,26 @@
       "obsidian42-brat:BRAT": false,
       "claudian:Open Claudian": false,
       "terminal:Open terminal": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "c30983d7187ac821",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md",
+    "JPG",
+    "JPG/8eacf02e4583f6c6616b0ae2c5cfd559_MD5.jpg",
+    "JPG/cd2471faaaeec61910adc264c486dbf3_MD5.jpg",
+    "JPG/9fb722b10164540700bd7be5be78efe9_MD5.jpg",
+    "JPG/89f4778f95ebbdd761fc1df64428fe73_MD5.jpg",
+    "JPG/ad1758fc55f4c1ff9d33bc86b19e63c2_MD5.jpg",
+    "JPG/51b5983945d5e98bb600e28f7e727418_MD5.jpg",
+    "JPG/da46e736757cef515e62ee5ce93087f6_MD5.jpg",
+    "Clippings/The Shorthand Guide to Everything Agentic Security.md",
+    "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
+    "02-raw/The Shorthand Guide to Everything Agentic Security.md",
+    "02-raw/articles/2026/04/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
+    "Clippings",
     "02-raw/podcasts/2026/04",
     "02-raw/podcasts/2026",
     "02-raw/papers/2026/04",
@@ -265,18 +280,9 @@
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Workflow Automation Agent.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Skill Creator.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Code Review Skill.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Deep Research Synthesizer.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/video-script-generator.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Video Editing Planner.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Infographic Builder.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis",
-    "03-wiki/concepts/AI/Claude-Code",
-    "03-wiki/summaries/articles/2026/04/语录",
-    "03-wiki/summaries/articles/2026/04/记忆曲线",
     "02-raw/articles/Inbox/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
-    "Obsidian/assets/Pasted image 20260202230917.png",
-    "Obsidian/assets/Pasted image 20260114204533.png"
+    "Obsidian/assets/Pasted image 20260202230917.png"
   ]
 }
