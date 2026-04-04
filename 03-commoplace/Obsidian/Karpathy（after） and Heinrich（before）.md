@@ -5,9 +5,9 @@ tags:
 Heinrich: https://x.com/arscontexta/status/2013045749580259680?s=20
 衍生1: https://x.com/yanhua1010/status/2039966047378583815?s=20
 衍生2: https://x.com/yanhua1010/status/2020342019575673223?s=20
-Karpathy:
+Karpathy: https://x.com/karpathy/status/2039805659525644595?s=20
 衍生3: https://x.com/yanhua1010/status/2033726054351966613?s=20
-衍生4（没看）: https://x.com/yanhua1010/status/2029369274847072591?s=20
+衍生4: https://x.com/yanhua1010/status/2029369274847072591?s=20
 ---
 >「每条笔记在某种意义上都是一种技能，经过策划的知识，在需要时被注入。」
 >逆耳的东西往往才是值得想的
@@ -39,6 +39,7 @@ Karpathy:
 
 ![Image](https://pbs.twimg.com/media/HE9lTKkakAAMu-A?format=jpg&name=medium)
 
+![Image](https://pbs.twimg.com/media/HE8vV7SbMAAP-Bo?format=jpg&name=medium)
 ---
 
 # Output落文件
