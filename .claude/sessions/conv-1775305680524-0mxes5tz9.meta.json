@@ -3,18 +3,18 @@
   "title": "Test chat functionality",
   "titleGenerationStatus": "success",
   "createdAt": 1775305680524,
-  "updatedAt": 1775310542877,
-  "lastResponseAt": 1775310542877,
+  "updatedAt": 1775312662440,
+  "lastResponseAt": 1775312662440,
   "sessionId": "23256504-9cac-4c32-9d48-418d3ecc38ae",
   "sdkSessionId": "23256504-9cac-4c32-9d48-418d3ecc38ae",
   "currentNote": "02-raw/articles/Inbox/Karpathy（after） and Heinrich（before）.md",
   "usage": {
     "model": "MiniMax-M2.7",
     "inputTokens": 217,
-    "cacheCreationInputTokens": 473,
-    "cacheReadInputTokens": 40687,
+    "cacheCreationInputTokens": 44701,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 41377,
-    "percentage": 21
+    "contextTokens": 44918,
+    "percentage": 22
   }
 }
