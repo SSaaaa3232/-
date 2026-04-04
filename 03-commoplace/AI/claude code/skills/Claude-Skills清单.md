@@ -84,40 +84,42 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 ## 创作
 
 
-| 分类                                 | 说明                                | 解决痛点          |
-| ---------------------------------- | --------------------------------- | ------------- |
-| 图片创作                               |                                   |               |
-| `canvas-design`                    | 视觉艺术设计 - 海报、艺术作品、PDF文档            |               |
-| `generate-image`                   | AI图片生成                            |               |
-| PDF Processing                     | PDF 读取、提取表格、表单填写、合并拆分             |               |
-| `slack-gif-creator`                | Slack GIF制作                       |               |
-| Flowchart Decision Builder         | 专门生成「带判断、带分支」的决策流程图               | 复杂逻辑变成一目了然    |
-| ```excalidraw-diagram-generator``` | 文字转架构图 / 流程图                      | Excalidraw    |
-| infographic-builder                | 文字内容，整理成**适合做成信息图 / 数据图 / 海报**的结构 | 报告、PPT、科普材料   |
-| UI设计                               |                                   |               |
-| UI/UX Layout Advisor               | **界面设计建议**，告诉你怎么排版、怎么布局更好看、更好用    | **设计思路和规范**   |
-| `frontend-design`                  | 前端界面设计                            |               |
-| `frontend-slides`                  | HTML演示文稿                          |               |
-| `building-native-ui                | Expo原生UI构建                        |               |
-| 视频总结                               |                                   |               |
-| video-summary-skill                | 用 AI 总结 YouTube 和 B站 视频           |               |
-| `youtube-video-analyzer`           | YouTube分析 - 字幕、评论、总结、情感分析         |               |
-| `video-summary-skill`              | 视频总结                              |               |
-| 视频创作                               |                                   |               |
-| caption-subtitle-formatter         | 处理底部的字幕，格式化字幕                     | HeyGen        |
-| `generate-video`                   | AI视频生成                            |               |
-| `remotion`                         | 视频创作                              |               |
-| `video-frames`                     | 视频帧提取                             |               |
-| Video Editing Planner              | 剪辑师，一套逻辑严密、节奏紧凑的指南                |               |
-| video-script-generator             | 总编剧，**有逻辑、有情绪、能留住观众的**语言脚本        |               |
-| 文案创作                               |                                   |               |
-| hook-generator                     | 引人注目                              |               |
-| scqa-writing-framework             | 用于结构化沟通的框架                        | 写作结构（骨架）      |
-| Structured-Copywriting-Skill       | 专门写 “高转化、有结构” 文案                  | 文案风格（肌肉 + 包装） |
-| 总结长文                               |                                   |               |
-| long-form-summary-compresso        | “浓缩精华” ：把长文压短，只留干货，不丢重点           | 长篇内容摘要压缩器     |
-| content-repurposing-engine         | 让 AI 把长文自动改成推文、短视频脚本、摘要           | 知识变现          |
-|                                    |                                   |               |
+| 分类                                 | 说明                                         | 解决痛点          |
+| ---------------------------------- | ------------------------------------------ | ------------- |
+| 图片创作                               |                                            |               |
+| `canvas-design`                    | 视觉艺术设计 - 海报、艺术作品、PDF文档                     |               |
+| `generate-image`                   | AI图片生成                                     |               |
+| PDF Processing                     | PDF 读取、提取表格、表单填写、合并拆分                      |               |
+| `slack-gif-creator`                | Slack GIF制作                                |               |
+| Flowchart Decision Builder         | 专门生成「带判断、带分支」的决策流程图                        | 复杂逻辑变成一目了然    |
+| ```excalidraw-diagram-generator``` | 文字转架构图 / 流程图                               | Excalidraw    |
+| infographic-builder                | 文字内容，整理成**适合做成信息图 / 数据图 / 海报**的结构          | 报告、PPT、科普材料   |
+| baoyu-article-illustrator          | 自动分析你的文章结构，判断哪些位置需要插图，然后用「类型×风格」的二维组合来生成   |               |
+| UI设计                               |                                            |               |
+| UI/UX Layout Advisor               | **界面设计建议**，告诉你怎么排版、怎么布局更好看、更好用             | **设计思路和规范**   |
+| `frontend-design`                  | 前端界面设计                                     |               |
+| `frontend-slides`                  | HTML演示文稿                                   |               |
+| `building-native-ui                | Expo原生UI构建                                 |               |
+| 视频总结                               |                                            |               |
+| video-summary-skill                | 用 AI 总结 YouTube 和 B站 视频                    |               |
+| `youtube-video-analyzer`           | YouTube分析 - 字幕、评论、总结、情感分析                  |               |
+| `video-summary-skill`              | 视频总结                                       |               |
+| 视频创作                               |                                            |               |
+| caption-subtitle-formatter         | 处理底部的字幕，格式化字幕                              | HeyGen        |
+| `generate-video`                   | AI视频生成                                     |               |
+| `remotion`                         | 视频创作                                       |               |
+| `video-frames`                     | 视频帧提取                                      |               |
+| Video Editing Planner              | 剪辑师，一套逻辑严密、节奏紧凑的指南                         |               |
+| video-script-generator             | 总编剧，**有逻辑、有情绪、能留住观众的**语言脚本                 |               |
+| 文案创作                               |                                            |               |
+| hook-generator                     | 引人注目                                       |               |
+| scqa-writing-framework             | 用于结构化沟通的框架                                 | 写作结构（骨架）      |
+| Structured-Copywriting-Skill       | 专门写 “高转化、有结构” 文案                           | 文案风格（肌肉 + 包装） |
+| 总结长文                               |                                            |               |
+| long-form-summary-compresso        | “浓缩精华” ：把长文压短，只留干货，不丢重点                    | 长篇内容摘要压缩器     |
+| content-repurposing-engine         | 让 AI 把长文自动改成推文、短视频脚本、摘要                    | 知识变现          |
+| 一键发布                               |                                            |               |
+| baoyu-post-to-x                    | 用的是真实 Chrome 浏览器自动化，支持文字、图片、视频、长文 Article。 |               |
 
 ### 代码
 
@@ -192,13 +194,13 @@ source: https://x.com/ai_jacksaku/status/2034229454361276437
 # 知识管理
 
 
-| skill                       | 说明                                            |       |
-| --------------------------- | --------------------------------------------- | ----- |
-| Obsidian Skills             | Obsidian CEO 构建，自动标签、自动链接                     |       |
-| notebooklm-skill            | 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案     |       |
-| obsidian-note-taker         | Claude Desktop Skill，用于生成格式化的 Obsidian 笔记<br> |       |
-| knowledge-structuring-skill | 梳理成**结构化、可复用的精华笔记**，碎片化思考**变成**系统化文档**        | 首席整理官 |
-| baoyu-url-to-markdown       | 转化纯净Markdown                                  |       |
+| skill                       | 说明                                            |        |
+| --------------------------- | --------------------------------------------- | ------ |
+| Obsidian Skills             | Obsidian CEO 构建，自动标签、自动链接                     |        |
+| notebooklm-skill            | 与 Google NotebookLM 通信，查询你上传的文档，获取基于来源的答案     |        |
+| obsidian-note-taker         | Claude Desktop Skill，用于生成格式化的 Obsidian 笔记<br> |        |
+| knowledge-structuring-skill | 梳理成**结构化、可复用的精华笔记**，碎片化思考**变成**系统化文档**        | 首席整理官  |
+| baoyu-url-to-markdown       | 转化纯净Markdown                                  | 素材收集利器 |
 ## 代码
 
 - [[knowledge-structuring-skill]]
