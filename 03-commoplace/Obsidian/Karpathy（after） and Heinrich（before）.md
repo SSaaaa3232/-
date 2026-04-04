@@ -1,6 +1,8 @@
 ---
 tags:
   - AI
+  - Obsidian
+  - 知识管理
 阅读日期: 2026-03-04
 Heinrich: https://x.com/arscontexta/status/2013045749580259680?s=20
 衍生1: https://x.com/yanhua1010/status/2039966047378583815?s=20
@@ -8,6 +10,7 @@ Heinrich: https://x.com/arscontexta/status/2013045749580259680?s=20
 Karpathy: https://x.com/karpathy/status/2039805659525644595?s=20
 衍生3: https://x.com/yanhua1010/status/2033726054351966613?s=20
 衍生4: https://x.com/yanhua1010/status/2029369274847072591?s=20
+衍生5:
 ---
 >「每条笔记在某种意义上都是一种技能，经过策划的知识，在需要时被注入。」
 >逆耳的东西往往才是值得想的

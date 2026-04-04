@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775303307153-5yk7k6c5b",
+  "title": "Greet the user",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775303307165,
+  "updatedAt": 1775303454992,
+  "lastResponseAt": 1775303357211,
+  "sessionId": "44c46aca-5aa1-4476-b881-e1c916529eb2",
+  "sdkSessionId": "44c46aca-5aa1-4476-b881-e1c916529eb2",
+  "currentNote": "03-commoplace/Obsidian/Karpathy（after） and Heinrich（before）.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 217,
+    "cacheCreationInputTokens": 49,
+    "cacheReadInputTokens": 25637,
+    "contextWindow": 200000,
+    "contextTokens": 25903,
+    "percentage": 13
+  }
+}
