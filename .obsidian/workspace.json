@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a7e5622ea46b10e5",
+        "id": "16a7a1860fd6dfab",
         "type": "tabs",
         "children": [
           {
-            "id": "41763e17583522b8",
+            "id": "c30983d7187ac821",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/Inbox/Karpathy（after） and Heinrich（before）.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Karpathy（after） and Heinrich（before）"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -219,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 677.5
+    "width": 823.2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,45 +236,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "c30983d7187ac821",
   "lastOpenFiles": [
-    "01-polaris/skills.md",
-    "02-raw/articles/Inbox/1.md",
-    "01-polaris/编译规则.md",
-    "01-polaris/命名规则.md",
-    "未命名",
-    "02-raw/daily notes/每日安排.md",
-    "01-polaris/skills",
-    "02-raw/daily notes",
-    "01-polaris/编译规范/templates/任务卡片模板.md",
-    "01-polaris/命名规则",
-    "编译规则",
-    "01-polaris/编译规范/templates/主题整合模板.md",
-    "01-polaris/编译规范/templates/AI案例分析模板.md",
-    "02-raw/articles/Inbox/Karpathy（after） and Heinrich（before）.md",
-    "01-polaris/编译规范/任务追踪.md",
-    "01-polaris/编译规范/内容处理与知识吸收工作流.md",
-    "01-polaris/编译规范/定期整理自动化.md",
-    "01-polaris/编译规范/提示词补充规则.md",
-    "01-polaris/编译规范/自我反思与错误记录.md",
-    "01-polaris/编译规范/智能存储路由.md",
-    "01-polaris/编译规范/碎片知识收集规则.md",
-    "01-polaris/编译规范/英语口语练习.md",
-    "Obsidian/AI第二大脑搭建指南.md",
-    "Obsidian/obsidian-skills项目.md",
-    "Obsidian/obsidian-spaced-repetition插件.md",
-    "Obsidian/教程.md",
-    "Obsidian/未命名.md",
-    "Obsidian/讲解思路.md",
-    "Obsidian/README.md",
-    "01-polaris/命名规则",
-    "1",
-    "x",
-    "02-raw/articles/Inbox/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
-    "03-wiki/summaries",
-    "03-wiki/concepts",
-    "03-wiki/concepts/AI/claude code/skills/Claude-Skills清单.md",
+    "02-raw/podcasts/2026/04",
+    "02-raw/podcasts/2026",
+    "02-raw/papers/2026/04",
+    "02-raw/papers/2026",
+    "02-raw/articles/2026/04",
+    "02-raw/articles/2026",
+    "03-wiki/indexes/All-Concepts.md",
+    "03-wiki/indexes/All-Sources.md",
     "01-polaris/CLAUDE.md",
+    "01-polaris/编译规则/编译规范.md",
+    "01-polaris/skills.md",
+    "03-wiki/concepts/AI/学习路径/学习目录.md",
+    "03-wiki/concepts/AI/Vibe-Design-Stitch.md",
+    "daily notes/每日安排.md",
+    "daily notes/任务清单.md",
+    "daily notes",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/定义.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Claude-Skills清单.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Garry Tan skills分析.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/knowledge-structuring-skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Source Validation Skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/onchain-transaction-analyzer.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/devops-assistant.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/competitive-intelligence-skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Workflow Automation Agent.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Skill Creator.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Code Review Skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Deep Research Synthesizer.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/video-script-generator.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Video Editing Planner.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Infographic Builder.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis",
+    "03-wiki/concepts/AI/Claude-Code",
+    "03-wiki/summaries/articles/2026/04/语录",
+    "03-wiki/summaries/articles/2026/04/记忆曲线",
+    "02-raw/articles/Inbox/github工具/Screenshot/Screenshot 2026-03-30 at 10.00.55 AM.png",
     "Obsidian/assets/Pasted image 20260202230956.png",
     "Obsidian/assets/Pasted image 20260202230917.png",
     "Obsidian/assets/Pasted image 20260114204533.png"
