@@ -22,10 +22,10 @@
 2. 为每个概念决定：
    - **名称**：从内容提炼，不超过 8 字
    - **分类路径**：如 `AI/Claude-Code/结构拆解`
-3. 分类决策规则：
-   - 路径深度 ≤ 2 层且顶层分类已存在 → 自主决定
-   - 路径深度 > 2 层 → 暂停汇报，等待审批
-   - 新建顶层分类 → 暂停汇报，等待审批
+3. 分类决策规则（**深度口径**：指 concept 文件所在目录的 category 层级，文件自身名称不计入）：
+   - category 字段如 `AI/Claude-Code/Agent-Loop` → 目录层级为 `AI/Claude-Code`（depth=2）→ **自主**
+   - category 字段如 `AI/Claude-Code/架构/Agent-Loop` → 目录层级为 `AI/Claude-Code/架构`（depth=3）→ 暂停汇报审批
+   - 新建顶层分类（如 `量子计算`）→ 暂停汇报审批
 
 ### Step 3: 概念写卡（自主）
 - 已存在 concept 文件 → 追加到 `sources:` 和 `关联概念:`，不覆盖已有内容
