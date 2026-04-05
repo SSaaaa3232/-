@@ -1,7 +1,7 @@
 # All-Sources
 
 > 所有原始资料清单
-> 最后更新：待补充
+> 最后更新：2026-04-04
 
 ---
 
@@ -11,7 +11,8 @@
 
 #### 04 月
 
-（待补充）
+- [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]] — Agentic Security 安全指南
+- [[02-raw/articles/2026/04/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md]] — Claude Code 架构拆解
 
 ---
 
@@ -29,6 +30,6 @@
 
 ## 📊 统计
 
-- 文章总数：待统计
+- 文章总数：2（2026-04 新增）
 - 论文总数：待统计
 - 播客笔记：待统计
