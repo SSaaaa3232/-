@@ -1,3 +1,10 @@
+---
+sources:
+  - "[[02-raw/articles/2026/03/x-VibeDesign-Stitch.md]]"
+category: AI/Vibe-Design
+relations: []
+---
+
 # 什么是 Vibe Design？Stitch 一句话生成 UI
 
 > 来源：https://x.com/IceBearMiner/status/2034529278625501627
@@ -84,6 +91,6 @@ Stitch 的 CLI 版本，给 Agent 调用的。
 
 ---
 
-## 相关
+## 关联概念
 
-- 标签：#AI #设计 #Google #Stitch
+（待补充，编译时自动填充）
