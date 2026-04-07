@@ -1,0 +1,767 @@
+- generic [active] [ref=e1]:
+  - text: ⚠
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+        - generic [ref=e7] [cursor=pointer]: Skip to main content
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+        - generic [ref=e8] [cursor=pointer]: Skip to article
+      - banner [ref=e9]:
+        - generic [ref=e10]:
+          - link "ScienceDirect home page" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=e12]
+            - img [ref=e13]
+          - generic [ref=e21]:
+            - navigation "links" [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - link "Journals & Books" [ref=e25] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+                    - generic [ref=e26]: Journals & Books
+            - navigation "utilities" [ref=e27]:
+              - list [ref=e28]:
+                - listitem [ref=e29]:
+                  - button "Help" [ref=e33] [cursor=pointer]:
+                    - img [ref=e34]
+                    - generic [ref=e36]: Help
+                - listitem [ref=e37]:
+                  - button "Search" [ref=e39] [cursor=pointer]:
+                    - img [ref=e40]
+                    - generic [ref=e42]: Search
+          - link "My account" [ref=e44] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2405805X22000710&from=globalheader
+            - img [ref=e45]
+            - generic [ref=e47]: My account
+          - button "Nanjing Normal University Institutional Access" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - link "You have institutional Access via Nanjing Normal University" [ref=e55] [cursor=pointer]:
+            - /url: http://star.science-weekly.cn/
+            - img "You have institutional Access via Nanjing Normal University" [ref=e56]
+      - main [ref=e57]:
+        - region "Download options and search" [ref=e59]:
+          - list "PDF Options" [ref=e61]:
+            - listitem [ref=e62]:
+              - link "View PDF. Opens in a new window." [ref=e63] [cursor=pointer]:
+                - /url: /science/article/pii/S2405805X22000710/pdfft?md5=421981de6a01eb66fff82ba69b7df88b&pid=1-s2.0-S2405805X22000710-main.pdf
+                - img [ref=e64]
+                - generic [ref=e71]:
+                  - text: View
+                  - strong [ref=e72]: PDF
+            - listitem [ref=e73]:
+              - button "Download full issue" [ref=e74] [cursor=pointer]:
+                - generic [ref=e76]: Download full issue
+        - generic [ref=e77]:
+          - navigation "Table of contents" [ref=e78]:
+            - generic [ref=e663]:
+              - generic [ref=e664]:
+                - heading "Outline" [level=2] [ref=e665]
+                - list [ref=e666]:
+                  - listitem [ref=e667]:
+                    - link "CRediT authorship contribution statement" [ref=e668] [cursor=pointer]:
+                      - /url: "#sec1"
+                      - generic [ref=e669]: CRediT authorship contribution statement
+                  - listitem [ref=e670]:
+                    - link "Declaration of competing interest" [ref=e671] [cursor=pointer]:
+                      - /url: "#coi0010"
+                      - generic [ref=e672]: Declaration of competing interest
+                  - listitem [ref=e673]:
+                    - link "Acknowledgments" [ref=e674] [cursor=pointer]:
+                      - /url: "#ack0010"
+                      - generic [ref=e675]: Acknowledgments
+                  - listitem [ref=e676]:
+                    - link "References" [ref=e677] [cursor=pointer]:
+                      - /url: "#cebib0010"
+                      - generic [ref=e678]: References
+              - heading "Cited by (3)" [level=2] [ref=e681]:
+                - link "Cited by (3)" [ref=e682] [cursor=pointer]:
+                  - /url: "#section-cited-by"
+                  - generic [ref=e683]: Cited by (3)
+              - generic [ref=e685]:
+                - heading "Figures (1)" [level=2] [ref=e686]
+                - list [ref=e687]:
+                  - listitem [ref=e688]:
+                    - link "Fig. 1. Cofactor engineering strategies applied for biosynthesis of caffeic acid and…" [ref=e689] [cursor=pointer]:
+                      - /url: "#fig1"
+                      - img "Fig. 1. Cofactor engineering strategies applied for biosynthesis of caffeic acid and…" [ref=e690]
+          - article [ref=e79]:
+            - generic [ref=e80]:
+              - link "Society Logo" [ref=e82] [cursor=pointer]:
+                - /url: /journal/synthetic-and-systems-biotechnology
+                - img "Society Logo" [ref=e85]
+              - generic [ref=e86]:
+                - heading "Synthetic and Systems Biotechnology" [level=2] [ref=e87]:
+                  - link "Synthetic and Systems Biotechnology" [ref=e88] [cursor=pointer]:
+                    - /url: /journal/synthetic-and-systems-biotechnology
+                    - generic [ref=e89]: Synthetic and Systems Biotechnology
+                - generic [ref=e90]:
+                  - link "Volume 7, Issue 4" [ref=e91] [cursor=pointer]:
+                    - /url: /journal/synthetic-and-systems-biotechnology/vol/7/issue/4
+                    - generic [ref=e92]: Volume 7, Issue 4
+                  - text: ", December 2022, Pages 1073-1074"
+              - link "Homepage for Synthetic and Systems Biotechnology" [ref=e94] [cursor=pointer]:
+                - /url: /journal/synthetic-and-systems-biotechnology/vol/7/issue/4
+                - img "Synthetic and Systems Biotechnology" [ref=e97]
+            - heading "Cofactor manipulation to drive biosynthesis of natural products" [level=1] [ref=e98]
+            - generic [ref=e99]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: Author links open overlay panel
+                - button "Qidou Gao" [ref=e104] [cursor=pointer]:
+                  - generic [ref=e107]: Qidou Gao
+                - text: ","
+                - button "Mengyao Zhang" [ref=e108] [cursor=pointer]:
+                  - generic [ref=e111]: Mengyao Zhang
+                - text: ","
+                - button "Xiaobing YangCorrespondence author iconAuthor email or social media contact details icon" [ref=e112] [cursor=pointer]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: Xiaobing Yang
+                    - img "Correspondence author icon" [ref=e116]
+                    - img "Author email or social media contact details icon" [ref=e118]
+              - button "Show more" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: Show more
+                - img [ref=e122]
+              - generic [ref=e124]:
+                - button "Add to Mendeley" [ref=e125] [cursor=pointer]:
+                  - img [ref=e126]
+                  - generic [ref=e128]: Add to Mendeley
+                - button "Share" [ref=e132] [cursor=pointer]:
+                  - img [ref=e133]
+                  - generic [ref=e135]: Share
+                - button "Cite" [ref=e139] [cursor=pointer]:
+                  - img [ref=e140]
+                  - generic [ref=e142]: Cite
+            - generic [ref=e143]:
+              - link "Persistent link using digital object identifier" [ref=e144] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.synbio.2022.06.005
+                - generic [ref=e145]:
+                  - text: https://doi.org/10.1016/j.synbio.2022.06.005
+                  - img "Opens in new window" [ref=e146]
+              - link "Get rights and contentOpens in new window" [ref=e148] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S2405805X22000710&orderBeanReset=true
+                - generic [ref=e149]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=e150]
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - text: Under a Creative Commons
+                - link "licenseOpens in new window" [ref=e154] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+                  - generic [ref=e155]:
+                    - text: license
+                    - img "Opens in new window" [ref=e156]
+              - generic [ref=e158]: Open access
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "Previous article in issue" [ref=e235] [cursor=pointer]:
+                  - /url: /science/article/pii/S2405805X2200076X
+                  - img [ref=e236]
+                  - generic [ref=e239]: Previous article in issue
+              - listitem [ref=e168]:
+                - link "Next article in issue" [ref=e240] [cursor=pointer]:
+                  - /url: /science/article/pii/S2405805X22000758
+                  - generic [ref=e242]: Next article in issue
+                  - img [ref=e243]
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - text: Microbial production of value-added products is a promising alternative to plant- and chemical-based routes [
+                  - link "1" [ref=e248] [cursor=pointer]:
+                    - /url: "#bib1"
+                    - generic [ref=e249]: "1"
+                  - generic [ref=e250]:
+                    - generic [ref=e251]:
+                      - generic [ref=e252]:
+                        - text: "]. However, only few of interested chemicals are producing at"
+                        - link "bulk" [ref=e253] [cursor=pointer]:
+                          - /url: /topics/biochemistry-genetics-and-molecular-biology/volume
+                        - text: scale with microbial cell factories (eg. artemisinic acid) while most are staying at bench level. To enable the microbes toward efficient bioproduction, extensive endeavors have been expended on
+                      - link "enzyme" [ref=e254] [cursor=pointer]:
+                        - /url: /topics/biochemistry-genetics-and-molecular-biology/enzyme
+                      - text: exploration and pathway decoration, leaving the role of
+                    - link "cofactors" [ref=e255] [cursor=pointer]:
+                      - /url: /topics/chemistry/cofactor
+                    - text: ", especially the rare cofactors like SAM, FMN(H"
+                  - subscript [ref=e256]: "2"
+                  - text: ) and FAD (H
+                  - subscript [ref=e257]: "2"
+                  - text: ), largely unconsidered [
+                  - link "2" [ref=e258] [cursor=pointer]:
+                    - /url: "#bib2"
+                    - generic [ref=e259]: "2"
+                  - text: ","
+                  - link "3" [ref=e260] [cursor=pointer]:
+                    - /url: "#bib3"
+                    - generic [ref=e261]: "3"
+                  - text: "]."
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]:
+                      - text: Cofactors are highly demanded organic compounds in propelling various
+                      - link "biochemical processes" [ref=e265] [cursor=pointer]:
+                        - /url: /topics/earth-and-planetary-sciences/biochemical-process
+                      - generic [ref=e266]:
+                        - text: ", where particularly the knot-controlling"
+                        - link "enzymes" [ref=e267] [cursor=pointer]:
+                          - /url: /topics/biochemistry-genetics-and-molecular-biology/enzyme
+                        - text: may suffer from inadequate cofactor supply. Unveiling novel cofactor manipulation strategies would benefit microbial production of target products, especially the complex ones. Nevertheless, challenges including the complexity of metabolism network and the lack of necessary information always render the efforts. In the recent work published in Nature Chemical Biology [
+                    - link "4" [ref=e268] [cursor=pointer]:
+                      - /url: "#bib4"
+                      - generic [ref=e269]: "4"
+                    - text: "], Yongjin J. Zhou and co-workers systematically engineered the supply and recycling of three cofactors (NADPH, FAD(H"
+                    - subscript [ref=e270]: "2"
+                    - generic [ref=e271]:
+                      - generic [ref=e272]:
+                        - text: ) and SAM) for the production of
+                        - link "caffeic acid" [ref=e273] [cursor=pointer]:
+                          - /url: /topics/chemistry/caffeic-acid
+                        - text: and
+                      - link "ferulic acid" [ref=e274] [cursor=pointer]:
+                        - /url: /topics/chemistry/ferulic-acid
+                      - text: in
+                    - generic [ref=e275]:
+                      - emphasis [ref=e276]:
+                        - link "Saccharomyces" [ref=e277] [cursor=pointer]:
+                          - /url: /topics/earth-and-planetary-sciences/saccharomyces
+                      - emphasis [ref=e278]: cerevisiae
+                    - text: (
+                    - link "Fig. 1" [ref=e279] [cursor=pointer]:
+                      - /url: "#fig1"
+                      - generic [ref=e280]: Fig. 1
+                    - text: ).
+                  - figure [ref=e281]:
+                    - generic [ref=e282]:
+                      - img "Fig. 1" [ref=e283]
+                      - list [ref=e284]:
+                        - listitem [ref=e285]:
+                          - 'link "Download: Download high-res image (471KB)" [ref=e286] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2405805X22000710-gr1_lrg.jpg
+                            - generic [ref=e288]: "Download: Download high-res image (471KB)"
+                        - listitem [ref=e289]:
+                          - 'link "Download: Download full-size image" [ref=e290] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S2405805X22000710-gr1.jpg
+                            - generic [ref=e292]: "Download: Download full-size image"
+                    - paragraph [ref=e295]:
+                      - text: Fig. 1. Cofactor engineering strategies applied for biosynthesis of caffeic acid and ferulic acid. The production of caffeic acid from p-coumaric acid is heavily driven by both NADPH and FAD(H
+                      - subscript [ref=e296]: "2"
+                      - text: "), while the ferulic acid biosynthesis from caffeic acid invovles an essential methylation step with SAM as the methyl donor. F6P: fructose 6-phosphate; PEP: ribulose 5-phosphate; RU5P: ribulose 5-phosphate; E4P: erythrose-4-phosphate; DAHP: 3-deoxy-D-arabino-heptulosonate-7-phosphate; NADPH: reduced nicotinamide adenine dinucleotide phosphate; PPA: prephenate; CA: cinnamic acid; pCA: p-coumaric acid; GTP: guanosine triphosphate; FMN: flavin mononucleotide; FAD(H"
+                      - subscript [ref=e297]: "2"
+                      - text: "): (reduced) flavin adenine dinucleotide; Ade: adenosine; SAM: S-adenosylmethionine; SAH: S-adenosy-L-homocysteine. The dotted lines indicate multiple biosynthetic steps."
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - link "Phenolic acids" [ref=e300] [cursor=pointer]:
+                      - /url: /topics/food-science/phenolic-acids
+                    - generic [ref=e301]:
+                      - text: are essential precursors for complex
+                      - link "lignan" [ref=e302] [cursor=pointer]:
+                        - /url: /topics/medicine-and-dentistry/lignan
+                      - text: chemicals, whose
+                  - emphasis [ref=e303]: de novo
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - generic [ref=e306]:
+                        - link "biosynthesis" [ref=e307] [cursor=pointer]:
+                          - /url: /topics/biochemistry-genetics-and-molecular-biology/anabolism
+                        - text: involves multiple
+                      - link "oxidation" [ref=e308] [cursor=pointer]:
+                        - /url: /topics/biochemistry-genetics-and-molecular-biology/alpha-oxidation
+                      - generic [ref=e309]:
+                        - text: and
+                        - link "esterification" [ref=e310] [cursor=pointer]:
+                          - /url: /topics/biochemistry-genetics-and-molecular-biology/esterification
+                        - generic [ref=e311]:
+                          - text: steps that are fueled by cofactor circulating. The authors first enhanced the upper
+                          - link "metabolic flux" [ref=e312] [cursor=pointer]:
+                            - /url: /topics/biochemistry-genetics-and-molecular-biology/metabolic-flux
+                          - text: of
+                    - link "shikimate" [ref=e313] [cursor=pointer]:
+                      - /url: /topics/pharmacology-toxicology-and-pharmaceutical-science/shikimic-acid
+                    - text: pathway, and then reconstructed a plant-derived, and NADPH dependent pathway for caffeic acid production [
+                  - link "4" [ref=e314] [cursor=pointer]:
+                    - /url: "#bib4"
+                    - generic [ref=e315]: "4"
+                  - generic [ref=e316]:
+                    - text: "]. To boost the caffeic acid titer, they sought to enhance NADPH generation by streamlining the"
+                    - link "pentose phosphate" [ref=e317] [cursor=pointer]:
+                      - /url: /topics/chemistry/pentose-phosphate
+                    - text: pathway (PPP). Pulling the non-oxidative PPP downstream steps improved caffeic acid production from 286.3 mg/L to 385.2 mg/L with an elevated level of NADPH/NADP
+                  - superscript [ref=e318]: +
+                  - generic [ref=e319]:
+                    - generic [ref=e320]:
+                      - text: . NADPH is generally taken in priority due to its higher
+                      - link "cellular concentration" [ref=e321] [cursor=pointer]:
+                        - /url: /topics/chemistry/cellular-concentration
+                      - text: ", and the easiness in rational rewiring. However, introducing multiple NADPH-dependent steps would disturb significantly the intrinsic redox equilibrium, and abate the host"
+                    - link "cell viability" [ref=e322] [cursor=pointer]:
+                      - /url: /topics/chemistry/cell-viability
+                    - text: . To further enhance the caffeic acid production, a FAD (H
+                  - subscript [ref=e323]: "2"
+                  - text: ) dependent biosynthetic pathway was constructed in the cytosol. FAD (H
+                  - subscript [ref=e324]: "2"
+                  - generic [ref=e325]:
+                    - text: ) mainly localizes in mitochondrion for maintaining redox
+                    - link "homeostasis" [ref=e326] [cursor=pointer]:
+                      - /url: /topics/medicine-and-dentistry/homeostasis
+                    - text: ", and is at least 20 times less than NADPH in the cytosol. Upon this, they enhanced the cytosolic FAD (H"
+                  - subscript [ref=e327]: "2"
+                  - text: ) supply by recruiting a
+                  - emphasis [ref=e328]: de novo
+                  - text: FAD (H
+                  - subscript [ref=e329]: "2"
+                  - text: ) biosynthetic pathway and a mitochondrial FAD exporter to avoid the perturbation of the mitochondrial FAD (H
+                  - subscript [ref=e330]: "2"
+                  - generic [ref=e331]:
+                    - text: )
+                    - link "homeostasis" [ref=e332] [cursor=pointer]:
+                      - /url: /topics/biochemistry-genetics-and-molecular-biology/homeostasis
+                    - generic [ref=e333]:
+                      - text: ", which significantly improved the caffeic acid production. Interesting, they found that enhancing the biosynthesis of"
+                      - link "riboflavin" [ref=e334] [cursor=pointer]:
+                        - /url: /topics/biochemistry-genetics-and-molecular-biology/riboflavin
+                      - text: (the FAD precursor), and expressing its importer MCH5 successfully elevated the caffeic acid production by 93%, indicating that the availability of the FAD precursor might be a limiting step for efficient FAD (H
+                  - subscript [ref=e335]: "2"
+                  - text: )-based biosynthesis route. The present research suggested that both the regeneration and relocation of FAD (H
+                  - subscript [ref=e336]: "2"
+                  - generic [ref=e337]:
+                    - text: ) played critical roles in driving
+                    - link "natural product" [ref=e338] [cursor=pointer]:
+                      - /url: /topics/chemistry/occurrence-in-nature
+                    - text: biosynthesis when an elevated metabolic flux established, and the synergy between metabolic flux and cofactors supply should be finely handled [
+                  - link "5" [ref=e339] [cursor=pointer]:
+                    - /url: "#bib5"
+                    - generic [ref=e340]: "5"
+                  - text: "]. Though pathway compartmentalization has been extensively developed for enhancing the biosynthesis efficiency ["
+                  - link "6" [ref=e341] [cursor=pointer]:
+                    - /url: "#bib6"
+                    - generic [ref=e342]: "6"
+                  - text: "], this study showed that engineering the cofactor metabolism among sub-organelles could further drive the bioproduction of natural products in yeast and even other eukaryotes."
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - text: The most innovative part of their work is expediting the SAM recycling to drive the SAM-dependent
+                    - link "methylation" [ref=e345] [cursor=pointer]:
+                      - /url: /topics/chemistry/methylation
+                    - text: during the ferulic acid biosynthesis from caffeic acid that catalyzed by the
+                  - emphasis [ref=e346]: O
+                  - text: "-methyl-transferase (Omt). Boosting the SAM supply failed in increasing the ferulic acid titer through the strategies that were previously documented successfully in full-filling the SAM pool ["
+                  - link "5" [ref=e347] [cursor=pointer]:
+                    - /url: "#bib5"
+                    - generic [ref=e348]: "5"
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - text: "], which included (1) expressing the rate-limiting"
+                      - link "methionine" [ref=e351] [cursor=pointer]:
+                        - /url: /topics/pharmacology-toxicology-and-pharmaceutical-science/methionine
+                      - generic [ref=e352]:
+                        - text: adenosyl-transferase (Mat), (2) increasing the supply of 5-methyl-tetrahydrofolate in
+                        - link "methionine" [ref=e353] [cursor=pointer]:
+                          - /url: /topics/chemistry/methionine
+                        - generic [ref=e354]:
+                          - generic [ref=e355]:
+                            - text: biosynthesis, and (3) feeding
+                            - link "methionine" [ref=e356] [cursor=pointer]:
+                              - /url: /topics/earth-and-planetary-sciences/methionine
+                            - text: during yeast cultivation. Alternatively, the authors constructed the drainage system for the degradation of S-adenosyl-L-homocysteine (SAH), a byproduct of
+                          - link "transmethylation" [ref=e357] [cursor=pointer]:
+                            - /url: /topics/medicine-and-dentistry/transmethylation
+                          - text: and potent inhibitor of the Omt, which lead to an accelerated methyl cycle, and a significantly increased ferulic
+                    - link "acid production" [ref=e358] [cursor=pointer]:
+                      - /url: /topics/pharmacology-toxicology-and-pharmaceutical-science/acid
+                    - text: from caffeic acid (64% (w/w) conversion). This study is a typical example for recycling the cofactor SAM to support
+                  - emphasis [ref=e359]: de novo
+                  - text: biosynthesis of complex compounds, and should expand our in-depth understanding of the fundamentals for fine-tuning cofactors to drive cellular metabolism [
+                  - link "7" [ref=e360] [cursor=pointer]:
+                    - /url: "#bib7"
+                    - generic [ref=e361]: "7"
+                  - text: ","
+                  - link "8" [ref=e362] [cursor=pointer]:
+                    - /url: "#bib8"
+                    - generic [ref=e363]: "8"
+                  - text: "]."
+                - generic [ref=e364]:
+                  - text: In summary, this study has developed tailored strategies for manipulating the cofactors such as NADPH, FAD (H
+                  - subscript [ref=e365]: "2"
+                  - text: ) and SAM to support the high-level production of caffeic acid (5.5 g/L) and ferulic acid (3.8 g/L) in yeast (
+                  - link "Fig. 1" [ref=e366] [cursor=pointer]:
+                    - /url: "#fig1"
+                    - generic [ref=e367]: Fig. 1
+                  - generic [ref=e368]:
+                    - text: ). These results demonstrate that cofactors supply and recycling play an essential role in driving
+                    - link "natural product" [ref=e369] [cursor=pointer]:
+                      - /url: /topics/pharmacology-toxicology-and-pharmaceutical-science/natural-product
+                    - text: biosynthesis.
+                - generic [ref=e370]:
+                  - heading "CRediT authorship contribution statement" [level=2] [ref=e371]
+                  - generic [ref=e372]:
+                    - strong [ref=e373]: "Qidou Gao:"
+                    - text: Writing – original draft, wrote the manuscript and drew the graph abstract.
+                    - strong [ref=e374]: "Mengyao Zhang:"
+                    - text: Writing – review & editing, edited the manuscript.
+                    - strong [ref=e375]: "Xiaobing Yang:"
+                    - text: Writing – review & editing, manuscript edition, Project administration, and, Funding acquisition.
+              - generic [ref=e376]:
+                - heading "Declaration of competing interest" [level=2] [ref=e377]
+                - generic [ref=e378]: The authors declare no conficts of interest, and all the authors approved the submission.
+              - generic [ref=e379]:
+                - heading "Acknowledgments" [level=2] [ref=e380]
+                - generic [ref=e381]:
+                  - text: This work was supported by supported by Natural Science Foundation of Shaanxi Province (
+                  - link "2020JM-177" [ref=e382] [cursor=pointer]:
+                    - /url: "#gs2"
+                    - generic [ref=e383]: 2020JM-177
+                  - text: ), and Chinese Universities Scientific Fund (
+                  - link "2452018314" [ref=e384] [cursor=pointer]:
+                    - /url: "#gs4"
+                    - generic [ref=e385]: "2452018314"
+                  - text: ).
+            - generic [ref=e387]:
+              - heading "References" [level=2] [ref=e388]
+              - list [ref=e390]:
+                - listitem [ref=e391]:
+                  - link "[1]" [ref=e393] [cursor=pointer]:
+                    - /url: "#bbib1"
+                    - generic [ref=e394]: "[1]"
+                  - generic [ref=e395]:
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: D. Park, G. Swayambhu, T. Lyga, B.A. Pfeifer
+                      - generic [ref=e398]: Complex natural product production methods and options
+                    - generic [ref=e399]: Synth Syst Biotechnol, 6 (2021), pp. 1-11
+                    - generic [ref=e400]:
+                      - link "View PDF" [ref=e401] [cursor=pointer]:
+                        - /url: /science/article/pii/S2405805X20300843/pdfft?md5=623d8da84c505176017cba8194a8c653&pid=1-s2.0-S2405805X20300843-main.pdf
+                        - img [ref=e402]
+                        - generic [ref=e407]: View PDF
+                      - link "View article" [ref=e408] [cursor=pointer]:
+                        - /url: /science/article/pii/S2405805X20300843
+                        - generic [ref=e409]: View article
+                      - link "Google ScholarOpens in new window" [ref=e410] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Complex%20natural%20product%20production%20methods%20and%20options&publication_year=2021&author=D.%20Park&author=G.%20Swayambhu&author=T.%20Lyga&author=B.A.%20Pfeifer
+                        - generic [ref=e411]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e412]
+                - listitem [ref=e414]:
+                  - link "[2]" [ref=e416] [cursor=pointer]:
+                    - /url: "#bbib2"
+                    - generic [ref=e417]: "[2]"
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - generic [ref=e420]: R. Chen, S. Yang, L. Zhang, Y.J. Zhou
+                      - generic [ref=e421]: Advanced strategies for production of natural products in yeast
+                    - generic [ref=e422]: iScience, 23 (2020), Article 100879
+                    - generic [ref=e423]:
+                      - link "View PDF" [ref=e424] [cursor=pointer]:
+                        - /url: /science/article/pii/S2589004220300638/pdfft?md5=c0aa05ee272f812ad42a291a07257dac&pid=1-s2.0-S2589004220300638-main.pdf
+                        - img [ref=e425]
+                        - generic [ref=e430]: View PDF
+                      - link "View article" [ref=e431] [cursor=pointer]:
+                        - /url: /science/article/pii/S2589004220300638
+                        - generic [ref=e432]: View article
+                      - link "View in ScopusOpens in new window" [ref=e433] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85079617094&partnerID=10&rel=R3.0.0
+                        - generic [ref=e434]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e435]
+                      - link "Google ScholarOpens in new window" [ref=e437] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Advanced%20strategies%20for%20production%20of%20natural%20products%20in%20yeast&publication_year=2020&author=R.%20Chen&author=S.%20Yang&author=L.%20Zhang&author=Y.J.%20Zhou
+                        - generic [ref=e438]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e439]
+                - listitem [ref=e441]:
+                  - link "[3]" [ref=e443] [cursor=pointer]:
+                    - /url: "#bbib3"
+                    - generic [ref=e444]: "[3]"
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - generic [ref=e447]:
+                        - text: Q. Liu, T. Yu, X. Li, Y. Chen, K. Campbell, J. Nielsen,
+                        - emphasis [ref=e448]: et al.
+                      - generic [ref=e449]: Rewiring carbon metabolism in yeast for high level production of aromatic chemicals
+                    - generic [ref=e450]: Nat Commun, 10 (2019), p. 4976
+                    - generic [ref=e451]:
+                      - link "View in ScopusOpens in new window" [ref=e452] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85074254948&partnerID=10&rel=R3.0.0
+                        - generic [ref=e453]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e454]
+                      - link "Google ScholarOpens in new window" [ref=e456] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Rewiring%20carbon%20metabolism%20in%20yeast%20for%20high%20level%20production%20of%20aromatic%20chemicals&publication_year=2019&author=Q.%20Liu&author=T.%20Yu&author=X.%20Li&author=Y.%20Chen&author=K.%20Campbell&author=J.%20Nielsen
+                        - generic [ref=e457]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e458]
+                - listitem [ref=e460]:
+                  - link "[4]" [ref=e462] [cursor=pointer]:
+                    - /url: "#bbib4"
+                    - generic [ref=e463]: "[4]"
+                  - generic [ref=e464]:
+                    - generic [ref=e465]:
+                      - generic [ref=e466]: R. Chen, J. Gao, W. Yu, X. Chen, X. Zhai, Y. Chen, L. Zhang, Y.J. Zhou
+                      - generic [ref=e467]: Engineering cofactor supply and recycling to drive phenolic acid biosynthesis in yeast
+                    - generic [ref=e468]: Nat Chem Biol, 18 (2022), pp. 520-529
+                    - generic [ref=e469]:
+                      - link "CrossrefOpens in new window" [ref=e470] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038/s41589-022-01014-6
+                        - generic [ref=e471]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=e472]
+                      - link "View in ScopusOpens in new window" [ref=e474] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85128926529&partnerID=10&rel=R3.0.0
+                        - generic [ref=e475]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e476]
+                      - link "Google ScholarOpens in new window" [ref=e478] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Engineering%20cofactor%20supply%20and%20recycling%20to%20drive%20phenolic%20acid%20biosynthesis%20in%20yeast&publication_year=2022&author=R.%20Chen&author=J.%20Gao&author=W.%20Yu&author=X.%20Chen&author=X.%20Zhai&author=Y.%20Chen&author=L.%20Zhang&author=Y.J.%20Zhou
+                        - generic [ref=e479]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e480]
+                - listitem [ref=e482]:
+                  - link "[5]" [ref=e484] [cursor=pointer]:
+                    - /url: "#bbib5"
+                    - generic [ref=e485]: "[5]"
+                  - generic [ref=e486]:
+                    - generic [ref=e487]:
+                      - generic [ref=e488]: M. Wang, B. Chen, Y. Fang, T. Tan
+                      - generic [ref=e489]: Cofactor engineering for more efficient production of chemicals and biofuels
+                    - generic [ref=e490]: Biotechnol Adv, 35 (2017), pp. 1032-1039
+                    - generic [ref=e491]:
+                      - link "View PDF" [ref=e492] [cursor=pointer]:
+                        - /url: /science/article/pii/S0734975017301192/pdfft?md5=a8297965cb757c163d3a4511833a2c30&pid=1-s2.0-S0734975017301192-main.pdf
+                        - img [ref=e493]
+                        - generic [ref=e498]: View PDF
+                      - link "View article" [ref=e499] [cursor=pointer]:
+                        - /url: /science/article/pii/S0734975017301192
+                        - generic [ref=e500]: View article
+                      - link "View in ScopusOpens in new window" [ref=e501] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85029748707&partnerID=10&rel=R3.0.0
+                        - generic [ref=e502]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e503]
+                      - link "Google ScholarOpens in new window" [ref=e505] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Cofactor%20engineering%20for%20more%20efficient%20production%20of%20chemicals%20and%20biofuels&publication_year=2017&author=M.%20Wang&author=B.%20Chen&author=Y.%20Fang&author=T.%20Tan
+                        - generic [ref=e506]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e507]
+                - listitem [ref=e509]:
+                  - link "[6]" [ref=e511] [cursor=pointer]:
+                    - /url: "#bbib6"
+                    - generic [ref=e512]: "[6]"
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - generic [ref=e515]: X. Cao, S. Yang, C. Cao, Y.J. Zhou
+                      - generic [ref=e516]: Harnessing sub-organelle metabolism for biosynthesis of isoprenoids in yeast
+                    - generic [ref=e517]: Synth Syst Biotechnol, 5 (2020), pp. 179-186
+                    - generic [ref=e518]:
+                      - link "View PDF" [ref=e519] [cursor=pointer]:
+                        - /url: /science/article/pii/S2405805X20300314/pdfft?md5=4dcfbad097083695ef5df94a918c6218&pid=1-s2.0-S2405805X20300314-main.pdf
+                        - img [ref=e520]
+                        - generic [ref=e525]: View PDF
+                      - link "View article" [ref=e526] [cursor=pointer]:
+                        - /url: /science/article/pii/S2405805X20300314
+                        - generic [ref=e527]: View article
+                      - link "View in ScopusOpens in new window" [ref=e528] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85087130961&partnerID=10&rel=R3.0.0
+                        - generic [ref=e529]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e530]
+                      - link "Google ScholarOpens in new window" [ref=e532] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Harnessing%20sub-organelle%20metabolism%20for%20biosynthesis%20of%20isoprenoids%20in%20yeast&publication_year=2020&author=X.%20Cao&author=S.%20Yang&author=C.%20Cao&author=Y.J.%20Zhou
+                        - generic [ref=e533]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e534]
+                - listitem [ref=e536]:
+                  - link "[7]" [ref=e538] [cursor=pointer]:
+                    - /url: "#bbib7"
+                    - generic [ref=e539]: "[7]"
+                  - generic [ref=e540]:
+                    - generic [ref=e541]:
+                      - generic [ref=e542]: S. Mordhorst, J.N. Andexer
+                      - generic [ref=e543]: Round,round we go-strategies for enzymatic cofactor regeneration
+                    - generic [ref=e544]: Nat Prod Rep, 37 (2020), pp. 1316-1333
+                    - generic [ref=e545]:
+                      - link "View article" [ref=e546] [cursor=pointer]:
+                        - /url: /science/article/pii/S0265056822007577
+                        - generic [ref=e547]: View article
+                      - link "CrossrefOpens in new window" [ref=e548] [cursor=pointer]:
+                        - /url: https://doi.org/10.1039/d0np00004c
+                        - generic [ref=e549]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=e550]
+                      - link "View in ScopusOpens in new window" [ref=e552] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85094213934&partnerID=10&rel=R3.0.0
+                        - generic [ref=e553]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e554]
+                      - link "Google ScholarOpens in new window" [ref=e556] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Round%2Cround%20we%20go-strategies%20for%20enzymatic%20cofactor%20regeneration&publication_year=2020&author=S.%20Mordhorst&author=J.N.%20Andexer
+                        - generic [ref=e557]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e558]
+                - listitem [ref=e560]:
+                  - link "[8]" [ref=e562] [cursor=pointer]:
+                    - /url: "#bbib8"
+                    - generic [ref=e563]: "[8]"
+                  - generic [ref=e564]:
+                    - generic [ref=e565]:
+                      - generic [ref=e566]: A. Cravens, J. Payne, C.D. Smolke
+                      - generic [ref=e567]: Synthetic biology strategies for microbial biosynthesis of plant natural products
+                    - generic [ref=e568]: Nat Commun, 10 (2019), p. 2142
+                    - generic [ref=e569]:
+                      - link "View in ScopusOpens in new window" [ref=e570] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-85065705932&partnerID=10&rel=R3.0.0
+                        - generic [ref=e571]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=e572]
+                      - link "Google ScholarOpens in new window" [ref=e574] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Synthetic%20biology%20strategies%20for%20microbial%20biosynthesis%20of%20plant%20natural%20products&publication_year=2019&author=A.%20Cravens&author=J.%20Payne&author=C.D.%20Smolke
+                        - generic [ref=e575]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=e576]
+            - region "Cited by" [ref=e176]:
+              - heading "Cited by (3)" [level=2] [ref=e692]
+              - list [ref=e695]:
+                - listitem [ref=e696]:
+                  - generic [ref=e697]:
+                    - heading "Challenges and opportunities for engineered Escherichia coli as a pivotal chassis toward versatile tyrosine-derived chemicals production" [level=3] [ref=e698]:
+                      - link "Challenges and opportunities for engineered Escherichia coli as a pivotal chassis toward versatile tyrosine-derived chemicals production" [ref=e699] [cursor=pointer]:
+                        - /url: /science/article/pii/S0734975023001775
+                        - generic [ref=e700]: Challenges and opportunities for engineered Escherichia coli as a pivotal chassis toward versatile tyrosine-derived chemicals production
+                    - generic [ref=e701]: 2023, Biotechnology Advances
+                    - generic [ref=e703]:
+                      - generic [ref=e704]: "Citation Excerpt :"
+                      - paragraph [ref=e705]: …However, introducing multiple NADPH-dependent steps interrupted the intrinsic redox equilibrium significantly, and abated the host cell viability. Hence, an artificially rerouted metabolic flux is one of the optimization strategies for controlling the enzyme concentrations in the multienzyme pathway at appropriate ratios (Gao et al., 2022). The rapid development of metabolic engineering and synthetic biology tools is supposed to build multitask microbial cell platforms not only for producing a diverse range of chemicals but also in a cost-competitive fashion.…
+                  - button "Show abstract" [ref=e707] [cursor=pointer]:
+                    - generic [ref=e708]: Show abstract
+                    - img [ref=e709]
+                - listitem [ref=e711]:
+                  - generic [ref=e712]:
+                    - heading "Herbal Multiomics Provide Insights into Gene Discovery and Bioproduction of Triterpenoids by Engineered MicrobesOpens in new window" [level=3] [ref=e713]:
+                      - link "Herbal Multiomics Provide Insights into Gene Discovery and Bioproduction of Triterpenoids by Engineered MicrobesOpens in new window" [ref=e714] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/acs.jafc.4c08372
+                        - generic [ref=e715]:
+                          - text: Herbal Multiomics Provide Insights into Gene Discovery and Bioproduction of Triterpenoids by Engineered Microbes
+                          - img "Opens in new window" [ref=e716]
+                    - generic [ref=e718]: 2025, Journal of Agricultural and Food Chemistry
+                - listitem [ref=e719]:
+                  - generic [ref=e720]:
+                    - heading "Improving Microbial Cell Factory Performance by Engineering SAM AvailabilityOpens in new window" [level=3] [ref=e721]:
+                      - link "Improving Microbial Cell Factory Performance by Engineering SAM AvailabilityOpens in new window" [ref=e722] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/acs.jafc.3c09561
+                        - generic [ref=e723]:
+                          - text: Improving Microbial Cell Factory Performance by Engineering SAM Availability
+                          - img "Opens in new window" [ref=e724]
+                    - generic [ref=e726]: 2024, Journal of Agricultural and Food Chemistry
+            - generic [ref=e181]:
+              - term [ref=e182]
+              - definition [ref=e183]:
+                - generic [ref=e184]: Peer review under responsibility of KeAi Communications Co., Ltd.
+            - generic [ref=e185]: © 2022 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd.
+          - complementary "Related content" [ref=e187]:
+            - generic [ref=e188]:
+              - button "Recommended articles" [expanded] [ref=e190] [cursor=pointer]:
+                - heading "Recommended articles" [level=2] [ref=e193]
+                - img [ref=e194]
+              - generic [ref=e196]:
+                - list [ref=e579]:
+                  - listitem [ref=e580]:
+                    - generic [ref=e581]:
+                      - heading "A secure chaotic map-based remote authentication scheme for telecare medicine information systems" [level=3] [ref=e582]:
+                        - link "A secure chaotic map-based remote authentication scheme for telecare medicine information systems" [ref=e583] [cursor=pointer]:
+                          - /url: /science/article/pii/S0167739X1730688X
+                          - generic [ref=e585]: A secure chaotic map-based remote authentication scheme for telecare medicine information systems
+                      - generic [ref=e587]: Future Generation Computer Systems, Volume 84, 2018, pp. 149-159
+                      - generic [ref=e588]: Xiong Li, …, Minho Jo
+                    - link "View PDF" [ref=e590] [cursor=pointer]:
+                      - /url: /science/article/pii/S0167739X1730688X/pdfft?md5=bd336df4773232c05f940ef7ab822958&pid=1-s2.0-S0167739X1730688X-main.pdf
+                      - img [ref=e591]
+                      - generic [ref=e596]: View PDF
+                  - listitem [ref=e597]:
+                    - generic [ref=e598]:
+                      - heading "Orthopaedic Surgery Residency Rotations and Correlation With Orthopaedic In-Training Examination Performance" [level=3] [ref=e599]:
+                        - link "Orthopaedic Surgery Residency Rotations and Correlation With Orthopaedic In-Training Examination Performance" [ref=e600] [cursor=pointer]:
+                          - /url: /science/article/pii/S1931720417306220
+                          - generic [ref=e602]: Orthopaedic Surgery Residency Rotations and Correlation With Orthopaedic In-Training Examination Performance
+                      - generic [ref=e604]: Journal of Surgical Education, Volume 75, Issue 5, 2018, pp. 1325-1328
+                      - generic [ref=e605]: Aaron I. Karlen, …, Ann E. Van Heest
+                    - link "View PDF" [ref=e607] [cursor=pointer]:
+                      - /url: /science/article/pii/S1931720417306220/pdfft?md5=ca96bb9518fc4b3bfe4fc927e45723db&pid=1-s2.0-S1931720417306220-main.pdf
+                      - img [ref=e608]
+                      - generic [ref=e613]: View PDF
+                  - listitem [ref=e614]:
+                    - generic [ref=e615]:
+                      - heading "Risk of Fractures in Youths with Celiac Disease—A Population-Based Study" [level=3] [ref=e616]:
+                        - link "Risk of Fractures in Youths with Celiac Disease—A Population-Based Study" [ref=e617] [cursor=pointer]:
+                          - /url: /science/article/pii/S0022347618303251
+                          - generic [ref=e619]: Risk of Fractures in Youths with Celiac Disease—A Population-Based Study
+                      - generic [ref=e621]: The Journal of Pediatrics, Volume 198, 2018, pp. 117-120
+                      - generic [ref=e622]: Cristina Canova, …, Jonas F. Ludvigsson
+                    - link "View PDF" [ref=e624] [cursor=pointer]:
+                      - /url: /science/article/pii/S0022347618303251/pdfft?md5=8085cc85e1ff5f72097a78065e5e5a7a&pid=1-s2.0-S0022347618303251-main.pdf
+                      - img [ref=e625]
+                      - generic [ref=e630]: View PDF
+                - button "Show 3 more articles" [ref=e631] [cursor=pointer]:
+                  - generic [ref=e632]: Show 3 more articles
+                  - img [ref=e633]
+            - generic [ref=e635]:
+              - button "Article Metrics" [expanded] [ref=e637] [cursor=pointer]:
+                - heading "Article Metrics" [level=2] [ref=e640]
+                - img [ref=e641]
+              - generic [ref=e644]:
+                - heading "Citations" [level=3] [ref=e645]
+                - list [ref=e646]:
+                  - listitem [ref=e647]:
+                    - generic [ref=e648]: Citation Indexes
+                    - generic [ref=e649]: "3"
+                - heading "Captures" [level=3] [ref=e650]
+                - list [ref=e651]:
+                  - listitem [ref=e652]:
+                    - generic [ref=e653]: Mendeley Readers
+                    - generic [ref=e654]: "3"
+                - generic [ref=e655]:
+                  - img "PlumX Metrics Logo" [ref=e656]
+                  - link "View detailsOpens in new window" [ref=e657] [cursor=pointer]:
+                    - /url: https://plu.mx/plum/a/?doi=10.1016%2Fj.synbio.2022.06.005&theme=plum-sciencedirect-theme&hideUsage=true
+                    - generic [ref=e658]:
+                      - text: View details
+                      - img "Opens in new window" [ref=e659]
+    - contentinfo [ref=e198]:
+      - link "Elsevier home page (opens in a new tab)" [ref=e200] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=e201]
+      - generic [ref=e202]:
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - link "About ScienceDirectOpens in new window" [ref=e206] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=e207]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=e208]
+          - listitem [ref=e210]:
+            - link "Remote access" [ref=e211] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS2405805X22000710
+              - generic [ref=e212]: Remote access
+          - listitem [ref=e213]:
+            - link "Contact and supportOpens in new window" [ref=e214] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=e215]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=e216]
+          - listitem [ref=e218]:
+            - link "Terms and conditionsOpens in new window" [ref=e219] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=e220]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=e221]
+          - listitem [ref=e223]:
+            - link "Privacy policyOpens in new window" [ref=e224] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=e225]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=e226]
+          - listitem [ref=e228]:
+            - button "Cookie settings" [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]: Cookie settings
+        - paragraph [ref=e231]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=e233] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=e234]
+  - button "Feedback" [ref=e661] [cursor=pointer]:
+    - img "Feedback" [ref=e662]
