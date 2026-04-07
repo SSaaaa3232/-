@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1bc0fd2d1dcfa861",
+        "id": "d1b574bbff973207",
         "type": "tabs",
         "children": [
           {
-            "id": "cd183f72ff411132",
+            "id": "e00d925f263aa6cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/用4小时系统性了解一个垂直领域.md",
+                "file": "奠基性文献综述.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "用4小时系统性了解一个垂直领域"
-            }
-          },
-          {
-            "id": "fdaf36fbb1dff38e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文框架.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "论文框架"
+              "title": "奠基性文献综述"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -235,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 851.5
+    "width": 574.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,9 +240,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "fdaf36fbb1dff38e",
+  "active": "e00d925f263aa6cb",
   "lastOpenFiles": [
+    "论文搜寻提示词.md",
+    "JPG/ab04d8cee472ca35f2db79c3084de4b3_MD5.jpg",
+    "奠基性文献综述.md",
     "02-raw/articles/用4小时系统性了解一个垂直领域.md",
+    "JPG/5f3a07d0a57be5463fed11e7c615b8d5_MD5.png",
+    "JPG/9c1d18aec216b835d8e74f74b3edd002_MD5.jpg",
+    "02-raw/articles/这篇文章教你如何用Claude Code 在推上学习大V们的观点.md",
     "论文框架.md",
     "03-wiki/concepts/AI/Claude-Code/工具执行.md",
     "03-wiki/concepts/AI/Claude-Code/Tool-Execute.md",
@@ -280,20 +270,13 @@
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Code Review Skill.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Claude-Skills清单.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
-    "03-wiki/concepts/AI/claude code/REPO.md",
-    "03-wiki/concepts/AI/claude code/MCP.md",
-    "03-wiki/concepts/AI/claude code/Agent.md",
     "JPG/845c310a297cacd0768f9a4032223125_MD5.jpg",
     "JPG/0bb9398c80fb0ea1615000b9e0744022_MD5.jpg",
-    "02-raw/articles/为什么 90% 的富二代守不住财富？认知科学给出了答案.md",
     "JPG/7bb1d042691dd730778d63e4e42ee343_MD5.png",
     "JPG/3aaafab04e2f58fefcbd0c168a88ff67_MD5.jpg",
     "JPG/efc6b808a98fbca266039a548b90ecbc_MD5.jpg",
     "JPG/8af6183cd9d24c2f1fef5a2b9d9e4600_MD5.jpg",
     "JPG/085b26b1ff88752bed3485459ac1ff54_MD5.jpg",
-    "JPG/26baa586c0eb5c99f589324fc60ccf10_MD5.jpg",
-    "JPG/11aeb278aeeb630d8ff17f45224f61b0_MD5.jpg",
-    "JPG/8531252696dca6e40abdbea1c1c9c2eb_MD5.jpg",
     "03-wiki/concepts/AI/个人成长",
     "03-wiki/concepts/AI/内容创作",
     "03-wiki/concepts/AI/投资理财",
