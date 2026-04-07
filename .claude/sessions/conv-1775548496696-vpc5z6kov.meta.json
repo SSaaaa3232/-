@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775548496696-vpc5z6kov",
+  "title": "Install NotebookLM skill",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775548496697,
+  "updatedAt": 1775549195090,
+  "lastResponseAt": 1775549195090,
+  "sessionId": "4c59325e-66bb-45fc-afa5-8c7005e35556",
+  "sdkSessionId": "4c59325e-66bb-45fc-afa5-8c7005e35556",
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 17339,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22252,
+    "contextWindow": 200000,
+    "contextTokens": 39591,
+    "percentage": 20
+  }
+}

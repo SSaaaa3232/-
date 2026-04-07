@@ -3,17 +3,17 @@
   "title": "Run wiki health check",
   "titleGenerationStatus": "success",
   "createdAt": 1775539260398,
-  "updatedAt": 1775545627577,
-  "lastResponseAt": 1775545627577,
+  "updatedAt": 1775548481431,
+  "lastResponseAt": 1775548348289,
   "sessionId": "9dc30d20-57c5-40a2-a70a-6f45579d6cae",
   "sdkSessionId": "9dc30d20-57c5-40a2-a70a-6f45579d6cae",
   "usage": {
     "model": "MiniMax-M2.7",
-    "inputTokens": 110420,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 22252,
+    "cacheReadInputTokens": 136856,
     "contextWindow": 200000,
-    "contextTokens": 132672,
-    "percentage": 66
+    "contextTokens": 136856,
+    "percentage": 68
   }
 }

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aedba20f61ca68d6",
+        "id": "1bc0fd2d1dcfa861",
         "type": "tabs",
         "children": [
           {
-            "id": "241cd88c1182f80a",
+            "id": "cd183f72ff411132",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/用4小时系统性了解一个垂直领域.md",
+                "file": "论文框架.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "用4小时系统性了解一个垂直领域"
+              "title": "论文框架"
             }
           }
         ]
@@ -220,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 851.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,47 +241,47 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d28acbec4d527a0e",
+  "active": "cd183f72ff411132",
   "lastOpenFiles": [
+    "论文框架.md",
+    "03-wiki/concepts/AI/Claude-Code/工具执行.md",
+    "03-wiki/concepts/AI/Claude-Code/Tool-Execute.md",
+    "03-wiki/concepts/AI/Claude-Code/Prompt-Caching.md",
+    "03-wiki/concepts/AI/Claude-Code/Context-Compact.md",
+    "03-wiki/concepts/AI/Claude-Code/Agent-Loop.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/video-script-generator.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Workflow Automation Agent.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/定义.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/UX Layout Advisor.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/SCQA.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Skill Creator.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/knowledge-structuring-skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Garry Tan skills分析.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/hook-generator.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Flowchart Decision Builder.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Deep Research Synthesizer.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/competitive-intelligence-skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Code Review Skill.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Claude-Skills清单.md",
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
+    "03-wiki/concepts/AI/claude code/REPO.md",
+    "03-wiki/concepts/AI/claude code/MCP.md",
+    "03-wiki/concepts/AI/claude code/Agent.md",
+    "02-raw/articles/用4小时系统性了解一个垂直领域.md",
     "JPG/845c310a297cacd0768f9a4032223125_MD5.jpg",
     "JPG/0bb9398c80fb0ea1615000b9e0744022_MD5.jpg",
     "02-raw/articles/为什么 90% 的富二代守不住财富？认知科学给出了答案.md",
-    "02-raw/articles/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
     "JPG/7bb1d042691dd730778d63e4e42ee343_MD5.png",
     "JPG/3aaafab04e2f58fefcbd0c168a88ff67_MD5.jpg",
-    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
-    "02-raw/articles/Thread by @Zenzhe99.md",
-    "02-raw/articles/Thread by @yaohui12138.md",
-    "daily notes/任务清单.md",
     "JPG/efc6b808a98fbca266039a548b90ecbc_MD5.jpg",
     "JPG/8af6183cd9d24c2f1fef5a2b9d9e4600_MD5.jpg",
     "JPG/085b26b1ff88752bed3485459ac1ff54_MD5.jpg",
     "JPG/26baa586c0eb5c99f589324fc60ccf10_MD5.jpg",
     "JPG/11aeb278aeeb630d8ff17f45224f61b0_MD5.jpg",
     "JPG/8531252696dca6e40abdbea1c1c9c2eb_MD5.jpg",
-    "JPG/d11c164b8cd220357b5e5d9f7ad2f7aa_MD5.jpg",
-    "02-raw/articles/用4小时系统性了解一个垂直领域.md",
-    "03-wiki/indexes/All-Sources.md",
-    "03-wiki/indexes/All-Concepts.md",
-    "03-wiki/log.md",
-    "03-wiki/concepts/AI/投资理财/澳洲矿产.md",
-    "03-wiki/concepts/AI/个人成长/纳瓦尔宝典.md",
     "03-wiki/concepts/AI/个人成长",
-    "03-wiki/concepts/AI/内容创作/算法分发.md",
     "03-wiki/concepts/AI/内容创作",
-    "03-wiki/concepts/AI/投资理财/经济周期.md",
-    "03-wiki/concepts/AI/投资理财/BTC.md",
     "03-wiki/concepts/AI/投资理财",
-    "03-wiki/concepts/AI/Claude-Code/工具执行.md",
-    "04-outputs/health/2026-04-07-健康检查.md",
-    "docs/superpowers/specs/2026-04-07-per-domain-vault-design.md",
-    "03-wiki/indexes/All-Synthesis.md",
-    "01-polaris/skills/lint.md",
-    "源/Part 2 Your Second Brain System (Done For You).md",
-    "源/How to Build Your Second Brain.md",
-    "源/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
-    "源/Thread by @0xKingsKuan.md",
-    "源/llm-wiki.md",
     "源",
     "03-wiki/concepts/AI/英伟达GTC2026思维导图.excalidraw",
     "03-wiki/concepts/AI/安全",
