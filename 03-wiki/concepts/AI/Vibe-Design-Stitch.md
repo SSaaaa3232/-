@@ -3,6 +3,8 @@ sources:
   - "[[02-raw/articles/2026/03/x-VibeDesign-Stitch.md]]"
 category: AI/Vibe-Design
 relations: []
+created: 2026-04-04
+modified: 2026-04-04
 ---
 
 # 什么是 Vibe Design？Stitch 一句话生成 UI

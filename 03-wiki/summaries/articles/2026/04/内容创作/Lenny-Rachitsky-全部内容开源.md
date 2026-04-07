@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 内容创作
+category: 内容创作
+---
 # Lenny Rachitsky 全部内容开源
 
 > 来源：https://x.com/lennysan/status/2033958104967352587

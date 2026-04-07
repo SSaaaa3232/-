@@ -6,6 +6,13 @@ tags:
   - Claude-Code
   - Agentic
   - 工程
+relations:
+  - [[03-wiki/concepts/AI/Claude-Code/Agent-Loop]]
+  - [[03-wiki/concepts/AI/Claude-Code/Prompt-Caching]]
+  - [[03-wiki/concepts/AI/Claude-Code/Context-Compact]]
+  - [[03-wiki/concepts/AI/Claude-Code/Tool-Execute]]
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # 从零开始两天构建一个 Claude Code

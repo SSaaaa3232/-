@@ -1,3 +1,8 @@
+---
+created: 2026-04-05
+modified: 2026-04-05
+category: uncategorized
+---
 # Compile Skill
 
 将 02-raw/ 下的原始资料编译为 wiki 结构：summary → concept → index。

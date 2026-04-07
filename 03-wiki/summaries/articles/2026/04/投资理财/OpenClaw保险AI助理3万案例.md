@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 投资理财
+category: 投资理财
+---
 # OpenClaw定制保险AI助理赚3万案例
 
 > 来源：https://x.com/kasong2048/status/2034092771150336200

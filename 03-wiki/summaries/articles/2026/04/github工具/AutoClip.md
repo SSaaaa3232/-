@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - github工具
+category: github工具
+---
 # AutoClip - AI 视频剪辑工具
 
 > 自动从长视频中提取精彩片段

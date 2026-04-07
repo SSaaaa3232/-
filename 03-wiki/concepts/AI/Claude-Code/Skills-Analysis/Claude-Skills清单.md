@@ -6,6 +6,8 @@ tags:
   - 工具
 阅读日期: 2026-02-04
 source: https://x.com/ai_jacksaku/status/2034229454361276437
+created: 2026-04-04
+modified: 2026-04-04
 ---
 > Skills 教 AI **如何**更好地做事
 # skills

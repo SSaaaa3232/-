@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - AI
+category: Claude-Code
+---
 
 
 > 链接: https://x.com/IceBearMiner/status/2037888800341610684?s=20

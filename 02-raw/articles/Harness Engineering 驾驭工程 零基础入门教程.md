@@ -6,6 +6,7 @@ author:
 published: 2026-04-04
 created: 2026-04-07
 description: "最近你一定在各种 AI 资讯里看到 Harness Engineering（驾驭工程）这个词。OpenAI、Anthropic、Martin Fowler……一线的公司和技术大佬都在讨论它。很多科普文章会告诉你：Harness 就是给 AI 设边界、分步骤、做检查,你平时用 Cl..."
+modified: 2026-04-07
 ---
 最近你一定在各种 AI 资讯里看到 **Harness Engineering（驾驭工程）**这个词。OpenAI、Anthropic、Martin Fowler……一线的公司和技术大佬都在讨论它。
 

@@ -1,3 +1,8 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+category: uncategorized
+---
 # 各领域 X 账号推荐
 
 > 来源：https://x.com/aronhouyu/status/2034659605263909366

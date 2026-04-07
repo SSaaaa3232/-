@@ -1,3 +1,12 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - AI学习
+category: AI学习
+relations:
+  - [[03-wiki/concepts/AI/投资理财/澳洲矿产]]
+---
 # 微笑曲线：过去三十年的价值分配
 
 > 章节来源：[[原文]]

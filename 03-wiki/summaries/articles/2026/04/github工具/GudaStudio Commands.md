@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - github工具
+category: github工具
+---
 来源：https://github.com/GuDaStudio/commands
 
 日期：2026-03-23

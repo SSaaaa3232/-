@@ -1,6 +1,8 @@
 ---
 tags:
   - MCP
+created: 2026-04-04
+modified: 2026-04-04
 ---
 > MCP 给予 AI **访问**外部工具和数据的能力
 # obsidian

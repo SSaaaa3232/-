@@ -4,6 +4,7 @@ tags: [技术原理, Mac Bridge, 网络, WebSocket]
 category: 技术知识
 created: 2026-03-22
 status: 已整理
+modified: 2026-04-04
 ---
 
 > 核心原理：反向 WebSocket 隧道 — 你的 Mac 主动连接服务器，不是服务器连接你的 Mac

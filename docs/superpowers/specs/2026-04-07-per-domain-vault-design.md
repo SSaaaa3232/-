@@ -1,3 +1,8 @@
+---
+created: 2026-04-07
+modified: 2026-04-07
+category: uncategorized
+---
 # Per-Domain Vault 设计方案
 
 > 日期：2026-04-07

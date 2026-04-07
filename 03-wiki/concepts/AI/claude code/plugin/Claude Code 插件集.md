@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - AI
+category: Claude-Code
+---
 # Claude Code 插件集
 
 > Claude Code 插件市场整理

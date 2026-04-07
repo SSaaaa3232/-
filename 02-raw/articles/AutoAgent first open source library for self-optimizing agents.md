@@ -6,6 +6,7 @@ author:
 published: 2026-02-28
 created: 2026-04-07
 description: "today we're releasing AutoAgent, an open source library for autonomously improving an agent on any domain.AutoAgent hit both the #1 on Sprea..."
+modified: 2026-04-07
 ---
 today we're releasing [AutoAgent](https://github.com/kevinrgu/autoagent/tree/main), an open source library for autonomously improving an agent on any domain.
 

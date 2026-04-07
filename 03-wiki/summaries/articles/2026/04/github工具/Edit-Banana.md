@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - github工具
+category: github工具
+---
 # Edit Banana - AI 图表可编辑工具
 
 > 原文来源：https://x.com/berryxia/status/2030647797586993304

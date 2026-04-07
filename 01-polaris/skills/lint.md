@@ -1,3 +1,8 @@
+---
+created: 2026-04-07
+modified: 2026-04-07
+category: uncategorized
+---
 # Lint Skill
 健康检查：审计 03-wiki 的结构健康度，输出报告并写入 `04-outputs/health/`。
 

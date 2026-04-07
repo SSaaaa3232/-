@@ -11,6 +11,8 @@ relations:
   - [[../Sandboxing]]       # 共现（来源同一篇文章）
   - [[../Sanitization]]    # 共现（来源同一篇文章）
   - [[../CVE]]             # 共现（来源同一篇文章）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # Agentic Security

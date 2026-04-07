@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - AI学习
+category: AI学习
+---
 # 一个AI的自白：关于我的边界与你的可能性
 
 > 原文来源：https://x.com/pandatalk8/status/2030822129701425182

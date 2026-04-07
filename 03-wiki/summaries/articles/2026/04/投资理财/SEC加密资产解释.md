@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 投资理财
+category: 投资理财
+---
 # SEC发布加密资产解释文件
 
 > 来源：https://x.com/SECGov/status/2034020616185983349

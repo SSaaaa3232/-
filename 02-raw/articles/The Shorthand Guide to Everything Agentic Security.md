@@ -6,6 +6,7 @@ author:
 published: 2026-02-27
 created: 2026-04-04
 description: "It's been a while since my last article now. Spent time working on building out the ECC devtooling ecosystem. One of the few hot but importa..."
+modified: 2026-04-07
 ---
 It's been a while since my last article now. Spent time working on building out the ECC devtooling ecosystem. One of the few hot but important topics during that stretch has been agent security.
 

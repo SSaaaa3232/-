@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "324dda46064eb5ac",
+        "id": "aedba20f61ca68d6",
         "type": "tabs",
         "children": [
           {
-            "id": "2e336854331fab14",
+            "id": "241cd88c1182f80a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "源/How to Build Your Second Brain.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "How to Build Your Second Brain"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -220,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500
+    "width": 595.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,52 +236,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2e336854331fab14",
+  "active": "241cd88c1182f80a",
   "lastOpenFiles": [
-    "源/Thread by @0xKingsKuan.md",
-    "JPG/0b35c12b59bbe253b9088810b7c3462e_MD5.png",
-    "JPG/df764e5fbd18fc3f239a6927f9ceb1fa_MD5.jpg",
-    "JPG/fe9b158eafe9d0a0b8ce55ed1280b2a6_MD5.jpg",
-    "JPG/330ae37d590d7aa311997ea836332a44_MD5.jpg",
-    "JPG/6d993f99d0f6fff8035f3ff42c8d049e_MD5.jpg",
-    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情.md",
-    "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
-    "JPG/e4b5eef8b1cab3505fe739639019be7f_MD5.jpg",
-    "JPG/1543e49c40c012e1ca41f75ab460da0a_MD5.jpg",
-    "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
-    "JPG/2c34110215a863df4e4ab958ba6fa1c3_MD5.jpg",
-    "JPG/e4b696a847bfa1ac441fed8e4788a113_MD5.jpg",
-    "JPG/52cfed443777f902ee3e17615c9d41d1_MD5.jpg",
-    "02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程.md",
-    "02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)..md",
-    "源/Part 2 Your Second Brain System (Done For You).md",
+    "JPG/845c310a297cacd0768f9a4032223125_MD5.jpg",
+    "JPG/0bb9398c80fb0ea1615000b9e0744022_MD5.jpg",
+    "02-raw/articles/为什么 90% 的富二代守不住财富？认知科学给出了答案.md",
+    "02-raw/articles/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
+    "JPG/7bb1d042691dd730778d63e4e42ee343_MD5.png",
+    "JPG/3aaafab04e2f58fefcbd0c168a88ff67_MD5.jpg",
+    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
+    "02-raw/articles/Thread by @Zenzhe99.md",
+    "02-raw/articles/Thread by @yaohui12138.md",
     "daily notes/任务清单.md",
-    "02-raw/articles/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
-    "源/How to Build Your Second Brain.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
-    "02-raw/articles/Thread by @__tinygrad__.md",
-    "02-raw/articles/Thread by @Guomin184935.md",
-    "02-raw/articles/Thread by @vivoplt.md",
-    "源/llm-wiki.md",
-    "源/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
-    "02-raw/articles/普通人都输在这3步：少收藏，重提炼，狠输出.md",
-    "源",
-    "02-raw/articles/零代码克隆纳瓦尔数字分身教程.md",
-    "02-raw/articles/2026/04/bannedbookfanqiang 翻墙-科学上网.md",
-    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
-    "03-wiki/concepts/AI/安全/CVE.md",
-    "03-wiki/concepts/AI/安全/Agentic-Security.md",
-    "03-wiki/indexes/All-Concepts.md",
+    "JPG/efc6b808a98fbca266039a548b90ecbc_MD5.jpg",
+    "JPG/8af6183cd9d24c2f1fef5a2b9d9e4600_MD5.jpg",
+    "JPG/085b26b1ff88752bed3485459ac1ff54_MD5.jpg",
+    "JPG/26baa586c0eb5c99f589324fc60ccf10_MD5.jpg",
+    "JPG/11aeb278aeeb630d8ff17f45224f61b0_MD5.jpg",
+    "JPG/8531252696dca6e40abdbea1c1c9c2eb_MD5.jpg",
+    "JPG/d11c164b8cd220357b5e5d9f7ad2f7aa_MD5.jpg",
+    "02-raw/articles/普通人如何用4小时系统性了解一个垂直领域.md",
     "03-wiki/indexes/All-Sources.md",
-    "03-wiki/indexes/by-source.md",
+    "03-wiki/indexes/All-Concepts.md",
+    "03-wiki/log.md",
+    "03-wiki/concepts/AI/投资理财/澳洲矿产.md",
+    "03-wiki/concepts/AI/个人成长/纳瓦尔宝典.md",
+    "03-wiki/concepts/AI/个人成长",
+    "03-wiki/concepts/AI/内容创作/算法分发.md",
+    "03-wiki/concepts/AI/内容创作",
+    "03-wiki/concepts/AI/投资理财/经济周期.md",
+    "03-wiki/concepts/AI/投资理财/BTC.md",
+    "03-wiki/concepts/AI/投资理财",
+    "03-wiki/concepts/AI/Claude-Code/工具执行.md",
+    "04-outputs/health/2026-04-07-健康检查.md",
+    "docs/superpowers/specs/2026-04-07-per-domain-vault-design.md",
+    "03-wiki/indexes/All-Synthesis.md",
+    "01-polaris/skills/lint.md",
+    "源/Part 2 Your Second Brain System (Done For You).md",
+    "源/How to Build Your Second Brain.md",
+    "源/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
+    "源/Thread by @0xKingsKuan.md",
+    "源/llm-wiki.md",
+    "源",
     "03-wiki/concepts/AI/英伟达GTC2026思维导图.excalidraw",
     "03-wiki/concepts/AI/安全",
     "01-polaris/skills",
     "docs/superpowers/plans",
     "docs/superpowers/specs",
-    "docs/superpowers",
-    "docs",
-    "JPG",
-    "Clippings"
+    "docs/superpowers"
   ]
 }

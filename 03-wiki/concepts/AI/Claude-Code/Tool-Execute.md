@@ -8,6 +8,8 @@ sources:
 relations:
   - [[../Agent-Loop]]     # context（Tool Execute 是 Agent Loop 的工具执行阶段）
   - [[../MCP]]           # uses（Tool Execute 通过 MCP 调用外部工具）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # Tool Execute

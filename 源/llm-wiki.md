@@ -5,6 +5,7 @@ author:
 published:
 created: 2026-04-07
 description: "llm-wiki. GitHub Gist: instantly share code, notes, and snippets."
+modified: 2026-04-07
 ---
 ## LLM Wiki
 

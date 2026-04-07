@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - AI学习
+category: AI学习
+---
 # Agent 训练师安全进阶：Agent 时代的安全攻防新范式
 
 > 原文来源：https://x.com/zhixianio/status/2030819779519603166

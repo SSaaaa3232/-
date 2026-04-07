@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 内容创作
+category: 内容创作
+---
 # Stanley 爆款文案背后的"社交传播动力学"
 
 > 来源：X @PandaMing88（TEDx教练）

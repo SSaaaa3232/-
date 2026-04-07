@@ -3,6 +3,8 @@ Github（YC）: https://github.com/garrytan/gstack
 tags:
   - AI
   - Skills
+created: 2026-04-04
+modified: 2026-04-04
 ---
 # 人物
 

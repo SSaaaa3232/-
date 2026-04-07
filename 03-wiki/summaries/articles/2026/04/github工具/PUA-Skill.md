@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - github工具
+category: github工具
+---
 # PUA Skill
 
 > AI Coding 技能插件 — 用"职场 PUA 话术"驱动 AI 穷尽所有方案

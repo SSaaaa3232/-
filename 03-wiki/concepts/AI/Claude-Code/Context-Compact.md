@@ -8,6 +8,8 @@ sources:
 relations:
   - [[../Agent-Loop]]        # context（Compact 是 Agent Loop 的一部分）
   - [[../Prompt-Caching]]  # context（都是上下文管理机制）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # Context Compact

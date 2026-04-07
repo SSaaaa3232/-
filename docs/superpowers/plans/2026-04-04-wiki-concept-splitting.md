@@ -1,3 +1,8 @@
+---
+created: 2026-04-05
+modified: 2026-04-05
+category: uncategorized
+---
 # Wiki 概念拆分与层级映射系统 — 实现计划
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.

@@ -1,3 +1,8 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+category: uncategorized
+---
 # AI学习YouTube频道推荐
 
 > 原文: https://x.com/billtheinvestor/status/2036114878327648385

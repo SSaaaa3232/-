@@ -1,3 +1,8 @@
+---
+created: 2026-04-07
+modified: 2026-04-07
+category: uncategorized
+---
 # Log
 
 > 03-wiki 的 append-only 操作记录。所有 ingest / query / lint 均追加于此。

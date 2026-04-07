@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 书单
+category: 书单
+---
 # New Ideas from Dead Economists
 
 > 来源：https://x.com/grgerwcwetwet/status/2034612612026225032

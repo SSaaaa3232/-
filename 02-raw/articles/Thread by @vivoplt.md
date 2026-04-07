@@ -6,6 +6,7 @@ author:
 published: 2026-03-21
 created: 2026-04-07
 description: "- Claude = coding. ($20/mo) - Supabase = backend. (Free) - Vercel = deploying. (Free) - Namecheap = domain. ($12/yr) - Stripe = payments. (2"
+modified: 2026-04-07
 ---
 **Vivo** @vivoplt [2026-03-21](https://x.com/vivoplt/status/2035372452394774888)
 

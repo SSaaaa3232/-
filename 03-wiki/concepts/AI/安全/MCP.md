@@ -8,6 +8,8 @@ sources:
 relations:
   - [[../Agentic-Security]]  # 共现（同一篇文章）
   - [[../Prompt-Injection]]  # context（MCP 工具输出可被污染）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # MCP（Model Context Protocol）

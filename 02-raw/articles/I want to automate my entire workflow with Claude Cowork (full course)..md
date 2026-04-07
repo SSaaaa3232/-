@@ -6,6 +6,7 @@ author:
 published: 2026-04-05
 created: 2026-04-07
 description: "Most people use Claude to answer questions.Save this :)A small group of people use Claude to run their entire operation while they focus on ..."
+modified: 2026-04-07
 ---
 Most people use Claude to answer questions.
 

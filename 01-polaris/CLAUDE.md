@@ -1,3 +1,8 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+category: uncategorized
+---
 # Claude 操作手册
 
 > 每次在 vault 工作前，必须先读取并遵守以下规则。

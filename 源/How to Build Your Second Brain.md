@@ -6,6 +6,7 @@ author:
 published: 2026-04-04
 created: 2026-04-07
 description: "@karpathy  dropped a post describing how he uses AI to build personal knowledge bases.The idea is simple: instead of keeping notes scattered..."
+modified: 2026-04-07
 ---
 [@karpathy](https://x.com/@karpathy) dropped a post describing how he uses AI to build personal knowledge bases.
 

@@ -8,6 +8,8 @@ sources:
 relations:
   - [[../Agent-Loop]]       # context（Prompt Caching 是 Agent Loop 的优化）
   - [[../Context-Compact]] # context（两者都是上下文管理机制）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # Prompt Caching

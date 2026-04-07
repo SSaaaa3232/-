@@ -6,6 +6,7 @@ author:
 published: 2026-04-07
 created: 2026-04-07
 description: "\"Part 1 showed you the folders. Part 2 gives you the system.\"Part 1 showed you the three folders. 12K people bookmarked the article. The fir..."
+modified: 2026-04-07
 ---
 **"Part 1 showed you the folders. Part 2 gives you the system."**
 

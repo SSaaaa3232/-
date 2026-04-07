@@ -1,6 +1,8 @@
 ---
 source: https://x.com/GoSailGlobal/status/2039500792202412094?s=20
 MemOS: https://github.com/MemTensor/MemOS
+created: 2026-04-04
+modified: 2026-04-04
 ---
 # 参考架构
 ![Image](https://pbs.twimg.com/media/HEzNtxJbwAAfRyb?format=jpg&name=medium)

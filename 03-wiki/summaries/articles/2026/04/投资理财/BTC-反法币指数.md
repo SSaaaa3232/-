@@ -1,3 +1,12 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - 投资理财
+category: 投资理财
+relations:
+  - [[03-wiki/concepts/AI/投资理财/BTC]]
+---
 # 货币越不稳定的国家，BTC使用率越高
 
 > 原文来源：https://x.com/chandlerguo/status/2030750609130020969

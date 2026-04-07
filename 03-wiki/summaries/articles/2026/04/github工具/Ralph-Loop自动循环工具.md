@@ -1,3 +1,10 @@
+---
+created: 2026-04-04
+modified: 2026-04-04
+tags:
+  - github工具
+category: github工具
+---
 # Ralph Loop - Claude Code 插件
 
 > ⚠️ 注意：此笔记原为独立项目 Ralph (snarktank/ralph)，现已更新为 Claude Code 插件版本。

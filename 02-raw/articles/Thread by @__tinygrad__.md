@@ -6,6 +6,7 @@ author:
 published: 2026-04-01
 created: 2026-04-07
 description: "If you have a Thunderbolt or USB4 eGPU and a Mac, today is the day you've been waiting for! Apple finally approved our driver for both AMD a"
+modified: 2026-04-07
 ---
 **the tiny corp** @\_\_tinygrad\_\_ [2026-04-01](https://x.com/__tinygrad__/status/2039213719155310736)
 

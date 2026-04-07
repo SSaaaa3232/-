@@ -7,6 +7,8 @@ sources:
   - [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]]
 relations:
   - [[../Agentic-Security]]  # 共现（同一篇文章）
+created: 2026-04-05
+modified: 2026-04-05
 ---
 
 # CVE（安全漏洞披露）
