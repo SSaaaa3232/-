@@ -1,4 +1,4 @@
-URL: https://www.nature.com/articles/s41598-024-30195-4
+URL: https://www.nature.com/articles/s41598-024-10569-w
 Format: markdown
 
 ## Your privacy, your choice
@@ -10,7 +10,7 @@ Accept all cookies Reject optional cookies
 Skip to main content
 Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.
 Advertisement
-[ ![Advertisement](https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&pos=top;type=article;path=/articles/s41598-024-30195-4) ](https://pubads.g.doubleclick.net/gampad/jump?iu=/285/nature.com/article&sz=728x90&pos=top;type=article;path=/articles/s41598-024-30195-4)
+[ ![Advertisement](https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&pos=top;type=article;path=/articles/s41598-024-10569-w) ](https://pubads.g.doubleclick.net/gampad/jump?iu=/285/nature.com/article&sz=728x90&pos=top;type=article;path=/articles/s41598-024-10569-w)
 [ ![[659598612f556433a6cdab4d72faad9d_MD5.svg]] ](https://www.nature.com/)
   * [ View all journals ](https://www.nature.com/siteindex)
   * [ Search ](javascript:;)
@@ -24,7 +24,7 @@ Search
     * [Find a job](https://www.nature.com/naturecareers)
     * [Guide to authors](https://www.nature.com/authors/index.html)
     * [Editorial policies](https://www.nature.com/authors/editorial_policies/)
-  * [Log in](https://idp.nature.com/auth/personal/springernature?redirect_uri=https://www.nature.com/articles/s41598-024-30195-4)
+  * [Log in](https://idp.nature.com/auth/personal/springernature?redirect_uri=https://www.nature.com/articles/s41598-024-10569-w)
 
 
   * [ Content Explore content ](javascript:;)
@@ -147,8 +147,8 @@ ISSN 0028-0836 (print)
   * [Your US state privacy rights](https://www.springernature.com/ccpa)
 
 
-[ ![[cbe1d559f5c3bc062df934e0f2ede7b1_MD5.svg]] ](https://www.springernature.com/)
+[ ![[cbe1d559f5c3bc062df934e0f2ede7b1_MD5 1.svg]] ](https://www.springernature.com/)
 © 2026 Springer Nature Limited
-![[71db09eceacd1f79b08f8309b0efc90c_MD5.png]]
+![[71db09eceacd1f79b08f8309b0efc90c_MD5 1.png]]
   *[ISSN]: International Standard Serial Number
-Metadata: {"360-site-verification":"5a2dc4ab3fcb9b0393241ffbbb490480","X-UA-Compatible":"IE=edge","access":"Yes","applicable-device":"pc,mobile","application-name":"Nature","content_type":"text/html","dc.rights":"© 2026 Springer Nature Limited","description":"Page not found","favicon":"https://www.nature.com/static/images/favicons/nature/favicon.ico","final_url":"https://www.nature.com/articles/s41598-024-30195-4","msapplication-TileColor":"#000000","msapplication-config":"/static/browserconfig.xml","prism.issn":"1476-4687","proxy_location":"US","proxy_sticky_session":"sticky-57bd6e7f","publisher":"Springer Nature","requested_url":"https://www.nature.com/articles/s41598-024-30195-4","status_code":200,"theme-color":"#000000","title":"Page not found | Nature","viewport":"width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes"}
+Metadata: {"360-site-verification":"5a2dc4ab3fcb9b0393241ffbbb490480","X-UA-Compatible":"IE=edge","access":"Yes","applicable-device":"pc,mobile","application-name":"Nature","content_type":"text/html","dc.rights":"© 2026 Springer Nature Limited","description":"Page not found","favicon":"https://www.nature.com/static/images/favicons/nature/favicon.ico","final_url":"https://www.nature.com/articles/s41598-024-10569-w","msapplication-TileColor":"#000000","msapplication-config":"/static/browserconfig.xml","prism.issn":"1476-4687","proxy_location":"US","proxy_sticky_session":"sticky-6251f288","publisher":"Springer Nature","requested_url":"https://www.nature.com/articles/s41598-024-10569-w","status_code":200,"theme-color":"#000000","title":"Page not found | Nature","viewport":"width=device-width,initial-scale=1.0,maximum-scale=5,user-scalable=yes"}

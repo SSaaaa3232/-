@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c0b2442c07225d11",
+        "id": "8c323d171d6e2641",
         "type": "tabs",
         "children": [
           {
-            "id": "a70e679a1eeab2bb",
+            "id": "42912d63fea16c4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "论文搜寻提示词.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "论文搜寻提示词"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -216,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 576
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,44 +241,45 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a70e679a1eeab2bb",
+  "active": "42912d63fea16c4f",
   "lastOpenFiles": [
-    "xcrawl-papers-20260407/pmc-PMC12400123.md",
-    "xcrawl-papers-20260407/pmc-PMC12316058.md",
-    "xcrawl-papers-20260407/pmc-PMC12294996.md",
-    "xcrawl-papers-20260407/pmc-PMC11951088.md",
-    "xcrawl-papers-20260407/pmc-PMC11921270.md",
-    "xcrawl-papers-20260407/00-奠基论文链接.md",
-    "xcrawl-papers-20260407/pmc-PMC11797079.md",
-    "xcrawl-papers-20260407/pmc-PMC11610952.md",
-    "xcrawl-papers-20260407/pmc-PMC11575710.md",
-    "xcrawl-papers-20260407/pmc-PMC11305264.md",
-    "xcrawl-papers-20260407/pmc-PMC11230112.md",
-    "xcrawl-papers-20260407/pmc-PMC11045668.md",
-    "xcrawl-papers-20260407/pmc-PMC10986841.md",
-    "xcrawl-papers-20260407/pmc-PMC10850783.md",
-    "xcrawl-papers-20260407/pmc-PMC10744951.md",
-    "xcrawl-papers-20260407/pmc-PMC10491207.md",
-    "xcrawl-papers-20260407/pmc-PMC10421094.md",
-    "xcrawl-papers-20260407/pmc-PMC10394328.md",
-    "xcrawl-papers-20260407/pmc-PMC10362907.md",
-    "xcrawl-papers-20260407/pmc-PMC10278144.md",
-    "xcrawl-papers-20260407/pmc-PMC10263009.md",
-    "xcrawl-papers-20260407/pmc-PMC10126289.md",
-    "xcrawl-papers-20260407/pmc-PMC9512779.md",
-    "xcrawl-papers-20260407/pmc-PMC9304647.md",
-    "xcrawl-papers-20260407/pmc-PMC9208136.md",
-    "xcrawl-papers-20260407/pmc-PMC9043136.md",
-    "6cf3f0387ee83f5d9af406355d2ff161_MD5.png",
-    "06f90e915015c4342077364da61f319b_MD5.svg",
-    "ac6e1f2ab7bc81f8091eb0b6f4069652_MD5.png",
-    "98075a580882bc11f3af6b3f0dd4653b_MD5.png",
-    "d8873c3198ddf4675bb1ffd372d2581a_MD5.png",
-    "a2248a400e5595938f9dea597473ba7c_MD5.png",
-    "532a8ef0bfc2531fce53c5a4bc2844d9_MD5.jpg",
-    "52322cdef560ae90555e4c12d53f8c09_MD5.png",
-    "ac6684cc8adaced2ea42ccd8da0cf43f_MD5.jpg",
-    "25efde4e1e78575afebd1dc6b1b59a66_MD5.png",
+    "奠基论文/00-奠基论文链接.md",
+    "奠基论文/www.nature.com_articles_s41598-024-30195-4.md",
+    "奠基论文/www.mdpi.com_2073-4360_17_15_2104.md",
+    "奠基论文",
+    "奠基论文/www.nature.com_articles_s41598-022-16599-0.md",
+    "奠基论文/www.hindawi.com_journals_ijce_2010_257873.md",
+    "奠基论文/www.academia.edu_144485908_Cofactor_engineering_for_advancing_chemical_biotechnology.md",
+    "奠基论文/pmc-PMC4128127.md",
+    "奠基论文/pmc-PMC3626847.md",
+    "奠基论文/nature-nbt0500-533.md",
+    "奠基论文/arxiv.org_html_2401.00670v1.md",
+    "奠基论文/analyticalsciencejournals.onlinelibrary.wiley.com_doi_10.1002_biot.201400422.md",
+    "奠基论文/academic.oup.com_jimb_article-abstract_45_5_313_5996662.md",
+    "奠基论文/academic.oup.com_jimb_article_42_3_403_5995536.md",
+    "奠基论文/academic.oup.com_femsre_article_doi_10.1093_femsre_fuaf053_8301235.md",
+    "JPG/ffd7d933c9237b1305342bca0a5aecc8_MD5.webp",
+    "JPG/ff685474dc0c72ada116abd167944564_MD5.png",
+    "JPG/0b756bd45f444f350e4e1fce5e9d5a4e_MD5.jpg",
+    "奠基论文/pmc-PMC12400123.md",
+    "奠基论文/pmc-PMC12316058.md",
+    "奠基论文/pmc-PMC12294996.md",
+    "奠基论文/pmc-PMC11951088.md",
+    "奠基论文/pmc-PMC11921270.md",
+    "奠基论文/pmc-PMC11797079.md",
+    "奠基论文/pmc-PMC11610952.md",
+    "奠基论文/pmc-PMC11575710.md",
+    "奠基论文/pmc-PMC11305264.md",
+    "奠基论文/pmc-PMC11230112.md",
+    "奠基论文/pmc-PMC11045668.md",
+    "奠基论文/pmc-PMC10986841.md",
+    "JPG/6cf3f0387ee83f5d9af406355d2ff161_MD5.png",
+    "JPG/06f90e915015c4342077364da61f319b_MD5.svg",
+    "JPG/ac6e1f2ab7bc81f8091eb0b6f4069652_MD5.png",
+    "JPG/98075a580882bc11f3af6b3f0dd4653b_MD5.png",
+    "JPG/d8873c3198ddf4675bb1ffd372d2581a_MD5.png",
+    "JPG/a2248a400e5595938f9dea597473ba7c_MD5.png",
+    "JPG/532a8ef0bfc2531fce53c5a4bc2844d9_MD5.jpg",
     "xcrawl-papers-20260407",
     "03-wiki/concepts/AI/个人成长",
     "03-wiki/concepts/AI/内容创作",
@@ -283,7 +288,6 @@
     "03-wiki/concepts/AI/英伟达GTC2026思维导图.excalidraw",
     "03-wiki/concepts/AI/安全",
     "01-polaris/skills",
-    "docs/superpowers/plans",
-    "docs/superpowers/specs"
+    "docs/superpowers/plans"
   ]
 }
