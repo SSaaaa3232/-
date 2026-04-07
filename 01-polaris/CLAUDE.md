@@ -42,7 +42,8 @@
 03-wiki/       # 编译产物（LLM 维护）
 ├── summaries/articles/ # 摘要镜像 raw 结构
 ├── concepts/           # 概念卡片（按主题）
-└── indexes/           # All-Sources、All-Concepts
+├── synthesis/         # 问答回写的综合分析（按主题）
+└── indexes/           # All-Sources、All-Concepts、All-Synthesis
 
 04-outputs/    # 运行时输出
 ├── qa/                # 问答沉淀
@@ -77,13 +78,41 @@ x/             # X 推文成品
 
 ---
 
+## Operations（三种操作）
+
+### Ingest（录入）
+**触发**：`/compile [路径]`
+**输入**：02-raw/ 下的原始资料
+**执行步骤**：
+1. 读取原始文件，生成 summary 写入 `03-wiki/summaries/[镜像路径]/`
+2. 识别并提取概念 → 更新或新建 `03-wiki/concepts/` 下的 concept 卡
+3. 补充共现链接和推理链接（按 compile.md 规则，审批 > 2 层的情况）
+4. 更新 `03-wiki/indexes/All-Sources.md` 和 `03-wiki/indexes/All-Concepts.md`
+5. 在 `03-wiki/log.md` 追加记录：`## [YYYY-MM-DD] ingest | 文件名`
+
+### Query（查询）
+**触发**：用户主动提问，或 `/qa`
+**规则**：
+- AI 读取相关 concept/summary 页面，综合作答并附上引用
+- 若答案质量高（包含对比、综合分析、跨多个概念的新洞见）→ 询问用户是否写回 wiki
+- 同意后：生成 synthesis 页面写入 `03-wiki/synthesis/[主题]/YYYY-MM-DD-分析标题.md`
+- 所有 qa 结果写入 `04-outputs/qa/YYYY/MM/`，并追加到 `03-wiki/log.md`
+
+### Lint（健康检查）
+**触发**：`/lint`
+**检查项**：孤立页面、矛盾页面、过时断言、来源不足（< 2）、缺失交叉引用、空/不完整页面
+**输出**：`04-outputs/health/YYYY-MM-DD-健康检查.md`
+**频率**：每月一次，或 wiki 每增长 ~20 篇 summary 后执行
+
+---
+
 ## Skills 触发
 
 | Skill  | 触发词             | 用途               |
 | ------ | --------------- | ---------------- |
 | 编译     | `/compile [日期]` | 编译指定日期的 raw 文章   |
 | Q&A 沉淀 | `/qa`           | 把当前对话沉淀到 outputs |
-| 健康检查   | `/health`       | 生成健康检查报告         |
+| 健康检查   | `/lint`         | 审计 wiki 健康度，生成报告 |
 | 发布 X   | `/publish x`    | 格式化内容发布到 X       |
 
 ---
