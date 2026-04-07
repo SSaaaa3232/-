@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "02-raw/articles/用4小时系统性了解一个垂直领域.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "用4小时系统性了解一个垂直领域"
+            }
+          },
+          {
+            "id": "fdaf36fbb1dff38e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "论文框架.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "论文框架"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,8 +256,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "cd183f72ff411132",
+  "active": "fdaf36fbb1dff38e",
   "lastOpenFiles": [
+    "02-raw/articles/用4小时系统性了解一个垂直领域.md",
     "论文框架.md",
     "03-wiki/concepts/AI/Claude-Code/工具执行.md",
     "03-wiki/concepts/AI/Claude-Code/Tool-Execute.md",
@@ -267,7 +283,6 @@
     "03-wiki/concepts/AI/claude code/REPO.md",
     "03-wiki/concepts/AI/claude code/MCP.md",
     "03-wiki/concepts/AI/claude code/Agent.md",
-    "02-raw/articles/用4小时系统性了解一个垂直领域.md",
     "JPG/845c310a297cacd0768f9a4032223125_MD5.jpg",
     "JPG/0bb9398c80fb0ea1615000b9e0744022_MD5.jpg",
     "02-raw/articles/为什么 90% 的富二代守不住财富？认知科学给出了答案.md",
