@@ -1,0 +1,3077 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation:
+      - generic [ref=e4]:
+        - link "Frontiershome" [ref=e6] [cursor=pointer]:
+          - /url: //www.frontiersin.org/
+          - img [ref=e7]
+        - generic [ref=e19]:
+          - button "About us " [ref=e20]
+          - text:  
+        - link "All journals" [ref=e21] [cursor=pointer]:
+          - /url: https://www.frontiersin.org/journals
+        - link "All articles" [ref=e22] [cursor=pointer]:
+          - /url: https://www.frontiersin.org/articles
+        - link "Submit your research" [ref=e23] [cursor=pointer]:
+          - /url: https://www.frontiersin.org/submission/submit?domainid=1&fieldid=7&specialtyid=0&entitytype=2&entityid=452
+        - link "Search" [ref=e24] [cursor=pointer]:
+          - /url: //www.frontiersin.org/search?tab=top-results&origin=https%3A%2F%2Fwww.frontiersin.org%2Fjournals%2Fbioengineering-and-biotechnology%2Farticles%2F10.3389%2Ffbioe.2025.1504785%2Ffull
+          - text: Search
+        - link "Login" [ref=e2195] [cursor=pointer]:
+          - /url: https://www.frontiersin.org/people/login?returnUrl=https%3A%2F%2Fwww.frontiersin.org%2Fjournals%2Fbioengineering-and-biotechnology%2Farticles%2F10.3389%2Ffbioe.2025.1504785%2Ffull
+          - text: Login
+      - generic:          
+      - generic [ref=e27]:
+        - link "Frontiers in Bioengineering and Biotechnology" [ref=e28] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/bioengineering-and-biotechnology
+          - generic [ref=e30]: Frontiers in Bioengineering and Biotechnology
+        - generic [ref=e32]:
+          - button "Sections " [ref=e33]
+          - text:  
+        - link "Articles" [ref=e34] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/bioengineering-and-biotechnology/articles
+        - link "Research Topics" [ref=e35] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/bioengineering-and-biotechnology/research-topics
+        - link "Editorial board" [ref=e36] [cursor=pointer]:
+          - /url: //www.frontiersin.org/journals/bioengineering-and-biotechnology/editors
+        - generic [ref=e38]:
+          - button "About journal " [ref=e39]
+          - text:  
+    - generic [ref=e41]:
+      - complementary [ref=e42]:
+        - article [ref=e44]:
+          - link "Go to section page" [ref=e45] [cursor=pointer]:
+            - /url: https://www.frontiersin.org/journals/bioengineering-and-biotechnology
+            - generic [ref=e46]: Published in
+            - figure [ref=e48]:
+              - img "Frontiers in Bioengineering and Biotechnology" [ref=e50]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: Frontiers in Bioengineering and Biotechnology
+              - list [ref=e53]:
+                - listitem [ref=e54]:
+                  - heading "Synthetic Biology" [level=4] [ref=e55]
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - generic [ref=e59]: "4.8"
+                - text: impact factor
+              - listitem [ref=e60]:
+                - generic [ref=e61]: "8.8"
+                - text: citescore
+        - generic [ref=e62]:
+          - button " Editor & Reviewers" [ref=e63]:
+            - generic [ref=e64]: 
+            - heading "Editor & Reviewers" [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: Edited by
+            - link "Ruud Weusthuis" [ref=e68] [cursor=pointer]:
+              - /url: https://loop.frontiersin.org/people/242262
+              - figure [ref=e69]:
+                - img "Ruud Weusthuis" [ref=e70]
+              - paragraph [ref=e72]: Ruud Weusthuis
+            - paragraph [ref=e73]: Reviewed by
+            - link "Zhiming Rao" [ref=e74] [cursor=pointer]:
+              - /url: https://loop.frontiersin.org/people/827366
+              - figure [ref=e75]:
+                - img "Zhiming Rao" [ref=e76]
+              - paragraph [ref=e78]: Zhiming Rao
+            - link "Roland Wohlgemuth" [ref=e79] [cursor=pointer]:
+              - /url: https://loop.frontiersin.org/people/46328
+              - figure [ref=e80]:
+                - img "Roland Wohlgemuth" [ref=e81]
+              - paragraph [ref=e83]: Roland Wohlgemuth
+        - generic [ref=e84]:
+          - generic [ref=e86]:
+            - paragraph [ref=e87]:
+              - generic [ref=e88]: 
+              - text: Outline
+            - navigation [ref=e89]:
+              - list [ref=e90]:
+                - listitem [ref=e91]:
+                  - link " Abstract" [ref=e93] [cursor=pointer]:
+                    - /url: "#h1"
+                    - generic: 
+                    - paragraph [ref=e94]: Abstract
+                - listitem [ref=e95]:
+                  - link " 1 Introduction" [ref=e96] [cursor=pointer]:
+                    - /url: "#s1"
+                    - generic: 
+                    - paragraph [ref=e97]: 1 Introduction
+                - listitem [ref=e98]:
+                  - link " 2 Materials and methods" [ref=e99] [cursor=pointer]:
+                    - /url: "#s2"
+                    - generic: 
+                    - paragraph [ref=e100]: 2 Materials and methods
+                - listitem [ref=e101]:
+                  - link " 3 Results" [ref=e102] [cursor=pointer]:
+                    - /url: "#s3"
+                    - generic: 
+                    - paragraph [ref=e103]: 3 Results
+                - listitem [ref=e104]:
+                  - link " Data availability statement" [ref=e105] [cursor=pointer]:
+                    - /url: "#s4"
+                    - generic: 
+                    - paragraph [ref=e106]: Data availability statement
+                - listitem [ref=e107]:
+                  - link " Author contributions" [ref=e108] [cursor=pointer]:
+                    - /url: "#s5"
+                    - generic: 
+                    - paragraph [ref=e109]: Author contributions
+                - listitem [ref=e110]:
+                  - link " Funding" [ref=e111] [cursor=pointer]:
+                    - /url: "#s6"
+                    - generic: 
+                    - paragraph [ref=e112]: Funding
+                - listitem [ref=e113]:
+                  - link " Acknowledgments" [ref=e114] [cursor=pointer]:
+                    - /url: "#h8"
+                    - generic: 
+                    - paragraph [ref=e115]: Acknowledgments
+                - listitem [ref=e116]:
+                  - link " Conflict of interest" [ref=e117] [cursor=pointer]:
+                    - /url: "#s7"
+                    - generic: 
+                    - paragraph [ref=e118]: Conflict of interest
+                - listitem [ref=e119]:
+                  - link " Generative AI statement" [ref=e120] [cursor=pointer]:
+                    - /url: "#s8"
+                    - generic: 
+                    - paragraph [ref=e121]: Generative AI statement
+                - listitem [ref=e122]:
+                  - link " Publisher’s note" [ref=e123] [cursor=pointer]:
+                    - /url: "#s9"
+                    - generic: 
+                    - paragraph [ref=e124]: Publisher’s note
+                - listitem [ref=e125]:
+                  - link " Supplementary material" [ref=e126] [cursor=pointer]:
+                    - /url: "#s10"
+                    - generic: 
+                    - paragraph [ref=e127]: Supplementary material
+                - listitem [ref=e128]:
+                  - link " References" [ref=e129] [cursor=pointer]:
+                    - /url: "#h13"
+                    - generic: 
+                    - paragraph [ref=e130]: References
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - img [ref=e134]
+              - text: Figures and Tables
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - paragraph [ref=e138]: FIGURE 1
+                - 'button "View {{ title }} in lightbox" [ref=e139]':
+                  - figure [ref=e140]
+                  - img [ref=e142]
+                - link "View FIGURE 1 in article" [ref=e144] [cursor=pointer]:
+                  - /url: "#F1"
+                  - img [ref=e145]
+                  - text: View in article
+              - listitem [ref=e147]:
+                - paragraph [ref=e148]: FIGURE 2
+                - 'button "View {{ title }} in lightbox" [ref=e149]':
+                  - figure [ref=e150]
+                  - img [ref=e152]
+                - link "View FIGURE 2 in article" [ref=e154] [cursor=pointer]:
+                  - /url: "#F2"
+                  - img [ref=e155]
+                  - text: View in article
+              - listitem [ref=e157]:
+                - paragraph [ref=e158]: FIGURE 3
+                - 'button "View {{ title }} in lightbox" [ref=e159]':
+                  - figure [ref=e160]
+                  - img [ref=e162]
+                - link "View FIGURE 3 in article" [ref=e164] [cursor=pointer]:
+                  - /url: "#F3"
+                  - img [ref=e165]
+                  - text: View in article
+              - listitem [ref=e167]:
+                - paragraph [ref=e168]: FIGURE 4
+                - 'button "View {{ title }} in lightbox" [ref=e169]':
+                  - figure [ref=e170]
+                  - img [ref=e172]
+                - link "View FIGURE 4 in article" [ref=e174] [cursor=pointer]:
+                  - /url: "#F4"
+                  - img [ref=e175]
+                  - text: View in article
+              - listitem [ref=e177]:
+                - paragraph [ref=e178]: FIGURE 5
+                - 'button "View {{ title }} in lightbox" [ref=e179]':
+                  - figure [ref=e180]
+                  - img [ref=e182]
+                - link "View FIGURE 5 in article" [ref=e184] [cursor=pointer]:
+                  - /url: "#F5"
+                  - img [ref=e185]
+                  - text: View in article
+              - listitem [ref=e187]:
+                - paragraph [ref=e188]: TABLE 1
+                - 'button "View {{ title }} in lightbox" [ref=e189]':
+                  - img [ref=e191]
+                  - paragraph [ref=e193]: Plasmids used in this study.
+                - link "View TABLE 1 in article" [ref=e194] [cursor=pointer]:
+                  - /url: "#T1"
+                  - img [ref=e195]
+                  - text: View in article
+              - listitem [ref=e197]:
+                - paragraph [ref=e198]: TABLE 2
+                - 'button "View {{ title }} in lightbox" [ref=e199]':
+                  - img [ref=e201]
+                  - paragraph [ref=e203]: Escherichia coli strains used in this study.
+                - link "View TABLE 2 in article" [ref=e204] [cursor=pointer]:
+                  - /url: "#T2"
+                  - img [ref=e205]
+                  - text: View in article
+              - listitem [ref=e207]:
+                - paragraph [ref=e208]: TABLE 3
+                - 'button "View {{ title }} in lightbox" [ref=e209]':
+                  - img [ref=e211]
+                  - paragraph [ref=e213]:
+                    - text: Kinetic analysis of OHB reductases Ec.Mdh
+                    - superscript [ref=e214]: 5Q
+                    - text: and Ec.Mdh
+                    - superscript [ref=e215]: 7Q
+                    - text: .
+                - link "View TABLE 3 in article" [ref=e216] [cursor=pointer]:
+                  - /url: "#T3"
+                  - img [ref=e217]
+                  - text: View in article
+      - main [ref=e219]:
+        - generic [ref=e221]:
+          - heading "ORIGINAL RESEARCH article" [level=2] [ref=e222]
+          - paragraph [ref=e223]: Front. Bioeng. Biotechnol., 20 February 2025
+          - paragraph [ref=e224]: Sec. Synthetic Biology
+          - paragraph [ref=e225]:
+            - text: Volume 13 - 2025 |
+            - link "https://doi.org/10.3389/fbioe.2025.1504785" [ref=e226] [cursor=pointer]:
+              - /url: https://doi.org/10.3389/fbioe.2025.1504785
+        - heading "Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway" [level=1] [ref=e227]
+        - generic [ref=e228]:
+          - list [ref=e229]:
+            - listitem [ref=e230]:
+              - link "Nadine Ihle 1" [ref=e231] [cursor=pointer]:
+                - /url: https://loop.frontiersin.org/people/2854746
+                - figure [ref=e232]:
+                  - img "Nadine Ihle" [ref=e233]
+                - paragraph [ref=e234]:
+                  - text: Nadine Ihle
+                  - superscript [ref=e235]: "1"
+            - listitem [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]: L
+                  - generic: G
+                - paragraph [ref=e240]:
+                  - text: Laura Grüßner
+                  - superscript [ref=e241]: "1"
+            - listitem [ref=e242]:
+              - link "Ceren Alkim 2" [ref=e243] [cursor=pointer]:
+                - /url: https://loop.frontiersin.org/people/2021358
+                - figure [ref=e244]:
+                  - img "Ceren Alkim" [ref=e245]
+                - paragraph [ref=e246]:
+                  - text: Ceren Alkim
+                  - superscript [ref=e247]: "2"
+            - listitem [ref=e248]:
+              - link "T. A. Stefanie Nguyen 1" [ref=e249] [cursor=pointer]:
+                - /url: https://loop.frontiersin.org/people/2973032
+                - figure [ref=e250]:
+                  - img "T. A. Stefanie Nguyen" [ref=e251]
+                - paragraph [ref=e252]:
+                  - text: T. A. Stefanie Nguyen
+                  - superscript [ref=e253]: "1"
+            - listitem [ref=e254]:
+              - link "Thomas Walther 1" [ref=e255] [cursor=pointer]:
+                - /url: https://loop.frontiersin.org/people/2146245
+                - figure [ref=e256]:
+                  - img "Thomas Walther" [ref=e257]
+                - paragraph [ref=e258]:
+                  - text: Thomas Walther
+                  - superscript [ref=e259]: "1"
+            - listitem [ref=e260]:
+              - link "Cláudio J. R. Frazão 1 *" [ref=e261] [cursor=pointer]:
+                - /url: https://loop.frontiersin.org/people/2858310
+                - figure [ref=e262]:
+                  - img "Cláudio J. R. Frazão" [ref=e263]
+                - paragraph [ref=e264]:
+                  - text: Cláudio J. R. Frazão
+                  - superscript [ref=e265]: "1"
+                  - superscript [ref=e266]: "*"
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - paragraph [ref=e270]: 1. Chair of Bioprocess Engineering, Institute of Natural Materials Technology, TU Dresden, Dresden, Germany
+            - listitem [ref=e271]:
+              - paragraph [ref=e272]: 2. Toulouse Biotechnology Institute, UMR INSA-CNRS5504 and UMR INSA-INRAE 792, Toulouse, France
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - heading "Abstract" [level=2] [ref=e276]
+              - paragraph [ref=e277]:
+                - text: (L)-2,4-dihydroxybutyrate (DHB) is a versatile compound that can serve as a precursor for the synthesis of the methionine analog 2-hydroxy-4-(methylthio)butyrate and new advanced polymers. We previously implemented in Escherichia coli an artificial biosynthetic pathway for the aerobic production of DHB from glucose, which relies on the deamination of (L)-homoserine followed by the reduction of 2-oxo-4-hydroxybutyrate (OHB) and yields DHB by an enzyme-bearing NADH-dependent OHB reductase activity. Under aerobic conditions, using NADPH as a cofactor is more favorable for reduction processes. We report the construction of an NADPH-dependent OHB reductase and increased intracellular NADPH supply by metabolic engineering to improve DHB production. Key cofactor discriminating positions were identified in the previously engineered NADH-dependent OHB reductase (E. coli malate dehydrogenase I12V:R81A:M85Q:D86S:G179D) and tested by mutational scanning. The two point mutations D34G:I35R were found to increase the specificity for NADPH by more than three orders of magnitude. Using the new OHB reductase enzyme, replacing the homoserine transaminase with the improved variant Ec.AlaC A142P:Y275D and increasing the NADPH supply by overexpressing the pntAB gene encoding the membrane-bound transhydrogenase yielded a strain that produced DHB from glucose at a yield of 0.25 mol
+                - subscript [ref=e278]: DHB
+                - text: mol
+                - subscript [ref=e279]: Glucose
+                - superscript [ref=e280]: −1
+                - text: in shake-flask experiments, which corresponds to a 50% increase compared to previous producer strains. Upon 24 h of batch cultivation of the most advanced DHB producer strain constructed in this work, a volumetric productivity of 0.83 mmol
+                - subscript [ref=e281]: DHB
+                - text: L
+                - superscript [ref=e282]: −1
+                - text: h
+                - superscript [ref=e283]: −1
+                - text: was reached.
+            - generic [ref=e284]:
+              - heading "1 Introduction" [level=2] [ref=e285]
+              - paragraph [ref=e286]:
+                - text: (L)-2,4-dihydroxybutyrate (DHB) is a versatile compound of growing industrial relevance, as it can serve as a precursor for the chemical production of the methionine analog 2-hydroxy-4-(methylthio)butyrate (HMTB) used in animal nutrition (
+                - link "Walther et al., 2017a" [ref=e287] [cursor=pointer]:
+                  - /url: "#B45"
+                - text: ) or as a building block for new advanced biopolymers (
+                - link "François, 2023" [ref=e288] [cursor=pointer]:
+                  - /url: "#B19"
+                - text: ). Furthermore, DHB can serve as a precursor for the synthesis of 1,3-propanediol (
+                - link "Frazão et al., 2019" [ref=e289] [cursor=pointer]:
+                  - /url: "#B22"
+                - text: ) or 1,2,4-butanetriol (
+                - link "Li et al., 2014" [ref=e290] [cursor=pointer]:
+                  - /url: "#B31"
+                - text: ). Although the occurrence of DHB at trace levels in patients with succinic semialdehyde dehydrogenase deficiency has been described previously (
+                - link "Shinka et al., 2002" [ref=e291] [cursor=pointer]:
+                  - /url: "#B43"
+                - text: ), there is no annotated natural metabolic pathway for its biosynthesis.
+              - paragraph [ref=e292]:
+                - text: Aided by synthetic biology and enzyme engineering, we and others have previously reported three artificial biosynthetic pathways for the aerobic, microbial production of DHB starting from the widely abundant and inexpensive sugar glucose (
+                - link "Walther et al., 2017b" [ref=e293] [cursor=pointer]:
+                  - /url: "#B47"
+                - text: ;
+                - link "Walther et al., 2015" [ref=e294] [cursor=pointer]:
+                  - /url: "#B46"
+                - text: ;
+                - link "Walther et al., 2017a" [ref=e295] [cursor=pointer]:
+                  - /url: "#B45"
+                - text: ). It is of note, however, that all the new routes are fully compatible with the use of other sugars (e.g., xylose, mannose, sucrose) or alcohols (e.g., methanol, ethylene glycol) as starting carbon sources, as all DHB pathways start from naturally occurring metabolites (homoserine, malate, or glyoxylate/acetyl-CoA). The different metabolic routes were tested in Escherichia coli. The highest reported titers (7.9 ± 0.01 mM) and yields (0.10 ± 0.01 mol
+                - subscript [ref=e296]: DHB
+                - text: mol
+                - subscript [ref=e297]: Glucose
+                - superscript [ref=e298]: −1
+                - text: ) in shake-flask cultivations with glucose as carbon source have been achieved with the DHB pathway proceeding through the characteristic natural intermediate (L)-homoserine (
+                - link "Frazão et al., 2018" [ref=e299] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ). This route enables DHB synthesis via sequential deamination of (L)-homoserine by homoserine transaminase activity and reduction of 2-oxo-4-hydroxybutyrate (OHB) by an OHB reductase activity (
+                - link "Figure 1" [ref=e300] [cursor=pointer]:
+                  - /url: "#F1"
+                - text: ). In a previous study, we reported the construction of the highly active NADH-dependent OHB reductase Ec.Mdh
+                - superscript [ref=e301]: 5Q
+                - text: (
+                - link "Frazão et al., 2018" [ref=e302] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ). The mutant variant descends from the parent NAD
+                - superscript [ref=e303]: +
+                - text: "-dependent (L)-malate dehydrogenase from E. coli (Ec.Mdh) and incorporates five mutations (I12V:R81A:M85Q:D86S:G179D) to yield the desired synthetic activity. However, the typical intracellular ratios of [NADH]/[NAD"
+                - superscript [ref=e304]: +
+                - text: "] and [NADPH]/[NADP"
+                - superscript [ref=e305]: +
+                - text: "] in E. coli cells cultivated under aerobic conditions are 0.03 and 60, respectively ("
+                - link "Bennett et al., 2009" [ref=e306] [cursor=pointer]:
+                  - /url: "#B2"
+                - text: ), which suggests that the utilization of NADPH as a cofactor in aerobic reduction processes may be more favorable. Therefore, employing an enzyme bearing NADPH-dependent OHB reductase activity could provide a strong advantage in terms of pathway performance.
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - paragraph [ref=e309]: FIGURE 1
+                  - button "Download Figure" [ref=e310] [cursor=pointer]:
+                    - img [ref=e311]
+                  - button "Expand Figure" [ref=e314] [cursor=pointer]:
+                    - img [ref=e315]
+                - button "Open lightbox for FIGURE 1" [ref=e317]:
+                  - figure [ref=e318]:
+                    - generic [ref=e319]:
+                      - img "FIGURE 1"
+                    - paragraph [ref=e321]:
+                      - text: "Aerobic synthesis of (L)-2,4-dihydroxybutyric acid (DHB) from glucose via the artificial homoserine pathway (bluish-green) and applied strategies for increased NADPH availability in Escherichia coli. Abbreviations: 1,3bPG, 1,3-bisphospho-glycerate; AcCoA, acetyl-CoA; ASP, aspartate; ASP-P, aspartyl phosphate; ASP-SA, aspartate semialdehyde; CIT, citrate; DHAP, dihydroxyacetone phosphate; F1,6bP, fructose-1,6-bisphosphate; F6P, fructose-6-phosphate; FUM, fumarate; G3P, glyceraldehyde-3-phosphate; G6P, glucose-6-phosphate; Glc, glucose; ICI, isocitrate; (L)-DHB, (L)-2,4-dihydroxybutyrate; (L)-HS, (L)-homoserine; (L)-MET, (L)-methionine; (L)-THR, (L)-threonine; MAL, malate; OAA, oxaloacetate; OHB, 2-oxo-4-hydroxybutyrate; O-P-(L)-HS, O-phospho-L-homoserine; O-Suc-(L)-HS, O-succinyl-(L)-homoserine; PEP, phosphoenolpyruvate; PP pathway, pentose phosphate pathway; PYR, pyruvate; SUC, succinate; SucCoA, succinyl-CoA; TCA, tricarboxylic acid cycle; α-KG, α-ketoglutarate; Gene names are written in italics. Ec.pfkA–gene encoding 6-phosphofructokinase; Ec.sthA–gene encoding soluble pyridine nucleotide transhydrogenase; Ec.pntAB–gene encoding membrane-bound pyridine nucleotide transhydrogenase; Ec.ppc"
+                      - subscript [ref=e322]: K620S
+                      - text: –gene encoding aspartate/malate insensitive phosphoenolpyruvate carboxylase mutant (
+                      - link "Walther et al., 2017a" [ref=e323] [cursor=pointer]:
+                        - /url: "#B45"
+                      - text: ); Ec.thrA
+                      - subscript [ref=e324]: S345F
+                      - text: –gene encoding threonine-insensitive bifunctional aspartate kinase/HMS dehydrogenase mutant (
+                      - link "Walther et al., 2017a" [ref=e325] [cursor=pointer]:
+                        - /url: "#B45"
+                      - text: ). The main glucose uptake pathway in Escherichia coli via the phosphoenolpyruvate-dependent glucose-specific phosphotransferase system (
+                      - link "Liang et al., 2015" [ref=e326] [cursor=pointer]:
+                        - /url: "#B32"
+                      - text: ) is marked by a bold arrow. Red crosses mark chromosomal gene deletion, and the red arrow indicates chromosomal overexpression. Bluish-green arrows mark the enzyme activities of synthetic homoserine-dependent pathways provided by plasmid-based expression.
+              - paragraph [ref=e327]:
+                - text: In the absence of annotated naturally occurring enzymes with NADPH-dependent OHB reductase activity, we chose NADH-dependent Ec.Mdh
+                - superscript [ref=e328]: 5Q
+                - text: as the template enzyme to engineer the required activity. Previous studies have focused on engineering the nicotinamide cofactor specificity of oxidoreductases following rational approaches [as reviewed by
+                - link "Chánique and Parra (2018)" [ref=e329] [cursor=pointer]:
+                  - /url: "#B8"
+                - text: "] and typically rely on introducing amino acid substitutions in the co-enzyme binding site. Following this logic, we used comparative sequence and structural analyses supported by the use of a structure-guided web tool ("
+                - link "Cahn et al., 2017" [ref=e330] [cursor=pointer]:
+                  - /url: "#B7"
+                - text: ) to engineer NADPH-dependent OHB reductase activity. The best-performing mutant, assessed by in vitro analysis, was subsequently introduced into a strain that produced DHB via the synthetic homoserine pathway. To demonstrate the full potential of our engineered NADPH-dependent OHB reductase variant and to prevent NADPH becoming a limiting factor in product synthesis, we transferred the DHB pathway into NADPH-overproducing E. coli strains (
+                - link "Figure 1" [ref=e331] [cursor=pointer]:
+                  - /url: "#F1"
+                - text: ) expressing the improved transaminase variant Ec.alaC
+                - subscript [ref=e332]: A142P:Y275D
+                - text: and showed a 50% increased DHB yield in shake-flask cultivations with glucose as the only carbon source for the most advanced strain.
+            - generic [ref=e333]:
+              - heading "2 Materials and methods" [level=2] [ref=e334]
+              - heading "2.1 Reagents and chemicals" [level=3] [ref=e335]
+              - paragraph [ref=e336]: Unless stated otherwise, chemicals and solvents were purchased from Sigma-Aldrich (Darmstadt, Germany). Restriction enzymes and kits for plasmid DNA isolation, gel DNA extraction, and PCR clean-up were purchased from NEB (Frankfurt am Main, Germany) and used according to the manufacturer’s instructions. Primers were purchased from Sigma-Aldrich. Sanger sequencing was carried out by Genewiz (Leipzig, Germany).
+              - heading "2.2 Strains and plasmids" [level=3] [ref=e337]
+              - paragraph [ref=e338]:
+                - text: All strains and plasmids used in this study are listed in
+                - link "Tables 1" [ref=e339] [cursor=pointer]:
+                  - /url: "#T1"
+                - text: ","
+                - link "2" [ref=e340] [cursor=pointer]:
+                  - /url: "#T2"
+                - text: .
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - paragraph [ref=e343]: TABLE 1
+                  - button "Expand Table" [ref=e344] [cursor=pointer]:
+                    - img [ref=e345]
+                - table [ref=e348]:
+                  - rowgroup [ref=e349]:
+                    - row "Plasmid Relevant characteristic Reference/Origin" [ref=e350]:
+                      - columnheader "Plasmid" [ref=e351]
+                      - columnheader "Relevant characteristic" [ref=e352]
+                      - columnheader "Reference/Origin" [ref=e353]
+                  - rowgroup [ref=e354]:
+                    - row "pKD4 R6K γ ori, FRT-flanked Kan R , and Amp R Datsenko and Wanner (2000)" [ref=e355]:
+                      - cell "pKD4" [ref=e356]
+                      - cell "R6K γ ori, FRT-flanked Kan R , and Amp R" [ref=e357]:
+                        - text: R6K γ ori, FRT-flanked Kan
+                        - superscript [ref=e358]: R
+                        - text: ", and Amp"
+                        - superscript [ref=e359]: R
+                      - cell "Datsenko and Wanner (2000)" [ref=e360]:
+                        - link "Datsenko and Wanner (2000)" [ref=e361] [cursor=pointer]:
+                          - /url: "#B16"
+                    - row "pKD46 pSC101 ori, araC-ParaB, λ-Red recombinase system (γ, β, exo, λ tL3 terminator), and Amp R Datsenko and Wanner (2000)" [ref=e362]:
+                      - cell "pKD46" [ref=e363]
+                      - cell "pSC101 ori, araC-ParaB, λ-Red recombinase system (γ, β, exo, λ tL3 terminator), and Amp R" [ref=e364]:
+                        - text: pSC101 ori, araC-P
+                        - subscript [ref=e365]: araB
+                        - text: ", λ-Red recombinase system (γ, β, exo, λ tL3 terminator), and Amp"
+                        - superscript [ref=e366]: R
+                      - cell "Datsenko and Wanner (2000)" [ref=e367]:
+                        - link "Datsenko and Wanner (2000)" [ref=e368] [cursor=pointer]:
+                          - /url: "#B16"
+                    - row "pCP20 pSC101 ori, Amp R , Cm R , and Flp Cherepanov and Wilfried (1995)" [ref=e369]:
+                      - cell "pCP20" [ref=e370]
+                      - cell "pSC101 ori, Amp R , Cm R , and Flp" [ref=e371]:
+                        - text: pSC101 ori, Amp
+                        - superscript [ref=e372]: R
+                        - text: ", Cm"
+                        - superscript [ref=e373]: R
+                        - text: ", and Flp"
+                      - cell "Cherepanov and Wilfried (1995)" [ref=e374]:
+                        - link "Cherepanov and Wilfried (1995)" [ref=e375] [cursor=pointer]:
+                          - /url: "#B10"
+                    - row "In vitro studies" [ref=e376]:
+                      - cell "In vitro studies" [ref=e377]
+                    - row "pET28a(+) f1 origin, Kan R , and T7 promoter Novagen™" [ref=e378]:
+                      - cell "pET28a(+)" [ref=e379]
+                      - cell "f1 origin, Kan R , and T7 promoter" [ref=e380]:
+                        - text: f1 origin, Kan
+                        - superscript [ref=e381]: R
+                        - text: ", and T7 promoter"
+                      - cell "Novagen™" [ref=e382]
+                    - row "pET28-Ec-Mdh 5Q pET28a(+) derivative N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S Frazão et al. (2018)" [ref=e383]:
+                      - cell "pET28-Ec-Mdh 5Q" [ref=e384]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e385]: 5Q
+                      - cell "pET28a(+) derivative N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S" [ref=e386]:
+                        - text: pET28a(+) derivative N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e387]: R81A:M85Q:I12V:G179D:D86S
+                      - cell "Frazão et al. (2018)" [ref=e388]:
+                        - link "Frazão et al. (2018)" [ref=e389] [cursor=pointer]:
+                          - /url: "#B21"
+                    - row "pET28-Ec-Mdh 5Q -D34G pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G This study" [ref=e390]:
+                      - cell "pET28-Ec-Mdh 5Q -D34G" [ref=e391]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e392]: 5Q
+                        - text: "-D34G"
+                      - cell "pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G" [ref=e393]:
+                        - text: pET28a(+) derivative with N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e394]: R81A:M85Q:I12V:G179D:D86S:D34G
+                      - cell "This study" [ref=e395]
+                    - row "pET28-Ec-Mdh 5Q -D34G:I35K pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35K This study" [ref=e396]:
+                      - cell "pET28-Ec-Mdh 5Q -D34G:I35K" [ref=e397]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e398]: 5Q
+                        - text: "-D34G:I35K"
+                      - cell "pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35K" [ref=e399]:
+                        - text: pET28a(+) derivative with N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e400]: R81A:M85Q:I12V:G179D:D86S:D34G:I35K
+                      - cell "This study" [ref=e401]
+                    - row "pET28-Ec-Mdh 5Q -D34G:I35R pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35R This study" [ref=e402]:
+                      - cell "pET28-Ec-Mdh 5Q -D34G:I35R" [ref=e403]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e404]: 5Q
+                        - text: "-D34G:I35R"
+                      - cell "pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35R" [ref=e405]:
+                        - text: pET28a(+) derivative with N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e406]: R81A:M85Q:I12V:G179D:D86S:D34G:I35R
+                      - cell "This study" [ref=e407]
+                    - row "pET28-Ec-Mdh 5Q -D34G:I35S pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35S This study" [ref=e408]:
+                      - cell "pET28-Ec-Mdh 5Q -D34G:I35S" [ref=e409]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e410]: 5Q
+                        - text: "-D34G:I35S"
+                      - cell "pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35S" [ref=e411]:
+                        - text: pET28a(+) derivative with N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e412]: R81A:M85Q:I12V:G179D:D86S:D34G:I35S
+                      - cell "This study" [ref=e413]
+                    - row "pET28-Ec-Mdh 5Q -D34G:I35T pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35T This study" [ref=e414]:
+                      - cell "pET28-Ec-Mdh 5Q -D34G:I35T" [ref=e415]:
+                        - text: pET28-Ec-Mdh
+                        - superscript [ref=e416]: 5Q
+                        - text: "-D34G:I35T"
+                      - cell "pET28a(+) derivative with N-terminal His-tagged Ec.mdhR81A:M85Q:I12V:G179D:D86S:D34G:I35T" [ref=e417]:
+                        - text: pET28a(+) derivative with N-terminal His-tagged Ec.mdh
+                        - subscript [ref=e418]: R81A:M85Q:I12V:G179D:D86S:D34G:I35T
+                      - cell "This study" [ref=e419]
+                    - row "In vivo DHB production" [ref=e420]:
+                      - cell "In vivo DHB production" [ref=e421]
+                    - row "pZA23 p15A origin, Kan R , and PA1lacO-1 promoter Expressys" [ref=e422]:
+                      - cell "pZA23" [ref=e423]
+                      - cell "p15A origin, Kan R , and PA1lacO-1 promoter" [ref=e424]:
+                        - text: p15A origin, Kan
+                        - superscript [ref=e425]: R
+                        - text: ", and P"
+                        - subscript [ref=e426]: A1lacO-1
+                        - text: promoter
+                      - cell "Expressys" [ref=e427]
+                    - row "pZA23-HS1-5Q pZA23 derivative carrying Ec.thrAS345F, Ec.aspC, Ec.mdh 5Q , and Ec.ppcK620S Frazão et al. (2018)" [ref=e428]:
+                      - cell "pZA23-HS1-5Q" [ref=e429]
+                      - cell "pZA23 derivative carrying Ec.thrAS345F, Ec.aspC, Ec.mdh 5Q , and Ec.ppcK620S" [ref=e430]:
+                        - text: pZA23 derivative carrying Ec.thrA
+                        - subscript [ref=e431]: S345F
+                        - text: ", Ec.aspC, Ec.mdh"
+                        - superscript [ref=e432]: 5Q
+                        - text: ", and Ec.ppc"
+                        - subscript [ref=e433]: K620S
+                      - cell "Frazão et al. (2018)" [ref=e434]:
+                        - link "Frazão et al. (2018)" [ref=e435] [cursor=pointer]:
+                          - /url: "#B21"
+                    - row "pZA23-HS1-7Q pZA23 derivative harboring Ec.thrAS345F, Ec.aspC, Ec.mdh 7Q , and Ec.ppcK620S This study" [ref=e436]:
+                      - cell "pZA23-HS1-7Q" [ref=e437]
+                      - cell "pZA23 derivative harboring Ec.thrAS345F, Ec.aspC, Ec.mdh 7Q , and Ec.ppcK620S" [ref=e438]:
+                        - text: pZA23 derivative harboring Ec.thrA
+                        - subscript [ref=e439]: S345F
+                        - text: ", Ec.aspC, Ec.mdh"
+                        - superscript [ref=e440]: 7Q
+                        - text: ", and Ec.ppc"
+                        - subscript [ref=e441]: K620S
+                      - cell "This study" [ref=e442]
+                    - row "pZA23-HS2-5Q pZA23 derivative harboring Ec.thrAS345F, Ec.alaCA142P:Y275D, Ec.Mdh 5Q , and Ec.ppcK620S Frazao (2019)" [ref=e443]:
+                      - cell "pZA23-HS2-5Q" [ref=e444]
+                      - cell "pZA23 derivative harboring Ec.thrAS345F, Ec.alaCA142P:Y275D, Ec.Mdh 5Q , and Ec.ppcK620S" [ref=e445]:
+                        - text: pZA23 derivative harboring Ec.thrA
+                        - subscript [ref=e446]: S345F
+                        - text: ", Ec.alaC"
+                        - subscript [ref=e447]: A142P:Y275D
+                        - text: ", Ec.Mdh"
+                        - superscript [ref=e448]: 5Q
+                        - text: ", and Ec.ppc"
+                        - subscript [ref=e449]: K620S
+                      - cell "Frazao (2019)" [ref=e450]:
+                        - link "Frazao (2019)" [ref=e451] [cursor=pointer]:
+                          - /url: "#B20"
+                    - row "pZA23-HS2-7Q pZA23 derivative harboring Ec.thrAS345F, Ec.alaCA142P:Y275D, Ec.mdh 7Q , and Ec.ppcK620S This study" [ref=e452]:
+                      - cell "pZA23-HS2-7Q" [ref=e453]
+                      - cell "pZA23 derivative harboring Ec.thrAS345F, Ec.alaCA142P:Y275D, Ec.mdh 7Q , and Ec.ppcK620S" [ref=e454]:
+                        - text: pZA23 derivative harboring Ec.thrA
+                        - subscript [ref=e455]: S345F
+                        - text: ", Ec.alaC"
+                        - subscript [ref=e456]: A142P:Y275D
+                        - text: ", Ec.mdh"
+                        - superscript [ref=e457]: 7Q
+                        - text: ", and Ec.ppc"
+                        - subscript [ref=e458]: K620S
+                      - cell "This study" [ref=e459]
+                - paragraph [ref=e461]: Plasmids used in this study.
+              - generic [ref=e462]:
+                - generic [ref=e463]:
+                  - paragraph [ref=e464]: TABLE 2
+                  - button "Expand Table" [ref=e465] [cursor=pointer]:
+                    - img [ref=e466]
+                - table [ref=e469]:
+                  - rowgroup [ref=e470]:
+                    - row "Strain Genotype Reference/Origin" [ref=e471]:
+                      - columnheader "Strain" [ref=e472]
+                      - columnheader "Genotype" [ref=e473]
+                      - columnheader "Reference/Origin" [ref=e474]
+                  - rowgroup [ref=e475]:
+                    - row "NEB ® 5-alpha E. coli fhuA2 Δ(argF-lacZ)U169 phoA glnV44 Φ80Δ (lacZ)M15 gyrA96 recA1 relA1 endA1 thi-1 hsdR17 NEB™" [ref=e476]:
+                      - cell "NEB ® 5-alpha" [ref=e477]:
+                        - text: NEB
+                        - superscript [ref=e478]: ®
+                        - text: 5-alpha
+                      - cell "E. coli fhuA2 Δ(argF-lacZ)U169 phoA glnV44 Φ80Δ (lacZ)M15 gyrA96 recA1 relA1 endA1 thi-1 hsdR17" [ref=e479]
+                      - cell "NEB™" [ref=e480]
+                    - row "BL21 (DE3) E. coli fhuA2 [lon] ompT gal (λ DE3) [dcm] ∆hsdS NEB™" [ref=e481]:
+                      - cell "BL21 (DE3)" [ref=e482]
+                      - cell "E. coli fhuA2 [lon] ompT gal (λ DE3) [dcm] ∆hsdS" [ref=e483]
+                      - cell "NEB™" [ref=e484]
+                    - row "MG1655 F − λ - ilvG- rfb-50 rph-1 ATCC" [ref=e485]:
+                      - cell "MG1655" [ref=e486]
+                      - cell "F − λ - ilvG- rfb-50 rph-1" [ref=e487]:
+                        - text: F
+                        - superscript [ref=e488]: −
+                        - text: λ
+                        - superscript [ref=e489]: "-"
+                        - text: ilvG- rfb-50 rph-1
+                      - cell "ATCC" [ref=e490]
+                    - row "bWL1221 E. coli MG1655 lldD proD-kan INSA Toulouse" [ref=e491]:
+                      - cell "bWL1221" [ref=e492]
+                      - cell "E. coli MG1655 lldD proD-kan" [ref=e493]:
+                        - text: E. coli MG1655 lldD
+                        - superscript [ref=e494]: proD-kan
+                      - cell "INSA Toulouse" [ref=e495]
+                    - row "EcHS0 E. coli MG1655 ΔthrB ΔmetA ΔldhA This study" [ref=e496]:
+                      - cell "EcHS0" [ref=e497]
+                      - cell "E. coli MG1655 ΔthrB ΔmetA ΔldhA" [ref=e498]
+                      - cell "This study" [ref=e499]
+                    - row "EcHS1 EcHS0 with pZA23-HS1-5Q (Ec.aspC, Ec.mdh 5Q ) This study" [ref=e500]:
+                      - cell "EcHS1" [ref=e501]
+                      - cell "EcHS0 with pZA23-HS1-5Q (Ec.aspC, Ec.mdh 5Q )" [ref=e502]:
+                        - text: EcHS0 with pZA23-HS1-5Q (Ec.aspC, Ec.mdh
+                        - superscript [ref=e503]: 5Q
+                        - text: )
+                      - cell "This study" [ref=e504]
+                    - row "EcHS2 EcHS0 with pZA23-HS1-7Q (Ec.aspC, Ec.mdh 7Q ) This study" [ref=e505]:
+                      - cell "EcHS2" [ref=e506]
+                      - cell "EcHS0 with pZA23-HS1-7Q (Ec.aspC, Ec.mdh 7Q )" [ref=e507]:
+                        - text: EcHS0 with pZA23-HS1-7Q (Ec.aspC, Ec.mdh
+                        - superscript [ref=e508]: 7Q
+                        - text: )
+                      - cell "This study" [ref=e509]
+                    - row "EcHS3 EcHS0 with pZA23-HS2-5Q (Ec.alaCA142P:Y275D, Ec.mdh 5Q ) This study" [ref=e510]:
+                      - cell "EcHS3" [ref=e511]
+                      - cell "EcHS0 with pZA23-HS2-5Q (Ec.alaCA142P:Y275D, Ec.mdh 5Q )" [ref=e512]:
+                        - text: EcHS0 with pZA23-HS2-5Q (Ec.alaC
+                        - subscript [ref=e513]: A142P:Y275D
+                        - text: ", Ec.mdh"
+                        - superscript [ref=e514]: 5Q
+                        - text: )
+                      - cell "This study" [ref=e515]
+                    - row "EcHS4 EcHS0 with pZA23-HS2-7Q (Ec.alaCA142P:Y275D, Ec.mdh 7Q ) This study" [ref=e516]:
+                      - cell "EcHS4" [ref=e517]
+                      - cell "EcHS0 with pZA23-HS2-7Q (Ec.alaCA142P:Y275D, Ec.mdh 7Q )" [ref=e518]:
+                        - text: EcHS0 with pZA23-HS2-7Q (Ec.alaC
+                        - subscript [ref=e519]: A142P:Y275D
+                        - text: ", Ec.mdh"
+                        - superscript [ref=e520]: 7Q
+                        - text: )
+                      - cell "This study" [ref=e521]
+                    - row "EcHS5 EcHS3 with ΔpfkA This study" [ref=e522]:
+                      - cell "EcHS5" [ref=e523]
+                      - cell "EcHS3 with ΔpfkA" [ref=e524]
+                      - cell "This study" [ref=e525]
+                    - row "EcHS6 EcHS3 with ΔsthA This study" [ref=e526]:
+                      - cell "EcHS6" [ref=e527]
+                      - cell "EcHS3 with ΔsthA" [ref=e528]
+                      - cell "This study" [ref=e529]
+                    - row "EcHS7 EcHS3 with pntAB proD This study" [ref=e530]:
+                      - cell "EcHS7" [ref=e531]
+                      - cell "EcHS3 with pntAB proD" [ref=e532]:
+                        - text: EcHS3 with pntAB
+                        - superscript [ref=e533]: proD
+                      - cell "This study" [ref=e534]
+                    - row "EcHS8 EcHS7 with ΔsthA This study" [ref=e535]:
+                      - cell "EcHS8" [ref=e536]
+                      - cell "EcHS7 with ΔsthA" [ref=e537]
+                      - cell "This study" [ref=e538]
+                    - row "EcHS9 EcHS4 with ΔpfkA This study" [ref=e539]:
+                      - cell "EcHS9" [ref=e540]
+                      - cell "EcHS4 with ΔpfkA" [ref=e541]
+                      - cell "This study" [ref=e542]
+                    - row "EcHS10 EcHS4 with ΔsthA This study" [ref=e543]:
+                      - cell "EcHS10" [ref=e544]
+                      - cell "EcHS4 with ΔsthA" [ref=e545]
+                      - cell "This study" [ref=e546]
+                    - row "EcHS11 EcHS4 with pntAB proD This study" [ref=e547]:
+                      - cell "EcHS11" [ref=e548]
+                      - cell "EcHS4 with pntAB proD" [ref=e549]:
+                        - text: EcHS4 with pntAB
+                        - superscript [ref=e550]: proD
+                      - cell "This study" [ref=e551]
+                    - row "EcHS12 EcHS11 with ΔsthA This study" [ref=e552]:
+                      - cell "EcHS12" [ref=e553]
+                      - cell "EcHS11 with ΔsthA" [ref=e554]
+                      - cell "This study" [ref=e555]
+                - paragraph [ref=e557]: Escherichia coli strains used in this study.
+              - heading "2.3 Media" [level=3] [ref=e558]
+              - paragraph [ref=e559]:
+                - text: For cloning procedures, protein production, and cell recovery from glycerol stocks (30% v/v) kept at −80°C, cells were cultivated in lysogeny broth (LB) medium (10 g L
+                - superscript [ref=e560]: −1
+                - text: tryptone, 5 g L
+                - superscript [ref=e561]: −1
+                - text: yeast extract and 10 g L
+                - superscript [ref=e562]: −1
+                - text: NaCl). LB agar plates were prepared by adding 20 g L
+                - superscript [ref=e563]: −1
+                - text: agar-agar to liquid LB.
+              - paragraph [ref=e564]:
+                - text: For DHB production studies, cells were cultivated in M9 mineral medium (
+                - link "Walther et al., 2017b" [ref=e565] [cursor=pointer]:
+                  - /url: "#B47"
+                - text: ), containing 20 g L
+                - superscript [ref=e566]: −1
+                - text: glucose, 100 mM MOPS (pH adjusted to 7 with KOH), 18 g L
+                - superscript [ref=e567]: −1
+                - text: Na
+                - subscript [ref=e568]: "2"
+                - text: HPO
+                - subscript [ref=e569]: "4"
+                - text: ·12H
+                - subscript [ref=e570]: "2"
+                - text: O, 3 g L
+                - superscript [ref=e571]: −1
+                - text: KH
+                - subscript [ref=e572]: "2"
+                - text: PO
+                - subscript [ref=e573]: "4"
+                - text: ", 0.5 g L"
+                - superscript [ref=e574]: −1
+                - text: NaCl, 2 g L
+                - superscript [ref=e575]: −1
+                - text: NH
+                - subscript [ref=e576]: "4"
+                - text: Cl, 0.5 g L
+                - superscript [ref=e577]: −1
+                - text: MgSO
+                - subscript [ref=e578]: "4"
+                - text: ·7 H
+                - subscript [ref=e579]: "2"
+                - text: O, 0.015 g L
+                - superscript [ref=e580]: −1
+                - text: CaCl
+                - subscript [ref=e581]: "2"
+                - text: ·2H
+                - subscript [ref=e582]: "2"
+                - text: O, 0.010 g L
+                - superscript [ref=e583]: −1
+                - text: FeCl
+                - subscript [ref=e584]: "3"
+                - text: ", 0.012 g L"
+                - superscript [ref=e585]: −1
+                - text: thiamine HCl, and trace elements (0.4 mg L
+                - superscript [ref=e586]: −1
+                - text: Na
+                - subscript [ref=e587]: "2"
+                - text: EDTA·2H
+                - subscript [ref=e588]: "2"
+                - text: O, 1.8 mg L
+                - superscript [ref=e589]: −1
+                - text: CoCl
+                - subscript [ref=e590]: "2"
+                - text: ·6H
+                - subscript [ref=e591]: "2"
+                - text: O, 1.8 mg L
+                - superscript [ref=e592]: −1
+                - text: ZnCl
+                - subscript [ref=e593]: "2"
+                - text: SO
+                - subscript [ref=e594]: "4"
+                - text: ·7H
+                - subscript [ref=e595]: "2"
+                - text: O, 0.4 mg L
+                - superscript [ref=e596]: −1
+                - text: Na
+                - subscript [ref=e597]: "2"
+                - text: MoO
+                - subscript [ref=e598]: "4"
+                - text: ·2H
+                - subscript [ref=e599]: "2"
+                - text: O, 0.1 mg L
+                - superscript [ref=e600]: −1
+                - text: H
+                - subscript [ref=e601]: "3"
+                - text: BO
+                - subscript [ref=e602]: "3"
+                - text: ", 1.2 mg L"
+                - superscript [ref=e603]: −1
+                - text: MnSO
+                - subscript [ref=e604]: "4"
+                - text: ·H
+                - subscript [ref=e605]: "2"
+                - text: O, and 1.2 mg L
+                - superscript [ref=e606]: −1
+                - text: CuCl
+                - subscript [ref=e607]: "2"
+                - text: ·2H
+                - subscript [ref=e608]: "2"
+                - text: O). (L)-methionine and (L)-threonine were added at a final concentration of 0.2 g L
+                - superscript [ref=e609]: −1
+                - text: "each to compensate for auxotrophies of the production strains. Where required, antibiotics were added at the following final concentrations: carbenicillin, 100 mg L"
+                - superscript [ref=e610]: −1
+                - text: ", and kanamycin sulfate, 50 mg L"
+                - superscript [ref=e611]: −1
+                - text: .
+              - heading "2.4 Site-directed mutagenesis, gene expression, and protein purification for in vitro enzyme studies" [level=3] [ref=e612]
+              - paragraph [ref=e613]:
+                - text: Site-directed mutagenesis was performed via inverse PCR (
+                - link "Zheng et al., 2004" [ref=e614] [cursor=pointer]:
+                  - /url: "#B50"
+                - text: ) with primer pairs listed in
+                - link "Supplementary Table S1" [ref=e615] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: using 6 ng of vector pET28-Ec.mdh
+                - superscript [ref=e616]: 5Q
+                - text: as a template (
+                - link "Frazão et al., 2018" [ref=e617] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ). The PCR reaction was performed with Q5 polymerase (NEB). Compared to the manufacturer’s instructions, the PCR cycle number was reduced to 19. After treatment with DpnI enzyme (NEB) to remove residual template DNA, plasmids were transformed into E. coli NEB
+                - superscript [ref=e618]: ®
+                - text: 5-alpha, and respective mutations were verified by DNA Sanger sequencing. The constructed plasmids are listed in
+                - link "Table 1" [ref=e619] [cursor=pointer]:
+                  - /url: "#T1"
+                - text: .
+              - paragraph [ref=e620]:
+                - text: N-terminally 6x-His-tagged enzymes were produced in E. coli BL21 (DE3) cells harboring respective pET28a expression vectors. A volume of 50 mL of lysogeny broth (LB) medium supplemented with kanamycin in a 250 mL unbaffled shake flask was inoculated at an initial optical density at 600 nm (OD
+                - subscript [ref=e621]: "600"
+                - text: ) of 0.2 from an overnight LB culture. The culture was incubated at 37°C and 220 rpm. Heterologous protein expression was induced when OD
+                - subscript [ref=e622]: "600"
+                - text: = 0.6 by the addition of 1 mM isopropyl β-D-1-thiogalactopyranoside (IPTG) to the medium. When an OD
+                - subscript [ref=e623]: "600"
+                - text: of 2 was reached, cells were harvested by centrifugation (10 min, 4,000 ×g, 4°C), and the cell pellets were stored at −20°C until further analysis. To purify the His-tagged protein, frozen cell pellets were thawed on ice, resuspended in 50 mM HEPES buffer containing 300 mM NaCl (pH = 7.5), and then disrupted using a sonicator (UDS 751, TOPAS, Germany, 4 × 30 s, 30% amplitude). Cell debris was removed from the soluble protein fraction by centrifugation (17,500 ×g, 15 min, 4°C). Upon washing of the Talon™ Cobalt affinity resin (Clontech, United States) according to the supplier’s instructions, the crude extract was added to the resin and incubated in a tube rotator (VWR) at room temperature for 20 min. After binding, a washing step with 50 mM HEPES buffer containing 300 mM NaCl (pH = 7.5) and a subsequent washing step with the same buffer but additionally containing 15 mM imidazole (pH = 7.5) were carried out. Afterward, the protein bound to the resin was eluted with 200 mM imidazole in 50 mM HEPES buffer containing 300 mM NaCl (pH = 7.5) in a final volume of 500 µL. The concentration of purified protein was determined using the Bradford assay (Rotiquant
+                - superscript [ref=e624]: ®
+                - text: ", Carl Roth), usually yielding a protein concentration of 3–4 mg mL"
+                - superscript [ref=e625]: −1
+                - text: after purification.
+              - heading "2.5 OHB synthesis" [level=3] [ref=e626]
+              - paragraph [ref=e627]:
+                - text: OHB was prepared enzymatically starting from (L)-homoserine in a reaction catalyzed by the (L)-amino acid oxidase from Crotalus adamanteus (Sigma-Aldrich, A9253) as described by
+                - link "Wellner and Lichtenberg (1971)" [ref=e628] [cursor=pointer]:
+                  - /url: "#B48"
+                - text: . The reaction mix contained 125 mM (L)-homoserine, 100 mM Tris-HCl (pH = 7.8), and 4,374 U mL
+                - superscript [ref=e629]: −1
+                - text: catalase from Aspergillus niger (Sigma-Aldrich, C3515), and 4.7 U mL
+                - superscript [ref=e630]: −1
+                - text: (L)-amino acid oxidase. Control reactions were performed with the same reaction mix but in the absence of (L)-homoserine or (L)-amino acid oxidase, respectively. The reaction was performed for 4.5 h at 37°C and 220 rpm. After incubation on ice for 1 h, enzymes were removed using Amicon
+                - superscript [ref=e631]: ®
+                - text: Ultra Centrifugal filters (cut-off, <10 kDa; Merck, Germany) for 45 min at 4°C. Quantification of OHB was performed based on a ketone calibration curve (0–300 mM pyruvate). A volume of 100 µL of standard/sample was mixed with 1 mL of a solution containing 1 M sodium arsenate and 1 M boric acid (pH = 6.5). After incubation at room temperature for 30 min, the absorbance at 325 nm was measured. The absence of homoserine was further confirmed by high-performance liquid chromatography (HPLC) analysis.
+              - heading "2.6 OHB reductase assay" [level=3] [ref=e632]
+              - paragraph [ref=e633]:
+                - text: Enzymatic assays with purified enzyme were conducted at 37°C in 96-well flat-bottomed microtiter plates with a final reaction volume of 250 µL per well. The reaction kinetics were monitored in a microplate reader (NanoQuant Plate™, Infinite M200 PRO, TECAN) by following the characteristic absorption of NAD(P)H at 340 nm. The reaction mixture contained 0.25 mM NAD(P)H, 60 mM Hepes (pH 7.0, adjusted with 5 M KOH), 5 mM MgCl
+                - subscript [ref=e634]: "2"
+                - text: ", 50 mM KCl, and appropriate amounts of the purified enzyme. Reactions were started by adding 2 mM OHB to assess the cofactor preference of the constructed enzyme variants. To determine the kinetic constants on the substrate of Ec.Mdh"
+                - superscript [ref=e635]: 5Q
+                - text: and top-performing NADPH-dependent OHB reductase, specific activities were determined at variable OHB concentrations (0.005–10 mM) and 0.25 mM of the preferred co-substrate. In order to estimate the kinetic constants on the cofactors, specific activities were determined at fixed amounts of substrate (OHB, 2 mM) and variable amounts of NAD(P)H (0.03–1 mM). Experimental data were fitted to the Michaelis–Menten model or to the substrate inhibition model using non-linear regression (Curve fitting tool, MATLAB R2021a). One unit (U) is defined as the amount of enzyme that catalyzes the conversion of 1 µmol of NAD(P)H per minute at pH 7.0 and 37°C. K
+                - subscript [ref=e636]: m,app
+                - text: "[mM] is defined as the apparent Michaelis–Menten constant, K"
+                - subscript [ref=e637]: i
+                - text: "[mM] is the substrate inhibition constant, v"
+                - subscript [ref=e638]: max,app
+                - text: "[U mg"
+                - superscript [ref=e639]: −1
+                - text: "] is the apparent maximum reaction speed, and k"
+                - subscript [ref=e640]: cat,app
+                - text: is the apparent catalytic constant [s
+                - superscript [ref=e641]: −1
+                - text: "]. The catalytic efficiency is described by k"
+                - subscript [ref=e642]: cat
+                - text: /K
+                - subscript [ref=e643]: m
+                - text: "[mM s"
+                - superscript [ref=e644]: −1
+                - text: "] ("
+                - link "Chmiel, 2018" [ref=e645] [cursor=pointer]:
+                  - /url: "#B12"
+                - text: ). The specificity for NADPH is described as (k
+                - subscript [ref=e646]: cat,app
+                - text: /K
+                - subscript [ref=e647]: m,app
+                - text: )
+                - subscript [ref=e648]: NADPH
+                - text: /(k
+                - subscript [ref=e649]: cat,app
+                - text: /K
+                - subscript [ref=e650]: m,app
+                - text: )
+                - subscript [ref=e651]: NADH
+                - text: ", calculated from the mean values of k"
+                - subscript [ref=e652]: cat
+                - text: and K
+                - subscript [ref=e653]: m
+                - text: (
+                - link "Cahn et al., 2017" [ref=e654] [cursor=pointer]:
+                  - /url: "#B7"
+                - text: ). We furthermore define the overall catalytic efficiency with respect to substrate conversion in the presence of the preferred cofactor as (k
+                - subscript [ref=e655]: cat,app
+                - text: /K
+                - subscript [ref=e656]: m,app
+                - text: )
+                - subscript [ref=e657]: OHB
+                - text: × (k
+                - subscript [ref=e658]: cat,app
+                - text: /K
+                - subscript [ref=e659]: m,app
+                - text: )
+                - subscript [ref=e660]: NAD(P)H
+                - text: .
+              - heading "2.7 Plasmid construction for in vivo DHB biosynthesis" [level=3] [ref=e661]
+              - paragraph [ref=e662]:
+                - text: All plasmids constructed and used for in vivo DHB synthesis are listed in
+                - link "Table 1" [ref=e663] [cursor=pointer]:
+                  - /url: "#T1"
+                - text: . The vectors are based on the pZA23 backbone of the pZ expression system (Expressys). Plasmids pZA23-HS1-5Q (Ec.aspC, Ec.mdh
+                - superscript [ref=e664]: 5Q
+                - text: ) and pZA23-HS2-5Q (Ec.alaC
+                - subscript [ref=e665]: A142P:Y275D
+                - text: ", Ec.mdh"
+                - superscript [ref=e666]: 5Q
+                - text: ) were a kind gift of Prof. J. M. François from Toulouse Biotechnology Institute, INSA Toulouse, France, and served as the basis for gene replacements. To replace OHB reductase-encoding gene Ec.mdh
+                - superscript [ref=e667]: 5Q
+                - text: ", the gene Ec.mdh"
+                - superscript [ref=e668]: 7Q
+                - text: was first amplified by PCR from the corresponding pET28 vector using the primers TW2949 and TW2427 listed in
+                - link "Supplementary Table S1" [ref=e669] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ", thereby introducing 5′ overhangs containing NotI and XbaI restriction sites. Backbone vectors pZA23-HS1-5Q and pZA23-HS2-5Q and insert were digested with the restriction enzymes NotI and XbaI (NEB). The digested backbone was further treated with Antarctic phosphatase (NEB). After DNA purification by gel extraction (Gel Extraction Kit, NEB), the backbone and insert were ligated using T4 DNA ligase (NEB) according to the provider’s protocol. After verification via sequencing, plasmids were transformed into appropriate host strains."
+              - heading "2.8 Strain construction" [level=3] [ref=e670]
+              - paragraph [ref=e671]:
+                - text: All E. coli strains constructed and used are listed in
+                - link "Table 2" [ref=e672] [cursor=pointer]:
+                  - /url: "#T2"
+                - text: . Chromosomal gene deletions in E. coli MG1655 were introduced by P1vir phage transduction (
+                - link "Lennox, 1955" [ref=e673] [cursor=pointer]:
+                  - /url: "#B30"
+                - text: ) using single-gene knockout mutants from the Keio collection (
+                - link "Baba et al., 2006" [ref=e674] [cursor=pointer]:
+                  - /url: "#B1"
+                - text: ) as donor strains. After transduction, the kanamycin resistance cassettes were removed using flippase (FLP) recombinase-catalyzed excision. The FLP recombinase was expressed from pCP20 (
+                - link "Cherepanov and Wilfried, 1995" [ref=e675] [cursor=pointer]:
+                  - /url: "#B10"
+                - text: ). Gene deletions and successful removal of resistance cassettes were confirmed by diagnostic PCR (Primers listed in
+                - link "Supplementary Table S1" [ref=e676] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ) using DreamTaq polymerase (ThermoFisher Scientific), following the protocol provided by the manufacturer. Afterward, a new round of chromosomal modification was initiated, and the procedure was repeated until all target deletions were introduced.
+              - paragraph [ref=e677]:
+                - text: For chromosomal overexpression of Ec.pntAB, the native chromosomal 5′-untranslated region of the gene was replaced by the insulated constitutive promoter proD (
+                - link "Davis et al., 2011" [ref=e678] [cursor=pointer]:
+                  - /url: "#B17"
+                - text: ) via PCR-mediated λ-Red recombination following the protocol of
+                - link "Datsenko and Wanner (2000)" [ref=e679] [cursor=pointer]:
+                  - /url: "#B16"
+                - text: . The FRT-kan-FRT cassette fused to proD promoter sequence with 50 bp 5′-extensions homologous to the target genomic locus was amplified by PCR (primers are listed in
+                - link "Supplementary Table S1" [ref=e680] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ) from the genomic DNA of strain bWL1221 in our lab collection (kindly provided by Prof. J. M. François from Toulouse Biotechnology Institute, INSA Toulouse, France). Recipient cells were transformed with the helper plasmid pKD46 (
+                - link "Datsenko and Wanner, 2000" [ref=e681] [cursor=pointer]:
+                  - /url: "#B16"
+                - text: ) for expression of λ-Red recombination genes and with linearized, gel-purified PCR product. Successful integration was confirmed by colony PCR, as described above. After kan-cassette removal using FLP recombinase expressed from pCP20, the chromosomal promoter exchange was furthermore confirmed via DNA sequencing.
+              - heading "2.9 Shake-flask cultivation for DHB production" [level=3] [ref=e682]
+              - paragraph [ref=e683]:
+                - text: All cell cultivations were performed at 37°C, 220 rpm in an orbital shaker (Ecotron, Infors). First, pre-cultures were inoculated with a single colony picked from an LB agar plate and cultivated in 3 mL LB media (15 mL Falcon tube lying flat), and 50 μg mL
+                - superscript [ref=e684]: −1
+                - text: kanamycin was added to the strains harboring pZA23 plasmids. After 8 h, a volume of 0.5 mL of the first pre-culture was transferred to 10 mL of M9 mineral medium, supplemented with (L)-methionine (0.2 g L
+                - superscript [ref=e685]: −1
+                - text: ), (L)-threonine (0.2 g L
+                - superscript [ref=e686]: −1
+                - text: ), and kanamycin. After 16 h of cultivation, cells were harvested by centrifugation in a table-top centrifuge (5 min, 6,000 ×g, room temperature). The main cultures were carried out in 25 mL M9 media supplemented with (L)-methionine (0.2 g L
+                - superscript [ref=e687]: −1
+                - text: ), (L)-threonine (0.2 g L
+                - superscript [ref=e688]: −1
+                - text: ), and kanamycin in 250 mL baffled shake flasks. The main cultures were inoculated with the harvested cells at a starting OD
+                - subscript [ref=e689]: "600"
+                - text: of 0.2. When an OD
+                - subscript [ref=e690]: "600"
+                - text: of ∼0.6 was reached, 1 mM IPTG was added to induce the expression of pathway genes. Samples were regularly withdrawn and centrifuged (2 min, 16,000 ×g, room temperature), and the supernatant was kept at −20°C until further analysis.
+              - heading "2.10 Analytical methods" [level=3] [ref=e691]
+              - paragraph [ref=e692]:
+                - text: Extracellular metabolites (glucose, DHB, acetate, and lactate) in supernatant samples from cultivations were analyzed using HPLC. The samples (1 mL) were filter sterilized with 0.2 µm filters, transferred into 2 mL HPLC sample vials, and subsequently analyzed with the Dionex UltiMate 3000 UHPLC system (Thermo Scientific). The device was equipped with an RI and UV/Vis detector. For separation, a Rezex™ ROA-Organic Acid H
+                - superscript [ref=e693]: +
+                - text: (8%) column (Phenomenex) with a size of 300 mm × 7.8 mm was used, protected by a SecurityGuard™ Carbo H
+                - superscript [ref=e694]: +
+                - text: pre-column (4 mm × 3 mm, Phenomenex). A sample volume of 20 µL was injected, and analytes were eluted using 0.5 mM H
+                - subscript [ref=e695]: "2"
+                - text: SO
+                - subscript [ref=e696]: "4"
+                - text: as mobile phase, with a flow rate of 0.5 mL min
+                - superscript [ref=e697]: −1
+                - text: . The column oven temperature was set to 80°C, and the temperature of the autosampler was set to 6°C.
+              - paragraph [ref=e698]:
+                - text: Depending on the concentration range, the presence of DHB was verified by LC/MS analyses using our previously described method (
+                - link "Frazão et al., 2023" [ref=e699] [cursor=pointer]:
+                  - /url: "#B23"
+                - text: ). The LC/MS platform consists of a Vanquish and a Thermo Scientific™ Q Exactive™ Focus (ThermoFisher Scientific), controlled by Xcalibur software (version 2.1, ThermoFisher Scientific). Separation by liquid chromatography was achieved using a Rezex RoA-organic acid H
+                - superscript [ref=e700]: +
+                - text: (8%) resin-based column preceded by a SecurityGuard guard cartridge (Phenomenex) held at 80°C with 0.1% formic acid as the mobile phase. The temperature of the autosampler was kept at 6°C, the injection volume was 20 µL, and an isocratic flow of 0.4 mL min
+                - superscript [ref=e701]: −1
+                - text: was adjusted. Peak areas were corrected for the contribution of all naturally abundant isotopes using the software IsoCor (version 2.2.0) (
+                - link "Millard et al., 2012" [ref=e702] [cursor=pointer]:
+                  - /url: "#B35"
+                - text: ).
+              - heading "2.11 Computational methods" [level=3] [ref=e703]
+              - paragraph [ref=e704]:
+                - text: Multiple sequence alignment of NAD(P)H-dependent malate dehydrogenases and lactate dehydrogenases was performed using MAFFT (v 7.525) provided by EMBL-EBI (
+                - link "Madeira et al., 2024" [ref=e705] [cursor=pointer]:
+                  - /url: "#B34"
+                - text: ). UniProt identifiers of all proteins used in the alignment are listed in the supplementary material. Structure alignments were performed in PyMol v2.5.1 (
+                - link "http://www.pymol.org/pymol" [ref=e706] [cursor=pointer]:
+                  - /url: http://www.pymol.org/pymol
+                - text: ). Three-dimensional structures were retrieved from the Protein Data Bank (PDB) or predicted with AlphaFold Colab (
+                - link "Jumper et al., 2021" [ref=e707] [cursor=pointer]:
+                  - /url: "#B27"
+                - text: ).
+            - generic [ref=e708]:
+              - heading "3 Results" [level=2] [ref=e709]
+              - heading "3.1 Strategy for the design of NADPH-dependent OHB reductase activity" [level=3] [ref=e710]
+              - paragraph [ref=e711]:
+                - text: We have previously engineered a highly active OHB reductase using the NAD
+                - superscript [ref=e712]: +
+                - text: "-dependent (L)-malate dehydrogenase from E. coli (Ec.Mdh; UniProtKB code"
+                - link "P61889" [ref=e713] [cursor=pointer]:
+                  - /url: https://www.uniprot.org/uniprotkb/P61889/entry
+                - text: ) as a template enzyme. The best-performing variant, Ec.Mdh
+                - superscript [ref=e714]: 5Q
+                - text: ", contains five point mutations (I12V:R81A:M85Q:D86S:G179D) and displays a 108-fold higher catalytic efficiency with NADH than with NADPH ("
+                - link "Figure 2A" [ref=e715] [cursor=pointer]:
+                  - /url: "#F2"
+                - text: ). Because the typical intracellular ratios of [NAD(P)H]/[NAD(P)] in E. coli (
+                - link "Bennett et al., 2009" [ref=e716] [cursor=pointer]:
+                  - /url: "#B2"
+                - text: ) indicate that NADPH should be preferentially used as a cofactor in reduction processes under aerobic conditions, we set out to engineer an NADPH-dependent OHB reductase using Ec.Mdh
+                - superscript [ref=e717]: 5Q
+                - text: as the template enzyme.
+              - generic [ref=e718]:
+                - generic [ref=e719]:
+                  - paragraph [ref=e720]: FIGURE 2
+                  - button "Download Figure" [ref=e721] [cursor=pointer]:
+                    - img [ref=e722]
+                  - button "Expand Figure" [ref=e725] [cursor=pointer]:
+                    - img [ref=e726]
+                - button "Open lightbox for FIGURE 2" [ref=e728]:
+                  - figure [ref=e729]:
+                    - generic [ref=e730]:
+                      - img "FIGURE 2"
+                    - paragraph [ref=e732]:
+                      - text: Specific activity of Ec.Mdh
+                      - superscript [ref=e733]: 5Q
+                      - text: on OHB with NAD(P)H and 3D-protein structures with NAD
+                      - superscript [ref=e734]: +
+                      - text: or NADP
+                      - superscript [ref=e735]: +
+                      - text: . (A) Catalytic efficiency (k
+                      - subscript [ref=e736]: cat,app
+                      - text: /K
+                      - subscript [ref=e737]: M,app
+                      - text: ) of Ec.Mdh
+                      - superscript [ref=e738]: 5Q
+                      - text: with NAD(P)H. Enzymatic activity was measured with purified enzyme at 37°C and pH 7.0 in 96-well flat-bottomed microtiter plates with 2 mM OHB and 0.25 mM NAD(P)H. The reactions were followed by monitoring the NAD(P)H absorption at 340 nm. Error bars indicate the standard deviation of the mean (n = 2). (B) X-ray structure of Ec.Mdh with bound NAD
+                      - superscript [ref=e739]: +
+                      - text: "(Pdb code: 1emd). Side chains of amino acids in the selectivity control loop are shown (positions 34–38). (C) X-ray structure of Ec.Mdh with superimposed NADP"
+                      - superscript [ref=e740]: +
+                      - text: ". The figure was generated by the structural alignment of Ec.Mdh with bound NAD (Pdb code: 1emd) and the malate dehydrogenase from Flaveria bidentis (Fb.Mdh) with bound NADP (Pdb code: 1civ). The structures of Fb-Mdh and NAD were omitted from the representation. (D) Model structure of Ec.Mdh D34G:I35S with superimposed NADP"
+                      - superscript [ref=e741]: +
+                      - text: . The figure was generated by structural alignment of the mutant enzyme model [generated with AlphaFold Colab (
+                      - link "Jumper et al., 2021" [ref=e742] [cursor=pointer]:
+                        - /url: "#B27"
+                      - text: ); mutations relative to wt enzyme are marked in violet] and the crystal structure of Fb.Mdh with bound NADP. Subfigures (B–D) were generated in PyMol v2.5.1 (
+                      - link "http://www.pymol.org/pymol" [ref=e743] [cursor=pointer]:
+                        - /url: http://www.pymol.org/pymol
+                      - text: ). The distance between selected residues is shown in Å. The carbon ribbon of cofactors NAD(P)
+                      - superscript [ref=e744]: +
+                      - text: is shown in pale yellow. The color scheme of NAD(P)
+                      - superscript [ref=e745]: +
+                      - text: and relevant amino acid side chains (position 34–38) is oxygen – red, nitrogen – blue, and sulfur – orange.
+              - paragraph [ref=e746]:
+                - text: NAD
+                - superscript [ref=e747]: +
+                - text: "-dependent (L)-malate dehydrogenases (cytosolic; Mdh type 1 family) belong to the large superfamily of (L)-Mdh/(L)-Ldh enzymes, which further includes NADP"
+                - superscript [ref=e748]: +
+                - text: "-dependent enzymes of identical function (chloroplastic; Mdh type 2 family) and NAD"
+                - superscript [ref=e749]: +
+                - text: "-dependent (L)-lactate dehydrogenases (Ldh). Multiple sequence alignments between several members of the superfamily of Mdh and Ldh enzymes revealed a strong conservation of the primary protein structure ("
+                - link "Supplementary Figure S1" [ref=e750] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ). Previous studies elucidated the crucial role of a loop region in a conserved cofactor binding motif of the Rossman fold for cofactor discrimination (
+                - link "Holmberg et al., 1999" [ref=e751] [cursor=pointer]:
+                  - /url: "#B26"
+                - text: ;
+                - link "Nishiyama et al., 1993" [ref=e752] [cursor=pointer]:
+                  - /url: "#B37"
+                - text: ;
+                - link "Feeney et al., 1990" [ref=e753] [cursor=pointer]:
+                  - /url: "#B18"
+                - text: ;
+                - link "Rossmann et al., 1974" [ref=e754] [cursor=pointer]:
+                  - /url: "#B40"
+                - text: ). Multiple sequence alignments showed that this region corresponds to the amino acid residues at positions 34 and 35 in Ec.Mdh (
+                - link "Supplementary Figure S1" [ref=e755] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ). Of crucial interest in Ec.Mdh is the active site residue Asp34, which is pivotal for conferring cofactor specificity because its negative charge has previously been shown to result in electrostatic repulsion of the 2′-phosphate group of NADP(H) (
+                - link "Nishiyama et al., 1993" [ref=e756] [cursor=pointer]:
+                  - /url: "#B37"
+                - text: ;
+                - link "Feeney et al., 1990" [ref=e757] [cursor=pointer]:
+                  - /url: "#B18"
+                - text: ). Visual inspection of the X-ray crystal structure of Ec.Mdh (PDB code with bound NAD
+                - superscript [ref=e758]: +
+                - text: ": 1emd,"
+                - link "Figure 2B" [ref=e759] [cursor=pointer]:
+                  - /url: "#F2"
+                - text: ) bound with superimposed NADPH (
+                - link "Figure 2C" [ref=e760] [cursor=pointer]:
+                  - /url: "#F2"
+                - text: ) further revealed a potential steric clash between the aspartate residue at position 34 and the 2′-phosphate moiety of NADPH. Multiple sequence alignment analyses showed strict conservation at the corresponding position in NADP
+                - superscript [ref=e761]: +
+                - text: "-dependent malate dehydrogenases with a glycine residue ("
+                - link "Supplementary Figure S1" [ref=e762] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ). Replacement of Asp34 residue in Ec.Mdh by the smaller and uncharged residue glycine, therefore, seemed crucial to accommodate the larger NADP(H) and to remove the unfavorable electrostatic interaction with NADP(H). In addition, residue Ile35 is of interest for switching the cofactor preference of Ec.Mdh. Due to its close proximity to the 2′-phosphate group of NADPH (
+                - link "Hall and Banaszak, 1993" [ref=e763] [cursor=pointer]:
+                  - /url: "#B24"
+                - text: ), the amino acid residue located at position 35 is prone to form an electrostatic interaction or a hydrogen bond with the cofactor. Multiple sequence alignment of natural NADPH-dependent Mdh enzymes reveals complete conservation of a potentially hydrogen-bond donating serine residue at the position corresponding to Ile35 in Ec.Mdh. Therefore, we hypothesized that the isoleucine residue at position 35 should be exchanged for serine. This idea was complemented by the structure-guided web tool CSR-salad (
+                - link "Cahn et al., 2017" [ref=e764] [cursor=pointer]:
+                  - /url: "#B7"
+                - text: ), which suggested an exchange of Ile35 by positively charged residues (Lys, Arg) or other polar uncharged amino acids (Thr) to allow for an electrostatic or polar interaction with the 2′-phosphate group of NADPH. Visual inspection of the predicted 3D structure of a respective Ec.Mdh D34G:I35S double mutant bound with NADP
+                - superscript [ref=e765]: +
+                - text: confirms the predicted absence of steric clashes in the selectivity control loop (
+                - link "Figure 2D" [ref=e766] [cursor=pointer]:
+                  - /url: "#F2"
+                - text: ).
+              - heading "3.2 In vitro analysis of OHB reductase mutants" [level=3] [ref=e767]
+              - paragraph [ref=e768]:
+                - text: Point mutations to switch cofactor preference were stepwise introduced into the Ec.mdh
+                - superscript [ref=e769]: 5Q
+                - text: gene by site-directed mutagenesis. The constructed N-terminally 6x-His-tagged variants were expressed from pET28a vectors transformed in E. coli BL21(DE3) cells. After purification, the specific activity of the purified variants was first quantified in the presence of OHB (2 mM) and either NADH or NADPH (0.25 mM) as cofactor. As shown in
+                - link "Figure 3" [ref=e770] [cursor=pointer]:
+                  - /url: "#F3"
+                - text: ", the template enzyme Ec.Mdh"
+                - superscript [ref=e771]: 5Q
+                - text: was highly active on OHB with NADH as a co-substrate (68 ± 4 U mg
+                - superscript [ref=e772]: −1
+                - text: ) but displayed low activity in the presence of NADPH (4 ± 0.2 U mg
+                - superscript [ref=e773]: −1
+                - text: ). For all of the engineered mutants, the cofactor preference (here defined as v
+                - subscript [ref=e774]: (NADPH)
+                - text: /v
+                - subscript [ref=e775]: (NADH)
+                - text: ) was found to be altered. Replacement of the Asp34 residue by glycine resulted in comparable OHB reductase activity in the presence of both cofactors (v
+                - subscript [ref=e776]: (NADH)
+                - text: = 23 ± 2 U mg
+                - superscript [ref=e777]: −1
+                - text: ", v"
+                - subscript [ref=e778]: (NADPH)
+                - text: = 35 ± 3 U mg
+                - superscript [ref=e779]: −1
+                - text: ), possibly indicating dual cofactor preference. The additional substitution of isoleucine at position 35 by serine, threonine, lysine, or arginine resulted in at least 2.5-fold higher activities in the presence of NADPH than NADH. With 64 ± 4.5 U mg
+                - superscript [ref=e780]: −1
+                - text: ", the specific OHB reductase activity of Ec.Mdh"
+                - superscript [ref=e781]: 5Q
+                - text: D34G:I35R (hereafter abbreviated as Ec.Mdh
+                - superscript [ref=e782]: 7Q
+                - text: ) with NADPH as a cofactor was nearly six-fold higher than with NADH (12 ± 0.02 U mg
+                - superscript [ref=e783]: −1
+                - text: ). The mutant variant showed a similar specific activity on OHB when compared to that of Ec.Mdh
+                - superscript [ref=e784]: 5Q
+                - text: . Thus, Ec.Mdh
+                - superscript [ref=e785]: 7Q
+                - text: was identified as the most promising NADPH-dependent OHB reductase enzyme, and its kinetic parameters on both cofactors and OHB were determined and compared to those of Ec.Mdh
+                - superscript [ref=e786]: 5Q
+                - text: .
+              - generic [ref=e787]:
+                - generic [ref=e788]:
+                  - paragraph [ref=e789]: FIGURE 3
+                  - button "Download Figure" [ref=e790] [cursor=pointer]:
+                    - img [ref=e791]
+                  - button "Expand Figure" [ref=e794] [cursor=pointer]:
+                    - img [ref=e795]
+                - button "Open lightbox for FIGURE 3" [ref=e797]:
+                  - figure "Specific NAD(P)H-dependent OHB reductase activity of engineered variants derived from Ec.Mdh 5Q . The enzymes were produced from E. coli BL21 (DE3) harboring the respective pET28a expression vectors cultivated in 50 mL LB. Heterologous expression was induced at OD600 of 0.6 with 1 mM IPTG. Protein expression was carried out until OD600 = 2 was reached. Enzymatic assays were performed with purified enzyme at 37°C and pH 7.0 in 96-well flat-bottomed microtiter plates with 2 mM OHB and 0.25 mM NAD(P)H. The reactions were followed by monitoring the NAD(P)H absorption at 340 nm. Error bars indicate the standard deviation of the mean (n = 2)." [ref=e798]:
+                    - generic [ref=e799]:
+                      - img "FIGURE 3"
+                    - paragraph [ref=e801]:
+                      - text: Specific NAD(P)H-dependent OHB reductase activity of engineered variants derived from Ec.Mdh
+                      - superscript [ref=e802]: 5Q
+                      - text: . The enzymes were produced from E. coli BL21 (DE3) harboring the respective pET28a expression vectors cultivated in 50 mL LB. Heterologous expression was induced at OD
+                      - subscript [ref=e803]: "600"
+                      - text: of 0.6 with 1 mM IPTG. Protein expression was carried out until OD
+                      - subscript [ref=e804]: "600"
+                      - text: = 2 was reached. Enzymatic assays were performed with purified enzyme at 37°C and pH 7.0 in 96-well flat-bottomed microtiter plates with 2 mM OHB and 0.25 mM NAD(P)H. The reactions were followed by monitoring the NAD(P)H absorption at 340 nm. Error bars indicate the standard deviation of the mean (n = 2).
+              - paragraph [ref=e805]:
+                - text: The kinetic parameters of both enzyme variants are summarized in
+                - link "Table 3" [ref=e806] [cursor=pointer]:
+                  - /url: "#T3"
+                - text: . The engineered variant Ec.Mdh
+                - superscript [ref=e807]: 7Q
+                - text: exhibited more than three orders of magnitude higher specificity (defined as (k
+                - subscript [ref=e808]: cat
+                - text: /K
+                - subscript [ref=e809]: m(NADPH)
+                - text: )/(k
+                - subscript [ref=e810]: cat
+                - text: /K
+                - subscript [ref=e811]: m(NADH)
+                - text: ) for NADPH than Ec.Mdh
+                - superscript [ref=e812]: 5Q
+                - text: (16 and 0.01, respectively). No loss in OHB affinity or impairment of the overall catalytic efficiency ((k
+                - subscript [ref=e813]: cat
+                - text: /K
+                - subscript [ref=e814]: m
+                - text: )
+                - subscript [ref=e815]: OHB
+                - text: × (k
+                - subscript [ref=e816]: cat
+                - text: /K
+                - subscript [ref=e817]: m
+                - text: )
+                - subscript [ref=e818]: NAD(P)H
+                - text: ) was observed. We observed uncompetitive substrate inhibition of Ec.Mdh
+                - superscript [ref=e819]: 7Q
+                - text: by OHB (K
+                - subscript [ref=e820]: i
+                - text: = 5.5 ± 0.5 mM). Substrate inhibition was found to be stronger than for Ec.Mdh
+                - superscript [ref=e821]: 5Q
+                - text: (K
+                - subscript [ref=e822]: i
+                - text: = 31.9 mM ± 5.6 mM) (
+                - link "Frazão et al., 2018" [ref=e823] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ).
+              - generic [ref=e824]:
+                - generic [ref=e825]:
+                  - paragraph [ref=e826]: TABLE 3
+                  - button "Expand Table" [ref=e827] [cursor=pointer]:
+                    - img [ref=e828]
+                - table [ref=e831]:
+                  - rowgroup [ref=e832]:
+                    - row "Enzyme Ec.Mdh 5Q Ec.Mdh 7Q" [ref=e833]:
+                      - columnheader "Enzyme" [ref=e834]
+                      - columnheader "Ec.Mdh 5Q" [ref=e835]:
+                        - text: Ec.Mdh
+                        - superscript [ref=e836]: 5Q
+                      - columnheader "Ec.Mdh 7Q" [ref=e837]:
+                        - text: Ec.Mdh
+                        - superscript [ref=e838]: 7Q
+                  - rowgroup [ref=e839]:
+                    - row "NADH a" [ref=e840]:
+                      - cell "NADH a" [ref=e841]:
+                        - text: NADH
+                        - link "a" [ref=e842] [cursor=pointer]:
+                          - /url: "#Tfn1"
+                          - superscript [ref=e843]: a
+                    - row "Vmax,app (U mg −1 ) 67.68 (±3.12) 20.02 (±1.99)" [ref=e844]:
+                      - cell "Vmax,app (U mg −1 )" [ref=e845]:
+                        - text: V
+                        - subscript [ref=e846]: max,app
+                        - text: (U mg
+                        - superscript [ref=e847]: −1
+                        - text: )
+                      - cell "67.68 (±3.12)" [ref=e848]
+                      - cell "20.02 (±1.99)" [ref=e849]
+                    - row "kcat,app (s −1 ) 36.48 (±1.68) 10.79 (±1.07)" [ref=e850]:
+                      - cell "kcat,app (s −1 )" [ref=e851]:
+                        - text: k
+                        - subscript [ref=e852]: cat,app
+                        - text: (s
+                        - superscript [ref=e853]: −1
+                        - text: )
+                      - cell "36.48 (±1.68)" [ref=e854]
+                      - cell "10.79 (±1.07)" [ref=e855]
+                    - row "Km,app (mM) 0.04 (±0.004) 0.27 (±0.04)" [ref=e856]:
+                      - cell "Km,app (mM)" [ref=e857]:
+                        - text: K
+                        - subscript [ref=e858]: m,app
+                        - text: (mM)
+                      - cell "0.04 (±0.004)" [ref=e859]
+                      - cell "0.27 (±0.04)" [ref=e860]
+                    - row "kcat,app/Km,app (mM −1 s −1 ) 1,027.40 (±67.46) 40.35 (±1.71)" [ref=e861]:
+                      - cell "kcat,app/Km,app (mM −1 s −1 )" [ref=e862]:
+                        - text: k
+                        - subscript [ref=e863]: cat,app
+                        - text: /K
+                        - subscript [ref=e864]: m,app
+                        - text: (mM
+                        - superscript [ref=e865]: −1
+                        - text: s
+                        - superscript [ref=e866]: −1
+                        - text: )
+                      - cell "1,027.40 (±67.46)" [ref=e867]
+                      - cell "40.35 (±1.71)" [ref=e868]
+                    - row "NADPH a" [ref=e869]:
+                      - cell "NADPH a" [ref=e870]:
+                        - text: NADPH
+                        - link "a" [ref=e871] [cursor=pointer]:
+                          - /url: "#Tfn1"
+                          - superscript [ref=e872]: a
+                    - row "Vmax,app (U mg −1 ) 5.56 (±0.64) 118.80 (±18.5)" [ref=e873]:
+                      - cell "Vmax,app (U mg −1 )" [ref=e874]:
+                        - text: V
+                        - subscript [ref=e875]: max,app
+                        - text: (U mg
+                        - superscript [ref=e876]: −1
+                        - text: )
+                      - cell "5.56 (±0.64)" [ref=e877]
+                      - cell "118.80 (±18.5)" [ref=e878]
+                    - row "kcat,app (s −1 ) 2.99 (±0.35) 64.03 (±9.97)" [ref=e879]:
+                      - cell "kcat,app (s −1 )" [ref=e880]:
+                        - text: k
+                        - subscript [ref=e881]: cat,app
+                        - text: (s
+                        - superscript [ref=e882]: −1
+                        - text: )
+                      - cell "2.99 (±0.35)" [ref=e883]
+                      - cell "64.03 (±9.97)" [ref=e884]
+                    - row "Km,app (mM) 0.32 (±0.04) 0.10 (±0.03)" [ref=e885]:
+                      - cell "Km,app (mM)" [ref=e886]:
+                        - text: K
+                        - subscript [ref=e887]: m,app
+                        - text: (mM)
+                      - cell "0.32 (±0.04)" [ref=e888]
+                      - cell "0.10 (±0.03)" [ref=e889]
+                    - row "kcat,app/Km,app (mM −1 s −1 ) 9.50 (±0.05) 645.47 (±76.25)" [ref=e890]:
+                      - cell "kcat,app/Km,app (mM −1 s −1 )" [ref=e891]:
+                        - text: k
+                        - subscript [ref=e892]: cat,app
+                        - text: /K
+                        - subscript [ref=e893]: m,app
+                        - text: (mM
+                        - superscript [ref=e894]: −1
+                        - text: s
+                        - superscript [ref=e895]: −1
+                        - text: )
+                      - cell "9.50 (±0.05)" [ref=e896]
+                      - cell "645.47 (±76.25)" [ref=e897]
+                    - row "OHB b" [ref=e898]:
+                      - cell "OHB b" [ref=e899]:
+                        - text: OHB
+                        - link "b" [ref=e900] [cursor=pointer]:
+                          - /url: "#Tfn2"
+                          - superscript [ref=e901]: b
+                    - row "Vmax,app (U mg −1 ) 138.50 (±10.45) 154.80 (±6.30)" [ref=e902]:
+                      - cell "Vmax,app (U mg −1 )" [ref=e903]:
+                        - text: V
+                        - subscript [ref=e904]: max,app
+                        - text: (U mg
+                        - superscript [ref=e905]: −1
+                        - text: )
+                      - cell "138.50 (±10.45)" [ref=e906]
+                      - cell "154.80 (±6.30)" [ref=e907]
+                    - row "kcat,app (s −1 ) 74.89 (±5.63) 83.43 (±3.40)" [ref=e908]:
+                      - cell "kcat,app (s −1 )" [ref=e909]:
+                        - text: k
+                        - subscript [ref=e910]: cat,app
+                        - text: (s
+                        - superscript [ref=e911]: −1
+                        - text: )
+                      - cell "74.89 (±5.63)" [ref=e912]
+                      - cell "83.43 (±3.40)" [ref=e913]
+                    - row "Km,app (mM) 1.84 (±0.50) 1.08 (±0.19)" [ref=e914]:
+                      - cell "Km,app (mM)" [ref=e915]:
+                        - text: K
+                        - subscript [ref=e916]: m,app
+                        - text: (mM)
+                      - cell "1.84 (±0.50)" [ref=e917]
+                      - cell "1.08 (±0.19)" [ref=e918]
+                    - row "Ki (mM) 31.9 (±5.6) c 5.45 (±0.48)" [ref=e919]:
+                      - cell "Ki (mM)" [ref=e920]:
+                        - text: K
+                        - subscript [ref=e921]: i
+                        - text: (mM)
+                      - cell "31.9 (±5.6) c" [ref=e922]:
+                        - text: 31.9 (±5.6)
+                        - link "c" [ref=e923] [cursor=pointer]:
+                          - /url: "#Tfn3"
+                          - superscript [ref=e924]: c
+                      - cell "5.45 (±0.48)" [ref=e925]
+                    - row "kcat,app/Km,app (mM −1 s −1 ) 44.91 (±15.18) 80.29 (±17.27)" [ref=e926]:
+                      - cell "kcat,app/Km,app (mM −1 s −1 )" [ref=e927]:
+                        - text: k
+                        - subscript [ref=e928]: cat,app
+                        - text: /K
+                        - subscript [ref=e929]: m,app
+                        - text: (mM
+                        - superscript [ref=e930]: −1
+                        - text: s
+                        - superscript [ref=e931]: −1
+                        - text: )
+                      - cell "44.91 (±15.18)" [ref=e932]
+                      - cell "80.29 (±17.27)" [ref=e933]
+                    - row "Specificity" [ref=e934]:
+                      - cell "Specificity" [ref=e935]
+                    - row "(kcat,app/Km,app)NADPH/(kcat,app/Km,app)NADH 0.01 16.00" [ref=e936]:
+                      - cell "(kcat,app/Km,app)NADPH/(kcat,app/Km,app)NADH" [ref=e937]:
+                        - text: (k
+                        - subscript [ref=e938]: cat,app
+                        - text: /K
+                        - subscript [ref=e939]: m,app
+                        - text: )
+                        - subscript [ref=e940]: NADPH
+                        - text: /(k
+                        - subscript [ref=e941]: cat,app
+                        - text: /K
+                        - subscript [ref=e942]: m,app
+                        - text: )
+                        - subscript [ref=e943]: NADH
+                      - cell "0.01" [ref=e944]
+                      - cell "16.00" [ref=e945]
+                    - row "Overall catalytic efficiency" [ref=e946]:
+                      - cell "Overall catalytic efficiency" [ref=e947]
+                    - row "(kcat,app/Km,app)OHB × (kcat,app/Km,app)NAD(P)H 46,136 51,823" [ref=e948]:
+                      - cell "(kcat,app/Km,app)OHB × (kcat,app/Km,app)NAD(P)H" [ref=e949]:
+                        - text: (k
+                        - subscript [ref=e950]: cat,app
+                        - text: /K
+                        - subscript [ref=e951]: m,app
+                        - text: )
+                        - subscript [ref=e952]: OHB
+                        - text: × (k
+                        - subscript [ref=e953]: cat,app
+                        - text: /K
+                        - subscript [ref=e954]: m,app
+                        - text: )
+                        - subscript [ref=e955]: NAD(P)H
+                      - cell "46,136" [ref=e956]
+                      - cell "51,823" [ref=e957]
+                - paragraph [ref=e959]:
+                  - text: Kinetic analysis of OHB reductases Ec.Mdh
+                  - superscript [ref=e960]: 5Q
+                  - text: and Ec.Mdh
+                  - superscript [ref=e961]: 7Q
+                  - text: .
+                - generic [ref=e962]:
+                  - generic [ref=e963]:
+                    - strong [ref=e964]:
+                      - superscript [ref=e965]: a
+                    - paragraph [ref=e966]: Specific OHB reductase activities were determined at fixed concentrations of substrate (OHB, 2 mM) and variable concentrations of NAD(P)H (1–0.03 mM).
+                  - generic [ref=e967]:
+                    - strong [ref=e968]:
+                      - superscript [ref=e969]: b
+                    - paragraph [ref=e970]: Specific OHB reductase activities were determined at fixed concentrations (0.25 mM) of the preferred co-substrate NAD(P)H and variable amounts of OHB (10–0.005 mM).
+                  - generic [ref=e971]:
+                    - strong [ref=e972]:
+                      - superscript [ref=e973]: c
+                    - paragraph [ref=e974]:
+                      - link "Frazão et al. (2018)" [ref=e975] [cursor=pointer]:
+                        - /url: "#B21"
+                      - text: .
+                  - paragraph [ref=e977]:
+                    - text: Apparent kinetic constants (K
+                    - subscript [ref=e978]: m,app
+                    - text: ", V"
+                    - subscript [ref=e979]: max,app
+                    - text: ) were estimated by fitting the experimental data to the Michaelis–Menten model using non-linear regression unless enzymes displayed substrate inhibition kinetics (Curve fitting tool, MATLAB R2021a). To calculate the apparent catalytic constant k
+                    - subscript [ref=e980]: cat
+                    - text: ","
+                    - subscript [ref=e981]: app
+                    - text: ", the molecular weight of one subunit of Ec.Mdh (32.337 kDa) was considered. Specificity and efficiency were calculated based on mean k"
+                    - subscript [ref=e982]: cat,app
+                    - text: and K
+                    - subscript [ref=e983]: m,app
+                    - text: values. Enzyme assays were performed in biological duplicates. Ec.Mdh
+                    - superscript [ref=e984]: 5Q
+                    - text: contains mutations I12V:R81A:M85Q:D86S:G179D.
+                  - paragraph [ref=e986]:
+                    - text: Ec.Mdh
+                    - superscript [ref=e987]: 7Q
+                    - text: additionally contains mutations D34G:I35R.
+              - heading "3.3 DHB production using NADPH-dependent OHB reductase" [level=3] [ref=e988]
+              - paragraph [ref=e989]:
+                - text: Next, the in vivo performance of the NADPH-dependent OHB reductase Ec.Mdh
+                - superscript [ref=e990]: 7Q
+                - text: for DHB biosynthesis was investigated. To achieve DHB production from glucose, we selected E. coli MG1655 ΔthrB ΔmetA ΔldhA as a production host to ensure a sufficient supply of the homoserine precursor. The host was then equipped with a DHB pathway consisting of homoserine transaminase activity (catalyzed by Ec.AspC from E. coli), and NAD(P)H-dependent OHB reductase activity (either Ec.Mdh
+                - superscript [ref=e991]: 5Q
+                - text: or Ec.Mdh
+                - superscript [ref=e992]: 7Q
+                - text: ) expressed from a medium-copy plasmid pZA23 under the control of the ITPG-inducible P
+                - subscript [ref=e993]: A1lacO-1
+                - text: promoter. Constructed plasmids additionally carried threonine-insensitive bifunctional aspartate kinase/homoserine dehydrogenase (Ec.ThrA
+                - subscript [ref=e994]: S345F
+                - text: ) and the aspartate/malate insensitive phosphoenolpyruvate carboxylase variant Ec.Ppc
+                - subscript [ref=e995]: K620S
+                - text: (
+                - link "Frazão et al., 2018" [ref=e996] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ) (see the metabolic setting in
+                - link "Figure 1" [ref=e997] [cursor=pointer]:
+                  - /url: "#F1"
+                - text: ).
+              - paragraph [ref=e998]:
+                - text: Producer strains were cultivated in 25 mL M9 mineral medium containing 20 g L
+                - superscript [ref=e999]: −1
+                - text: glucose. (L)-methionine and (L)-threonine were added to the medium (at a final concentration of 0.2 g L
+                - superscript [ref=e1000]: −1
+                - text: each) to compensate for the host strain’s auxotrophies. Expression of pathway genes was induced by IPTG (1 mM) at the mid-exponential phase, and DHB production was quantified after 24 h of cell cultivation. Upon expression of Ec.Mdh
+                - superscript [ref=e1001]: 5Q
+                - text: ", we found the culture supernatant to contain 7.0 ± 0.5 mM DHB (EcHS1,"
+                - link "Figure 4" [ref=e1002] [cursor=pointer]:
+                  - /url: "#F4"
+                - text: ), reaching a product yield of 0.10 ± 0.004 mol
+                - subscript [ref=e1003]: DHB
+                - text: mol
+                - subscript [ref=e1004]: Glucose
+                - superscript [ref=e1005]: −1
+                - text: and a volumetric productivity of 0.29 ± 0.02 mmol
+                - subscript [ref=e1006]: DHB
+                - text: L
+                - superscript [ref=e1007]: −1
+                - text: h
+                - superscript [ref=e1008]: −1
+                - text: . Strain EcHS2 expressing Ec.Mdh
+                - superscript [ref=e1009]: 7Q
+                - text: was able to produce 7.5 ± 0.6 mM DHB. Because only a modest increase in DHB production was observed with NADPH-dependent OHB reductase, we speculated at this stage that homoserine transaminase activity was limiting. Indeed, purified Ec.AspC enzyme has previously been shown to display only low in vitro activity on (L)-homoserine (0.082 U mg
+                - superscript [ref=e1010]: −1
+                - text: ), and it could not be saturated at substrate concentrations of up to 50 mM (L)-homoserine (
+                - link "Walther et al., 2017a" [ref=e1011] [cursor=pointer]:
+                  - /url: "#B45"
+                - text: ;
+                - link "Walther et al., 2017b" [ref=e1012] [cursor=pointer]:
+                  - /url: "#B47"
+                - text: ). Crucially, however, Bouzon and co-workers (2017) previously disclosed a homoserine transaminase (Ec.AlaC
+                - subscript [ref=e1013]: A142P:Y275D
+                - text: ) with a much higher affinity for homoserine (K
+                - subscript [ref=e1014]: m
+                - text: = 1.7 mM). Therefore, we reanalyzed the effect of the different OHB reductases when co-expressing Ec.AlaC
+                - subscript [ref=e1015]: A142P:Y275D
+                - text: in the producer strains. Indeed, co-expression of Ec.Mdh
+                - superscript [ref=e1016]: 5Q
+                - text: and Ec.AlaC
+                - subscript [ref=e1017]: A142P:Y275D
+                - text: (EcHS3) led to a DHB titer of 13.8 ± 0.5 mM, which constitutes roughly a 2-fold improvement over the use of Ec.AspC. This result confirms the homoserine transaminase activity of Ec.AspC as a rate-limiting step in the pathway, and we retained the transaminase Ec.AlaC
+                - subscript [ref=e1018]: A142P:Y275D
+                - text: for all subsequent experiments. Replacement of Ec.Mdh
+                - superscript [ref=e1019]: 5Q
+                - text: by NADPH-dependent OHB reductase led to the production of 17.2 ± 0.2 mM (EcHS4), which represents a 25% improvement compared to the corresponding strain with the NADH-dependent variant. By co-expressing Ec.alaC
+                - subscript [ref=e1020]: A142P:Y275D
+                - text: and Ec.mdh
+                - superscript [ref=e1021]: 7Q
+                - text: genes, a maximum DHB product yield of 0.20 ± 0.005 mol
+                - subscript [ref=e1022]: DHB
+                - text: mol
+                - subscript [ref=e1023]: Glucose
+                - superscript [ref=e1024]: −1
+                - text: and a volumetric productivity of 0.72 ± 0.01 mmol
+                - subscript [ref=e1025]: DHB
+                - text: L
+                - superscript [ref=e1026]: −1
+                - text: h
+                - superscript [ref=e1027]: −1
+                - text: were achieved. Analysis of the enantiomeric purity of DHB revealed the presence of only the L-form of the organic acid (data not shown).
+              - generic [ref=e1028]:
+                - generic [ref=e1029]:
+                  - paragraph [ref=e1030]: FIGURE 4
+                  - button "Download Figure" [ref=e1031] [cursor=pointer]:
+                    - img [ref=e1032]
+                  - button "Expand Figure" [ref=e1035] [cursor=pointer]:
+                    - img [ref=e1036]
+                - button "Open lightbox for FIGURE 4" [ref=e1038]:
+                  - figure "DHB concentration and yield after 24 h cultivation of engineered production strains. All strains are derived from the parental strain E. coli MG1655 ΔthrB ΔmetA ΔldhA, which was transformed with medium-copy DHB production plasmids expressing homoserine transaminase (Ec.aspC or Ec.alaCA142P:Y275D) and OHB reductase (Ec.Mdh5Q or Ec.Mdh7Q). All plasmids further carry Ec.thrAS345F and Ec.ppcK620S. Cultivation was performed at 37°C and 220 rpm in 250 mL baffled flasks containing 25 mL M9 medium with 20 g L −1 glucose, supplemented with 0.2 g L −1 (L)-methionine and 0.2 g L −1 (L)-threonine. The expression of pathway genes was induced at an OD600 of 0.6 with 1 mM IPTG. DHB titers and yields after 24 h of cultivation are shown. The experiments were performed in biological duplicates. Error bars indicate the standard deviation of the mean." [ref=e1039]:
+                    - generic [ref=e1040]:
+                      - img "FIGURE 4"
+                    - paragraph [ref=e1042]:
+                      - text: DHB concentration and yield after 24 h cultivation of engineered production strains. All strains are derived from the parental strain E. coli MG1655 ΔthrB ΔmetA ΔldhA, which was transformed with medium-copy DHB production plasmids expressing homoserine transaminase (Ec.aspC or Ec.alaC
+                      - subscript [ref=e1043]: A142P:Y275D
+                      - text: ) and OHB reductase (Ec.Mdh
+                      - subscript [ref=e1044]: 5Q
+                      - text: or Ec.Mdh
+                      - subscript [ref=e1045]: 7Q
+                      - text: ). All plasmids further carry Ec.thrA
+                      - subscript [ref=e1046]: S345F
+                      - text: and Ec.ppc
+                      - subscript [ref=e1047]: K620S
+                      - text: . Cultivation was performed at 37°C and 220 rpm in 250 mL baffled flasks containing 25 mL M9 medium with 20 g L
+                      - superscript [ref=e1048]: −1
+                      - text: glucose, supplemented with 0.2 g L
+                      - superscript [ref=e1049]: −1
+                      - text: (L)-methionine and 0.2 g L
+                      - superscript [ref=e1050]: −1
+                      - text: (L)-threonine. The expression of pathway genes was induced at an OD
+                      - subscript [ref=e1051]: "600"
+                      - text: of 0.6 with 1 mM IPTG. DHB titers and yields after 24 h of cultivation are shown. The experiments were performed in biological duplicates. Error bars indicate the standard deviation of the mean.
+              - heading "3.4 Construction of NADPH over-producing strain for improved DHB production" [level=3] [ref=e1052]
+              - paragraph [ref=e1053]:
+                - text: To demonstrate the full potential of NADPH-dependent OHB reductase toward DHB production, we next engineered the host strain E. coli MG1655 ΔthrB ΔmetA ΔldhA toward increased NADPH supply. We selected multiple chromosomal targets previously shown to increase the intracellular availability of NADPH, including the deletion of the Ec.pfkA gene (encoding 6-phosphofructokinase I) to enhance flux through the pentose phosphate pathway (
+                - link "Chin and Cirino, 2011" [ref=e1054] [cursor=pointer]:
+                  - /url: "#B11"
+                - text: ). We further altered the expression of the transhydrogenase system toward the formation of NADPH by deleting soluble pyridine nucleotide transhydrogenase Ec.SthA (NAD
+                - superscript [ref=e1055]: +
+                - text: + NADPH → NADH + NADP
+                - superscript [ref=e1056]: +
+                - text: ;
+                - link "Boonstra et al., 1999" [ref=e1057] [cursor=pointer]:
+                  - /url: "#B3"
+                - text: ;
+                - link "Sauer et al., 2004" [ref=e1058] [cursor=pointer]:
+                  - /url: "#B41"
+                - text: ) and/or overexpressing membrane-bound pyridine nucleotide transhydrogenase Ec.PntAB (NADH + NADP
+                - superscript [ref=e1059]: +
+                - text: → NAD
+                - superscript [ref=e1060]: +
+                - text: + NADPH;
+                - link "Clarke et al., 1986" [ref=e1061] [cursor=pointer]:
+                  - /url: "#B13"
+                - text: ;
+                - link "Sauer et al., 2004" [ref=e1062] [cursor=pointer]:
+                  - /url: "#B41"
+                - text: ). The resulting host strains were then used to characterize the impact of increased NADPH availability on DHB production with the NADPH-dependent OHB reductase. To investigate potential effects on DHB production that may be caused by altered homoserine availability, we additionally tested Ec.Mdh
+                - superscript [ref=e1063]: 5Q
+                - text: .
+              - paragraph [ref=e1064]:
+                - text: After 24 h of cultivation in glucose-containing mineral medium, the producer strains with the chromosomal deletion of the Ec.pfkA gene and expressing the NADH-dependent Ec.mdh
+                - superscript [ref=e1065]: 5Q
+                - text: (EcHS5) exhibited a severe drop of both DHB concentration and yield when compared to the reference strain EcHS3 (
+                - link "Figure 5" [ref=e1066] [cursor=pointer]:
+                  - /url: "#F5"
+                - text: ). This may be related to the observed growth defect caused by Ec.pfkA deletion (data not shown). With EcHS6 deleted for Ec.sthA, the DHB yield was equal to 0.19 ± 0.03 mol
+                - subscript [ref=e1067]: DHB
+                - text: mol
+                - subscript [ref=e1068]: Glucose
+                - superscript [ref=e1069]: −1
+                - text: ", which corresponds to a 19% increase when compared to reference strain EcHS3 with a yield of 0.16 mol ± 0.001 mol"
+                - subscript [ref=e1070]: DHB
+                - text: mol
+                - subscript [ref=e1071]: Glucose
+                - superscript [ref=e1072]: −1
+                - text: . Upon chromosomal overexpression of Ec.pntAB (EcHS7), the product yield was further increased to 0.21 ± 0.007 mol
+                - subscript [ref=e1073]: DHB
+                - text: mol
+                - subscript [ref=e1074]: Glucose
+                - superscript [ref=e1075]: −1
+                - text: ", which corresponds to a total increase of 30% compared to the reference strain (EcHS3). The additional deletion of Ec.sthA did not provide an advantage and indeed caused the DHB yield to drop to 0.18 ± 0.008 mol"
+                - subscript [ref=e1076]: DHB
+                - text: mol
+                - subscript [ref=e1077]: Glucose
+                - superscript [ref=e1078]: −1
+                - text: .
+              - generic [ref=e1079]:
+                - generic [ref=e1080]:
+                  - paragraph [ref=e1081]: FIGURE 5
+                  - button "Download Figure" [ref=e1082] [cursor=pointer]:
+                    - img [ref=e1083]
+                  - button "Expand Figure" [ref=e1086] [cursor=pointer]:
+                    - img [ref=e1087]
+                - button "Open lightbox for FIGURE 5" [ref=e1089]:
+                  - figure "DHB concentration and yield after 24 h cultivation of engineered production strains with increased NADPH availability. All strains were derived from the parental strain E. coli MG1655 ΔthrB ΔmetA ΔldhA, which was transformed with medium-copy DHB production plasmids expressing homoserine transaminase (Ec.alaCA142P:Y275D) and OHB reductase (Ec.mdh 5Q or Ec.mdh 7Q ). All plasmids further carried Ec.thrAS345F and Ec.ppcK620S. Cultivation was performed at 37°C and 220 rpm in 250-mL baffled flasks containing 25 mL M9 medium with 20 g L −1 glucose, supplemented with 0.2 g L −1 (L)-methionine and 0.2 g L −1 (L)-threonine. Expression of pathway genes was induced at an OD600 of 0.6 with 1 mM IPTG. DHB titers and yields after 24 h of cultivation are shown. The experiments were performed in biological duplicates. Error bars indicate the standard deviation of the mean." [ref=e1090]:
+                    - generic [ref=e1091]:
+                      - img "FIGURE 5"
+                    - paragraph [ref=e1093]:
+                      - text: DHB concentration and yield after 24 h cultivation of engineered production strains with increased NADPH availability. All strains were derived from the parental strain E. coli MG1655 ΔthrB ΔmetA ΔldhA, which was transformed with medium-copy DHB production plasmids expressing homoserine transaminase (Ec.alaC
+                      - subscript [ref=e1094]: A142P:Y275D
+                      - text: ) and OHB reductase (Ec.mdh
+                      - superscript [ref=e1095]: 5Q
+                      - text: or Ec.mdh
+                      - superscript [ref=e1096]: 7Q
+                      - text: ). All plasmids further carried Ec.thrA
+                      - subscript [ref=e1097]: S345F
+                      - text: and Ec.ppc
+                      - subscript [ref=e1098]: K620S
+                      - text: . Cultivation was performed at 37°C and 220 rpm in 250-mL baffled flasks containing 25 mL M9 medium with 20 g L
+                      - superscript [ref=e1099]: −1
+                      - text: glucose, supplemented with 0.2 g L
+                      - superscript [ref=e1100]: −1
+                      - text: (L)-methionine and 0.2 g L
+                      - superscript [ref=e1101]: −1
+                      - text: (L)-threonine. Expression of pathway genes was induced at an OD
+                      - subscript [ref=e1102]: "600"
+                      - text: of 0.6 with 1 mM IPTG. DHB titers and yields after 24 h of cultivation are shown. The experiments were performed in biological duplicates. Error bars indicate the standard deviation of the mean.
+              - paragraph [ref=e1103]:
+                - text: The production strains expressing Ec.mdh
+                - superscript [ref=e1104]: 7Q
+                - text: displayed similar tendencies as the strains expressing Ec.mdh
+                - superscript [ref=e1105]: 5Q
+                - text: . However, the positive effect on DHB production upon chromosomal overexpression of Ec.pntAB was enhanced, yielding 0.25 ± 0.01 mol
+                - subscript [ref=e1106]: DHB
+                - text: mol
+                - subscript [ref=e1107]: Glucose
+                - superscript [ref=e1108]: −1
+                - text: after 24 h cultivation of EcHS11. Thus, increased NADPH availability via chromosomal overexpression of pntAB promoted DHB synthesis, particularly in the presence of the engineered NADPH-dependent enzyme variant.
+              - paragraph [ref=e1109]:
+                - text: To sum up, by co-expression of the improved homoserine transaminase (Ec.alaC
+                - subscript [ref=e1110]: A142P:Y275D
+                - text: ) with the NADPH-dependent OHB reductase Ec.mdh
+                - superscript [ref=e1111]: 7Q
+                - text: and by further modification of the production strain (Ec.pntAB
+                - superscript [ref=e1112]: proD
+                - text: ), it was possible to increase the DHB yield by 50% to 0.25 ± 0.01 mol
+                - subscript [ref=e1113]: DHB
+                - text: mol
+                - subscript [ref=e1114]: Glucose
+                - superscript [ref=e1115]: −1
+                - text: and reach a volumetric productivity of 0.83 ± 0.03 mmol
+                - subscript [ref=e1116]: DHB
+                - text: L
+                - superscript [ref=e1117]: −1
+                - text: h
+                - superscript [ref=e1118]: −1
+                - text: within 24 h of batch cultivation of EcHS11.
+              - heading "3.5 Discussion" [level=3] [ref=e1119]
+              - paragraph [ref=e1120]:
+                - text: In previous work, we used a rational engineering approach to construct a highly active OHB reductase enzyme, catalyzing the last reaction step of the artificial homoserine-dependent DHB synthesis route (
+                - link "Frazão et al., 2018" [ref=e1121] [cursor=pointer]:
+                  - /url: "#B21"
+                - text: ). Because we used the NAD
+                - superscript [ref=e1122]: +
+                - text: "-dependent E. coli malate dehydrogenase (Ec.Mdh; UniProtKB code P61889) as a template to construct Ec.Mdh"
+                - superscript [ref=e1123]: 5Q
+                - text: (I12V:R81A:M85Q:D86S:G179D), the reduction of OHB in the synthetic pathway relied on NADH as a cofactor. However, typical intracellular ratios of [NAD(P)H]/[NAD(P)] in E. coli (
+                - link "Bennett et al., 2009" [ref=e1124] [cursor=pointer]:
+                  - /url: "#B2"
+                - text: ) indicate that the use of a NADPH-dependent OHB reductase provides a thermodynamic advantage. In this study, we aimed to replace the currently used NADH-dependent OHB reductase by an enzyme with NADPH-dependent activity.
+              - paragraph [ref=e1125]:
+                - text: Oxidoreductases with nicotinamide cofactor dependency exhibit a strong preference for either NAD(H) or NADP(H) (
+                - link "Chánique and Parra, 2018" [ref=e1126] [cursor=pointer]:
+                  - /url: "#B8"
+                - text: ). In the large and complex (L)-malate/(L)-lactate dehydrogenase superfamily, most enzyme candidates of microbial origin rely on the NAD(H) cofactor system, typically showing only low residual activities with NADP(H) (
+                - link "Takahashi-Íñiguez et al., 2016" [ref=e1127] [cursor=pointer]:
+                  - /url: "#B44"
+                - text: ;
+                - link "Brochier-Armanet and Madern, 2021" [ref=e1128] [cursor=pointer]:
+                  - /url: "#B5"
+                - text: ). Whereas naturally existing NADP(H)-dependent Ldhs have not yet been identified (
+                - link "Richter et al., 2011" [ref=e1129] [cursor=pointer]:
+                  - /url: "#B39"
+                - text: ), NADP(H)-preferring Mdhs exist in chloroplasts (
+                - link "Lemaire et al., 1996" [ref=e1130] [cursor=pointer]:
+                  - /url: "#B29"
+                - text: ). Indeed, we initially envisaged the construction of a NADPH-dependent OHB reductase using the NADP
+                - superscript [ref=e1131]: +
+                - text: "-dependent chloroplast malate dehydrogenase originating from Sorghum bicolor (Sb.chMdhP) as a template enzyme ("
+                - link "Crétin et al., 1990" [ref=e1132] [cursor=pointer]:
+                  - /url: "#B14"
+                - text: ). Because we did not succeed in the production of a soluble, active enzyme variant in E. coli, we altered our strategy and instead focused on switching the cofactor specificity of previously reported NADH-dependent OHB reductase variant Ec.Mdh
+                - superscript [ref=e1133]: 5Q
+                - text: toward NADPH.
+              - paragraph [ref=e1134]:
+                - text: Previous studies investigating the cofactor specificity of enzymes belonging to the (L)-malate/(L)-lactate dehydrogenase superfamily revealed that only a few amino acid residues are responsible for conferring the preference for either NAD(H) or NADP(H). In attempts to reverse the enzyme cofactor dependency, identifying crucial cofactor-discriminating key positions is usually followed by site-directed mutagenesis of the respective amino acid residues or a loop exchange approach (
+                - link "Chánique and Parra, 2018" [ref=e1135] [cursor=pointer]:
+                  - /url: "#B8"
+                - text: ). Our present study confirms the crucial importance of the amino acid residues at positions 34 and 35 in Ec.Mdh in conferring cofactor preference. Upon replacing Asp34 and Ile35 with glycine and arginine, respectively, the cofactor specificity of the mutant Ec.Mdh
+                - superscript [ref=e1136]: 7Q
+                - text: was successfully altered from NADH to NADPH. Switching the cofactor specificity while maintaining comparable catalytic efficiency to that of the wild-type enzyme represents a significant challenge. In the majority of previous attempts of switching the cofactor specificity of oxidoreductases from NAD(H) to NADP(H), the catalytic efficiency of the mutant with NADP(H) was severely reduced, reaching less than 50% of the wild type’s catalytic efficiency with NAD(H) (
+                - link "Chánique and Parra, 2018" [ref=e1137] [cursor=pointer]:
+                  - /url: "#B8"
+                - text: ). Although the catalytic efficiency of Ec.Mdh
+                - superscript [ref=e1138]: 7Q
+                - text: with NADPH was also reduced in the context of this study, it still reached more than 60% of that of the template enzymes with NADH. Further engineering efforts should be made to fully recover the activity of Ec.Mdh
+                - superscript [ref=e1139]: 7Q
+                - text: with NADPH compared to the template enzyme Ec.Mdh
+                - superscript [ref=e1140]: 5Q
+                - text: with NADH. More relevant for in vivo DHB pathway operation using the NADPH-dependent variant, the overall catalytic efficiency for OHB reduction in the presence of the preferred cofactor defined as (k
+                - subscript [ref=e1141]: cat,app
+                - text: /K
+                - subscript [ref=e1142]: m,app
+                - text: )
+                - subscript [ref=e1143]: (OHB)
+                - text: × (k
+                - subscript [ref=e1144]: cat,app
+                - text: /K
+                - subscript [ref=e1145]: m,app
+                - text: )
+                - subscript [ref=e1146]: (NAD(P)H)
+                - text: of the mutant Ec.Mdh
+                - superscript [ref=e1147]: 7Q
+                - text: (on OHB with NADPH) was comparable to the template enzyme Ec.Mdh
+                - superscript [ref=e1148]: 5Q
+                - text: (on OHB with NADH). Thus, the engineered Ec.Mdh
+                - superscript [ref=e1149]: 7Q
+                - text: was a promising candidate for in vivo application.
+              - paragraph [ref=e1150]:
+                - text: When we first replaced the NADH-dependent OHB reductase with our engineered NADPH-dependent variant for in vivo DHB production via the homoserine-dependent pathway, a positive effect could not be observed. Thus, we speculated that our current transaminase, Ec.AspC, was limiting the pathway flux (
+                - link "Figure 4" [ref=e1151] [cursor=pointer]:
+                  - /url: "#F4"
+                - text: ). By exchanging Ec.AspC with the alanine aminotransferase double mutant Ec.AlaC
+                - subscript [ref=e1152]: A142P:Y275D
+                - text: (
+                - link "Bouzon et al., 2017" [ref=e1153] [cursor=pointer]:
+                  - /url: "#B4"
+                - text: ) and co-expression with the NADH-dependent Ec.Mdh
+                - superscript [ref=e1154]: 5Q
+                - text: ", we could indeed show a two-fold improvement in DHB production, reaching a concentration of 13.8 ± 0.5 mM. Upon co-expression of Ec.AlaC"
+                - subscript [ref=e1155]: A142P:Y275D
+                - text: and Ec.Mdh
+                - superscript [ref=e1156]: 7Q
+                - text: ", we could even reach up to 17.2 ± 0.2 mM DHB and a product yield of 0.20 ± 0.005 mol"
+                - subscript [ref=e1157]: DHB
+                - text: mol
+                - subscript [ref=e1158]: Glucose
+                - superscript [ref=e1159]: −1
+                - text: after 24 h of cultivation. The results show the superior in vivo performance of the engineered NADPH-dependent OHB reductase variant but also clearly indicate the crucial role of sufficient transaminase activity for efficient pathway operation. However, it must be considered that the affinity of the engineered OHB reductase variant for the synthetic substrate might still be insufficient (K
+                - subscript [ref=e1160]: m
+                - text: = 1.08 ± 0.19 mM), as intracellular OHB concentrations are expected to be in the range of sub-mM levels (
+                - link "Walther et al., 2017a" [ref=e1161] [cursor=pointer]:
+                  - /url: "#B45"
+                - text: ). Due to the reversibility of the transaminase reaction and the high intracellular glutamate concentrations (
+                - link "Bennett et al., 2009" [ref=e1162] [cursor=pointer]:
+                  - /url: "#B2"
+                - text: ), the availability of an effective OHB reductase with high affinity toward the synthetic substrate and high overall catalytic efficiency is crucial to shift the in vivo pathway flux in the direction of the target product DHB. Thus, further engineering might be required to reduce the K
+                - subscript [ref=e1163]: m
+                - text: of the engineered OHB reductase variant.
+              - paragraph [ref=e1164]:
+                - text: Several studies showed how increased NADPH availability resulted in higher yields and productivities of NADPH-dependent product formations. To show the full potential of our engineered NADPH-dependent OHB reductase, we engineered the host strain toward increased NADPH availability using common strategies, including chromosomal deletion of Ec.pfkA to increase the flux through the PPP, deletion of Ec.sthA, and chromosomal overexpression of Ec.pntAB (
+                - link "Kabus et al., 2007" [ref=e1165] [cursor=pointer]:
+                  - /url: "#B28"
+                - text: ;
+                - link "Rathnasingh et al., 2012" [ref=e1166] [cursor=pointer]:
+                  - /url: "#B38"
+                - text: ;
+                - link "Shi et al., 2013" [ref=e1167] [cursor=pointer]:
+                  - /url: "#B42"
+                - text: ;
+                - link "Cui et al., 2014" [ref=e1168] [cursor=pointer]:
+                  - /url: "#B15"
+                - text: ;
+                - link "Cabulong et al., 2019" [ref=e1169] [cursor=pointer]:
+                  - /url: "#B6"
+                - text: ;
+                - link "Hao et al., 2020" [ref=e1170] [cursor=pointer]:
+                  - /url: "#B25"
+                - text: ;
+                - link "Chen et al., 2024" [ref=e1171] [cursor=pointer]:
+                  - /url: "#B9"
+                - text: ;
+                - link "Zhang et al., 2021" [ref=e1172] [cursor=pointer]:
+                  - /url: "#B49"
+                - text: ;
+                - link "Chin and Cirino, 2011" [ref=e1173] [cursor=pointer]:
+                  - /url: "#B11"
+                - text: ). To investigate the potential effects of increased precursor supply, we also evaluated DHB production in NADPH-overproducing host strains expressing the NADH-dependent OHB reductase Ec.mdh
+                - superscript [ref=e1174]: 5Q
+                - text: . Noticeably, we observed a 19% increased DHB yield in our producer strain EcHS5 deleted for sthA, expressing Ec.alaC
+                - subscript [ref=e1175]: A142P:Y275D
+                - text: and Ec.mdh
+                - superscript [ref=e1176]: 5Q
+                - text: and a 25% yield increase in the strain EcHS6 overexpressing pntAB compared to the respective reference strain EcHS3 (0.16 mol ±0.001 mol
+                - subscript [ref=e1177]: DHB
+                - text: mol
+                - subscript [ref=e1178]: Glucose
+                - superscript [ref=e1179]: −1
+                - text: ). These improvements could possibly be ascribed to an enhancement of homoserine production, as two mol of NADPH are necessary to produce one mol of homoserine. However, the positive effect of engineering NADPH supply via pntAB overexpression was clearly strongest in the producer strain EcHS11 expressing the engineered NADPH-dependent Ec.mdh
+                - superscript [ref=e1180]: 7Q
+                - text: ", reaching the highest DHB yield on glucose (0.25 ± 0.01 mol"
+                - subscript [ref=e1181]: DHB
+                - text: mol
+                - subscript [ref=e1182]: Glucose
+                - superscript [ref=e1183]: −1
+                - text: ) reported so far. Although much higher DHB yields starting from homoserine have been reported (0.94 mol mol
+                - superscript [ref=e1184]: −1
+                - text: ) with high-cell densities in recent work of
+                - link "Liu et al. (2022)" [ref=e1185] [cursor=pointer]:
+                  - /url: "#B33"
+                - text: ", such an approach requires the separate fermentation of L-homoserine from glucose, thereby increasing production costs. Furthermore, to the best of our knowledge, the authors did not report yields taking into account the use of the initial glucose substrate. In this study, we report a 50% increase in DHB yield with producer strain EcHS11, compared to the reference EcHS1 (0.10 ± 0.004 mol"
+                - subscript [ref=e1186]: DHB
+                - text: mol
+                - subscript [ref=e1187]: Glucose
+                - superscript [ref=e1188]: −1
+                - text: ). It would be worthwhile investigating whether DHB titers could be increased further through enhanced NADPH availability. In a previous study,
+                - link "Ng et al. (2015)" [ref=e1189] [cursor=pointer]:
+                  - /url: "#B36"
+                - text: presented a promising strategy to increase the NADPH regeneration rate in E. coli by 25-fold, based on the heterologous expression of a synthetic Entner–Doudoroff pathway.
+              - paragraph [ref=e1190]: In a larger, more general context, our study shows how streamlining NADPH cofactor preference of the biosynthetic pathway (by enzyme engineering) and NADPH cofactor supply (by metabolic engineering) can increase the efficiency of aerobic biosyntheses of reduced compounds.
+            - heading "Statements" [level=2] [ref=e1191]
+            - generic [ref=e1192]:
+              - heading "Data availability statement" [level=3] [ref=e1193]
+              - paragraph [ref=e1194]:
+                - text: The original contributions presented in the study are included in the article/
+                - link "Supplementary Material" [ref=e1195] [cursor=pointer]:
+                  - /url: "#s10"
+                - text: ; further inquiries can be directed to the corresponding author.
+            - generic [ref=e1196]:
+              - heading "Author contributions" [level=3] [ref=e1197]
+              - paragraph [ref=e1198]: "NI: Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Validation, Visualization, Writing – original draft, Writing – review & editing. LG: Investigation, Writing – review & editing. CA: Investigation, Writing – review & editing. TN: Investigation, Writing – review & editing. TW: Conceptualization, Funding acquisition, Methodology, Project administration, Resources, Supervision, Writing – original draft, Writing – review & editing. CF: Conceptualization, Investigation, Methodology, Project administration, Supervision, Writing – original draft, Writing – review & editing."
+            - generic [ref=e1199]:
+              - heading "Funding" [level=3] [ref=e1200]
+              - paragraph [ref=e1201]: "The author(s) declare that financial support was received for the research, authorship, and/or publication of this article. This study was supported by a grant from ERA-CoBioTech (ID: 20) awarded to TW. This project is co-funded by the European Union and co-financed from tax revenues on the basis of the budget adopted by the Saxon State Parliament (Project number 100549942). The LC/MS system was in part founded by the Deutsche Forschungsgemeinschaft (INST 269/792-1 FUGG)."
+            - generic [ref=e1202]:
+              - heading "Acknowledgments" [level=3] [ref=e1203]
+              - paragraph [ref=e1204]: The authors thank Prof. Jean-Marie François for the helpful discussions and for kindly providing the strain bWL1221.
+            - generic [ref=e1205]:
+              - heading "Conflict of interest" [level=3] [ref=e1206]
+              - paragraph [ref=e1207]: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+            - generic [ref=e1208]:
+              - heading "Generative AI statement" [level=3] [ref=e1209]
+              - paragraph [ref=e1210]: The author(s) declare that no Generative AI was used in the creation of this manuscript.
+            - generic [ref=e1211]:
+              - heading "Publisher’s note" [level=3] [ref=e1212]
+              - paragraph [ref=e1213]: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+            - generic [ref=e1214]:
+              - heading "Supplementary material" [level=3] [ref=e1215]
+              - paragraph [ref=e1216]:
+                - text: "The Supplementary Material for this article can be found online at:"
+                - link "https://www.frontiersin.org/articles/10.3389/fbioe.2025.1504785/full#supplementary-material" [ref=e1217] [cursor=pointer]:
+                  - /url: "#supplementary-material"
+            - generic [ref=e1218]:
+              - heading "References" [level=2] [ref=e1219]
+              - list [ref=e1220]:
+                - listitem [ref=e1221]:
+                  - paragraph [ref=e1223]: "1"
+                  - generic [ref=e1224]:
+                    - paragraph [ref=e1225]:
+                      - generic [ref=e1226]:
+                        - generic [ref=e1227]: Baba T.,
+                        - generic [ref=e1228]: Ara T.,
+                        - generic [ref=e1229]: Hasegawa M.,
+                        - generic [ref=e1230]: Takai Y.,
+                        - generic [ref=e1231]: Okumura Y.,
+                        - generic [ref=e1232]: Baba M.,
+                        - text: et al
+                      - text: "(2006). Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol. Syst. Biol.2, 2006.0008. 10.1038/msb4100050"
+                    - list [ref=e1233]:
+                      - listitem [ref=e1234]:
+                        - link "CrossRef" [ref=e1235] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/msb4100050
+                      - listitem [ref=e1236]:
+                        - link "Google Scholar" [ref=e1237] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BBaba&author=T..%2BAra&author=M..%2BHasegawa&author=Y..%2BTakai&author=Y..%2BOkumura&author=M..%2BBaba&publication_year=2006&title=Construction%2Bof%2BEscherichia%2Bcoli%2BK-12%2Bin-frame%2C%2Bsingle-gene%2Bknockout%2Bmutants%3A%2Bthe%2BKeio%2Bcollection&journal=Mol.+Syst.+Biol.&volume=2
+                - listitem [ref=e1238]:
+                  - paragraph [ref=e1240]: "2"
+                  - generic [ref=e1241]:
+                    - paragraph [ref=e1242]:
+                      - generic [ref=e1243]:
+                        - generic [ref=e1244]: Bennett B. D.,
+                        - generic [ref=e1245]: Kimball E. H.,
+                        - generic [ref=e1246]: Gao M.,
+                        - generic [ref=e1247]: Osterhout R.,
+                        - generic [ref=e1248]: Van Dien S. J.,
+                        - generic [ref=e1249]: Rabinowitz J. D.
+                      - text: (2009). Absolute metabolite concentrations and implied enzyme active site occupancy in Escherichia coli. Nat. Chem. Biol.5 (8), 593–599. 10.1038/nchembio.186
+                    - list [ref=e1250]:
+                      - listitem [ref=e1251]:
+                        - link "CrossRef" [ref=e1252] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/nchembio.186
+                      - listitem [ref=e1253]:
+                        - link "Google Scholar" [ref=e1254] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=B.%2BD..%2BBennett&author=E.%2BH..%2BKimball&author=M..%2BGao&author=R..%2BOsterhout&author=S.%2BJ..%2BVan%2BDien&author=J.%2BD..%2BRabinowitz&publication_year=2009&title=Absolute%2Bmetabolite%2Bconcentrations%2Band%2Bimplied%2Benzyme%2Bactive%2Bsite%2Boccupancy%2Bin%2BEscherichia%2Bcoli&journal=Nat.+Chem.+Biol.&volume=5&pages=593-599
+                - listitem [ref=e1255]:
+                  - paragraph [ref=e1257]: "3"
+                  - generic [ref=e1258]:
+                    - paragraph [ref=e1259]:
+                      - generic [ref=e1260]:
+                        - generic [ref=e1261]: Boonstra B.,
+                        - generic [ref=e1262]: French C. E.,
+                        - generic [ref=e1263]: Wainwright I.,
+                        - generic [ref=e1264]: Bruce N. C.
+                      - text: (1999). The UdhA gene of Escherichia coli encodes a soluble pyridine nucleotide transhydrogenase. J. Bacteriol.181 (3), 1030–1034. 10.1128/JB.181.3.1030-1034.1999
+                    - list [ref=e1265]:
+                      - listitem [ref=e1266]:
+                        - link "CrossRef" [ref=e1267] [cursor=pointer]:
+                          - /url: https://doi.org/10.1128/JB.181.3.1030-1034.1999
+                      - listitem [ref=e1268]:
+                        - link "Google Scholar" [ref=e1269] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=B..%2BBoonstra&author=C.%2BE..%2BFrench&author=I..%2BWainwright&author=N.%2BC..%2BBruce&publication_year=1999&title=The%2BUdhA%2Bgene%2Bof%2BEscherichia%2Bcoli%2Bencodes%2Ba%2Bsoluble%2Bpyridine%2Bnucleotide%2Btranshydrogenase&journal=J.+Bacteriol.&volume=181&pages=1030-1034
+                - listitem [ref=e1270]:
+                  - paragraph [ref=e1272]: "4"
+                  - generic [ref=e1273]:
+                    - paragraph [ref=e1274]:
+                      - generic [ref=e1275]:
+                        - generic [ref=e1276]: Bouzon M.,
+                        - generic [ref=e1277]: Perret A.,
+                        - generic [ref=e1278]: Loreau O.,
+                        - generic [ref=e1279]: Delmas V.,
+                        - generic [ref=e1280]: Perchat N.,
+                        - generic [ref=e1281]: Jean W.,
+                        - text: et al
+                      - text: (2017). A synthetic alternative to canonical one-carbon metabolism. ACS Synth. Biol.6 (8), 1520–1533. 10.1021/acssynbio.7b00029
+                    - list [ref=e1282]:
+                      - listitem [ref=e1283]:
+                        - link "CrossRef" [ref=e1284] [cursor=pointer]:
+                          - /url: https://doi.org/10.1021/acssynbio.7b00029
+                      - listitem [ref=e1285]:
+                        - link "Google Scholar" [ref=e1286] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=M..%2BBouzon&author=A..%2BPerret&author=O..%2BLoreau&author=V..%2BDelmas&author=N..%2BPerchat&author=W..%2BJean&publication_year=2017&title=A%2Bsynthetic%2Balternative%2Bto%2Bcanonical%2Bone-carbon%2Bmetabolism&journal=ACS+Synth.+Biol.&volume=6&pages=1520-1533
+                - listitem [ref=e1287]:
+                  - paragraph [ref=e1289]: "5"
+                  - generic [ref=e1290]:
+                    - paragraph [ref=e1291]:
+                      - generic [ref=e1292]:
+                        - generic [ref=e1293]: Brochier-Armanet C.,
+                        - generic [ref=e1294]: Madern D.
+                      - text: (2021). Phylogenetics and biochemistry elucidate the evolutionary link between L-malate and L-lactate dehydrogenases and disclose an intermediate group of sequences with mix functional properties. Biochimie191, 140–153. 10.1016/j.biochi.2021.08.004
+                    - list [ref=e1295]:
+                      - listitem [ref=e1296]:
+                        - link "CrossRef" [ref=e1297] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.biochi.2021.08.004
+                      - listitem [ref=e1298]:
+                        - link "Google Scholar" [ref=e1299] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C..%2BBrochier-Armanet&author=D..%2BMadern&publication_year=2021&title=Phylogenetics%2Band%2Bbiochemistry%2Belucidate%2Bthe%2Bevolutionary%2Blink%2Bbetween%2BL-malate%2Band%2BL-lactate%2Bdehydrogenases%2Band%2Bdisclose%2Ban%2Bintermediate%2Bgroup%2Bof%2Bsequences%2Bwith%2Bmix%2Bfunctional%2Bproperties&journal=Biochimie&volume=191&pages=140-153
+                - listitem [ref=e1300]:
+                  - paragraph [ref=e1302]: "6"
+                  - generic [ref=e1303]:
+                    - paragraph [ref=e1304]:
+                      - generic [ref=e1305]:
+                        - generic [ref=e1306]: Cabulong R. B.,
+                        - generic [ref=e1307]: Valdehuesa K. N. G.,
+                        - generic [ref=e1308]: Bañares A. B.,
+                        - generic [ref=e1309]: Ramos K. R. M.,
+                        - generic [ref=e1310]: Nisola G. M.,
+                        - generic [ref=e1311]: Lee W. K.,
+                        - text: et al
+                      - text: (2019). Improved cell growth and biosynthesis of glycolic acid by overexpression of membrane-bound pyridine nucleotide transhydrogenase. J. Industrial Microbiol. Biotechnol.46 (2), 159–169. 10.1007/s10295-018-2117-2
+                    - list [ref=e1312]:
+                      - listitem [ref=e1313]:
+                        - link "CrossRef" [ref=e1314] [cursor=pointer]:
+                          - /url: https://doi.org/10.1007/s10295-018-2117-2
+                      - listitem [ref=e1315]:
+                        - link "Google Scholar" [ref=e1316] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=R.%2BB..%2BCabulong&author=K.%2BN.%2BG..%2BValdehuesa&author=A.%2BB..%2BBa%C3%B1ares&author=K.%2BR.%2BM..%2BRamos&author=G.%2BM..%2BNisola&author=W.%2BK..%2BLee&publication_year=2019&title=Improved%2Bcell%2Bgrowth%2Band%2Bbiosynthesis%2Bof%2Bglycolic%2Bacid%2Bby%2Boverexpression%2Bof%2Bmembrane-bound%2Bpyridine%2Bnucleotide%2Btranshydrogenase&journal=J.+Industrial+Microbiol.+Biotechnol.&volume=46&pages=159-169
+                - listitem [ref=e1317]:
+                  - paragraph [ref=e1319]: "7"
+                  - generic [ref=e1320]:
+                    - paragraph [ref=e1321]:
+                      - generic [ref=e1322]:
+                        - generic [ref=e1323]: Cahn J. K. B.,
+                        - generic [ref=e1324]: Werlang C. A.,
+                        - generic [ref=e1325]: Baumschlager A.,
+                        - generic [ref=e1326]: Brinkmann-Chen S.,
+                        - generic [ref=e1327]: Mayo S. L.,
+                        - generic [ref=e1328]: Arnold F. H.
+                      - text: (2017). A general tool for engineering the NAD/NADP cofactor preference of oxidoreductases. ACS Synth. Biol.6 (2), 326–333. 10.1021/acssynbio.6b00188
+                    - list [ref=e1329]:
+                      - listitem [ref=e1330]:
+                        - link "CrossRef" [ref=e1331] [cursor=pointer]:
+                          - /url: https://doi.org/10.1021/acssynbio.6b00188
+                      - listitem [ref=e1332]:
+                        - link "Google Scholar" [ref=e1333] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=J.%2BK.%2BB..%2BCahn&author=C.%2BA..%2BWerlang&author=A..%2BBaumschlager&author=S..%2BBrinkmann-Chen&author=S.%2BL..%2BMayo&author=F.%2BH..%2BArnold&publication_year=2017&title=A%2Bgeneral%2Btool%2Bfor%2Bengineering%2Bthe%2BNAD%2FNADP%2Bcofactor%2Bpreference%2Bof%2Boxidoreductases&journal=ACS+Synth.+Biol.&volume=6&pages=326-333
+                - listitem [ref=e1334]:
+                  - paragraph [ref=e1336]: "8"
+                  - generic [ref=e1337]:
+                    - paragraph [ref=e1338]:
+                      - generic [ref=e1339]:
+                        - generic [ref=e1340]: Chánique A. M.,
+                        - generic [ref=e1341]: Parra L. P.
+                      - text: "(2018). Protein engineering for nicotinamide coenzyme specificity in oxidoreductases: attempts and challenges. Front. Microbiol.9, 194. 10.3389/fmicb.2018.00194"
+                    - list [ref=e1342]:
+                      - listitem [ref=e1343]:
+                        - link "CrossRef" [ref=e1344] [cursor=pointer]:
+                          - /url: https://doi.org/10.3389/fmicb.2018.00194
+                      - listitem [ref=e1345]:
+                        - link "Google Scholar" [ref=e1346] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=A.%2BM..%2BCh%C3%A1nique&author=L.%2BP..%2BParra&publication_year=2018&title=Protein%2Bengineering%2Bfor%2Bnicotinamide%2Bcoenzyme%2Bspecificity%2Bin%2Boxidoreductases%3A%2Battempts%2Band%2Bchallenges&journal=Front.+Microbiol.&volume=9
+                - listitem [ref=e1347]:
+                  - paragraph [ref=e1349]: "9"
+                  - generic [ref=e1350]:
+                    - paragraph [ref=e1351]:
+                      - generic [ref=e1352]:
+                        - generic [ref=e1353]: Chen Y.,
+                        - generic [ref=e1354]: Huang L.,
+                        - generic [ref=e1355]: Yu T.,
+                        - generic [ref=e1356]: Yao Y.,
+                        - generic [ref=e1357]: Zhao M.,
+                        - generic [ref=e1358]: Pang A.,
+                        - text: et al
+                      - text: (2024). Balancing the AspC and AspA pathways of Escherichia coli by systematic metabolic engineering strategy for high-efficient L-homoserine production. ACS Synth. Biol.13, 2457–2469. 10.1021/acssynbio.4c00208
+                    - list [ref=e1359]:
+                      - listitem [ref=e1360]:
+                        - link "CrossRef" [ref=e1361] [cursor=pointer]:
+                          - /url: https://doi.org/10.1021/acssynbio.4c00208
+                      - listitem [ref=e1362]:
+                        - link "Google Scholar" [ref=e1363] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Y..%2BChen&author=L..%2BHuang&author=T..%2BYu&author=Y..%2BYao&author=M..%2BZhao&author=A..%2BPang&publication_year=2024&title=Balancing%2Bthe%2BAspC%2Band%2BAspA%2Bpathways%2Bof%2BEscherichia%2Bcoli%2Bby%2Bsystematic%2Bmetabolic%2Bengineering%2Bstrategy%2Bfor%2Bhigh-efficient%2BL-homoserine%2Bproduction&journal=ACS+Synth.+Biol.&volume=13&pages=2457-2469
+                - listitem [ref=e1364]:
+                  - paragraph [ref=e1366]: "10"
+                  - generic [ref=e1367]:
+                    - paragraph [ref=e1368]:
+                      - generic [ref=e1369]:
+                        - generic [ref=e1370]: Cherepanov P. P.,
+                        - generic [ref=e1371]: Wilfried W.
+                      - text: "(1995). Gene disruption in Escherichia coli: TcR and KmR cassettes with the option of flp-catalyzed excision of the Antibiotic-resistance determinant. Gene158 (1), 9–14. 10.1016/0378-1119(95)00193-A"
+                    - list [ref=e1372]:
+                      - listitem [ref=e1373]:
+                        - link "CrossRef" [ref=e1374] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/0378-1119(95)00193-A
+                      - listitem [ref=e1375]:
+                        - link "Google Scholar" [ref=e1376] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=P.%2BP..%2BCherepanov&author=W..%2BWilfried&publication_year=1995&title=Gene%2Bdisruption%2Bin%2BEscherichia%2Bcoli%3A%2BTcR%2Band%2BKmR%2Bcassettes%2Bwith%2Bthe%2Boption%2Bof%2Bflp-catalyzed%2Bexcision%2Bof%2Bthe%2BAntibiotic-resistance%2Bdeterminant&journal=Gene&volume=158&pages=9-14
+                - listitem [ref=e1377]:
+                  - paragraph [ref=e1379]: "11"
+                  - generic [ref=e1380]:
+                    - paragraph [ref=e1381]:
+                      - generic [ref=e1382]:
+                        - generic [ref=e1383]: Chin J. W.,
+                        - generic [ref=e1384]: Cirino P. C.
+                      - text: (2011). Improved NADPH supply for xylitol production by engineered Escherichia coli with glycolytic mutations. Biotechnol. Prog.27 (2), 333–341. 10.1002/btpr.559
+                    - list [ref=e1385]:
+                      - listitem [ref=e1386]:
+                        - link "CrossRef" [ref=e1387] [cursor=pointer]:
+                          - /url: https://doi.org/10.1002/btpr.559
+                      - listitem [ref=e1388]:
+                        - link "Google Scholar" [ref=e1389] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=J.%2BW..%2BChin&author=P.%2BC..%2BCirino&publication_year=2011&title=Improved%2BNADPH%2Bsupply%2Bfor%2Bxylitol%2Bproduction%2Bby%2Bengineered%2BEscherichia%2Bcoli%2Bwith%2Bglycolytic%2Bmutations&journal=Biotechnol.+Prog.&volume=27&pages=333-341
+                - listitem [ref=e1390]:
+                  - paragraph [ref=e1392]: "12"
+                  - generic [ref=e1393]:
+                    - paragraph [ref=e1394]:
+                      - generic [ref=e1396]: Chmiel H.
+                      - text: (2018). Bioprozesstechnik. 4th edn, Editors
+                      - generic [ref=e1397]:
+                        - generic [ref=e1398]: Chmiel H.,
+                        - generic [ref=e1399]: Takors R.,
+                        - generic [ref=e1400]: Weuster-Botz D.
+                      - text: "(Berlin, Heidelberg: Springer Berlin Heidelberg). 10.1007/978-3-662-54042-8"
+                    - list [ref=e1401]:
+                      - listitem [ref=e1402]:
+                        - link "CrossRef" [ref=e1403] [cursor=pointer]:
+                          - /url: https://doi.org/10.1007/978-3-662-54042-8
+                      - listitem [ref=e1404]:
+                        - link "Google Scholar" [ref=e1405] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=H..%2BChmiel&publication_year=2018&journal=Bioprozesstechnik
+                - listitem [ref=e1406]:
+                  - paragraph [ref=e1408]: "13"
+                  - generic [ref=e1409]:
+                    - paragraph [ref=e1410]:
+                      - generic [ref=e1411]:
+                        - generic [ref=e1412]: Clarke D. M.,
+                        - generic [ref=e1413]: Loo T. W.,
+                        - generic [ref=e1414]: Gilliam S.,
+                        - generic [ref=e1415]: Bragg P. D.
+                      - text: (1986). Nucleotide sequence of the PntA and PntB genes encoding the pyridine nucleotide transhydrogenase of Escherichia coli. Eur. J. Biochem.158 (3), 647–653. 10.1111/j.1432-1033.1986.tb09802.x
+                    - list [ref=e1416]:
+                      - listitem [ref=e1417]:
+                        - link "CrossRef" [ref=e1418] [cursor=pointer]:
+                          - /url: https://doi.org/10.1111/j.1432-1033.1986.tb09802.x
+                      - listitem [ref=e1419]:
+                        - link "Google Scholar" [ref=e1420] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=D.%2BM..%2BClarke&author=T.%2BW..%2BLoo&author=S..%2BGilliam&author=P.%2BD..%2BBragg&publication_year=1986&title=Nucleotide%2Bsequence%2Bof%2Bthe%2BPntA%2Band%2BPntB%2Bgenes%2Bencoding%2Bthe%2Bpyridine%2Bnucleotide%2Btranshydrogenase%2Bof%2BEscherichia%2Bcoli&journal=Eur.+J.+Biochem.&volume=158&pages=647-653
+                - listitem [ref=e1421]:
+                  - paragraph [ref=e1423]: "14"
+                  - generic [ref=e1424]:
+                    - paragraph [ref=e1425]:
+                      - generic [ref=e1426]:
+                        - generic [ref=e1427]: Crétin C.,
+                        - generic [ref=e1428]: Luchetta P.,
+                        - generic [ref=e1429]: Joly C.,
+                        - generic [ref=e1430]: Decottignies P.,
+                        - generic [ref=e1431]: Lepiniec L.,
+                        - generic [ref=e1432]: Gadal P.,
+                        - text: et al
+                      - text: (1990). Primary structure of Sorghum malate dehydrogenase (NADP) deduced from CDNA sequence. Eur. J. Biochem.192 (2), 299–303. 10.1111/j.1432-1033.1990.tb19227.x
+                    - list [ref=e1433]:
+                      - listitem [ref=e1434]:
+                        - link "CrossRef" [ref=e1435] [cursor=pointer]:
+                          - /url: https://doi.org/10.1111/j.1432-1033.1990.tb19227.x
+                      - listitem [ref=e1436]:
+                        - link "Google Scholar" [ref=e1437] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C..%2BCr%C3%A9tin&author=P..%2BLuchetta&author=C..%2BJoly&author=P..%2BDecottignies&author=L..%2BLepiniec&author=P..%2BGadal&publication_year=1990&title=Primary%2Bstructure%2Bof%2BSorghum%2Bmalate%2Bdehydrogenase%2B%28NADP%29%2Bdeduced%2Bfrom%2BCDNA%2Bsequence&journal=Eur.+J.+Biochem.&volume=192&pages=299-303
+                - listitem [ref=e1438]:
+                  - paragraph [ref=e1440]: "15"
+                  - generic [ref=e1441]:
+                    - paragraph [ref=e1442]:
+                      - generic [ref=e1443]:
+                        - generic [ref=e1444]: Cui Y. Y.,
+                        - generic [ref=e1445]: Chen L.,
+                        - generic [ref=e1446]: Yuan Y. Z.,
+                        - generic [ref=e1447]: Huang J.,
+                        - generic [ref=e1448]: Liu J. Z.
+                      - text: (2014). Production of shikimic acid from Escherichia coli through chemically inducible chromosomal evolution and cofactor metabolic engineering. Microb. Cell Factories13 (1), 1–11. 10.1186/1475-2859-13-21
+                    - list [ref=e1449]:
+                      - listitem [ref=e1450]:
+                        - link "CrossRef" [ref=e1451] [cursor=pointer]:
+                          - /url: https://doi.org/10.1186/1475-2859-13-21
+                      - listitem [ref=e1452]:
+                        - link "Google Scholar" [ref=e1453] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Y.%2BY..%2BCui&author=L..%2BChen&author=Y.%2BZ..%2BYuan&author=J..%2BHuang&author=J.%2BZ..%2BLiu&publication_year=2014&title=Production%2Bof%2Bshikimic%2Bacid%2Bfrom%2BEscherichia%2Bcoli%2Bthrough%2Bchemically%2Binducible%2Bchromosomal%2Bevolution%2Band%2Bcofactor%2Bmetabolic%2Bengineering&journal=Microb.+Cell+Factories&volume=13&pages=1-11
+                - listitem [ref=e1454]:
+                  - paragraph [ref=e1456]: "16"
+                  - generic [ref=e1457]:
+                    - paragraph [ref=e1458]:
+                      - generic [ref=e1459]:
+                        - generic [ref=e1460]: Datsenko K. A.,
+                        - generic [ref=e1461]: Wanner B. L.
+                      - text: (2000). One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc. Natl. Acad. Sci.97 (12), 6640–6645. 10.1073/pnas.120163297
+                    - list [ref=e1462]:
+                      - listitem [ref=e1463]:
+                        - link "CrossRef" [ref=e1464] [cursor=pointer]:
+                          - /url: https://doi.org/10.1073/pnas.120163297
+                      - listitem [ref=e1465]:
+                        - link "Google Scholar" [ref=e1466] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=K.%2BA..%2BDatsenko&author=B.%2BL..%2BWanner&publication_year=2000&title=One-step%2Binactivation%2Bof%2Bchromosomal%2Bgenes%2Bin%2BEscherichia%2Bcoli%2BK-12%2Busing%2BPCR%2Bproducts&journal=Proc.+Natl.+Acad.+Sci.&volume=97&pages=6640-6645
+                - listitem [ref=e1467]:
+                  - paragraph [ref=e1469]: "17"
+                  - generic [ref=e1470]:
+                    - paragraph [ref=e1471]:
+                      - generic [ref=e1472]:
+                        - generic [ref=e1473]: Davis J. H.,
+                        - generic [ref=e1474]: Rubin A. J.,
+                        - generic [ref=e1475]: Sauer R. T.
+                      - text: (2011). Design, construction and characterization of a set of insulated bacterial promoters. Nucleic Acids Res.39 (3), 1131–1141. 10.1093/nar/gkq810
+                    - list [ref=e1476]:
+                      - listitem [ref=e1477]:
+                        - link "CrossRef" [ref=e1478] [cursor=pointer]:
+                          - /url: https://doi.org/10.1093/nar/gkq810
+                      - listitem [ref=e1479]:
+                        - link "Google Scholar" [ref=e1480] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=J.%2BH..%2BDavis&author=A.%2BJ..%2BRubin&author=R.%2BT..%2BSauer&publication_year=2011&title=Design%2C%2Bconstruction%2Band%2Bcharacterization%2Bof%2Ba%2Bset%2Bof%2Binsulated%2Bbacterial%2Bpromoters&journal=Nucleic+Acids+Res.&volume=39&pages=1131-1141
+                - listitem [ref=e1481]:
+                  - paragraph [ref=e1483]: "18"
+                  - generic [ref=e1484]:
+                    - paragraph [ref=e1485]:
+                      - generic [ref=e1486]:
+                        - generic [ref=e1487]: Feeney R.,
+                        - generic [ref=e1488]: Clarke A. R.,
+                        - generic [ref=e1489]: Holbrook J. J.
+                      - text: (1990). A single amino acid substitution in lactate dehydrogenase improves the catalytic efficiency with an alternative coenzyme. Biochem. Biophysical Res. Commun.166 (2), 667–672. 10.1016/0006-291X(90)90861-G
+                    - list [ref=e1490]:
+                      - listitem [ref=e1491]:
+                        - link "CrossRef" [ref=e1492] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/0006-291X(90)90861-G
+                      - listitem [ref=e1493]:
+                        - link "Google Scholar" [ref=e1494] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=R..%2BFeeney&author=A.%2BR..%2BClarke&author=J.%2BJ..%2BHolbrook&publication_year=1990&title=A%2Bsingle%2Bamino%2Bacid%2Bsubstitution%2Bin%2Blactate%2Bdehydrogenase%2Bimproves%2Bthe%2Bcatalytic%2Befficiency%2Bwith%2Ban%2Balternative%2Bcoenzyme&journal=Biochem.+Biophysical+Res.+Commun.&volume=166&pages=667-672
+                - listitem [ref=e1495]:
+                  - paragraph [ref=e1497]: "19"
+                  - generic [ref=e1498]:
+                    - paragraph [ref=e1499]:
+                      - generic [ref=e1501]: François J. M.
+                      - text: (2023). Progress advances in the production of bio-sourced methionine and its hydroxyl analogues. Biotechnol. Adv.69, 108259. 10.1016/j.biotechadv.2023.108259
+                    - list [ref=e1502]:
+                      - listitem [ref=e1503]:
+                        - link "CrossRef" [ref=e1504] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.biotechadv.2023.108259
+                      - listitem [ref=e1505]:
+                        - link "Google Scholar" [ref=e1506] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=J.%2BM..%2BFran%C3%A7ois&publication_year=2023&title=Progress%2Badvances%2Bin%2Bthe%2Bproduction%2Bof%2Bbio-sourced%2Bmethionine%2Band%2Bits%2Bhydroxyl%2Banalogues&journal=Biotechnol.+Adv.&volume=69
+                - listitem [ref=e1507]:
+                  - paragraph [ref=e1509]: "20"
+                  - generic [ref=e1510]:
+                    - paragraph [ref=e1511]:
+                      - generic [ref=e1513]: Frazao C. J. R.
+                      - text: (2019). Refactoring metabolic pathways for synthon production from renew-able carbon sources. Agricultural sciences. INSA de Toulouse
+                    - list [ref=e1514]:
+                      - listitem [ref=e1515]:
+                        - link "Google Scholar" [ref=e1516] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C.%2BJ.%2BR..%2BFrazao&publication_year=2019&title=Refactoring%2Bmetabolic%2Bpathways%2Bfor%2Bsynthon%2Bproduction%2Bfrom%2Brenew-able%2Bcarbon%2Bsources
+                - listitem [ref=e1517]:
+                  - paragraph [ref=e1519]: "21"
+                  - generic [ref=e1520]:
+                    - paragraph [ref=e1521]:
+                      - generic [ref=e1522]:
+                        - generic [ref=e1523]: Frazão C. J. R.,
+                        - generic [ref=e1524]: Topham C. M.,
+                        - generic [ref=e1525]: Malbert Y.,
+                        - generic [ref=e1526]: François J. M.,
+                        - generic [ref=e1527]: Walther T.
+                      - text: (2018). Rational engineering of a malate dehydrogenase for microbial production of 2,4-dihydroxybutyric acid via homoserine pathway. Biochem. J.475 (23), 3887–3901. 10.1042/BCJ20180765
+                    - list [ref=e1528]:
+                      - listitem [ref=e1529]:
+                        - link "CrossRef" [ref=e1530] [cursor=pointer]:
+                          - /url: https://doi.org/10.1042/BCJ20180765
+                      - listitem [ref=e1531]:
+                        - link "Google Scholar" [ref=e1532] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C.%2BJ.%2BR..%2BFraz%C3%A3o&author=C.%2BM..%2BTopham&author=Y..%2BMalbert&author=J.%2BM..%2BFran%C3%A7ois&author=T..%2BWalther&publication_year=2018&title=Rational%2Bengineering%2Bof%2Ba%2Bmalate%2Bdehydrogenase%2Bfor%2Bmicrobial%2Bproduction%2Bof%2B2%2C4-dihydroxybutyric%2Bacid%2Bvia%2Bhomoserine%2Bpathway&journal=Biochem.+J.&volume=475&pages=3887-3901
+                - listitem [ref=e1533]:
+                  - paragraph [ref=e1535]: "22"
+                  - generic [ref=e1536]:
+                    - paragraph [ref=e1537]:
+                      - generic [ref=e1538]:
+                        - generic [ref=e1539]: Frazão C. J. R.,
+                        - generic [ref=e1540]: Trichez D.,
+                        - generic [ref=e1541]: Serrano-Bataille H.,
+                        - generic [ref=e1542]: Dagkesamanskaia A.,
+                        - generic [ref=e1543]: Topham C. M.,
+                        - generic [ref=e1544]: Walther T.,
+                        - text: et al
+                      - text: (2019). Construction of a synthetic pathway for the production of 1,3-propanediol from glucose. Sci. Rep.9 (1), 11576. 10.1038/s41598-019-48091-7
+                    - list [ref=e1545]:
+                      - listitem [ref=e1546]:
+                        - link "CrossRef" [ref=e1547] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/s41598-019-48091-7
+                      - listitem [ref=e1548]:
+                        - link "Google Scholar" [ref=e1549] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C.%2BJ.%2BR..%2BFraz%C3%A3o&author=D..%2BTrichez&author=H..%2BSerrano-Bataille&author=A..%2BDagkesamanskaia&author=C.%2BM..%2BTopham&author=T..%2BWalther&publication_year=2019&title=Construction%2Bof%2Ba%2Bsynthetic%2Bpathway%2Bfor%2Bthe%2Bproduction%2Bof%2B1%2C3-propanediol%2Bfrom%2Bglucose&journal=Sci.+Rep.&volume=9
+                - listitem [ref=e1550]:
+                  - paragraph [ref=e1552]: "23"
+                  - generic [ref=e1553]:
+                    - paragraph [ref=e1554]:
+                      - generic [ref=e1555]:
+                        - generic [ref=e1556]: Frazão C. J. R.,
+                        - generic [ref=e1557]: Wagner N.,
+                        - generic [ref=e1558]: Kenny R.,
+                        - generic [ref=e1559]: Thomas W.
+                      - text: (2023). Construction of a synthetic metabolic pathway for biosynthesis of 2,4-dihydroxybutyric acid from ethylene glycol. Nat. Commun.14 (1), 1931. 10.1038/s41467-023-37558-x
+                    - list [ref=e1560]:
+                      - listitem [ref=e1561]:
+                        - link "CrossRef" [ref=e1562] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/s41467-023-37558-x
+                      - listitem [ref=e1563]:
+                        - link "Google Scholar" [ref=e1564] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C.%2BJ.%2BR..%2BFraz%C3%A3o&author=N..%2BWagner&author=R..%2BKenny&author=W..%2BThomas&publication_year=2023&title=Construction%2Bof%2Ba%2Bsynthetic%2Bmetabolic%2Bpathway%2Bfor%2Bbiosynthesis%2Bof%2B2%2C4-dihydroxybutyric%2Bacid%2Bfrom%2Bethylene%2Bglycol&journal=Nat.+Commun.&volume=14
+                - listitem [ref=e1565]:
+                  - paragraph [ref=e1567]: "24"
+                  - generic [ref=e1568]:
+                    - paragraph [ref=e1569]:
+                      - generic [ref=e1570]:
+                        - generic [ref=e1571]: Hall M. D.,
+                        - generic [ref=e1572]: Banaszak L. J.
+                      - text: (1993). Crystal structure of a ternary complex of Escherichia coli malate dehydrogenase citrate and NAD at 1·9 Å resolution. J. Mol. Biol.232, 213–222. 10.1006/jmbi.1993.1377
+                    - list [ref=e1573]:
+                      - listitem [ref=e1574]:
+                        - link "CrossRef" [ref=e1575] [cursor=pointer]:
+                          - /url: https://doi.org/10.1006/jmbi.1993.1377
+                      - listitem [ref=e1576]:
+                        - link "Google Scholar" [ref=e1577] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=M.%2BD..%2BHall&author=L.%2BJ..%2BBanaszak&publication_year=1993&title=Crystal%2Bstructure%2Bof%2Ba%2Bternary%2Bcomplex%2Bof%2BEscherichia%2Bcoli%2Bmalate%2Bdehydrogenase%2Bcitrate%2Band%2BNAD%2Bat%2B1%C2%B79%2B%C3%85%2Bresolution&journal=J.+Mol.+Biol.&volume=232&pages=213-222
+                - listitem [ref=e1578]:
+                  - paragraph [ref=e1580]: "25"
+                  - generic [ref=e1581]:
+                    - paragraph [ref=e1582]:
+                      - generic [ref=e1583]:
+                        - generic [ref=e1584]: Hao Y.,
+                        - generic [ref=e1585]: Ma Q.,
+                        - generic [ref=e1586]: Liu X.,
+                        - generic [ref=e1587]: Fan X.,
+                        - generic [ref=e1588]: Men J.,
+                        - generic [ref=e1589]: Wu H.,
+                        - text: et al
+                      - text: (2020). High-yield production of L-valine in engineered Escherichia coli by a novel two-stage fermentation. Metab. Eng.62, 198–206. 10.1016/j.ymben.2020.09.007
+                    - list [ref=e1590]:
+                      - listitem [ref=e1591]:
+                        - link "CrossRef" [ref=e1592] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.ymben.2020.09.007
+                      - listitem [ref=e1593]:
+                        - link "Google Scholar" [ref=e1594] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Y..%2BHao&author=Q..%2BMa&author=X..%2BLiu&author=X..%2BFan&author=J..%2BMen&author=H..%2BWu&publication_year=2020&title=High-yield%2Bproduction%2Bof%2BL-valine%2Bin%2Bengineered%2BEscherichia%2Bcoli%2Bby%2Ba%2Bnovel%2Btwo-stage%2Bfermentation&journal=Metab.+Eng.&volume=62&pages=198-206
+                - listitem [ref=e1595]:
+                  - paragraph [ref=e1597]: "26"
+                  - generic [ref=e1598]:
+                    - paragraph [ref=e1599]:
+                      - generic [ref=e1600]:
+                        - generic [ref=e1601]: Holmberg N.,
+                        - generic [ref=e1602]: Ryde U.,
+                        - generic [ref=e1603]: Bülow L.
+                      - text: (1999). Redesign of the coenzyme specificity in L-lactate dehydrogenase from Bacillus stearothermophilus using site-directed mutagenesis and media engineering. Protein Eng.12 (10), 851–856. 10.1093/protein/12.10.851
+                    - list [ref=e1604]:
+                      - listitem [ref=e1605]:
+                        - link "CrossRef" [ref=e1606] [cursor=pointer]:
+                          - /url: https://doi.org/10.1093/protein/12.10.851
+                      - listitem [ref=e1607]:
+                        - link "Google Scholar" [ref=e1608] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=N..%2BHolmberg&author=U..%2BRyde&author=L..%2BB%C3%BClow&publication_year=1999&title=Redesign%2Bof%2Bthe%2Bcoenzyme%2Bspecificity%2Bin%2BL-lactate%2Bdehydrogenase%2Bfrom%2BBacillus%2Bstearothermophilus%2Busing%2Bsite-directed%2Bmutagenesis%2Band%2Bmedia%2Bengineering&journal=Protein+Eng.&volume=12&pages=851-856
+                - listitem [ref=e1609]:
+                  - paragraph [ref=e1611]: "27"
+                  - generic [ref=e1612]:
+                    - paragraph [ref=e1613]:
+                      - generic [ref=e1614]:
+                        - generic [ref=e1615]: Jumper J.,
+                        - generic [ref=e1616]: Evans R.,
+                        - generic [ref=e1617]: Pritzel A.,
+                        - generic [ref=e1618]: Green T.,
+                        - generic [ref=e1619]: Figurnov M.,
+                        - generic [ref=e1620]: Ronneberger O.,
+                        - text: et al
+                      - text: (2021). Highly accurate protein structure prediction with AlphaFold. Nature596 (7873), 583–589. 10.1038/s41586-021-03819-2
+                    - list [ref=e1621]:
+                      - listitem [ref=e1622]:
+                        - link "CrossRef" [ref=e1623] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/s41586-021-03819-2
+                      - listitem [ref=e1624]:
+                        - link "Google Scholar" [ref=e1625] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=J..%2BJumper&author=R..%2BEvans&author=A..%2BPritzel&author=T..%2BGreen&author=M..%2BFigurnov&author=O..%2BRonneberger&publication_year=2021&title=Highly%2Baccurate%2Bprotein%2Bstructure%2Bprediction%2Bwith%2BAlphaFold&journal=Nature&volume=596&pages=583-589
+                - listitem [ref=e1626]:
+                  - paragraph [ref=e1628]: "28"
+                  - generic [ref=e1629]:
+                    - paragraph [ref=e1630]:
+                      - generic [ref=e1631]:
+                        - generic [ref=e1632]: Kabus A.,
+                        - generic [ref=e1633]: Georgi T.,
+                        - generic [ref=e1634]: Wendisch V. F.,
+                        - generic [ref=e1635]: Bott M.
+                      - text: (2007). Expression of the Escherichia coli PntAB genes encoding a membrane-bound transhydrogenase in corynebacterium glutamicum improves l-lysine formation. Appl. Microbiol. Biotechnol.75 (1), 47–53. 10.1007/s00253-006-0804-9
+                    - list [ref=e1636]:
+                      - listitem [ref=e1637]:
+                        - link "CrossRef" [ref=e1638] [cursor=pointer]:
+                          - /url: https://doi.org/10.1007/s00253-006-0804-9
+                      - listitem [ref=e1639]:
+                        - link "Google Scholar" [ref=e1640] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=A..%2BKabus&author=T..%2BGeorgi&author=V.%2BF..%2BWendisch&author=M..%2BBott&publication_year=2007&title=Expression%2Bof%2Bthe%2BEscherichia%2Bcoli%2BPntAB%2Bgenes%2Bencoding%2Ba%2Bmembrane-bound%2Btranshydrogenase%2Bin%2Bcorynebacterium%2Bglutamicum%2Bimproves%2Bl-lysine%2Bformation&journal=Appl.+Microbiol.+Biotechnol.&volume=75&pages=47-53
+                - listitem [ref=e1641]:
+                  - paragraph [ref=e1643]: "29"
+                  - generic [ref=e1644]:
+                    - paragraph [ref=e1645]:
+                      - generic [ref=e1646]:
+                        - generic [ref=e1647]: Lemaire M.,
+                        - generic [ref=e1648]: Miginiac-Maslow M.,
+                        - generic [ref=e1649]: Decottignies P.
+                      - text: (1996). The catalytic site of chloroplastic NADP-dependent malate dehydrogenase contains a his/Asp pair. Eur. J. Biochem.236 (3), 947–952. 10.1111/j.1432-1033.1996.00947.x
+                    - list [ref=e1650]:
+                      - listitem [ref=e1651]:
+                        - link "CrossRef" [ref=e1652] [cursor=pointer]:
+                          - /url: https://doi.org/10.1111/j.1432-1033.1996.00947.x
+                      - listitem [ref=e1653]:
+                        - link "Google Scholar" [ref=e1654] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=M..%2BLemaire&author=M..%2BMiginiac-Maslow&author=P..%2BDecottignies&publication_year=1996&title=The%2Bcatalytic%2Bsite%2Bof%2Bchloroplastic%2BNADP-dependent%2Bmalate%2Bdehydrogenase%2Bcontains%2Ba%2Bhis%2FAsp%2Bpair&journal=Eur.+J.+Biochem.&volume=236&pages=947-952
+                - listitem [ref=e1655]:
+                  - paragraph [ref=e1657]: "30"
+                  - generic [ref=e1658]:
+                    - paragraph [ref=e1659]:
+                      - generic [ref=e1661]: Lennox E. S.
+                      - text: (1955). Transduction of linked genetic characters of the host by bacteriophage P1. Virology1 (2), 190–206. 10.1016/0042-6822(55)90016-7
+                    - list [ref=e1662]:
+                      - listitem [ref=e1663]:
+                        - link "CrossRef" [ref=e1664] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/0042-6822(55)90016-7
+                      - listitem [ref=e1665]:
+                        - link "Google Scholar" [ref=e1666] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=E.%2BS..%2BLennox&publication_year=1955&title=Transduction%2Bof%2Blinked%2Bgenetic%2Bcharacters%2Bof%2Bthe%2Bhost%2Bby%2Bbacteriophage%2BP1&journal=Virology&volume=1&pages=190-206
+                - listitem [ref=e1667]:
+                  - paragraph [ref=e1669]: "31"
+                  - generic [ref=e1670]:
+                    - paragraph [ref=e1671]:
+                      - generic [ref=e1672]:
+                        - generic [ref=e1673]: Li X.,
+                        - generic [ref=e1674]: Cai Z.,
+                        - generic [ref=e1675]: Li Y.,
+                        - generic [ref=e1676]: Zhang Y.
+                      - text: (2014). Design and construction of a non-natural malate to 1,2,4-butanetriol pathway creates possibility to produce 1,2,4-butanetriol from glucose. Sci. Rep.4 (1), 5541. 10.1038/srep05541
+                    - list [ref=e1677]:
+                      - listitem [ref=e1678]:
+                        - link "CrossRef" [ref=e1679] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/srep05541
+                      - listitem [ref=e1680]:
+                        - link "Google Scholar" [ref=e1681] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=X..%2BLi&author=Z..%2BCai&author=Y..%2BLi&author=Y..%2BZhang&publication_year=2014&title=Design%2Band%2Bconstruction%2Bof%2Ba%2Bnon-natural%2Bmalate%2Bto%2B1%2C2%2C4-butanetriol%2Bpathway%2Bcreates%2Bpossibility%2Bto%2Bproduce%2B1%2C2%2C4-butanetriol%2Bfrom%2Bglucose&journal=Sci.+Rep.&volume=4
+                - listitem [ref=e1682]:
+                  - paragraph [ref=e1684]: "32"
+                  - generic [ref=e1685]:
+                    - paragraph [ref=e1686]:
+                      - generic [ref=e1687]:
+                        - generic [ref=e1688]: Liang Q.,
+                        - generic [ref=e1689]: Zhang F.,
+                        - generic [ref=e1690]: Li Y.,
+                        - generic [ref=e1691]: Zhang Xu,
+                        - generic [ref=e1692]: Li J.,
+                        - generic [ref=e1693]: Yang P.,
+                        - text: et al
+                      - text: (2015). Comparison of individual component deletions in a glucose-specific phosphotransferase system revealed their different applications. Sci. Rep.5 (1), 13200. 10.1038/srep13200
+                    - list [ref=e1694]:
+                      - listitem [ref=e1695]:
+                        - link "CrossRef" [ref=e1696] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/srep13200
+                      - listitem [ref=e1697]:
+                        - link "Google Scholar" [ref=e1698] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Q..%2BLiang&author=F..%2BZhang&author=Y..%2BLi&author=Xu.%2BZhang&author=J..%2BLi&author=P..%2BYang&publication_year=2015&title=Comparison%2Bof%2Bindividual%2Bcomponent%2Bdeletions%2Bin%2Ba%2Bglucose-specific%2Bphosphotransferase%2Bsystem%2Brevealed%2Btheir%2Bdifferent%2Bapplications&journal=Sci.+Rep.&volume=5
+                - listitem [ref=e1699]:
+                  - paragraph [ref=e1701]: "33"
+                  - generic [ref=e1702]:
+                    - paragraph [ref=e1703]:
+                      - generic [ref=e1704]:
+                        - generic [ref=e1705]: Liu Y.,
+                        - generic [ref=e1706]: Zhang J.,
+                        - generic [ref=e1707]: Li R.,
+                        - generic [ref=e1708]: Yu B.
+                      - text: (2022). Efficient production of 2,4-dihydroxybutyrate from l -homoserine by the designed cofactor self-sufficient route. ACS Sustain. Chem. Eng.10, 14361–14369. 10.1021/acssuschemeng.2c05012
+                    - list [ref=e1709]:
+                      - listitem [ref=e1710]:
+                        - link "CrossRef" [ref=e1711] [cursor=pointer]:
+                          - /url: https://doi.org/10.1021/acssuschemeng.2c05012
+                      - listitem [ref=e1712]:
+                        - link "Google Scholar" [ref=e1713] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Y..%2BLiu&author=J..%2BZhang&author=R..%2BLi&author=B..%2BYu&publication_year=2022&title=Efficient%2Bproduction%2Bof%2B2%2C4-dihydroxybutyrate%2Bfrom%2Bl%2B-homoserine%2Bby%2Bthe%2Bdesigned%2Bcofactor%2Bself-sufficient%2Broute&journal=ACS+Sustain.+Chem.+Eng.&volume=10&pages=14361-14369
+                - listitem [ref=e1714]:
+                  - paragraph [ref=e1716]: "34"
+                  - generic [ref=e1717]:
+                    - paragraph [ref=e1718]:
+                      - generic [ref=e1719]:
+                        - generic [ref=e1720]: Madeira F.,
+                        - generic [ref=e1721]: Madhusoodanan N.,
+                        - generic [ref=e1722]: Lee J.,
+                        - generic [ref=e1723]: Eusebi A.,
+                        - generic [ref=e1724]: Niewielska A.,
+                        - generic [ref=e1725]: Tivey A. R. N.,
+                        - text: et al
+                      - text: (2024). The EMBL-EBI job dispatcher sequence analysis tools framework in 2024. Nucleic Acids Res.52, W521–W525. 10.1093/nar/gkae241
+                    - list [ref=e1726]:
+                      - listitem [ref=e1727]:
+                        - link "CrossRef" [ref=e1728] [cursor=pointer]:
+                          - /url: https://doi.org/10.1093/nar/gkae241
+                      - listitem [ref=e1729]:
+                        - link "Google Scholar" [ref=e1730] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=F..%2BMadeira&author=N..%2BMadhusoodanan&author=J..%2BLee&author=A..%2BEusebi&author=A..%2BNiewielska&author=A.%2BR.%2BN..%2BTivey&publication_year=2024&title=The%2BEMBL-EBI%2Bjob%2Bdispatcher%2Bsequence%2Banalysis%2Btools%2Bframework%2Bin%2B2024&journal=Nucleic+Acids+Res.&volume=52&pages=W521-W525
+                - listitem [ref=e1731]:
+                  - paragraph [ref=e1733]: "35"
+                  - generic [ref=e1734]:
+                    - paragraph [ref=e1735]:
+                      - generic [ref=e1736]:
+                        - generic [ref=e1737]: Millard P.,
+                        - generic [ref=e1738]: Letisse F.,
+                        - generic [ref=e1739]: Sokol S.,
+                        - generic [ref=e1740]: Portais J. C.
+                      - text: "(2012). IsoCor: correcting MS data in isotope labeling experiments. Bioinformatics28 (9), 1294–1296. 10.1093/BIOINFORMATICS/BTS127"
+                    - list [ref=e1741]:
+                      - listitem [ref=e1742]:
+                        - link "CrossRef" [ref=e1743] [cursor=pointer]:
+                          - /url: https://doi.org/10.1093/BIOINFORMATICS/BTS127
+                      - listitem [ref=e1744]:
+                        - link "Google Scholar" [ref=e1745] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=P..%2BMillard&author=F..%2BLetisse&author=S..%2BSokol&author=J.%2BC..%2BPortais&publication_year=2012&title=IsoCor%3A%2Bcorrecting%2BMS%2Bdata%2Bin%2Bisotope%2Blabeling%2Bexperiments&journal=Bioinformatics&volume=28&pages=1294-1296
+                - listitem [ref=e1746]:
+                  - paragraph [ref=e1748]: "36"
+                  - generic [ref=e1749]:
+                    - paragraph [ref=e1750]:
+                      - generic [ref=e1751]:
+                        - generic [ref=e1752]: Ng C.Yu,
+                        - generic [ref=e1753]: Farasat I.,
+                        - generic [ref=e1754]: Maranas C. D.,
+                        - generic [ref=e1755]: Salis H. M.
+                      - text: (2015). Rational design of a synthetic entner-doudoroff pathway for improved and controllable NADPH regeneration. Metab. Eng.29, 86–96. 10.1016/j.ymben.2015.03.001
+                    - list [ref=e1756]:
+                      - listitem [ref=e1757]:
+                        - link "CrossRef" [ref=e1758] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.ymben.2015.03.001
+                      - listitem [ref=e1759]:
+                        - link "Google Scholar" [ref=e1760] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C.Yu.%2BNg&author=I..%2BFarasat&author=C.%2BD..%2BMaranas&author=H.%2BM..%2BSalis&publication_year=2015&title=Rational%2Bdesign%2Bof%2Ba%2Bsynthetic%2Bentner-doudoroff%2Bpathway%2Bfor%2Bimproved%2Band%2Bcontrollable%2BNADPH%2Bregeneration&journal=Metab.+Eng.&volume=29&pages=86-96
+                - listitem [ref=e1761]:
+                  - paragraph [ref=e1763]: "37"
+                  - generic [ref=e1764]:
+                    - paragraph [ref=e1765]:
+                      - generic [ref=e1766]:
+                        - generic [ref=e1767]: Nishiyama M.,
+                        - generic [ref=e1768]: Birktoft J. J.,
+                        - generic [ref=e1769]: Beppu T.
+                      - text: (1993). Alteration of coenzyme specificity of malate dehydrogenase from thermus flavus by site-directed mutagenesis. J. Biol. Chem.268 (7), 4656–4660. 10.1016/s0021-9258(18)53446-3
+                    - list [ref=e1770]:
+                      - listitem [ref=e1771]:
+                        - link "CrossRef" [ref=e1772] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/s0021-9258(18)53446-3
+                      - listitem [ref=e1773]:
+                        - link "Google Scholar" [ref=e1774] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=M..%2BNishiyama&author=J.%2BJ..%2BBirktoft&author=T..%2BBeppu&publication_year=1993&title=Alteration%2Bof%2Bcoenzyme%2Bspecificity%2Bof%2Bmalate%2Bdehydrogenase%2Bfrom%2Bthermus%2Bflavus%2Bby%2Bsite-directed%2Bmutagenesis&journal=J.+Biol.+Chem.&volume=268&pages=4656-4660
+                - listitem [ref=e1775]:
+                  - paragraph [ref=e1777]: "38"
+                  - generic [ref=e1778]:
+                    - paragraph [ref=e1779]:
+                      - generic [ref=e1780]:
+                        - generic [ref=e1781]: Rathnasingh C.,
+                        - generic [ref=e1782]: Subramanian M. R.,
+                        - generic [ref=e1783]: Lee Y.,
+                        - generic [ref=e1784]: Catherine C.,
+                        - generic [ref=e1785]: Ashok S.,
+                        - generic [ref=e1786]: Park S.
+                      - text: (2012). Production of 3-hydroxypropionic acid via malonyl-CoA pathway using recombinant Escherichia coli strains. J. Biotechnol.157 (4), 633–640. 10.1016/j.jbiotec.2011.06.008
+                    - list [ref=e1787]:
+                      - listitem [ref=e1788]:
+                        - link "CrossRef" [ref=e1789] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.jbiotec.2011.06.008
+                      - listitem [ref=e1790]:
+                        - link "Google Scholar" [ref=e1791] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=C..%2BRathnasingh&author=M.%2BR..%2BSubramanian&author=Y..%2BLee&author=C..%2BCatherine&author=S..%2BAshok&author=S..%2BPark&publication_year=2012&title=Production%2Bof%2B3-hydroxypropionic%2Bacid%2Bvia%2Bmalonyl-CoA%2Bpathway%2Busing%2Brecombinant%2BEscherichia%2Bcoli%2Bstrains&journal=J.+Biotechnol.&volume=157&pages=633-640
+                - listitem [ref=e1792]:
+                  - paragraph [ref=e1794]: "39"
+                  - generic [ref=e1795]:
+                    - paragraph [ref=e1796]:
+                      - generic [ref=e1797]:
+                        - generic [ref=e1798]: Richter N.,
+                        - generic [ref=e1799]: Zienert A.,
+                        - generic [ref=e1800]: Werner H.
+                      - text: (2011). A single-point mutation enables lactate dehydrogenase from Bacillus subtilis to utilize NAD+ and NADP+ as cofactor. Eng. Life Sci.11 (1), 26–36. 10.1002/elsc.201000151
+                    - list [ref=e1801]:
+                      - listitem [ref=e1802]:
+                        - link "CrossRef" [ref=e1803] [cursor=pointer]:
+                          - /url: https://doi.org/10.1002/elsc.201000151
+                      - listitem [ref=e1804]:
+                        - link "Google Scholar" [ref=e1805] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=N..%2BRichter&author=A..%2BZienert&author=H..%2BWerner&publication_year=2011&title=A%2Bsingle-point%2Bmutation%2Benables%2Blactate%2Bdehydrogenase%2Bfrom%2BBacillus%2Bsubtilis%2Bto%2Butilize%2BNAD%2B%2Band%2BNADP%2B%2Bas%2Bcofactor&journal=Eng.+Life+Sci.&volume=11&pages=26-36
+                - listitem [ref=e1806]:
+                  - paragraph [ref=e1808]: "40"
+                  - generic [ref=e1809]:
+                    - paragraph [ref=e1810]:
+                      - generic [ref=e1811]:
+                        - generic [ref=e1812]: Rossmann M. G.,
+                        - generic [ref=e1813]: Moras D.,
+                        - generic [ref=e1814]: Olsen K. W.
+                      - text: (1974). Chemical and biological evolution of a nucleotide-binding protein. Nature250 (5463), 194–199. 10.1038/250194a0
+                    - list [ref=e1815]:
+                      - listitem [ref=e1816]:
+                        - link "CrossRef" [ref=e1817] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/250194a0
+                      - listitem [ref=e1818]:
+                        - link "Google Scholar" [ref=e1819] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=M.%2BG..%2BRossmann&author=D..%2BMoras&author=K.%2BW..%2BOlsen&publication_year=1974&title=Chemical%2Band%2Bbiological%2Bevolution%2Bof%2Ba%2Bnucleotide-binding%2Bprotein&journal=Nature&volume=250&pages=194-199
+                - listitem [ref=e1820]:
+                  - paragraph [ref=e1822]: "41"
+                  - generic [ref=e1823]:
+                    - paragraph [ref=e1824]:
+                      - generic [ref=e1825]:
+                        - generic [ref=e1826]: Sauer U.,
+                        - generic [ref=e1827]: Canonaco F.,
+                        - generic [ref=e1828]: Heri S.,
+                        - generic [ref=e1829]: Perrenoud A.,
+                        - generic [ref=e1830]: Fischer E.
+                      - text: (2004). The soluble and membrane-bound transhydrogenases UdhA and PntAB have divergent functions in NADPH metabolism of Escherichia coli. J. Biol. Chem.279 (8), 6613–6619. 10.1074/jbc.M311657200
+                    - list [ref=e1831]:
+                      - listitem [ref=e1832]:
+                        - link "CrossRef" [ref=e1833] [cursor=pointer]:
+                          - /url: https://doi.org/10.1074/jbc.M311657200
+                      - listitem [ref=e1834]:
+                        - link "Google Scholar" [ref=e1835] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=U..%2BSauer&author=F..%2BCanonaco&author=S..%2BHeri&author=A..%2BPerrenoud&author=E..%2BFischer&publication_year=2004&title=The%2Bsoluble%2Band%2Bmembrane-bound%2Btranshydrogenases%2BUdhA%2Band%2BPntAB%2Bhave%2Bdivergent%2Bfunctions%2Bin%2BNADPH%2Bmetabolism%2Bof%2BEscherichia%2Bcoli&journal=J.+Biol.+Chem.&volume=279&pages=6613-6619
+                - listitem [ref=e1836]:
+                  - paragraph [ref=e1838]: "42"
+                  - generic [ref=e1839]:
+                    - paragraph [ref=e1840]:
+                      - generic [ref=e1841]:
+                        - generic [ref=e1842]: Shi A.,
+                        - generic [ref=e1843]: Zhu X.,
+                        - generic [ref=e1844]: Lu J.,
+                        - generic [ref=e1845]: Zhang X.,
+                        - generic [ref=e1846]: Ma Y.
+                      - text: (2013). Activating transhydrogenase and NAD kinase in combination for improving isobutanol production. Metab. Eng.16 (1), 1–10. 10.1016/j.ymben.2012.11.008
+                    - list [ref=e1847]:
+                      - listitem [ref=e1848]:
+                        - link "CrossRef" [ref=e1849] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.ymben.2012.11.008
+                      - listitem [ref=e1850]:
+                        - link "Google Scholar" [ref=e1851] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=A..%2BShi&author=X..%2BZhu&author=J..%2BLu&author=X..%2BZhang&author=Y..%2BMa&publication_year=2013&title=Activating%2Btranshydrogenase%2Band%2BNAD%2Bkinase%2Bin%2Bcombination%2Bfor%2Bimproving%2Bisobutanol%2Bproduction&journal=Metab.+Eng.&volume=16&pages=1-10
+                - listitem [ref=e1852]:
+                  - paragraph [ref=e1854]: "43"
+                  - generic [ref=e1855]:
+                    - paragraph [ref=e1856]:
+                      - generic [ref=e1857]:
+                        - generic [ref=e1858]: Shinka T.,
+                        - generic [ref=e1859]: Inoue Y.,
+                        - generic [ref=e1860]: Ohse M.,
+                        - generic [ref=e1861]: Ito A.,
+                        - generic [ref=e1862]: Ohfu M.,
+                        - generic [ref=e1863]: Hirose S.,
+                        - text: et al
+                      - text: (2002). Rapid and sensitive detection of urinary 4-hydroxybutyric acid and its related compounds by gas chromatography–mass spectrometry in a patient with succinic semialdehyde dehydrogenase deficiency. J. Chromatogr. B776 (1), 57–63. 10.1016/S1570-0232(02)00126-5
+                    - list [ref=e1864]:
+                      - listitem [ref=e1865]:
+                        - link "CrossRef" [ref=e1866] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/S1570-0232(02)00126-5
+                      - listitem [ref=e1867]:
+                        - link "Google Scholar" [ref=e1868] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BShinka&author=Y..%2BInoue&author=M..%2BOhse&author=A..%2BIto&author=M..%2BOhfu&author=S..%2BHirose&publication_year=2002&title=Rapid%2Band%2Bsensitive%2Bdetection%2Bof%2Burinary%2B4-hydroxybutyric%2Bacid%2Band%2Bits%2Brelated%2Bcompounds%2Bby%2Bgas%2Bchromatography%E2%80%93mass%2Bspectrometry%2Bin%2Ba%2Bpatient%2Bwith%2Bsuccinic%2Bsemialdehyde%2Bdehydrogenase%2Bdeficiency&journal=J.+Chromatogr.+B&volume=776&pages=57-63
+                - listitem [ref=e1869]:
+                  - paragraph [ref=e1871]: "44"
+                  - generic [ref=e1872]:
+                    - paragraph [ref=e1873]:
+                      - generic [ref=e1874]:
+                        - generic [ref=e1875]: Takahashi-Íñiguez T.,
+                        - generic [ref=e1876]: Aburto-Rodríguez N.,
+                        - generic [ref=e1877]: Vilchis-González A. L.,
+                        - generic [ref=e1878]: Flores M. E.
+                      - text: (2016). Function, kinetic properties, crystallization, and regulation of microbial malate dehydrogenase. J. Zhejiang Univ. Sci. B17 (4), 247–261. 10.1631/jzus.B1500219
+                    - list [ref=e1879]:
+                      - listitem [ref=e1880]:
+                        - link "CrossRef" [ref=e1881] [cursor=pointer]:
+                          - /url: https://doi.org/10.1631/jzus.B1500219
+                      - listitem [ref=e1882]:
+                        - link "Google Scholar" [ref=e1883] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BTakahashi-%C3%8D%C3%B1iguez&author=N..%2BAburto-Rodr%C3%ADguez&author=A.%2BL..%2BVilchis-Gonz%C3%A1lez&author=M.%2BE..%2BFlores&publication_year=2016&title=Function%2C%2Bkinetic%2Bproperties%2C%2Bcrystallization%2C%2Band%2Bregulation%2Bof%2Bmicrobial%2Bmalate%2Bdehydrogenase&journal=J.+Zhejiang+Univ.+Sci.+B&volume=17&pages=247-261
+                - listitem [ref=e1884]:
+                  - paragraph [ref=e1886]: "45"
+                  - generic [ref=e1887]:
+                    - paragraph [ref=e1888]:
+                      - generic [ref=e1889]:
+                        - generic [ref=e1890]: Walther T.,
+                        - generic [ref=e1891]: Calvayrac F.,
+                        - generic [ref=e1892]: Malbert Y.,
+                        - generic [ref=e1893]: Alkim C.,
+                        - generic [ref=e1894]: Dressaire C.,
+                        - generic [ref=e1895]: Cordier H.,
+                        - text: et al
+                      - text: (2017a). Construction of a synthetic metabolic pathway for the production of 2,4-dihydroxybutyric acid from homoserine. Metab. Eng.45, 237–245. 10.1016/j.ymben.2017.12.005
+                    - list [ref=e1896]:
+                      - listitem [ref=e1897]:
+                        - link "CrossRef" [ref=e1898] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.ymben.2017.12.005
+                      - listitem [ref=e1899]:
+                        - link "Google Scholar" [ref=e1900] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BWalther&author=F..%2BCalvayrac&author=Y..%2BMalbert&author=C..%2BAlkim&author=C..%2BDressaire&author=H..%2BCordier&publication_year=2017a&title=Construction%2Bof%2Ba%2Bsynthetic%2Bmetabolic%2Bpathway%2Bfor%2Bthe%2Bproduction%2Bof%2B2%2C4-dihydroxybutyric%2Bacid%2Bfrom%2Bhomoserine&journal=Metab.+Eng.&volume=45&pages=237-245
+                - listitem [ref=e1901]:
+                  - paragraph [ref=e1903]: "46"
+                  - generic [ref=e1904]:
+                    - paragraph [ref=e1905]:
+                      - generic [ref=e1906]:
+                        - generic [ref=e1907]: Walther T.,
+                        - generic [ref=e1908]: Dressaire C.,
+                        - generic [ref=e1909]: Cordier H.,
+                        - generic [ref=e1910]: Francois J.-M.
+                      - text: (2015). Method of production of 2,4-dihydroxybutyric acid. U. S. 2015/0159182 A1.
+                    - list [ref=e1911]:
+                      - listitem [ref=e1912]:
+                        - link "Google Scholar" [ref=e1913] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BWalther&author=C..%2BDressaire&author=H..%2BCordier&author=J.-M..%2BFrancois&publication_year=2015&title=Method%2Bof%2Bproduction%2Bof%2B2%2C4-dihydroxybutyric%2Bacid&journal=U.+S.+2015%2F0159182+A1
+                - listitem [ref=e1914]:
+                  - paragraph [ref=e1916]: "47"
+                  - generic [ref=e1917]:
+                    - paragraph [ref=e1918]:
+                      - generic [ref=e1919]:
+                        - generic [ref=e1920]: Walther T.,
+                        - generic [ref=e1921]: Topham C. M.,
+                        - generic [ref=e1922]: Irague R.,
+                        - generic [ref=e1923]: Auriol C.,
+                        - generic [ref=e1924]: Baylac A.,
+                        - generic [ref=e1925]: Cordier H.,
+                        - text: et al
+                      - text: (2017b). Construction of a synthetic metabolic pathway for biosynthesis of the non-natural methionine precursor 2,4-dihydroxybutyric acid. Nat. Commun.8 (1), 15828. 10.1038/ncomms15828
+                    - list [ref=e1926]:
+                      - listitem [ref=e1927]:
+                        - link "CrossRef" [ref=e1928] [cursor=pointer]:
+                          - /url: https://doi.org/10.1038/ncomms15828
+                      - listitem [ref=e1929]:
+                        - link "Google Scholar" [ref=e1930] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=T..%2BWalther&author=C.%2BM..%2BTopham&author=R..%2BIrague&author=C..%2BAuriol&author=A..%2BBaylac&author=H..%2BCordier&publication_year=2017b&title=Construction%2Bof%2Ba%2Bsynthetic%2Bmetabolic%2Bpathway%2Bfor%2Bbiosynthesis%2Bof%2Bthe%2Bnon-natural%2Bmethionine%2Bprecursor%2B2%2C4-dihydroxybutyric%2Bacid&journal=Nat.+Commun.&volume=8
+                - listitem [ref=e1931]:
+                  - paragraph [ref=e1933]: "48"
+                  - generic [ref=e1934]:
+                    - paragraph [ref=e1935]:
+                      - generic [ref=e1936]:
+                        - generic [ref=e1937]: Wellner D.,
+                        - generic [ref=e1938]: Lichtenberg L. A.
+                      - text: (1971). [218a] Assay of amino acid oxidase. Methods Enzym.17, 593–596. 10.1016/0076-6879(71)17104-2
+                    - list [ref=e1939]:
+                      - listitem [ref=e1940]:
+                        - link "CrossRef" [ref=e1941] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/0076-6879(71)17104-2
+                      - listitem [ref=e1942]:
+                        - link "Google Scholar" [ref=e1943] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=D..%2BWellner&author=L.%2BA..%2BLichtenberg&publication_year=1971&title=%5B218a%5D%2BAssay%2Bof%2Bamino%2Bacid%2Boxidase&journal=Methods+Enzym.&volume=17&pages=593-596
+                - listitem [ref=e1944]:
+                  - paragraph [ref=e1946]: "49"
+                  - generic [ref=e1947]:
+                    - paragraph [ref=e1948]:
+                      - generic [ref=e1949]:
+                        - generic [ref=e1950]: Zhang Yu,
+                        - generic [ref=e1951]: Wei M.,
+                        - generic [ref=e1952]: Zhao G.,
+                        - generic [ref=e1953]: Zhang W.,
+                        - generic [ref=e1954]: Li Y.,
+                        - generic [ref=e1955]: Lin B.,
+                        - text: et al
+                      - text: (2021). High-level production of L-homoserine using a non-induced, non-auxotrophic Escherichia coli chassis through metabolic engineering. Bioresour. Technol.327 (29), 124814. 10.1016/j.biortech.2021.124814
+                    - list [ref=e1956]:
+                      - listitem [ref=e1957]:
+                        - link "CrossRef" [ref=e1958] [cursor=pointer]:
+                          - /url: https://doi.org/10.1016/j.biortech.2021.124814
+                      - listitem [ref=e1959]:
+                        - link "Google Scholar" [ref=e1960] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=Yu.%2BZhang&author=M..%2BWei&author=G..%2BZhao&author=W..%2BZhang&author=Y..%2BLi&author=B..%2BLin&publication_year=2021&title=High-level%2Bproduction%2Bof%2BL-homoserine%2Busing%2Ba%2Bnon-induced%2C%2Bnon-auxotrophic%2BEscherichia%2Bcoli%2Bchassis%2Bthrough%2Bmetabolic%2Bengineering&journal=Bioresour.+Technol.&volume=327
+                - listitem [ref=e1961]:
+                  - paragraph [ref=e1963]: "50"
+                  - generic [ref=e1964]:
+                    - paragraph [ref=e1965]:
+                      - generic [ref=e1966]:
+                        - generic [ref=e1967]: Zheng L.,
+                        - generic [ref=e1968]: Ulrich B.,
+                        - generic [ref=e1969]: Reymond J. L.
+                      - text: (2004). An efficient one-step site-directed and site-saturation mutagenesis protocol. Nucleic Acids Res.32 (14), e115. 10.1093/nar/gnh110
+                    - list [ref=e1970]:
+                      - listitem [ref=e1971]:
+                        - link "CrossRef" [ref=e1972] [cursor=pointer]:
+                          - /url: https://doi.org/10.1093/nar/gnh110
+                      - listitem [ref=e1973]:
+                        - link "Google Scholar" [ref=e1974] [cursor=pointer]:
+                          - /url: http://scholar.google.com/scholar_lookup?author=L..%2BZheng&author=B..%2BUlrich&author=J.%2BL..%2BReymond&publication_year=2004&title=An%2Befficient%2Bone-step%2Bsite-directed%2Band%2Bsite-saturation%2Bmutagenesis%2Bprotocol&journal=Nucleic+Acids+Res.&volume=32
+            - generic [ref=e1975]:
+              - heading "Summary" [level=2] [ref=e1976]
+              - paragraph [ref=e1977]: Keywords
+              - paragraph [ref=e1978]: enzyme engineering, strain engineering, cofactor specificity, synthetic metabolic pathway, 2,4-dihydroxybutyric acid, homoserine, Escherichia coli
+              - paragraph [ref=e1979]: Citation
+              - paragraph [ref=e1980]:
+                - text: "Ihle N, Grüßner L, Alkim C, Nguyen TAS, Walther T and Frazão CJR (2025) Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway. Front. Bioeng. Biotechnol. 13:1504785. doi:"
+                - link "10.3389/fbioe.2025.1504785" [ref=e1981] [cursor=pointer]:
+                  - /url: http://dx.doi.org/10.3389/fbioe.2025.1504785
+              - paragraph [ref=e1982]: Received
+              - paragraph [ref=e1983]: 01 October 2024
+              - paragraph [ref=e1984]: Accepted
+              - paragraph [ref=e1985]: 23 January 2025
+              - paragraph [ref=e1986]: Published
+              - paragraph [ref=e1987]: 20 February 2025
+              - paragraph [ref=e1988]: Volume
+              - paragraph [ref=e1989]: 13 - 2025
+              - paragraph [ref=e1990]: Edited by
+              - paragraph [ref=e1991]:
+                - link "Ruud Weusthuis" [ref=e1992] [cursor=pointer]:
+                  - /url: https://loop.frontiersin.org/people/242262/overview
+                - text: ", Wageningen University and Research, Netherlands"
+              - paragraph [ref=e1993]: Reviewed by
+              - paragraph [ref=e1994]:
+                - link "Zhiming Rao" [ref=e1995] [cursor=pointer]:
+                  - /url: https://loop.frontiersin.org/people/827366/overview
+                - text: ", Jiangnan University, China"
+              - paragraph [ref=e1996]:
+                - link "Roland Wohlgemuth" [ref=e1997] [cursor=pointer]:
+                  - /url: https://loop.frontiersin.org/people/46328/overview
+                - text: ", Lodz University of Technology, Poland"
+              - paragraph [ref=e1998]: Updates
+              - button "Crossmark icon Check for updates" [ref=e1999] [cursor=pointer]:
+                - img "Crossmark icon" [ref=e2000]
+                - paragraph [ref=e2001]: Check for updates
+              - paragraph [ref=e2002]: Copyright
+              - generic [ref=e2003]:
+                - paragraph [ref=e2004]: © 2025 Ihle, Grüßner, Alkim, Nguyen, Walther and Frazão.
+                - paragraph [ref=e2005]:
+                  - text: This is an open-access article distributed under the terms of the
+                  - link "Creative Commons Attribution License (CC BY)" [ref=e2006] [cursor=pointer]:
+                    - /url: http://creativecommons.org/licenses/by/4.0/
+                  - text: . The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+              - paragraph [ref=e2007]:
+                - strong [ref=e2008]:
+                  - text: "*"
+                  - strong [ref=e2009]: "Correspondence:"
+                - text: Cláudio J. R. Frazão,
+                - link "claudio.frazao@tu-dresden.de" [ref=e2010] [cursor=pointer]:
+                  - /url: mailto:claudio.frazao@tu-dresden.de
+              - paragraph [ref=e2011]: Disclaimer
+              - paragraph [ref=e2012]: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.
+          - generic [ref=e2014]:
+            - paragraph [ref=e2015]: Frontiers' quality
+            - article [ref=e2016]:
+              - generic [ref=e2017]:
+                - figure [ref=e2018]
+                - generic [ref=e2019]:
+                  - heading "How do we build trust in science?" [level=2] [ref=e2020]
+                  - paragraph [ref=e2021]: Behind each Frontiers journal is an editorial board committed to upholding research integrity and scientific quality
+                  - link "Learn more" [ref=e2023] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/quality
+                    - generic [ref=e2024]: Learn more
+                    - text: 
+      - complementary [ref=e2025]:
+        - text:   
+        - button "Scroll to top" [ref=e2026]: 
+      - generic:
+        - button "Close panel"
+        - navigation:
+          - list [ref=e2027]:
+            - listitem [ref=e2028]:
+              - link "PDF" [ref=e2029] [cursor=pointer]:
+                - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/pdf
+                - img [ref=e2031]
+                - paragraph [ref=e2034]: PDF
+              - generic:
+                - generic:
+                  - button "Download other format " [ref=e2035]:
+                    - paragraph: Download other format 
+                    - img [ref=e2036]
+                  - list:
+                    - listitem:
+                      - link "ReadCube":
+                        - /url: http://www.readcube.com/articles/10.3389/fbioe.2025.1504785
+                        - img
+                        - generic: ReadCube
+                    - listitem:
+                      - link "epub":
+                        - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/epub
+                        - img
+                        - generic: epub
+                    - listitem:
+                      - link "XML":
+                        - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/xml
+                        - img
+                        - generic: XML
+            - listitem [ref=e2038]:
+              - link "Cite" [ref=e2039] [cursor=pointer]:
+                - /url: "#cite"
+                - img [ref=e2040]
+                - generic [ref=e2042]: Cite
+            - listitem [ref=e2043]:
+              - link "Share" [ref=e2044] [cursor=pointer]:
+                - /url: "#share"
+                - img [ref=e2045]
+                - generic [ref=e2047]: Share
+            - listitem [ref=e2048]:
+              - link "Metrics" [ref=e2049] [cursor=pointer]:
+                - /url: "#metrics"
+                - img [ref=e2050]
+                - generic [ref=e2052]: Metrics
+            - listitem [ref=e2196]:
+              - link "Suppl. material" [ref=e2197] [cursor=pointer]:
+                - /url: "#supplementaryMaterial"
+                - img [ref=e2198]
+                - generic [ref=e2200]: Suppl. material
+        - generic [ref=e2053]:
+          - button "Close the panel" [ref=e2055] [cursor=pointer]:
+            - generic [ref=e2056]: 
+          - text: 
+          - generic [ref=e2058]:
+            - generic [ref=e2060]:
+              - heading "Cite article" [level=2] [ref=e2061]:
+                - img [ref=e2062]
+                - text: Cite article
+              - generic [ref=e2065]:
+                - paragraph [ref=e2066]: Copy to clipboard
+                - generic [ref=e2068]:
+                  - generic:
+                    - generic: Citation
+                  - textbox "Citation" [ref=e2069]: "Ihle N, Grüßner L, Alkim C, Nguyen TAS, Walther T and Frazão CJR (2025) Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway. Front. Bioeng. Biotechnol. 13:1504785. doi: 10.3389/fbioe.2025.1504785"
+                - button "Copy citation" [ref=e2070]:
+                  - generic [ref=e2071]: Copy citation
+                - paragraph [ref=e2072]: Export citation file
+                - list [ref=e2073]:
+                  - listitem [ref=e2074]:
+                    - link "BibTex" [ref=e2076] [cursor=pointer]:
+                      - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/bibTex
+                      - generic [ref=e2077]: BibTex
+                      - text: 
+                  - listitem [ref=e2078]:
+                    - link "EndNote" [ref=e2080] [cursor=pointer]:
+                      - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/endNote
+                      - generic [ref=e2081]: EndNote
+                      - text: 
+                  - listitem [ref=e2082]:
+                    - link "Reference Manager" [ref=e2084] [cursor=pointer]:
+                      - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/reference
+                      - generic [ref=e2085]: Reference Manager
+                      - text: 
+                  - listitem [ref=e2086]:
+                    - link "Simple Text file" [ref=e2088] [cursor=pointer]:
+                      - /url: https://public-pages-files-2025.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/text
+                      - generic [ref=e2089]: Simple Text file
+                      - text: 
+            - generic [ref=e2091]:
+              - heading "Share article" [level=2] [ref=e2092]:
+                - img [ref=e2093]
+                - text: Share article
+              - list [ref=e2096]:
+                - listitem [ref=e2097]:
+                  - link "Go to Facebook" [ref=e2098] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sharer/sharer.php?u=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                    - img [ref=e2099]
+                  - link "Facebook" [ref=e2101] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sharer/sharer.php?u=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                - listitem [ref=e2102]:
+                  - link "Go to X" [ref=e2103] [cursor=pointer]:
+                    - /url: https://www.twitter.com/share?url=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                    - img [ref=e2104]
+                  - link "X" [ref=e2106] [cursor=pointer]:
+                    - /url: https://www.twitter.com/share?url=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                - listitem [ref=e2107]:
+                  - link "Go to LinkedIn" [ref=e2108] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/share?url=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                    - img [ref=e2109]
+                  - link "LinkedIn" [ref=e2111] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/share?url=https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full
+                - listitem [ref=e2112]:
+                  - link "Go to Email" [ref=e2113] [cursor=pointer]:
+                    - /url: "mailto:?subject=Interesting science article: Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway&body=Hi!!%0D%0A%0D%0AI think you might find interesting the article \"Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway\".%0D%0A%0D%0AYou can read more about it here: https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full"
+                    - img [ref=e2114]
+                  - link "Email" [ref=e2116] [cursor=pointer]:
+                    - /url: "mailto:?subject=Interesting science article: Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway&body=Hi!!%0D%0A%0D%0AI think you might find interesting the article \"Cofactor engineering for improved production of 2,4-dihydroxybutyric acid via the synthetic homoserine pathway\".%0D%0A%0D%0AYou can read more about it here: https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2025.1504785/full"
+                - listitem [ref=e2117]:
+                  - button "Share on WeChat" [ref=e2118] [cursor=pointer]:
+                    - img [ref=e2119]
+                  - generic [ref=e2121] [cursor=pointer]: WeChat
+            - heading "Article metrics" [level=2] [ref=e2124]:
+              - img [ref=e2125]
+              - text: Article metrics
+            - generic [ref=e2202]:
+              - heading "Supplementary material" [level=2] [ref=e2203]:
+                - img [ref=e2204]
+                - text: Supplementary material
+              - list [ref=e2209]:
+                - listitem [ref=e2210]:
+                  - paragraph [ref=e2211]: Data Sheet 1.docx
+                  - link "Download file" [ref=e2212] [cursor=pointer]:
+                    - /url: https://public-pages-files-2025.frontiersin.org/articles/1504785/file/Data_Sheet_1.docx/1504785_data-sheet_1/1
+                    - generic [ref=e2213]: 
+    - contentinfo [ref=e2127]:
+      - generic [ref=e2128]:
+        - generic [ref=e2129]:
+          - list [ref=e2130]:
+            - listitem [ref=e2131]:
+              - button "Guidelines":
+                - generic: Guidelines
+                - text: 
+              - list [ref=e2133]:
+                - listitem [ref=e2134]:
+                  - link "Author guidelines" [ref=e2135] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/author-guidelines
+                - listitem [ref=e2136]:
+                  - link "Services for authors" [ref=e2137] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/for-authors/author-services
+                - listitem [ref=e2138]:
+                  - link "Policies and publication ethics" [ref=e2139] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/policies-and-publication-ethics
+                - listitem [ref=e2140]:
+                  - link "Editor guidelines" [ref=e2141] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/guidelines/editor-guidelines
+                - listitem [ref=e2142]:
+                  - link "Fee policy" [ref=e2143] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/fee-policy
+            - listitem [ref=e2144]:
+              - button "Explore":
+                - generic: Explore
+                - text: 
+              - list [ref=e2146]:
+                - listitem [ref=e2147]:
+                  - link "Articles" [ref=e2148] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/articles
+                - listitem [ref=e2149]:
+                  - link "Research Topics" [ref=e2150] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/research-topics
+                - listitem [ref=e2151]:
+                  - link "Journals" [ref=e2152] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/journals
+                - listitem [ref=e2153]:
+                  - link "How we publish" [ref=e2154] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/how-we-publish
+            - listitem [ref=e2155]:
+              - button "Outreach":
+                - generic: Outreach
+                - text: 
+              - list [ref=e2157]:
+                - listitem [ref=e2158]:
+                  - link "Frontiers Forum" [ref=e2159] [cursor=pointer]:
+                    - /url: https://forum.frontiersin.org/
+                - listitem [ref=e2160]:
+                  - link "Frontiers Policy Labs" [ref=e2161] [cursor=pointer]:
+                    - /url: https://policylabs.frontiersin.org/
+                - listitem [ref=e2162]:
+                  - link "Frontiers for Young Minds" [ref=e2163] [cursor=pointer]:
+                    - /url: https://kids.frontiersin.org/
+                - listitem [ref=e2164]:
+                  - link "Frontiers Planet Prize" [ref=e2165] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/frontiers-planet-prize
+            - listitem [ref=e2166]:
+              - button "Connect":
+                - generic: Connect
+                - text: 
+              - list [ref=e2168]:
+                - listitem [ref=e2169]:
+                  - link "Help center" [ref=e2170] [cursor=pointer]:
+                    - /url: https://helpcenter.frontiersin.org
+                - listitem [ref=e2171]:
+                  - link "Emails and alerts" [ref=e2172] [cursor=pointer]:
+                    - /url: https://subscription-management.frontiersin.org/emails/preferences#block0
+                - listitem [ref=e2173]:
+                  - link "Contact us" [ref=e2174] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/about/contact
+                - listitem [ref=e2175]:
+                  - link "Submit" [ref=e2176] [cursor=pointer]:
+                    - /url: https://www.frontiersin.org/submission/submit
+                - listitem [ref=e2177]:
+                  - link "Career opportunities" [ref=e2178] [cursor=pointer]:
+                    - /url: https://careers.frontiersin.org/
+          - generic [ref=e2179]:
+            - generic [ref=e2180]: Follow us
+            - link "Frontiers Facebook" [ref=e2182] [cursor=pointer]:
+              - /url: https://www.facebook.com/Frontiersin
+              - text: 
+            - link "Frontiers Twitter" [ref=e2184] [cursor=pointer]:
+              - /url: https://twitter.com/frontiersin
+              - text: 
+            - link "Frontiers LinkedIn" [ref=e2186] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/frontiers
+              - text: 
+            - link "Frontiers Instagram" [ref=e2188] [cursor=pointer]:
+              - /url: https://www.instagram.com/frontiersin_
+              - text: 
+        - generic [ref=e2189]:
+          - generic [ref=e2190]: © 2026 Frontiers Media SA. All rights reserved.
+          - generic [ref=e2191]:
+            - link "Privacy policy" [ref=e2192] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/legal/privacy-policy
+            - text: "|"
+            - link "Terms and conditions" [ref=e2193] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/legal/terms-and-conditions
+            - text: "|"
+            - link "Accessibility statement" [ref=e2194] [cursor=pointer]:
+              - /url: https://www.frontiersin.org/about/accessibility-statement
+  - generic:
+    - button "Close modal"
+    - generic:
+      - generic:
+        - paragraph: Share on WeChat
+        - button "Close modal": 
+      - generic:
+        - generic:
+          - paragraph: Scan with WeChat to share this article

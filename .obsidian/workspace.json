@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8c323d171d6e2641",
+        "id": "71309f64cc197da3",
         "type": "tabs",
         "children": [
           {
-            "id": "42912d63fea16c4f",
+            "id": "7e7ebc7ba32aaaf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "精准氧化还原工程与辅因子工程论文检索 1.md",
+                "file": "papers/Nature_s41467-021-25233-y.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "精准氧化还原工程与辅因子工程论文检索 1"
+              "title": "Nature_s41467-021-25233-y"
             }
           }
         ]
@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,35 +240,36 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "d28acbec4d527a0e",
   "lastOpenFiles": [
-    "papers/PMC12324450.md",
-    "papers/PMC12316058.md",
-    "papers/PMC12294996.md",
-    "papers/PMC12052742.md",
-    "papers/PMC1191077.md",
-    "papers/PMC11886501.md",
-    "papers/PMC11882521.md",
-    "papers/PMC11878340.md",
-    "papers/PMC11669175.md",
-    "papers/PMC11618361.md",
-    "papers/PMC11609421.md",
-    "papers/PMC11527825.md",
-    "papers/PMC11476194.md",
+    "辅因子工程近五年研究/ScienceDirect_S0958166924001319.md",
+    "辅因子工程近五年研究/Nature_s41467-022-35021-x.md",
+    "辅因子工程近五年研究/Nature_s41467-022-32727-w.md",
+    "辅因子工程近五年研究/Nature_s41467-021-22357-z.md",
+    "辅因子工程近五年研究/Nature_s41589-024-01702-5.md",
+    "辅因子工程近五年研究/PMC9701214.md",
+    "辅因子工程近五年研究/PMC8611728.md",
+    "辅因子工程近五年研究/PMC8580058.md",
+    "辅因子工程近五年研究/PMC7744333.md",
+    "辅因子工程近五年研究/PMC7700015.md",
+    "辅因子工程近五年研究/PMC7195872.md",
+    "辅因子工程近五年研究/PMC5555402.md",
+    "辅因子工程近五年研究/PMC4629492.md",
+    "辅因子工程近五年研究/PMC12689212.md",
+    "辅因子工程近五年研究/PMC12559800.md",
+    "辅因子工程近五年研究/PMC12514951.md",
+    "辅因子工程近五年研究/PMC12408211.md",
+    "辅因子工程近五年研究/PMC12316058.md",
+    "辅因子工程近五年研究/PMC10362907.md",
+    "辅因子工程近五年研究/PMC10094897.md",
+    "辅因子工程近五年研究/Frontiers_fbioe.2025.1504785.md",
+    "辅因子工程近五年研究/ScienceDirect_S0958166923001295.md",
+    "辅因子工程近五年研究/Nature_s41467-024-55302-x.md",
+    "辅因子工程近五年研究/Nature_s41467-024-51029-x.md",
+    "辅因子工程近五年研究/PMC12186268.md",
+    "辅因子工程近五年研究/PMC12052742.md",
+    "辅因子工程近五年研究",
     "三个细分",
-    "papers/PMC11314019.md",
-    "五年全景/精准氧化还原工程与辅因子工程论文检索.md",
-    "精准氧化还原工程与辅因子工程论文检索 1.md",
-    "papers/PMC10987746.md",
-    "论文搜寻提示词.md",
-    "papers/PMC10960266.md",
-    "papers/PMC10491207.md",
-    "papers/PMC10441625.md",
-    "papers/PMC10400544.md",
-    "papers/PMC10126289.md",
-    "papers/PMC9401024.md",
-    "papers/PMC8998051.md",
-    "papers/PMC8639655.md",
     "五年全景",
     "papers",
     "奠基论文",
@@ -287,7 +287,6 @@
     "03-wiki/concepts/AI/个人成长",
     "03-wiki/concepts/AI/内容创作",
     "03-wiki/concepts/AI/投资理财",
-    "源",
-    "03-wiki/concepts/AI/英伟达GTC2026思维导图.excalidraw"
+    "源"
   ]
 }
