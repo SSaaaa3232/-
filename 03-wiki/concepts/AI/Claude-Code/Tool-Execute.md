@@ -19,7 +19,7 @@ Agent Loop 中执行工具调用的管线，共 6 阶段。
 工具执行管线 6 阶段：1) renderToolCall（终端展示将执行的工具名和参数）2) permissionCheck（决定是否需要用户确认）3) preHook（插件前置拦截）4) checkpoint（破坏性操作前快照文件状态）5) executeTool（调用实际工具函数）6) postHook（插件后置钩子）。核心工具包括：Read、Write、Edit、Bash、Grep、WebFetch/WebSearch。
 
 ## 证据来源
-1. [[02-raw/articles/2026/04/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md]] - 工具执行管线 6 阶段详解
+1. [[从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]] - 工具执行管线 6 阶段详解
 
 ## 关联概念
 - [[../Agent-Loop]] — context（Tool Execute 是 Agent Loop 的执行阶段）

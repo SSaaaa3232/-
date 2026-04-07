@@ -11,8 +11,8 @@
 
 #### 04 月
 
-- [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]] — Agentic Security 安全指南
-- [[02-raw/articles/2026/04/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md]] — Claude Code 架构拆解
+- [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] — Agentic Security 安全指南
+- [[从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]] — Claude Code 架构拆解
 
 ---
 

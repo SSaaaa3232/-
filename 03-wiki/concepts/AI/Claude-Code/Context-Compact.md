@@ -19,7 +19,7 @@ relations:
 每轮迭代开始时估算 messages 数组 token 数（总字符数 / 4），超过模型上下文限制 85% 时触发压缩。触发后：发起独立 API 调用生成摘要，用 `[summary, "Understood."]` 替换原有 messages 数组。这个过程对模型是透明的，模型看到的是正常的上下文继续。
 
 ## 证据来源
-1. [[02-raw/articles/2026/04/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md]] - 自动 compact 机制详解
+1. [[从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]] - 自动 compact 机制详解
 
 ## 关联概念
 - [[../Agent-Loop]] — context（Compact 是 Agent Loop 迭代检查的一部分）

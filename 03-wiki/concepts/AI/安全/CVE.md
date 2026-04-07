@@ -21,7 +21,7 @@ Common Vulnerabilities and Exposures，系统性安全漏洞的标准标识符�
 - **CVE-2026-25253**：OpenClaw 暴露事件，Hunt.io 报告 17,470 个暴露实例
 
 ## 证据来源
-1. [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]] - Check Point Research 披露（2026-02-25）
+1. [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] - Check Point Research 披露（2026-02-25）
 2. NVD（National Vulnerability Database）官方记录
 
 ## 关联概念

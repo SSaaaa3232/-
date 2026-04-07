@@ -7,19 +7,8 @@ created: 2026-04-05
 description:
 ---
 
-前两天我写文章介绍了Andrej Karpathy构建个人本地知识库的工作流方法，目前这个思路已经火爆全网
-
-[Karpathy最新硬核分享：用大模型和Obsidian打造个人本地知识库](https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&mid=2247513861&idx=1&sn=59fe0da79f6b7865f6bcd8d30f4dfc61&scene=21#wechat_redirect)
-
-不过有朋友抱怨AK是在炫技，没有操作性，不够具体，这不详细版本来了。
-
-AK刚刚又公开了构建个人本地知识库详细版本，使得这个方法有了更强的落地性和可操作性，原文以md文件分享，这相当于把提示词公布了，地址：
-
 gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-使用 LLM 构建个人知识库的模式。
 
 这是一个想法文件，旨在让你直接复制粘贴到自己的 Agent（例如 Codex、Claude Code、OpenCode / Pi 或其他）。它的目标是传达高级概念，AK故意写得比较抽象/模糊，是因为有很多发展方向可以选择，适合个人定制。
 

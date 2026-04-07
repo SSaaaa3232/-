@@ -19,7 +19,7 @@ Model Context Protocol，标准化的工具发现协议，允许 AI Agent 动态
 MCP 本质是 JSON-RPC 2.0 over stdio：启动 MCP server 进程，通过 stdin/stdout 交换消息。启动序列固定：initialize 握手 → tools/list 获取工具定义数组。OWASP 已发布 MCP Top 10，说明其安全风险已引起重视：工具投毒、Prompt 注入、命令注入、影子 MCP 服务器、secret 暴露。
 
 ## 证据来源
-1. [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]] - OWASP MCP Top 10 引用
+1. [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] - OWASP MCP Top 10 引用
 2. Claude Code MCP 文档
 
 ## 关联概念

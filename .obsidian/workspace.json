@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7becf264b422c780",
+        "id": "0c536e70aa3f5242",
         "type": "tabs",
         "children": [
           {
-            "id": "3f699189ec6069d0",
+            "id": "f25883404a6bee5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-raw/articles/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」"
             }
           }
         ]
@@ -238,11 +242,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "3f699189ec6069d0",
+  "active": "f25883404a6bee5a",
   "lastOpenFiles": [
+    "02-raw/articles/零代码克隆纳瓦尔数字分身教程.md",
     "02-raw/articles/2026/04/bannedbookfanqiang 翻墙-科学上网.md",
     "JPG/f0c569517591ff6a185699591bbdc422_MD5.jpg",
-    "02-raw/articles/2026/04/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
+    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "JPG/88d76166c203e1c05299e5289f580fb2_MD5.jpg",
     "JPG/1116eb6ff8fef06fc620ecbb53a88aba_MD5.jpg",
     "JPG/cb295cf6fa5220fd6aacd53fd99c27d0_MD5.jpg",
@@ -256,8 +261,7 @@
     "03-wiki/indexes/All-Sources.md",
     "03-wiki/indexes/by-source.md",
     "03-wiki/indexes/by-relation.md",
-    "02-raw/articles/2026/04/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
-    "02-raw/articles/2026/04/零代码克隆纳瓦尔数字分身教程.md",
+    "02-raw/articles/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
     "6019da49993385b10ca435fca73d51d2_MD5.webp",
     "6128d87c59cd63aeb8c11feca5d9e9fd_MD5.jpg",
     "docs/superpowers/specs/2026-04-04-wiki-concept-splitting-design.md",
