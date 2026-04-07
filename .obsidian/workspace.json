@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d1b574bbff973207",
+        "id": "b5a4d19a9e3271bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e00d925f263aa6cb",
+            "id": "ce20c7a43f82e909",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "奠基性文献综述.md",
+                "file": "xcrawl-papers-20260407/00-奠基论文链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "奠基性文献综述"
+              "title": "00-奠基论文链接"
             }
           }
         ]
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 574.5
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,43 +240,45 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "e00d925f263aa6cb",
+  "active": "ce20c7a43f82e909",
   "lastOpenFiles": [
-    "论文搜寻提示词.md",
-    "JPG/ab04d8cee472ca35f2db79c3084de4b3_MD5.jpg",
     "奠基性文献综述.md",
-    "02-raw/articles/用4小时系统性了解一个垂直领域.md",
-    "JPG/5f3a07d0a57be5463fed11e7c615b8d5_MD5.png",
-    "JPG/9c1d18aec216b835d8e74f74b3edd002_MD5.jpg",
-    "02-raw/articles/这篇文章教你如何用Claude Code 在推上学习大V们的观点.md",
-    "论文框架.md",
-    "03-wiki/concepts/AI/Claude-Code/工具执行.md",
-    "03-wiki/concepts/AI/Claude-Code/Tool-Execute.md",
-    "03-wiki/concepts/AI/Claude-Code/Prompt-Caching.md",
-    "03-wiki/concepts/AI/Claude-Code/Context-Compact.md",
-    "03-wiki/concepts/AI/Claude-Code/Agent-Loop.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/video-script-generator.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Workflow Automation Agent.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/定义.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/UX Layout Advisor.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/SCQA.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Skill Creator.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/knowledge-structuring-skill.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Garry Tan skills分析.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/hook-generator.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Flowchart Decision Builder.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Deep Research Synthesizer.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/competitive-intelligence-skill.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Code Review Skill.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/Claude-Skills清单.md",
-    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
-    "JPG/845c310a297cacd0768f9a4032223125_MD5.jpg",
-    "JPG/0bb9398c80fb0ea1615000b9e0744022_MD5.jpg",
-    "JPG/7bb1d042691dd730778d63e4e42ee343_MD5.png",
-    "JPG/3aaafab04e2f58fefcbd0c168a88ff67_MD5.jpg",
-    "JPG/efc6b808a98fbca266039a548b90ecbc_MD5.jpg",
-    "JPG/8af6183cd9d24c2f1fef5a2b9d9e4600_MD5.jpg",
-    "JPG/085b26b1ff88752bed3485459ac1ff54_MD5.jpg",
+    "xcrawl-papers-20260407/sciencedirect-S0734975017301192.md",
+    "6ab64228d7aa98ef8adca8e5f22cfe18_MD5.png",
+    "6147bfd07a7e4d39d9a39eec86926409_MD5.png",
+    "52abd6955dce348cd186847a1a9da7ec_MD5.png",
+    "21293551b0a610d0271ec29e6fb7878e_MD5.png",
+    "f68f598dbd2312740a8537e6376963d6_MD5.png",
+    "f11e330f58a9443d8abec691e571aac8_MD5.png",
+    "09496851cb09a94f5c9e78dc1b103a9a_MD5.jpg",
+    "6b6ad131ce7df9111204da47aaa22269_MD5.png",
+    "cea21cea652c023cc643339de413e311_MD5.jpg",
+    "1e8765aa60bcf65003a13bf84dacbf63_MD5.png",
+    "xcrawl-papers-20260407/doi.org_10.1038_nature06450.md",
+    "xcrawl-papers-20260407/doi.org_10.1007_s00253-011-3161-2.md",
+    "xcrawl-papers-20260407/www.biorxiv.org_content_10.1101_2020.05.22.111575v1.full-text.md",
+    "xcrawl-papers-20260407/patents.google.com_patent_US7901924B2_en.md",
+    "xcrawl-papers-20260407/www.annualreviews.org_doi_10.1146_annurev-bioeng-071516-044730.md",
+    "xcrawl-papers-20260407/journals.sagepub.com_doi_full_10.1089_ars.2017.7451.md",
+    "xcrawl-papers-20260407/www.academia.edu_33128492_Design_of_a_dynamic_sensor_regulator_system_for_production_of_chemicals_and_fuels_derived_from.md",
+    "xcrawl-papers-20260407/www.academia.edu_144485908_Cofactor_engineering_for_advancing_chemical_biotechnology.md",
+    "xcrawl-papers-20260407/journals.asm.org_doi_10.1128_mBio.00329-21.md",
+    "xcrawl-papers-20260407/journals.asm.org_doi_10.1128_genomeA.01551-15.md",
+    "xcrawl-papers-20260407/openaccesspub.org_enzymes_article_2209.md",
+    "xcrawl-papers-20260407/microbialcellfactories.biomedcentral.com_articles_10.1186_s12934-017-0728-3.md",
+    "xcrawl-papers-20260407/biotechnologyforbiofuels.biomedcentral.com_articles_10.1186_s13068-023-02397-x.md",
+    "xcrawl-papers-20260407/pubs.acs.org_doi_10.1021_sb400158w.md",
+    "xcrawl-papers-20260407/pubs.acs.org_doi_10.1021_acs.jafc.5c00078.md",
+    "xcrawl-papers-20260407/00-奠基论文链接.md",
+    "xcrawl-papers-20260407/portlandpress.com_biochemsoctrans_article_43_6_1140_66506_Manipulation-of-the-ATP-pool-as-a-tool-for.md",
+    "xcrawl-papers-20260407/arxiv.org_html_2401.00670v1.md",
+    "xcrawl-papers-20260407/analyticalsciencejournals.onlinelibrary.wiley.com_doi_10.1002_bit.70077.md",
+    "xcrawl-papers-20260407/analyticalsciencejournals.onlinelibrary.wiley.com_doi_10.1002_biot.201400422.md",
+    "xcrawl-papers-20260407/www.embopress.org_doi_10.15252_msb.202010064.md",
+    "xcrawl-papers-20260407/www.biorxiv.org_content_10.1101_2020.07.26.219949v1.full-text.md",
+    "xcrawl-papers-20260407/academic.oup.com_jimb_article_45_5_313_5996662.md",
+    "xcrawl-papers-20260407/academic.oup.com_jimb_article_42_3_403_5995536.md",
+    "xcrawl-papers-20260407",
     "03-wiki/concepts/AI/个人成长",
     "03-wiki/concepts/AI/内容创作",
     "03-wiki/concepts/AI/投资理财",
@@ -285,7 +287,6 @@
     "03-wiki/concepts/AI/安全",
     "01-polaris/skills",
     "docs/superpowers/plans",
-    "docs/superpowers/specs",
-    "docs/superpowers"
+    "docs/superpowers/specs"
   ]
 }
