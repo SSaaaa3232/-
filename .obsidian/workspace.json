@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0c536e70aa3f5242",
+        "id": "2e18d8e050b79766",
         "type": "tabs",
         "children": [
           {
-            "id": "f25883404a6bee5a",
+            "id": "a3dfcab4f61c2b46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -242,28 +237,38 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f25883404a6bee5a",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "源/Thread by @0xKingsKuan.md",
+    "源/How to Build Your Second Brain.md",
+    "JPG/6adafab7845dc47709978719d1c23343_MD5.jpg",
+    "daily notes/任务清单.md",
+    "JPG/c97e339f6c05522210d29d500df18998_MD5.jpg",
+    "JPG/8fd4d2579c7d11ccbaf9580349bee3dc_MD5.jpg",
+    "JPG/a62c38e44f3bec82a8a9ef7ddb5eaf05_MD5.jpg",
+    "JPG/c8dbefda4e4601f3bfff8a0a4c161e09_MD5.jpg",
+    "JPG/42b33a0445f8b3143dfe2b5bfa9fdd40_MD5.jpg",
+    "JPG/c29c366613d1c1f5973bc968270a1aea_MD5.jpg",
+    "JPG/afecae3fbff684f93b832decf005c6fa_MD5.jpg",
+    "JPG/bc6ece5e7726f2ad8d846db46e0fc460_MD5.jpg",
+    "JPG/1e42466f7874714808764e654ee6907d_MD5.jpg",
+    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
+    "02-raw/articles/Thread by @__tinygrad__.md",
+    "02-raw/articles/Thread by @Guomin184935.md",
+    "02-raw/articles/Thread by @vivoplt.md",
+    "源/llm-wiki.md",
+    "源/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
+    "02-raw/articles/普通人都输在这3步：少收藏，重提炼，狠输出.md",
+    "源",
     "02-raw/articles/零代码克隆纳瓦尔数字分身教程.md",
     "02-raw/articles/2026/04/bannedbookfanqiang 翻墙-科学上网.md",
-    "JPG/f0c569517591ff6a185699591bbdc422_MD5.jpg",
     "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
-    "JPG/88d76166c203e1c05299e5289f580fb2_MD5.jpg",
-    "JPG/1116eb6ff8fef06fc620ecbb53a88aba_MD5.jpg",
-    "JPG/cb295cf6fa5220fd6aacd53fd99c27d0_MD5.jpg",
-    "JPG/3507d805916164cbb0e73c8c262a4d79_MD5.jpg",
-    "JPG/857ac81bf12fa915c92298693fc3583b_MD5.jpg",
-    "JPG/7b2028ebf8ba314602e49f1115ed4667_MD5.jpg",
-    "JPG/e579e1bf12710d80fa26a704148ee607_MD5.jpg",
     "03-wiki/concepts/AI/安全/CVE.md",
     "03-wiki/concepts/AI/安全/Agentic-Security.md",
     "03-wiki/indexes/All-Concepts.md",
     "03-wiki/indexes/All-Sources.md",
     "03-wiki/indexes/by-source.md",
     "03-wiki/indexes/by-relation.md",
-    "02-raw/articles/LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」.md",
-    "6019da49993385b10ca435fca73d51d2_MD5.webp",
-    "6128d87c59cd63aeb8c11feca5d9e9fd_MD5.jpg",
     "docs/superpowers/specs/2026-04-04-wiki-concept-splitting-design.md",
     "docs/superpowers/plans/2026-04-04-wiki-concept-splitting.md",
     "03-wiki/concepts/AI/英伟达GTC2026黄仁勋演讲要点.md",
@@ -272,14 +277,6 @@
     "03-wiki/concepts/AI/Vibe-Design-Stitch.md",
     "03-wiki/concepts/AI/安全/Sanitization.md",
     "03-wiki/concepts/AI/安全/Sandboxing.md",
-    "03-wiki/concepts/AI/安全/Prompt-Injection.md",
-    "03-wiki/concepts/AI/安全/MCP.md",
-    "03-wiki/concepts/AI/学习路径/学习目录.md",
-    "03-wiki/concepts/AI/claude code/实践思路/ppt agent.md",
-    "03-wiki/concepts/AI/claude code/结构拆解/Claude Code CLI 拆解.md",
-    "03-wiki/concepts/AI/claude code/结构拆解/harness/工程范式.md",
-    "03-wiki/concepts/AI/claude code/结构拆解/harness/Claude code源码解析.md",
-    "03-wiki/concepts/AI/claude code/Agent.md",
     "03-wiki/concepts/AI/安全",
     "01-polaris/skills",
     "docs/superpowers/plans",
@@ -287,7 +284,6 @@
     "docs/superpowers",
     "docs",
     "JPG",
-    "Clippings",
-    "02-raw/podcasts/2026/04"
+    "Clippings"
   ]
 }
