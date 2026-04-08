@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文搜寻提示词.md",
+                "file": "论文框架.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "论文搜寻提示词"
+              "title": "论文框架"
             }
           }
         ]
@@ -242,9 +242,9 @@
   },
   "active": "8facc618697a56bd",
   "lastOpenFiles": [
+    "论文搜寻提示词.md",
     "精准氧化还原工程与辅因子工程论文检索 1.md",
     "精准氧化还原工程与辅因子工程论文检索.md",
-    "论文搜寻提示词.md",
     "论文框架.md",
     "奠基论文/www.frontiersin.org_journals_microbiology_articles_10.3389_fmicb.2018.00194_full.md",
     "奠基论文/www.nature.com_articles_s41467-024-10644-y.md",
