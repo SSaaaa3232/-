@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c2667c7d759bac2e",
+        "id": "3fb35554cf6ae782",
         "type": "tabs",
         "children": [
           {
-            "id": "8facc618697a56bd",
+            "id": "2fe72ed735643aa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/中国毕业即失业的大学生，如何选择未来？.md",
+                "file": "奠基论文/patents.google.com_patent_US7901924B2_en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "中国毕业即失业的大学生，如何选择未来？"
+              "title": "patents.google.com_patent_US7901924B2_en"
             }
           }
         ]
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,10 +240,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "8facc618697a56bd",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "论文框架.md",
+    "奠基论文/nature-nbt0500-533.md",
+    "奠基论文/openaccesspub.org_enzymes_article_2209.md",
     "02-raw/articles/中国毕业即失业的大学生，如何选择未来？.md",
+    "论文框架.md",
     "论文搜寻提示词.md",
     "精准氧化还原工程与辅因子工程论文检索 1.md",
     "精准氧化还原工程与辅因子工程论文检索.md",
@@ -266,8 +268,6 @@
     "辅因子工程近五年研究/PMC4629492.md",
     "辅因子工程近五年研究/PMC12689212.md",
     "辅因子工程近五年研究/PMC12559800.md",
-    "辅因子工程近五年研究/PMC12514951.md",
-    "辅因子工程近五年研究/PMC12408211.md",
     "辅因子工程近五年研究",
     "三个细分",
     "五年全景",
