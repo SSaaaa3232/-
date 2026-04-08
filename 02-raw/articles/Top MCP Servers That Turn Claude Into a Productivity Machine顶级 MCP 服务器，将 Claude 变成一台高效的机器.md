@@ -18,7 +18,7 @@ These are the MCP servers worth installing, sorted by what they do.这些是值�
 
 Before we dive in, I share daily notes on AI & vibe coding in my Telegram channel: [https://t.me/zodchixquant](https://t.me/zodchixquant)🧠在深入讨论之前，我会在我的 Telegram 频道分享关于 AI 和氛围编码的每日笔记：[https://t.me/zodchixquant](https://t.me/zodchixquant)🧠
 
-![Image](https://pbs.twimg.com/media/HFXliA9a8AQZ4V2?format=jpg&name=large)
+![[cf30fdc11aa575ce41e41d976d911229_MD5.jpg]]
 
 ## Search & Research 🔍检索与研究 🔍
 
@@ -60,7 +60,7 @@ Before we dive in, I share daily notes on AI & vibe coding in my Telegram channe
 
 [https://github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
 
-![Image](https://pbs.twimg.com/media/HFXnvkgXEAA3nYo?format=png&name=large)
+![[d5faaa406256a2f62fc46dc71a597fc6_MD5.png]]
 
 ## Browser Automation 🖥️浏览器自动化 🖥️
 
@@ -130,7 +130,7 @@ Before we dive in, I share daily notes on AI & vibe coding in my Telegram channe
 
 [https://github.com/anthropics/anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts)
 
-![Image](https://pbs.twimg.com/media/HFXxu1pXwAAR0kZ?format=jpg&name=large)
+![[9fcd3782b5d47c7e4b49f7061e0de544_MD5.jpg]]
 
 ## Productivity & Collaboration 📋生产力与协作 📋
 
@@ -252,4 +252,4 @@ I share daily notes on AI, finance, and vibe coding in my Telegram channel: [htt
 
 Thanks for reading 🙏🏼感谢阅读 🙏🏼
 
-![Image](https://pbs.twimg.com/media/HFXvPaUa8AEYNXh?format=jpg&name=large)
+![[b60a5378c8660bc9eb0c480e23e45657_MD5.jpg]]
