@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "233d7e3b289f63c9",
+        "id": "1fab7ea4a1b1485c",
         "type": "tabs",
         "children": [
           {
-            "id": "30317753cfc4206a",
+            "id": "d6c98414f41ad4d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "caption-subtitle-formatter"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -220,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 748.5
+    "width": 748.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +237,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d28acbec4d527a0e",
+  "active": "d6c98414f41ad4d9",
   "lastOpenFiles": [
+    "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
     "03-wiki/concepts/AI/claude code/prompt/prompt.md",
     "03-wiki/concepts/AI/claude code/MCP.md",
     "daily notes/任务清单.md",
@@ -280,7 +277,6 @@
     "论文/奠基论文/已经ok/www.nature.com_articles_s41589-024-01702-5.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41589-019-0402-7.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-10709-3.md",
-    "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-10644-y.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
