@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d69e8a7b87183f10",
+        "id": "233d7e3b289f63c9",
         "type": "tabs",
         "children": [
           {
-            "id": "f844cedc15f976dc",
+            "id": "30317753cfc4206a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -237,24 +237,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f844cedc15f976dc",
+  "active": "30317753cfc4206a",
   "lastOpenFiles": [
+    "02-raw/articles/你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作.md",
+    "96802d0e855d59bac6d78b2c6214eeb0_MD5.jpg",
+    "eadc57b55570be743acdc127a69f6d67_MD5.jpg",
+    "8505994b1251e8a1151b645c6803478d_MD5.jpg",
+    "f6a0d43fc0df94be518cbd1ebaaaaa90_MD5.jpg",
+    "2e9a3f5a7a3842b7fe997cf047acb03c_MD5.jpg",
+    "4ebf05d8d0412a51d5d80ebbd3d7a3a2_MD5.jpg",
+    "95459013b70b41057afa8cb19a210493_MD5.jpg",
     "79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
     "07700c5bbdb92ebf9c911d42904246f8_MD5.jpg",
     "02-raw/articles/Thread by @LumaoDoggie.md",
     "02-raw/articles/Thread by @karminski3.md",
     "4302d0f0b298ace19908903e1bddd06a_MD5.jpg",
-    "27c2cba23d365bacf8cb267afd5bf161_MD5.jpg",
-    "ef0d99733486213fd5bcea612a629f2a_MD5.jpg",
-    "7f75f705e7bacdc477970b056c05e730_MD5.jpg",
-    "6c1dc82cd14c66f3fbe32bd2c5db67ea_MD5.png",
-    "df6692f9326e83721341d76bd00253d1_MD5.png",
-    "7e92ca2ffa6d1758e2a48f1f23124f35_MD5.jpg",
-    "cf1deb3b83d15da83f8fd4e7345d3224_MD5.jpg",
     "02-raw/articles/Thread by @manateelazycat.md",
     "02-raw/articles/Thread by @lidangzzz.md",
     "02-raw/articles/Thread by @chenchengpro.md",
-    "cc09f8674b5492b4b2433c91aa240dd3_MD5.jpg",
     "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
@@ -275,7 +275,6 @@
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-10644-y.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41467-023-40297-8.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41467-022-32727-w.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41467-021-22357-z.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
