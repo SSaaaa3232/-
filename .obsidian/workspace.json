@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -240,7 +240,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d6c98414f41ad4d9",
+  "active": "ebd43352eee3ad24",
   "lastOpenFiles": [
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
     "03-wiki/concepts/AI/claude code/prompt/prompt.md",
