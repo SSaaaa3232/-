@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775726605273-157nx95e4",
+  "providerId": "claude",
+  "title": "Explain harness engineering concepts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775726605274,
+  "updatedAt": 1775726634494,
+  "lastResponseAt": 1775726634494,
+  "sessionId": "5d932e7f-757d-4173-ae0c-b5b048bbdc4e",
+  "providerState": {
+    "providerSessionId": "5d932e7f-757d-4173-ae0c-b5b048bbdc4e"
+  },
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 217,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 24593,
+    "contextWindow": 200000,
+    "contextTokens": 24810,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}
