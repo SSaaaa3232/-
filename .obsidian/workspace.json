@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "12d8a7cf9054fbbb",
+        "id": "a1d06fb079d821ec",
         "type": "tabs",
         "children": [
           {
-            "id": "14e3e5211aedb1f0",
+            "id": "1c443f0972a62dce",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -237,20 +237,21 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "14e3e5211aedb1f0",
+  "active": "1c443f0972a62dce",
   "lastOpenFiles": [
+    "cc09f8674b5492b4b2433c91aa240dd3_MD5.jpg",
+    "b5e9361d6a3b0116fffa462fb07e335e_MD5.png",
+    "fba74cc37a5d4461da090caf79e55d04_MD5.png",
+    "ce15a251e47d1a8e7cb04cffc2e72224_MD5.png",
+    "247fbb390fbe028fae3d25b82936be8f_MD5.jpg",
+    "1b2edef90491317d1c0b54253e3a58ba_MD5.png",
+    "5e97bea50f602142cb991b62e3df75d7_MD5.png",
+    "f6b4684a3b819266a33231c9a4af5238_MD5.png",
+    "0c129566cd36ba8cd581d54a31d2549f_MD5.png",
+    "cc51ea30804ea0e5908f69acdd189553_MD5.jpg",
+    "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
     "39fbc59f0042e00ab1519a7133587006_MD5.jpg",
-    "7c3699e0964ee89578be7a9e94fd0e61_MD5.jpg",
-    "088794eb0f015d7717e676eb3191fbdd_MD5.jpg",
-    "111badeea3617e5d706bf3b5ec59124c_MD5.jpg",
-    "86f4a256b713a759549e74019077b277_MD5.jpg",
-    "20b2c44d718aceaa2b0a61ba7d5607e5_MD5.jpg",
-    "ab54e9f08196c69a42bee63e3bd39660_MD5.jpg",
-    "b53d3680f3fcc0586dfd8983c03edf47_MD5.jpg",
     "02-raw/articles/Thread by @dotey.md",
-    "ac049d331967276aee3f7de35bd8a495_MD5.jpg",
-    "265e86ccd446f68c7af3d647533997e0_MD5.jpg",
-    "0a16d664a42960a783788597315aba82_MD5.jpg",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
     "OMLX密钥.md",
     "论文",
@@ -275,7 +276,6 @@
     "论文/奠基论文/已经ok/www.mdpi.com_2073-4360_17_15_2104.md",
     "论文/奠基论文/已经ok/www.mdpi.com_1420-3049_28_15_5850.md",
     "论文/奠基论文/已经ok/www.hindawi.com_journals_ijce_2010_257873.md",
-    "论文/奠基论文/已经ok/www.frontiersin.org_journals_microbiology_articles_10.3389_fmicb.2023.1145784_full.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
