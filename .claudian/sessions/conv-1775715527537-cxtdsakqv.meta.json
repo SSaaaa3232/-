@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775715527537-cxtdsakqv",
+  "providerId": "claude",
+  "title": "Clarify CLI skill list sharing",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775715527537,
+  "updatedAt": 1775715689789,
+  "lastResponseAt": 1775715689789,
+  "sessionId": "26e156ea-86ca-4cb5-a469-d335bffb0d9e",
+  "providerState": {
+    "providerSessionId": "26e156ea-86ca-4cb5-a469-d335bffb0d9e"
+  },
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 4572,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17264,
+    "contextWindow": 200000,
+    "contextTokens": 21836,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

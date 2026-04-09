@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1d06fb079d821ec",
+        "id": "2bc074e2de5ed1fd",
         "type": "tabs",
         "children": [
           {
-            "id": "1c443f0972a62dce",
+            "id": "9252053f3dbe5715",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -211,12 +212,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 583.5,
-    "collapsed": true
+    "width": 583.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,8 +237,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "1c443f0972a62dce",
+  "active": "d28acbec4d527a0e",
   "lastOpenFiles": [
+    "02-raw/articles/Thread by @chenchengpro.md",
     "cc09f8674b5492b4b2433c91aa240dd3_MD5.jpg",
     "b5e9361d6a3b0116fffa462fb07e335e_MD5.png",
     "fba74cc37a5d4461da090caf79e55d04_MD5.png",
@@ -250,7 +251,6 @@
     "0c129566cd36ba8cd581d54a31d2549f_MD5.png",
     "cc51ea30804ea0e5908f69acdd189553_MD5.jpg",
     "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
-    "39fbc59f0042e00ab1519a7133587006_MD5.jpg",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
     "OMLX密钥.md",
