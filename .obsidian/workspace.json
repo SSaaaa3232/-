@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27c4b292c5115ed1",
+        "id": "12d8a7cf9054fbbb",
         "type": "tabs",
         "children": [
           {
-            "id": "a6eddffc1f9e894e",
+            "id": "14e3e5211aedb1f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMLX密钥.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "OMLX密钥"
+              "title": "新标签页"
             }
           }
         ]
@@ -215,7 +211,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -241,15 +237,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a6eddffc1f9e894e",
+  "active": "14e3e5211aedb1f0",
   "lastOpenFiles": [
+    "39fbc59f0042e00ab1519a7133587006_MD5.jpg",
+    "7c3699e0964ee89578be7a9e94fd0e61_MD5.jpg",
+    "088794eb0f015d7717e676eb3191fbdd_MD5.jpg",
+    "111badeea3617e5d706bf3b5ec59124c_MD5.jpg",
+    "86f4a256b713a759549e74019077b277_MD5.jpg",
+    "20b2c44d718aceaa2b0a61ba7d5607e5_MD5.jpg",
+    "ab54e9f08196c69a42bee63e3bd39660_MD5.jpg",
+    "b53d3680f3fcc0586dfd8983c03edf47_MD5.jpg",
+    "02-raw/articles/Thread by @dotey.md",
+    "ac049d331967276aee3f7de35bd8a495_MD5.jpg",
+    "265e86ccd446f68c7af3d647533997e0_MD5.jpg",
+    "0a16d664a42960a783788597315aba82_MD5.jpg",
+    "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
     "OMLX密钥.md",
     "论文",
     "论文/论文框架.md",
-    "JPG/d5faaa406256a2f62fc46dc71a597fc6_MD5.png",
-    "JPG/b60a5378c8660bc9eb0c480e23e45657_MD5.jpg",
-    "JPG/9fcd3782b5d47c7e4b49f7061e0de544_MD5.jpg",
-    "JPG/cf30fdc11aa575ce41e41d976d911229_MD5.jpg",
     "论文/论文搜寻提示词.md",
     "02-raw/articles/Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-30195-4.md",
@@ -271,10 +276,6 @@
     "论文/奠基论文/已经ok/www.mdpi.com_1420-3049_28_15_5850.md",
     "论文/奠基论文/已经ok/www.hindawi.com_journals_ijce_2010_257873.md",
     "论文/奠基论文/已经ok/www.frontiersin.org_journals_microbiology_articles_10.3389_fmicb.2023.1145784_full.md",
-    "论文/奠基论文/已经ok/www.frontiersin.org_journals_microbiology_articles_10.3389_fmicb.2018.00194_full.md",
-    "论文/奠基论文/已经ok/www.frontiersin.org_journals_bioengineering-and-biotechnology_articles_10.3389_fbioe.2025.1504785_full.md",
-    "论文/奠基论文/已经ok/www.frontiersin.org_journals_bioengineering-and-biotechnology_articles_10.3389_fbioe.2021.647176_full.md",
-    "论文/奠基论文/不知道是什么/sciencedirect-test.png",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
@@ -283,11 +284,6 @@
     "论文/五年全景",
     "论文/五年全景/papers",
     "论文/奠基论文",
-    "JPG/ffd7d933c9237b1305342bca0a5aecc8_MD5.webp",
-    "JPG/ff685474dc0c72ada116abd167944564_MD5.png",
-    "JPG/0b756bd45f444f350e4e1fce5e9d5a4e_MD5.jpg",
-    "JPG/6cf3f0387ee83f5d9af406355d2ff161_MD5.png",
-    "JPG/06f90e915015c4342077364da61f319b_MD5.svg",
     "xcrawl-papers-20260407"
   ]
 }

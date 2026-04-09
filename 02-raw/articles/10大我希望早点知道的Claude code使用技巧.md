@@ -39,11 +39,11 @@ claude
 
 在这里网站：[https://claude.com/download](https://claude.com/download) 下面Claude Desktop，按照下面步骤你就获得一个可视化的Claude。
 
-![Image](https://pbs.twimg.com/media/HFSnNaBbAAAkX0_?format=jpg&name=large)
+![[cd8d87db1ad1dcf2bf942cae49c186db_MD5.jpg]]
 
 这里不仅仅可以聊天，还附带了很多类似OpenClaw的功能。
 
-![Image](https://pbs.twimg.com/media/HFSoJtLbIAAspBn?format=jpg&name=large)
+![[bb942462f18fd3eb6b974858721ef418_MD5.jpg]]
 
 可视化的界面对于普通人来说好用点，但是程序员更加喜欢命令行的启动方式。
 
@@ -88,7 +88,7 @@ claude -p "分析input.cvs..." --output-format json
 
 下面是著名的 Obsidian + Claude Code 工具，就是自己做了一个SDK来这样使用本地的订阅Token。
 
-![Image](https://pbs.twimg.com/media/HFSoyz_a0AAAnex?format=jpg&name=large)
+![[b55c897b8dfb0b85f8d1691c2db78c0e_MD5.jpg]]
 
 我承认我前面说的可能有点复杂了，下面说说使用过程中几个简单的命令。
 
@@ -100,7 +100,7 @@ claude -p "分析input.cvs..." --output-format json
 
 假如Claude突然失智，我们就可以按两下Ese+Ese，接下面就会弹出一个列表
 
-![Image](https://pbs.twimg.com/media/HFSpeyxbUAEOI7a?format=jpg&name=large)
+![[5fb47540f3093b5c86a5790bb1e135d0_MD5.jpg]]
 
 你可以使用这个功能，回到任意一个检查点，避免Claude code将代码搞乱。
 
@@ -158,7 +158,7 @@ claude -p "分析input.cvs..." --output-format json
 
 这个项目已经有138k Stars，具体你们去了解一下，我就不赘述了
 
-![Image](https://pbs.twimg.com/media/HFSqfjjbMAA828c?format=jpg&name=large)
+![[0a16d664a42960a783788597315aba82_MD5.jpg]]
 
 当你有一套成熟的编程Skills后，你会发现，他需要你频繁输入信息，这个时候你就发现打字速度成为你效率瓶颈。
 
@@ -172,7 +172,7 @@ claude -p "分析input.cvs..." --output-format json
 
 但typeless，除了需要付费外，没有太多缺点了，但能试用了（好像是我的）。
 
-![Image](https://pbs.twimg.com/media/HFSsstdawAAH57j?format=jpg&name=large)
+![[0bdc2eeb09947932e76f69a8d60674cf_MD5.jpg]]
 
 我下面都放出链接来，你们自己
 
@@ -190,13 +190,13 @@ typeless以贩养吸我推荐：[https://www.typeless.com/?via=lxfater](https://
 
 这是个开源项目：[https://github.com/manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) 大家可以点赞一个
 
-![Image](https://pbs.twimg.com/media/HFSsVyca8AAeMXX?format=jpg&name=large)
+![[ac049d331967276aee3f7de35bd8a495_MD5.jpg]]
 
 我最喜欢就是分屏功能，但是一旦分屏后，就会出现不知道是哪个窗口完成任务。
 
 幸运的是，这个软件会直接高亮某个终端区域，帮助你及时切换到对应窗口。
 
-![Image](https://pbs.twimg.com/media/HFSsKHGbsAAm7z6?format=jpg&name=large)
+![[265e86ccd446f68c7af3d647533997e0_MD5.jpg]]
 
 官网的图哈
 
@@ -208,7 +208,7 @@ UI是不是很好看，但这个产品最牛逼的地方是支持很多不同工
 
 <video preload="none" tabindex="-1" playsinline="" aria-label="Embedded video" poster="https://pbs.twimg.com/amplify_video_thumb/2041445338347925504/img/py586tqNN5Oyrhkv.jpg" style="width: 100%; height: 100%; position: absolute; background-color: black; top: 0%; left: 0%; transform: rotate(0deg) scale(1.005);"><source type="video/mp4" src="blob:https://x.com/8323aca0-a8f5-40df-a65a-b1a81ed7079b"></video>
 
-![](https://pbs.twimg.com/amplify_video_thumb/2041445338347925504/img/py586tqNN5Oyrhkv.jpg?name=large)
+![[64e4fba5f2c9cd915ab2d64ceb5bbd77_MD5.jpg]]
 
 而且每次切换会自动唤起，所在APP的窗口并聚焦，然后直接输入就行。
 
@@ -226,4 +226,4 @@ UI是不是很好看，但这个产品最牛逼的地方是支持很多不同工
 
 我有个公众号，分享干货，里面还有社群，欢迎关注
 
-![Image](https://pbs.twimg.com/media/HFStlWrbUAAX0mC?format=jpg&name=large)
+![[542c77ec2ef2d8112127e6212118ee18_MD5.jpg]]
