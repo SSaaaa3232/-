@@ -11,10 +11,14 @@
             "id": "30317753cfc4206a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "caption-subtitle-formatter"
             }
           }
         ]
@@ -212,11 +216,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 748.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,31 +241,35 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "30317753cfc4206a",
+  "active": "d28acbec4d527a0e",
   "lastOpenFiles": [
+    "03-wiki/concepts/AI/claude code/prompt/prompt.md",
+    "03-wiki/concepts/AI/claude code/MCP.md",
+    "daily notes/任务清单.md",
+    "JPG/fba74cc37a5d4461da090caf79e55d04_MD5.png",
+    "论文/论文框架.md",
+    "密钥",
+    "论文/论文搜寻提示词.md",
     "02-raw/articles/你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作.md",
-    "96802d0e855d59bac6d78b2c6214eeb0_MD5.jpg",
-    "eadc57b55570be743acdc127a69f6d67_MD5.jpg",
-    "8505994b1251e8a1151b645c6803478d_MD5.jpg",
-    "f6a0d43fc0df94be518cbd1ebaaaaa90_MD5.jpg",
-    "2e9a3f5a7a3842b7fe997cf047acb03c_MD5.jpg",
-    "4ebf05d8d0412a51d5d80ebbd3d7a3a2_MD5.jpg",
-    "95459013b70b41057afa8cb19a210493_MD5.jpg",
-    "79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
-    "07700c5bbdb92ebf9c911d42904246f8_MD5.jpg",
+    "JPG/96802d0e855d59bac6d78b2c6214eeb0_MD5.jpg",
+    "JPG/eadc57b55570be743acdc127a69f6d67_MD5.jpg",
+    "JPG/8505994b1251e8a1151b645c6803478d_MD5.jpg",
+    "JPG/f6a0d43fc0df94be518cbd1ebaaaaa90_MD5.jpg",
+    "JPG/2e9a3f5a7a3842b7fe997cf047acb03c_MD5.jpg",
+    "JPG/4ebf05d8d0412a51d5d80ebbd3d7a3a2_MD5.jpg",
+    "JPG/95459013b70b41057afa8cb19a210493_MD5.jpg",
+    "JPG/79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
+    "JPG/07700c5bbdb92ebf9c911d42904246f8_MD5.jpg",
     "02-raw/articles/Thread by @LumaoDoggie.md",
     "02-raw/articles/Thread by @karminski3.md",
-    "4302d0f0b298ace19908903e1bddd06a_MD5.jpg",
     "02-raw/articles/Thread by @manateelazycat.md",
     "02-raw/articles/Thread by @lidangzzz.md",
     "02-raw/articles/Thread by @chenchengpro.md",
     "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
-    "OMLX密钥.md",
+    "密钥/OMLX密钥.md",
     "论文",
-    "论文/论文框架.md",
-    "论文/论文搜寻提示词.md",
     "02-raw/articles/Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-30195-4.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-28764-4.md",
@@ -273,8 +281,6 @@
     "论文/奠基论文/已经ok/www.nature.com_articles_s41589-019-0402-7.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-10709-3.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-10644-y.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41467-023-40297-8.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41467-022-32727-w.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
@@ -282,7 +288,6 @@
     "论文/三个细分",
     "论文/五年全景",
     "论文/五年全景/papers",
-    "论文/奠基论文",
-    "xcrawl-papers-20260407"
+    "论文/奠基论文"
   ]
 }
