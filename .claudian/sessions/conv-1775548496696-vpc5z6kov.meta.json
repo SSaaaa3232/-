@@ -1,12 +1,12 @@
 {
   "id": "conv-1775548496696-vpc5z6kov",
+  "providerId": "claude",
   "title": "Install NotebookLM skill",
   "titleGenerationStatus": "success",
   "createdAt": 1775548496697,
-  "updatedAt": 1775615816874,
+  "updatedAt": 1775700496000,
   "lastResponseAt": 1775558581592,
   "sessionId": "4c59325e-66bb-45fc-afa5-8c7005e35556",
-  "sdkSessionId": "4c59325e-66bb-45fc-afa5-8c7005e35556",
   "usage": {
     "model": "MiniMax-M2.7",
     "inputTokens": 50886,

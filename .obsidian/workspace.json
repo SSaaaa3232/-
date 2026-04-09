@@ -11,10 +11,14 @@
             "id": "a6eddffc1f9e894e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "OMLX密钥.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "OMLX密钥"
             }
           }
         ]
@@ -206,16 +210,16 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 583.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -237,8 +241,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "a6eddffc1f9e894e",
   "lastOpenFiles": [
+    "OMLX密钥.md",
     "论文",
     "论文/论文框架.md",
     "JPG/d5faaa406256a2f62fc46dc71a597fc6_MD5.png",
@@ -283,7 +288,6 @@
     "JPG/0b756bd45f444f350e4e1fce5e9d5a4e_MD5.jpg",
     "JPG/6cf3f0387ee83f5d9af406355d2ff161_MD5.png",
     "JPG/06f90e915015c4342077364da61f319b_MD5.svg",
-    "xcrawl-papers-20260407",
-    "03-wiki/concepts/AI/个人成长"
+    "xcrawl-papers-20260407"
   ]
 }

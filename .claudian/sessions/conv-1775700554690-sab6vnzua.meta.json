@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775700554690-sab6vnzua",
+  "providerId": "claude",
+  "title": "Check if OpenClaw is deployed on computer",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775700554690,
+  "updatedAt": 1775700823015,
+  "lastResponseAt": 1775700823015,
+  "sessionId": "a6aba911-100c-4b6f-b2ad-23f9fd427753",
+  "providerState": {
+    "providerSessionId": "a6aba911-100c-4b6f-b2ad-23f9fd427753"
+  },
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 121,
+    "cacheCreationInputTokens": 560,
+    "cacheReadInputTokens": 22668,
+    "contextWindow": 200000,
+    "contextTokens": 23349,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}
