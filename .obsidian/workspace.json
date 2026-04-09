@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2bc074e2de5ed1fd",
+        "id": "d69e8a7b87183f10",
         "type": "tabs",
         "children": [
           {
-            "id": "9252053f3dbe5715",
+            "id": "f844cedc15f976dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -212,11 +212,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 583.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,19 +237,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d28acbec4d527a0e",
+  "active": "f844cedc15f976dc",
   "lastOpenFiles": [
+    "79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
+    "07700c5bbdb92ebf9c911d42904246f8_MD5.jpg",
+    "02-raw/articles/Thread by @LumaoDoggie.md",
+    "02-raw/articles/Thread by @karminski3.md",
+    "4302d0f0b298ace19908903e1bddd06a_MD5.jpg",
+    "27c2cba23d365bacf8cb267afd5bf161_MD5.jpg",
+    "ef0d99733486213fd5bcea612a629f2a_MD5.jpg",
+    "7f75f705e7bacdc477970b056c05e730_MD5.jpg",
+    "6c1dc82cd14c66f3fbe32bd2c5db67ea_MD5.png",
+    "df6692f9326e83721341d76bd00253d1_MD5.png",
+    "7e92ca2ffa6d1758e2a48f1f23124f35_MD5.jpg",
+    "cf1deb3b83d15da83f8fd4e7345d3224_MD5.jpg",
+    "02-raw/articles/Thread by @manateelazycat.md",
+    "02-raw/articles/Thread by @lidangzzz.md",
     "02-raw/articles/Thread by @chenchengpro.md",
     "cc09f8674b5492b4b2433c91aa240dd3_MD5.jpg",
-    "b5e9361d6a3b0116fffa462fb07e335e_MD5.png",
-    "fba74cc37a5d4461da090caf79e55d04_MD5.png",
-    "ce15a251e47d1a8e7cb04cffc2e72224_MD5.png",
-    "247fbb390fbe028fae3d25b82936be8f_MD5.jpg",
-    "1b2edef90491317d1c0b54253e3a58ba_MD5.png",
-    "5e97bea50f602142cb991b62e3df75d7_MD5.png",
-    "f6b4684a3b819266a33231c9a4af5238_MD5.png",
-    "0c129566cd36ba8cd581d54a31d2549f_MD5.png",
-    "cc51ea30804ea0e5908f69acdd189553_MD5.jpg",
     "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
@@ -271,11 +276,6 @@
     "论文/奠基论文/已经ok/www.nature.com_articles_s41467-023-40297-8.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41467-022-32727-w.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41467-021-22357-z.md",
-    "论文/奠基论文/不知道是什么/www.nature.com_articles_s41467-024-00001-y.md",
-    "论文/奠基论文/已经ok/www.mdpi.com_2311-5637_12_3_165.md",
-    "论文/奠基论文/已经ok/www.mdpi.com_2073-4360_17_15_2104.md",
-    "论文/奠基论文/已经ok/www.mdpi.com_1420-3049_28_15_5850.md",
-    "论文/奠基论文/已经ok/www.hindawi.com_journals_ijce_2010_257873.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
