@@ -1,0 +1,24 @@
+{
+  "id": "conv-1775826126750-46wa2wu43",
+  "providerId": "claude",
+  "title": "Start conversation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775826126751,
+  "updatedAt": 1775826132723,
+  "lastResponseAt": 1775826132564,
+  "sessionId": "ca4c9ba5-4bee-48ed-b054-17225b3cf543",
+  "providerState": {
+    "providerSessionId": "ca4c9ba5-4bee-48ed-b054-17225b3cf543"
+  },
+  "currentNote": "02-raw/articles/配置教程 副本 - 飞书云文档.md",
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 121,
+    "cacheCreationInputTokens": 19420,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 19541,
+    "percentage": 10,
+    "contextWindowIsAuthoritative": true
+  }
+}
