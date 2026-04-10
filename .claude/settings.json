@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/Users/saaaaa/.claude/settings.json)"
+    ]
+  }
+}

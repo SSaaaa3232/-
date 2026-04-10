@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -240,7 +240,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "d28acbec4d527a0e",
+  "active": "ebd43352eee3ad24",
   "lastOpenFiles": [
     "daily notes/任务清单.md",
     "02-raw/articles/配置教程 副本 - 飞书云文档.md",

@@ -1,14 +1,14 @@
 {
-  "id": "conv-1775817262180-78rhb743i",
+  "id": "conv-1775819217372-toi249zf0",
   "providerId": "claude",
-  "title": "Review tutorial content",
-  "titleGenerationStatus": "success",
-  "createdAt": 1775817262180,
-  "updatedAt": 1775819215107,
-  "lastResponseAt": 1775819191164,
-  "sessionId": "59c01f45-de84-4da4-a0d1-721be80676b4",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1775819217372,
+  "updatedAt": 1775821511229,
+  "lastResponseAt": 1775821511229,
+  "sessionId": "afdd6c16-8ec2-40aa-b9bc-ef4d892ddbc1",
   "providerState": {
-    "providerSessionId": "59c01f45-de84-4da4-a0d1-721be80676b4"
+    "providerSessionId": "afdd6c16-8ec2-40aa-b9bc-ef4d892ddbc1"
   },
   "currentNote": "02-raw/articles/配置教程 副本 - 飞书云文档.md",
   "usage": {
