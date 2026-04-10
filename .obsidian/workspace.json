@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1fab7ea4a1b1485c",
+        "id": "0080191e34c6bb33",
         "type": "tabs",
         "children": [
           {
-            "id": "d6c98414f41ad4d9",
+            "id": "dadc9ad74f483a3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/配置教程 副本 - 飞书云文档.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "配置教程 副本 - 飞书云文档"
+              "title": "新标签页"
             }
           }
         ]
@@ -210,8 +206,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -219,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 535.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,10 +237,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ebd43352eee3ad24",
+  "active": "dadc9ad74f483a3d",
   "lastOpenFiles": [
-    "daily notes/任务清单.md",
+    "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
+    "密钥/密钥.md",
     "02-raw/articles/配置教程 副本 - 飞书云文档.md",
+    "daily notes/任务清单.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
     "03-wiki/concepts/AI/claude code/prompt/prompt.md",
     "03-wiki/concepts/AI/claude code/MCP.md",
@@ -269,7 +268,6 @@
     "02-raw/articles/为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
-    "密钥/OMLX密钥.md",
     "论文",
     "02-raw/articles/Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-30195-4.md",
@@ -279,7 +277,6 @@
     "论文/奠基论文/已经ok/www.nature.com_articles_s41598-023-43282-9.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41598-022-16599-0.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41589-024-01702-5.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41589-019-0402-7.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
