@@ -1,0 +1,24 @@
+{
+  "id": "conv-1775817262180-78rhb743i",
+  "providerId": "claude",
+  "title": "Review tutorial content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775817262180,
+  "updatedAt": 1775817287335,
+  "lastResponseAt": 1775817287335,
+  "sessionId": "59c01f45-de84-4da4-a0d1-721be80676b4",
+  "providerState": {
+    "providerSessionId": "59c01f45-de84-4da4-a0d1-721be80676b4"
+  },
+  "currentNote": "02-raw/articles/配置教程 副本 - 飞书云文档.md",
+  "usage": {
+    "model": "MiniMax-M2.7",
+    "inputTokens": 5046,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21070,
+    "contextWindow": 200000,
+    "contextTokens": 26116,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}
