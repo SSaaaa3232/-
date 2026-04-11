@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e2e5e9e7fc3bad0",
+        "id": "9383c983ad246558",
         "type": "tabs",
         "children": [
           {
-            "id": "4199cba955329ba1",
+            "id": "eb2129fd9cb3fa39",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -237,8 +237,17 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "4199cba955329ba1",
+  "active": "eb2129fd9cb3fa39",
   "lastOpenFiles": [
+    "02-raw/articles/中转站.md",
+    "e11be1206c2290d8f2e9da3181f6530c_MD5.jpg",
+    "d18bca93dddfafa1855a62ea054434c9_MD5.jpg",
+    "3e801b6032063b034656f3180b91f181_MD5.jpg",
+    "b48e53882763da6bbccff301dad3ecc7_MD5.jpg",
+    "8cbfc9fb74b5476a267d7dc8ce21ba03_MD5.jpg",
+    "9b8995f46d8aeb779a53fc3f18c9d223_MD5.jpg",
+    "d7b6c009dc722fa080a30c018877b00b_MD5.jpg",
+    "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
     "daily notes/任务清单.md",
     "JPG/a3c5939d8b36a7091ff9a8f2d791414d_MD5.jpg",
     "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
@@ -254,13 +263,6 @@
     "论文/论文搜寻提示词.md",
     "02-raw/articles/你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作.md",
     "JPG/96802d0e855d59bac6d78b2c6214eeb0_MD5.jpg",
-    "JPG/eadc57b55570be743acdc127a69f6d67_MD5.jpg",
-    "JPG/8505994b1251e8a1151b645c6803478d_MD5.jpg",
-    "JPG/f6a0d43fc0df94be518cbd1ebaaaaa90_MD5.jpg",
-    "JPG/2e9a3f5a7a3842b7fe997cf047acb03c_MD5.jpg",
-    "JPG/4ebf05d8d0412a51d5d80ebbd3d7a3a2_MD5.jpg",
-    "JPG/95459013b70b41057afa8cb19a210493_MD5.jpg",
-    "JPG/79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
     "02-raw/articles/Thread by @LumaoDoggie.md",
     "02-raw/articles/Thread by @karminski3.md",
     "02-raw/articles/Thread by @manateelazycat.md",
@@ -275,7 +277,6 @@
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-28764-4.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-10569-w.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-00001-x.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41598-023-43282-9.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
