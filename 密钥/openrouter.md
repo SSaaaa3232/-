@@ -4,7 +4,7 @@ tags:
   - API密钥
 ---
 
-# openrouter 密钥
+# openrouter 
 
 
 ## API Key
