@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0080191e34c6bb33",
+        "id": "9e2e5e9e7fc3bad0",
         "type": "tabs",
         "children": [
           {
-            "id": "dadc9ad74f483a3d",
+            "id": "4199cba955329ba1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -237,12 +237,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "dadc9ad74f483a3d",
+  "active": "4199cba955329ba1",
   "lastOpenFiles": [
+    "daily notes/任务清单.md",
+    "JPG/a3c5939d8b36a7091ff9a8f2d791414d_MD5.jpg",
+    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
     "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
     "密钥/密钥.md",
     "02-raw/articles/配置教程 副本 - 飞书云文档.md",
-    "daily notes/任务清单.md",
     "03-wiki/concepts/AI/Claude-Code/Skills-Analysis/caption-subtitle-formatter.md",
     "03-wiki/concepts/AI/claude code/prompt/prompt.md",
     "03-wiki/concepts/AI/claude code/MCP.md",
@@ -259,7 +261,6 @@
     "JPG/4ebf05d8d0412a51d5d80ebbd3d7a3a2_MD5.jpg",
     "JPG/95459013b70b41057afa8cb19a210493_MD5.jpg",
     "JPG/79a705361c35ed7087ba0152d1a870cd_MD5.jpg",
-    "JPG/07700c5bbdb92ebf9c911d42904246f8_MD5.jpg",
     "02-raw/articles/Thread by @LumaoDoggie.md",
     "02-raw/articles/Thread by @karminski3.md",
     "02-raw/articles/Thread by @manateelazycat.md",
@@ -275,8 +276,6 @@
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-10569-w.md",
     "论文/奠基论文/不知道是什么/www.nature.com_articles_s41598-024-00001-x.md",
     "论文/奠基论文/已经ok/www.nature.com_articles_s41598-023-43282-9.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41598-022-16599-0.md",
-    "论文/奠基论文/已经ok/www.nature.com_articles_s41589-024-01702-5.md",
     "奠基论文/s11274-025-04554-w.pdf",
     "论文/奠基论文/已经ok",
     "论文/奠基论文/不知道是什么",
