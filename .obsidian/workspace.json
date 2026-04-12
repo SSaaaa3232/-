@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
+                "file": "密钥/ofox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10大我希望早点知道的Claude code使用技巧"
+              "title": "ofox"
             }
           }
         ],
@@ -258,6 +258,7 @@
   },
   "active": "713da2cf153428fa",
   "lastOpenFiles": [
+    "02-raw/articles/10大我希望早点知道的Claude code使用技巧.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情.md",
     "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
     "02-raw/articles/Thread by @Zenzhe99.md",
@@ -283,7 +284,6 @@
     "02-raw/articles/Thread by @Guomin184935.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @chenchengpro.md",
-    "02-raw/articles/Thread by @__tinygrad__.md",
     "JPG/1d7220f91fb7da0bd033807b7ea35706_MD5.jpg",
     "JPG/183747113757a7ca81ac2691f5b31928_MD5.jpg",
     "JPG/75d8ffab8e0048d481108f987c819bc8_MD5.jpg",

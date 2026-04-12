@@ -4,7 +4,7 @@ tags:
   - API密钥
 ---
 
-# openrouter 
+ofox 
 
 
 ## API Key
@@ -13,4 +13,4 @@ tags:
 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
 ```
 
-
+sk-of-qBfjaTCeaVaUCVHxBmRjeeHSCitCsDuSmByEkMnXWajMtVhstGEyubXWqmMaMTkM
