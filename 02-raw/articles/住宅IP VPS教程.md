@@ -15,7 +15,6 @@ description: |-
 - IP洗脸
 # 判断你的IP是不是已经被平台标记了
 
-
 怎么查？
 
 - 打开 http://whoer.net 或者 http://ipinfo.io，
@@ -93,7 +92,7 @@ AWS 申请账户绑定双币信用卡, 会送100美元以上额度. 然后再用
 
 总之你就安装这两个协议,切换一下, 哪个快就用哪个.
 
-# 安装方法:
+# 简要安装方法:
 
 1\. 去网站上买vps
 
@@ -130,16 +129,8 @@ Clash Verge: https://github.com/clash-verge-rev/clash-verge-rev/releases…
 
 ![[0c129566cd36ba8cd581d54a31d2549f_MD5.png]]
 
-关键判断标准是你IP的 **ASN type**：
 
-- 显示 **hosting / data center** → 数据中心IP → 平台亮红灯
-- 显示 **residential / ISP** → 住宅IP → 平台判定为正常家庭用户，放行
-
-**住宅IP** 来自真实的家庭宽带ISP，有真实物理位置。平台看你就是一个当地居民在家用WiFi上网，所有功能完整开放，不触发任何降权。
-
-这就是为什么同一个Claude账号，有时候聪明有时候笨——不是模型波动，是你机场的IP质量不稳定。某些时段分到了还没被标记的IP，体验就正常；换到被标记的IP段，立刻降智。
-
-**住宅IP VPS** 跟普通机场的区别：
+# **住宅IP VPS** 跟普通机场的区别：
 
 1. IP来自真实住宅ISP，不是数据中心，风控通过率完全不在一个量级
 2. IP是静态固定的，不会像机场一样频繁切换节点触发风控
@@ -147,9 +138,9 @@ Clash Verge: https://github.com/clash-verge-rev/clash-verge-rev/releases…
 
 ![[f6b4684a3b819266a33231c9a4af5238_MD5.png]]
 
-理解了这个，下面开始动手
+# 详细
 
-## 1\. 开通VPS
+## 开通VPS
 
 我用的是 **VoyraCloud** 的 Residential IP VPS
 
@@ -191,7 +182,7 @@ Clash Verge: https://github.com/clash-verge-rev/clash-verge-rev/releases…
 - 用户名（root或Administrator）
 - 初始密码
 
-## 2\. 连接VPS
+## 连接VPS
 
 Windows VPS（图形界面）
 
@@ -233,7 +224,7 @@ ssh-copy-id root@你的VPS_IP地址
 ssh root@你的VPS_IP地址
 ```
 
-## 3\. 验证IP纯净度（重要，别跳过）
+## 验证IP纯净度（重要，别跳过）
 
 ![[cc09f8674b5492b4b2433c91aa240dd3_MD5.jpg]]
 
@@ -291,7 +282,7 @@ chmod +x ~/check_ip.sh
 ~/check_ip.sh
 ```
 
-## 4\. 配置稳定的AI访问环境
+##  配置稳定的AI访问环境
 
 IP确认干净了，现在配置你的日常AI使用环境
 
@@ -347,13 +338,13 @@ rules:
 
 然后打开Claude，跑一个稍微复杂的任务试试——代码解释器在不在、输出长度正不正常、联网搜索能不能用。和之前用机场时的体验对比一下，差异会很明显。
 
-## 5\. 搭建Claude Code远程开发环境（进阶）
+## 搭建Claude Code远程开发环境
 
 ![[ce15a251e47d1a8e7cb04cffc2e72224_MD5.png]]
 
 这是住宅IP VPS的进阶用法——把Claude Code搬到VPS上跑
 
-**为什么不在本地跑Claude Code？**
+## **为什么不在本地跑Claude Code？**
 
 两个问题：
 
@@ -464,7 +455,7 @@ nano ~/.claude/mcp_config.json
 
 保存后重启Claude Code生效。配好MCP之后，Claude Code就从"只能聊天"进化到"能执行真实任务"——通过自然语言让它调用各种外部工具完成数据采集、代码部署、自动化流程。
 
-## 6\. 日常维护
+# 日常维护
 
 系统更新（每周一次）
 
@@ -480,7 +471,7 @@ sudo apt update && sudo apt upgrade -y
 
 如果哪天发现ASN type变了，联系VoyraCloud客服更换IP
 
-## 6\. 顺带解决的其他问题
+# 顺带解决的其他问题
 
 住宅IP VPS配好之后，这些事顺手就能搞定：
 
@@ -490,28 +481,14 @@ sudo apt update && sudo apt upgrade -y
 
 **远程办公**：从手机、iPad、任何设备远程桌面连VPS，走到哪都是同一个干净的网络环境。
 
-## 8\. 费用和选择建议
-
-![[247fbb390fbe028fae3d25b82936be8f_MD5.jpg]]
+# 选择建议
 
 VoyraCloud Residential IP VPS节点：洛杉矶、华盛顿、法兰克福、东京
 
-Spring Sale到4月29号：
-
-- 年付 **6折**（40% OFF）
-- 半年付 **7折**（30% OFF）
-- 官网自动生效，不用填码
 
 ![[1b2edef90491317d1c0b54253e3a58ba_MD5.png]]
 
-住宅IP VPS成本天然比普通数据中心VPS高——真实住宅带宽的获取和维护成本摆在那里。日常看视频刷网页，普通机场性价比更高，没必要换
 
 这个方案适合的是对IP纯净度有刚需的人：Claude/ChatGPT降智受不了、X账号需要稳定、跑Claude Code需要24小时不断连、不想每隔几天就折腾一次网络问题。
 
-一台VPS搞定AI访问+账号安全+远程开发，比分别折腾三套方案省时间
-
-![[5e97bea50f602142cb991b62e3df75d7_MD5.png]]
-
-👉限时专属优惠链接 [https://www.voyracloud.com/?ref\_code=TJC6Q4L4](https://www.voyracloud.com/?ref_code=TJC6Q4L4)
-
-有问题评论区问，看到都会回！
+一台VPS搞定AI访问+账号安全+远程开发
