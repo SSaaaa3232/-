@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开通服务.md",
+                "file": "Ofox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开通服务"
+              "title": "Ofox"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -259,8 +258,8 @@
   },
   "active": "d08c72045ef24b8d",
   "lastOpenFiles": [
-    "02-raw/articles/住宅IP VPS教程.md",
     "开通服务.md",
+    "02-raw/articles/住宅IP VPS教程.md",
     "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
     "02-raw/articles/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
     "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
