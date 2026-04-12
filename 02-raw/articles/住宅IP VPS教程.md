@@ -5,24 +5,128 @@ author:
   - "[[@AYi_AInotes]]"
 published: 2026-04-07
 created: 2026-04-09
+description: |-
+  一台住宅IP的VPS解决降智，
+  一个**24小时在线的Claude Code远程开发环境**。
 ---
-你的Claude是不是隔三差五"变笨"？回复突然变短、代码解释器莫名消失、联网搜索用不了、问复杂问题开始敷衍你。昨天还好好的，今天打开就像换了个模型，ChatGPT也一样——GPT-4o响应变慢，DALL-E偶尔不能用，Advanced Data Analysis时有时无。你去社区搜，一堆人在问"是不是又降级了"
+# 自测
 
-**这不是模型的问题，是你的IP在替你举报自己**
+- IP身份检查
+- IP洗脸
+# 判断你的IP是不是已经被平台标记了
 
-一台住宅IP的VPS解决降智，一个**24小时在线的Claude Code远程开发环境**。
 
-## 为什么你的AI一直在降智
+怎么查？
 
-![[cc51ea30804ea0e5908f69acdd189553_MD5.jpg]]
+- 打开 http://whoer.net 或者 http://ipinfo.io，
 
-先搞清楚降智到底是怎么发生的
+看两个字段就够了：
 
-你现在用的VPN或机场，大概率跑的是**数据中心IP**——机房批量生成，成本低，几千人共享一个IP段。
+- 第一个，ASN type
 
-OpenAI、Anthropic、Google这些公司的风控逻辑很简单：检测到你的IP是数据中心出口 → 判定你是代理用户 → 触发降权策略
+买了静态住宅IP后，必须验证ASN显示residential/isp + 真实ISP名称（比如Comcast、AT&T等），才算真正干净
 
-降权的具体表现：
+显示的是 hosting 或 data center：平台风控眼里，你是一个"代理用户"。
+
+- 第二个，IP位置
+
+如果显示的国家跟你选的节点对不上，说明这个IP的归属信息已经乱了，平台更不会信任你。
+
+中转机场大部分都炸了... 还是回到直连吧
+
+一个小细节，我切换之后第一次查IP，
+
+看到ISP那一栏显示的是美国一个真实的住宅宽带运营商名字，不是什么"XXX Cloud"或者"XXX Hosting"。
+
+那一刻才真正理解"住宅IP"这三个字到底什么意思😁
+
+它不是模拟的，是真的来自一个物理位置上的家庭宽带通道。
+
+看到这个结果就对了，这时候去开Claude，
+
+功能应该是完整的：代码解释器、长输出、联网搜索都在。
+# VPS选择
+
+我个人用过的 vps,推荐三个
+
+0\. 特别有钱选 DMIT 或者搬瓦工的 的香港区域,
+都是40-80美元一个月的. 300-500G .
+
+1\. 有钱选 DMIT 美西洛杉矶区域. 9.9美元一个月.
+
+选Eyeball 那个套餐就够了,流量多一些,实测下来和Premium差别可以忽略不计. 
+前者750G流量, 后者500G流量. (双向收费,所以做梯子流量要在页面上的数据除2)
+
+用量少的可以找两个朋友平摊一下. 我主力用这个.
+
+2\. 中产的情况. 电信用户, 可以考虑 腾讯云 轻量云 硅谷节点. 回程CN2线路, 99元一年, 丢包还行. 不限量. 缺点是限速30Mbps. 看Youtube 2K视频也够了.
+
+2核心2GB内存. 拿来搭vps跑一些小脚本也不错. 这个价位基本没更便宜的了.
+
+另外一个缺点是, 买了腾讯云后需要DD一下机子, 大概就是重装系统的意思, 
+把腾讯云的监控软件都杀掉. 不然会因为你翻墙给你掐掉.
+
+注意几个限制条件: 1.电信用户 2.一定只能硅谷节点,其他节点垃圾. 3.先DD机子再装翻墙脚本.
+
+3.穷逼的选择..
+
+0撸.
+
+AWS 申请账户绑定双币信用卡, 会送100美元以上额度. 然后再用这个账号去开AWS lightrail, 类似轻量云. 选东京,或者新加坡节点都行. 弄好后记得锁卡,防止意外扣费.
+
+大概可以免费用一年. 我的新加坡节点来备用. 因为很多defi网站限制美国ip.
+
+
+# 爬墙协议:
+
+用甬哥Github的脚本生成就行了, 生成两个
+
+1\. Vless-tcp-reality-vision
+
+2\. Hysteria2
+
+两个都各有利弊. 前者是tcp的, 但是打开网页那一瞬间会略慢一点点,因为tcp三次握手. 如果你选了美西机房可以感受的到.
+
+后者是基于udp的, 打开主流的西方网站, 现在大多支持QUIC协议了. 少两次握手, 页面加载会快一些. (但是推特不支持,所以还是慢)
+
+其中还涉及你本地到vps是不是多路复用的, 技术问题这就不详说了.
+
+总之你就安装这两个协议,切换一下, 哪个快就用哪个.
+
+# 安装方法:
+
+1\. 去网站上买vps
+
+2\. 上传ssh-key或者生成ssh-key, 然后新建机器
+
+3.本地ssh客户端连上vps.
+
+4\. DD机器装一个干净的操作系统(如果是腾讯云的)
+
+5\. 安装甬哥Github自动翻墙脚本
+
+6.把翻墙脚本对应的端口去vps网站上防火墙打开. Vless-tcp-reality-vision用的是tcp端口, Hysteria2用的是udp端口.
+
+7\. 本机安装翻墙客户端. Windows就Clashverge, Android就Nekobox, iOS就 Surge/ShadowRocket
+
+不会的话就把本文喂给ai, 然后把网页截图, 他会一步一步指导你的..
+
+![[07700c5bbdb92ebf9c911d42904246f8_MD5.jpg]]![[79a705361c35ed7087ba0152d1a870cd_MD5.jpg]]
+
+---
+# 链接
+
+Tencent Cloud: https://cloud.tencent.com/act/pro/featured-202604?fromSource=gwzcw.9837046.9837046.9837046&cps\_key=38be398bf5bea18e738b2f49157631a0&page=spring2026&s\_source=https%3A%2F%2Fcloud.tencent.com%2Fact%2Fpro%2Fdouble12-2025…
+
+dmit: https://dmit.io
+
+AWS Lightsail: https://lightsail.aws.amazon.com
+
+VPN Script: https://yonggekkk.github.io/argosbx/
+
+Clash Verge: https://github.com/clash-verge-rev/clash-verge-rev/releases…
+
+# 降权的具体表现：
 
 ![[0c129566cd36ba8cd581d54a31d2549f_MD5.png]]
 
