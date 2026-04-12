@@ -1,6 +1,6 @@
 ---
-title: "为什么你的Claude突然变笨、X账号频繁风控？一台住宅IP VPS彻底解决（保姆级教程含完整部署命令）"
-source: "https://x.com/AYi_AInotes/status/2041443477423374428"
+title: 住宅IP VPS教程
+source: https://x.com/AYi_AInotes/status/2041443477423374428
 author:
   - "[[@AYi_AInotes]]"
 published: 2026-04-07
@@ -10,7 +10,7 @@ created: 2026-04-09
 
 **这不是模型的问题，是你的IP在替你举报自己**
 
-这篇教程从原理讲到实操，手把手教你用一台住宅IP的VPS彻底解决降智问题，顺便搭一个**24小时在线的Claude Code远程开发环境**。所有命令行都给到了，复制粘贴就能跑通。
+一台住宅IP的VPS解决降智，一个**24小时在线的Claude Code远程开发环境**。
 
 ## 为什么你的AI一直在降智
 
