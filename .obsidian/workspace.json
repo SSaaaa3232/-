@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dbe6be8ebc5876c9",
+        "id": "fa24b417f73f2101",
         "type": "tabs",
         "children": [
           {
-            "id": "6e74949e9a89f265",
+            "id": "44a1e3790cc4f4b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hermes启发.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Hermes启发"
+              "title": "新标签页"
             }
           }
         ]
@@ -241,25 +237,33 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6e74949e9a89f265",
+  "active": "44a1e3790cc4f4b0",
   "lastOpenFiles": [
+    "02-raw/articles/Thread by @brad_zhang2024 1.md",
+    "bd00a267807960cca429dfcc33f9f2f6_MD5.jpg",
+    "c4331d90f8286077c19740df9fd24d26_MD5.jpg",
+    "36aa982ec9c9fd5b8cabde3b21c2b1ea_MD5.jpg",
+    "5488b8350215835ecd344e44dcf7a9ab_MD5.jpg",
+    "02-raw/articles/Thread by @brad_zhang2024.md",
+    "d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
+    "813db80a5c5ea036119e96014d37965c_MD5.jpg",
+    "733228ae63c6dff55734fad3d473aa6e_MD5.jpg",
+    "f29897099f05596596a212309307f943_MD5.jpg",
+    "ad5dae3fa592b0f230913ce003b979f2_MD5.jpg",
+    "02-raw/articles/Thread by @xicilion.md",
+    "90bc337a54a11cdefcf8f78af2ca7fc7_MD5.jpg",
+    "02-raw/articles/Thread by @timyangnet 1.md",
+    "02-raw/articles/Thread by @timyangnet.md",
+    "02-raw/articles/Anthropic 官方博文：多智能体协作指南：五种主流模式怎么选、怎么用？【译】.md",
+    "02-raw/articles/Study prompt.md",
+    "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
     "Hermes启发.md",
     "daily notes/开通服务.md",
     "CC降智.md",
-    "JPG/8e71318c8c9fb404d3a3ad0af74a4cb3_MD5.jpg",
-    "128331776074025_.pic_hd.jpg",
     "daily notes/密钥.md",
     "daily notes/任务清单.md",
-    "JPG/00dc954fca1b72d3242e48ade3feb55b_MD5.jpg",
     "02-raw/articles/20个不用写代码的AI自动化方案，每个都能帮你省出一整天.md",
     "02-raw/articles/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md",
-    "JPG/ac640f752eefcaf314cc8e72d65fbdc7_MD5.jpg",
-    "JPG/600f573785e472c598fdc3b42072a0f9_MD5.jpg",
-    "JPG/cdf76d6b19bf32caf1b67662d4bb20bc_MD5.png",
-    "JPG/82dfb01d6539c28f1988b6651930042e_MD5.png",
-    "JPG/06c66e5fb7ab64b56ba28b6985f0abe5_MD5.png",
-    "JPG/be60c7290ad64b72fff8c1c71e0739af_MD5.png",
-    "JPG/f3e4ce216f1cb6e21824ae9cf1f8074b_MD5.jpg",
     "02-raw/articles/住宅IP VPS教程.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
     "02-raw/articles/Thread by @dotey.md",
@@ -271,14 +275,6 @@
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/Claude code使用技巧.md",
     "daily notes/每日安排.md",
-    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
-    "02-raw/articles/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
-    "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
-    "02-raw/articles/Cloudflare 免费服务全解析.md",
-    "02-raw/articles/VPS2.md",
-    "02-raw/articles/API中转站.md",
-    "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
-    "02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
