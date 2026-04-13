@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Thread by @dotey.md",
+                "file": "02-raw/articles/住宅IP VPS教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread by @dotey"
+              "title": "住宅IP VPS教程"
             }
           }
         ]
@@ -241,10 +241,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "6ebafd45b3b205ad",
   "lastOpenFiles": [
+    "02-raw/articles/claude --dangerously-skip-permissions.md",
+    "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @karminski3.md",
-    "02-raw/articles/Thread by @chenchengpro.md",
     "02-raw/articles/Thread by @AYi_AInotes 1.md",
     "02-raw/articles/Thread by @AYi_AInotes.md",
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
@@ -270,7 +271,6 @@
     "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
     "02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)..md",
     "02-raw/articles/Thread by @__tinygrad__.md",
-    "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @Guomin184935.md",
     "JPG/2ba178a80d686d03b1667cfb43d89cf1_MD5.jpg",
     "JPG/93aa6bcab10094b3d73316f8de44f143_MD5.jpg",
