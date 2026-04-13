@@ -1,40 +1,49 @@
 ---
-title: "8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情"
-source: "https://x.com/zodchiii/status/2040000216456143002"
+title: 8 Claude Code Hooks That Automate What You Keep Forgetting
+source: https://x.com/zodchiii/status/2040000216456143002
 author:
   - "[[@zodchiii]]"
 published: 2026-04-03
 created: 2026-04-07
-description: "Have you ever told Claude Code to do something and it just didn't?你有没有让 Claude Code 做某件事，但它就是没做？You said format the code - It didn't. You sa..."
+description: Have you ever told Claude Code to do something and it just didn't?你有没有让 Claude Code 做某件事，但它就是没做？You said format the code - It didn't. You sa...
 modified: 2026-04-07
+telegram: https://t.me/zodchixquant
 ---
-Have you ever told Claude Code to do something and it just didn't?你有没有让 Claude Code 做某件事，但它就是没做？
+# Scene
 
-You said format the code - It didn't. You said don't touch that file - It did. 你说格式化代码——其实没有。你说过别碰那个档案——确实碰了。
+- Have you ever told Claude Code to do something and it just didn't?
 
-You said run tests before finishing - It forgot.你说完成前要做测试——它忘了。
+- You said format the code - It didn't. You said don't touch that file - It did. 
 
-**That's because CLAUDE.md is a suggestion.那是因为 CLAUDE.md 只是建议。**
+- You said run tests before finishing - It forgot.
 
-Claude reads it and follows it about 80% of the time. Hooks are different. They're automatic actions that fire every time Claude edits a file, runs a command, or finishes a task.Claude 大约有 80%的时间会阅读并跟随它。钩子是不同的。它们是每次 Claude 编辑文件、执行命令或完成任务时自动触发的动作。
+>**That's because CLAUDE.md is a suggestion.
 
-Below I will share 8 personal hooks you can copy straight into your settings.json and never think about again 👇下面我将分享 8 个你可以直接复制进你的 settings.json，永远不会再想起 👇 的个人引子
+Claude reads it and follows it about 80% of the time. 
+Hooks are different.
+They're automatic actions that fire every time Claude edits a file, runs a command, or finishes a task.
 
-Before we dive in, I share daily notes on AI & vibe coding in my Telegram channel: [https://t.me/zodchixquant](https://t.me/zodchixquant)🧠在深入讨论之前，我会在我的 Telegram 频道分享关于 AI 和氛围编码的每日笔记：[https://t.me/zodchixquant](https://t.me/zodchixquant)🧠
+# shared hooks
 
-![[6d993f99d0f6fff8035f3ff42c8d049e_MD5.jpg]]
+share 8 personal hooks 
+copy straight into your settings.json 
 
-## How hooks work (30-second version) What are hooks?钩子的工作原理（30秒版本） 什么是钩子？
+# How hooks work (30-second version) What are hooks?
 
-Hooks are automatic actions that run every time Claude Code does something, like editing a file or running a command. 钩子是每次 Claude Code 执行某事时自动执行的动作，比如编辑文件或执行命令。
+- Hooks are automatic actions that run every time Claude Code does something, like editing a file or running a command. 
 
-You set them up once and they work in the background without you thinking about it.你设置一次，它们就会在你不自觉地在后台运行。
+- set them up once and they work in the background without you thinking about it.
 
 The two you'll use most:你最常用的两个：
 
 **PreToolUse** runs before Claude does something. You can inspect the action and block it by returning exit code 2. Think of it as a bouncer.**PreToolUse** 运行在 Claude 之前。你可以检查该动作并通过返回退出代码 2 来阻止它。把它当成保镖。
 
-**PostToolUse** runs after Claude does something. You can run cleanup, formatting, tests, or logging. Think of it as quality control on the assembly line.Claude 做某事后，**PostToolUse** 会运行。你可以进行清理、格式化、测试或日志记录。可以把它看作是装配线上的质量控制。
+**PostToolUse** 
+
+- runs after Claude does something. 
+- You can run cleanup, formatting, tests, or logging. 
+- Think of it as quality control on the assembly line.
+- **PostToolUse** 会运行。你可以进行清理、格式化、测试或日志记录。可以把它看作是装配线上的质量控制。
 
 ```markdown
 Where hooks live:
@@ -46,7 +55,7 @@ Where hooks live:
 
 You configure them in **.claude/settings.json** in your project root. That file gets committed to git, so your whole team gets the same hooks automatically.你在项目根目录里用 **.claude/settings.json** 配置它们 。这个文件会提交到 git，所以整个团队会自动获得相同的钩子。
 
-Full documentation: [https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks)完整文档：[https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks)
+Full documentation: [https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks)
 
 ![[fe9b158eafe9d0a0b8ce55ed1280b2a6_MD5.jpg]]
 
