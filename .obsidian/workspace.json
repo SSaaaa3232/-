@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "524b36c1f4ecdef2",
+        "id": "f29a1094959571d9",
         "type": "tabs",
         "children": [
           {
-            "id": "6ebafd45b3b205ad",
+            "id": "83695e21dd052cb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/住宅IP VPS教程.md",
+                "file": "daily notes/任务清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "住宅IP VPS教程"
+              "title": "任务清单"
             }
           }
         ]
@@ -241,22 +241,32 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6ebafd45b3b205ad",
+  "active": "83695e21dd052cb3",
   "lastOpenFiles": [
+    "JPG/00dc954fca1b72d3242e48ade3feb55b_MD5.jpg",
+    "02-raw/articles/20个不用写代码的AI自动化方案，每个都能帮你省出一整天.md",
+    "02-raw/articles/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md",
+    "JPG/ac640f752eefcaf314cc8e72d65fbdc7_MD5.jpg",
+    "JPG/600f573785e472c598fdc3b42072a0f9_MD5.jpg",
+    "JPG/cdf76d6b19bf32caf1b67662d4bb20bc_MD5.png",
+    "JPG/82dfb01d6539c28f1988b6651930042e_MD5.png",
+    "JPG/06c66e5fb7ab64b56ba28b6985f0abe5_MD5.png",
+    "JPG/be60c7290ad64b72fff8c1c71e0739af_MD5.png",
+    "JPG/f3e4ce216f1cb6e21824ae9cf1f8074b_MD5.jpg",
+    "JPG/1ef7aba7659283529ce40790893a5256_MD5.jpg",
+    "JPG/461e870f3c5a86a756396aa7b25a1efb_MD5.jpg",
+    "02-raw/articles/住宅IP VPS教程.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @karminski3.md",
     "02-raw/articles/Thread by @AYi_AInotes 1.md",
     "02-raw/articles/Thread by @AYi_AInotes.md",
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
-    "888ad82e9c8fc6ceaba85d7f9989b4bf_MD5.jpg",
-    "4506d1e251891d47ca7015a734163f89_MD5.jpg",
     "daily notes/密钥.md",
     "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
     "daily notes/开通服务.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/Claude code使用技巧.md",
-    "02-raw/articles/住宅IP VPS教程.md",
     "daily notes/任务清单.md",
     "daily notes/每日安排.md",
     "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
@@ -264,21 +274,10 @@
     "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
     "02-raw/articles/Cloudflare 免费服务全解析.md",
     "02-raw/articles/VPS2.md",
-    "JPG/bc2b3ea3a1057da8603bd0b0575684ac_MD5.jpg",
     "02-raw/articles/API中转站.md",
     "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
     "02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程.md",
     "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
-    "02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)..md",
-    "02-raw/articles/Thread by @__tinygrad__.md",
-    "02-raw/articles/Thread by @Guomin184935.md",
-    "JPG/2ba178a80d686d03b1667cfb43d89cf1_MD5.jpg",
-    "JPG/93aa6bcab10094b3d73316f8de44f143_MD5.jpg",
-    "JPG/91e96189ecaa4ae4cdf4519d26ddb245_MD5.jpg",
-    "JPG/9541fb5b590e752a29e5d1df349feb6d_MD5.jpg",
-    "JPG/4506d1e251891d47ca7015a734163f89_MD5.jpg",
-    "JPG/1d7220f91fb7da0bd033807b7ea35706_MD5.jpg",
-    "JPG/183747113757a7ca81ac2691f5b31928_MD5.jpg",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
