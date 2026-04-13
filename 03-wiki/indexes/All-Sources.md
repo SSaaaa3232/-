@@ -22,7 +22,7 @@ category: index
 - [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] — Agentic Security 安全综述
 - [[02-raw/articles/Thread by @__tinygrad__.md]] — tinygrad 讨论
 - [[02-raw/articles/AutoAgent first open source library for self-optimizing agents]] — AutoAgent 自优化代理
-- [[02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情]] — Claude Code Hooks
+- [[8 Claude Code Hooks That Automate What You Keep Forgetting]] — Claude Code Hooks
 - [[02-raw/articles/Thread by @Guomin184935]] — Twitter 线程
 - [[02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点]] — Codex 团队访谈
 - [[02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)]] — Claude Cowork 教程

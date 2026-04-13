@@ -8,6 +8,7 @@ created: 2026-04-07
 description: Have you ever told Claude Code to do something and it just didn't?你有没有让 Claude Code 做某件事，但它就是没做？You said format the code - It didn't. You sa...
 modified: 2026-04-07
 telegram: https://t.me/zodchixquant
+full docuemnt: https://code.claude.com/docs/en/hooks
 ---
 # Scene
 
@@ -19,14 +20,13 @@ telegram: https://t.me/zodchixquant
 
 >**That's because CLAUDE.md is a suggestion.
 
-Claude reads it and follows it about 80% of the time. 
-Hooks are different.
-They're automatic actions that fire every time Claude edits a file, runs a command, or finishes a task.
+# difference between hooks and CLAUDE.md
 
-# shared hooks
+- CLAUDE.md:
+	- Claude reads it and follows it about 80% of the time. 
 
-share 8 personal hooks 
-copy straight into your settings.json 
+- hooks:
+	- They're automatic actions that fire every time Claude edits a file, runs a command, or finishes a task.
 
 # How hooks work (30-second version) What are hooks?
 
@@ -34,16 +34,18 @@ copy straight into your settings.json
 
 - set them up once and they work in the background without you thinking about it.
 
-The two you'll use most:你最常用的两个：
+# The two you'll use most:
 
-**PreToolUse** runs before Claude does something. You can inspect the action and block it by returning exit code 2. Think of it as a bouncer.**PreToolUse** 运行在 Claude 之前。你可以检查该动作并通过返回退出代码 2 来阻止它。把它当成保镖。
+**PreToolUse** 
+
+1. Think of it as a bouncer.
+2. runs before Claude does something. You can inspect the action and block it by returning exit code 
 
 **PostToolUse** 
 
-- runs after Claude does something. 
-- You can run cleanup, formatting, tests, or logging. 
-- Think of it as quality control on the assembly line.
-- **PostToolUse** 会运行。你可以进行清理、格式化、测试或日志记录。可以把它看作是装配线上的质量控制。
+1. runs after Claude does something.
+2. You can run cleanup, formatting, tests, or logging. 
+3. Think of it as quality control on the assembly line.
 
 ```markdown
 Where hooks live:
@@ -53,17 +55,16 @@ Where hooks live:
 .claude/settings.local.json   local only (not committed)
 ```
 
-You configure them in **.claude/settings.json** in your project root. That file gets committed to git, so your whole team gets the same hooks automatically.你在项目根目录里用 **.claude/settings.json** 配置它们 。这个文件会提交到 git，所以整个团队会自动获得相同的钩子。
-
-Full documentation: [https://code.claude.com/docs/en/hooks](https://code.claude.com/docs/en/hooks)
-
 ![[fe9b158eafe9d0a0b8ce55ed1280b2a6_MD5.jpg]]
 
+# 8 hooks
 ## 1\. Auto-format every file Claude touches1. 自动格式化 Claude 触碰的每个文件
 
-**The problem:** Claude writes correct code that breaks your formatting rules. You add "always run Prettier" to CLAUDE.md and it works most of the time, but not always.**问题是：**Claude 写的代码是正确的，这会破坏你的格式规则。你把“总是跑得漂亮”加到 CLAUDE.md 里，大多数时候都能用，但不是总是这样。
+**The problem:** 
+	Claude writes correct code that breaks your formatting rules. You add "always run Prettier" to CLAUDE.md and it works most of the time, but not always.
 
-**The hook:** Prettier runs automatically after every file write or edit.**钩子：** 每次写入或编辑文件后，Prettier 会自动运行。
+**The hook:** 
+	Prettier runs automatically after every file write or edit.
 
 ```json
 {
@@ -85,13 +86,14 @@ Full documentation: [https://code.claude.com/docs/en/hooks](https://code.claude.
 
 Swap **npx prettier --write** for whatever formatter you use: **black** for Python, **gofmt** for Go, **rustfmt** for Rust. The pattern is the same.换个**更漂亮的 npx——** 写你用的格式化器：**Python 用 black** 写，**go 用 gofmt，rustfmt** 用 Rust。模式是一样的。
 
-This was the first hook I set up and honestly it should be the default for every project. No more "Claude forgot to format" commits.这是我设置的第一个钩子，说实话它应该是每个项目的默认设置。不再出现“Claude 忘记格式化”的提交。
+>This was the first hook I set up and honestly it should be the default for every project. No more "Claude forgot to format" commits.
 
 ## 2\. Block dangerous commands2. 阻止危险指令
 
-**The problem:** Claude is powerful enough to run rm -rf, git reset --hard, DROP TABLE, or curl to random URLs. It probably won't, but "probably" isn't good enough when it's your production database.**问题是：**Claude 足够强大，可以运行 rm -rf、git reset --hard、DROP TABLE，或者 curl 到随机的 URL。可能不会，但“可能”对你的生产数据库来说是不够的。
+**The problem:** Claude is powerful enough to run rm -rf, git reset --hard, DROP TABLE, or curl to random URLs. It probably won't, but "probably" isn't good enough when it's your production database.
+**问题是：**Claude 足够强大，可以运行 rm -rf、git reset --hard、DROP TABLE，或者 curl 到随机的 URL。可能不会，但“可能”对你的生产数据库来说是不够的。
 
-**The hook:** Block destructive commands before they execute.**卖点：** 在命令执行前阻止破坏性指令。
+**The hook:** Block destructive commands before they execute.
 
 Create .claude/hooks/block-dangerous.sh:创建 .claude/hooks/block-dangerous.sh：
 
@@ -160,9 +162,10 @@ Exit code 2 is the key. It blocks the action and sends your error message back t
 
 ## 3\. Protect sensitive files from edits3. 保护敏感文件免受编辑
 
-**The problem:** Claude can read and edit any file in your project. That includes **.env, package-lock.json**, config files, and anything else you'd rather it didn't touch.**问题是：**Claude 可以读取和编辑你项目中的任何文件。这包括 **.env、package-lock.json**、配置文件，以及你不希望它碰到的其他文件。
+**The problem:** Claude can read and edit any file in your project. That includes **.env, package-lock.json**, config files, and anything else you'd rather it didn't touch.
+**问题是：**Claude 可以读取和编辑你项目中的任何文件。这包括 **.env、package-lock.json**、配置文件，以及你不希望它碰到的其他文件。
 
-**The hook:** Block edits to files that should be off-limits.**卖点：** 阻止对本应禁止的文件进行编辑。
+**The hook:** Block edits to files that should be off-limits. 阻止对本应禁止的文件进行编辑。
 
 Create **.claude/hooks/protect-files.sh:**创建 **.claude/hooks/protect-files.sh：**
 
@@ -210,9 +213,12 @@ exit 0
 
 ## 4\. Run tests after every edit4. 每次编辑后运行测试
 
-**The problem:** Claude makes a change, says "done," and you discover the tests are broken 20 minutes later when you try to commit.**问题是：**Claude 做了修改，说“完成”，而你尝试承诺时，20 分钟后才发现测试出了问题。
+**The problem:** Claude makes a change, says "done," and you discover the tests are broken 20 minutes later when you try to commit.
+**问题是：**Claude 做了修改，说“完成”，而你尝试承诺时，20 分钟后才发现测试出了问题。
 
-**The hook:** Run your test suite automatically after every code change. If tests fail, Claude sees the failure and can fix it immediately.**关键是：** 每次代码变更后自动运行测试套件。如果测试失败，Claude 会发现并立即修复。
+**The hook:** 
+	Run your test suite automatically after every code change.
+	If tests fail, Claude sees the failure and can fix it immediately.
 
 ```json
 {
@@ -240,7 +246,7 @@ Boris Cherny, the creator of Claude Code, says giving Claude a feedback loop lik
 
 **The problem:** Claude finishes a feature and immediately creates a PR. Tests are failing. Your reviewer sees red CI and sends it back.**问题是：**Claude 完成一个功能后立即创建了 PR。测试失败了。你的审核员看到红色 CI 后会退回去。
 
-**The hook:** Block PR creation unless all tests pass.**卖点：** 除非所有测试通过，否则阻止 PR 的创建。
+**The hook:** Block PR creation unless all tests pass.除非所有测试通过，否则阻止 PR 的创建。
 
 Create **.claude/hooks/require-tests-for-pr.sh:**创建 **.claude/hooks/require-tests-for-pr.sh：**
 
@@ -276,7 +282,7 @@ fi
 
 This is a hard gate. No green tests, no PR. Claude will fix the failures first because exit code 2 tells it the action was blocked and why.这是一个硬门。没有绿色测试，没有 PR。Claude 会先修复失败，因为退出代码 2 告诉它动作被阻挡及其原因。
 
-## 6\. Auto-lint and report errors6. 自动绒毛和报告错误
+## 6\. Auto-lint and report errors
 
 **The problem:** Claude writes code that works but violates your ESLint rules, style guide, or type checks. You catch it during review and send it back.**问题是：**Claude 写的代码虽然能用，但会违反你的 ESLint 规则、风格指南或类型检查。你在审查时发现并退回。
 
@@ -346,7 +352,7 @@ This is especially useful for debugging: if Claude broke something three session
 
 **The hook:** Automatically commit all changes when Claude stops working on a task.**卖点：** 当 Claude 停止处理某个任务时，自动提交所有更改。
 
-Create **.claude/hooks/auto-commit.sh:**创建 **.claude/hooks/auto-commit.sh：**
+Create **.claude/hooks/auto-commit.sh:
 
 ```bash
 #!/usr/bin/env bash
@@ -380,15 +386,15 @@ Every time Claude finishes a response, changes get committed automatically. Your
 
 Combine this with **claude -w feature-branch** (worktrees) and you get isolated, auto-committed feature branches for every task.结合 **claude -w feature-branch**（工作树），你就能获得每个任务的独立、自动提交的功能分支。
 
-## The complete settings.json完整 settings.json
 
-Here's everything combined into one file you can copy-paste:这里有所有内容合并成一个文件，你可以复制粘贴：
-
-Screenshot-friendly:友好截图：
+# Screenshot-friendly
 
 ![[330ae37d590d7aa311997ea836332a44_MD5.jpg]]
 
-Copy this file into **.claude/settings.json**, create the hook scripts in **.claude/hooks/,** make them executable with **chmod +x .claude/hooks/\*.sh**, and commit everything to git. Your whole team gets the same safety nets automatically.把这个文件复制到 **.claude/settings.json**，用 **.claude/hooks/** 创建钩子脚本 ，用 **chmod +x .claude/hooks/\*.sh** 让它们可执行 ， 然后把所有内容提交到 git。你的整个团队自动获得相同的安全网。
+Copy this file into **.claude/settings.json**,
+create the hook scripts in **.claude/hooks/,** 
+make them executable with **chmod +x .claude/hooks/\*.sh**, and commit everything to git. Your whole team gets the same safety nets automatically.
+
 
 ```json
 {
@@ -435,14 +441,13 @@ Copy this file into **.claude/settings.json**, create the hook scripts in **.cla
 }
 ```
 
-The difference between a good Claude Code setup and a great one isn't the model or the prompts. It's the hooks. 一个好的 Claude Code 设置和一个优秀的区别不在于模型或提示词。是钩子。
+# Last
 
-They're the part that runs when you're not paying attention, catching the mistakes you'd otherwise find during code review or worse, in production.它们是你不注意时运行的部分，能发现你在代码审查甚至更糟的生产环境中可能发现的错误。
+The difference between a good Claude Code setup and a great one isn't the model or the prompts. ==>It's the hooks
 
-Set up hook #1 (auto-format) and #2 (block dangerous commands) today. That alone will save you from the most common Claude Code mistakes. Add the rest as you need them.今天就设置钩子#1（自动格式化）和#2（阻止危险命令）。仅凭这一点就能避免最常见的 Claude 代码错误。剩下的根据需要添加。
+They're the part that runs when you're not paying attention, catching the mistakes you'd otherwise find during code review or worse, in production.
 
-I share daily notes on AI, finance, and vibe coding in my Telegram channel: [https://t.me/zodchixquant](https://t.me/zodchixquant)我在我的 Telegram 频道分享关于人工智能、金融和氛围编码的每日笔记：[https://t.me/zodchixquant](https://t.me/zodchixquant)
+Set up hook #1 (auto-format) and #2 (block dangerous commands) today. That alone will save you from the most common Claude Code mistakes. Add the rest as you need them.
 
-Thanks for reading 🙏🏼感谢阅读 🙏🏼
 
 ![[df764e5fbd18fc3f239a6927f9ceb1fa_MD5.jpg]]

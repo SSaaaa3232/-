@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23a974da7437687b",
+        "id": "524b36c1f4ecdef2",
         "type": "tabs",
         "children": [
           {
-            "id": "ae9d18a430cf501d",
+            "id": "6ebafd45b3b205ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情.md",
+                "file": "02-raw/articles/Claude code使用技巧.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 Claude Code Hooks That Automate What You Keep Forgetting 8 个 Claude 代码钩子，自动帮你忘记的事情"
+              "title": "Claude code使用技巧"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -242,8 +241,11 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ae9d18a430cf501d",
+  "active": "6ebafd45b3b205ad",
   "lastOpenFiles": [
+    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "02-raw/articles/2026 年新一代 VPN：IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
+    "02-raw/articles/Claude code使用技巧.md",
     "daily notes/密钥.md",
     "02-raw/articles/住宅IP VPS教程.md",
     "daily notes/任务清单.md",
@@ -268,9 +270,6 @@
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @Guomin184935.md",
     "02-raw/articles/Thread by @manateelazycat.md",
-    "02-raw/articles/Thread by @lidangzzz.md",
-    "02-raw/articles/Thread by @karminski3.md",
-    "02-raw/articles/Thread by @vivoplt.md",
     "JPG/2ba178a80d686d03b1667cfb43d89cf1_MD5.jpg",
     "JPG/93aa6bcab10094b3d73316f8de44f143_MD5.jpg",
     "JPG/91e96189ecaa4ae4cdf4519d26ddb245_MD5.jpg",
