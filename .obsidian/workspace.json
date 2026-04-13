@@ -11,10 +11,14 @@
             "id": "6e74949e9a89f265",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hermes启发.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Hermes启发"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -240,6 +243,7 @@
   },
   "active": "6e74949e9a89f265",
   "lastOpenFiles": [
+    "Hermes启发.md",
     "daily notes/开通服务.md",
     "CC降智.md",
     "JPG/8e71318c8c9fb404d3a3ad0af74a4cb3_MD5.jpg",
