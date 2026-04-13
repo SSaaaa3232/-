@@ -11,10 +11,14 @@
             "id": "f776ba378e30b925",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "We broke the frontier in agent memory Introducing ~99% SOTA memory system."
             }
           }
         ]
@@ -239,6 +243,9 @@
   },
   "active": "f776ba378e30b925",
   "lastOpenFiles": [
+    "02-raw/articles/Thread by @Zenzhe99.md",
+    "02-raw/articles/Thread by @yaohui12138.md",
+    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
     "02-raw/articles/PPT视觉优化方案.md",
     "e56026c40d6eeaa8cadd2ce445ccd05e_MD5.svg",
     "ea63f24f89a633ce71743dceb46d86ef_MD5.jpg",
@@ -272,8 +279,6 @@
     "02-raw/articles/Thread by @AYi_AInotes 1.md",
     "02-raw/articles/Thread by @AYi_AInotes.md",
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
-    "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
-    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
