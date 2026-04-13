@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa24b417f73f2101",
+        "id": "0643460f08c802e2",
         "type": "tabs",
         "children": [
           {
-            "id": "44a1e3790cc4f4b0",
+            "id": "f776ba378e30b925",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/PTT视觉优化方案.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PTT视觉优化方案"
+              "title": "新标签页"
             }
           }
         ]
@@ -241,13 +237,14 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "44a1e3790cc4f4b0",
+  "active": "f776ba378e30b925",
   "lastOpenFiles": [
+    "02-raw/articles/PPT视觉优化方案.md",
+    "e56026c40d6eeaa8cadd2ce445ccd05e_MD5.svg",
     "ea63f24f89a633ce71743dceb46d86ef_MD5.jpg",
     "b4089440988669d98febf534af418740_MD5.jpg",
     "947f09c36393542cab2e58fc190dc870_MD5.jpg",
     "50a58472dab9501585ca4e61be21c5a7_MD5.jpg",
-    "02-raw/articles/PTT视觉优化方案.md",
     "02-raw/articles/Thread by @brad_zhang2024 1.md",
     "bd00a267807960cca429dfcc33f9f2f6_MD5.jpg",
     "c4331d90f8286077c19740df9fd24d26_MD5.jpg",
@@ -255,8 +252,6 @@
     "5488b8350215835ecd344e44dcf7a9ab_MD5.jpg",
     "02-raw/articles/Thread by @brad_zhang2024.md",
     "d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
-    "813db80a5c5ea036119e96014d37965c_MD5.jpg",
-    "733228ae63c6dff55734fad3d473aa6e_MD5.jpg",
     "02-raw/articles/Thread by @xicilion.md",
     "02-raw/articles/Thread by @timyangnet 1.md",
     "02-raw/articles/Thread by @timyangnet.md",
