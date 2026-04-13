@@ -6,9 +6,13 @@ author:
 published: 2026-04-03
 created: 2026-04-07
 description: Have you ever told Claude Code to do something and it just didn't?你有没有让 Claude Code 做某件事，但它就是没做？You said format the code - It didn't. You sa...
-modified: 2026-04-07
+modified: 2026-04-13
 telegram: https://t.me/zodchixquant
 full docuemnt: https://code.claude.com/docs/en/hooks
+tags:
+  - automate
+  - hooks
+  - ClaudeCode
 ---
 # Scene
 

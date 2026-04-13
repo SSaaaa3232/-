@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Claude code使用技巧.md",
+                "file": "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude code使用技巧"
+              "title": "IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？"
             }
           }
         ]
@@ -244,8 +244,8 @@
   "active": "6ebafd45b3b205ad",
   "lastOpenFiles": [
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
-    "02-raw/articles/2026 年新一代 VPN：IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
     "02-raw/articles/Claude code使用技巧.md",
+    "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
     "daily notes/密钥.md",
     "02-raw/articles/住宅IP VPS教程.md",
     "daily notes/任务清单.md",
