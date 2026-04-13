@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f29a1094959571d9",
+        "id": "dbe6be8ebc5876c9",
         "type": "tabs",
         "children": [
           {
-            "id": "83695e21dd052cb3",
+            "id": "6e74949e9a89f265",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily notes/开通服务.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "开通服务"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -241,8 +238,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "83695e21dd052cb3",
+  "active": "6e74949e9a89f265",
   "lastOpenFiles": [
+    "daily notes/开通服务.md",
+    "CC降智.md",
+    "JPG/8e71318c8c9fb404d3a3ad0af74a4cb3_MD5.jpg",
+    "128331776074025_.pic_hd.jpg",
     "daily notes/密钥.md",
     "daily notes/任务清单.md",
     "JPG/00dc954fca1b72d3242e48ade3feb55b_MD5.jpg",
@@ -255,8 +256,6 @@
     "JPG/06c66e5fb7ab64b56ba28b6985f0abe5_MD5.png",
     "JPG/be60c7290ad64b72fff8c1c71e0739af_MD5.png",
     "JPG/f3e4ce216f1cb6e21824ae9cf1f8074b_MD5.jpg",
-    "JPG/1ef7aba7659283529ce40790893a5256_MD5.jpg",
-    "JPG/461e870f3c5a86a756396aa7b25a1efb_MD5.jpg",
     "02-raw/articles/住宅IP VPS教程.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
     "02-raw/articles/Thread by @dotey.md",
@@ -265,7 +264,6 @@
     "02-raw/articles/Thread by @AYi_AInotes.md",
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
     "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
-    "daily notes/开通服务.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/Claude code使用技巧.md",
     "daily notes/每日安排.md",
@@ -277,7 +275,6 @@
     "02-raw/articles/API中转站.md",
     "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
     "02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程.md",
-    "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
