@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0643460f08c802e2",
+        "id": "98b4947ae1726d0c",
         "type": "tabs",
         "children": [
           {
-            "id": "f776ba378e30b925",
+            "id": "ddc26d71870353ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "We broke the frontier in agent memory Introducing ~99% SOTA memory system."
+              "title": "新标签页"
             }
           }
         ]
@@ -241,24 +237,25 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "f776ba378e30b925",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "JPG/1d02e6bbe698012f13a2b44b5bd10bb6_MD5.jpg",
+    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
     "02-raw/articles/Thread by @Zenzhe99.md",
     "02-raw/articles/Thread by @yaohui12138.md",
-    "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
     "02-raw/articles/PPT视觉优化方案.md",
-    "e56026c40d6eeaa8cadd2ce445ccd05e_MD5.svg",
-    "ea63f24f89a633ce71743dceb46d86ef_MD5.jpg",
-    "b4089440988669d98febf534af418740_MD5.jpg",
-    "947f09c36393542cab2e58fc190dc870_MD5.jpg",
-    "50a58472dab9501585ca4e61be21c5a7_MD5.jpg",
+    "JPG/e56026c40d6eeaa8cadd2ce445ccd05e_MD5.svg",
+    "JPG/ea63f24f89a633ce71743dceb46d86ef_MD5.jpg",
+    "JPG/b4089440988669d98febf534af418740_MD5.jpg",
+    "JPG/947f09c36393542cab2e58fc190dc870_MD5.jpg",
+    "JPG/50a58472dab9501585ca4e61be21c5a7_MD5.jpg",
     "02-raw/articles/Thread by @brad_zhang2024 1.md",
-    "bd00a267807960cca429dfcc33f9f2f6_MD5.jpg",
-    "c4331d90f8286077c19740df9fd24d26_MD5.jpg",
-    "36aa982ec9c9fd5b8cabde3b21c2b1ea_MD5.jpg",
-    "5488b8350215835ecd344e44dcf7a9ab_MD5.jpg",
+    "JPG/bd00a267807960cca429dfcc33f9f2f6_MD5.jpg",
+    "JPG/c4331d90f8286077c19740df9fd24d26_MD5.jpg",
+    "JPG/36aa982ec9c9fd5b8cabde3b21c2b1ea_MD5.jpg",
+    "JPG/5488b8350215835ecd344e44dcf7a9ab_MD5.jpg",
     "02-raw/articles/Thread by @brad_zhang2024.md",
-    "d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
+    "JPG/d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
     "02-raw/articles/Thread by @xicilion.md",
     "02-raw/articles/Thread by @timyangnet 1.md",
     "02-raw/articles/Thread by @timyangnet.md",
@@ -278,7 +275,6 @@
     "02-raw/articles/Thread by @karminski3.md",
     "02-raw/articles/Thread by @AYi_AInotes 1.md",
     "02-raw/articles/Thread by @AYi_AInotes.md",
-    "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
