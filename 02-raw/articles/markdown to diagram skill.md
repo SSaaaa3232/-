@@ -1,10 +1,16 @@
 ---
-title: "Thread by @xicilion"
-source: "https://x.com/xicilion/status/2042848369450848424"
+title: Thread by @xicilion
+source: https://x.com/xicilion/status/2042848369450848424
 author:
   - "[[@xicilion]]"
 published: 2026-04-11
 created: 2026-04-13
+tags:
+  - diagram
+  - markdown
+  - ClaudeCode
+  - AI
+  - Skill
 ---
 
 It's here, it's here. Over a hundred diagram types, more than 6000 curated vector icons, automatically customized based on your Markdown content with just one sentence.
@@ -23,9 +29,7 @@ https://github.com/markdown-viewer/skills…
 
 ---
 
-**响马** @xicilion [2026-04-13](https://x.com/xicilion/status/2043597539757416597)
 
-Little buddies, one surprise after another haha
 
 ![[d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg]]
 

@@ -30,7 +30,7 @@ category: index
 - [[02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕]] — 健康
 - [[02-raw/articles/零代码克隆纳瓦尔数字分身教程]] — 数字分身
 - [[02-raw/articles/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级]] — 哲学方法论
-- [[02-raw/articles/Thread by @vivoplt]] — Twitter 线程
+- [[Startup cost]] — Twitter 线程
 - [[少收藏，重提炼，狠输出]] — 内容创作方法
 
 ---

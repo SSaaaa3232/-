@@ -1,12 +1,18 @@
 ---
-title: "Thread by @dotey"
-source: "https://x.com/dotey/status/2042022771371213290"
+title: Thread by @dotey
+source: https://x.com/dotey/status/2042022771371213290
 author:
   - "[[@dotey]]"
 published: 2026-04-09
 created: 2026-04-09
+tags:
+  - illustrator
+  - image
+  - Skill
+  - baoyu
+  - Prompt
 ---
-**宝玉** @dotey [2026-04-08](https://x.com/dotey/status/2042022771371213290)
+
 
 手绘风信息图提示词
 
@@ -60,28 +66,5 @@ https://github.com/JimLiu/baoyu-skills…
 
 ---
 
-**黑泽** @zhedao88 [2026-04-09](https://x.com/zhedao88/status/2042065442043515124)
-
-A few days ago, someone from Fu Sheng's company came to our company to talk about how he made his crayfish PPT. At that time, he showed us his Skill, and I thought they were all public, but it turned out only this one wasn't public. But I was particularly impressed by the
 
 ---
-
-**宝玉** @dotey [2026-04-09](https://x.com/dotey/status/2042084260870287502)
-
-用 baoyu-skills
-
-> 2026-04-09
-> 
-> You can use baoyu-skills' baoyu-slide-deck to generate Slides, for example:
-> 
-> \> /baoyu-slide-deck Draw in a hand-drawn style <PDF file path or material path>
-> 
-> https://github.com/jimliu/baoyu-skills…
-> 
-> ![[111badeea3617e5d706bf3b5ec59124c_MD5.jpg]]![[20b2c44d718aceaa2b0a61ba7d5607e5_MD5.jpg]]![[39fbc59f0042e00ab1519a7133587006_MD5.jpg]]![[86f4a256b713a759549e74019077b277_MD5.jpg]]
-
----
-
-**Better Self, Better Life** @BetterSelf\_Life [2026-04-08](https://x.com/BetterSelf_Life/status/2042029238270980467)
-
-Is it also applicable to use your Chinese prompts for selecting images to accompany English articles?
