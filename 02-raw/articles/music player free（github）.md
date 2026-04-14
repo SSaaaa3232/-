@@ -1,12 +1,17 @@
 ---
-title: "Thread by @Guomin184935"
-source: "https://x.com/Guomin184935/status/2041030544792985910"
+title: Thread by @Guomin184935
+source: https://x.com/Guomin184935/status/2041030544792985910
 author:
   - "[[@Guomin184935]]"
 published: 2026-04-06
 created: 2026-04-07
-description: "Recommend a music player, free and open-source, with 50k on GitHub推荐一款免费开源的音乐播放器，GitHub 上有 5 万美元 No exaggeration, all the world's music is"
+description: Recommend a music player, free and open-source, with 50k on GitHub推荐一款免费开源的音乐播放器，GitHub 上有 5 万美元 No exaggeration, all the world's music is
 modified: 2026-04-07
+tags:
+  - music
+  - GitHub
+  - tool
+  - free
 ---
 
 Recommend a music player, free and open-source, with 50k ⭐️ on GitHub  

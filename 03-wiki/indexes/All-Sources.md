@@ -23,7 +23,7 @@ category: index
 - [[02-raw/articles/Thread by @__tinygrad__.md]] — tinygrad 讨论
 - [[02-raw/articles/AutoAgent first open source library for self-optimizing agents]] — AutoAgent 自优化代理
 - [[8 Claude Code Hooks That Automate What You Keep Forgetting]] — Claude Code Hooks
-- [[02-raw/articles/Thread by @Guomin184935]] — Twitter 线程
+- [[music player free（github）]] — Twitter 线程
 - [[02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点]] — Codex 团队访谈
 - [[02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)]] — Claude Cowork 教程
 - [[02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程]] — Harness 工程入门

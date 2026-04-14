@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Thread by @timyangnet.md",
+                "file": "02-raw/articles/IP洗脸.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread by @timyangnet"
+              "title": "IP洗脸"
             }
           },
           {
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -286,6 +287,9 @@
   },
   "active": "6d970169d6df4186",
   "lastOpenFiles": [
+    "02-raw/articles/diagram（tech-graph）fireworks.md",
+    "02-raw/articles/music player free（github）.md",
+    "02-raw/articles/信息消费.md",
     "02-raw/articles/杠杆的理解.md",
     "工具清单.md",
     "02-raw/articles/Gbrain.md",
@@ -305,7 +309,6 @@
     "02-raw/articles/我是怎么运作的：内观一个自进化 Agent 的 Harness.md",
     "02-raw/articles/轻松掌握Anthropic官方给的五种\"多Agent协作\"模式.md",
     "02-raw/articles/用好Agent最重要的技巧不是Skills，是这四个字。.md",
-    "02-raw/articles/Thread by @timyangnet.md",
     "02-raw/articles/illustrator and image skill （prompt）.md",
     "02-raw/articles/markdown to diagram skill.md",
     "02-raw/articles/Startup cost.md",
@@ -321,8 +324,6 @@
     "清单/读书清单.md",
     "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "清单",
-    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
-    "daily notes/每日安排.md",
     "daily notes/密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
