@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/IP洗脸.md",
+                "file": "02-raw/articles/当斯坦福 AI 学生找不到工作，吴恩达给出的反直觉答案！.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IP洗脸"
+              "title": "当斯坦福 AI 学生找不到工作，吴恩达给出的反直觉答案！"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具清单.md",
+                "file": "02-raw/articles/Thread by @realNyarime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工具清单"
+              "title": "Thread by @realNyarime"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -285,27 +285,31 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "6d970169d6df4186",
+  "active": "2195da508aedc81a",
   "lastOpenFiles": [
+    "8e60bea75ddc497144144c8b777fdb91_MD5.jpg",
+    "abf95b7113f142af9002d041aa04074f_MD5.jpg",
+    "1bb26763706bb870f5bdf7530371ebd8_MD5.png",
+    "工具清单.md",
+    "02-raw/articles/Thread by @realNyarime.md",
+    "清单/任务清单.md",
+    "02-raw/articles/当斯坦福 AI 学生找不到工作，吴恩达给出的反直觉答案！.md",
+    "cf8a8f0da24c0f4dbcc5e1a29affd606_MD5.jpg",
+    "a8d39e4223d75c4332ec88289118301e_MD5.jpg",
+    "eed3190df0ffddfea4f1eb7529a8dae5_MD5.jpg",
+    "952c6ab523e8857c8bbda4c4599d4a6e_MD5.jpg",
+    "a15c051ed55291186158ca48db29e6c3_MD5.jpg",
+    "761b949223aeb4a1c6b9c953c8318f8f_MD5.jpg",
+    "666f89adb89de5727cac010846959e82_MD5.jpg",
+    "94923a4ed1adfd3fcb5f9d8195f2aa92_MD5.jpg",
+    "02-raw/articles/IP洗脸.md",
     "02-raw/articles/diagram（tech-graph）fireworks.md",
     "02-raw/articles/music player free（github）.md",
     "02-raw/articles/信息消费.md",
     "02-raw/articles/杠杆的理解.md",
-    "工具清单.md",
     "02-raw/articles/Gbrain.md",
     "02-raw/articles/Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器.md",
-    "清单/任务清单.md",
-    "JPG/cf5b1973ca3b3514f8aea60be0a8833c_MD5.jpg",
-    "JPG/623ccc43aed7f06a1c57da3cadae41e7_MD5.png",
-    "JPG/1a26e863da3ef46d6535e1d2e479be91_MD5.png",
     "02-raw/articles/为什么你的\"AI 优先\"战略可能大错特错？.md",
-    "JPG/2f85e06dc6aca9d45b9c4d7b6362bcb4_MD5.jpg",
-    "JPG/727ea9a9b9582a6977365a4b3bc33af1_MD5.jpg",
-    "JPG/da0a3d550d6261ef489c2bbabea03a2d_MD5.png",
-    "JPG/42286c73ef317e02782d257ebd17ba87_MD5.jpg",
-    "JPG/f2d76247479c020aacb3ef2a5e18106b_MD5.jpg",
-    "JPG/28c0e48af50516b668c379e2a6583fc5_MD5.jpg",
-    "JPG/023a739b4df6152b6a004063d72187a7_MD5.jpg",
     "02-raw/articles/我是怎么运作的：内观一个自进化 Agent 的 Harness.md",
     "02-raw/articles/轻松掌握Anthropic官方给的五种\"多Agent协作\"模式.md",
     "02-raw/articles/用好Agent最重要的技巧不是Skills，是这四个字。.md",
@@ -319,10 +323,6 @@
     "清单/本地部署.md",
     "02-raw/articles/jart：把大语言模型所有复杂技术打包成一个文件，在任何系统上双击运行.md",
     "daily notes/密钥/ofox.md",
-    "daily notes/密钥/密钥.md",
-    "清单/自动化清单.md",
-    "清单/读书清单.md",
-    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "清单",
     "daily notes/密钥",
     "论文",
