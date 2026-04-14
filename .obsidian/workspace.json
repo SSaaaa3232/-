@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98b4947ae1726d0c",
+        "id": "3c5dfac89ccf7385",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc26d71870353ec",
+            "id": "d7cfa15bef3b2913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
+                "file": "02-raw/articles/AI自动化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的"
+              "title": "AI自动化"
             }
           }
         ]
@@ -241,11 +241,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "ddc26d71870353ec",
+  "active": "d7cfa15bef3b2913",
   "lastOpenFiles": [
+    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "daily notes/任务清单.md",
     "daily notes/每日安排.md",
-    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "02-raw/articles/少收藏，重提炼，狠输出.md",
     "02-raw/articles/配置教程 副本 - 飞书云文档.md",
     "JPG/d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
@@ -274,11 +275,10 @@
     "daily notes/开通服务.md",
     "CC降智.md",
     "daily notes/密钥.md",
-    "02-raw/articles/20个不用写代码的AI自动化方案，每个都能帮你省出一整天.md",
+    "02-raw/articles/AI自动化.md",
     "02-raw/articles/分享一个我用了2年的深度研究Prompt，半小时帮你搞懂任何陌生领域。.md",
     "02-raw/articles/住宅IP VPS教程.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
-    "02-raw/articles/Thread by @dotey.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
