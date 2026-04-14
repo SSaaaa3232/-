@@ -11,10 +11,14 @@
             "id": "ddc26d71870353ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的"
             }
           }
         ]
@@ -237,8 +241,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "ddc26d71870353ec",
   "lastOpenFiles": [
+    "02-raw/articles/少收藏，重提炼，狠输出.md",
+    "02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
+    "02-raw/articles/配置教程 副本 - 飞书云文档.md",
+    "JPG/d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
     "JPG/1d02e6bbe698012f13a2b44b5bd10bb6_MD5.jpg",
     "02-raw/articles/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md",
     "02-raw/articles/Thread by @Zenzhe99.md",
@@ -253,9 +261,7 @@
     "JPG/bd00a267807960cca429dfcc33f9f2f6_MD5.jpg",
     "JPG/c4331d90f8286077c19740df9fd24d26_MD5.jpg",
     "JPG/36aa982ec9c9fd5b8cabde3b21c2b1ea_MD5.jpg",
-    "JPG/5488b8350215835ecd344e44dcf7a9ab_MD5.jpg",
     "02-raw/articles/Thread by @brad_zhang2024.md",
-    "JPG/d6de78cb8961ff617784c81ff4e5e07a_MD5.jpg",
     "02-raw/articles/Thread by @xicilion.md",
     "02-raw/articles/Thread by @timyangnet 1.md",
     "02-raw/articles/Thread by @timyangnet.md",
@@ -273,8 +279,6 @@
     "02-raw/articles/claude --dangerously-skip-permissions.md",
     "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Thread by @karminski3.md",
-    "02-raw/articles/Thread by @AYi_AInotes 1.md",
-    "02-raw/articles/Thread by @AYi_AInotes.md",
     "密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf",
