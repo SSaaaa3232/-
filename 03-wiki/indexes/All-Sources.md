@@ -18,7 +18,7 @@ category: index
 #### 04 月
 
 - [[02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]] — Claude Code 架构拆解
-- [[02-raw/articles/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的]] — 认知科学
+- [[人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的]] — 认知科学
 - [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] — Agentic Security 安全综述
 - [[Thunderbolt 显卡驱动]] — tinygrad 讨论
 - [[02-raw/articles/AutoAgent first open source library for self-optimizing agents]] — AutoAgent 自优化代理

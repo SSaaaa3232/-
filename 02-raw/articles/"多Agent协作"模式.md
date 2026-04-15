@@ -1,16 +1,17 @@
 ---
-title: "轻松掌握Anthropic官方给的五种\"多Agent协作\"模式"
-source: "https://x.com/KKaWSB/status/2043883512168886387"
+title: 轻松掌握Anthropic官方给的五种"多Agent协作"模式
+source: https://x.com/KKaWSB/status/2043883512168886387
 author:
   - "[[@KKaWSB]]"
 published: 2026-04-14
 created: 2026-04-14
+tags:
+  - Anthropic
+  - 官方
+  - 多Agent协作
+  - ClaudeCode
 ---
-![[60f3e996a283279ee736f861e033aff5_MD5.jpg]]
-
-Anthropic上周发了一篇博文，标题不长，信息量极大。
-
-核心观点只有一句话：**别上来就选最复杂的架构。从最简单的能跑通的模式开始，看它在哪里卡住，再升级。**
+**别上来就选最复杂的架构。从最简单的能跑通的模式开始，看它在哪里卡住，再升级。**
 
 这篇文章拆解了五种多Agent协作的主流模式——每种怎么运作、什么时候用、会在哪里翻车。
 

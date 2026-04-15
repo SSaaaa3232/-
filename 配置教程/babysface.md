@@ -1,9 +1,14 @@
 ---
-title: "配置教程 副本 - 飞书云文档"
-source: "https://tcn5lhyjit4a.feishu.cn/wiki/Di3Xw8XxLiHQwykFSCocEJkjnpI"
+title: 配置教程 副本 - 飞书云文档
+source: https://tcn5lhyjit4a.feishu.cn/wiki/Di3Xw8XxLiHQwykFSCocEJkjnpI
 author:
 published:
 created: 2026-04-10
+tags:
+  - 教程
+  - API
+  - 反代
+  - 中转站
 ---
 Codex 的配置文件位置（如果没有新建即可）
 
