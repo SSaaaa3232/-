@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务.md",
+                "file": "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务"
+              "title": "抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -259,8 +258,21 @@
   },
   "active": "461f9e9951095383",
   "lastOpenFiles": [
-    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "a949aefdf1904ad9d5ce36e47055b1cb_MD5.jpg",
+    "f449891d165eb693230d0f23b0438097_MD5.jpg",
+    "9cf4a7a7d96b42967a64355bbed68fce_MD5.png",
+    "07529609415821f6dcddc4e1acdce7bb_MD5.png",
+    "3acd97cefad6b07d3cd2319e09c2ff15_MD5.png",
+    "fc8e5e2af9ada2fc9db17a2c1fc8abf1_MD5.jpg",
+    "a11de39dda637dcbb502d3ff52f35282_MD5.jpg",
+    "76f8be6ee5ab5b08893da957516a5a24_MD5.png",
+    "a61a68c66aaacce38ed3c3ed1c998693_MD5.jpg",
+    "cda645d821418d01cf6c5ee2010a73b0_MD5.jpg",
+    "cc46e7c698451c9f4f1cde880a12c4fa_MD5.jpg",
+    "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
+    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "任务.md",
+    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "项目/\"多Agent协作\"模式.md",
     "02-raw/articles/Claude code使用技巧.md",
@@ -288,19 +300,6 @@
     "02-raw/articles/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
     "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
     "Excalidraw/认知边界 2026-04-14 23.40.05.excalidraw.md",
-    "清单/模型测评.md",
-    "清单/MCP清单.md",
-    "02-raw/articles/Thunderbolt 显卡驱动.md",
-    "JPG/cf8a8f0da24c0f4dbcc5e1a29affd606_MD5.jpg",
-    "JPG/a8d39e4223d75c4332ec88289118301e_MD5.jpg",
-    "JPG/14433f1ebfba07adfb4e4442dc0df898_MD5.jpg",
-    "JPG/0abc817b7da7554a07964c9ada49126f_MD5.jpg",
-    "JPG/31300a591a9c340b3a6f79f4d09f54f3_MD5.jpg",
-    "JPG/7ff279e9e6e926d38a39d97eaff35100_MD5.jpg",
-    "JPG/9c6ec3bef7c093ddfc3f749f0202e43a_MD5.png",
-    "JPG/58a1a1ba1fb1adcd05a92b5df157ed18_MD5.jpg",
-    "JPG/f8c264a07bef42f774992c37aa19d256_MD5.jpg",
-    "JPG/c1dbeeaba9ef707ed038492957866834_MD5.jpg",
     "清单",
     "daily notes/密钥",
     "论文",
