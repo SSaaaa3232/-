@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "65e9469b8364d2f0",
+        "id": "62618440a321e8fb",
         "type": "tabs",
         "children": [
           {
-            "id": "850ca08b877d1abd",
+            "id": "1c2dae816929d962",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/\"多Agent协作\"模式.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "\"多Agent协作\"模式"
+              "title": "新标签页"
             }
           }
         ]
@@ -203,27 +199,17 @@
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
-          },
-          {
-            "id": "d28acbec4d527a0e",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 498.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "terminal:Open terminal": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -236,16 +222,15 @@
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian42-brat:BRAT": false,
       "claudian:Open Claudian": false,
-      "terminal:Open terminal": false,
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "850ca08b877d1abd",
+  "active": "0ff2346ea101fbfb",
   "lastOpenFiles": [
+    "项目/\"多Agent协作\"模式.md",
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
-    "项目/\"多Agent协作\"模式.md",
     "daily notes/清单/任务清单.md",
     "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
     "3dd30b4dee070a7afcb7f12ce67de772_MD5.jpg",

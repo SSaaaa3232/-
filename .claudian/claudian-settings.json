@@ -35,7 +35,7 @@
       "environmentHash": "ANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic|ANTHROPIC_MODEL=MiniMax-M2.7"
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -49,11 +49,17 @@
     }
   },
   "settingsProvider": "claude",
-  "savedProviderModel": {},
-  "savedProviderEffort": {},
+  "savedProviderModel": {
+    "claude": "MiniMax-M2.7"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
-  "lastCustomModel": "",
+  "savedProviderThinkingBudget": {
+    "claude": "off"
+  },
+  "lastCustomModel": "MiniMax-M2.7",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
