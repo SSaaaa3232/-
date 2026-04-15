@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skill/达尔文.skill.md",
+                "file": "项目/\"多Agent协作\"模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "达尔文.skill"
+              "title": "\"多Agent协作\"模式"
             }
           }
         ]
@@ -243,8 +243,8 @@
   },
   "active": "850ca08b877d1abd",
   "lastOpenFiles": [
-    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
     "skill/达尔文.skill.md",
+    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
     "项目/\"多Agent协作\"模式.md",
     "daily notes/清单/任务清单.md",
     "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
