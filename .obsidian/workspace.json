@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2c9139293296de80",
+        "id": "c24f0c64b4d4a960",
         "type": "tabs",
         "children": [
           {
-            "id": "a947164158b9af80",
+            "id": "0bc85eb616c377a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cc/cc指南.md",
+                "file": "清单/GitHub Stars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cc指南"
-            }
-          },
-          {
-            "id": "a5d9ac94a3d41ed5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/\"多Agent协作\"模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "\"多Agent协作\"模式"
+              "title": "GitHub Stars"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -234,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,16 +241,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "0bc85eb616c377a8",
   "lastOpenFiles": [
+    "清单/工具清单.md",
+    "清单/GitHub Stars.md",
+    "GitHub Stars.md",
+    "清单/任务清单.md",
     "项目/Git.md",
     "cc/cc指南.md",
-    "清单/GitHub Stars.md",
+    "项目/\"多Agent协作\"模式.md",
     "日本🇯🇵/第一次来日本」完整攻略.md",
     "清单/读书清单.md",
     "清单/自动化清单.md",
-    "清单/任务清单.md",
-    "项目/\"多Agent协作\"模式.md",
     "02-raw/articles/diagram（tech-graph）fireworks.md",
     "清单/密钥.md",
     "daily notes/密钥/ofox.md",
@@ -285,7 +272,6 @@
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
     "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
-    "清单/工具清单.md",
     "清单/每日安排.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
@@ -293,7 +279,6 @@
     "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "任务.md",
-    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "项目",
     "日本🇯🇵",
     "配置教程",
