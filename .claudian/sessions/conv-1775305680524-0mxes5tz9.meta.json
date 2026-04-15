@@ -1,12 +1,12 @@
 {
   "id": "conv-1775305680524-0mxes5tz9",
+  "providerId": "claude",
   "title": "Test chat functionality",
   "titleGenerationStatus": "success",
   "createdAt": 1775305680524,
   "updatedAt": 1775314348390,
   "lastResponseAt": 1775314284093,
-  "sessionId": "23256504-9cac-4c32-9d48-418d3ecc38ae",
-  "sdkSessionId": "23256504-9cac-4c32-9d48-418d3ecc38ae",
+  "sessionId": null,
   "usage": {
     "model": "MiniMax-M2.7",
     "inputTokens": 47622,

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62618440a321e8fb",
+        "id": "2c9139293296de80",
         "type": "tabs",
         "children": [
           {
-            "id": "1c2dae816929d962",
+            "id": "a947164158b9af80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
+                "file": "02-raw/articles/diagram（tech-graph）fireworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Everything Is Connected 一切都是相互关联的"
+              "title": "diagram（tech-graph）fireworks"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 211.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 260.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,21 +240,24 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1c2dae816929d962",
+  "active": "a947164158b9af80",
   "lastOpenFiles": [
-    "18e9c5bd83cca3c6fac054b99652df77_MD5.jpg",
-    "7b4b8e0efe8f4bd29f56f7d3ce6dc464_MD5.jpg",
-    "8462e32450ba3bd7687f00386a294f5e_MD5.jpg",
-    "ac6062eda8f703e106d2256343e2e3dd_MD5.jpg",
-    "13d4e01da76f8a4dfd8e90402d237dd5_MD5.jpg",
-    "1ea9d1191ebb4450ec50c6f607d2f550_MD5.jpg",
-    "524e41c7a9a37584832faeb2e27d2700_MD5.jpg",
-    "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
+    "GitHub Stars.md",
+    "daily notes/密钥/密钥.md",
+    "daily notes/密钥/ofox.md",
+    "JPG/acd253aa5e360257de5e9aac11dca984_MD5.jpg",
+    "JPG/1ea9d1191ebb4450ec50c6f607d2f550_MD5.jpg",
+    "02-raw/articles/how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页.md",
+    "JPG/872ac80cc211ee30209dbffd74e15c1e_MD5.jpg",
+    "JPG/dda8baabf893fc78c26bc86236fcfa8a_MD5.jpg",
+    "JPG/fb451934802d2ebdfd83c060acdb6cc8_MD5.jpg",
+    "JPG/33dc3702350f98810e9ec28fc96b2ae1_MD5.jpg",
+    "JPG/c1f609d7733452f0f958256cd32d927b_MD5.jpg",
+    "JPG/7a0b835f978314a37ed621e298f79828_MD5.jpg",
+    "JPG/8b8fc9f7196ad90bc15e7aa13bf66246_MD5.jpg",
     "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
-    "ea70bdb4f4ad67ceedc12e2efb1f55ea_MD5.jpg",
-    "15e0adccac45d47d62379f9ef97c48f8_MD5.jpg",
-    "c5362e007ca1d1c28651fb77d08b4dc9_MD5.jpg",
-    "5441d45334e2649bc053c232b173f8ef_MD5.jpg",
+    "JPG/18e9c5bd83cca3c6fac054b99652df77_MD5.jpg",
+    "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
     "项目/\"多Agent协作\"模式.md",
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
@@ -276,11 +279,8 @@
     "02-raw/articles/给你的 Agent 搭操作系统（实战篇）：Hermes-Agent vs 自建OpenClaw  Harness.md",
     "认知/杠杆的理解.md",
     "skill/Gbrain.md",
-    "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
     "日本🇯🇵",
-    "配置教程/babysface.md",
     "配置教程",
-    "认知/人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的.md",
     "skill",
     "cc",
     "认知",

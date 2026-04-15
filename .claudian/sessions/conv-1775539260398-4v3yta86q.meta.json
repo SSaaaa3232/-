@@ -1,12 +1,12 @@
 {
   "id": "conv-1775539260398-4v3yta86q",
+  "providerId": "claude",
   "title": "Run wiki health check",
   "titleGenerationStatus": "success",
   "createdAt": 1775539260398,
   "updatedAt": 1775548481431,
   "lastResponseAt": 1775548348289,
-  "sessionId": "9dc30d20-57c5-40a2-a70a-6f45579d6cae",
-  "sdkSessionId": "9dc30d20-57c5-40a2-a70a-6f45579d6cae",
+  "sessionId": null,
   "usage": {
     "model": "MiniMax-M2.7",
     "inputTokens": 0,

@@ -1,12 +1,12 @@
 {
   "id": "conv-1775531367075-90s2r9diy",
+  "providerId": "claude",
   "title": "Analyze 5 articles and recommend system optimiz...",
   "titleGenerationStatus": "success",
   "createdAt": 1775531367075,
   "updatedAt": 1775531478501,
   "lastResponseAt": 1775531478501,
-  "sessionId": "0db2501c-f178-4ac2-bdb2-eaaeeb679e20",
-  "sdkSessionId": "0db2501c-f178-4ac2-bdb2-eaaeeb679e20",
+  "sessionId": null,
   "usage": {
     "model": "MiniMax-M2.7",
     "inputTokens": 25223,

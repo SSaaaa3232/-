@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "MiniMax-M2.7",
-  "thinkingBudget": "off",
+  "model": "sonnet",
+  "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -30,9 +30,9 @@
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_API_KEY=sk-api-7OqC255Sn1czjRUtTFCYDqITxeR4iYVGrF2wv69JZ5ShE3V7OAXB8Fj4bDibJsI-x0NpSnUB-ldoj4wShJIdoZgnhnB0YiN-kmKI5-hPptsYBsCCCt4Zlgo\nANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic\nANTHROPIC_MODEL=MiniMax-M2.7",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic|ANTHROPIC_MODEL=MiniMax-M2.7"
+      "lastModel": "sonnet",
+      "environmentVariables": "ANTHROPIC_API_KEY=sk-of-OoNcQINHAtjvVTHLcRuPXiuWLbdIQymsXTfsIpcRPrjiXsvcJpXoIvUMxVsHTufa\nANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic\n",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic"
     },
     "codex": {
       "enabled": true,
@@ -50,14 +50,14 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "MiniMax-M2.7"
+    "claude": "sonnet"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "low"
   },
   "lastCustomModel": "MiniMax-M2.7",
   "maxTabs": 3,
