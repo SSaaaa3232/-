@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
+                "file": "skill/达尔文.skill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路"
+              "title": "达尔文.skill"
             }
           }
         ]
@@ -243,13 +243,16 @@
   },
   "active": "850ca08b877d1abd",
   "lastOpenFiles": [
+    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
+    "skill/达尔文.skill.md",
+    "项目/\"多Agent协作\"模式.md",
+    "daily notes/清单/任务清单.md",
+    "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
     "3dd30b4dee070a7afcb7f12ce67de772_MD5.jpg",
     "acd253aa5e360257de5e9aac11dca984_MD5.jpg",
     "b94370a496b3057fd9ed287160be36c3_MD5.jpg",
     "bec583f59ae65a048da20b90af449463_MD5.jpg",
     "22baed1e2c246a8d76a11d693837f713_MD5.jpg",
-    "daily notes/清单/任务清单.md",
-    "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
     "daily notes/清单/工具清单.md",
     "daily notes/每日安排.md",
     "JPG/3acd97cefad6b07d3cd2319e09c2ff15_MD5.png",
@@ -261,11 +264,9 @@
     "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "JPG/a949aefdf1904ad9d5ce36e47055b1cb_MD5.jpg",
     "JPG/f449891d165eb693230d0f23b0438097_MD5.jpg",
-    "JPG/9cf4a7a7d96b42967a64355bbed68fce_MD5.png",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "任务.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "项目/\"多Agent协作\"模式.md",
     "02-raw/articles/Claude code使用技巧.md",
     "项目",
     "cc/cc指南.md",
@@ -281,7 +282,6 @@
     "02-raw/articles/从层级到智能 - AI重构公司.md",
     "02-raw/articles/当斯坦福 AI 学生找不到工作，吴恩达给出的反直觉答案！.md",
     "02-raw/articles/为什么 90% 的富二代守不住财富？认知科学给出了答案.md",
-    "02-raw/articles/中转站API.md",
     "skill",
     "cc",
     "认知",
