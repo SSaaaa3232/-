@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
+                "file": "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成"
+              "title": "4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑"
             }
           }
         ],
@@ -258,6 +258,9 @@
   },
   "active": "461f9e9951095383",
   "lastOpenFiles": [
+    "3d9527cd74e51c71138e4cb863af6e54_MD5.jpg",
+    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
+    "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
     "a949aefdf1904ad9d5ce36e47055b1cb_MD5.jpg",
     "f449891d165eb693230d0f23b0438097_MD5.jpg",
     "9cf4a7a7d96b42967a64355bbed68fce_MD5.png",
@@ -268,9 +271,7 @@
     "76f8be6ee5ab5b08893da957516a5a24_MD5.png",
     "a61a68c66aaacce38ed3c3ed1c998693_MD5.jpg",
     "cda645d821418d01cf6c5ee2010a73b0_MD5.jpg",
-    "cc46e7c698451c9f4f1cde880a12c4fa_MD5.jpg",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
-    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "任务.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
@@ -299,7 +300,6 @@
     "认知",
     "02-raw/articles/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
     "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
-    "Excalidraw/认知边界 2026-04-14 23.40.05.excalidraw.md",
     "清单",
     "daily notes/密钥",
     "论文",
