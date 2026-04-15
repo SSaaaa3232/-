@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "\"多Agent协作\"模式"
             }
+          },
+          {
+            "id": "4dee54ad06b81639",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,8 +254,10 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "31b0612bb78a5a5e",
+  "active": "4dee54ad06b81639",
   "lastOpenFiles": [
+    "02-raw/articles/\"多Agent协作\"模式.md",
+    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "项目",
     "cc/cc指南.md",
     "cc/CC降智.md",
@@ -273,7 +288,6 @@
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
     "02-raw/articles/Study prompt.md",
     "02-raw/articles/Thread by @karminski3.md",
-    "02-raw/articles/Thread by @shao__meng.md",
     "JPG/cf8a8f0da24c0f4dbcc5e1a29affd606_MD5.jpg",
     "JPG/a8d39e4223d75c4332ec88289118301e_MD5.jpg",
     "JPG/14433f1ebfba07adfb4e4442dc0df898_MD5.jpg",
@@ -287,7 +301,6 @@
     "清单",
     "daily notes/密钥",
     "论文",
-    "奠基论文/s11274-025-04554-w.pdf",
-    "论文/奠基论文/已经ok"
+    "奠基论文/s11274-025-04554-w.pdf"
   ]
 }
