@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
+                "file": "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑"
+              "title": "未来最值钱的能力：你能指挥多少Agent替你干活"
             }
           }
         ],
@@ -258,9 +258,11 @@
   },
   "active": "461f9e9951095383",
   "lastOpenFiles": [
+    "d4cc20e7406e00057b7f8d6c8cdf1e9a_MD5.jpg",
+    "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
+    "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
     "3d9527cd74e51c71138e4cb863af6e54_MD5.jpg",
     "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
-    "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
     "a949aefdf1904ad9d5ce36e47055b1cb_MD5.jpg",
     "f449891d165eb693230d0f23b0438097_MD5.jpg",
     "9cf4a7a7d96b42967a64355bbed68fce_MD5.png",
@@ -270,7 +272,6 @@
     "a11de39dda637dcbb502d3ff52f35282_MD5.jpg",
     "76f8be6ee5ab5b08893da957516a5a24_MD5.png",
     "a61a68c66aaacce38ed3c3ed1c998693_MD5.jpg",
-    "cda645d821418d01cf6c5ee2010a73b0_MD5.jpg",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "任务.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
@@ -299,7 +300,6 @@
     "02-raw/articles/编排（Orchestration）Agent.md",
     "认知",
     "02-raw/articles/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
     "清单",
     "daily notes/密钥",
     "论文",
