@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub Stars.md",
+                "file": "cc/cc指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Stars"
+              "title": "cc指南"
+            }
+          },
+          {
+            "id": "a5d9ac94a3d41ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/\"多Agent协作\"模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "\"多Agent协作\"模式"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,12 +256,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a947164158b9af80",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "项目/Git.md",
+    "cc/cc指南.md",
+    "清单/GitHub Stars.md",
+    "日本🇯🇵/第一次来日本」完整攻略.md",
+    "清单/读书清单.md",
+    "清单/自动化清单.md",
+    "清单/任务清单.md",
     "项目/\"多Agent协作\"模式.md",
-    "GitHub Stars.md",
     "02-raw/articles/diagram（tech-graph）fireworks.md",
-    "daily notes/密钥/密钥.md",
+    "清单/密钥.md",
     "daily notes/密钥/ofox.md",
     "JPG/acd253aa5e360257de5e9aac11dca984_MD5.jpg",
     "JPG/1ea9d1191ebb4450ec50c6f607d2f550_MD5.jpg",
@@ -262,10 +284,9 @@
     "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
-    "daily notes/清单/任务清单.md",
     "02-raw/articles/被封了3个号、烧了2000块之后，我终于跑通了国内全解锁AI的完整链路.md",
-    "daily notes/清单/工具清单.md",
-    "daily notes/每日安排.md",
+    "清单/工具清单.md",
+    "清单/每日安排.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
     "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
@@ -273,18 +294,13 @@
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "任务.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "02-raw/articles/Claude code使用技巧.md",
     "项目",
-    "cc/cc指南.md",
-    "cc/CC降智.md",
-    "02-raw/articles/给你的 Agent 搭操作系统（实战篇）：Hermes-Agent vs 自建OpenClaw  Harness.md",
-    "认知/杠杆的理解.md",
     "日本🇯🇵",
     "配置教程",
     "skill",
     "cc",
     "认知",
-    "daily notes/清单",
+    "清单",
     "daily notes/密钥",
     "论文",
     "奠基论文/s11274-025-04554-w.pdf"

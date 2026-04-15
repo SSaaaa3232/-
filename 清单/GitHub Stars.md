@@ -1,22 +1,22 @@
 # GitHub Stars
 
-
+# 使用方法：/git-down
 ## 🔥claude code
 
-| 项目 | 描述 |
-|------|------|
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | |
-| [github/spec-kit](https://github.com/github/spec-kit) | |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | |
-| [maheshwaghmare/ai-prompts-library](https://github.com/maheshwaghmare/ai-prompts-library) | |
-| [jroll85/structured-ai-dev](https://github.com/jroll85/structured-ai-dev) | |
-| [ShaerWare/ai-development-partner](https://github.com/ShaerWare/ai-development-partner) | |
-| [phuryn/claude-usage](https://github.com/phuryn/claude-usage) | |
-| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | |
-| [claude-code-chinese/claude-code-guide](https://github.com/claude-code-chinese/claude-code-guide) | |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | |
+| 项目                                                                                                | 描述                  |
+| ------------------------------------------------------------------------------------------------- | ------------------- |
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)             | everthing's start   |
+| [github/spec-kit](https://github.com/github/spec-kit)                                             |                     |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)                 |                     |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)                               |                     |
+| [maheshwaghmare/ai-prompts-library](https://github.com/maheshwaghmare/ai-prompts-library)         |                     |
+| [jroll85/structured-ai-dev](https://github.com/jroll85/structured-ai-dev)                         |                     |
+| [ShaerWare/ai-development-partner](https://github.com/ShaerWare/ai-development-partner)           |                     |
+| [phuryn/claude-usage](https://github.com/phuryn/claude-usage)                                     |                     |
+| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine)                             |                     |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch)                                   |                     |
+| [claude-code-chinese/claude-code-guide](https://github.com/claude-code-chinese/claude-code-guide) |                     |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch)                                 | 修改代码自动化（需要Nvidia显卡） |
 
 ## 🍋工具
 

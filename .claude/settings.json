@@ -199,5 +199,10 @@
     "type": "command",
     "command": "/Users/saaaaa/.open-island/bin/open-island-statusline",
     "padding": 2
+  },
+  "permissions": {
+    "allow": [
+      "Edit(~/.claude/skills/git-down/**)"
+    ]
   }
 }
