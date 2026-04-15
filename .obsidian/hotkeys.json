@@ -75,5 +75,23 @@
       ],
       "key": "B"
     }
+  ],
+  "open-in-terminal:open-codex": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "open-in-terminal:open-claude": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
   ]
 }
