@@ -1,25 +1,17 @@
 ---
-title: "Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器"
-source: "https://x.com/zodchiii/status/2041804097628582294"
+title: Top MCP Servers That Turn Claude Into a Productivity Machine顶级 MCP 服务器，将 Claude 变成一台高效的机器
+source: https://x.com/zodchiii/status/2041804097628582294
 author:
   - "[[@zodchiii]]"
 published: 2026-04-08
 created: 2026-04-08
+dailynote: "[https://t.me/zodchixquant](https://t.me/zodchixquant)"
+tags:
+  - list
+  - MCP
 ---
-## The only list you need. Each server in 1-2 lines with a link.你唯一需要的清单。每台服务器有1-2条线路，并配有一个链接。
 
-There are over 10,000 MCP servers listed across directories right now. Most of them are weekend projects that break the first time you try them.目前目录中列出了超过 10,000 台 MCP 服务器。大多数都是周末的项目，第一次尝试就会坏掉。
-
-I tested dozens over last year of vibecoding and kept the ones that actually work, are actively maintained, and solve a real problem. 去年我测试了几十个 vibecoding，保留了那些真正有效、维护积极且能解决真实问题的。
-
-These are the MCP servers worth installing, sorted by what they do.这些是值得安装的 MCP 服务器，按功能排序。
-
-**If you don't know what MCP is:** it's how you connect Claude to external tools. **如果你不知道 MCP 是什么：** 它是连接 Claude 和外部工具的方式。
-
-Before we dive in, I share daily notes on AI & vibe coding in my Telegram channel: [https://t.me/zodchixquant](https://t.me/zodchixquant)🧠在深入讨论之前，我会在我的 Telegram 频道分享关于 AI 和氛围编码的每日笔记：[https://t.me/zodchixquant](https://t.me/zodchixquant)🧠
-
-![[cf30fdc11aa575ce41e41d976d911229_MD5.jpg]]
-
+**If you don't know what MCP is:** it's how you connect Claude to external tools. 
 ## Search & Research 🔍检索与研究 🔍
 
 **01 — Tavily** — AI-optimized web search. Returns clean content, not just links. Built specifically for AI agents. **Free: 1,000 queries/mo****01 — Tavily** — AI 优化的网页搜索。返回干净的内容，而不仅仅是链接。专为 AI 代理设计。 **免费：每月 1000 次查询**
@@ -59,9 +51,6 @@ Before we dive in, I share daily notes on AI & vibe coding in my Telegram channe
 **09 — Crawl4AI** — Free open-source crawling with the best markdown extraction. 61k+ GitHub stars. No API key needed. **Free & open-source****09 — Crawl4AI** — 免费开源爬取，提供最佳折扣提取。61k+ GitHub 星级。不需要 API 密钥。 **免费且开源**
 
 [https://github.com/unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
-
-![[d5faaa406256a2f62fc46dc71a597fc6_MD5.png]]
-
 ## Browser Automation 🖥️浏览器自动化 🖥️
 
 **10 — Playwright** — Claude controls a real Chrome browser. Clicks, fills forms, navigates, takes screenshots. Testing without writing test scripts. **Free & open-source****10 — 剧作家** — Claude 控制的是真实的 Chrome 浏览器。点击、填写表单、导航、截图。不写测试脚本的测试。 **免费且开源**
@@ -129,9 +118,6 @@ Before we dive in, I share daily notes on AI & vibe coding in my Telegram channe
 **24 — Memory MCP** — Knowledge graph-based persistent memory. Claude remembers across sessions without Projects. **Free & open-source****24 — 内存 MCP** — 基于知识图谱的持久记忆。Claude 记得无项目的会话。 **免费且开源**
 
 [https://github.com/anthropics/anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts)
-
-![[9fcd3782b5d47c7e4b49f7061e0de544_MD5.jpg]]
-
 ## Productivity & Collaboration 📋生产力与协作 📋
 
 **25 — Notion** — Documents, wikis, databases through prompts. Search, summarize, and act on your workspace without opening Notion. **Free tier available****25 — 概念** — 通过提示查找文档、维基、数据库。无需打开 Notion 即可搜索、总结并操作您的工作空间。 **免费套餐**
@@ -184,7 +170,7 @@ Before we dive in, I share daily notes on AI & vibe coding in my Telegram channe
 
 [https://github.com/grafana/mcp-grafana](https://github.com/grafana/mcp-grafana)
 
-## How to install any MCP server如何安装任何 MCP 服务器
+## How to install any MCP server
 
 **All servers use the same pattern:所有服务器使用相同的模式：**
 
@@ -205,7 +191,7 @@ claude mcp list
 claude mcp remove server-name
 ```
 
-**For Claude Desktop, add to your config file:对于 Claude Desktop，请在配置文件中添加：**
+**For Claude Desktop, add to your config file:
 
 ```json
 {
@@ -221,12 +207,10 @@ claude mcp remove server-name
 }
 ```
 
-## Where to start从哪里开始
+## Where to start
+You don't need all 35.
 
-You don't need all 35. 你不需要全部35张。
-
-Start with 3-5 that solve problems you have right now:先从3到5个解决你当前问题的方案开始：
-
+Start with 3-5 that solve problems you have right now:
 ```text
 IF YOU ARE A DEVELOPER:
 GitHub + Sentry + Context7 + Playwright
@@ -248,8 +232,4 @@ Each MCP server you add uses token context. 3-5 servers is the sweet spot. More 
 
 Claude Code has a Tool Search feature that lazy-loads servers to reduce this, but keep it lean.Claude Code 有一个工具搜索功能，可以对服务器进行懒散加载以减少这种情况，但保持精简。
 
-I share daily notes on AI, finance, and vibe coding in my Telegram channel: [https://t.me/zodchixquant](https://t.me/zodchixquant)我在我的 Telegram 频道分享关于人工智能、金融和氛围编码的每日笔记：[https://t.me/zodchixquant](https://t.me/zodchixquant)
-
-Thanks for reading 🙏🏼感谢阅读 🙏🏼
-
-![[b60a5378c8660bc9eb0c480e23e45657_MD5.jpg]]
+I
