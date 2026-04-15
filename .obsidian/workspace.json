@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c24f0c64b4d4a960",
+        "id": "e018253cb8c0306f",
         "type": "tabs",
         "children": [
           {
-            "id": "0bc85eb616c377a8",
+            "id": "b46169ef6852df77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/GitHub Stars.md",
+                "file": "建筑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Stars"
+              "title": "建筑"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 211.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -220,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +241,25 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0bc85eb616c377a8",
+  "active": "b46169ef6852df77",
   "lastOpenFiles": [
-    "清单/工具清单.md",
+    "fb4a80bcfc37587e93de18ed7a6a231d_MD5.jpg",
+    "Screenshot 2026-04-15 at 10.54.47 PM.png",
+    "JPG/0d58455a18827b13a0ee5d642d2a563f_MD5.jpg",
+    "建筑.md",
+    "未命名",
+    "pokopia/收纳+快速移动.md",
+    "Screenshot 2026-04-15 at 10.48.26 PM.png",
+    "JPG/54fe155c720198b79f83ba3a3d7d16cd_MD5.jpg",
+    "Screenshot 2026-04-15 at 10.41.59 PM.png",
+    "JPG/392c171e5e5469290f4936cff2683937_MD5.jpg",
+    "Screenshot 2026-04-15 at 10.40.40 PM.png",
+    "JPG/afc1374041332cfdd4fe88fc4210dab4_MD5.jpg",
+    "Screenshot 2026-04-15 at 10.39.27 PM.png",
+    "JPG/30dfbb3a22ab57df9e265e1cfbfe86a3_MD5.jpg",
     "清单/GitHub Stars.md",
+    "pokopia",
+    "清单/工具清单.md",
     "GitHub Stars.md",
     "清单/任务清单.md",
     "项目/Git.md",
@@ -256,18 +271,8 @@
     "02-raw/articles/diagram（tech-graph）fireworks.md",
     "清单/密钥.md",
     "daily notes/密钥/ofox.md",
-    "JPG/acd253aa5e360257de5e9aac11dca984_MD5.jpg",
-    "JPG/1ea9d1191ebb4450ec50c6f607d2f550_MD5.jpg",
     "02-raw/articles/how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页.md",
-    "JPG/872ac80cc211ee30209dbffd74e15c1e_MD5.jpg",
-    "JPG/dda8baabf893fc78c26bc86236fcfa8a_MD5.jpg",
-    "JPG/fb451934802d2ebdfd83c060acdb6cc8_MD5.jpg",
-    "JPG/33dc3702350f98810e9ec28fc96b2ae1_MD5.jpg",
-    "JPG/c1f609d7733452f0f958256cd32d927b_MD5.jpg",
-    "JPG/7a0b835f978314a37ed621e298f79828_MD5.jpg",
-    "JPG/8b8fc9f7196ad90bc15e7aa13bf66246_MD5.jpg",
     "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
-    "JPG/18e9c5bd83cca3c6fac054b99652df77_MD5.jpg",
     "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
@@ -276,9 +281,6 @@
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
     "02-raw/articles/4个半月0到3万粉完整复盘：践行开源精神，无保留拆一下自己踩过的每一个坑.md",
-    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
-    "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
-    "任务.md",
     "项目",
     "日本🇯🇵",
     "配置教程",
@@ -286,8 +288,6 @@
     "cc",
     "认知",
     "清单",
-    "daily notes/密钥",
-    "论文",
-    "奠基论文/s11274-025-04554-w.pdf"
+    "daily notes/密钥"
   ]
 }
