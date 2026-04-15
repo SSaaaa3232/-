@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/diagram（tech-graph）fireworks.md",
+                "file": "GitHub Stars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "diagram（tech-graph）fireworks"
+              "title": "GitHub Stars"
             }
           }
         ]
@@ -219,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,7 +242,9 @@
   },
   "active": "a947164158b9af80",
   "lastOpenFiles": [
+    "项目/\"多Agent协作\"模式.md",
     "GitHub Stars.md",
+    "02-raw/articles/diagram（tech-graph）fireworks.md",
     "daily notes/密钥/密钥.md",
     "daily notes/密钥/ofox.md",
     "JPG/acd253aa5e360257de5e9aac11dca984_MD5.jpg",
@@ -258,7 +260,6 @@
     "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
     "JPG/18e9c5bd83cca3c6fac054b99652df77_MD5.jpg",
     "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
-    "项目/\"多Agent协作\"模式.md",
     "skill/达尔文.skill.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
     "daily notes/清单/任务清单.md",
@@ -278,7 +279,6 @@
     "cc/CC降智.md",
     "02-raw/articles/给你的 Agent 搭操作系统（实战篇）：Hermes-Agent vs 自建OpenClaw  Harness.md",
     "认知/杠杆的理解.md",
-    "skill/Gbrain.md",
     "日本🇯🇵",
     "配置教程",
     "skill",

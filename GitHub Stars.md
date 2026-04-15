@@ -1,5 +1,6 @@
 # GitHub Stars
 
+
 ## 🔥claude code
 
 | 项目 | 描述 |
@@ -184,3 +185,72 @@
 | [Timthony/self_drive](https://github.com/Timthony/self_drive) | |
 | [haiibo/OpenWrt](https://github.com/haiibo/OpenWrt) | |
 | [zhaoolee/pi](https://github.com/zhaoolee/pi) | |
+
+## 🍌框架
+
+| 项目 | 描述 |
+|------|------|
+| [obra/superpowers](https://github.com/obra/superpowers) | |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | |
+| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | |
+
+## 🫶爬虫
+
+| 项目 | 描述 |
+|------|------|
+| [xcrawl-api/xcrawl-skills](https://github.com/xcrawl-api/xcrawl-skills) | |
+
+## 😆课程
+
+| 项目 | 描述 |
+|------|------|
+| [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | |
+
+## 🥦IDE
+
+| 项目 | 描述 |
+|------|------|
+| [Aider-AI/aider](https://github.com/Aider-AI/aider) | |
+
+## 🥕Mac
+
+| 项目 | 描述 |
+|------|------|
+| [ImageOptim/ImageOptim](https://github.com/ImageOptim/ImageOptim) | |
+
+## 🥸manager
+
+| 项目 | 描述 |
+|------|------|
+| [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) | |
+| [superset-sh/superset](https://github.com/superset-sh/superset) | |
+
+## 未分类
+
+| 项目 | 描述 |
+|------|------|
+| [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | |
+| [JimLiu/baoyu-skills](https://github.com/JimLiu/baoyu-skills) | |
+| [Jonghakseo/chrome-extension-boilerplate-react-vite](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite) | |
+| [Mhy278/MinecraftServerHostGuide](https://github.com/Mhy278/MinecraftServerHostGuide) | |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | |
+| [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | |
+| [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) | |
+| [joeseesun/qiaomu-markdown-proxy](https://github.com/joeseesun/qiaomu-markdown-proxy) | |
+| [joeseesun/qiaomu-mondo-poster-design](https://github.com/joeseesun/qiaomu-mondo-poster-design) | |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | |
+| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | |
+| [luzhenqian/web3-examples](https://github.com/luzhenqian/web3-examples) | |
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | |
+| [mouse0w0/MinecraftDeveloperGuide](https://github.com/mouse0w0/MinecraftDeveloperGuide) | |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | |
