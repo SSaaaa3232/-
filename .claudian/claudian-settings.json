@@ -1,6 +1,6 @@
 {
   "userName": "",
-  "permissionMode": "yolo",
+  "permissionMode": "normal",
   "model": "sonnet",
   "thinkingBudget": "low",
   "effortLevel": "high",
