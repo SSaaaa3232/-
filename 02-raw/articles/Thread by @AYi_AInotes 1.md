@@ -6,10 +6,7 @@ author:
 published: 2026-04-11
 created: 2026-04-13
 ---
-**阿绎 AYi** @AYi\_AInotes 2026-04-11
 
-  
-  
 The most hassle-free part is you don't need to mess with any chained proxies or front-end airports,
 
 just import the subscription link straight into Clash, or into Shadowrocket on Android and iOS,
@@ -115,6 +112,3 @@ In today's scene, truly stable residential IPs that actually work reliably are f
 现在这个节点，能稳定用的住宅IP真不多，它家算是综合体验最好的那一档了，称之为 2026 新一代 VPN 一点也不夸张，详细原理和拆解可读这篇文章。  
 现在这个节点，能稳定用的住宅 IP 真不多，它家算是综合体验最好的那一档了，称之为 2026 新一代 VPN 一点也不夸张，详细原理和拆解可读这篇文章。
 
-> 2026-04-11
-> 
-> ![[888ad82e9c8fc6ceaba85d7f9989b4bf_MD5.jpg]]![[4506d1e251891d47ca7015a734163f89_MD5 1.jpg]]

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7816137e5006d98c",
+        "id": "8337ede7c33de09c",
         "type": "tabs",
         "children": [
           {
-            "id": "a959cac0013f4b2a",
+            "id": "98e620c2a034e6ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "认知/三层进化论.md",
+                "file": "02-raw/articles/diagram（tech-graph）fireworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "三层进化论"
+              "title": "diagram（tech-graph）fireworks"
             }
           }
         ]
@@ -241,8 +241,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "98e620c2a034e6ae",
   "lastOpenFiles": [
+    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "中转站/详细.md",
+    "中转站/简要.md",
+    "02-raw/articles/Thread by @AYi_AInotes 1.md",
+    "认知/如何选择未来.md",
+    "项目/方法论/Thin Harness, Fat Skills.md",
     "清单/skill清单.md",
     "x/经验/复盘.md",
     "x/经验",
@@ -278,13 +284,7 @@
     "image/ce01d39289d15bf1bf8becc5d52131ad_MD5.jpg",
     "image/8383c99a1d976ea25acc01d3cd8672b9_MD5.jpg",
     "image/8f95e31b4aaa8f6ed72d7941c1c334c8_MD5.jpg",
-    "02-raw/articles/想开始 vibe-coding，先把这 8 个工具放上桌面.md",
     "85db4d1214b011bfe825c559c4b17790_MD5.jpg",
-    "认知/信息消费.md",
-    "项目/sc/国内全解锁三把钥匙.md",
-    "认知/少收藏，重提炼，狠输出.md",
-    "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
-    "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
     "读书转化",
     "项目/hermes",
     "中转站",
