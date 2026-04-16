@@ -13,40 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/读书清单.md",
+                "file": "认知/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读书清单"
-            }
-          },
-          {
-            "id": "9deb4a420cd46615",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "控糖革命：一碗白米饭和一个纸杯蛋糕"
-            }
-          },
-          {
-            "id": "39f35d773ad5439d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,12 +215,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,14 +240,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "39f35d773ad5439d",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
+    "image/ffc497e0b44aeca9974e8f50681b1d0d_MD5.png",
+    "image/ffca07931ae2a8db7835f8680c5b4319_MD5.jpg",
+    "image/c77510658aa4ace9e179536865d101c0_MD5.gif",
+    "image/ffd7d933c9237b1305342bca0a5aecc8_MD5.webp",
+    "image/fc9df353c55bac9b0112a80692229caf_MD5.svg",
+    "读书转化/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
+    "读书转化",
+    "清单/读书清单.md",
+    "image/964c3b1fb076c2a67d3cb8d2bbde5aa7_MD5.webp",
+    "image/0ee617f3a612615ed8aa18bfd43d1054_MD5.webp",
+    "02-raw/articles/信息消费.md",
+    "hermes/星露谷.md",
+    "image/4d7bbaf8658ed9f9071a04cd20e9dc1a_MD5.webp",
+    "image/d3c994b269a27404f2a48eaaa7f812fd_MD5.webp",
+    "image/91444dd2a0ab49d1458916d549089f59_MD5.webp",
+    "image/083fa6ffa825dfdb5a243f4d273c5c3f_MD5.webp",
     "02-raw/articles/星露谷.md",
     "hermes",
-    "1a4371a0539a34f537ed4352bcefa837_MD5.webp",
-    "c91e3e80a38363f93ddf87a22485d398_MD5.webp",
-    "清单/读书清单.md",
     "中转站/详细.md",
     "中转站/简要.md",
     "02-raw/articles/编排（Orchestration）Agent.md",
@@ -288,30 +274,19 @@
     "cc/Claude code使用技巧.md",
     "sc/IP洗脸.md",
     "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
-    "a4b388c2405d6fc328eda5a3defa732c_MD5.jpg",
     "02-raw/articles/Thread by @dotey.md",
-    "c6ba452456557513ebd9c92781333c8e_MD5.png",
-    "ec3e0eab67f2416d6ba2cecad6f89256_MD5.jpg",
     "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
     "02-raw/articles/框架.md",
     "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
     "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
     "cc/约束先行.md",
     "中转站",
-    "sc/住宅IP VPS教程.md",
     "sc",
-    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "JPG/1e102e5191cb54c30f352ef12f86320a_MD5.jpg",
-    "JPG/e5750efef79a584b60101983c7b8bf24_MD5.jpg",
-    "JPG/12776906967cc88d0021d9e92c60bb36_MD5.jpg",
-    "JPG/dc4721c92f990463adfeeb6a923c80f7_MD5.jpg",
-    "JPG/7a2ff8492b78ad3aff075641bc87ff00_MD5.jpg",
     "pokopia",
     "项目",
     "日本🇯🇵",
     "配置教程",
     "skill",
-    "cc",
-    "认知"
+    "cc"
   ]
 }

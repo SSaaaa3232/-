@@ -9,6 +9,13 @@
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
   },
+  "permissions": {
+    "allow": [
+      "Edit(~/.claude/skills/git-down/**)",
+      "Bash(mkdir -p /Users/saaaaa/.claude/skills/image)",
+      "Edit(~/.claude/skills/image/**)"
+    ]
+  },
   "model": "haiku",
   "hooks": {
     "Notification": [
@@ -199,10 +206,5 @@
     "type": "command",
     "command": "/Users/saaaaa/.open-island/bin/open-island-statusline",
     "padding": 2
-  },
-  "permissions": {
-    "allow": [
-      "Edit(~/.claude/skills/git-down/**)"
-    ]
   }
 }

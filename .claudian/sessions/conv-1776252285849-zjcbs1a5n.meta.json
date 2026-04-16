@@ -4,8 +4,8 @@
   "title": "hi",
   "titleGenerationStatus": "failed",
   "createdAt": 1776252285849,
-  "updatedAt": 1776259842444,
-  "lastResponseAt": 1776259842444,
+  "updatedAt": 1776327964607,
+  "lastResponseAt": 1776327964607,
   "sessionId": "9c01180d-40a4-48ca-892c-240ca458e86e",
   "providerState": {
     "providerSessionId": "9c01180d-40a4-48ca-892c-240ca458e86e",
@@ -16,11 +16,11 @@
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 3158,
-    "cacheReadInputTokens": 36469,
+    "cacheCreationInputTokens": 3665,
+    "cacheReadInputTokens": 45069,
     "contextWindow": 200000,
-    "contextTokens": 39628,
-    "percentage": 20,
+    "contextTokens": 48735,
+    "percentage": 24,
     "contextWindowIsAuthoritative": true
   }
 }
