@@ -8,31 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b46169ef6852df77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验"
-            }
-          },
-          {
             "id": "e2be9740d483f0bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "pokopia/自动化场景.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "自动化场景"
+              "icon": "excalidraw-icon",
+              "title": "\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw"
             }
           },
           {
@@ -269,27 +253,30 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b46169ef6852df77",
+  "active": "e2be9740d483f0bb",
   "lastOpenFiles": [
-    "e5750efef79a584b60101983c7b8bf24_MD5.jpg",
-    "02-raw/articles/Thread by @xiaoerzhan.md",
+    "项目/\"多Agent协作\"模式.md",
+    "pokopia/自动化场景.md",
+    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
+    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
+    "skill/达尔文.skill.md",
+    "JPG/1e102e5191cb54c30f352ef12f86320a_MD5.jpg",
     "02-raw/articles/我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验.md",
-    "12776906967cc88d0021d9e92c60bb36_MD5.jpg",
+    "JPG/e5750efef79a584b60101983c7b8bf24_MD5.jpg",
+    "02-raw/articles/Thread by @xiaoerzhan.md",
+    "JPG/12776906967cc88d0021d9e92c60bb36_MD5.jpg",
     "02-raw/articles/普通人实现AI能力跃迁的三个框架.md",
-    "dc4721c92f990463adfeeb6a923c80f7_MD5.jpg",
+    "JPG/dc4721c92f990463adfeeb6a923c80f7_MD5.jpg",
     "02-raw/articles/我做了个 Skill：让 AI 帮你生成 Logo 和图标.md",
-    "1e102e5191cb54c30f352ef12f86320a_MD5.jpg",
-    "7a2ff8492b78ad3aff075641bc87ff00_MD5.jpg",
-    "f9295a6315129fb75b8399682a12855e_MD5.jpg",
-    "015cbdc95c9273243429678eec80cbf7_MD5.png",
-    "902fca6c6be0417c0f3d025c5b4c4e6a_MD5.jpg",
-    "f6703d91d65feb1682cd062eaf3c6cc2_MD5.jpg",
-    "8bb3620ae9fef1abf38a4ae430cd4783_MD5.jpg",
-    "e4d0196a57f2758f67086b60fd1c4a61_MD5.jpg",
+    "JPG/7a2ff8492b78ad3aff075641bc87ff00_MD5.jpg",
+    "JPG/f9295a6315129fb75b8399682a12855e_MD5.jpg",
+    "JPG/015cbdc95c9273243429678eec80cbf7_MD5.png",
+    "JPG/902fca6c6be0417c0f3d025c5b4c4e6a_MD5.jpg",
+    "JPG/f6703d91d65feb1682cd062eaf3c6cc2_MD5.jpg",
+    "JPG/8bb3620ae9fef1abf38a4ae430cd4783_MD5.jpg",
     "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
     "02-raw/articles/国内全解锁.md",
     "清单/开通服务.md",
-    "pokopia/自动化场景.md",
     "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
     "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
     "02-raw/articles/这篇文章教你如何用Claude Code 在推上学习大V们的观点.md",
@@ -303,12 +290,9 @@
     "清单/任务清单.md",
     "项目/Git.md",
     "cc/cc指南.md",
-    "项目/\"多Agent协作\"模式.md",
     "日本🇯🇵/第一次来日本」完整攻略.md",
     "清单/读书清单.md",
     "清单/自动化清单.md",
-    "02-raw/articles/diagram（tech-graph）fireworks.md",
-    "清单/密钥.md",
     "项目",
     "日本🇯🇵",
     "配置教程",
