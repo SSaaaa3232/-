@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776338825706-caj64kqko",
+  "providerId": "claude",
+  "title": "Process image",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776338825706,
+  "updatedAt": 1776338852765,
+  "lastResponseAt": 1776338852765,
+  "sessionId": "987703f3-0248-47b4-95a3-550d5ac246a5",
+  "providerState": {
+    "providerSessionId": "987703f3-0248-47b4-95a3-550d5ac246a5"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 25550,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 25551,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}
