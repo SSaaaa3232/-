@@ -1,22 +1,16 @@
 ---
-title: "我做了个 Skill：让 AI 帮你生成 Logo 和图标"
-source: "https://x.com/op7418/status/2044634498432962806"
+title: 我做了个 Skill：让 AI 帮你生成 Logo 和图标
+source: https://x.com/op7418/status/2044634498432962806
 author:
   - "[[@op7418]]"
 published: 2026-04-14
 created: 2026-04-16
+tags:
+  - Skill
+  - AI
+  - logo
 ---
-![[e4d0196a57f2758f67086b60fd1c4a61_MD5.jpg]]
-
-前几天想给 CodePilot 设计个新 Logo，就跟 Gemini 聊了聊，让它生成一些 SVG 格式的 Logo。
-
-结果出乎意料——生成的几个变体都很干净、规整，几何感很强。我把这些 Logo 发到推特上，热度挺高。
-
-> Apr 14
-> 
-> Gemini is really a pro at design, especially drawing logos with SVG Just give it some proper guidance and it can draw them really well The SVG part of the new logo for Codepilot was also done by it; I just refined it on that basis
-
-后来我又试着把这些 Logo 做成那种高级的展示图，配上专业的背景，效果很惊艳。
+# 事例：
 
 ![[8bb3620ae9fef1abf38a4ae430cd4783_MD5.jpg]]
 
@@ -50,8 +44,6 @@ Skill 会问你几个简单的问题：
 - 属于什么行业或类别？（比如 AI、金融科技、设计工具）
 - 核心概念是什么？（比如连接、流动、安全、简洁）
 - 有什么设计偏好？（比如极简/复杂、冷色/暖色、专业/友好）
-
-![[f6703d91d65feb1682cd062eaf3c6cc2_MD5.jpg]]
 
 当然你也可以直接把你的项目介绍发给 AI。
 
