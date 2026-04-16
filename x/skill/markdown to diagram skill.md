@@ -11,6 +11,7 @@ tags:
   - ClaudeCode
   - AI
   - Skill
+Github: https://github.com/markdown-viewer/skills
 ---
 
 It's here, it's here. Over a hundred diagram types, more than 6000 curated vector icons, automatically customized based on your Markdown content with just one sentence.

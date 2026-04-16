@@ -19,8 +19,7 @@ tags:
 选项 1
 
 使用 baoyu-skills 的 baoyu-article-illustrator 或者 baoyu-cover-image skill，告诉它用 hand-drawn-edu 风格
-
-https://github.com/JimLiu/baoyu-skills…
+https://github.com/JimLiu/baoyu-skills/tree/main
 
 选项2:
 

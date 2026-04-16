@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d976ccb02a285e35",
+            "id": "a959cac0013f4b2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/AI 帮你生成 Logo 和图标.md",
+                "file": "认知/三层进化论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI 帮你生成 Logo 和图标"
-            }
-          },
-          {
-            "id": "0062f8556afe0a78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/skill清单.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "skill清单"
+              "title": "三层进化论"
             }
           }
         ]
@@ -255,11 +241,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d976ccb02a285e35",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
     "清单/skill清单.md",
+    "x/经验/复盘.md",
+    "x/经验",
+    "x/skill/markdown to diagram skill.md",
+    "x/skill/illustrator and image skill （prompt）.md",
+    "x/skill",
+    "项目/skill/AI 帮你生成 Logo 和图标.md",
     "清单/GitHub Stars.md",
-    "02-raw/articles/AI 帮你生成 Logo 和图标.md",
     "项目/操作系统（实战）：Hermes-Agent vs 自建OpenClaw  Harness.md",
     "趋势分析/AI领域.md",
     "项目/方法论/横纵分析法.md",
@@ -294,14 +285,9 @@
     "认知/少收藏，重提炼，狠输出.md",
     "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
     "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
-    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
-    "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
     "读书转化",
     "项目/hermes",
     "中转站",
-    "项目/sc",
-    "pokopia",
-    "项目"
+    "项目/sc"
   ]
 }
