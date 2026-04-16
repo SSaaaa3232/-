@@ -6,27 +6,6 @@ author:
 published: 2026-04-16
 created: 2026-04-16
 ---
-**小耳Jane｜Xiaoer** @xiaoerzhan [2026-04-16](https://x.com/xiaoerzhan/status/2044619871582118357)
-
-🔥Suddenly feeling like doing a serious self-introduction
-
-📚Parents are teachers, and our home was filled with tons of comics and sci-fi worlds from a young age
-
-❤️In my world: Love comes above everything
-
-🎵My first growth line: Music
-
-——Listened for 20 years
-
-The obsessive kind,
-
-![[12776906967cc88d0021d9e92c60bb36_MD5.jpg]]
-
----
-
-**小耳Jane｜Xiaoer** @xiaoerzhan [2026-04-16](https://x.com/xiaoerzhan/status/2044619875516379536)
-
-以下是我目前所有的skill,开源分享给大家
 
 1、做网站。一键把飞书多维表格变成独立网站+动效
 

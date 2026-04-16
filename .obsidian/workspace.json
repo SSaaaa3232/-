@@ -13,30 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/开通服务.md",
+                "file": "清单/读书清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开通服务"
+              "title": "读书清单"
             }
           },
           {
-            "id": "31f94344faabb924",
+            "id": "9deb4a420cd46615",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skill/x/约束先行.md",
+                "file": "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "约束先行"
+              "title": "控糖革命：一碗白米饭和一个纸杯蛋糕"
+            }
+          },
+          {
+            "id": "39f35d773ad5439d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -256,53 +266,52 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "39f35d773ad5439d",
   "lastOpenFiles": [
-    "中转站/中转站API.md",
+    "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
+    "02-raw/articles/星露谷.md",
+    "hermes",
+    "1a4371a0539a34f537ed4352bcefa837_MD5.webp",
+    "c91e3e80a38363f93ddf87a22485d398_MD5.webp",
+    "清单/读书清单.md",
+    "中转站/详细.md",
+    "中转站/简要.md",
+    "02-raw/articles/编排（Orchestration）Agent.md",
+    "02-raw/articles/我做了个 Skill：让 AI 帮你生成 Logo 和图标.md",
+    "清单/自动化清单.md",
+    "清单/模型测评.md",
+    "清单/每日安排.md",
+    "清单/本地部署.md",
+    "清单/开通服务.md",
+    "清单/工具清单.md",
+    "02-raw/articles/Thread by @xiaoerzhan.md",
+    "cc/Claude code使用技巧.md",
+    "sc/IP洗脸.md",
+    "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
+    "a4b388c2405d6fc328eda5a3defa732c_MD5.jpg",
+    "02-raw/articles/Thread by @dotey.md",
+    "c6ba452456557513ebd9c92781333c8e_MD5.png",
+    "ec3e0eab67f2416d6ba2cecad6f89256_MD5.jpg",
+    "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
+    "02-raw/articles/框架.md",
+    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
+    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
+    "cc/约束先行.md",
     "中转站",
     "sc/住宅IP VPS教程.md",
     "sc",
-    "清单/开通服务.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "项目/\"多Agent协作\"模式.md",
-    "pokopia/自动化场景.md",
-    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
-    "skill/达尔文.skill.md",
     "JPG/1e102e5191cb54c30f352ef12f86320a_MD5.jpg",
-    "02-raw/articles/我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验.md",
     "JPG/e5750efef79a584b60101983c7b8bf24_MD5.jpg",
-    "02-raw/articles/Thread by @xiaoerzhan.md",
     "JPG/12776906967cc88d0021d9e92c60bb36_MD5.jpg",
-    "02-raw/articles/普通人实现AI能力跃迁的三个框架.md",
     "JPG/dc4721c92f990463adfeeb6a923c80f7_MD5.jpg",
-    "02-raw/articles/我做了个 Skill：让 AI 帮你生成 Logo 和图标.md",
     "JPG/7a2ff8492b78ad3aff075641bc87ff00_MD5.jpg",
-    "JPG/f9295a6315129fb75b8399682a12855e_MD5.jpg",
-    "JPG/015cbdc95c9273243429678eec80cbf7_MD5.png",
-    "JPG/902fca6c6be0417c0f3d025c5b4c4e6a_MD5.jpg",
-    "JPG/f6703d91d65feb1682cd062eaf3c6cc2_MD5.jpg",
-    "JPG/8bb3620ae9fef1abf38a4ae430cd4783_MD5.jpg",
-    "02-raw/articles/控糖革命：一碗白米饭和一个纸杯蛋糕.md",
-    "02-raw/articles/国内全解锁.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
-    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
-    "02-raw/articles/这篇文章教你如何用Claude Code 在推上学习大V们的观点.md",
-    "pokopia/建筑.md",
-    "pokopia/收纳+快速移动.md",
-    "清单/GitHub Stars.md",
     "pokopia",
-    "清单/工具清单.md",
-    "GitHub Stars.md",
-    "清单/任务清单.md",
-    "项目/Git.md",
-    "cc/cc指南.md",
-    "日本🇯🇵/第一次来日本」完整攻略.md",
     "项目",
     "日本🇯🇵",
     "配置教程",
     "skill",
     "cc",
-    "认知",
-    "清单"
+    "认知"
   ]
 }
