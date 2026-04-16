@@ -35,8 +35,7 @@
               "title": "skill清单"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -256,10 +256,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d976ccb02a285e35",
+  "active": "b5fa0cedaf0e59f1",
   "lastOpenFiles": [
-    "项目/方法论/横纵分析法.md",
     "清单/skill清单.md",
+    "项目/方法论/横纵分析法.md",
     "项目/技术",
     "项目/模式",
     "项目/方法论",
