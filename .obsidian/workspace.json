@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "02-raw/articles/操作系统（实战）：Hermes-Agent vs 自建OpenClaw  Harness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "操作系统（实战）：Hermes-Agent vs 自建OpenClaw  Harness"
             }
           }
         ]
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -243,9 +243,17 @@
   },
   "active": "e2c25a009622df96",
   "lastOpenFiles": [
-    "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
+    "02-raw/articles/操作系统（实战）：Hermes-Agent vs 自建OpenClaw  Harness.md",
+    "认知/信息消费.md",
+    "sc/国内全解锁三把钥匙.md",
     "清单/任务清单.md",
+    "认知/少收藏，重提炼，狠输出.md",
+    "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
     "清单/skill清单.md",
+    "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
+    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
+    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
+    "02-raw/articles/未来最值钱的能力：你能指挥多少Agent替你干活.md",
     "认知/苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级.md",
     "image/ffc497e0b44aeca9974e8f50681b1d0d_MD5.png",
     "image/ffca07931ae2a8db7835f8680c5b4319_MD5.jpg",
@@ -257,7 +265,6 @@
     "清单/读书清单.md",
     "image/964c3b1fb076c2a67d3cb8d2bbde5aa7_MD5.webp",
     "image/0ee617f3a612615ed8aa18bfd43d1054_MD5.webp",
-    "02-raw/articles/信息消费.md",
     "hermes/星露谷.md",
     "image/4d7bbaf8658ed9f9071a04cd20e9dc1a_MD5.webp",
     "image/d3c994b269a27404f2a48eaaa7f812fd_MD5.webp",
@@ -274,13 +281,6 @@
     "清单/开通服务.md",
     "清单/工具清单.md",
     "02-raw/articles/Thread by @xiaoerzhan.md",
-    "cc/Claude code使用技巧.md",
-    "sc/IP洗脸.md",
-    "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
-    "02-raw/articles/Thread by @dotey.md",
-    "02-raw/articles/你的人工智能并不“愚蠢”——它只是需要更好的束缚 Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness  Lychee Technology Engineering Blog.md",
-    "02-raw/articles/框架.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
     "中转站",
     "sc",
     "pokopia",
