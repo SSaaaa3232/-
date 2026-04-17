@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/AI时代的省Token哲学.md",
+                "file": "02-raw/articles/省Token.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI时代的省Token哲学"
+              "title": "省Token"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 211.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -248,7 +249,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 563.5
+    "width": 563.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,13 +271,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1ca978258884b172",
+  "active": "ff312499b4b90a7e",
   "lastOpenFiles": [
+    "个人👤/清单/任务清单.md",
     "image/2f679022d60b39fc64e90c4bd894470e_MD5.jpg",
     "团队team/技术/WebSocket 技术全解.md",
-    "个人👤/清单/任务清单.md",
     "团队team/技术/技术栈-完整流程.md",
-    "02-raw/articles/AI时代的省Token哲学.md",
+    "02-raw/articles/省Token.md",
     "团队team/技术/Cloudflare 服务.md",
     "团队team/技术/技术栈-指引.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
