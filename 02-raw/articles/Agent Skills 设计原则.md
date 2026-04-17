@@ -1,14 +1,14 @@
 ---
-title: "Thread by @shao__meng"
-source: "https://x.com/shao__meng/status/2043311350374338897"
+title: Thread by @shao__meng
+source: https://x.com/shao__meng/status/2043311350374338897
 author:
   - "[[@shao__meng]]"
 published: 2026-04-12
 created: 2026-04-14
+tags:
+  - Skill
+  - 原则
 ---
-**meng shao** @shao\_\_meng 2026-04-11
-
-Agent Skills 设计的十个重要原则
 
 十大原则指向单一纪律：沉淀！
 

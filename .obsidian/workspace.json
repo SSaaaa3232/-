@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人👤/方法论/AI共生方法论.md",
+                "file": "02-raw/articles/Agent Skills 设计原则.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI共生方法论"
+              "title": "Agent Skills 设计原则"
             }
           },
           {
@@ -254,8 +254,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "8459e9749259a1ea",
   "lastOpenFiles": [
+    "团队team/模式/AI重构公司（AI first）Block案例.md",
+    "团队team/模式/AI First.md",
+    "个人👤/方法论/AI共生方法论.md",
     "有意思的项目",
     "个人👤/旅游",
     "个人👤/方法论",
@@ -287,14 +290,11 @@
     "个人👤/清单/密钥.md",
     "02-raw/articles/想开始 vibe-coding，先把这 8 个工具放上桌面.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
-    "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
-    "02-raw/articles/Anthropic 官方博文：多智能体协作指南：五种主流模式怎么选、怎么用？【译】.md",
     "个人👤/经验",
     "个人👤/skill",
     "团队team/技术",
     "团队team/模式",
     "团队team/方法论",
-    "有意思的项目/趋势分析",
     "image/9bf57a5ba1e331df2ace0da82f41600f_MD5.jpg",
     "image/3f3d5cc74aff6dd31d575d73ac58731e_MD5.jpg",
     "image/85db4d1214b011bfe825c559c4b17790_MD5.jpg",
