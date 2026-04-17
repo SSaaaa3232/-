@@ -21,7 +21,7 @@ category: index
 - [[人类认知崩溃指南：六层深渊、一个信封，以及为什么你越确定自己是对的，就越可能是错的]] — 认知科学
 - [[团队team/方法论/The Shorthand Guide to Everything Agentic Security]] — Agentic Security 安全综述
 - [[Thunderbolt 显卡驱动]] — tinygrad 讨论
-- [[02-raw/articles/AutoAgent first open source library for self-optimizing agents]] — AutoAgent 自优化代理
+- [[AutoAgent first open source library for self-optimizing agents]] — AutoAgent 自优化代理
 - [[8 Claude Code Hooks That Automate What You Keep Forgetting]] — Claude Code Hooks
 - [[music player free（github）]] — Twitter 线程
 - [[访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点]] — Codex 团队访谈
