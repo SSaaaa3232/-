@@ -21,7 +21,7 @@ modified: 2026-04-05
 核心原则：Agent 被攻陷后，blast radius（爆炸半径）必须最小化。具体措施包括：容器隔离（Docker）、权限最小化（不使用 root）、网络默认拒绝、身份分离（Agent 不使用个人账号）。Anthropic 明确推荐容器/devcontainer 进行隔离。
 
 ## 证据来源
-1. [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] - GitHub Codex 使用 per-task sandbox，OpenAI 也有类似设计
+1. [[团队team/方法论/The Shorthand Guide to Everything Agentic Security]] - GitHub Codex 使用 per-task sandbox，OpenAI 也有类似设计
 
 ## 关联概念
 - [[../Agentic-Security]] — 共现（来源同一篇文章）

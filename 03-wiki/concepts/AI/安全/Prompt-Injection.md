@@ -24,7 +24,7 @@ modified: 2026-04-05
 在 Agentic 系统中，Prompt Injection 可导致：shell 执行（通过工具调用）、secret 泄露、工作流滥用、横向移动。攻击向量包括：邮件附件（PDF）、网页截图（OCR）、GitHub PR 评论、隐藏 Unicode 字符、工具输出污染。
 
 ## 证据来源
-1. [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] - Good Rudi 儿童 AI 被 prompt 注入泄露敏感信息
+1. [[团队team/方法论/The Shorthand Guide to Everything Agentic Security]] - Good Rudi 儿童 AI 被 prompt 注入泄露敏感信息
 2. Unit 42 "Fooling AI Agents: Web-Based Indirect Prompt Injection Observed in the Wild"（2026-03-03）
 
 ## 关联概念

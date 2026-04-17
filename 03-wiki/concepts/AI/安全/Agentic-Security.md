@@ -24,7 +24,7 @@ Agentic Security 是 AI 时代的安全基础设施，研究如何保护 Agentic
 在 Agentic 系统中，LLM 充当大脑连接各种工具和数据源。攻击面包括：恶意输入（文档/邮件/PR）、受污染的工具（MCP 服务器）、持久化后门（记忆系统）。防御核心是假设恶意内容终将进入上下文，通过隔离层、最小权限、输入清理来控制损失。
 
 ## 证据来源
-1. [[02-raw/articles/The Shorthand Guide to Everything Agentic Security]] - Check Point Research 披露 Claude Code CVE，CVSS 8.7
+1. [[团队team/方法论/The Shorthand Guide to Everything Agentic Security]] - Check Point Research 披露 Claude Code CVE，CVSS 8.7
 2. Simon Willison 的 Lethal Trifecta 框架（private data + untrusted content + external communication）
 
 ## 关联概念
