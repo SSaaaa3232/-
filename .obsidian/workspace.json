@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人👤/清单/任务清单.md",
+                "file": "02-raw/articles/Cloudflare 免费服务全解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "Cloudflare 免费服务全解析"
+            }
+          },
+          {
+            "id": "00284347b7938673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "团队team/sc/住宅IP VPS教程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "住宅IP VPS教程"
             }
           }
         ],
@@ -257,6 +271,18 @@
   },
   "active": "ff312499b4b90a7e",
   "lastOpenFiles": [
+    "02-raw/articles/claude --dangerously-skip-permissions.md",
+    "个人👤/清单/任务清单.md",
+    "团队team/sc/住宅IP VPS教程.md",
+    "团队team/sc/IP洗脸.md",
+    "团队team/sc/EqualVPN-住宅IP.md",
+    "团队team/sc/IEPL + 机房 IP   VS   CN2 GIA + 住宅 IP.md",
+    "团队team/sc/国内全解锁三把钥匙.md",
+    "个人👤/skill/diagram（tech-graph）fireworks.md",
+    "个人👤/skill/markdown to diagram skill.md",
+    "个人👤/清单/skill清单.md",
+    "02-raw/articles/Thread by @brad_zhang2024 1.md",
+    "02-raw/articles/一句话生成Epub电子书Skill.md",
     "02-raw/articles/微信收藏被加密锁死？我用frida逆向6轮迭代解密2000条数据，生成7种图表可视化报告.md",
     "52f1454368100fdb483269163cd3bad8_MD5.jpg",
     "4ef48fbe7ffaa15954494809c62d4924_MD5.jpg",
@@ -265,9 +291,7 @@
     "5705fe5e40e7b690f48a05d7ac158f6b_MD5.jpg",
     "a623ee67ed05dd098306f0eefc10ae63_MD5.jpg",
     "团队team/模式/Skill、Harness、记忆、安全.md",
-    "个人👤/清单/任务清单.md",
     "个人👤/清单/MCP清单.md",
-    "个人👤/清单/skill清单.md",
     "个人👤/清单/x-er.md",
     "有意思的项目/GPT代充.md",
     "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
@@ -279,20 +303,11 @@
     "02-raw/articles/Agent Skills 设计原则.md",
     "02-raw/articles/Thread by @xiaoerzhan.md",
     "团队team/模式/AI重构公司（AI first）Block案例.md",
-    "团队team/模式/AI First.md",
-    "个人👤/方法论/AI共生方法论.md",
     "有意思的项目",
     "个人👤/旅游",
     "个人👤/方法论",
-    "02-raw/articles/我是怎么运作的：内观一个自进化 Agent 的 Harness.md",
-    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
-    "团队team/sc/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
-    "个人👤/方案/PPT视觉优化方案.md",
     "个人👤/方案",
-    "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
-    "团队team/方法论/纳瓦尔prompt参考（人格参考）.md",
     "个人👤/模式",
-    "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
     "a833b8b0c522de5f3823fb250682ff28_MD5.png",
     "ee23cc3aac63450ec6387bcc947590ba_MD5.png",
     "751db894c848666ec0062e181522f349_MD5.jpg",
