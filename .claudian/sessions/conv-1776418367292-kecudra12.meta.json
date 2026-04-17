@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776418367292-kecudra12",
+  "providerId": "claude",
+  "title": "Simplify difficult article",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776418367292,
+  "updatedAt": 1776418388390,
+  "lastResponseAt": 1776418388390,
+  "sessionId": "67ada5af-5613-4092-b05c-825c6b02116c",
+  "providerState": {
+    "providerSessionId": "67ada5af-5613-4092-b05c-825c6b02116c"
+  },
+  "currentNote": "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 33080,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 33081,
+    "percentage": 17,
+    "contextWindowIsAuthoritative": true
+  }
+}

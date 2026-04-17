@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776417875752-0fma0grtv",
+  "providerId": "claude",
+  "title": "Extract images from DOCX",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776417875752,
+  "updatedAt": 1776418355339,
+  "lastResponseAt": 1776417915942,
+  "sessionId": "29367a09-b68c-435a-b8bc-6fc4a36812bc",
+  "providerState": {
+    "providerSessionId": "29367a09-b68c-435a-b8bc-6fc4a36812bc"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 32895,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 32896,
+    "percentage": 16,
+    "contextWindowIsAuthoritative": true
+  }
+}

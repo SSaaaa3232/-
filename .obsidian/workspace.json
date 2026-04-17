@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "ff312499b4b90a7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/省Token.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "省Token"
-            }
-          },
-          {
             "id": "e8beed7fcbfb91a4",
             "type": "leaf",
             "state": {
@@ -47,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "任务清单"
+            }
+          },
+          {
+            "id": "eb1df79745595bea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "\"AI 优先\"还是软件工程优先"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5,
-    "collapsed": true
+    "width": 211.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -249,8 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 563.5,
-    "collapsed": true
+    "width": 563.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,13 +269,32 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ff312499b4b90a7e",
+  "active": "e8beed7fcbfb91a4",
   "lastOpenFiles": [
+    "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+    "02-raw/articles/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
     "个人👤/清单/任务清单.md",
-    "image/2f679022d60b39fc64e90c4bd894470e_MD5.jpg",
+    "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
+    "个人👤/认知/财富认知.md",
+    "有意思的项目/Thunderbolt 显卡驱动.md",
+    "image/300b60a2d7dd6ee11b921743b9160f68_MD5.jpg",
+    "image/5ef91b9f355f52455afa4112aa075b34_MD5.jpg",
+    "image/cf465e476649a4e3cac39ebff967734a_MD5.png",
+    "image/719d8f28c500365162179477e085c076_MD5.jpg",
+    "image/8318d722956740035d83e7853f4ac06e_MD5.jpg",
+    "image/f68465648979699ffbda93ab53ec4b3d_MD5.jpg",
+    "image/68d4825f6c03b5d7243ecda12b9a112e_MD5.png",
+    "image/0c4bcfe83cc2cd199a51807a6736dd27_MD5.jpg",
+    "image/aa27ba030a0b7632e2fe5bf9c2271bf7_MD5.jpg",
+    "image/f1af1a8fbd7b2ae287ffbf570c36349d_MD5.png",
+    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
+    "02-raw/articles/实测Claude Opus 4.7，好好的模型也开始不说人话了。.md",
+    "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
+    "个人👤/经验/省Token.md",
+    "个人👤/经验/复盘.md",
     "团队team/技术/WebSocket 技术全解.md",
     "团队team/技术/技术栈-完整流程.md",
-    "02-raw/articles/省Token.md",
     "团队team/技术/Cloudflare 服务.md",
     "团队team/技术/技术栈-指引.md",
     "02-raw/articles/claude --dangerously-skip-permissions.md",
@@ -290,33 +307,15 @@
     "个人👤/skill/markdown to diagram skill.md",
     "个人👤/清单/skill清单.md",
     "02-raw/articles/Thread by @brad_zhang2024 1.md",
-    "02-raw/articles/一句话生成Epub电子书Skill.md",
-    "02-raw/articles/微信收藏被加密锁死？我用frida逆向6轮迭代解密2000条数据，生成7种图表可视化报告.md",
-    "image/52f1454368100fdb483269163cd3bad8_MD5.jpg",
-    "image/4ef48fbe7ffaa15954494809c62d4924_MD5.jpg",
-    "image/eaa34f097f64bc53e27ede40a7c4da68_MD5.jpg",
-    "image/5705fe5e40e7b690f48a05d7ac158f6b_MD5.jpg",
-    "image/a623ee67ed05dd098306f0eefc10ae63_MD5.jpg",
-    "团队team/模式/Skill、Harness、记忆、安全.md",
-    "个人👤/清单/MCP清单.md",
-    "个人👤/清单/x-er.md",
-    "有意思的项目/GPT代充.md",
-    "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
-    "个人👤/清单/配置教程/Hermes Agent 接入飞书.md",
-    "02-raw/articles/Hermes启发.md",
     "有意思的项目",
     "个人👤/旅游",
     "个人👤/方法论",
     "个人👤/方案",
     "个人👤/模式",
-    "image/a833b8b0c522de5f3823fb250682ff28_MD5.png",
-    "image/ee23cc3aac63450ec6387bcc947590ba_MD5.png",
-    "image/751db894c848666ec0062e181522f349_MD5.jpg",
     "个人👤/经验",
     "个人👤/skill",
     "团队team/技术",
     "团队team/模式",
-    "团队team/方法论",
-    "image/9bf57a5ba1e331df2ace0da82f41600f_MD5.jpg"
+    "团队team/方法论"
   ]
 }

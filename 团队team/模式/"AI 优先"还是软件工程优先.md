@@ -6,9 +6,7 @@ author:
 published: 2026-04-13
 created: 2026-04-14
 ---
-![[bb8cca5fded14d3f0abf5b6cc2623599_MD5.jpg]]
-
-今天刷到《Why Your”AI-First”Strategy Is Probably Wrong》这篇文章（原文翻译我放到下面）几次，说点不一样的。**与其说 AI First，不如说软件工程 First。**
+**与其说 AI First，不如说软件工程 First。**
 
 ![[760da0bd9a1ab1681d550ff6438aedde_MD5.jpg]]
 
@@ -39,8 +37,6 @@ created: 2026-04-14
 **第五，系统架构。** 架构太乱或者压根没有架构的代码，AI 维护起来跟人一样头疼。上下文塞满了还是搞不清边界在哪，改一处崩三处。
 
 **这几条里如果有做不到的，就得靠人去补。补不上，AI First 就只是一句口号。**
-
-![[106ca41685549b5223d160f814aa7990_MD5.jpg]]
 
 ## 什么场景适合，什么不适合
 
