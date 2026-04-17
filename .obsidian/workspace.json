@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "eb1df79745595bea",
+            "id": "8660493d68a80d7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -269,11 +269,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e8beed7fcbfb91a4",
+  "active": "8660493d68a80d7b",
   "lastOpenFiles": [
-    "团队team/模式/\"AI 优先\"还是软件工程优先.md",
-    "02-raw/articles/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
     "个人👤/清单/任务清单.md",
+    "03-wiki/indexes/All-Concepts.md",
+    "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+    "个人👤/清单/skill清单.md",
+    "02-raw/articles/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
     "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
     "个人👤/认知/财富认知.md",
     "有意思的项目/Thunderbolt 显卡驱动.md",
@@ -305,8 +307,6 @@
     "团队team/sc/国内全解锁三把钥匙.md",
     "个人👤/skill/diagram（tech-graph）fireworks.md",
     "个人👤/skill/markdown to diagram skill.md",
-    "个人👤/清单/skill清单.md",
-    "02-raw/articles/Thread by @brad_zhang2024 1.md",
     "有意思的项目",
     "个人👤/旅游",
     "个人👤/方法论",
