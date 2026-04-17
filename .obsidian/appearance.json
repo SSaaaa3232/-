@@ -1,5 +1,8 @@
 {
   "cssTheme": "Minimal",
   "accentColor": "#889eaa",
-  "theme": "system"
+  "theme": "system",
+  "enabledCssSnippets": [
+    "vault-colors"
+  ]
 }

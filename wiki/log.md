@@ -25,6 +25,39 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-04-17] ingest | raw/团队team/方法论/ 第一批（22文件）
+- 来源：`raw/团队team/方法论/`（22个文件，含 LLM-wiki method 子文件夹 5 个文件）
+- Concept pages created (17):
+  - [[Thin Harness Fat Skills]] — 三层AI架构（@Pluvio9yte）
+  - [[横纵分析法]] — 纵横双轴研究框架（@ooxiao_）
+  - [[Knowledge MEMO]] — LLM Wiki + FSRS-6间隔重复（@owenliang60）
+  - [[Wiki 为谁而建]] — Agent上下文 vs 人类大脑（@owenliang60）
+  - [[人必须在 Loop 里]] — 人类监督原则（@owenliang60）
+  - [[多智能体协作五种模式]] — Anthropic 5种协作模式（Anthropic docs）
+  - [[Harness Engineering]] — L0-L4能力阶梯（@Pluvio9yte）
+  - [[Agent 安全]] — CVEs、最小权限、攻击面（@affaanmustafa）
+  - [[LLM Wiki Pattern]] — Karpathy原始模式3层架构（@NickSpisak_/llm-wiki.md）
+  - [[深度研究两阶段法]] — Web IO→本地挖掘（@hxiao）
+  - [[苏格拉底-维特根斯坦-波兰尼思维清洁系统]] — 三层思维清洁（@Jaden_riku）
+  - [[达尔文 Skill 自优化系统]] — 棘轮优化100分评分（@AlchainHust）
+  - [[AutoAgent 自优化代理]] — meta/task分离，模型共情（@kevingu）
+  - [[知识图谱]] — 节点/边/推断（@techwith_ram）
+  - [[范式投资 vs 赢家模式]] — 8位范式投资人（@BTCdayu）
+  - [[ASMR Agent 记忆系统]] — ~99% LongMemEval，主动检索（@DhravyaShah）
+  - [[Codex 团队极简管理]] — 10要点Spec，近远规划（@dotey）
+- Entity pages created (1): [[owenliang60]]
+- Files skipped/low-signal: 纳瓦尔prompt参考（系统提示模板，无新概念）；LLM-wiki method子文件夹内容已并入[[LLM Wiki Pattern]]
+- 质量评估：内容密度高，全部原始来源为一手推特/博客线程，框架完整可直接复用
+
+## [2026-04-17] scaffold | DEF 混合模式初始化
+- 模式：D（个人）+ E（研究）+ F（读书/课程）
+- 新增目录：goals/ areas/ people/ resources/ papers/ thesis/ gaps/ books/ courses/ themes/ synthesis/
+- 创建子索引：13 个 _index.md
+- 新增模板：goal.md / paper.md / book.md / course.md
+- 创建：.obsidian/snippets/vault-colors.css（DEF 配色方案）
+- 创建：CLAUDE.md（vault 操作手册）
+- 更新：wiki/index.md（DEF 三模式结构）
+
 ## [2026-04-08] save | claude-obsidian v1.4 Release Session
 - Type: session
 - Location: wiki/meta/claude-obsidian-v1.4-release-session.md

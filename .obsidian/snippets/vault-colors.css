@@ -1,0 +1,70 @@
+/* ============================================================
+   Claudian Wiki — DEF Mode Color Scheme
+   Mode D (Personal) + E (Research) + F (Book/Course)
+   ============================================================ */
+
+:root {
+  /* Mode D — 个人 */
+  --wiki-goals:    #4fc1ff;   /* 蓝 */
+  --wiki-areas:    #9cdcfe;   /* 浅蓝 */
+  --wiki-people:   #c586c0;   /* 紫 */
+  --wiki-resources:#ce9178;   /* 橙 */
+
+  /* Mode E — 研究 */
+  --wiki-papers:   #dcdcaa;   /* 黄 */
+  --wiki-concepts: #4ec9b0;   /* 青 */
+  --wiki-thesis:   #6a9955;   /* 绿 */
+  --wiki-gaps:     #d16969;   /* 红 */
+
+  /* Mode F — 读书/课程 */
+  --wiki-books:    #569cd6;   /* 深蓝 */
+  --wiki-courses:  #b5cea8;   /* 浅绿 */
+  --wiki-themes:   #f44747;   /* 亮红 */
+  --wiki-synthesis:#e2c08d;   /* 金 */
+
+  /* 共享 */
+  --wiki-meta:     #808080;
+}
+
+/* ── 文件夹颜色 ── */
+.nav-folder-title[data-path^="wiki/goals"]     { color: var(--wiki-goals); }
+.nav-folder-title[data-path^="wiki/areas"]     { color: var(--wiki-areas); }
+.nav-folder-title[data-path^="wiki/people"]    { color: var(--wiki-people); }
+.nav-folder-title[data-path^="wiki/resources"] { color: var(--wiki-resources); }
+
+.nav-folder-title[data-path^="wiki/papers"]    { color: var(--wiki-papers); }
+.nav-folder-title[data-path^="wiki/concepts"]  { color: var(--wiki-concepts); }
+.nav-folder-title[data-path^="wiki/thesis"]    { color: var(--wiki-thesis); }
+.nav-folder-title[data-path^="wiki/gaps"]      { color: var(--wiki-gaps); }
+
+.nav-folder-title[data-path^="wiki/books"]     { color: var(--wiki-books); }
+.nav-folder-title[data-path^="wiki/courses"]   { color: var(--wiki-courses); }
+.nav-folder-title[data-path^="wiki/themes"]    { color: var(--wiki-themes); }
+.nav-folder-title[data-path^="wiki/synthesis"] { color: var(--wiki-synthesis); }
+
+.nav-folder-title[data-path^="wiki/meta"],
+.nav-folder-title[data-path^="wiki/sources"],
+.nav-folder-title[data-path^="wiki/questions"] { color: var(--wiki-meta); }
+.nav-folder-title[data-path^=".raw"]           { color: #555; opacity: 0.6; }
+
+/* ── Callout 样式 ── */
+.callout[data-callout='contradiction'] {
+  --callout-color: 209, 105, 105;
+  --callout-icon: lucide-alert-triangle;
+}
+.callout[data-callout='gap'] {
+  --callout-color: 220, 220, 170;
+  --callout-icon: lucide-help-circle;
+}
+.callout[data-callout='key-insight'] {
+  --callout-color: 79, 193, 255;
+  --callout-icon: lucide-lightbulb;
+}
+.callout[data-callout='stale'] {
+  --callout-color: 128, 128, 128;
+  --callout-icon: lucide-clock;
+}
+.callout[data-callout='action'] {
+  --callout-color: 78, 201, 176;
+  --callout-icon: lucide-zap;
+}

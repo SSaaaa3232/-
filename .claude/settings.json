@@ -13,7 +13,9 @@
     "allow": [
       "Edit(~/.claude/skills/git-down/**)",
       "Bash(mkdir -p /Users/saaaaa/.claude/skills/image)",
-      "Edit(~/.claude/skills/image/**)"
+      "Edit(~/.claude/skills/image/**)",
+      "Skill(wiki)",
+      "Skill(wiki:*)"
     ]
   },
   "model": "haiku",
