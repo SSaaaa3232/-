@@ -18,7 +18,7 @@ but 2026 long-horizon tasks have two distinct phases.
 \- Phase 2: Agent "mounts" the files and starts the loop. The agent reads, runs, writes against those local files only. No more web calls for grounding.  
 但2026年的远景任务分为两个明显阶段。
 
-\- 第一阶段：用于研究与规划的 Web IO。搜索、阅读、推理。但目标不是直接给出答案。它是为了将网络知识具体化到本地文件（.md/.json/.csv）。
+\- 第一阶段：用于研究与规 划的 Web IO。搜索、阅读、推理。但目标不是直接给出答案。它是为了将网络知识具体化到本地文件（.md/.json/.csv）。
 
 \- 第二阶段：代理“挂载”文件并开始循环。代理只对这些本地文件进行读取、运行和写入。不再有网络电话要求接地。  
   
