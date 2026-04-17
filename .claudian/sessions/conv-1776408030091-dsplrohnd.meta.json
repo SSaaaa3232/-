@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776408030091-dsplrohnd",
+  "providerId": "claude",
+  "title": "Explain BM25 vector and knowledge graph",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776408030091,
+  "updatedAt": 1776408052817,
+  "lastResponseAt": 1776408052817,
+  "sessionId": "21c42945-8c42-4d86-85d3-da889eb6b1da",
+  "providerState": {
+    "providerSessionId": "21c42945-8c42-4d86-85d3-da889eb6b1da"
+  },
+  "currentNote": "团队team/模式/Skill、Harness、记忆、安全.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 22041,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22051,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

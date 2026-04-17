@@ -1,14 +1,16 @@
 ---
-title: "Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图"
-source: "https://x.com/GoSailGlobal/status/2042787444429578346"
+title: Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图
+source: https://x.com/GoSailGlobal/status/2042787444429578346
 author:
   - "[[@GoSailGlobal]]"
 published: 2026-04-11
 created: 2026-04-11
+tags:
+  - Agent
 ---
-![[d7b6c009dc722fa080a30c018877b00b_MD5.jpg]]
+覆盖了 Skill 系统、Harness 治理、记忆架构、安全防御四个方向。回头看，这四个方向其实在解同一个问题：怎么让 Agent 从"能用"变成"可靠"。
 
-过去三个月我们写了将近 60 篇关于 AI Agent 的文章，覆盖了 Skill 系统、Harness 治理、记忆架构、安全防御四个方向。回头看，这四个方向其实在解同一个问题：怎么让 Agent 从"能用"变成"可靠"。这篇文章把四根柱子拉到一起，用 20+ 个开源项目和我们的实战经验，画一张完整的图
+这篇文章把四根柱子拉到一起，用 20+ 个开源项目和我们的实战经验，画一张完整的图
 
 ## 四根柱子，一个目标
 
@@ -60,13 +62,27 @@ Mitchell Hashimoto 的六阶段复盘（第 56 篇）则展示了一个工程师
 
 ![[3e801b6032063b034656f3180b91f181_MD5.jpg]]
 
-## 记忆系统：12 个项目的四条技术路线
+# 记忆系统：12 个项目的四条技术路线
 
-我们在第 58 篇做了完整的记忆系统竞品分析。核心问题很简单：LLM 是无状态的，关掉 session 就全忘了
+## 四条技术路线
 
-四条技术路线各有取舍。纯文件存储（CLAUDE.md）零依赖但不支持语义搜索。向量数据库 + RAG 能处理规模但衡量的是"相似"而非"正确"。知识图谱精度最高但构建成本也最高。混合检索（BM25 + 向量 + 知识图谱）效果最好，学术研究显示精确率可达 92%
+核心问题很简单：LLM 是无状态的，关掉 session 就全忘了
 
-新加入的 [mempalace](https://github.com/milla-jovovich/mempalace)（2.16 万星）是目前基准测试得分最高的方案，LongMemEval R@5 达到 96.6%。它的设计灵感来自古希腊的记忆宫殿术：Wings（翼）对应人或项目，Rooms（房间）对应话题，Halls（厅）对应记忆类型，Closets（衣橱）存放摘要，Drawers（抽屉）保留原始文件。最关键的设计决策是**原文逐字存储，不做 LLM 摘要**，用 ChromaDB 做向量搜索、SQLite 做知识图谱。19 个 MCP 工具接口让它可以接入任何兼容的 Agent
+四条技术路线各有取舍。
+
+纯文件存储（CLAUDE.md）零依赖但不支持语义搜索。
+
+向量数据库 + RAG 能处理规模但衡量的是"相似"而非"正确"。
+
+知识图谱精度最高但构建成本也最高。
+
+混合检索（BM25 + 向量 + 知识图谱）效果最好，学术研究显示精确率可达 92%
+
+## BM25 + 向量 + 知识图谱：mempalace
+
+新加入的 [mempalace](https://github.com/milla-jovovich/mempalace)（2.16 万星）是目前基准测试得分最高的方案，LongMemEval R@5 达到 96.6%。
+
+它的设计灵感来自古希腊的记忆宫殿术：Wings（翼）对应人或项目，Rooms（房间）对应话题，Halls（厅）对应记忆类型，Closets（衣橱）存放摘要，Drawers（抽屉）保留原始文件。最关键的设计决策是**原文逐字存储，不做 LLM 摘要**，用 ChromaDB 做向量搜索、SQLite 做知识图谱。19 个 MCP 工具接口让它可以接入任何兼容的 Agent
 
 **agentmemory**（592 星）做了目前最完整的检索引擎，三路融合加矛盾检测加级联失效。**claude-memory-compiler**（251 星）走 Karpathy 的知识编译路线，把对话蒸馏成维基式知识文章。**agent-memory**（13 星）纯 bash + jq 实现的知识图谱，零依赖但有完整的矛盾检测
 
@@ -74,19 +90,29 @@ compound-engineering 的 /ce:compound 命令提供了一个有趣的视角：记
 
 ![[b48e53882763da6bbccff301dad3ecc7_MD5.jpg]]
 
-## 安全防御：从 30 个 CVE 到三层纵深
+# 安全防御：从 30 个 CVE 到三层纵深
 
-我们在第 59 篇深度调研了 Agent 安全领域。数据触目惊心：MCP 生态 60 天 30+ 个 CVE，43% 的 MCP 服务器有命令注入漏洞，OpenClaw 商店 1184 个恶意包，Claude Code 自身两个高危 CVE，87% 的 AI 生成 PR 引入安全漏洞
+数据触目惊心：MCP 生态 60 天 30+ 个 CVE，43% 的 MCP 服务器有命令注入漏洞，OpenClaw 商店 1184 个恶意包，Claude Code 自身两个高危 CVE，87% 的 AI 生成 PR 引入安全漏洞
 
-[ClawKeeper](https://github.com/SafeAI-Lab-X/ClawKeeper)（464 星）提出了三层防御纵深：Skill 层通过 Markdown 策略注入告诉 Agent "什么不该做"，Plugin 层在运行时拦截危险操作（11 个核心模块覆盖 10 个威胁域），Watcher 层作为独立守护进程监控所有行为并可强制人工确认。论文在 140 个对抗测试实例上达到了最优防御性能
+[ClawKeeper](https://github.com/SafeAI-Lab-X/ClawKeeper)（464 星）
 
-**Invariant MCP-Scan**（1100+ 星，已被 Snyk 收购）做静态扫描，检测工具描述中的 prompt 注入和 rug pull 攻击。**AgentSeal** 给 8000+ 个 MCP 服务器做了安全评分，发现 4513 个深度问题。**Docker Sandboxes** 用 MicroVM 在基础设施层面隔离 Agent。**MCP Guardian** 用 SHA-256 哈希做工具定义钉住，防止篡改
+提出了三层防御纵深：Skill 层通过 Markdown 策略注入告诉 Agent "什么不该做"，Plugin 层在运行时拦截危险操作（11 个核心模块覆盖 10 个威胁域），Watcher 层作为独立守护进程监控所有行为并可强制人工确认。论文在 140 个对抗测试实例上达到了最优防御性能
 
-安全的挑战在于它和其他三根柱子存在张力。Skill 越多攻击面越大，记忆系统可能存储敏感信息，Harness 的工具调用权限本身就是安全风险。gstack 的做法值得参考：/guard 命令做安全护栏防止危险命令执行，/cso 命令做 OWASP/STRIDE 威胁建模，把安全内嵌到 Sprint 流水线里而非事后补救
+**Invariant MCP-Scan**（1100+ 星，已被 Snyk 收购）
+
+做静态扫描，检测工具描述中的 prompt 注入和 rug pull 攻击。**AgentSeal** 给 8000+ 个 MCP 服务器做了安全评分，发现 4513 个深度问题。**Docker Sandboxes** 用 MicroVM 在基础设施层面隔离 Agent。**MCP Guardian** 用 SHA-256 哈希做工具定义钉住，防止篡改
+
+安全的挑战在于它和其他三根柱子存在张力。Skill 越多攻击面越大，记忆系统可能存储敏感信息，Harness 的工具调用权限本身就是安全风险。
+
+gstack 的做法值得参考：
+
+/guard 命令做安全护栏防止危险命令执行，
+
+/cso 命令做 OWASP/STRIDE 威胁建模，把安全内嵌到 Sprint 流水线里而非事后补救
 
 ![[e11be1206c2290d8f2e9da3181f6530c_MD5.jpg]]
 
-## 四虾阵实战：四根柱子怎么整合
+# 四虾阵实战：四根柱子怎么整合
 
 理论框架再完美，落地才是真功夫。"四虾阵 Agent Ops"（第 37 篇）提供了一个把四根柱子整合到一起的运营范例
 

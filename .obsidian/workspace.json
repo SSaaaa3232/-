@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "761ec405468e40f3",
+            "id": "ff312499b4b90a7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
+                "file": "个人👤/清单/任务清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Everything Is Connected 一切都是相互关联的"
+              "title": "任务清单"
             }
           }
         ],
@@ -255,8 +255,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "761ec405468e40f3",
+  "active": "ff312499b4b90a7e",
   "lastOpenFiles": [
+    "02-raw/articles/微信收藏被加密锁死？我用frida逆向6轮迭代解密2000条数据，生成7种图表可视化报告.md",
+    "52f1454368100fdb483269163cd3bad8_MD5.jpg",
+    "4ef48fbe7ffaa15954494809c62d4924_MD5.jpg",
+    "2f679022d60b39fc64e90c4bd894470e_MD5.jpg",
+    "eaa34f097f64bc53e27ede40a7c4da68_MD5.jpg",
+    "5705fe5e40e7b690f48a05d7ac158f6b_MD5.jpg",
+    "a623ee67ed05dd098306f0eefc10ae63_MD5.jpg",
+    "团队team/模式/Skill、Harness、记忆、安全.md",
+    "个人👤/清单/任务清单.md",
+    "个人👤/清单/MCP清单.md",
+    "个人👤/清单/skill清单.md",
+    "个人👤/清单/x-er.md",
+    "有意思的项目/GPT代充.md",
+    "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "个人👤/清单/配置教程/Hermes Agent 接入飞书.md",
     "02-raw/articles/Hermes启发.md",
@@ -264,8 +278,6 @@
     "个人👤/模式/OpenClaw-多Agent协同方案.md",
     "02-raw/articles/Agent Skills 设计原则.md",
     "02-raw/articles/Thread by @xiaoerzhan.md",
-    "个人👤/清单/skill清单.md",
-    "个人👤/清单/任务清单.md",
     "团队team/模式/AI重构公司（AI first）Block案例.md",
     "团队team/模式/AI First.md",
     "个人👤/方法论/AI共生方法论.md",
@@ -281,13 +293,6 @@
     "团队team/方法论/纳瓦尔prompt参考（人格参考）.md",
     "个人👤/模式",
     "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
-    "团队team/模式/\"多Agent协作\"模式.md",
-    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "团队team/模式/通讯认领Agent（细节补充）.md",
-    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
-    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
-    "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
-    "个人👤/skill/diagram（tech-graph）fireworks.md",
     "a833b8b0c522de5f3823fb250682ff28_MD5.png",
     "ee23cc3aac63450ec6387bcc947590ba_MD5.png",
     "751db894c848666ec0062e181522f349_MD5.jpg",
@@ -296,12 +301,6 @@
     "团队team/技术",
     "团队team/模式",
     "团队team/方法论",
-    "image/9bf57a5ba1e331df2ace0da82f41600f_MD5.jpg",
-    "image/3f3d5cc74aff6dd31d575d73ac58731e_MD5.jpg",
-    "image/85db4d1214b011bfe825c559c4b17790_MD5.jpg",
-    "image/5e9b332fdaa88d2800b537fbfb08384f_MD5.jpg",
-    "image/c8a785610c7ae20d6a6f985e5a6c6b75_MD5.jpg",
-    "image/5617da250ed168ec87c7a654c6e9472e_MD5.jpg",
-    "image/ce01d39289d15bf1bf8becc5d52131ad_MD5.jpg"
+    "image/9bf57a5ba1e331df2ace0da82f41600f_MD5.jpg"
   ]
 }

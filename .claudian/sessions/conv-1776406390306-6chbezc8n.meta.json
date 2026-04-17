@@ -4,13 +4,12 @@
   "title": "Explain web data to local file conversion",
   "titleGenerationStatus": "success",
   "createdAt": 1776406390307,
-  "updatedAt": 1776406449363,
+  "updatedAt": 1776408025494,
   "lastResponseAt": 1776406449363,
   "sessionId": "1df554d0-9a70-45d8-afe2-ec3c4b4fc4dc",
   "providerState": {
     "providerSessionId": "1df554d0-9a70-45d8-afe2-ec3c4b4fc4dc"
   },
-  "currentNote": "02-raw/articles/深度研究.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 10,
