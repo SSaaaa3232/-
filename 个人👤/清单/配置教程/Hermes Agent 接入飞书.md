@@ -1,10 +1,13 @@
 ---
-title: "Hermes Agent 接入飞书：小白教程"
-source: "https://x.com/shynloc/status/2041881361448104242"
+title: Hermes Agent 接入飞书：小白教程
+source: https://x.com/shynloc/status/2041881361448104242
 author:
   - "[[@shynloc]]"
 published: 2026-04-08
 created: 2026-04-11
+tags:
+  - hermes
+  - feishu
 ---
 这篇文章记录给 Hermes Agent 配置飞书通道的完整过程。飞书的配置步骤比 Telegram 多，但只要按顺序来，不难。
 

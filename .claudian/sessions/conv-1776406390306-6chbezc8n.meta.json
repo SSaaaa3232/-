@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776406390306-6chbezc8n",
+  "providerId": "claude",
+  "title": "Explain web data to local file conversion",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776406390307,
+  "updatedAt": 1776406449363,
+  "lastResponseAt": 1776406449363,
+  "sessionId": "1df554d0-9a70-45d8-afe2-ec3c4b4fc4dc",
+  "providerState": {
+    "providerSessionId": "1df554d0-9a70-45d8-afe2-ec3c4b4fc4dc"
+  },
+  "currentNote": "02-raw/articles/深度研究.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 1767,
+    "cacheReadInputTokens": 22044,
+    "contextWindow": 200000,
+    "contextTokens": 23821,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}

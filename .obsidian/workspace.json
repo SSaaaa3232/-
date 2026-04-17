@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8459e9749259a1ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/Thread by @hxiao.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thread by @hxiao"
-            }
-          },
-          {
             "id": "e552b6dfe072a179",
             "type": "leaf",
             "state": {
@@ -41,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人👤/清单/任务清单.md",
+                "file": "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "Everything Is Connected 一切都是相互关联的"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -243,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -268,8 +255,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8459e9749259a1ea",
+  "active": "761ec405468e40f3",
   "lastOpenFiles": [
+    "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
+    "个人👤/清单/配置教程/Hermes Agent 接入飞书.md",
+    "02-raw/articles/Hermes启发.md",
+    "团队team/方法论/深度研究.md",
+    "个人👤/模式/OpenClaw-多Agent协同方案.md",
     "02-raw/articles/Agent Skills 设计原则.md",
     "02-raw/articles/Thread by @xiaoerzhan.md",
     "个人👤/清单/skill清单.md",
@@ -287,7 +279,6 @@
     "个人👤/方案",
     "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
     "团队team/方法论/纳瓦尔prompt参考（人格参考）.md",
-    "个人👤/模式/OpenClaw-多Agent协同方案.md",
     "个人👤/模式",
     "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
     "团队team/模式/\"多Agent协作\"模式.md",
@@ -297,10 +288,6 @@
     "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
     "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
     "个人👤/skill/diagram（tech-graph）fireworks.md",
-    "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
-    "个人👤/清单/GitHub Stars.md",
-    "个人👤/清单/Githuber.md",
-    "02-raw/articles/Thread by @hxiao.md",
     "a833b8b0c522de5f3823fb250682ff28_MD5.png",
     "ee23cc3aac63450ec6387bcc947590ba_MD5.png",
     "751db894c848666ec0062e181522f349_MD5.jpg",
