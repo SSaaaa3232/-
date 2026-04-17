@@ -1,0 +1,23 @@
+{
+  "id": "conv-1776412727859-c9dk0xayu",
+  "providerId": "claude",
+  "title": "Set up self-hosted VPN on VPS",
+  "titleGenerationStatus": "success",
+  "createdAt": 1776412727859,
+  "updatedAt": 1776412916360,
+  "lastResponseAt": 1776412916360,
+  "sessionId": "13b2cdf3-9d56-44cc-93e6-b50dcb62bd26",
+  "providerState": {
+    "providerSessionId": "13b2cdf3-9d56-44cc-93e6-b50dcb62bd26"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 1191,
+    "cacheReadInputTokens": 22002,
+    "contextWindow": 200000,
+    "contextTokens": 23203,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
+}
