@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人👤/清单/任务清单.md",
+                "file": "02-raw/articles/jart：把大语言模型所有复杂技术打包成一个文件，在任何系统上双击运行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "jart：把大语言模型所有复杂技术打包成一个文件，在任何系统上双击运行"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+                "file": "02-raw/articles/how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "\"AI 优先\"还是软件工程优先"
+              "title": "how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 563.5
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,13 +269,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8660493d68a80d7b",
+  "active": "e8beed7fcbfb91a4",
   "lastOpenFiles": [
-    "个人👤/清单/任务清单.md",
-    "03-wiki/indexes/All-Concepts.md",
-    "团队team/模式/\"AI 优先\"还是软件工程优先.md",
-    "个人👤/清单/skill清单.md",
+    "团队team/技术/Startup cost.md",
+    "02-raw/articles/Agent Skills 设计原则.md",
+    "团队team/cc/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
+    "02-raw/articles/Thread by @dotey.md",
     "02-raw/articles/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md",
+    "个人👤/清单/任务清单.md",
+    "02-raw/articles/how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页.md",
+    "团队team/模式/\"AI 优先\"还是软件工程优先.md",
+    "03-wiki/indexes/All-Concepts.md",
+    "个人👤/清单/skill清单.md",
     "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
     "个人👤/认知/财富认知.md",
     "有意思的项目/Thunderbolt 显卡驱动.md",
@@ -289,7 +294,6 @@
     "image/0c4bcfe83cc2cd199a51807a6736dd27_MD5.jpg",
     "image/aa27ba030a0b7632e2fe5bf9c2271bf7_MD5.jpg",
     "image/f1af1a8fbd7b2ae287ffbf570c36349d_MD5.png",
-    "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
     "02-raw/articles/实测Claude Opus 4.7，好好的模型也开始不说人话了。.md",
     "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
@@ -303,10 +307,6 @@
     "团队team/sc/住宅IP VPS教程.md",
     "团队team/sc/IP洗脸.md",
     "团队team/sc/EqualVPN-住宅IP.md",
-    "团队team/sc/IEPL + 机房 IP   VS   CN2 GIA + 住宅 IP.md",
-    "团队team/sc/国内全解锁三把钥匙.md",
-    "个人👤/skill/diagram（tech-graph）fireworks.md",
-    "个人👤/skill/markdown to diagram skill.md",
     "有意思的项目",
     "个人👤/旅游",
     "个人👤/方法论",
