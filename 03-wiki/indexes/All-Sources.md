@@ -28,7 +28,7 @@ category: index
 - [[02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)]] — Claude Cowork 教程
 - [[02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程]] — Harness 工程入门
 - [[控糖革命：一碗白米饭和一个纸杯蛋糕]] — 健康
-- [[克隆纳瓦尔数字分身]] — 数字分身
+- [[纳瓦尔prompt参考（人格参考）]] — 数字分身
 - [[苏格拉底追问、维特根斯坦拆解、波兰尼兜底——我的系统再次升级]] — 哲学方法论
 - [[Startup cost]] — Twitter 线程
 - [[少收藏，重提炼，狠输出]] — 内容创作方法

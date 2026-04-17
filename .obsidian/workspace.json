@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8337ede7c33de09c",
+        "id": "152042fda30a9857",
         "type": "tabs",
         "children": [
           {
-            "id": "98e620c2a034e6ae",
+            "id": "8459e9749259a1ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/密钥.md",
+                "file": "02-raw/articles/我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "密钥"
+              "title": "我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验"
+            }
+          },
+          {
+            "id": "e552b6dfe072a179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/skill清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "skill清单"
             }
           }
         ]
@@ -215,12 +229,11 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 563.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,34 +254,39 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "98e620c2a034e6ae",
+  "active": "8459e9749259a1ea",
   "lastOpenFiles": [
-    "02-raw/articles/想开始 vibe-coding，先把这 8 个工具放上桌面.md",
+    "02-raw/articles/我是怎么运作的：内观一个自进化 Agent 的 Harness.md",
+    "02-raw/articles/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
+    "项目/sc/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
+    "x/方案/PPT视觉优化方案.md",
+    "x/方案",
+    "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
+    "项目/方法论/纳瓦尔prompt参考（人格参考）.md",
+    "x/模式/OpenClaw-多Agent协同方案.md",
+    "清单/skill清单.md",
+    "x/模式",
+    "02-raw/articles/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md",
+    "项目/模式/\"多Agent协作\"模式.md",
+    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
+    "项目/模式/通讯认领Agent（细节补充）.md",
+    "02-raw/articles/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md",
+    "02-raw/articles/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑.md",
     "02-raw/articles/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md",
+    "x/skill/diagram（tech-graph）fireworks.md",
+    "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
+    "清单/GitHub Stars.md",
+    "清单/Githuber.md",
+    "02-raw/articles/Thread by @hxiao.md",
+    "a833b8b0c522de5f3823fb250682ff28_MD5.png",
+    "ee23cc3aac63450ec6387bcc947590ba_MD5.png",
+    "751db894c848666ec0062e181522f349_MD5.jpg",
+    "清单/密钥.md",
+    "02-raw/articles/想开始 vibe-coding，先把这 8 个工具放上桌面.md",
     "02-raw/articles/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
     "02-raw/articles/AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选.md",
     "02-raw/articles/Anthropic 官方博文：多智能体协作指南：五种主流模式怎么选、怎么用？【译】.md",
     "02-raw/articles/AutoAgent first open source library for self-optimizing agents.md",
-    "02-raw/articles/claude --dangerously-skip-permissions.md",
-    "02-raw/articles/Cloudflare 免费服务全解析.md",
-    "02-raw/articles/diagram（tech-graph）fireworks.md",
-    "02-raw/articles/Everything Is Connected 一切都是相互关联的.md",
-    "02-raw/articles/Harness Engineering 驾驭工程 零基础入门教程.md",
-    "02-raw/articles/Hermes Agent 接入飞书：小白教程.md",
-    "02-raw/articles/Hermes启发.md",
-    "02-raw/articles/how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页.md",
-    "02-raw/articles/How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱.md",
-    "02-raw/articles/I want to automate my entire workflow with Claude Cowork (full course)..md",
-    "02-raw/articles/IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？.md",
-    "02-raw/articles/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md",
-    "02-raw/articles/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
-    "02-raw/articles/multi-agent.md",
-    "02-raw/articles/music player free（github）.md",
-    "02-raw/articles/PPT视觉优化方案.md",
-    "02-raw/articles/Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图.md",
-    "02-raw/articles/Startup cost.md",
-    "02-raw/articles/Study prompt.md",
-    "02-raw/articles/The Shorthand Guide to Everything Agentic Security.md",
     "x/经验",
     "x/skill",
     "项目/技术",
@@ -282,12 +300,7 @@
     "image/c8a785610c7ae20d6a6f985e5a6c6b75_MD5.jpg",
     "image/5617da250ed168ec87c7a654c6e9472e_MD5.jpg",
     "image/ce01d39289d15bf1bf8becc5d52131ad_MD5.jpg",
-    "image/8383c99a1d976ea25acc01d3cd8672b9_MD5.jpg",
-    "image/8f95e31b4aaa8f6ed72d7941c1c334c8_MD5.jpg",
-    "85db4d1214b011bfe825c559c4b17790_MD5.jpg",
     "读书转化",
-    "项目/hermes",
-    "中转站",
-    "项目/sc"
+    "项目/hermes"
   ]
 }

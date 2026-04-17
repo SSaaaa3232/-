@@ -3,19 +3,70 @@
 
 ## 🔥claude code
 
-| 项目                                                                                        | 描述                  |
-| ----------------------------------------------------------------------------------------- | ------------------- |
-| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)     | everthing's start   |
-| [github/spec-kit](https://github.com/github/spec-kit)                                     |                     |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)         |                     |
-| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)                       |                     |
-| [maheshwaghmare/ai-prompts-library](https://github.com/maheshwaghmare/ai-prompts-library) |                     |
-| [jroll85/structured-ai-dev](https://github.com/jroll85/structured-ai-dev)                 |                     |
-| [ShaerWare/ai-development-partner](https://github.com/ShaerWare/ai-development-partner)   |                     |
-| [phuryn/claude-usage](https://github.com/phuryn/claude-usage)                             |                     |
-| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine)                     |                     |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch)                           | 一键换API⭐️            |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch)                         | 修改代码自动化（需要Nvidia显卡） |
+| 项目 | 描述 |
+|------|------|
+| [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | everthing's start |
+| [github/spec-kit](https://github.com/github/spec-kit) |  |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) |  |
+| [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) |  |
+| [maheshwaghmare/ai-prompts-library](https://github.com/maheshwaghmare/ai-prompts-library) |  |
+| [jroll85/structured-ai-dev](https://github.com/jroll85/structured-ai-dev) |  |
+| [ShaerWare/ai-development-partner](https://github.com/ShaerWare/ai-development-partner) |  |
+| [phuryn/claude-usage](https://github.com/phuryn/claude-usage) |  |
+| [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) |  |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 一键换API⭐️ |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 修改代码自动化（需要Nvidia显卡） |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) |  |
+| [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) |  |
+
+## 🌪️obsidian
+
+| 项目 | 描述 |
+|------|------|
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |  |
+| [reuseman/flashcards-obsidian](https://github.com/reuseman/flashcards-obsidian) |  |
+| [fakechris/obsidian_vault_pipeline](https://github.com/fakechris/obsidian_vault_pipeline) |  |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) |  |
+| [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent) |  |
+| [owenliang60-ship-it/knowledge-mgmt](https://github.com/owenliang60-ship-it/knowledge-mgmt) |  |
+| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) |  |
+| [ekadetov/llm-wiki](https://github.com/ekadetov/llm-wiki) |  |
+| [vanillaflava/llm-wiki-claude-skills](https://github.com/vanillaflava/llm-wiki-claude-skills) |  |
+
+## 🐭browser
+
+| 项目 | 描述 |
+|------|------|
+| [eze-is/web-access](https://github.com/eze-is/web-access) |  |
+
+## 🤩skill
+
+| 项目 | 描述 |
+|------|------|
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) |  |
+| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip) |  |
+| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) |  |
+| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |  |
+| [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) |  |
+
+## 🥸manager
+
+| 项目 | 描述 |
+|------|------|
+| [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) |  |
+| [superset-sh/superset](https://github.com/superset-sh/superset) |  |
+| [lidangzzz/goal-driven](https://github.com/lidangzzz/goal-driven) |  |
+
+## 🐙论文
+
+| 项目 | 描述 |
+|------|------|
+| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |  |
+| [delibae/claude-prism](https://github.com/delibae/claude-prism) |  |
+| [SnailTyan/deep-learning-papers-translation](https://github.com/SnailTyan/deep-learning-papers-translation) |  |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |  |
+| [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |  |
+| [blader/humanizer](https://github.com/blader/humanizer) |  |
 
 ## 🍋工具
 
@@ -80,17 +131,6 @@
 | [denizsafak/abogen](https://github.com/denizsafak/abogen) |  |
 | [jarodise/pdf2epub-paddle](https://github.com/jarodise/pdf2epub-paddle) |  |
 
-## 🌪️obsidian
-
-| 项目 | 描述 |
-|------|------|
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |  |
-| [reuseman/flashcards-obsidian](https://github.com/reuseman/flashcards-obsidian) |  |
-| [fakechris/obsidian_vault_pipeline](https://github.com/fakechris/obsidian_vault_pipeline) |  |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) |  |
-| [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent) |  |
-| [owenliang60-ship-it/knowledge-mgmt](https://github.com/owenliang60-ship-it/knowledge-mgmt) |  |
-
 ## 😃FUnny
 
 | 项目 | 描述 |
@@ -101,15 +141,6 @@
 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) |  |
 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) |  |
 | [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island) |  |
-
-## 🐙论文
-
-| 项目 | 描述 |
-|------|------|
-| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) |  |
-| [delibae/claude-prism](https://github.com/delibae/claude-prism) |  |
-| [SnailTyan/deep-learning-papers-translation](https://github.com/SnailTyan/deep-learning-papers-translation) |  |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |  |
 
 ## 👻memory
 
@@ -125,14 +156,6 @@
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |  |
 | [garrytan/gstack](https://github.com/garrytan/gstack) |  |
 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) |  |
-
-## 🤩skill
-
-| 项目 | 描述 |
-|------|------|
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) |  |
-| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip) |  |
-| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) |  |
 
 ## 🫥科普
 
@@ -219,13 +242,6 @@
 | 项目 | 描述 |
 |------|------|
 | [ImageOptim/ImageOptim](https://github.com/ImageOptim/ImageOptim) |  |
-
-## 🥸manager
-
-| 项目 | 描述 |
-|------|------|
-| [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) |  |
-| [superset-sh/superset](https://github.com/superset-sh/superset) |  |
 
 ## 未分类
 

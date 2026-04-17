@@ -1,10 +1,13 @@
 ---
-title: "你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作"
-source: "https://x.com/GoSailGlobal/status/2039500792202412094"
+title: 你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作
+source: https://x.com/GoSailGlobal/status/2039500792202412094
 author:
   - "[[@GoSailGlobal]]"
 published: 2026-04-02
 created: 2026-04-09
+tags:
+  - OpenClaw
+  - 多Agent协作
 ---
 大多数人用 OpenClaw 的方式是一个 Agent 干所有事。写代码找它，写推文也找它，做分析还是找它。就像一个人同时当 CEO、CTO 和 CMO，不是不行，但效率和质量都上不去
 
@@ -12,7 +15,7 @@ created: 2026-04-09
 
 ![[f6a0d43fc0df94be518cbd1ebaaaaa90_MD5.jpg]]
 
-## 四虾阵：四只龙虾各司其职
+# 四虾阵：四只龙虾各司其职
 
 ![[8505994b1251e8a1151b645c6803478d_MD5.jpg]]
 
@@ -28,7 +31,7 @@ created: 2026-04-09
 
 核心思路就一句话：贵的模型只给最需要质量的环节，其他尽量白嫖
 
-## 搭建过程：每个Agent有自己的人格
+# 搭建过程：每个Agent有自己的人格
 
 ![[eadc57b55570be743acdc127a69f6d67_MD5.jpg]]
 
@@ -48,7 +51,7 @@ Embedding 用本地离线的 Xenova，零成本不调 API。Summarizer 用 MiniM
 
 OpenClaw 记忆面板跑在 18799 端口，通过 Gateway 的本地 token 控制权限。只需要 openclaw.json 里 gateway.auth.token 的后四位就行
 
-## 团队共享：MemOS Hub 打通记忆
+# 团队共享：MemOS Hub 打通记忆
 
 ![[95459013b70b41057afa8cb19a210493_MD5.jpg]]
 
@@ -68,7 +71,7 @@ MemOS Hub 让共享数据集中管理
 
 共享记忆之后，跨 Agent 复用信息的成本极低。笔锋学会的写作套路谋士也能参考，小龙虾记得每个 Agent 的能力边界
 
-## 实战数据：写→审→改全流程
+# 实战数据：写→审→改全流程
 
 ![[96802d0e855d59bac6d78b2c6214eeb0_MD5.jpg]]
 
@@ -78,7 +81,7 @@ MemOS Hub 让共享数据集中管理
 
 日常运行状态下只有小龙虾在持续消耗（因为要接飞书消息做调度判断），其他三个 Agent 都是按需唤醒。日常成本：一杯咖啡钱都不到
 
-## 踩过的坑
+# 踩过的坑
 
 免费模型响应慢，GPT-5.4 大概5分钟。解决方案是 fire-and-forget + 异步回传。小龙虾把任务派出去就不等了，谁先做完谁主动汇报
 
@@ -87,5 +90,3 @@ MemOS Hub 让共享数据集中管理
 给码力的任务描述写得太短，出来的脚本就是最简版。多 Agent 协作不代表你可以偷懒写 prompt，每个 Agent 的输入质量决定输出质量
 
 你不需要先有团队。很多时候你只需要先有一个能分工的虾队
-
-MemOS 开源地址：[https://github.com/MemTensor/MemOS](https://github.com/MemTensor/MemOS) OpenClaw 开源地址：[https://github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)

@@ -4,8 +4,8 @@
   "title": "Process image",
   "titleGenerationStatus": "success",
   "createdAt": 1776338825706,
-  "updatedAt": 1776338852765,
-  "lastResponseAt": 1776338852765,
+  "updatedAt": 1776391098910,
+  "lastResponseAt": 1776390522065,
   "sessionId": "987703f3-0248-47b4-95a3-550d5ac246a5",
   "providerState": {
     "providerSessionId": "987703f3-0248-47b4-95a3-550d5ac246a5"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "sonnet",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 25550,
+    "cacheCreationInputTokens": 28631,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 25551,
-    "percentage": 13,
+    "contextTokens": 28632,
+    "percentage": 14,
     "contextWindowIsAuthoritative": true
   }
 }

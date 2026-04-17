@@ -11,9 +11,10 @@ tags:
   - tool
   - AI
   - ClaudeCode
+Github:
 ---
 
-tech graph expands from 5 styles to 7:
+tech graph expands from 5 styles to 7:1
 
 1 Added Claude and OpenAI styles
 
@@ -66,10 +67,7 @@ Auto-validate SVG syntax, batch-test all styles, one-click PNG export. No more m
 
 自动验证 SVG 语法，批量测试所有样式，一键导出 PNG。不再需要手动检查图表是否正确渲染——脚本会支持你。SVG 调试会疯狂消耗代币，所以我今天测试花了 100 多美元;帮你省点钱，哈哈 💰  
   
-Welcome to install and star:
 
-🔗 https://github.com/yizhiyanhua-ai/fireworks-tech-graph…  
-  
 #ClaudeCode #SVG #UML #TechDiagram #AI #DiagramAsCode
 
 

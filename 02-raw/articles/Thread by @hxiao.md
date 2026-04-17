@@ -41,7 +41,7 @@ Why I cut web grounding IO in Phase 2?
 
 • 成本：Web IO 会刻录解析 HTML 噪声的令牌。本地文件已经是干净的
 
-![Image](https://pbs.twimg.com/media/HGB05GyaIAAIurd?format=jpg&name=large)
+![[751db894c848666ec0062e181522f349_MD5.jpg]]
 
 ---
 
@@ -71,7 +71,7 @@ Seems like a natural emergence of what typical research execution looks like of 
 it somehow reminds those offline browser in early 1995-2000. dump the website, read'em later. i found keeping p1's "knowledge dump" deterministic is important for p2 to reliably run, trace and cross-check  
 这让人想起了 1995-2000 年初的离线浏览器。把网站扔掉，之后再看。我发现保持 P1 的“知识倾倒”确定性对于 P2 的可靠运行、追踪和交叉核对非常重要
 
-![Image](https://pbs.twimg.com/media/HGB9W9MbEAAIrRD?format=png&name=large)
+![[ee23cc3aac63450ec6387bcc947590ba_MD5.png]]
 
 ---
 
@@ -94,4 +94,4 @@ The exploration-exploitation framing is neat! Though I don't understand how phas
 
 what u say is conceptually fair. but in practice, the agents give up so quickly. it has all the knowledge dump and try some thinking and just 🤷‍♂️ and say "nope, no idea, im done." no, u r not done, u didn't read & think the knowledge I gave u carefully enough. try harder, run
 
-![Image](https://pbs.twimg.com/media/HGCEkQTa4AAhAQ5?format=png&name=large)
+![[a833b8b0c522de5f3823fb250682ff28_MD5.png]]

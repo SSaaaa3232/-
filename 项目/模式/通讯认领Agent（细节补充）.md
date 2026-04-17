@@ -10,7 +10,6 @@ tags:
   - Agent
   - Git
 ---
-**Tim** @timyangnet [2026-04-11](https://x.com/timyangnet/status/2043086842762014744)
 
 大家经常说的编排（Orchestration）Agent 似乎也不是必须，看 Anthropic 那个让 16 个 agent 并行两周不打架的案例：
 
