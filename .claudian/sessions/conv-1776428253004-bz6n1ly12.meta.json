@@ -4,20 +4,20 @@
   "title": "Compare Claude Obsidian and LLM Wiki Agent",
   "titleGenerationStatus": "success",
   "createdAt": 1776428253005,
-  "updatedAt": 1776428442177,
-  "lastResponseAt": 1776428442177,
+  "updatedAt": 1776429417786,
+  "lastResponseAt": 1776429417786,
   "sessionId": "2571af26-a2bd-4801-945e-322ad4ce275c",
   "providerState": {
     "providerSessionId": "2571af26-a2bd-4801-945e-322ad4ce275c"
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 10,
-    "cacheCreationInputTokens": 12446,
-    "cacheReadInputTokens": 21991,
+    "inputTokens": 3259,
+    "cacheCreationInputTokens": 4975,
+    "cacheReadInputTokens": 69541,
     "contextWindow": 200000,
-    "contextTokens": 34447,
-    "percentage": 17,
+    "contextTokens": 77775,
+    "percentage": 39,
     "contextWindowIsAuthoritative": true
   }
 }
