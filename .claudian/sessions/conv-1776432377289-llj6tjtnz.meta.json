@@ -4,20 +4,20 @@
   "title": "Summarize file contents",
   "titleGenerationStatus": "success",
   "createdAt": 1776432377290,
-  "updatedAt": 1776432997062,
-  "lastResponseAt": 1776432997062,
+  "updatedAt": 1776435641807,
+  "lastResponseAt": 1776435641807,
   "sessionId": "f4b434ac-6ea3-45ba-b16c-6191d882c1b7",
   "providerState": {
     "providerSessionId": "f4b434ac-6ea3-45ba-b16c-6191d882c1b7"
   },
   "usage": {
     "model": "sonnet",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 1478,
-    "cacheReadInputTokens": 59962,
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 69787,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 61441,
-    "percentage": 31,
+    "contextTokens": 69790,
+    "percentage": 35,
     "contextWindowIsAuthoritative": true
   }
 }
