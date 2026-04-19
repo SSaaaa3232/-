@@ -11,10 +11,14 @@
             "id": "f51696b6f29b3ba6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "第一次过程性考试.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "第一次过程性考试"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"衍生2\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,12 +74,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -210,11 +214,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 607.5
+    "width": 481.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,8 +240,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ebd43352eee3ad24",
+  "active": "f51696b6f29b3ba6",
   "lastOpenFiles": [
+    "第一次过程性考试.md",
+    "math",
     "wiki/log.md",
     "wiki/index.md",
     "wiki/overview.md",
@@ -270,7 +277,6 @@
     "wiki/gaps/_index.md",
     "wiki/entities/owenliang60.md",
     "wiki/entities/_index.md",
-    "wiki/domains/_index.md",
     "wiki/synthesis",
     "wiki/themes",
     "wiki/courses",
@@ -279,7 +285,6 @@
     "wiki/thesis",
     "wiki/papers",
     "wiki/resources",
-    "wiki/areas",
     "image/e52e9ec411c4a90223ed24a2664ceeac_MD5.jpg",
     "image/63f5072b7d5f83d00af3db5857647fcd_MD5.jpg",
     "image/96802d0e855d59bac6d78b2c6214eeb0_MD5 1.jpg",
