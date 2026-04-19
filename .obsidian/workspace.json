@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "886a205293cbfbf1",
+        "id": "2b65a692d0daa17a",
         "type": "tabs",
         "children": [
           {
-            "id": "082645677127f3e6",
+            "id": "f51696b6f29b3ba6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/Wiki 为谁而建.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Wiki 为谁而建"
-            }
-          },
-          {
-            "id": "3bac6fe445c392e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/log.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "log"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"衍生2\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +70,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,12 +106,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "README 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -138,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "自律 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -230,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -255,10 +235,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "3bac6fe445c392e8",
+  "active": "ebd43352eee3ad24",
   "lastOpenFiles": [
-    "wiki/index.md",
     "wiki/log.md",
+    "wiki/index.md",
     "wiki/overview.md",
     "wiki/concepts/Wiki 为谁而建.md",
     "raw/团队team/方法论/深度研究.md",
