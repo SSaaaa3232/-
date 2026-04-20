@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/密钥.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "密钥"
+              "title": "任务清单"
             }
           }
         ]
@@ -241,6 +241,7 @@
   },
   "active": "f51696b6f29b3ba6",
   "lastOpenFiles": [
+    "清单/密钥.md",
     "第一次过程性考试.md",
     "math",
     "wiki/log.md",
@@ -275,7 +276,6 @@
     "wiki/goals/_index.md",
     "wiki/gaps/_index.md",
     "wiki/entities/owenliang60.md",
-    "wiki/entities/_index.md",
     "wiki/synthesis",
     "wiki/themes",
     "wiki/courses",
