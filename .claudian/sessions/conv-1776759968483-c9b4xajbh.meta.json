@@ -4,8 +4,8 @@
   "title": "Restructure Markdown and retitle section",
   "titleGenerationStatus": "success",
   "createdAt": 1776759968483,
-  "updatedAt": 1776775274267,
-  "lastResponseAt": 1776775274267,
+  "updatedAt": 1776779306568,
+  "lastResponseAt": 1776779306568,
   "sessionId": "aa859158-8a19-4fb4-b42e-d905ae3c9c80",
   "providerState": {
     "providerSessionId": "aa859158-8a19-4fb4-b42e-d905ae3c9c80"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "sonnet",
     "inputTokens": 10,
-    "cacheCreationInputTokens": 57248,
-    "cacheReadInputTokens": 0,
+    "cacheCreationInputTokens": 1688,
+    "cacheReadInputTokens": 57829,
     "contextWindow": 200000,
-    "contextTokens": 57258,
-    "percentage": 29,
+    "contextTokens": 59527,
+    "percentage": 30,
     "contextWindowIsAuthoritative": true
   }
 }
