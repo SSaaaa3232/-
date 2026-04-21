@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/skill清单.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "skill清单"
+              "title": "任务清单"
             }
           }
         ]
@@ -241,6 +241,7 @@
   },
   "active": "3658ef3edaf5e3ea",
   "lastOpenFiles": [
+    "清单/skill清单.md",
     "image/bfe94ed79ae25af0416cc318ed60fc70_MD5.jpg",
     "02-raw/articles/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
     "image/acdd535a145b93e491de4e99b82f8022_MD5.jpg",
