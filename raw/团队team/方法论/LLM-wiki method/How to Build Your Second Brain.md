@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[LLM Wiki Pattern]]"
 title: "How to Build Your Second Brain"
 source: "https://x.com/NickSpisak_/status/2040448463540830705"
 author:

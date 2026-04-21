@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[AutoAgent 自优化代理]]"
 title: "AutoAgent: first open source library for self-optimizing agents"
 source: "https://x.com/kevingu/status/2039843234760073341"
 author:

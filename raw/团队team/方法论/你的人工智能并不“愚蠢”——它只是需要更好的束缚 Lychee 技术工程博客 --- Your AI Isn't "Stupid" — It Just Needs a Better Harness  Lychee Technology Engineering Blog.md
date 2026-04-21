@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Harness Engineering]]"
 title: "你的人工智能并不“愚蠢”——它只是需要更好的束缚 |Lychee 技术工程博客 --- Your AI Isn't \"Stupid\" — It Just Needs a Better Harness | Lychee Technology Engineering Blog"
 source: "https://blog.ltbase.dev/posts/agents/harness-engineering"
 author:

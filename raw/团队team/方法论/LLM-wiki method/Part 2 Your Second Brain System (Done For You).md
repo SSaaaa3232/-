@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[LLM Wiki Pattern]]"
 title: "Part 2: Your Second Brain System (Done For You)"
 source: "https://x.com/NickSpisak_/status/2041243686265090076"
 author:

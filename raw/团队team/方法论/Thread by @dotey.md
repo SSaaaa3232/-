@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Knowledge MEMO]]"
 title: "Thread by @dotey"
 source: "https://x.com/dotey/status/2044660793153655205"
 author:

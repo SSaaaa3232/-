@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[LLM Wiki Pattern]]"
 title: "Thread by @0xKingsKuan"
 source: "https://x.com/0xKingsKuan/status/2041173514355372356"
 author:

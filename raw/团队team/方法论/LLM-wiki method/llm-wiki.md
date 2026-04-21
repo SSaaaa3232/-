@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[LLM Wiki Pattern]]"
 title: "llm-wiki"
 source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 author:

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[知识图谱]]"
 title: "Everything Is Connected 一切都是相互关联的"
 source: "https://x.com/techwith_ram/status/2042933925832724538"
 author:

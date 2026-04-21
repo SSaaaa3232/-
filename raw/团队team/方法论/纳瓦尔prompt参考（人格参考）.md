@@ -1,4 +1,7 @@
 ---
+ingested: 2026-04-17
+wiki_page: null
+ingested_note: "skipped — 系统提示模板，无新概念"
 created: 2026-04-07
 modified: 2026-04-07
 category: uncategorized

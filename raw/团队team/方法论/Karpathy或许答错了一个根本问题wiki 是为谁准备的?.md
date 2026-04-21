@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Wiki 为谁而建]]"
 title: "Karpathy或许答错了一个根本问题:wiki 是为谁准备的?"
 source: "https://x.com/owenliang60/status/2043521532673360325"
 author:

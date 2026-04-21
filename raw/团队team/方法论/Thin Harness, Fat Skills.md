@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Thin Harness Fat Skills]]"
 title: 三个框架
 source: https://x.com/KKaWSB/status/2044610786560221674
 author:

@@ -58,7 +58,14 @@ vault/
 
 - 所有笔记使用 YAML frontmatter：type / status / created / updated / tags（最少字段）
 - 链接使用 `[[Note Name]]` 格式，文件名唯一，无需路径
-- `.raw/` 存放原始文件，**永远不修改**
+- `.raw/` 存放原始文件，**永远不修改内容**；**唯一例外**：ingest 完成后在文件头部追加 ingest 标记 frontmatter：
+  ```yaml
+  ---
+  ingested: YYYY-MM-DD
+  wiki_page: "[[Wiki Page Name]]"
+  ---
+  ```
+  增量 ingest 前先检查文件是否已有 `ingested` 字段，有则跳过
 - `wiki/index.md` 是主目录，每次 ingest 后更新
 - `wiki/log.md` 只追加，新条目放在**顶部**，不编辑过去条目
 - `wiki/hot.md` 每次操作后更新，保持 ~500 词

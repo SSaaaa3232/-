@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Agent 安全]]"
 title: "The Shorthand Guide to Everything Agentic Security"
 source: "https://x.com/affaanmustafa/status/2033263813387223421"
 author:

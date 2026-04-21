@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Harness Engineering]]"
 title: "Harness Engineering 驾驭工程 零基础入门教程"
 source: "https://x.com/Pluvio9yte/status/2040453746497302871"
 author:

@@ -15,7 +15,8 @@
       "Bash(mkdir -p /Users/saaaaa/.claude/skills/image)",
       "Edit(~/.claude/skills/image/**)",
       "Skill(wiki)",
-      "Skill(wiki:*)"
+      "Skill(wiki:*)",
+      "Edit(/Users/saaaaa/Obsidian-Template/raw/团队team/方法论/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md)"
     ]
   },
   "model": "haiku",

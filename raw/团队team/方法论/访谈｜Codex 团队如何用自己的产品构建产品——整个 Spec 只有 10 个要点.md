@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[Codex 团队极简管理]]"
 title: 访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点
 source: https://x.com/dotey/status/2041056119183851930
 author:

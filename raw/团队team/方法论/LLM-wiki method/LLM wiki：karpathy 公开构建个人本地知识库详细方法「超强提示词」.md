@@ -1,4 +1,6 @@
 ---
+ingested: 2026-04-17
+wiki_page: "[[LLM Wiki Pattern]]"
 title: "LLM wiki：karpathy 公开构建个人本地知识库详细方法「超强提示词」"
 source: "https://mp.weixin.qq.com/s/q1yTW_fXaxtzvBYRdzJzyQ"
 author:
