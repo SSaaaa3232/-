@@ -10,6 +10,14 @@ tags:
   - automate
   - Skill
 ---
+# 目录：
+
+执行约束和行为触发：
+
+- CLAUDE.md和AGENTS.md
+方法论认知：
+
+- MEMORY.md
 # 自己写： `~/.agents/skills/
 
 | ✅ / ❌ | 命令行          | 简介                   | 实现难度⭐️     | 参考     | 依赖     |
