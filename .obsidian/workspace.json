@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md",
+                "file": "02-raw/articles/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚"
+              "title": "2.92亿美元46分钟消失：2026年最大DeFi劫案解析"
             }
           }
         ],
@@ -267,8 +267,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "dbacae048a9f985b",
   "lastOpenFiles": [
+    "raw/团队team/技术/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md",
+    "raw/团队team/方法论/LLM-wiki method/Thread by @0xKingsKuan.md",
     "清单/skill清单.md",
     "raw/个人👤/skill/Huashu Design.md",
     "image/claude-obsidian-cover-square.png",
@@ -295,7 +297,6 @@
     "MEMORY 高层规则（待整理）.md",
     "清单/任务清单.md",
     "02-raw/articles/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
-    "02-raw/articles/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md",
     "02-raw/articles/Google Deepmind论文解读：如何给AI Agent 投毒.md",
     "02-raw/articles",
     "02-raw",
