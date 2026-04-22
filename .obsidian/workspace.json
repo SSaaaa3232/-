@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/skill清单.md",
+                "file": "清单/开通服务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "skill清单"
+              "title": "开通服务"
             }
           }
         ],
@@ -255,13 +255,13 @@
   },
   "active": "1514cbc5160baeb8",
   "lastOpenFiles": [
+    "清单/密钥.md",
+    "清单/工具清单.md",
+    "清单/skill清单.md",
     "清单/MCP清单.md",
     "清单/GitHub Stars.md",
     "清单/Githuber.md",
-    "清单/工具清单.md",
     "清单/人物.md",
-    "清单/密钥.md",
-    "清单/skill清单.md",
     "未命名.md",
     "未命名 1.md",
     "CLAUDE.md",
