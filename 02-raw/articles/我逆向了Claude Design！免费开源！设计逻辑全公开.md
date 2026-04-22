@@ -1,0 +1,209 @@
+---
+title: "我逆向了Claude Design！免费开源！设计逻辑全公开"
+source: "https://x.com/AlchainHust/status/2046567787460431995"
+author:
+  - "[[@AlchainHust]]"
+published: 2026-04-21
+created: 2026-04-22
+---
+![[3d5835519387d64b7cee3e620f5cff0b_MD5.jpg]]
+
+我昨晚在X上发了条我要开源「Huashu Design」的预告，现在已经20多万阅读了。
+
+![[10f92176f2411a5be6f0dbbe900877f3_MD5.jpg]]
+
+让我比较惊讶的是，我的这条X推文和视频内容明明都是中文的，但这条X底下充斥着各种不同国度用户的期待👇
+
+![[db6c732497cb7670ef377c2db901a508_MD5.jpg]]
+
+这个表达也是很有趣
+
+![[1024f6ab889eb0a34d604487fb9aa557_MD5.jpg]]
+
+甚至还有好几个日本人和韩国人，似乎天下都苦Anthropic久矣
+
+![[2b2e92cd809b015bb7806bb393504679_MD5.jpg]]
+
+他们之所以感到这么兴奋，是因为他们看到了我用「Huashu Design」制作的宣传它自己的这条短片👇（建议打开声音享用）
+
+<video preload="none" tabindex="-1" playsinline="" aria-label="Embedded video" poster="https://pbs.twimg.com/amplify_video_thumb/2046488497264140288/img/eYeVRqDuWIqzp612.jpg" style="width: 100%; height: 100%; position: absolute; background-color: black; top: 0%; left: 0%; transform: rotate(0deg) scale(1.005);"><source type="video/mp4" src="blob:https://x.com/cce595c0-7da5-4d48-9a59-39e2d99a743f"></video>
+
+![[fadfcdad649c13bd92a2f56a603c512d_MD5.jpg]]
+
+0:25
+
+所以，我猜你看完之后也会有类似的兴奋和期待，真的...这么厉害吗？
+
+OK，我觉得我们可以先回头聊聊Claude Design。Anthropic发布当天，我大概我玩到了凌晨四点。
+
+那种兴奋感很久没有过了。让AI直接在对话里生成完整网页、生成可点的iOS原型。就差一步，我就要把Figma从Dock里拖出来删掉了（哦，然后我发现我从来就没装过...
+
+![[4ec6fe6b488ad70e1eb21baed673e283_MD5.jpg]]
+
+但，几天过去了。我发现自己再也没点开过Claude Design。
+
+不是它不好。Claude Design是这个赛道里目前最成熟的产品：品牌资产协议做得很细、组件机制很完善、和Claude Code的打通也算顺。但我依然用不下去。
+
+不是产品的问题，是我自己。我是一个宁愿让agent在终端里帮我干活，也不愿意打开任何图形界面的人。Claude Design再好，它依然是一个工具，需要我去操作它。
+
+所以这几天我做了两件有点奇怪的事情。
+
+**第一件，我让我的agent拆解了Claude Design本身。**包括社区流传出来的那份系统提示词，包括它的核心组件机制，包括它对品牌资产的处理协议。agent把这些逻辑蒸馏出来，做成了一份结构化的spec。
+
+第二件，我把这份spec，**结合我之前做过的所有设计类探索，写成了一个skill，**直接装进了我自己的Claude Code里。在耗费了上亿Token不停地测试、迭代、优化之后。
+
+终于！
+
+现在我每次需要设计任何东西，PPT、App原型、动画、变体探索，我只在终端里说一句话。agent会自己补全品牌资产、自己建立design spec、自己生成结果。我不需要打开任何界面。
+
+今天把它发布出来，叫 huashu-design。
+
+![[47af75067e7647e856606d760649b15d_MD5.jpg]]
+
+这篇文章讲三件事：我为什么做这个skill、它能做什么（带一堆案例）、以及它和Claude Design的差异在哪里。
+
+———
+
+## Agent-first vs GUI-first
+
+先说一个我最近越来越坚定的判断。
+
+Claude Design的本质，是把设计师塞进了Claude里面。它让你像和Canva、和Figma对话一样，用自然语言告诉设计师你想要什么，它给你生成出来，你再在它的画布上微调。这是一个更好的图形工具。
+
+huashu-design的本质不一样。它不想做图形工具，它想让图形工具这一层消失。
+
+你告诉agent你要什么，agent自己去读你的品牌资产、自己去建design spec、自己生成HTML结果、自己跑Playwright验证交付物没坏。整个过程你不打开任何界面。最后你看到的是一个能直接用的MP4、一张可以截图发朋友圈的PPT、一个能给产品经理演示的iOS原型。
+
+这两条路的差别，不是「哪个功能更强」，是 谁来操作工具。
+
+Claude Design是给Figma这代工具续命。huashu-design是让Figma这代工具自然消亡。
+
+我不是在说Figma会被杀死。Photoshop也没有被杀死，但今天大部分内容创作者已经不打开PS了，他们用Canva、用Midjourney、[用Remove.bg](http://xn--remove-2w4o.bg/)。PS没死，但PS的工作流被绕开了。Figma也会经历同样的事情。
+
+我不是设计师，我是一个让agent帮我做东西的人。真正的设计师可能会更喜欢Claude Design，那里有熟悉的画布、图层、组件变体。但对独立开发者、内容创作者、在终端里做产品的人来说，一个装在agent里的skill，比一个装在浏览器里的产品更顺手。
+
+![[5b5d2031750c5dada866e6696417317f_MD5.jpg]]
+
+——
+
+## 案例一 · 一次生成4个设计风格的演讲PPT
+
+我前几天要去准备一场关于AI心理学的演讲。
+
+按过去的习惯，这种事我会先打开Keynote，然后在里面挣扎大半天：到底用什么风格？学术一点还是活泼一点？黑白简约还是大胆配色？
+
+这次我在终端里只说了一句话。
+
+「我要做AI心理学的演讲PPT，内容大纲在这个文件里。不知道用什么风格，你推荐4个差异化方向给我选。」
+
+huashu-design启动了它的 设计方向顾问模式。从20种预置的设计哲学里（Pentagram的信息建筑、Field.io的运动诗学、Kenya Hara的东方极简、Sagmeister的实验先锋……），挑出4个互相差异最大的方向，然后并行启动4个agent，各自做了一套完整的演讲PPT。
+
+40分钟后，4套17页的PPT摆在我面前。
+
+北大学术版：克制的serif字体、大量留白、信息层级严格分明，像一篇学术海报。
+
+博尔赫斯文学版：深色背景、金色点缀、引用排版带有书籍感，每一页都像是从一本小说里撕下来的一章。
+
+投行严肃版：高对比黑白配色、图表驱动、右上角带页码和版权声明，一眼就知道是要给董事会看的。
+
+禅意极简版：大块负空间、一页一个关键字、配色只用米白和一种墨色，像日本平面设计师做的海报。
+
+![[5bb66614758ef481f1369a586c2ba347_MD5.jpg]]
+
+我没打开任何设计软件。我不需要去试那20种字体、不需要去挑配色方案、不需要自己搭版式。agent帮我做了所有的预设工作，我只需要做一件事： 选哪一套。
+
+最后我选了北大学术版。但另外3套也不会浪费。博尔赫斯版我可能留着做下一次读书分享，投行版可以改成商单的汇报PPT。一次生成，多次复用。
+
+这个体验在Claude Design里也能做，只是你需要跟它说4次、生成4次、消耗4次token。在skill里走的是API消耗，没有订阅quota的天花板，4个agent并行在本地的Claude Code里跑，可以随便试。
+
+———
+
+## 案例二 · 可点击的iOS App原型
+
+接下来是我这几天测的几个小原型。先说清楚：我自己不写代码，这些原型不是要上线的产品，是让skill拉练的验证demo，所有交互细节都是agent自己跑出来的。
+
+一个是AI番茄钟。当然了，我想任何独立开发者都搞过番茄钟。我们就试试吧。
+
+在终端里说：「我要做一个AI番茄钟iOS App的原型，核心是动态时长调整，给我4个核心屏幕，要真的可以点击切换。」
+
+十几分钟后，一个带真iPhone bezel（不是那种Web mockup感）的原型打开了。4个屏幕：首页任务选择、专注中的倒计时、被AI中断后的重新评估、专注总结。每个屏幕的tab和按钮都可以点，状态自动在屏幕之间流转。
+
+我想要的所有细节都在里面：图标用的是SF Symbols、字体是SF Pro、按钮的圆角是iOS 18的标准值、连底部的Home Indicator都画了。
+
+这还不是最值得说的。最值得说的是，它在交付前自己跑了一遍Playwright点击测试，确保我点每一个按钮都不会导致白屏或崩溃。这是我在skill里加的一条硬规则：App原型交付前必须跑自动点击测试，否则一半的「可点击原型」最后都是不能点的。
+
+我还用同样的方式做了Habit Tracker、Running追踪App、一个浮世绘主题的博物馆App。流程一模一样，交付质量也一样。
+
+![[51a471df0e51a5e26dbd3fb0ce7acbb5_MD5.jpg]]
+
+———
+
+## 方法论 · 品牌资产协议是我从Anthropic偷来的
+
+到这里我想大大方方承认一件事：huashu-design里最核心的一个理念，是从Claude Design流传出来的提示词里偷师的。
+
+那份提示词里反复强调一个核心原则： 好的高保真设计不是从白纸开始，而是从已有的设计上下文长出来。优先读用户的codebase、读design system、读UI kit，颜色优先从品牌系统里拿而不是凭空发明。
+
+原版prompt只给了这个哲学，没有给具体怎么做。但它给的已经够了——凭空画hi-fi一定是generic的，这是 区分65分作品和90分作品的分水岭。
+
+我在这个哲学之上，把它落成了skill里的一套5步硬流程，专门处理「用户提了一个品牌名，但没给资料」的场景：
+
+**Step 1 · 问。**一句话问清楚：「这个品牌有brand guidelines吗？有的话直接给我，没有的话我去搜。」
+
+**Step 2 · 搜官方品牌页。**典型路径是 <brand>.com/brand 或 brand.<brand>.com，没有就 <brand>.com/press。这些页面一般藏着最权威的logo和色值。
+
+**Step 3 · 下载资产，三条兜底路径。**真实世界里SVG logo经常拿不到，2026年的官网大多是Next.js SSR inline SVG，或者Cloudflare反爬返回403。按成功率递减：独立SVG文件 → 官网HTML全文（inline SVG会藏在里面）→ 产品截图取色。前一条失败立刻走下一条，绝不停。
+
+**Step 4 · grep提取真实色值。**绝对不能从记忆里猜品牌色。从下载的资产里用正则抓所有 [#xxxxxx](https://x.com/search?q=%23xxxxxx&src=hashtag_click) 的6位hex，按频率排序，过滤黑白灰。这里有个反直觉的点：产品截图里常有用户演示的其他品牌色（比如某个工具的截图里在演示喜茶红），那不是这个工具本身的色。同时出现两种强色时必须区分。
+
+**Step 5 · 固化为 brand-spec.md** 。前四步抽完的色值，如果只留在内存里，下一页就忘。必须写一份spec文件到项目根目录，让所有CSS变量引用这份文件。
+
+这5步每一步都有兜底，但 绝不可以静默跳过。agent是否走通这个协议，直接决定输出质量是65分还是90分。
+
+我做了一次v1和v2的A/B测试，同一批任务6个agent各跑一遍。结果是：v2的稳定性方差比v1低5倍。不是均值变高了很多，是更加稳定。稳定性的稳定性，这才是skill真正的护城河。
+
+![[d9a3acaf19cf6c7074d05a0d363bf428_MD5.jpg]]
+
+———
+
+## 我能做什么，做不到什么
+
+我不想装，这个skill做不到Claude Design的所有能力，把差距列出来。
+
+它能做：PPT（17+页完整deck，1920×1080可直接演示）、App原型（真iPhone bezel、可点击交互、自带Playwright验证）、动画Demo（时间轴驱动、60fps插帧、可导出MP4/GIF、带BGM和自动fade）、信息图和数据可视化、设计变体探索（并排对比多方向、或者用Tweaks实时调参）、品牌延伸物料（海报、卡片、社交媒体配图）。
+
+它做不到的：
+
+图层级可编辑的PPTX。Claude Design能导出到Figma，我做不到。我的产物是HTML，你可以截图、可以录屏、可以导出图片，但没法拖进Keynote改一个文字位置。这是我的skill的真实缺点。
+
+**复杂的Framer Motion级别动画。**我用的是React + Babel内联脚本，能做的是「时间轴驱动的slide动画」「60秒以内的叙事动画」。再复杂的（3D、物理模拟、粒子系统），超出skill边界。
+
+品牌资产完全空白的情况。如果你的需求是「帮我设计一个完全原创的品牌」，而我又拿不到任何参考，fallback的质量会掉到60-65分。不是skill的问题，是凭空画hi-fi本来就是last resort。
+
+我做的是一个80分的skill，不是一个100分的产品。但对不愿意打开图形界面的人， 80分的skill比100分的产品好用。
+
+———
+
+## 结尾
+
+Figma这代工具不会被杀死，只会在某一天被我们发现： 好像已经很久没打开过了。
+
+就像Dock里那些再也没点开过的图标。
+
+**感谢Anthropic把Claude Design的提示词写得那么清晰，让社区流传出来的那份spec足够完整，让我有机会把它的精髓吸收进自己的工作流。**
+
+这种基于其他产品灵感的二次创作，在agent时代会越来越多，这也是开源文化在AI时代的新形态。
+
+GitHub：[https://github.com/alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)
+
+> npx skills add alchaincyf/huashu-design
+
+<video preload="auto" tabindex="-1" playsinline="" aria-label="Embedded video" poster="https://pbs.twimg.com/tweet_video_thumb/HGaYDNgacAAAqZG.jpg" src="https://video.twimg.com/tweet_video/HGaYDNgacAAAqZG.mp4" type="video/mp4" style="width: 100%; height: 100%; position: absolute; background-color: black; top: 0%; left: 0%; transform: rotate(0deg) scale(1.005);"></video>
+
+![[20cb11457d1fd6a5acac42ae5563aa8c_MD5.jpg]]
+
+GIF
+
+装完在Claude Code里直接说「做一份PPT」「做个App原型」「做个动画」就行。
+
+如果你用了，欢迎在评论区告诉我哪里不够用。
