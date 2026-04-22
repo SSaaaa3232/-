@@ -57,6 +57,7 @@ tags:
 | 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] |       |
 | flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | ⭐️⭐️  |
 | technology diagram | https://github.com/yizhiyanhua-ai/fireworks-tech-graph                                           | [[diagram（tech-graph）fireworks]]         | ⭐️    |
+| 创作PPT，动画，app等      | https://github.com/alchaincyf/huashu-design                                                      | [[Huashu Design]]                        |       |
 |                    |                                                                                                  |                                          |       |
 |                    |                                                                                                  |                                          |       |
 

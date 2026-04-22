@@ -6,37 +6,7 @@ author:
 published: 2026-04-21
 created: 2026-04-22
 ---
-![[3d5835519387d64b7cee3e620f5cff0b_MD5.jpg]]
 
-我昨晚在X上发了条我要开源「Huashu Design」的预告，现在已经20多万阅读了。
-
-![[10f92176f2411a5be6f0dbbe900877f3_MD5.jpg]]
-
-让我比较惊讶的是，我的这条X推文和视频内容明明都是中文的，但这条X底下充斥着各种不同国度用户的期待👇
-
-![[db6c732497cb7670ef377c2db901a508_MD5.jpg]]
-
-这个表达也是很有趣
-
-![[1024f6ab889eb0a34d604487fb9aa557_MD5.jpg]]
-
-甚至还有好几个日本人和韩国人，似乎天下都苦Anthropic久矣
-
-![[2b2e92cd809b015bb7806bb393504679_MD5.jpg]]
-
-他们之所以感到这么兴奋，是因为他们看到了我用「Huashu Design」制作的宣传它自己的这条短片👇（建议打开声音享用）
-
-<video preload="none" tabindex="-1" playsinline="" aria-label="Embedded video" poster="https://pbs.twimg.com/amplify_video_thumb/2046488497264140288/img/eYeVRqDuWIqzp612.jpg" style="width: 100%; height: 100%; position: absolute; background-color: black; top: 0%; left: 0%; transform: rotate(0deg) scale(1.005);"><source type="video/mp4" src="blob:https://x.com/cce595c0-7da5-4d48-9a59-39e2d99a743f"></video>
-
-![[fadfcdad649c13bd92a2f56a603c512d_MD5.jpg]]
-
-0:25
-
-所以，我猜你看完之后也会有类似的兴奋和期待，真的...这么厉害吗？
-
-OK，我觉得我们可以先回头聊聊Claude Design。Anthropic发布当天，我大概我玩到了凌晨四点。
-
-那种兴奋感很久没有过了。让AI直接在对话里生成完整网页、生成可点的iOS原型。就差一步，我就要把Figma从Dock里拖出来删掉了（哦，然后我发现我从来就没装过...
 
 ![[4ec6fe6b488ad70e1eb21baed673e283_MD5.jpg]]
 
@@ -162,9 +132,7 @@ huashu-design启动了它的 设计方向顾问模式。从20种预置的设计�
 
 我做了一次v1和v2的A/B测试，同一批任务6个agent各跑一遍。结果是：v2的稳定性方差比v1低5倍。不是均值变高了很多，是更加稳定。稳定性的稳定性，这才是skill真正的护城河。
 
-![[d9a3acaf19cf6c7074d05a0d363bf428_MD5.jpg]]
-
-———
+——
 
 ## 我能做什么，做不到什么
 
@@ -197,13 +165,3 @@ Figma这代工具不会被杀死，只会在某一天被我们发现： 好像�
 GitHub：[https://github.com/alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)
 
 > npx skills add alchaincyf/huashu-design
-
-<video preload="auto" tabindex="-1" playsinline="" aria-label="Embedded video" poster="https://pbs.twimg.com/tweet_video_thumb/HGaYDNgacAAAqZG.jpg" src="https://video.twimg.com/tweet_video/HGaYDNgacAAAqZG.mp4" type="video/mp4" style="width: 100%; height: 100%; position: absolute; background-color: black; top: 0%; left: 0%; transform: rotate(0deg) scale(1.005);"></video>
-
-![[20cb11457d1fd6a5acac42ae5563aa8c_MD5.jpg]]
-
-GIF
-
-装完在Claude Code里直接说「做一份PPT」「做个App原型」「做个动画」就行。
-
-如果你用了，欢迎在评论区告诉我哪里不够用。
