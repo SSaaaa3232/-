@@ -1,16 +1,14 @@
 ---
-title: "Google Deepmind论文解读：如何给AI Agent 投毒"
-source: "https://x.com/vista8/status/2046038788582088830"
+title: Google Deepmind论文解读：如何给AI Agent 投毒
+source: https://x.com/vista8/status/2046038788582088830
 author:
   - "[[@vista8]]"
 published: 2026-04-20
 created: 2026-04-20
+论文AI Agent Traps: "[https://download.ssrn.com/2026/3/8/6372438.pdf](https://download.ssrn.com/2026/3/8/6372438.pdf)"
 ---
-![[2df42ea3de51de9fb92775dccd4c4586_MD5.jpg]]
 
 2026 年 3 月，Google DeepMind 发布了一篇论文，题目叫《AI Agent Traps》。
-
-下载地址：[https://download.ssrn.com/2026/3/8/6372438.pdf](https://download.ssrn.com/2026/3/8/6372438.pdf)
 
 五位研究者做了一件之前没人系统做过的事：**把所有已知的、针对 AI Agent 的攻击方式，第一次完整地梳理成一套框架**。
 

@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "normal",
-  "model": "sonnet",
-  "thinkingBudget": "low",
+  "model": "opus",
+  "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -30,7 +30,8 @@
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
-      "lastModel": "sonnet",
+      "customModels": "",
+      "lastModel": "opus",
       "environmentVariables": "ANTHROPIC_API_KEY=sk-of-OoNcQINHAtjvVTHLcRuPXiuWLbdIQymsXTfsIpcRPrjiXsvcJpXoIvUMxVsHTufa\nANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic\n",
       "environmentHash": "ANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic"
     },
@@ -40,8 +41,8 @@
       "cliPath": "",
       "cliPathsByHost": {},
       "reasoningSummary": "auto",
-      "environmentVariables": "",
-      "environmentHash": "",
+      "environmentVariables": "OPENAI_API_KEY=sk-of-cynJyZEVdDJOZeFRrMVFRZKnbMhgbeHxNkhluTNHumFtIWdUyoRwxQOSTsqUiFwo\nOPENAI_BASE_URL= https://api.ofox.ai/v1\nCODEX_SANBOX=workspace-write",
+      "environmentHash": "OPENAI_API_KEY=sk-of-cynJyZEVdDJOZeFRrMVFRZKnbMhgbeHxNkhluTNHumFtIWdUyoRwxQOSTsqUiFwo|OPENAI_BASE_URL=https://api.ofox.ai/v1",
       "installationMethodsByHost": {
         "sadeMacBook-Air.local": "native-windows"
       },
@@ -50,14 +51,19 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "sonnet"
+    "claude": "opus",
+    "codex": "gpt-5.4"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "high",
+    "codex": "high"
   },
-  "savedProviderServiceTier": {},
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
   "savedProviderThinkingBudget": {
-    "claude": "low"
+    "claude": "medium",
+    "codex": "low"
   },
   "lastCustomModel": "MiniMax-M2.7",
   "maxTabs": 3,

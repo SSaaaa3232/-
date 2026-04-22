@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-raw/articles/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
+                "file": "raw/个人👤/分析/Google Deepmind论文解读：如何给AI Agent 投毒.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.92亿美元46分钟消失：2026年最大DeFi劫案解析"
+              "title": "Google Deepmind论文解读：如何给AI Agent 投毒"
             }
           }
         ],
@@ -222,16 +222,6 @@
             }
           },
           {
-            "id": "0ff2346ea101fbfb",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
             "id": "1ca978258884b172",
             "type": "leaf",
             "state": {
@@ -242,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -267,8 +257,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "dbacae048a9f985b",
+  "active": "1ca978258884b172",
   "lastOpenFiles": [
+    "raw/个人👤/分析/Google Deepmind论文解读：如何给AI Agent 投毒.md",
+    "raw/个人👤/分析/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
+    "raw/个人👤/skill/diagram（tech-graph）fireworks.md",
     "raw/团队team/技术/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md",
     "raw/团队team/方法论/LLM-wiki method/Thread by @0xKingsKuan.md",
     "清单/skill清单.md",
@@ -296,8 +289,6 @@
     "WIKI.md",
     "MEMORY 高层规则（待整理）.md",
     "清单/任务清单.md",
-    "02-raw/articles/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
-    "02-raw/articles/Google Deepmind论文解读：如何给AI Agent 投毒.md",
     "02-raw/articles",
     "02-raw",
     "清单/第一次过程性考试.md",
@@ -307,7 +298,6 @@
     "wiki/overview.md",
     "wiki/concepts/Wiki 为谁而建.md",
     "raw/团队team/方法论/深度研究.md",
-    "wiki/concepts/深度研究两阶段法.md",
     "wiki/Wiki Map.canvas",
     "wiki/meta/dashboard.base",
     "wiki/synthesis",

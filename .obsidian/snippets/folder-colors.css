@@ -1,0 +1,123 @@
+/* ============================================================
+   folder-colors.css
+   每个文件夹独立配色，按语义分组
+   ============================================================ */
+
+/* ── wiki/ 核心知识库 ── */
+
+/* [D] 个人域 — 蓝紫色系 */
+.nav-folder-title[data-path="wiki/goals"]
+{ color: #7c9eff; }
+
+.nav-folder-title[data-path="wiki/areas"]
+{ color: #a8c4ff; }
+
+.nav-folder-title[data-path="wiki/people"]
+{ color: #c084fc; }
+
+.nav-folder-title[data-path="wiki/resources"]
+{ color: #f9a66c; }
+
+/* [E] 研究域 — 暖黄/绿色系 */
+.nav-folder-title[data-path="wiki/papers"]
+{ color: #ffd166; }
+
+.nav-folder-title[data-path="wiki/concepts"]
+{ color: #06d6a0; }
+
+.nav-folder-title[data-path="wiki/thesis"]
+{ color: #56cf82; }
+
+.nav-folder-title[data-path="wiki/gaps"]
+{ color: #ff6b6b; }
+
+/* [F] 读书/课程域 — 青蓝/橙色系 */
+.nav-folder-title[data-path="wiki/books"]
+{ color: #38bdf8; }
+
+.nav-folder-title[data-path="wiki/courses"]
+{ color: #86efac; }
+
+.nav-folder-title[data-path="wiki/themes"]
+{ color: #fb923c; }
+
+.nav-folder-title[data-path="wiki/synthesis"]
+{ color: #e9c46a; }
+
+/* 横向结构 — 中性色系 */
+.nav-folder-title[data-path="wiki/sources"]
+{ color: #94a3b8; }
+
+.nav-folder-title[data-path="wiki/entities"]
+{ color: #a0aec0; }
+
+.nav-folder-title[data-path="wiki/domains"]
+{ color: #90cdf4; }
+
+.nav-folder-title[data-path="wiki/comparisons"]
+{ color: #f6ad55; }
+
+.nav-folder-title[data-path="wiki/questions"]
+{ color: #81e6d9; }
+
+.nav-folder-title[data-path="wiki/learning"]
+{ color: #b794f4; }
+
+.nav-folder-title[data-path="wiki/canvases"]
+{ color: #fc8181; }
+
+.nav-folder-title[data-path="wiki/meta"]
+{ color: #718096; }
+
+/* wiki 根节点加粗 */
+.nav-folder-title[data-path="wiki"]
+{ color: #e2e8f0; font-weight: 700; letter-spacing: .02em; }
+
+/* ── raw/ 原始素材 — 低调灰绿色系 ── */
+.nav-folder-title[data-path="raw"]
+{ color: #6b7f6e; font-style: italic; }
+
+.nav-folder-title[data-path="raw/AI"]
+{ color: #7eb8b0; }
+
+.nav-folder-title[data-path="raw/04"]
+{ color: #8a9e8c; }
+
+.nav-folder-title[data-path^="raw/个人"]
+{ color: #a3b899; }
+
+.nav-folder-title[data-path^="raw/团队"]
+{ color: #9eb5b5; }
+
+.nav-folder-title[data-path^="raw/有意思"]
+{ color: #b8a89e; }
+
+.nav-folder-title[data-path^="raw/openclaw"]
+{ color: #c4a882; }
+
+/* ── .raw/ 剪藏原文 — 极低调 ── */
+.nav-folder-title[data-path=".raw"]
+{ color: #4a5568; opacity: 0.65; font-style: italic; }
+
+.nav-folder-title[data-path^=".raw/"]
+{ color: #4a5568; opacity: 0.5; }
+
+/* ── 02-raw ── */
+.nav-folder-title[data-path="02-raw"]
+{ color: #4a5568; opacity: 0.55; font-style: italic; }
+
+/* ── 顶层辅助文件夹 ── */
+.nav-folder-title[data-path="Excalidraw"]
+{ color: #f687b3; }
+
+.nav-folder-title[data-path="image"]
+{ color: #76a9fa; }
+
+.nav-folder-title[data-path="math"]
+{ color: #fbbf24; }
+
+.nav-folder-title[data-path="_templates"]
+{ color: #9ca3af; font-style: italic; }
+
+.nav-folder-title[data-path="清单"]
+{ color: #34d399; }

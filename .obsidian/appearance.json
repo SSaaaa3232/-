@@ -2,7 +2,5 @@
   "cssTheme": "Blue Topaz",
   "accentColor": "#889eaa",
   "theme": "system",
-  "enabledCssSnippets": [
-    "vault-colors"
-  ]
+  "enabledCssSnippets": []
 }
