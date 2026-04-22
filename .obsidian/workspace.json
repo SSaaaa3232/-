@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/读书清单.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读书清单"
-            }
-          },
-          {
-            "id": "2552721bc5403125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/04/博弈心理书单.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "博弈心理书单"
+              "title": "任务清单"
             }
           }
         ],
@@ -259,21 +245,32 @@
   },
   "active": "dbacae048a9f985b",
   "lastOpenFiles": [
+    "raw/04/个人成长/Mac-Bridge工作原理详解.md",
+    "raw/团队team/skill/PUA-Skill.md",
+    "raw/04/github工具/AutoClip.md",
+    "raw/04/github工具/browser-use.md",
+    "raw/04/github工具/Edit-Banana.md",
+    "raw/团队team/技术/Ralph-Loop自动循环.md",
+    "raw/团队team/skill/Scrapling-爬虫.md",
+    "raw/04/github工具/self-improving-agent.md",
+    "raw/04/github工具/Typeless.md",
+    "raw/04/github工具/Xcrawl.md",
+    "raw/团队team/模式/GudaStudio Commands.md",
+    "raw/团队team/技术/范式参考.md",
+    "raw/04/艺术家风格/墨比斯.md",
+    "raw/04/脑科学/神经可塑性.md",
+    "raw/04/2026-04-03-全球成长生产力博主推荐.md",
+    "清单/机器学习项目汇总.md",
+    "清单/各领域X账号推荐.md",
+    "清单/x-er.md",
+    "raw/04/学习路径与资源.md",
     "raw/04/博弈心理书单.md",
     "清单/读书清单.md",
-    "raw/04/学习路径与资源.md",
     "raw/04/必读书单.md",
     "raw/04/思维结构书单.md",
     "raw/团队team/cc/cc指南.md",
     "清单/skill清单.md",
     "raw/团队team/cc/8 Claude Code Hooks That Automate What You Keep Forgetting.md",
-    "raw/04/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
-    "raw/个人👤/分析/Google Deepmind论文解读：如何给AI Agent 投毒.md",
-    "raw/个人👤/分析/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
-    "raw/个人👤/skill/diagram（tech-graph）fireworks.md",
-    "raw/团队team/技术/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md",
-    "raw/团队team/方法论/LLM-wiki method/Thread by @0xKingsKuan.md",
-    "raw/个人👤/skill/Huashu Design.md",
     "image/claude-obsidian-cover-square.png",
     "image/welcome-canvas.gif",
     "image/wiki-graph-grow.gif",
@@ -284,17 +281,6 @@
     "image/claude-obsidian-cover-16x9.png",
     "image/claude-obsidian-gif-1x1.gif",
     "image/2b2e92cd809b015bb7806bb393504679_MD5.jpg",
-    "清单/开通服务.md",
-    "清单/密钥.md",
-    "清单/工具清单.md",
-    "清单/MCP清单.md",
-    "清单/GitHub Stars.md",
-    "清单/Githuber.md",
-    "清单/人物.md",
-    "未命名.md",
-    "未命名 1.md",
-    "CLAUDE.md",
-    "WIKI.md",
     "02-raw/articles",
     "02-raw",
     "math",

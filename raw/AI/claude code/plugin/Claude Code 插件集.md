@@ -127,7 +127,7 @@ category: Claude-Code
 
 ## 相关笔记
 
-- [[Ralph-Loop自动循环工具]] - Ralph Loop 详细说明（旧版独立项目，注意区分）
+- [[Ralph-Loop自动循环]] - Ralph Loop 详细说明（旧版独立项目，注意区分）
 
 ---
 

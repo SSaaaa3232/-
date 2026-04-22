@@ -3,7 +3,7 @@ created: 2026-04-04
 modified: 2026-04-04
 category: uncategorized
 ---
-# 各领域 X 账号推荐
+# X -er
 
 > 来源：https://x.com/aronhouyu/status/2034659605263909366
 > 作者：Aron厚玉
@@ -28,9 +28,3 @@ category: uncategorized
 | 实用 UI/UX 设计   | @steveschoger    |
 | 斯多葛哲学与心智成长    | @RyanHoliday     |
 | 出海运营          | @aronhouyu       |
-
----
-
-## 相关
-
-- 标签：#X #账号推荐 #学习资源

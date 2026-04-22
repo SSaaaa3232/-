@@ -5,13 +5,6 @@ tags:
   - github工具
 category: github工具
 ---
-# PUA Skill
-
-> AI Coding 技能插件 — 用"职场 PUA 话术"驱动 AI 穷尽所有方案
-
-**来源：** [tanweai/pua](https://github.com/tanweai/pua)
-
----
 
 ## 简介
 
@@ -71,11 +64,3 @@ claude skill install https://github.com/tanweai/pua
 # OpenAI Codex CLI
 codex skill install https://github.com/tanweai/pua
 ```
-
----
-
-## 相关
-
-- 标签：#工具 #AI #Coding #效率
-- Discord：https://discord.gg/EcyB3FzJND
-- Twitter：@xsser_w
