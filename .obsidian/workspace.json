@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "CLAUDE"
             }
+          },
+          {
+            "id": "ef3e0b2cbcc8ff21",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,8 +239,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "ef3e0b2cbcc8ff21",
   "lastOpenFiles": [
+    "raw/个人👤/方法论/艾宾浩斯记忆曲线.md",
     "raw/04/The Shorthand Guide to Everything Agentic Security.md",
     "raw/04/从零开始两天构建一个ClaudeCode.md",
     "清单/本地部署.md",
@@ -255,7 +267,6 @@
     "raw/04/github工具/Edit-Banana.md",
     "raw/团队team/技术/Ralph-Loop自动循环.md",
     "raw/团队team/skill/Scrapling-爬虫.md",
-    "raw/04/github工具/self-improving-agent.md",
     "image/claude-obsidian-cover-square.png",
     "image/welcome-canvas.gif",
     "image/wiki-graph-grow.gif",
