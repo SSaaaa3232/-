@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "CLAUDE"
             }
-          },
-          {
-            "id": "dbacae048a9f985b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/skill清单.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "skill清单"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,21 +228,25 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "dbacae048a9f985b",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "raw/04/The Shorthand Guide to Everything Agentic Security.md",
+    "raw/04/从零开始两天构建一个ClaudeCode.md",
+    "清单/本地部署.md",
+    "raw/04/写作是门手艺.md",
+    "raw/AI/本地部署.md",
+    "清单/skill清单.md",
+    "raw/AI/Vibe-Design-Stitch.md",
     "清单/人物.md",
     "清单/任务清单.md",
     "清单/各领域X账号推荐.md",
     "清单/密钥.md",
     "清单/工具清单.md",
     "清单/开通服务.md",
-    "清单/本地部署.md",
     "清单/机器学习项目汇总.md",
     "清单/模型测评.md",
     "清单/第一次过程性考试.md",
     "清单/读书清单.md",
-    "raw/04/The Shorthand Guide to Everything Agentic Security.md",
-    "清单/skill清单.md",
     "raw/04/个人成长/纳瓦尔拉维坎特44个人性真相.md",
     "raw/04/个人成长/Mac-Bridge工作原理详解.md",
     "raw/团队team/skill/PUA-Skill.md",
@@ -267,10 +256,6 @@
     "raw/团队team/技术/Ralph-Loop自动循环.md",
     "raw/团队team/skill/Scrapling-爬虫.md",
     "raw/04/github工具/self-improving-agent.md",
-    "raw/04/github工具/Typeless.md",
-    "raw/04/github工具/Xcrawl.md",
-    "raw/团队team/模式/GudaStudio Commands.md",
-    "raw/团队team/技术/范式参考.md",
     "image/claude-obsidian-cover-square.png",
     "image/welcome-canvas.gif",
     "image/wiki-graph-grow.gif",
