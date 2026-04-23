@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "清单/skill清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "skill清单"
             }
           }
         ],
@@ -245,8 +245,20 @@
   },
   "active": "dbacae048a9f985b",
   "lastOpenFiles": [
-    "raw/04/个人成长/纳瓦尔拉维坎特44个人性真相.md",
+    "清单/人物.md",
     "清单/任务清单.md",
+    "清单/各领域X账号推荐.md",
+    "清单/密钥.md",
+    "清单/工具清单.md",
+    "清单/开通服务.md",
+    "清单/本地部署.md",
+    "清单/机器学习项目汇总.md",
+    "清单/模型测评.md",
+    "清单/第一次过程性考试.md",
+    "清单/读书清单.md",
+    "raw/04/The Shorthand Guide to Everything Agentic Security.md",
+    "清单/skill清单.md",
+    "raw/04/个人成长/纳瓦尔拉维坎特44个人性真相.md",
     "raw/04/个人成长/Mac-Bridge工作原理详解.md",
     "raw/团队team/skill/PUA-Skill.md",
     "raw/04/github工具/AutoClip.md",
@@ -259,18 +271,6 @@
     "raw/04/github工具/Xcrawl.md",
     "raw/团队team/模式/GudaStudio Commands.md",
     "raw/团队team/技术/范式参考.md",
-    "raw/04/艺术家风格/墨比斯.md",
-    "raw/04/脑科学/神经可塑性.md",
-    "raw/04/2026-04-03-全球成长生产力博主推荐.md",
-    "清单/机器学习项目汇总.md",
-    "清单/各领域X账号推荐.md",
-    "清单/x-er.md",
-    "raw/04/学习路径与资源.md",
-    "raw/04/博弈心理书单.md",
-    "清单/读书清单.md",
-    "raw/04/必读书单.md",
-    "raw/04/思维结构书单.md",
-    "raw/团队team/cc/cc指南.md",
     "image/claude-obsidian-cover-square.png",
     "image/welcome-canvas.gif",
     "image/wiki-graph-grow.gif",
