@@ -222,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 515.5
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,7 +243,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ef3e0b2cbcc8ff21",
+  "active": "1ca978258884b172",
   "lastOpenFiles": [
     "raw/个人👤/方法论/艾宾浩斯记忆曲线.md",
     "raw/04/The Shorthand Guide to Everything Agentic Security.md",
