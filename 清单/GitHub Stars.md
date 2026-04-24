@@ -1,20 +1,33 @@
-# GitHub Stars
 
+
+## 😃FUnny
+
+| 项目                                                                                                | 描述             |
+| ------------------------------------------------------------------------------------------------- | -------------- |
+| [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)                           |                |
+| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)                                 | [[nuwa-skill]] |
+| [666ghj/MiroFish](https://github.com/666ghj/MiroFish)                                             |                |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)       |                |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)                                 |                |
+| [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island)                     |                |
+| [cclank/modelbox](https://github.com/cclank/modelbox)                                             |                |
+| [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |                |
+| [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper)                     |                |
+| [alchaincyf/x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)                         |                |
 
 ## 🤩skill
 
-| 项目 | 描述 |
-|------|------|
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) |  |
-| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip) |  |
-| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) |  |
-| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |  |
-| [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) |  |
-| [Jane-xiaoer/skill-vision-control](https://github.com/Jane-xiaoer/skill-vision-control) |  |
-| [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) |  |
-| [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) |  |
-| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) |  |
-| [SSaaaa3232/Nezikk-s-skills](https://github.com/SSaaaa3232/Nezikk-s-skills) |  |
+| 项目                                                                                      | 描述  |
+| --------------------------------------------------------------------------------------- | --- |
+| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip)                         |     |
+| [terrylica/cc-skills](https://github.com/terrylica/cc-skills)                           |     |
+| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)                   |     |
+| [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill)           |     |
+| [Jane-xiaoer/skill-vision-control](https://github.com/Jane-xiaoer/skill-vision-control) |     |
+| [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)                 |     |
+| [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow)                 |     |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill)                 |     |
+| [SSaaaa3232/Nezikk-s-skills](https://github.com/SSaaaa3232/Nezikk-s-skills)             |     |
 
 ## 🌪️obsidian
 
@@ -138,20 +151,6 @@
 |------|------|
 | [Jane-xiaoer/feishu-portfolio-launch](https://github.com/Jane-xiaoer/feishu-portfolio-launch) |  |
 | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) |  |
-
-## 😃FUnny
-
-| 项目 | 描述 |
-|------|------|
-| [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) |  |
-| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) |  |
-| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) |  |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) |  |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) |  |
-| [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island) |  |
-| [cclank/modelbox](https://github.com/cclank/modelbox) |  |
-| [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |  |
-| [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper) |  |
 
 ## 🐭browser
 
