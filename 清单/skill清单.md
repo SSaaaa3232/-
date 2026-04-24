@@ -30,36 +30,34 @@ tags:
 
 # 自己写： `~/.agents/skills/
 
-| ✅ / ❌ | 命令行          | 简介                         | 实现难度⭐️     | 参考     | 依赖     |
-| ----- | ------------ | -------------------------- | ---------- | ------ | ------ |
-| ❌     |              | x去噪音博主抓取                   | ⭐️⭐️       | xcrawl |        |
-| ❌     |              | github博主star获取             | ⭐️⭐️⭐️     |        |        |
-| ✅     | /git-down    | 同步github star目录            | ⭐️         |        |        |
-| ✅     | /image       | 一键obsidian归类image          | ⭐️         |        |        |
-| ❌     |              | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |        |        |
-|       |              |                            |            |        |        |
-| ❌     |              | PNG转化SVG图片                 | ⭐️⭐️       |        |        |
-| ❌     |              | 心理助手咨询                     | ⭐️⭐️⭐️     |        |        |
-| ❌     |              | 访谈抓取自动化                    | ⭐️⭐️       |        |        |
-| ❌     |              | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |        | 现成     |
-|       | /docx-create | docx-creater               | ⭐️         |        | pandoc |
-| ✅     | /translate   | synbio-academic-translator | ⭐️⭐️       | 论文翻译   | 合成生物   |
-|       |              |                            |            |        |        |
-|       |              |                            |            |        |        |
+| ✅ / ❌ | 命令行          | 简介                         | 实现难度⭐️     | 参考   | 依赖     |
+| ----- | ------------ | -------------------------- | ---------- | ---- | ------ |
+| ✅     | /git-down    | 同步github star目录            | ⭐️         |      |        |
+| ✅     | /image       | 一键obsidian归类image          | ⭐️         |      |        |
+| ❌     |              | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |      |        |
+| ❌     |              | PNG转化SVG图片                 | ⭐️⭐️       |      |        |
+| ❌     |              | 心理助手咨询                     | ⭐️⭐️⭐️     |      |        |
+| ❌     |              | 访谈抓取自动化                    | ⭐️⭐️       |      |        |
+| ❌     |              | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |      | 现成     |
+| ✅     | /docx-create | docx-creater               | ⭐️         |      | pandoc |
+| ✅     | /translate   | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
+|       |              |                            |            |      |        |
+|       |              |                            |            |      |        |
+|       |              |                            |            |      |        |
 
-# Github现成：
+# Git：
 
-| 常用命令行              | 地址                                                                                               | 具体参考                                     | 优先级⭐️ | 类型  |
-| ------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ----- | --- |
-| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[wiki/concepts/横纵分析法]]                  |       |     |
-| 生成 Logo 和图标        | [https://github.com/op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | [[AI 帮你生成 Logo 和图标]]                     |       |     |
-| 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] |       |     |
-| flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | ⭐️⭐️  |     |
-| technology diagram | https://github.com/yizhiyanhua-ai/fireworks-tech-graph                                           | [[diagram（tech-graph）fireworks]]         | ⭐️    |     |
-| 创作PPT，动画，app等      | https://github.com/alchaincyf/huashu-design                                                      | [[Huashu Design]]                        |       |     |
-|                    |                                                                                                  |                                          |       |     |
-|                    |                                                                                                  |                                          |       |     |
-|                    |                                                                                                  |                                          |       |     |
+| 常用命令行              | 地址                                                                                               | 具体参考                                     | 类型      | Level |
+| ------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ------- | ----- |
+| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[wiki/concepts/横纵分析法]]                  | 调研      | 初级    |
+| 生成 Logo 和图标        | [https://github.com/op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | [[AI 帮你生成 Logo 和图标]]                     | logo    |       |
+| 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] | image   |       |
+| flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | diagram |       |
+| technology diagram | https://github.com/yizhiyanhua-ai/fireworks-tech-graph                                           | [[diagram（tech-graph）fireworks]]         | diagram |       |
+| 创作PPT，动画，app等      | https://github.com/alchaincyf/huashu-design                                                      | [[Huashu Design]]                        | design  |       |
+|                    |                                                                                                  |                                          |         |       |
+|                    |                                                                                                  |                                          |         |       |
+|                    |                                                                                                  |                                          |         |       |
 
 
 ## 内容创作（5个）
@@ -190,14 +188,5 @@ Claude根据你的服务类型，自动生成欢迎邮件、入职问卷、流�
 
 先做这个，再做其他的。它告诉你从哪里开始。
 
-## 搭建方法（四步，通用所有方案）
-
-**第一步：定义输入输出。** "帮我做内容"太模糊。"每周一基于3个链接，输出800字Newsletter初稿，语气参考past-newsletters.md"——这才是可执行的。
-
-**第二步：写Skill文件。** Claude的岗位说明书。包含触发条件、执行步骤、输出格式。不需要写代码，写中文就行。
-
-**第三步：喂上下文。** 你的风格、你的规则、你的偏好、你的过往作品。上下文越精确，产出越像你。
-
-**第四步：用真实工作测试。** 不要用假数据。用你真正要交付的东西来测。迭代两三次就能稳定。
 
 

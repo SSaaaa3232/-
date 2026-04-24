@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/skill清单.md",
+                "file": "清单/GitHub Stars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "skill清单"
+              "title": "GitHub Stars"
+            }
+          },
+          {
+            "id": "d711492b9172fb45",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -207,7 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,6 +240,21 @@
   },
   "active": "4058152d9cb5496d",
   "lastOpenFiles": [
+    "清单/skill清单.md",
+    "raw/个人👤/分析/人物/Cat wu/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
+    "raw/个人👤/skill/design/PPT Skill.md",
+    "raw/articles/04/The Shorthand Guide to Everything Agentic Security.md",
+    "raw/articles/04/从零开始两天构建一个ClaudeCode.md",
+    "raw/articles/04/书单/第一性原理.md",
+    "raw/articles/04/书单/世界观-理查德德威特.md",
+    "raw/articles/04/书单/New-Ideas-from-Dead-Economists.md",
+    "raw/个人👤/skill/design/illustrator and image skill （prompt）.md",
+    "raw/articles/04/书单/《The Anthology of Elon Musk》.md",
+    "raw/articles/04/书单/AI时代底层操作系统书单.md",
+    "raw/个人👤/skill/design/markdown to diagram skill.md",
+    "raw/个人👤/skill/design/diagram（tech-graph）fireworks.md",
+    "raw/个人👤/skill/Study prompt.md",
+    "清单/GitHub Stars.md",
     "CLAUDE.md",
     "清单/模型测评.md",
     "清单/第一次过程性考试.md",
@@ -237,26 +262,14 @@
     "清单/任务清单.md",
     "清单/各领域X账号推荐.md",
     "清单/人物.md",
-    "清单/skill清单.md",
     "清单/MCP清单.md",
-    "清单/GitHub Stars.md",
     "清单/Githuber.md",
     "raw/podcast/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
     "raw/个人👤/分析/2.92亿美元46分钟消失：2026年最大DeFi劫案解析.md",
-    "清单/本地部署.md",
-    "清单/AI领域.md",
-    "raw/个人👤/分析/Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years.md",
-    "raw/个人👤/分析/人物/Cat wu/Cat Wu-「Jobs are fake.」.md",
     "raw/个人👤/分析/人物",
     "raw/个人👤/分析/人物/Cat wu",
-    "清单/AI学习路线图.md",
-    "raw/个人👤/分析/人物/Cat wu/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
     "raw/paper",
     "raw/podcast",
-    "raw/articles/04/2026华语AI圈Top100-KOL.md",
-    "raw/articles/04/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
-    "raw/个人👤/skill/design/PPT Skill.md",
-    "raw/个人👤/skill/design/Huashu Design.md",
     "raw/个人👤/skill/design",
     "image/979cf1bb0cc51649dafb319ae8079734_MD5.jpg",
     "image/9568919b508336b89e191fc3b6da23b8_MD5.jpg",
@@ -268,9 +281,6 @@
     "image/08f7a9404d0f87a84abbdbc1e87e3c39_MD5.jpg",
     "image/28a85319ed3c962909b715d4a3fbeb5c_MD5.jpg",
     "image/d505989502e57bf4757c4a5f97f8f78f_MD5.jpg",
-    "raw/个人👤/方法论/艾宾浩斯记忆曲线.md",
-    "raw/articles/04/The Shorthand Guide to Everything Agentic Security.md",
-    "raw/articles/04/从零开始两天构建一个ClaudeCode.md",
     "raw/articles",
     "02-raw",
     "math",
