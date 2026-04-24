@@ -22,12 +22,6 @@ category: Claude-Code
 - [ ] system prompt分段
 - [ ] 纯typescript
 
-
-
-
-
-
-
 ---
 
 ## 原文

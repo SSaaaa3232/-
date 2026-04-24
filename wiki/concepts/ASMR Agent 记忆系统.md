@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "ASMR Agent 记忆系统"
+title: ASMR Agent 记忆系统
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -12,14 +12,14 @@ status: mature
 complexity: advanced
 domain: AI/Agent设计
 aliases:
-  - "ASMR"
-  - "Agentic Search and Memory Retrieval"
-  - "Supermemory"
+  - ASMR
+  - Agentic Search and Memory Retrieval
+  - Supermemory
 related:
   - "[[AutoAgent 自优化代理]]"
   - "[[多智能体协作五种模式]]"
 sources:
-  - "[[raw/团队team/方法论/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md]]"
+  - "[[We broke the frontier in agent memory Introducing ~99% SOTA memory system.]]"
 ---
 
 # ASMR Agent 记忆系统
@@ -109,5 +109,5 @@ Orchestrator 汇总三路结果，附带原始会话逐字摘录供核实。
 - 代码计划开源（已于 2026 年 4 月发布）
 
 ## 来源
-(Source: [[raw/团队team/方法论/We broke the frontier in agent memory Introducing ~99% SOTA memory system..md]])，@DhravyaShah，2026-03-24
+(Source: [[We broke the frontier in agent memory Introducing ~99% SOTA memory system.]])，@DhravyaShah，2026-03-24
 GitHub: [supermemoryai](https://github.com/supermemoryai)

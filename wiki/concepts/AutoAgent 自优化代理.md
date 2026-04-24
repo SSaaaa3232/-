@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "AutoAgent 自优化代理"
+title: AutoAgent 自优化代理
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,15 +11,15 @@ status: mature
 complexity: advanced
 domain: AI/Agent设计
 aliases:
-  - "AutoAgent"
-  - "ASMR记忆系统"
-  - "Meta-Task Agent"
+  - AutoAgent
+  - ASMR记忆系统
+  - Meta-Task Agent
 related:
   - "[[Thin Harness Fat Skills]]"
   - "[[达尔文 Skill 自优化系统]]"
   - "[[多智能体协作五种模式]]"
 sources:
-  - "[[raw/团队team/方法论/AutoAgent first open source library for self-optimizing agents]]"
+  - "[[AutoAgent first open source library for self-optimizing agents]]"
 ---
 
 # AutoAgent 自优化代理
@@ -76,5 +76,5 @@ meta-agent 的循环：
 - 所有其他参赛者都是手动调优；AutoAgent 不是
 
 ## 来源
-(Source: [[raw/团队team/方法论/AutoAgent first open source library for self-optimizing agents]])，@kevingu，2026-02-28
+(Source: [[AutoAgent first open source library for self-optimizing agents]])，@kevingu，2026-02-28
 GitHub: [autoagent](https://github.com/kevinrgu/autoagent)

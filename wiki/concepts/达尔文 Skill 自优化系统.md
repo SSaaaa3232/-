@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "达尔文 Skill 自优化系统"
+title: 达尔文 Skill 自优化系统
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,14 +11,14 @@ status: mature
 complexity: intermediate
 domain: AI/Skill设计
 aliases:
-  - "darwin-skill"
-  - "棘轮优化"
-  - "Skill自迭代"
+  - darwin-skill
+  - 棘轮优化
+  - Skill自迭代
 related:
   - "[[Thin Harness Fat Skills]]"
   - "[[AutoAgent 自优化代理]]"
 sources:
-  - "[[raw/团队team/方法论/达尔文.skill]]"
+  - "[[达尔文.skill]]"
 ---
 
 # 达尔文 Skill 自优化系统
@@ -79,4 +79,4 @@ npx skills add alchaincyf/darwin-skill
 GitHub: [darwin-skill](https://github.com/alchaincyf/darwin-skill)
 
 ## 来源
-(Source: [[raw/团队team/方法论/达尔文.skill]])，@AlchainHust，2026-04-13
+(Source: [[达尔文.skill]])，@AlchainHust，2026-04-13

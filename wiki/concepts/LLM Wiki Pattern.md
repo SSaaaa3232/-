@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "LLM Wiki Pattern"
+title: LLM Wiki Pattern
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,14 +11,14 @@ status: mature
 complexity: basic
 domain: 知识管理
 aliases:
-  - "LLM Wiki"
-  - "Karpathy Wiki模式"
+  - LLM Wiki
+  - Karpathy Wiki模式
 related:
   - "[[Knowledge MEMO]]"
   - "[[Wiki 为谁而建]]"
   - "[[深度研究两阶段法]]"
 sources:
-  - "[[raw/团队team/方法论/LLM-wiki method/llm-wiki]]"
+  - "[[llm-wiki]]"
 ---
 
 # LLM Wiki Pattern
@@ -60,4 +60,4 @@ sources:
 见 [[Wiki 为谁而建]] — 关键分歧：wiki 是为 Agent 的 context 还是为人脑的脚手架？
 
 ## 来源
-(Source: [[raw/团队team/方法论/LLM-wiki method/llm-wiki]])，Andrej Karpathy
+(Source: [[llm-wiki]])，Andrej Karpathy

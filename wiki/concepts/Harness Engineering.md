@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "Harness Engineering"
+title: Harness Engineering
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,14 +11,14 @@ status: mature
 complexity: intermediate
 domain: AI/Agent设计
 aliases:
-  - "驾驭工程"
-  - "Harness"
+  - 驾驭工程
+  - Harness
 related:
   - "[[Thin Harness Fat Skills]]"
   - "[[Agent 安全]]"
   - "[[多智能体协作五种模式]]"
 sources:
-  - "[[raw/团队team/方法论/Harness Engineering 驾驭工程 零基础入门教程]]"
+  - "[[Harness Engineering 驾驭工程 零基础入门教程]]"
 ---
 
 # Harness Engineering（驾驭工程）
@@ -57,4 +57,4 @@ L2（深度使用）和 L3（Vibe Coding）的价值是**积累足够多的失�
 [[Thin Harness Fat Skills]] 说：Harness 应该越薄越好，把 90% 精力放进 Skills。Harness Engineering 说：先学会建好 Harness，再学会让它薄。两者不矛盾——要让 Harness 薄，必须先理解 Harness 是什么。
 
 ## 来源
-(Source: [[raw/团队team/方法论/Harness Engineering 驾驭工程 零基础入门教程]])，@Pluvio9yte，2026-04-04
+(Source: [[Harness Engineering 驾驭工程 零基础入门教程]])，@Pluvio9yte，2026-04-04

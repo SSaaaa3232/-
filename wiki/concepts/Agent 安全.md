@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "Agent 安全"
+title: Agent 安全
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,9 +11,9 @@ status: mature
 complexity: advanced
 domain: AI/Agent设计
 aliases:
-  - "Agentic Security"
-  - "Agent安全"
-  - "最小代理权限"
+  - Agentic Security
+  - Agent安全
+  - 最小代理权限
 related:
   - "[[Harness Engineering]]"
   - "[[多智能体协作五种模式]]"

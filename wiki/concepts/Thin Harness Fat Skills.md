@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "Thin Harness, Fat Skills"
+title: Thin Harness, Fat Skills
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,13 +11,13 @@ status: mature
 complexity: basic
 domain: AI/Agent设计
 aliases:
-  - "薄Harness厚Skills"
-  - "Thin Harness"
+  - 薄Harness厚Skills
+  - Thin Harness
 related:
   - "[[Harness Engineering]]"
   - "[[Skill 作为永久资产]]"
 sources:
-  - "[[raw/团队team/方法论/Thin Harness, Fat Skills]]"
+  - "[[Thin Harness, Fat Skills]]"
 ---
 
 # Thin Harness, Fat Skills
@@ -57,4 +57,4 @@ AI 工作系统的三层架构原则：**价值的 90% 在 Skills，Harness 只�
 
 ## 来源
 
-(Source: [[raw/团队team/方法论/Thin Harness, Fat Skills]])，来自 @KKaWSB，2026-04-16
+(Source: [[Thin Harness, Fat Skills]])，来自 @KKaWSB，2026-04-16
