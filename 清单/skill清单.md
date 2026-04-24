@@ -52,7 +52,7 @@ tags:
 
 | 常用命令行              | 地址                                                                                               | 具体参考                                     | 优先级⭐️ |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ----- |
-| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[横纵分析法]]                                |       |
+| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[wiki/concepts/横纵分析法]]                                |       |
 | 生成 Logo 和图标        | [https://github.com/op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | [[AI 帮你生成 Logo 和图标]]                     |       |
 | 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] |       |
 | flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | ⭐️⭐️  |

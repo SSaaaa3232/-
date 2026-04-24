@@ -1,6 +1,6 @@
 ---
 type: concept
-title: "范式投资 vs 赢家模式"
+title: 范式投资 vs 赢家模式
 created: 2026-04-17
 updated: 2026-04-17
 tags:
@@ -11,10 +11,10 @@ status: mature
 complexity: intermediate
 domain: 投资/决策
 aliases:
-  - "Paradigm Shift投资"
-  - "归纳法vs演绎法投资"
+  - Paradigm Shift投资
+  - 归纳法vs演绎法投资
 related:
-  - "[[横纵分析法]]"
+  - "[[wiki/concepts/横纵分析法]]"
 sources:
   - "[[raw/团队team/方法论/谁在下注世界会变——那些能投资到100倍标的顶级投资逻辑]]"
 ---

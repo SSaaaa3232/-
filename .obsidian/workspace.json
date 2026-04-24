@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "raw/podcast/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "ef3e0b2cbcc8ff21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-raw/articles/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？"
+              "title": "How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,21 +228,31 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ef3e0b2cbcc8ff21",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "08f7a9404d0f87a84abbdbc1e87e3c39_MD5.jpg",
-    "1d2ad423f0be7c9acb4f48972a939bd0_MD5.jpg",
-    "d505989502e57bf4757c4a5f97f8f78f_MD5.jpg",
-    "4ceded4a5f1c72110efb67141fa5784b_MD5.jpg",
-    "6a6f9a96425501d3837088f57bc612d0_MD5.jpg",
-    "1f9366eccf79ec80bb17cb2c6e95d76a_MD5.jpg",
-    "6dd94aac2049249b9464651f7d9b8614_MD5.jpg",
-    "fa2b696e86526619c2d9caaa0f752fa8_MD5.jpg",
-    "cf49138840cb8b5cffba97c01ae4700e_MD5.jpg",
-    "71cf92ecb327073d5ba0730f7093113e_MD5.jpg",
-    "3a077f78b5ad90adb1a600ae2078a537_MD5.jpg",
+    "raw/paper",
+    "raw/podcast",
+    "raw/articles/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
+    "raw/podcast/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
+    "raw/04/2026华语AI圈Top100-KOL.md",
+    "raw/04/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
+    "raw/个人👤/skill/design/PPT Skill.md",
+    "raw/个人👤/skill/design/Huashu Design.md",
+    "raw/个人👤/skill/design",
+    "image/979cf1bb0cc51649dafb319ae8079734_MD5.jpg",
+    "image/9568919b508336b89e191fc3b6da23b8_MD5.jpg",
+    "image/71cf92ecb327073d5ba0730f7093113e_MD5.jpg",
+    "image/6a6f9a96425501d3837088f57bc612d0_MD5.jpg",
+    "image/96b735feb58119934c7a0eff4bc716f7_MD5.jpg",
+    "image/3a077f78b5ad90adb1a600ae2078a537_MD5.jpg",
+    "image/6bbfe1a90f41ec34d16c38443518cfd9_MD5.jpg",
+    "image/08f7a9404d0f87a84abbdbc1e87e3c39_MD5.jpg",
+    "image/28a85319ed3c962909b715d4a3fbeb5c_MD5.jpg",
+    "image/d505989502e57bf4757c4a5f97f8f78f_MD5.jpg",
+    "raw/articles/Post by @chenchengpro on X.md",
+    "CLAUDE.md",
+    "raw/articles/AI学习路线图.md",
     "清单/skill清单.md",
-    "02-raw/articles/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
     "raw/个人👤/方法论/艾宾浩斯记忆曲线.md",
     "raw/04/The Shorthand Guide to Everything Agentic Security.md",
     "raw/04/从零开始两天构建一个ClaudeCode.md",
@@ -273,15 +268,7 @@
     "清单/开通服务.md",
     "清单/机器学习项目汇总.md",
     "清单/模型测评.md",
-    "清单/第一次过程性考试.md",
-    "清单/读书清单.md",
-    "raw/04/个人成长/纳瓦尔拉维坎特44个人性真相.md",
-    "raw/04/个人成长/Mac-Bridge工作原理详解.md",
-    "raw/团队team/skill/PUA-Skill.md",
-    "raw/04/github工具/AutoClip.md",
-    "raw/04/github工具/browser-use.md",
-    "raw/04/github工具/Edit-Banana.md",
-    "02-raw/articles",
+    "raw/articles",
     "02-raw",
     "math",
     "wiki/Wiki Map.canvas",
@@ -290,8 +277,6 @@
     "wiki/themes",
     "wiki/courses",
     "wiki/books",
-    "wiki/gaps",
-    "wiki/thesis",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",

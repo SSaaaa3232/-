@@ -1,6 +1,6 @@
 ---
 type: meta
-title: "Operation Log"
+title: Operation Log
 updated: 2026-04-08
 tags:
   - meta
@@ -10,7 +10,7 @@ related:
   - "[[index]]"
   - "[[hot]]"
   - "[[overview]]"
-  - "[[sources/_index]]"
+  - "[[wiki/sources/_index]]"
 ---
 
 # Operation Log
@@ -29,7 +29,7 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 - 来源：`raw/团队team/方法论/`（22个文件，含 LLM-wiki method 子文件夹 5 个文件）
 - Concept pages created (17):
   - [[Thin Harness Fat Skills]] — 三层AI架构（@Pluvio9yte）
-  - [[横纵分析法]] — 纵横双轴研究框架（@ooxiao_）
+  - [[wiki/concepts/横纵分析法]] — 纵横双轴研究框架（@ooxiao_）
   - [[Knowledge MEMO]] — LLM Wiki + FSRS-6间隔重复（@owenliang60）
   - [[Wiki 为谁而建]] — Agent上下文 vs 人类大脑（@owenliang60）
   - [[人必须在 Loop 里]] — 人类监督原则（@owenliang60）

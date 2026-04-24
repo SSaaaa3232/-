@@ -12,8 +12,6 @@ Cat Wu 是 Anthropic Claude Code 和 Cowork 的产品负责人，和 Boris Chern
 
 原始视频：[https://www.youtube.com/watch?v=PplmzlgE0kg](https://www.youtube.com/watch?v=PplmzlgE0kg)
 
-![[28a85319ed3c962909b715d4a3fbeb5c_MD5.jpg]]
-
 ## 要点速览
 
 ![[d47d12b119b8e0bc407a55e670fe302c_MD5.jpg]]

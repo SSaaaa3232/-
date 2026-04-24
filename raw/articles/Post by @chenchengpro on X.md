@@ -1,0 +1,77 @@
+---
+title: "Post by @chenchengpro on X"
+source: "https://x.com/chenchengpro/status/2047480549636472832"
+author:
+  - "[[@chenchengpro]]"
+published: 2026-04-24
+created: 2026-04-24
+---
+Cat Wu 说了一句话让我印象很深，「Jobs are fake.」
+
+她是 Anthropic Claude Code 的产品负责人，刚上了 Lenny's Podcast。这期信息量很大，我试着把核心的东西压缩一下。
+
+Anthropic 的产品节奏已经快到不讲道理，功能从构思到上线，最快一天。不是因为用了最强模型（虽然确实有帮助），核心是组织和流程。几乎零审批、所有功能先以「研究预览」上线降低发布承诺、工程师端到端自己看到 Twitter 上的用户反馈就能周末把功能做完发出去，不需要经过 PM。PM 的角色不是审批门，是给团队搭好发射台，让工程师想发就能发，营销和文档能在第二天跟上。
+
+最反直觉的是她对新模型的态度。别人上新模型是加功能，他们上新模型第一件事是删功能，把之前给模型打的补丁一个个撕掉。to-do list、强制提醒、各种 prompting 干预，模型变聪明了就不需要了。比如早期模型做 20 个 call site 的重构会漏改，团队加了 to-do list 工具强制跟踪；到 Opus 4 之后模型自己就会用，根本不需要提醒。她说每次模型升级，团队都会通读整个 system prompt，逐段问「模型还需要这个提醒吗？」不需要就删。播客里引用了一句话，「模型会把你的 harness 当早餐吃掉。」
+
+但更重要的是提前构建「还不能工作的产品」。代码审查功能他们尝试了好几个版本，早期模型准确率不够一直没正式发。直到 Opus 4.5/4.6，团队才觉得可靠到工程师可以信赖它在合并前发现大部分 bug。她的建议是，永远提前做好原型，新模型一出来直接换进去验证差距是否被填上。
+
+关于 PM 未来最稀缺的能力，她反复提到一个词，product taste。代码越便宜，品味越值钱。GitHub 上几万条 issue 什么需求都有人提，知道该做哪个、怎么做最好，这个判断力才是最值钱的。工程背景短期有用（能判断实现难度从而更好地做优先级决策），但她刻意只说「未来几个月」，因为每隔几个月模型能力就跳一级，所需技能跟着变，没人能预测更远。她觉得最重要的是第一性原理思维，搞清楚技术环境怎么变了，团队最缺什么，然后低自尊地戴上任何需要的帽子。
+
+Anthropic 能跑这么快还有一个原因，使命统一。如果两个优先级冲突，问哪个更符合 Anthropic 的使命，答案就出来了，全员立刻执行。Cat 说了一句很重的话，「如果 Claude Code 失败了但 Anthropic 成功了，我会非常开心。」整个团队都愿意为公司目标牺牲自己产品的 KR。这种文化让决策极快，也是为什么一家起步晚、融资少、没有分发优势的公司能跑到 110 亿美金 ARR。
+
+她对从业者几条比较实在的建议。
+
+1/ 把重复劳动交给 AI，但别只做到 95% 就放弃。95% 准确率的自动化不是自动化，最后那 5% 才是真正值得投入的地方。
+
+2/ 构建你真正每天在用的应用。One-shot 一个原型发个推然后再也不打开，你既没学到东西，也没获得杠杆。
+
+3/ 别沉迷于炫耀 setup。她原话，「简单的配置往往效果更好。」有一群人花大量时间堆 skill 和 MCP，结果核心工作反而没做。
+
+4/ 2024 的产品是对话式的，Claude Code 这一代产品是行动式的。当 AI 真正能代你执行而不只是告诉你该怎么做，那才是真正的顿悟时刻。
+
+她的人生信条回到开头那句话，Just do things。理解约束，推导行动，然后直接去做。不要等许可，不要被岗位定义限制。这大概也解释了为什么 Anthropic 能跑这么快。
+
+> **Lenny Rachitsky @lennysan** · 2026-04-23
+> 
+> How Anthropic’s product team moves faster than anyone else
+> 
+> I sat down with @\_catwu, Head of Product for Claude Code at @AnthropicAI, to get a peek into their unprecedented shipping pace, how AI is changing the PM role, and how to be the right amount of AGI-pilled.
+> 
+> We discuss:
+
+---
+
+## Comments
+
+> **BLANPLAN | 空界計劃 @blanplan** · [2026-04-24](https://x.com/blanplan/status/2047621503857103017)
+> 
+> Most teams can't do the step of "deleting prompt scaffolding before upgrading the model," because no one dares to audit which crutch has already been internalized.
+
+> **Stometa @stometaverse** · [2026-04-24](https://x.com/stometaverse/status/2047579721630884283)
+> 
+> 岗位描述是组织结构的遗物，能衡量的只是一组 outcome 的组合。AI 时代更容易测 outcome per engineer，岗位反而更容易被重新拆装。
+
+> **microstrong @Microstrongs** · [2026-04-24](https://x.com/Microstrongs/status/2047596045845270973)
+> 
+> Once productivity has increased by dozens of times, organizational capability will determine the final output.
+
+> **Arnold\_X @nightowlhc** · [2026-04-24](https://x.com/nightowlhc/status/2047592043539771528)
+> 
+> But every time you tear it down, you’ll find—some walls you thought were load-bearing are actually just scaffolding. The model is tougher than you think.
+
+> **enzyme · 独立开发 @enzyme\_dev** · [2026-04-24](https://x.com/enzyme_dev/status/2047481762784158165)
+> 
+> One-sentence summary: The transformation brought by AI has rendered past experiences obsolete, making it crucial in new workflows to adapt to faster development rhythms and shift the focus of work toward collaborating with AI.
+
+> **Understand by SciTools @CodeUnderstand** ·
+> 
+> From UML diagram to live code to expanding call graph…
+> 
+> in ONE seamless flow.
+> 
+> No more hunting through files. Graphs let you explore your entire codebase instantly.
+> 
+> Trusted by NASA & 20k+ devs.
+> 
+> Try free →

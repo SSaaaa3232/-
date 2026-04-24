@@ -25,9 +25,9 @@ Navigation: [[index]] | [[log]] | [[overview]]
 - **最高信号密度概念**：[[Thin Harness Fat Skills]]（贯穿AI系统设计）、[[AutoAgent 自优化代理]]（模型共情，SpreadsheetBench #1）、[[ASMR Agent 记忆系统]]（~99% LongMemEval，主动检索胜向量搜索）
 
 ## Recent Changes
-- **Created** (concepts, 2026-04-17): [[Thin Harness Fat Skills]], [[横纵分析法]], [[Knowledge MEMO]], [[Wiki 为谁而建]], [[人必须在 Loop 里]], [[多智能体协作五种模式]], [[Harness Engineering]], [[Agent 安全]], [[LLM Wiki Pattern]], [[深度研究两阶段法]], [[苏格拉底-维特根斯坦-波兰尼思维清洁系统]], [[达尔文 Skill 自优化系统]], [[AutoAgent 自优化代理]], [[知识图谱]], [[范式投资 vs 赢家模式]], [[ASMR Agent 记忆系统]], [[Codex 团队极简管理]]
+- **Created** (concepts, 2026-04-17): [[Thin Harness Fat Skills]], [[wiki/concepts/横纵分析法]], [[Knowledge MEMO]], [[Wiki 为谁而建]], [[人必须在 Loop 里]], [[多智能体协作五种模式]], [[Harness Engineering]], [[Agent 安全]], [[LLM Wiki Pattern]], [[深度研究两阶段法]], [[苏格拉底-维特根斯坦-波兰尼思维清洁系统]], [[达尔文 Skill 自优化系统]], [[AutoAgent 自优化代理]], [[知识图谱]], [[范式投资 vs 赢家模式]], [[ASMR Agent 记忆系统]], [[Codex 团队极简管理]]
 - **Created** (entities, 2026-04-17): [[owenliang60]]
-- **Updated**: [[wiki/index.md]] 填充 17 个概念条目；[[wiki/log.md]] 追加 ingest 记录
+- **Updated**: [[index]] 填充 17 个概念条目；[[log]] 追加 ingest 记录
 
 ## Active Threads
 - 第一批 ingest 质量评估完成，等待用户决策是否继续第二批

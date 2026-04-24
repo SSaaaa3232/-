@@ -1,6 +1,6 @@
 ---
 type: meta
-title: "Dashboard"
+title: Dashboard
 updated: 2026-04-08
 tags:
   - meta
@@ -10,7 +10,7 @@ related:
   - "[[index]]"
   - "[[overview]]"
   - "[[log]]"
-  - "[[concepts/_index]]"
+  - "[[wiki/concepts/_index]]"
   - "[[Compounding Knowledge]]"
 ---
 
