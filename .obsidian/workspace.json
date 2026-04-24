@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/skill清单.md",
+                "file": "02-raw/articles/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "skill清单"
+              "title": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？"
             }
           }
         ],
@@ -243,15 +243,27 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1ca978258884b172",
+  "active": "ef3e0b2cbcc8ff21",
   "lastOpenFiles": [
+    "08f7a9404d0f87a84abbdbc1e87e3c39_MD5.jpg",
+    "1d2ad423f0be7c9acb4f48972a939bd0_MD5.jpg",
+    "d505989502e57bf4757c4a5f97f8f78f_MD5.jpg",
+    "4ceded4a5f1c72110efb67141fa5784b_MD5.jpg",
+    "6a6f9a96425501d3837088f57bc612d0_MD5.jpg",
+    "1f9366eccf79ec80bb17cb2c6e95d76a_MD5.jpg",
+    "6dd94aac2049249b9464651f7d9b8614_MD5.jpg",
+    "fa2b696e86526619c2d9caaa0f752fa8_MD5.jpg",
+    "cf49138840cb8b5cffba97c01ae4700e_MD5.jpg",
+    "71cf92ecb327073d5ba0730f7093113e_MD5.jpg",
+    "3a077f78b5ad90adb1a600ae2078a537_MD5.jpg",
+    "清单/skill清单.md",
+    "02-raw/articles/Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？.md",
     "raw/个人👤/方法论/艾宾浩斯记忆曲线.md",
     "raw/04/The Shorthand Guide to Everything Agentic Security.md",
     "raw/04/从零开始两天构建一个ClaudeCode.md",
     "清单/本地部署.md",
     "raw/04/写作是门手艺.md",
     "raw/AI/本地部署.md",
-    "清单/skill清单.md",
     "raw/AI/Vibe-Design-Stitch.md",
     "清单/人物.md",
     "清单/任务清单.md",
@@ -269,18 +281,6 @@
     "raw/04/github工具/AutoClip.md",
     "raw/04/github工具/browser-use.md",
     "raw/04/github工具/Edit-Banana.md",
-    "raw/团队team/技术/Ralph-Loop自动循环.md",
-    "raw/团队team/skill/Scrapling-爬虫.md",
-    "image/claude-obsidian-cover-square.png",
-    "image/welcome-canvas.gif",
-    "image/wiki-graph-grow.gif",
-    "image/workflow-loop.gif",
-    "image/image-example-graph-view.png",
-    "image/claude-obsidian-gif-cover-16x9.gif",
-    "image/image-example-wiki-map-view.png",
-    "image/claude-obsidian-cover-16x9.png",
-    "image/claude-obsidian-gif-1x1.gif",
-    "image/2b2e92cd809b015bb7806bb393504679_MD5.jpg",
     "02-raw/articles",
     "02-raw",
     "math",
