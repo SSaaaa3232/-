@@ -6,8 +6,6 @@ author:
 published: 2026-04-24
 created: 2026-04-24
 ---
-![[4077a8bdb396901f9d8e1289085015d6_MD5.jpg]]
-
 Cat Wu 是 Anthropic Claude Code 和 Cowork 的产品负责人，和 Boris Cherny 搭档，带着团队**把产品功能的交付周期从半年压到了一天**。在 Lenny's Podcast 最新一期中，Cat 聊了 Anthropic 内部的速度文化、PM 角色的剧变、源代码泄露的善后，以及那个让开源社区炸锅的 OpenClaw 封堵决定。
 
 原始视频：[https://www.youtube.com/watch?v=PplmzlgE0kg](https://www.youtube.com/watch?v=PplmzlgE0kg)

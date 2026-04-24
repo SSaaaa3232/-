@@ -1,6 +1,57 @@
 # GitHub Stars
 
 
+## 🤩skill
+
+| 项目 | 描述 |
+|------|------|
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) |  |
+| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip) |  |
+| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) |  |
+| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |  |
+| [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) |  |
+| [Jane-xiaoer/skill-vision-control](https://github.com/Jane-xiaoer/skill-vision-control) |  |
+| [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) |  |
+| [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) |  |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) |  |
+| [SSaaaa3232/Nezikk-s-skills](https://github.com/SSaaaa3232/Nezikk-s-skills) |  |
+
+## 🌪️obsidian
+
+| 项目 | 描述 |
+|------|------|
+| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |  |
+| [reuseman/flashcards-obsidian](https://github.com/reuseman/flashcards-obsidian) |  |
+| [fakechris/obsidian_vault_pipeline](https://github.com/fakechris/obsidian_vault_pipeline) |  |
+| [safishamsi/graphify](https://github.com/safishamsi/graphify) |  |
+| [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent) |  |
+| [owenliang60-ship-it/knowledge-mgmt](https://github.com/owenliang60-ship-it/knowledge-mgmt) |  |
+| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) |  |
+| [ekadetov/llm-wiki](https://github.com/ekadetov/llm-wiki) |  |
+| [vanillaflava/llm-wiki-claude-skills](https://github.com/vanillaflava/llm-wiki-claude-skills) |  |
+| [Jane-xiaoer/claude-skill-video-transcribe](https://github.com/Jane-xiaoer/claude-skill-video-transcribe) |  |
+| [icebear0828/notebooklm-client](https://github.com/icebear0828/notebooklm-client) |  |
+| [Dmytro-Shulha/obsidian-css-snippets](https://github.com/Dmytro-Shulha/obsidian-css-snippets) |  |
+| [PKM-er/Blue-Topaz_Obsidian-css](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) |  |
+| [efemkay/obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) |  |
+| [obsidian-community/obsidian-style-settings](https://github.com/obsidian-community/obsidian-style-settings) |  |
+| [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) |  |
+| [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) |  |
+
+## 🍋工具
+
+| 项目 | 描述 |
+|------|------|
+| [mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob) |  |
+| [TheTom/turboquant_plus](https://github.com/TheTom/turboquant_plus) |  |
+| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) |  |
+| [linear/linear](https://github.com/linear/linear) |  |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |  |
+| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) |  |
+| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) |  |
+| [x74353/Amphetamine-Enhancer](https://github.com/x74353/Amphetamine-Enhancer) |  |
+| [trycua/cua](https://github.com/trycua/cua) |  |
+
 ## 🔥claude code
 
 | 项目 | 描述 |
@@ -18,44 +69,8 @@
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 修改代码自动化（需要Nvidia显卡） |
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) |  |
 | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) |  |
-
-## 🌪️obsidian
-
-| 项目 | 描述 |
-|------|------|
-| [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) |  |
-| [reuseman/flashcards-obsidian](https://github.com/reuseman/flashcards-obsidian) |  |
-| [fakechris/obsidian_vault_pipeline](https://github.com/fakechris/obsidian_vault_pipeline) |  |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) |  |
-| [SamurAIGPT/llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent) |  |
-| [owenliang60-ship-it/knowledge-mgmt](https://github.com/owenliang60-ship-it/knowledge-mgmt) |  |
-| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) |  |
-| [ekadetov/llm-wiki](https://github.com/ekadetov/llm-wiki) |  |
-| [vanillaflava/llm-wiki-claude-skills](https://github.com/vanillaflava/llm-wiki-claude-skills) |  |
-
-## 🐭browser
-
-| 项目 | 描述 |
-|------|------|
-| [eze-is/web-access](https://github.com/eze-is/web-access) |  |
-
-## 🤩skill
-
-| 项目 | 描述 |
-|------|------|
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) |  |
-| [GitFrog1111/OpenWhip](https://github.com/GitFrog1111/OpenWhip) |  |
-| [terrylica/cc-skills](https://github.com/terrylica/cc-skills) |  |
-| [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) |  |
-| [op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) |  |
-
-## 🥸manager
-
-| 项目 | 描述 |
-|------|------|
-| [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) |  |
-| [superset-sh/superset](https://github.com/superset-sh/superset) |  |
-| [lidangzzz/goal-driven](https://github.com/lidangzzz/goal-driven) |  |
+| [librae8226/nexus4cc](https://github.com/librae8226/nexus4cc) |  |
+| [getpaseo/paseo](https://github.com/getpaseo/paseo) |  |
 
 ## 🐙论文
 
@@ -67,24 +82,42 @@
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) |  |
 | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) |  |
 | [blader/humanizer](https://github.com/blader/humanizer) |  |
+| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) |  |
+| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) |  |
 
-## 🍋工具
+## 🫀biology
 
 | 项目 | 描述 |
 |------|------|
-| [mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob) |  |
-| [TheTom/turboquant_plus](https://github.com/TheTom/turboquant_plus) |  |
-| [MemTensor/MemOS](https://github.com/MemTensor/MemOS) |  |
-| [linear/linear](https://github.com/linear/linear) |  |
-| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |  |
-| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) |  |
-| [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) |  |
+| [usadellab/Helixer](https://github.com/usadellab/Helixer) |  |
+| [HaochenW/Deep_promoter](https://github.com/HaochenW/Deep_promoter) |  |
+| [schrodinger/pymol-open-source](https://github.com/schrodinger/pymol-open-source) |  |
+| [google-deepmind/alphagenome](https://github.com/google-deepmind/alphagenome) |  |
+| [WangLabTHU/deepseed](https://github.com/WangLabTHU/deepseed) |  |
+
+## 🕸️website
+
+| 项目 | 描述 |
+|------|------|
+| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) |  |
+| [learning-zone/website-templates](https://github.com/learning-zone/website-templates) |  |
+| [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template) |  |
+| [zhanymkanov/fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices) |  |
+| [mjhea0/awesome-fastapi](https://github.com/mjhea0/awesome-fastapi) |  |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) |  |
+
+## ✅技术
+
+| 项目 | 描述 |
+|------|------|
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) |  |
 
 ## 🀄️中转站
 
 | 项目 | 描述 |
 |------|------|
 | [cnitlrt/AutoTeam](https://github.com/cnitlrt/AutoTeam) |  |
+| [usadellab/Helixer](https://github.com/usadellab/Helixer) |  |
 
 ## 🍓科学上网
 
@@ -92,9 +125,47 @@
 |------|------|
 | [ihmily/proxy-guide](https://github.com/ihmily/proxy-guide) |  |
 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) |  |
-| [VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy](https://github.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy) |  |
 | [cmliu/edgetunnel](https://github.com/cmliu/edgetunnel) |  |
 | [Nyarime/NRUP](https://github.com/Nyarime/NRUP) |  |
+| [clown-coding/vpn](https://github.com/clown-coding/vpn) |  |
+| [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) |  |
+| [trailofbits/algo](https://github.com/trailofbits/algo) |  |
+| [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) |  |
+
+## 🐰网站
+
+| 项目 | 描述 |
+|------|------|
+| [Jane-xiaoer/feishu-portfolio-launch](https://github.com/Jane-xiaoer/feishu-portfolio-launch) |  |
+| [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) |  |
+
+## 😃FUnny
+
+| 项目 | 描述 |
+|------|------|
+| [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) |  |
+| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) |  |
+| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) |  |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) |  |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) |  |
+| [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island) |  |
+| [cclank/modelbox](https://github.com/cclank/modelbox) |  |
+| [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |  |
+| [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper) |  |
+
+## 🐭browser
+
+| 项目 | 描述 |
+|------|------|
+| [eze-is/web-access](https://github.com/eze-is/web-access) |  |
+
+## 🥸manager
+
+| 项目 | 描述 |
+|------|------|
+| [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) |  |
+| [superset-sh/superset](https://github.com/superset-sh/superset) |  |
+| [lidangzzz/goal-driven](https://github.com/lidangzzz/goal-driven) |  |
 
 ## 🍥diagram
 
@@ -117,30 +188,12 @@
 | [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) |  |
 | [openclaw/clawhub](https://github.com/openclaw/clawhub) |  |
 
-## 🕸️website
-
-| 项目 | 描述 |
-|------|------|
-| [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) |  |
-| [learning-zone/website-templates](https://github.com/learning-zone/website-templates) |  |
-
 ## 🌫️book
 
 | 项目 | 描述 |
 |------|------|
 | [denizsafak/abogen](https://github.com/denizsafak/abogen) |  |
 | [jarodise/pdf2epub-paddle](https://github.com/jarodise/pdf2epub-paddle) |  |
-
-## 😃FUnny
-
-| 项目 | 描述 |
-|------|------|
-| [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) |  |
-| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) |  |
-| [666ghj/MiroFish](https://github.com/666ghj/MiroFish) |  |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) |  |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) |  |
-| [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island) |  |
 
 ## 👻memory
 

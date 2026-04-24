@@ -26,40 +26,40 @@ tags:
 | /grep -rL "ingested" raw/团队team/方法论/（例子） | 获取ingest名单避免重复 |
 | /ingest                                  | 编译             |
 |                                          |                |
+|                                          |                |
 
 # 自己写： `~/.agents/skills/
 
-| ✅ / ❌ | 命令行                                                       | 简介                         | 实现难度⭐️     | 参考     | 依赖     |
-| ----- | --------------------------------------------------------- | -------------------------- | ---------- | ------ | ------ |
-| ❌     |                                                           | x去噪音博主抓取                   | ⭐️⭐️       | xcrawl |        |
-| ❌     |                                                           | github博主star获取             | ⭐️⭐️⭐️     |        |        |
-| ✅     | /git-down                                                 | 同步github star目录            | ⭐️         |        |        |
-| ✅     | /image                                                    | 一键obsidian归类image          | ⭐️         |        |        |
-| ❌     |                                                           | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |        |        |
-| ？     |                                                           | LLM-wiki自动化编译              | ⭐️⭐️⭐️     |        |        |
-| ❌     |                                                           | PNG转化SVG图片                 | ⭐️⭐️       |        |        |
-| ❌     |                                                           | 心理助手咨询                     | ⭐️⭐️⭐️     |        |        |
-| ❌     |                                                           | 访谈抓取自动化                    | ⭐️⭐️       |        |        |
-| ❌     |                                                           | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |        |        |
-|       | /docx-create                                              | docx-creater               | ⭐️         |        | pandoc |
-| ✅     | /translate<br><br>请翻译并润色下面这段引言，统一合成生物学术语：<br><br>[粘贴中文段落] | synbio-academic-translator | ⭐️⭐️       | 论文翻译   | 合成生物   |
-|       |                                                           |                            |            |        |        |
-
-
-已实现后续做个自动化抓取skill仓库，还未建立skill版本控制
+| ✅ / ❌ | 命令行          | 简介                         | 实现难度⭐️     | 参考     | 依赖     |
+| ----- | ------------ | -------------------------- | ---------- | ------ | ------ |
+| ❌     |              | x去噪音博主抓取                   | ⭐️⭐️       | xcrawl |        |
+| ❌     |              | github博主star获取             | ⭐️⭐️⭐️     |        |        |
+| ✅     | /git-down    | 同步github star目录            | ⭐️         |        |        |
+| ✅     | /image       | 一键obsidian归类image          | ⭐️         |        |        |
+| ❌     |              | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |        |        |
+|       |              |                            |            |        |        |
+| ❌     |              | PNG转化SVG图片                 | ⭐️⭐️       |        |        |
+| ❌     |              | 心理助手咨询                     | ⭐️⭐️⭐️     |        |        |
+| ❌     |              | 访谈抓取自动化                    | ⭐️⭐️       |        |        |
+| ❌     |              | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |        | 现成     |
+|       | /docx-create | docx-creater               | ⭐️         |        | pandoc |
+| ✅     | /translate   | synbio-academic-translator | ⭐️⭐️       | 论文翻译   | 合成生物   |
+|       |              |                            |            |        |        |
+|       |              |                            |            |        |        |
 
 # Github现成：
 
-| 常用命令行              | 地址                                                                                               | 具体参考                                     | 优先级⭐️ |
-| ------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ----- |
-| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[wiki/concepts/横纵分析法]]                                |       |
-| 生成 Logo 和图标        | [https://github.com/op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | [[AI 帮你生成 Logo 和图标]]                     |       |
-| 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] |       |
-| flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | ⭐️⭐️  |
-| technology diagram | https://github.com/yizhiyanhua-ai/fireworks-tech-graph                                           | [[diagram（tech-graph）fireworks]]         | ⭐️    |
-| 创作PPT，动画，app等      | https://github.com/alchaincyf/huashu-design                                                      | [[Huashu Design]]                        |       |
-|                    |                                                                                                  |                                          |       |
-|                    |                                                                                                  |                                          |       |
+| 常用命令行              | 地址                                                                                               | 具体参考                                     | 优先级⭐️ | 类型  |
+| ------------------ | ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ----- | --- |
+| 「帮我研究一下xxx」        | [https://github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)         | [[wiki/concepts/横纵分析法]]                  |       |     |
+| 生成 Logo 和图标        | [https://github.com/op7418/logo-generator-skill](https://github.com/op7418/logo-generator-skill) | [[AI 帮你生成 Logo 和图标]]                     |       |     |
+| 手绘风信息图             | https://github.com/JimLiu/baoyu-skills/tree/main                                                 | [[illustrator and image skill （prompt）]] |       |     |
+| flow diagram       | https://github.com/markdown-viewer/skills                                                        | [[markdown to diagram skill]]            | ⭐️⭐️  |     |
+| technology diagram | https://github.com/yizhiyanhua-ai/fireworks-tech-graph                                           | [[diagram（tech-graph）fireworks]]         | ⭐️    |     |
+| 创作PPT，动画，app等      | https://github.com/alchaincyf/huashu-design                                                      | [[Huashu Design]]                        |       |     |
+|                    |                                                                                                  |                                          |       |     |
+|                    |                                                                                                  |                                          |       |     |
+|                    |                                                                                                  |                                          |       |     |
 
 
 ## 内容创作（5个）
@@ -71,12 +71,6 @@ tags:
 关键技巧：在上下文文件里放3篇你写得最好的帖子当参考。Claude不是凭空编，而是模仿你的调性来拆。
 
 你本来要花一下午把文章改成各平台的格式，现在5分钟出初稿，你只需要过一遍、微调发布。
-
-**02\. 语音变文章**⭐ ｜ 周省 2-3 小时
-
-上班路上、跑步时、做饭时，打开手机录一段10分钟的语音备忘。回来把转录文本丢给Claude，拿回一篇1500字的文章——保留你说话时的自然感觉，但加上了结构和打磨。
-
-最适合那些"脑子里有东西但坐下来写不出来"的人。你最好的内容往往是说出来的，不是写出来的。
 
 **03\. 30天内容日历**⭐ ｜ 月省 2-3 小时
 
