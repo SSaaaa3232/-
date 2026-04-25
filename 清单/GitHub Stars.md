@@ -2,14 +2,12 @@
 
 ## 😃FUnny
 
-| 项目                                                                                                | 描述             | 完成✅ |
-| ------------------------------------------------------------------------------------------------- | -------------- | --- |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)                                 |                |     |
-| [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island)                     |                |     |
-| [cclank/modelbox](https://github.com/cclank/modelbox)                                             |                |     |
-| [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |                |     |
-| [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper)                     |                |     |
-| [alchaincyf/x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)                         |                |     |
+| 项目                                                                                                | 描述  | 完成✅ |
+| ------------------------------------------------------------------------------------------------- | --- | --- |
+| [cclank/modelbox](https://github.com/cclank/modelbox)                                             |     |     |
+| [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |     |     |
+| [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper)                     |     |     |
+| [alchaincyf/x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)                         |     |     |
 
 ## 🤩skill
 

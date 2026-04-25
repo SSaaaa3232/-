@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/密钥.md",
+                "file": "清单/GitHub Stars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "密钥"
+              "title": "GitHub Stars"
             }
           },
           {
@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,12 +253,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "18b6192f0fcc6870",
+  "active": "5f1c488644ea476a",
   "lastOpenFiles": [
-    "清单/常用skill清单.md",
-    "清单/密钥.md",
-    "清单/开通服务.md",
     "清单/GitHub Stars.md",
+    "清单/密钥.md",
+    "清单/常用skill清单.md",
+    "清单/开通服务.md",
     "raw/团队team/技术/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "raw/团队team/技术/Mac-Bridge工作原理详解.md",
     "raw/个人👤/认知/人性-最大的市场.md",

@@ -41,7 +41,7 @@ tags:
 | ❌     |              | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |      | 现成     |
 | ✅     | /docx-create | docx-creater               | ⭐️         |      | pandoc |
 | ✅     | /translate   | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
-|       |              |                            |            |      |        |
+| ✅     |              | feishu-yang-automation     |            |      |        |
 |       |              |                            |            |      |        |
 |       |              |                            |            |      |        |
 
