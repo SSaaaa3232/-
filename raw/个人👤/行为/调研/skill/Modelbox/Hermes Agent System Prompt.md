@@ -1,12 +1,13 @@
 ---
-title: "抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成"
-source: "https://x.com/LufzzLiz/status/2044258384556556743"
+title: 抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成
+source: https://x.com/LufzzLiz/status/2044258384556556743
 author:
   - "[[@LufzzLiz]]"
 published: 2026-02-25
 created: 2026-04-15
+related:
 ---
-# 0、准备阶段
+# 准备阶段
 
 也很简单，要想完整分享，就需要完整的将Hermes agent 发给模型的提示词全量导出。这里使用神器model-box: [https://github.com/cclank/modelbox](https://github.com/cclank/modelbox) ，可以导出各种agent 的提示词
 
@@ -20,7 +21,7 @@ created: 2026-04-15
 
 modelbox这个是我们debug 出完整系统提示词的神器
 
-# 一、系统提示词组成结构
+# 系统提示词组成结构
 
 首先我们剥开源码可以看见：Prompt Builder 位于 agent/prompt\_builder.py，负责**组装系统提示**——身份定义、平台提示、技能索引、上下文文件。所有函数无状态，由 AIAgent.\_build\_system\_prompt() 调用拼接各模块。
 
@@ -52,7 +53,7 @@ modelbox这个是我们debug 出完整系统提示词的神器
 
 我们接着一层层看，找到内鬼🐶
 
-## 第一层 SOUL.md — Agent 身份（~500 chars）
+## 第1层 SOUL.md — Agent 身份（~500 chars）
 
 > 来自 ~/.hermes/SOUL.md，定义 Agent 人格
 
@@ -222,7 +223,6 @@ Provider: alibaba
 
 ![[fc8e5e2af9ada2fc9db17a2c1fc8abf1_MD5.jpg]]
 
-可以看到，是不是提示词少了一大办，恭喜🎉
 
 # 后记
 
@@ -230,4 +230,4 @@ Provider: alibaba
 
 比如skill，Hermes 是有很好的skill 自进化逻辑，但是也会造成skill 泛滥的问题，这个估计后面得需要考虑优化。
 
-比如AGENTS.md 文件加载问题，如果你的Hermes 是默认启动的，那么很可能会加载进 ~/.hermes/hermes-agent/AGENTS.md ,这个文件太大了，大到都被截断了。。足足有5k token 之多，需要按岚叔的方式优化下。当然，省事的话可以直接缩减这个文件也可以，但是要注意后续可能会因为更新被覆盖
+比如AGENTS.md 文件加载问题，如果你的Hermes 是默认启动的，那么很可能会加载进 ~/.hermes/hermes-agent/AGENTS.md ,这个文件太大了，大到都被截断了。。足足有5k token 之多，需要按岚叔的方式优化下。

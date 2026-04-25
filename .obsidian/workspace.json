@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/个人👤/行为/调研/分析/Hermes Agent System Prompt.md",
+                "file": "raw/个人👤/行为/调研/skill/Modelbox/Hermes Agent System Prompt.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,7 +35,8 @@
               "title": "x-mentor-skill"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,6 +245,16 @@
   },
   "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "raw/个人👤/行为/调研/skill/Modelbox/技术/命令行日志分析.md",
+    "raw/个人👤/行为/调研/skill/Modelbox/技术/OpenAI 接口中间代理服务.md",
+    "未命名",
+    "raw/个人👤/行为/调研/skill/Modelbox/README/ModelBox.md",
+    "raw/个人👤/行为/调研/skill/Modelbox/README/cclankmodelbox ModelBox OpenAI-protocol proxy for context debugging (mockpassthrough + payload capture) 1.md",
+    "raw/团队team/技术/Ralph-Loop自动循环.md",
+    "raw/个人👤/行为/调研/skill/Modelbox/技术",
+    "raw/个人👤/行为/调研/skill/Modelbox/README",
+    "raw/个人👤/行为/调研/skill/Modelbox",
+    "raw/个人👤/行为/调研/skill/Modelbox/Hermes Agent System Prompt.md",
     "清单/GitHub Stars.md",
     "raw/个人👤/行为/x/skill/x-mentor-skill.md",
     "清单/常用skill清单.md",
@@ -253,7 +264,6 @@
     "01d29f56dcdbca7b8b96b0b70c9ee350_MD5.gif",
     "清单/密钥.md",
     "清单/开通服务.md",
-    "raw/个人👤/行为/调研/分析/Hermes Agent System Prompt.md",
     "raw/团队team/技术/Mac-Bridge工作原理详解.md",
     "raw/个人👤/认知/人性-最大的市场.md",
     "raw/个人👤/认知/决策的6个心智模型.md",
@@ -269,19 +279,11 @@
     "raw/个人👤/行为/投资理财/BTC-反法币指数.md",
     "raw/团队team/方法论/Karpathy（after） and Heinrich（before）.md",
     "raw/团队team/方法论/The Shorthand Guide to Everything Agentic Security 1.md",
-    "清单/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
-    "清单/2026-04-03-全球成长生产力博主推荐.md",
-    "raw/个人👤/认知/纳瓦尔宝典15条底层规律.md",
-    "raw/个人👤/行为/投资理财/OpenClaw保险AI助理3万案例.md",
     "raw/个人👤/Agent/tips",
     "raw/个人👤/Agent",
     "raw/个人👤/行为/x/skill",
     "raw/个人👤/行为/x/方法论",
     "raw/个人👤/行为/x",
-    "raw/个人👤/行为/Study/prompt",
-    "raw/个人👤/行为/image/diagram",
-    "raw/个人👤/行为/image/插图（文章，展示）",
-    "raw/个人👤/行为/image/插图（文章，展示）/prompt",
     "image/979cf1bb0cc51649dafb319ae8079734_MD5.jpg",
     "image/9568919b508336b89e191fc3b6da23b8_MD5.jpg",
     "image/71cf92ecb327073d5ba0730f7093113e_MD5.jpg",
