@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "常用skill清单"
             }
+          },
+          {
+            "id": "18b6192f0fcc6870",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,11 +253,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b1e58c92338fd817",
+  "active": "18b6192f0fcc6870",
   "lastOpenFiles": [
+    "清单/常用skill清单.md",
+    "清单/密钥.md",
     "清单/开通服务.md",
     "清单/GitHub Stars.md",
-    "清单/常用skill清单.md",
     "raw/团队team/技术/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "raw/团队team/技术/Mac-Bridge工作原理详解.md",
     "raw/个人👤/认知/人性-最大的市场.md",
@@ -270,7 +282,6 @@
     "raw/articles/04/个人成长/第一性原理.md",
     "raw/个人👤/行为/投资理财/超跌反弹的陷阱与均线交易框架.md",
     "raw/articles/04/语录/经典语录.md",
-    "raw/团队team/方法论/模式/\"AI 优先\"还是软件工程优先.md",
     "raw/个人👤/Agent/tips",
     "raw/个人👤/Agent",
     "raw/个人👤/行为/x/skill",
