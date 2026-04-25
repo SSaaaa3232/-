@@ -7,7 +7,7 @@
 | [cclank/modelbox](https://github.com/cclank/modelbox)                                             |     |     |
 | [Jane-xiaoer/hammerspoon-ai-translator](https://github.com/Jane-xiaoer/hammerspoon-ai-translator) |     |     |
 | [Jane-xiaoer/lecture-clipper](https://github.com/Jane-xiaoer/lecture-clipper)                     |     |     |
-| [alchaincyf/x-mentor-skill](https://github.com/alchaincyf/x-mentor-skill)                         |     |     |
+|                                                                                                   |     |     |
 
 ## 🤩skill
 
