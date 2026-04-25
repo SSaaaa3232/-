@@ -25,6 +25,109 @@ aliases:
 - 不改业务代码就能切 mock / 真上游
 - 能记录流式响应片段和哈希，便于排查问题与复现
 
+整体定位**
+- 你这段 `mjs` 本质是一个“AI 网关/sidecar”：
+- 一头接你的应用（客户端）
+- 一头接真正模型服务（OpenAI 或兼容 API）
+- 中间做观测、控制、兜底（日志、鉴权、mock、转发）
+
+等价到 Python 生态就是：`FastAPI/Flask + 反向代理 + 中间件日志 + mock server`。
+
+---
+
+**1) FastAPI/Flask 角色：提供 HTTP API 服务**
+- 它用 Node 的 `createServer` 起服务，等价 Python 里 `uvicorn + FastAPI`。
+- 暴露接口：
+  - `/v1/*`：模型相关请求入口
+  - `/admin/*`：管理接口
+  - `/healthz`：健康检查
+- 这层负责路由、解析请求体、返回 JSON/SSE。
+
+Python 对照（概念）：
+- `@app.post("/v1/responses")`
+- `@app.get("/healthz")`
+
+---
+
+**2) 反向代理角色：把请求转发到上游**
+- 在 `passthrough` 模式，它会把请求原样（尽量）转发到 `MODELBOX_UPSTREAM_BASE_URL`。
+- 做了典型代理动作：
+  - 移除 hop-by-hop headers（connection、transfer-encoding 等）
+  - 复制其它 headers
+  - 可强制注入上游 API key（`authorization: Bearer ...`）
+  - 支持路径前缀裁剪（`upstreamStripPrefix`）
+- 响应也流式回传给客户端（包括 SSE 场景）。
+
+Python 对照：
+- 用 `httpx.AsyncClient` 做“转发代理”
+- `StreamingResponse(upstream.aiter_bytes())` 透传流
+
+---
+
+**3) 中间件日志角色：请求/响应全链路记录**
+它做了比普通 access log 更细的采集，像“可观测中间件”。
+
+记录内容包括：
+- `traceId`（每次请求唯一 ID）
+- 请求头（可脱敏 authorization）
+- 请求体（JSON 或原文）
+- 请求体哈希（SHA256）
+- summary：模型名、是否 stream、message 数、tools 数、图片计数、prompt 字符/token 近似
+- 响应状态、响应头、响应体（可截断）、响应哈希、耗时
+
+用途：
+- 性能分析：prompt 太大、tools 太多
+- 故障排查：请求与响应对不上时按 traceId 回放
+- 安全审计：保留脱敏后的调用轨迹
+
+---
+
+**4) Mock Server 角色：离线模拟上游模型**
+`mode=mock` 时不访问上游，直接按 OpenAI 风格返回：
+- `/v1/chat/completions`
+- `/v1/responses`
+- `/v1/models`
+并且支持：
+- 非流式 JSON 返回
+- 流式 SSE chunk 返回（含 `[DONE]`）
+
+这点非常实用：
+- 没网/没 key 也能联调前端或业务流程
+- 压测接口时不花模型费用
+- 稳定复现 UI 的流式渲染逻辑
+
+---
+
+**为什么要四者合一**
+如果只用 FastAPI/Flask，你有 API 但缺“转发控制”；
+只做代理，你看不到业务语义；
+只打日志，没法离线 mock；
+只 mock，没法接真实上游。
+你这份脚本把四件事整合成一个“可切换的开发网关”。
+
+---
+
+**典型工作流（你现在这套）**
+- 应用把请求发到 `modelbox:8787/v1/...`
+- modelbox 记录 request（含 summary）
+- 根据 mode：
+  - `mock`：生成模拟响应并记录 response
+  - `passthrough`：转发上游并记录 response
+- 日志进入 `logs/modelbox.jsonl`
+- 再用你前一个 `analyze-log.mjs` 做 prompt 分析
+
+---
+
+**在 Python 里你会怎么实现**
+- Web 框架：FastAPI
+- 转发：httpx（同步/异步）
+- 流式：`StreamingResponse`
+- 中间件：自定义 middleware + request/response body capture
+- 日志：JSONL append（或 structlog/loguru）
+- mock：按 OpenAI schema 返回 + SSE 事件生成器
+- 管理口：`/admin/state` 修改运行态配置（注意鉴权）
+
+
 ```
 #!/usr/bin/env node
 
