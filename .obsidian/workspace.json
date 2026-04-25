@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/常用skill清单.md",
+                "file": "raw/articles/alchaincyfx-mentor-skill X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "常用skill清单"
+              "title": "alchaincyfx-mentor-skill X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill 1"
             }
           },
           {
@@ -45,7 +45,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,8 +253,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b1e58c92338fd817",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "6568560d6b28d3bc55acc92939362073_MD5.png",
+    "dc5b1d2cce28bb586f3515499d1530e6_MD5.jpg",
+    "01d29f56dcdbca7b8b96b0b70c9ee350_MD5.gif",
+    "raw/articles/alchaincyfx-mentor-skill X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill.md",
+    "raw/articles/alchaincyfx-mentor-skill X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill 1.md",
     "清单/常用skill清单.md",
     "清单/GitHub Stars.md",
     "清单/密钥.md",
@@ -278,9 +284,6 @@
     "清单/2026-04-03-全球成长生产力博主推荐.md",
     "raw/个人👤/认知/纳瓦尔宝典15条底层规律.md",
     "raw/个人👤/行为/投资理财/OpenClaw保险AI助理3万案例.md",
-    "raw/articles/04/个人成长/第一性原理.md",
-    "raw/个人👤/行为/投资理财/超跌反弹的陷阱与均线交易框架.md",
-    "raw/articles/04/语录/经典语录.md",
     "raw/个人👤/Agent/tips",
     "raw/个人👤/Agent",
     "raw/个人👤/行为/x/skill",
@@ -298,8 +301,6 @@
     "image/3a077f78b5ad90adb1a600ae2078a537_MD5.jpg",
     "image/6bbfe1a90f41ec34d16c38443518cfd9_MD5.jpg",
     "image/08f7a9404d0f87a84abbdbc1e87e3c39_MD5.jpg",
-    "image/28a85319ed3c962909b715d4a3fbeb5c_MD5.jpg",
-    "image/d505989502e57bf4757c4a5f97f8f78f_MD5.jpg",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
