@@ -45,8 +45,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,11 +252,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5f1c488644ea476a",
+  "active": "b1e58c92338fd817",
   "lastOpenFiles": [
+    "清单/常用skill清单.md",
     "清单/GitHub Stars.md",
     "清单/密钥.md",
-    "清单/常用skill清单.md",
     "清单/开通服务.md",
     "raw/团队team/技术/抽丝剥茧：深度解析 Hermes Agent 万字系统提示词（System Prompt）构成.md",
     "raw/团队team/技术/Mac-Bridge工作原理详解.md",

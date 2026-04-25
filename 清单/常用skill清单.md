@@ -30,20 +30,19 @@ tags:
 
 # 自己写： `~/.agents/skills/
 
-| ✅ / ❌ | 命令行          | 简介                         | 实现难度⭐️     | 参考   | 依赖     |
-| ----- | ------------ | -------------------------- | ---------- | ---- | ------ |
-| ✅     | /git-down    | 同步github star目录            | ⭐️         |      |        |
-| ✅     | /image       | 一键obsidian归类image          | ⭐️         |      |        |
-| ❌     |              | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |      |        |
-| ❌     |              | PNG转化SVG图片                 | ⭐️⭐️       |      |        |
-| ❌     |              | 心理助手咨询                     | ⭐️⭐️⭐️     |      |        |
-| ❌     |              | 访谈抓取自动化                    | ⭐️⭐️       |      |        |
-| ❌     |              | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |      | 现成     |
-| ✅     | /docx-create | docx-creater               | ⭐️         |      | pandoc |
-| ✅     | /translate   | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
-| ✅     |              | feishu-yang-automation     |            |      |        |
-|       |              |                            |            |      |        |
-|       |              |                            |            |      |        |
+| ✅ / ❌ | 命令行                       | 简介                         | 实现难度⭐️     | 参考   | 依赖     |
+| ----- | ------------------------- | -------------------------- | ---------- | ---- | ------ |
+| ✅     | /git-down                 | 同步github star目录            | ⭐️         |      |        |
+| ✅     | /image                    | 一键obsidian归类image          | ⭐️         |      |        |
+| ❌     |                           | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |      |        |
+| ❌     |                           | PNG转化SVG图片                 | ⭐️⭐️       |      |        |
+| ❌     |                           | 心理助手咨询                     | ⭐️⭐️⭐️     |      |        |
+| ❌     |                           | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |      | 现成     |
+| ✅     | /docx-create              | docx-creater               | ⭐️         |      | pandoc |
+| ✅     | /translate                | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
+| ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
+|       |                           |                            |            |      |        |
+|       |                           |                            |            |      |        |
 
 # Git：
 
