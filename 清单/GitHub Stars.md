@@ -4,10 +4,6 @@
 
 | 项目                                                                                                | 描述             | 完成✅ |
 | ------------------------------------------------------------------------------------------------- | -------------- | --- |
-| [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)                           |                |     |
-| [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)                                 | [[nuwa-skill]] | ✅   |
-| [666ghj/MiroFish](https://github.com/666ghj/MiroFish)                                             |                |     |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)       |                |     |
 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)                                 |                |     |
 | [Octane0411/open-vibe-island](https://github.com/Octane0411/open-vibe-island)                     |                |     |
 | [cclank/modelbox](https://github.com/cclank/modelbox)                                             |                |     |
