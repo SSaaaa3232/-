@@ -6,17 +6,9 @@ author:
 published: 2026-02-25
 created: 2026-04-15
 ---
-![[685330cbec18a3a86e7f3896e05bcb52_MD5.jpg]]
-
-> 没想到吧，Hermes agent 也可能有万字的系统提示词，且看岚叔带你完整拆解。同时教你一招降低50% tokens 的小妙招
-
-> 本文依然是实践操作类文章、欢迎兄弟们大力支持～
-
 # 0、准备阶段
 
-如果你需要自己上手实践一下，可以看下岚叔的操作方式。
-
-也很简单，要想完整分享，就需要完整的将Hermes agent 发给模型的提示词全量导出。这里使用岚叔自己开发的神器model-box: [https://github.com/cclank/modelbox](https://github.com/cclank/modelbox) ，可以导出各种agent 的提示词
+也很简单，要想完整分享，就需要完整的将Hermes agent 发给模型的提示词全量导出。这里使用神器model-box: [https://github.com/cclank/modelbox](https://github.com/cclank/modelbox) ，可以导出各种agent 的提示词
 
 安装部署直接让你的hermes 照着项目[README.md](https://github.com/cclank/modelbox/blob/main/README.md) 文档做即可，注意选择 mock 模式启动即可
 
@@ -26,11 +18,7 @@ created: 2026-04-15
 
 ![[395a4b7e52bd671b3290febbc2323afb_MD5.jpg]]
 
-长期关注过岚叔的都知道，这个是我们debug 出完整系统提示词的神器，之前我们做了openclaw 完整系统提示词解读，可见：
-
-> Feb 25
-
-当然了，这一步是选做的，如果你不想手到分享，直接看岚叔后续内容即可
+modelbox这个是我们debug 出完整系统提示词的神器
 
 # 一、系统提示词组成结构
 
@@ -243,9 +231,3 @@ Provider: alibaba
 比如skill，Hermes 是有很好的skill 自进化逻辑，但是也会造成skill 泛滥的问题，这个估计后面得需要考虑优化。
 
 比如AGENTS.md 文件加载问题，如果你的Hermes 是默认启动的，那么很可能会加载进 ~/.hermes/hermes-agent/AGENTS.md ,这个文件太大了，大到都被截断了。。足足有5k token 之多，需要按岚叔的方式优化下。当然，省事的话可以直接缩减这个文件也可以，但是要注意后续可能会因为更新被覆盖
-
-感谢大家看到这里，希望对您有所帮助，起三连支持～
-
-💗
-
-公众号版本，可参考：[https://mp.weixin.qq.com/s/gM6mJsH0ay4Z7jkEBjGE0w](https://mp.weixin.qq.com/s/gM6mJsH0ay4Z7jkEBjGE0w)
