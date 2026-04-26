@@ -4,19 +4,19 @@
   "title": "Personal Wiki Session",
   "titleGenerationStatus": "success",
   "createdAt": 1776853844440,
-  "updatedAt": 1777034017720,
-  "lastResponseAt": 1777034017720,
+  "updatedAt": 1777171527687,
+  "lastResponseAt": 1777171527687,
   "sessionId": "bbcb23a2-73af-4048-a175-942c110be526",
   "providerState": {
     "providerSessionId": "bbcb23a2-73af-4048-a175-942c110be526"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 1154,
-    "cacheReadInputTokens": 39267,
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 40590,
+    "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 40422,
+    "contextTokens": 40593,
     "percentage": 20,
     "contextWindowIsAuthoritative": true
   }
