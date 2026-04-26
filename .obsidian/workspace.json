@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,8 +272,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ae55c1d199c5331e",
+  "active": "7d3a3a0ad28aa206",
   "lastOpenFiles": [
+    "清单/GitHub Stars.md",
     "raw/articles/构建IP系统的底层架构 （全文手打、放心食用）.md",
     "419206574f1e9a70af3136f4587058dd_MD5.jpg",
     "raw/articles/How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）.md",
@@ -289,7 +290,6 @@
     "77aeab0a2aeff7b24fd6e4a399681058_MD5.jpg",
     "清单/任务清单.md",
     "raw/团队team/技术/claude --dangerously-skip-permissions.md",
-    "清单/GitHub Stars.md",
     "未命名.md",
     "清单/常用skill清单.md",
     "raw/团队team/技术/Git.md",
