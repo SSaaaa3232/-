@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "ae55c1d199c5331e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/常用skill清单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "常用skill清单"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -247,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -273,9 +286,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7d3a3a0ad28aa206",
+  "active": "ae55c1d199c5331e",
   "lastOpenFiles": [
     "raw/团队team/技术/claude --dangerously-skip-permissions.md",
+    "清单/任务清单.md",
     "raw/团队team/技术/Git.md",
     "raw/团队team/技术/Startup cost.md",
     "raw/团队team/技术/WebSocket 技术全解.md",
@@ -300,7 +314,6 @@
     "清单/有意思的项目/中转站/Modelbox/技术/OpenAI 接口中间代理服务.md",
     "清单/GitHub Stars.md",
     "清单/Githuber.md",
-    "清单/任务清单.md",
     "未命名",
     "清单/有意思的项目/中转站/Modelbox/README/ModelBox.md",
     "raw/个人👤/行为/调研/skill/Modelbox/README/cclankmodelbox ModelBox OpenAI-protocol proxy for context debugging (mockpassthrough + payload capture) 1.md",
