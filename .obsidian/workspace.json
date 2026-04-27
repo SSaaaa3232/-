@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -286,11 +287,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "db40fae2e13d6fcd",
+  "active": "7d3a3a0ad28aa206",
   "lastOpenFiles": [
-    "清单/任务清单.md",
-    "未命名.md",
     "清单/GitHub Stars.md",
+    "未命名.md",
+    "清单/任务清单.md",
     "raw/articles/构建IP系统的底层架构 （全文手打、放心食用）.md",
     "419206574f1e9a70af3136f4587058dd_MD5.jpg",
     "raw/articles/How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）.md",
