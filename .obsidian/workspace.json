@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,8 +285,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ae55c1d199c5331e",
+  "active": "db40fae2e13d6fcd",
   "lastOpenFiles": [
+    "清单/开通服务.md",
     "清单/密钥.md",
     "清单/GitHub Stars.md",
     "Promoter prediction.md",
@@ -322,7 +323,6 @@
     "清单/有意思的项目/Thunderbolt 显卡驱动.md",
     "清单/有意思的项目/jart：把大语言模型所有复杂技术打包成一个文件，在任何系统上双击运行.md",
     "清单/有意思的项目/GPT代充.md",
-    "清单/有意思的项目/中转站/Sub2API.md",
     "未命名",
     "清单/有意思的项目/中转站/Modelbox/技术",
     "清单/有意思的项目/中转站/Modelbox/README",
