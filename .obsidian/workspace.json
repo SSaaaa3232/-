@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "raw/articles/自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）"
             }
           },
           {
@@ -289,9 +289,13 @@
   },
   "active": "7d3a3a0ad28aa206",
   "lastOpenFiles": [
+    "316f1141f46c1336108c884153008885_MD5.jpg",
+    "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
+    "raw/articles/自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）.md",
+    "97494237279f016a287acc33d838f1a5_MD5.jpg",
+    "清单/任务清单.md",
     "清单/GitHub Stars.md",
     "未命名.md",
-    "清单/任务清单.md",
     "raw/articles/构建IP系统的底层架构 （全文手打、放心食用）.md",
     "419206574f1e9a70af3136f4587058dd_MD5.jpg",
     "raw/articles/How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）.md",
@@ -304,7 +308,6 @@
     "raw/articles/Post by @AYi_AInotes on X.md",
     "e075865a7abc8529850fcc9bfc8b22b1_MD5.jpg",
     "eb253566614e55afd424c9c8efa0e491_MD5.jpg",
-    "77aeab0a2aeff7b24fd6e4a399681058_MD5.jpg",
     "raw/团队team/技术/claude --dangerously-skip-permissions.md",
     "清单/常用skill清单.md",
     "raw/团队team/技术/Git.md",
@@ -322,8 +325,6 @@
     "清单/有意思的项目/jart：把大语言模型所有复杂技术打包成一个文件，在任何系统上双击运行.md",
     "清单/有意思的项目/GPT代充.md",
     "清单/有意思的项目/中转站/Sub2API.md",
-    "清单/有意思的项目/中转站/简要.md",
-    "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
     "未命名",
     "清单/有意思的项目/中转站/Modelbox/技术",
     "清单/有意思的项目/中转站/Modelbox/README",
