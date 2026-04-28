@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）.md",
+                "file": "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）"
+              "title": "罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "Promoter prediction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "Promoter prediction"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -261,12 +260,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -287,27 +285,28 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7d3a3a0ad28aa206",
+  "active": "db40fae2e13d6fcd",
   "lastOpenFiles": [
-    "316f1141f46c1336108c884153008885_MD5.jpg",
     "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
-    "raw/articles/自律生活：5月1日开始自律，30天后你会明显不一样（不是变狠，是变稳）.md",
-    "97494237279f016a287acc33d838f1a5_MD5.jpg",
-    "清单/任务清单.md",
+    "清单/密钥.md",
+    "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
+    "raw/articles/1.md",
+    "Promoter prediction.md",
+    "image/358d0667d3887cbf7470c54626866ea4_MD5.jpg",
+    "image/419206574f1e9a70af3136f4587058dd_MD5.jpg",
+    "image/89d5da8b6cbeae318d1030b814ff5078_MD5.jpg",
+    "image/e075865a7abc8529850fcc9bfc8b22b1_MD5.jpg",
+    "image/77aeab0a2aeff7b24fd6e4a399681058_MD5.jpg",
+    "image/87ca86c873748f4a58d517e216bbff5c_MD5.png",
+    "image/eb253566614e55afd424c9c8efa0e491_MD5.jpg",
+    "image/6568560d6b28d3bc55acc92939362073_MD5.png",
+    "image/6efd89bcd0a2be7f134c6383ba7e830a_MD5.jpg",
+    "image/6b0671b961b3f1aae0161a276a450582_MD5.jpg",
     "清单/GitHub Stars.md",
-    "未命名.md",
+    "清单/任务清单.md",
     "raw/articles/构建IP系统的底层架构 （全文手打、放心食用）.md",
-    "419206574f1e9a70af3136f4587058dd_MD5.jpg",
     "raw/articles/How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）.md",
-    "6b0671b961b3f1aae0161a276a450582_MD5.jpg",
-    "d96046fb19c8f36d1a3f08a93d1fa36a_MD5.jpg",
-    "87ca86c873748f4a58d517e216bbff5c_MD5.png",
-    "6efd89bcd0a2be7f134c6383ba7e830a_MD5.jpg",
-    "358d0667d3887cbf7470c54626866ea4_MD5.jpg",
-    "0ee822ca27e4b212aebc6f2799256170_MD5.jpg",
     "raw/articles/Post by @AYi_AInotes on X.md",
-    "e075865a7abc8529850fcc9bfc8b22b1_MD5.jpg",
-    "eb253566614e55afd424c9c8efa0e491_MD5.jpg",
     "raw/团队team/技术/claude --dangerously-skip-permissions.md",
     "清单/常用skill清单.md",
     "raw/团队team/技术/Git.md",
@@ -315,7 +314,6 @@
     "raw/团队team/技术/WebSocket 技术全解.md",
     "raw/团队team/技术/技术栈-指引.md",
     "raw/团队team/技术/技术栈-完整流程.md",
-    "清单/密钥.md",
     "清单/AI学习路线图.md",
     "清单/Top100-KOL-华语-AI-2026.md",
     "清单/2026-03-26-Bill-The-Investor-AI学习频道推荐.md",
