@@ -1,0 +1,25 @@
+{
+  "id": "conv-1777452301754-jhicztzhj",
+  "providerId": "codex",
+  "title": "Start a conversation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777452301754,
+  "updatedAt": 1777453106949,
+  "lastResponseAt": 1777453106949,
+  "sessionId": "019dd869-c0b7-7183-b96f-85304639e3b6",
+  "providerState": {
+    "threadId": "019dd869-c0b7-7183-b96f-85304639e3b6",
+    "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/04/29/rollout-2026-04-29T16-45-02-019dd869-c0b7-7183-b96f-85304639e3b6.jsonl",
+    "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 15471,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 14720,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 15471,
+    "percentage": 6,
+    "model": "gpt-5.5"
+  }
+}

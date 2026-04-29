@@ -1,6 +1,6 @@
 {
   "userName": "",
-  "permissionMode": "normal",
+  "permissionMode": "yolo",
   "model": "opus",
   "thinkingBudget": "medium",
   "effortLevel": "high",
@@ -39,10 +39,12 @@
       "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "sadeMacBook-Air.local": "/Users/saaaaa/.npm-global/bin/codex"
+      },
       "reasoningSummary": "auto",
-      "environmentVariables": "OPENAI_API_KEY=sk-of-cynJyZEVdDJOZeFRrMVFRZKnbMhgbeHxNkhluTNHumFtIWdUyoRwxQOSTsqUiFwo\nOPENAI_BASE_URL= https://api.ofox.ai/v1\nCODEX_SANBOX=workspace-write",
-      "environmentHash": "OPENAI_API_KEY=sk-of-cynJyZEVdDJOZeFRrMVFRZKnbMhgbeHxNkhluTNHumFtIWdUyoRwxQOSTsqUiFwo|OPENAI_BASE_URL=https://api.ofox.ai/v1",
+      "environmentVariables": "",
+      "environmentHash": "",
       "installationMethodsByHost": {
         "sadeMacBook-Air.local": "native-windows"
       },

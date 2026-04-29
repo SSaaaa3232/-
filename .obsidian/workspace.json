@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Claudian+Openrouter cc switch.md",
+                "file": "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claudian+Openrouter cc switch"
+              "title": "分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章"
             }
           },
           {
@@ -76,9 +76,23 @@
               "icon": "lucide-file",
               "title": "开通服务"
             }
+          },
+          {
+            "id": "7e30d4a89da86111",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -265,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 463.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,8 +299,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "db40fae2e13d6fcd",
+  "active": "1ca978258884b172",
   "lastOpenFiles": [
+    "清单/开通服务.md",
+    "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
+    "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
+    "raw/articles/Claudian+Openrouter cc switch.md",
     "f76d5157afd89448771766a86f8eaa79_MD5.jpg",
     "eab9ad817cc588d6dd98e6922e6bf1c9_MD5.jpg",
     "ad31d4eaf4354562c5182f2352680674_MD5.jpg",
@@ -298,9 +315,6 @@
     "a7740098ee989e7f8bd18b578c3cc081_MD5.jpg",
     "dbaf379a4d8b9fa80438fc164333f4ef_MD5.jpg",
     "2c9b66e3772fbb4a8d9a0e71e660b471_MD5.jpg",
-    "7615e3bea2777e43d4c57bb266484283_MD5.jpg",
-    "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
-    "raw/articles/Claudian+Openrouter cc switch.md",
     "raw/articles/Claude Desktop 接入第三方 API 教程.md",
     "raw/articles/Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。.md",
     "raw/articles/AI 的经济账根本算不通.md",
@@ -308,10 +322,8 @@
     "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
     "清单/本地部署.md",
     "Promoter prediction.md",
-    "清单/开通服务.md",
     "清单/密钥.md",
     "清单/GitHub Stars.md",
-    "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
     "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
     "raw/articles/1.md",
     "清单/任务清单.md",
