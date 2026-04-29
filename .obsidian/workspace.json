@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Claude Desktop 接入第三方 API 教程.md",
+                "file": "raw/articles/Claudian+Openrouter cc switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Desktop 接入第三方 API 教程"
+              "title": "Claudian+Openrouter cc switch"
             }
           },
           {
@@ -135,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -287,20 +288,22 @@
   },
   "active": "db40fae2e13d6fcd",
   "lastOpenFiles": [
-    "9ec3a4709abc51a05164debd7272ff32_MD5.jpg",
-    "e24fd91d3d2f248444a0e7e2b6562795_MD5.jpg",
-    "92fac3d8be17c550ddabb51746dfb502_MD5.jpg",
-    "c52923fb95a61848f0d6d2d8f8cef0f4_MD5.png",
-    "1deb48df17b25db69f775ff64cf3f0a9_MD5.jpg",
-    "d52cba057b793bf97cc7722f533ee49a_MD5.jpg",
-    "8e24c9d5bc0abb663289e113208e0675_MD5.jpg",
-    "21a64a3018c71a79edc8535f43786005_MD5.jpg",
-    "raw/articles/Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。.md",
+    "f76d5157afd89448771766a86f8eaa79_MD5.jpg",
+    "eab9ad817cc588d6dd98e6922e6bf1c9_MD5.jpg",
+    "ad31d4eaf4354562c5182f2352680674_MD5.jpg",
+    "119b74b8219d5c38747b89e2cb4051cc_MD5.jpg",
+    "e44076ae5bc6190b63ab0ff7c7020145_MD5.jpg",
+    "da34a8c80dd4afb3456ff4641cce3385_MD5.jpg",
+    "3f1f60ad881142f9c83477dd4e3fe0e0_MD5.jpg",
+    "a7740098ee989e7f8bd18b578c3cc081_MD5.jpg",
+    "dbaf379a4d8b9fa80438fc164333f4ef_MD5.jpg",
+    "2c9b66e3772fbb4a8d9a0e71e660b471_MD5.jpg",
+    "7615e3bea2777e43d4c57bb266484283_MD5.jpg",
+    "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
+    "raw/articles/Claudian+Openrouter cc switch.md",
     "raw/articles/Claude Desktop 接入第三方 API 教程.md",
-    "51e4fcc1456d2266ad853acdf40989bd_MD5.jpg",
+    "raw/articles/Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。.md",
     "raw/articles/AI 的经济账根本算不通.md",
-    "dab1b57900498f06b50f47b1f01e6932_MD5.jpg",
-    "ec36cffc8622dd6c062ecf86a71ac78f_MD5.jpg",
     "raw/articles/开源「洁癖.Skill」，让你的Agent越用越聪明。.md",
     "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
     "清单/本地部署.md",
@@ -321,8 +324,6 @@
     "raw/团队team/技术/Startup cost.md",
     "raw/团队team/技术/WebSocket 技术全解.md",
     "raw/团队team/技术/技术栈-指引.md",
-    "raw/团队team/技术/技术栈-完整流程.md",
-    "清单/AI学习路线图.md",
     "未命名",
     "清单/有意思的项目/中转站/Modelbox/技术",
     "清单/有意思的项目/中转站/Modelbox/README",
