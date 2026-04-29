@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Promoter prediction.md",
+                "file": "清单/本地部署.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promoter prediction"
+              "title": "本地部署"
             }
           },
           {
@@ -287,10 +287,10 @@
   },
   "active": "db40fae2e13d6fcd",
   "lastOpenFiles": [
+    "Promoter prediction.md",
     "清单/开通服务.md",
     "清单/密钥.md",
     "清单/GitHub Stars.md",
-    "Promoter prediction.md",
     "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
     "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
     "raw/articles/1.md",
