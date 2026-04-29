@@ -1,6 +1,9 @@
 {
   "cssTheme": "Blue Topaz",
   "accentColor": "#889eaa",
-  "theme": "system",
-  "enabledCssSnippets": []
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "vault-colors",
+    "folder-colors"
+  ]
 }

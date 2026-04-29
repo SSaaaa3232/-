@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
+                "file": "清单/开通服务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding"
+              "title": "开通服务"
             }
           }
         ],
@@ -299,8 +299,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1ca978258884b172",
+  "active": "7e30d4a89da86111",
   "lastOpenFiles": [
+    "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
     "清单/开通服务.md",
     "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
     "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
@@ -319,7 +320,6 @@
     "raw/articles/Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。.md",
     "raw/articles/AI 的经济账根本算不通.md",
     "raw/articles/开源「洁癖.Skill」，让你的Agent越用越聪明。.md",
-    "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",
     "清单/本地部署.md",
     "Promoter prediction.md",
     "清单/密钥.md",
