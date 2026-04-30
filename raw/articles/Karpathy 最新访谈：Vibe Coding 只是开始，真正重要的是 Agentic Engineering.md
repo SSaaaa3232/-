@@ -14,9 +14,6 @@ Karpathy 参与创建了 OpenAI，在 Tesla 领导过 Autopilot 视觉团队，�
 
 2026 年 4 月，Karpathy 在 Sequoia Capital 的 AI Ascent 现场接受合伙人 Stephanie Zhan 的访谈。这场 30 分钟的对话覆盖了他对编程范式剧变的亲身感受、Software 3.0 的实质、AI 为什么在某些地方极强而在另一些地方离谱地弱，以及“凭感觉编程”之后更严肃的下一步是什么。
 
-> 13h
-> 
-> @karpathy and I are back! At @sequoia AI Ascent 2026. And a lot has changed. Last year, he coined “vibe coding”. This year, he’s never felt more behind as a programmer. The big shift: vibe coding raised the floor. Agentic engineering raises the ceiling. We talk about what it
 
 ## 要点速览
 
