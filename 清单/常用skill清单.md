@@ -45,11 +45,11 @@ tags:
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
 | ❌     | /git-find                 | 搜索GitHub有没有相关项目            |            |      |        |
 | ❌     | /good                     | 打卡选择                       |            |      |        |
-| ❌     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
-| ❌     | /git-push                 | 保存到Nezikk-s-skill，并且上传     |            |      |        |
-| ❌     | /aha                      | 灵感一键记录                     |            |      |        |
-| ✅     | /nskill                   | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
+| ✅     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
 |       |                           |                            |            |      |        |
+| ❌     | /aha                      | 灵感一键记录                     |            |      |        |
+| ✅     | /nskill+                  | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
+| ✅     | /justdo+                  | 在项目文件夹里创建文件夹               |            |      |        |
 
 # Git：
 
