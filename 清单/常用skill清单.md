@@ -44,7 +44,6 @@ tags:
 | ✅     | /translate                | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
 | ❌     | /git-find                 | 搜索GitHub有没有相关项目            |            |      |        |
-| ❌     | /good                     | 打卡选择                       |            |      |        |
 | ✅     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
 |       |                           |                            |            |      |        |
 | ❌     | /aha                      | 灵感                         |            |      |        |
