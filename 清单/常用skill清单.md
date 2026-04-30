@@ -43,7 +43,9 @@ tags:
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
 | ❌     | /github                   | 搜索GitHub有没有相关项目            |            |      |        |
 | ❌     | /sign                     | 打卡选择                       |            |      |        |
-| ❌     | /create-git               | 在Git上创建仓库同步wen             |            |      |        |
+| ❌     | /create-git               | 在Git上创建仓库同步文件夹             |            |      |        |
+| ❌     | /push-git                 | 保存到Nezikk-s-skill，并且上传     |            |      |        |
+| ❌     | /aha                      | 灵感一键记录                     |            |      |        |
 
 # Git：
 
