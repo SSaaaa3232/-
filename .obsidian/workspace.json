@@ -250,9 +250,19 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "483186501f92793f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -277,8 +287,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "cd5bb7e202055730",
+  "active": "483186501f92793f",
   "lastOpenFiles": [
+    "Dashboards/Habit Dashboard.md",
+    "Daily Notes/2026/04/2026-04-30.md",
+    "_templates/daily-note.md",
+    "Dashboards",
+    "Daily Notes/2026/04",
+    "Daily Notes/2026",
+    "Daily Notes",
     "raw/articles/Post by @AYi_AInotes on X.md",
     "清单/常用skill清单.md",
     "image/0ee617f3a612615ed8aa18bfd43d1054_MD5.webp",
@@ -312,19 +329,12 @@
     "raw/articles/AI 的经济账根本算不通.md",
     "raw/articles/开源「洁癖.Skill」，让你的Agent越用越聪明。.md",
     "清单/本地部署.md",
-    "Promoter prediction.md",
-    "清单/GitHub Stars.md",
-    "raw/articles/1.md",
     "未命名",
     "清单/有意思的项目/中转站/Modelbox/技术",
     "清单/有意思的项目/中转站/Modelbox/README",
     "清单/有意思的项目/中转站/Modelbox",
     "raw/个人👤/行为/读书/prompt",
     "raw/个人👤/Agent/tips",
-    "raw/个人👤/Agent",
-    "raw/个人👤/行为/x/skill",
-    "raw/个人👤/行为/x/方法论",
-    "raw/个人👤/行为/x",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
