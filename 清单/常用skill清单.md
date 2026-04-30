@@ -48,7 +48,7 @@ tags:
 | ❌     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
 | ❌     | /git-push                 | 保存到Nezikk-s-skill，并且上传     |            |      |        |
 | ❌     | /aha                      | 灵感一键记录                     |            |      |        |
-| ❌     | /skill-Nezikk             | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
+| ✅     | /nskill                   | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
 |       |                           |                            |            |      |        |
 
 # Git：
