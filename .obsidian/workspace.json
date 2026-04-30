@@ -44,9 +44,33 @@
               "icon": "lucide-file",
               "title": "「洁癖.Skill」"
             }
+          },
+          {
+            "id": "3bd46e13d3532400",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/常用skill清单.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "常用skill清单"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -264,8 +287,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5c33fd4ddf30d6bc",
+  "active": "3bd46e13d3532400",
   "lastOpenFiles": [
+    "raw/团队team/skill/「洁癖.Skill」.md",
     "清单/常用skill清单.md",
     "清单/任务清单.md",
     "_templates/daily-note.md",
@@ -296,7 +320,6 @@
     "raw/articles/Vibe Coding 写出来的应用爆火后崩了，Val Town 创始人说出了真相！.md",
     "raw/articles/Karpathy 最新访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
     "清单/技术栈.md",
-    "raw/团队team/skill/「洁癖.Skill」.md",
     "raw/articles/「洁癖.Skill」.md",
     "raw/个人👤/Agent/tips/Claude Desktop 接入第三方 API.md",
     "raw/articles/38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding.md",

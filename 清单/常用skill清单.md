@@ -45,7 +45,7 @@ tags:
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
 | ❌     | /git-find                 | 搜索GitHub有没有相关项目            |            |      |        |
 | ✅     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
-|       |                           |                            |            |      |        |
+| ✅     | skill-down                | 下载skill到Nezikk仓库           |            |      |        |
 | ❌     | /aha                      | 灵感                         |            |      |        |
 | ✅     | /nskill+                  | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
 | ✅     | /justdo+                  | 在项目文件夹里创建文件夹               |            |      |        |
