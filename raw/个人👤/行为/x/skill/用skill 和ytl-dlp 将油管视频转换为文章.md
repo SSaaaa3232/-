@@ -6,7 +6,6 @@ author:
 published: 2026-04-29
 created: 2026-04-29
 ---
-![[44de5fdab3dd072c27cf22c4d204db5e_MD5.jpg]]
 
 # 创建 SKILL：将你喜欢看的 YOUTUBE 视频转换为文章
 
