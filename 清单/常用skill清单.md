@@ -30,6 +30,8 @@ tags:
 
 # 自己写： `~/.agents/skills/
 
+## skill-switch
+
 | ✅ / ❌ | 命令行                       | 简介                         | 实现难度⭐️     | 参考   | 依赖     |
 | ----- | ------------------------- | -------------------------- | ---------- | ---- | ------ |
 | ✅     | /git-down                 | 同步github star目录            | ⭐️         |      |        |
@@ -41,11 +43,13 @@ tags:
 | ✅     | /docx-create              | docx-creater               | ⭐️         |      | pandoc |
 | ✅     | /translate                | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
-| ❌     | /github                   | 搜索GitHub有没有相关项目            |            |      |        |
-| ❌     | /sign                     | 打卡选择                       |            |      |        |
-| ❌     | /create-git               | 在Git上创建仓库同步文件夹             |            |      |        |
-| ❌     | /push-git                 | 保存到Nezikk-s-skill，并且上传     |            |      |        |
+| ❌     | /git-find                 | 搜索GitHub有没有相关项目            |            |      |        |
+| ❌     | /good                     | 打卡选择                       |            |      |        |
+| ❌     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
+| ❌     | /git-push                 | 保存到Nezikk-s-skill，并且上传     |            |      |        |
 | ❌     | /aha                      | 灵感一键记录                     |            |      |        |
+| ❌     | /skill-Nezikk             | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
+|       |                           |                            |            |      |        |
 
 # Git：
 
