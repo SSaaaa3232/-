@@ -1,10 +1,16 @@
 ---
-title: "Post by @dotey on X"
-source: "https://x.com/dotey/status/2049534755729707205"
+title: Post by @dotey on X
+source: https://x.com/dotey/status/2049534755729707205
 author:
   - "[[@dotey]]"
 published: 2026-03-20
 created: 2026-04-30
+tags:
+  - memory
+  - Harness-Engineering
+  - baoyu
+  - hermes
+  - OpenClaw
 ---
 转译：深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区
 
