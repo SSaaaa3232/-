@@ -41,8 +41,8 @@ tags:
 | ✅     | /docx-create              | docx-creater               | ⭐️         |      | pandoc |
 | ✅     | /translate                | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
 | ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
-|       |                           |                            |            |      |        |
-|       |                           |                            |            |      |        |
+| ❌     | /github                   | 搜索GitHub有没有相关项目            |            |      |        |
+| ❌     | /sign                     | 打卡选择                       |            |      |        |
 
 # Git：
 
