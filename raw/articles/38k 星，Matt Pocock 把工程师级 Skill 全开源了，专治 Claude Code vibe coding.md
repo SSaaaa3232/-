@@ -8,8 +8,6 @@ created: 2026-04-29
 ---
 Total TypeScript 作者 Matt Pocock 把自己 .claude 目录里每天用的 Skill 全开源了，38,314 颗星，主张一句话很硬：「这是给真工程师用的，不是 vibe coding」。整套 16 个 Skill，反对 BMAD、Spec-Kit、GSD 那种"重流程夺控制权"的玩法，走"小、可改、可组合"的另一条路。
 
-![[617d111a173b648da074f75aecff627f_MD5.jpg]]
-
 ## 为什么这套 Skill 一上线就 38k 星
 
 Matt 不是 Skill 圈的人，他是 TypeScript 圈的顶流（Total TypeScript 课程作者，[aihero.dev](https://aihero.dev/) 站长，邮件列表 60,000+ 工程师订阅）。他写 Skill 的视角是从一个每天写真实生产代码的人出发，不是从一个"想搭框架"的人出发。
