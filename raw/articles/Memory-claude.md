@@ -1,26 +1,13 @@
 ---
-title: "How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）"
-source: "https://x.com/aiedge_/status/2046966170868486512"
+title: How to Give Claude Perfect Memory (complete guide)如何让 Claude 拥有完美记忆（完整指南）
+source: https://x.com/aiedge_/status/2046966170868486512
 author:
   - "[[@aiedge_]]"
 published: 2026-04-08
 created: 2026-04-26
+tags:
+  - memory
 ---
-![[77aeab0a2aeff7b24fd6e4a399681058_MD5.jpg]]
-
-I don't care what anyone tells you - by default, Claude's memory is basically useless. 我不在乎别人怎么跟你说——默认情况下，Claude 的记忆力基本上毫无用处。
-
-It frequently forgets context; you constantly have to re-explain yourself, and even after you do, it still often doesn't remember.它经常忘记上下文；你不得不不断重复解释，即便如此，它也常常记不住。
-
-Sadly, most people have been living with these flaws for months, without knowing there is a better way. 遗憾的是，大多数人多年来一直忍受着这些缺陷，却不知道还有更好的解决办法。
-
-I use Claude every single day. I literally have more Claude screen time than any other app on my Mac. 我每天都使用 Claude。我 Mac 上使用 Claude 的时间实际上比任何其他应用都要多。
-
-Because I use Claude so often, I can't afford to have my most-used work tool randomly forget context and important data.因为我使用 Claude 如此频繁，我无法容忍我最常用的工作工具随机忘记上下文和重要数据。
-
-In need of a Claude that is as sharp as possible, I went down the rabbit hole of looking for every possible memory solution.为了找到尽可能锋利的 Claude，我深入研究了各种可能的记忆解决方案。
-
-Luckily, my research was successful.幸运的是，我的研究成功了。
 
 I discovered three "layers" of memory systems, and they've made Claude significantly more powerful. 我发现了一种由三层构成的记忆系统，这些机制让 Claude 的能力得到了显著提升。
 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/团队team/skill/「洁癖.Skill」.md",
+                "file": "raw/articles/Memory-claude.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "「洁癖.Skill」"
+              "title": "Memory-claude"
             }
           },
           {
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,7 +262,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -287,9 +287,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "3bd46e13d3532400",
+  "active": "5c33fd4ddf30d6bc",
   "lastOpenFiles": [
-    "raw/articles/Karpathy 访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
+    "Daily Notes/2026/05/2026-05-01.md",
+    "raw/articles/Memory-claude.md",
+    "Daily Notes/2026/05",
+    "raw/个人👤/行为/调研/分析/Karpathy 访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
+    "raw/团队team/skill/「洁癖.Skill」.md",
+    "清单/任务清单.md",
+    "清单/常用skill清单.md",
     "raw/个人👤/行为/memory/Memory.md",
     "raw/articles/Memory.md",
     "raw/个人👤/行为/memory/Harness in memory.md",
@@ -305,9 +311,6 @@
     "raw/个人👤/行为/x/方法论/构建IP系统的底层架构.md",
     "raw/个人👤/行为/x/skill/用skill 和ytl-dlp 将油管视频转换为文章.md",
     "raw/articles/Harness in memory.md",
-    "raw/团队team/skill/「洁癖.Skill」.md",
-    "清单/常用skill清单.md",
-    "清单/任务清单.md",
     "_templates/daily-note.md",
     "Dashboards/Habit Dashboard.md",
     "Daily Notes/2026/04/2026-04-30.md",
@@ -331,10 +334,7 @@
     "清单/密钥.md",
     "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
     "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
-    "清单/开通服务.md",
-    "raw/articles/Post by @dotey on X.md",
     "清单/有意思的项目/中转站/Modelbox/技术",
-    "清单/有意思的项目/中转站/Modelbox/README",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
