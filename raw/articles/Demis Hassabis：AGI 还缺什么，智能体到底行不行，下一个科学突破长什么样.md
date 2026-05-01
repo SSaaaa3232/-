@@ -6,8 +6,6 @@ author:
 published: 2026-05-01
 created: 2026-05-01
 ---
-![[43d84d1b5abc56680c6ddde17f0c0ef4_MD5.jpg]]
-
 Demis Hassabis 是 Google DeepMind 的 CEO，也是 Isomorphic Labs 的 CEO。他在棋手神童和游戏开发者的身份之外，拿了认知神经科学的博士学位，研究海马体和记忆的工作方式。2024 年，他因为 AlphaFold 的工作获得诺贝尔化学奖。
 
 这次他做客 Y Combinator 的 How to Build the Future 直播，和 YC CEO Garry Tan 聊了四十分钟。几个核心话题：当前 AI 范式距离 AGI 还差什么、智能体的真实水平、AI 在科学领域的突破模式，以及给深科技创业者的建议。
