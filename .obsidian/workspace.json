@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
+                "file": "清单/常用skill清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样"
+              "title": "常用skill清单"
             }
           }
         ],
@@ -265,6 +265,7 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
+    "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "清单/常用skill清单.md",
     "raw/个人👤/行为/x/skill/网文-skill.md",
     "清单/任务清单.md",
@@ -279,7 +280,6 @@
     "image/f68bf754c7574e48001a190a68c6a671_MD5.jpg",
     "image/e2bb28dc677afce7d6840791acbf7b85_MD5.jpg",
     "raw/articles/YC 2026 RFS 的赌徒心态：要想富先修路.md",
-    "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/调研/分析/AI 的经济账根本算不通.md",
     "raw/个人👤/行为/调研/分析/Karpathy 访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
     "raw/articles/Memory-claude.md",
