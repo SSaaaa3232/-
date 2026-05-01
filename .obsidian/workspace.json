@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Memory-claude.md",
+                "file": "raw/articles/网文-skill.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Memory-claude"
+              "title": "网文-skill"
             }
           },
           {
@@ -127,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -287,12 +288,27 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5c33fd4ddf30d6bc",
+  "active": "1ca978258884b172",
   "lastOpenFiles": [
-    "Daily Notes/2026/05/2026-05-01.md",
-    "raw/articles/Memory-claude.md",
-    "Daily Notes/2026/05",
+    "image/ee7ef1a2a0161ba14a57976402424680_MD5.jpg",
+    "image/747d6a0fad2f6d2682bd1dd2dad29cb9_MD5.jpg",
+    "image/b21365237892dd2bc85766c18078ec73_MD5.jpg",
+    "image/80e0a9cc33a145692456f603c51a8416_MD5.jpg",
+    "image/ae81f6ff3b2cf5be3b356abcc86aecd9_MD5.jpg",
+    "image/7d47be3a8c1f7c422805a741c2d61185_MD5.jpg",
+    "image/43d84d1b5abc56680c6ddde17f0c0ef4_MD5.jpg",
+    "image/e361f13703994db6d7e1dc70e3fcba2d_MD5.jpg",
+    "image/f68bf754c7574e48001a190a68c6a671_MD5.jpg",
+    "image/e2bb28dc677afce7d6840791acbf7b85_MD5.jpg",
+    "image/8fe450e39bb12abee966d0a4c79f55d1_MD5.jpg",
+    "raw/articles/YC 2026 RFS 的赌徒心态：要想富先修路.md",
+    "raw/articles/网文-skill.md",
+    "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
+    "raw/个人👤/行为/调研/分析/AI 的经济账根本算不通.md",
     "raw/个人👤/行为/调研/分析/Karpathy 访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
+    "raw/articles/Memory-claude.md",
+    "Daily Notes/2026/05/2026-05-01.md",
+    "Daily Notes/2026/05",
     "raw/团队team/skill/「洁癖.Skill」.md",
     "清单/任务清单.md",
     "清单/常用skill清单.md",
@@ -319,21 +335,6 @@
     "Daily Notes/2026/04",
     "Daily Notes/2026",
     "Daily Notes",
-    "image/0ee617f3a612615ed8aa18bfd43d1054_MD5.webp",
-    "image/0c129566cd36ba8cd581d54a31d2549f_MD5.png",
-    "image/0c4bcfe83cc2cd199a51807a6736dd27_MD5.jpg",
-    "image/0bdc2eeb09947932e76f69a8d60674cf_MD5.jpg",
-    "image/0b756bd45f444f350e4e1fce5e9d5a4e_MD5.jpg",
-    "image/0abc817b7da7554a07964c9ada49126f_MD5.jpg",
-    "image/344ab98d50cdfa82df7e890b0bac72a5_MD5.jpg",
-    "image/4905aae5e3a991ae876899ba30930555_MD5.png",
-    "image/58512f08d97d255bb26789c05a3dae7f_MD5.png",
-    "image/98700840c0d7dc3882310342a9ff3277_MD5.jpg",
-    "清单/机器学习项目汇总.md",
-    "raw/articles/罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了.md",
-    "清单/密钥.md",
-    "清单/有意思的项目/中转站/Modelbox/Hermes Agent System Prompt.md",
-    "raw/articles/分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章.md",
     "清单/有意思的项目/中转站/Modelbox/技术",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",

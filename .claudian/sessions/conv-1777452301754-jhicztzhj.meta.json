@@ -4,8 +4,8 @@
   "title": "Start a conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1777452301754,
-  "updatedAt": 1777453106949,
-  "lastResponseAt": 1777453106949,
+  "updatedAt": 1777612297188,
+  "lastResponseAt": 1777612269298,
   "sessionId": "019dd869-c0b7-7183-b96f-85304639e3b6",
   "providerState": {
     "threadId": "019dd869-c0b7-7183-b96f-85304639e3b6",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 15471,
+    "inputTokens": 33296,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 14720,
+    "cacheReadInputTokens": 31104,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 15471,
-    "percentage": 6,
+    "contextTokens": 33296,
+    "percentage": 13,
     "model": "gpt-5.5"
   }
 }
