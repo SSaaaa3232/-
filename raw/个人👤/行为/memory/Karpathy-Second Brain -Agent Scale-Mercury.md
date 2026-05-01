@@ -1,10 +1,15 @@
 ---
-title: "Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。"
-source: "https://x.com/Ctrl_Alt_Zaid/status/2049082538686382397"
+title: Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。
+source: https://x.com/Ctrl_Alt_Zaid/status/2049082538686382397
 author:
   - "[[@Ctrl_Alt_Zaid]]"
 published: 2026-04-28
 created: 2026-04-29
+tags:
+  - karpathy
+  - Agent
+  - mercury
+  - memory
 ---
 ![[51e4fcc1456d2266ad853acdf40989bd_MD5.jpg]]
 

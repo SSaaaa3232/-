@@ -430,5 +430,3 @@ OpenAI 的 CFO 已经[多次](https://www.wheresyoured.at/openai-cfo-news/)[表�
 如果 OpenAI 到 2030 年底无法通过收入和融资筹到 8,520 亿美元，它就无法支付 Stargate。那会杀死 Oracle 股票的价值，引发一连串追加保证金通知（margin calls）。随后 Ellison 将不得不卖出股票，进一步引发更多追加保证金。无论有没有什么救助，都救不了 Larry 的资产。
 
 我的意思是：Ellison 的未来，押在 Sam Altman 能否在 4 年内筹资并创造 8,520 亿美元收入这件事上。
-
-祝你好运，Larry！你真的会需要它。

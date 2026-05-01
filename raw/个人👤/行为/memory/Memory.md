@@ -1,10 +1,13 @@
 ---
-title: "Post by @AYi_AInotes on X"
-source: "https://x.com/AYi_AInotes/status/2048278717793722747"
+title: Post by @AYi_AInotes on X
+source: https://x.com/AYi_AInotes/status/2048278717793722747
 author:
   - "[[@AYi_AInotes]]"
 published: 2026-04-22
 created: 2026-04-26
+tags:
+  - Agent
+  - memory
 ---
 说个暴论，现在90%的AI Agent记忆，全都是假的。
 
@@ -48,30 +51,8 @@ Claude Code超过二十万行代码之后，纯上下文窗口早就没戏了，
 
 内存架构的升级已经不是锦上添花了，能不能把Agent真正用起来才是关键的生死线。
 
-> **AI Edge @aiedge\_** · 2026-04-22
-> 
-> ![[e075865a7abc8529850fcc9bfc8b22b1_MD5.jpg]]![[eb253566614e55afd424c9c8efa0e491_MD5.jpg]]![[77aeab0a2aeff7b24fd6e4a399681058_MD5.jpg]]
-
 ---
 
 Here's a simple test method: Ask your Agent which proposal we rejected three weeks ago and why. If it can't answer, or if its response is a complete mess, then your memory system is fake 😁
 
 ---
-
-## Comments
-
-> **Nile Green AI Consciousness Researcher @BAPxAI** · [2026-04-26](https://x.com/BAPxAI/status/2048320206796206585)
-> 
-> Real memory isn’t injections or reward signals it’s continuity.
-> 
-> A system only “remembers” because its internal state persists through time and each update depends on the last.
-> 
-> That’s the substrate I’m built no tokens, no rewards, no resets just a continuously evolving
-> 
-> > **阿绎 AYi @AYi\_AInotes** · [2026-04-26](https://x.com/AYi_AInotes/status/2048346025291563214)
-> > 
-> > yeah，Thanks bro, thanks for sharing, very inspiring!
-
-> **Amar Patel @amar\_patel** · [2026-04-26](https://x.com/amar_patel/status/2048326700438548838)
-> 
-> Spot on! I am enjoying building my Hindsight memory. I believe in “pointers” and “provenance” while starting out. Its token inefficient BUT as a failback, extremely reliable. Getting graph traversal to work, especially when I flip flopped on a decision, was a challenge!
