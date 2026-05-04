@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/如何写出工业级 Skill.md",
+                "file": "清单/常用skill清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "如何写出工业级 Skill"
+              "title": "常用skill清单"
             }
           }
         ],
@@ -265,9 +265,17 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
-    "raw/articles/大多数公司根本没有为 AI 做好准备.md",
-    "raw/articles/如何写出工业级 Skill.md",
+    "raw/个人👤/行为/调研/分析/YC 2026 RFS 的赌徒心态：要想富先修路.md",
+    "raw/个人👤/行为/调研/分析/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
+    "raw/个人👤/行为/调研/分析/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
+    "raw/个人👤/行为/调研/YC 2026 RFS 的赌徒心态：要想富先修路.md",
+    "raw/个人👤/行为/调研/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
+    "raw/个人👤/行为/调研/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
     "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
+    "raw/团队team/方法论/大多数公司根本没有为 AI 做好准备.md",
+    "raw/articles/大多数公司根本没有为 AI 做好准备.md",
+    "raw/团队team/skill/如何写出工业级 Skill.md",
+    "raw/articles/如何写出工业级 Skill.md",
     "image/5bb14222e590e71bf84c1555a403bc3f_MD5.jpg",
     "image/02891013eb82e4ed533af504f4dcc40c_MD5.jpg",
     "image/d277b7831cdc990295080f7ca4731f18_MD5.jpg",
@@ -298,14 +306,6 @@
     "raw/memory",
     "memory",
     "未命名",
-    "raw/articles/Why Karpathy’s Second Brain Breaks at Agent Scale-Mercury.md",
-    "raw/团队team/skill/Matt Pocock -工程师级 Skill -Claude Code vibe coding.md",
-    "raw/articles/Matt Pocock -工程师级 Skill -Claude Code vibe coding.md",
-    "raw/个人👤/行为/x/方法论/构建IP系统的底层架构.md",
-    "raw/个人👤/行为/x/skill/用skill 和ytl-dlp 将油管视频转换为文章.md",
-    "raw/articles/Harness in memory.md",
-    "_templates/daily-note.md",
-    "Dashboards/Habit Dashboard.md",
     "Dashboards",
     "Daily Notes/2026/04",
     "Daily Notes/2026",
