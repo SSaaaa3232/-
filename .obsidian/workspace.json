@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
+                "file": "raw/articles/如何写出工业级 Skill.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！"
+              "title": "如何写出工业级 Skill"
             }
           }
         ],
@@ -265,6 +265,9 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
+    "raw/articles/大多数公司根本没有为 AI 做好准备.md",
+    "raw/articles/如何写出工业级 Skill.md",
+    "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
     "image/5bb14222e590e71bf84c1555a403bc3f_MD5.jpg",
     "image/02891013eb82e4ed533af504f4dcc40c_MD5.jpg",
     "image/d277b7831cdc990295080f7ca4731f18_MD5.jpg",
@@ -275,9 +278,7 @@
     "image/4658ba585f9e8f24a6b42919c60e5bdf_MD5.jpg",
     "image/fa12b2de127c7ad6051f784b7e8c8aeb_MD5.jpg",
     "image/fe718380749b62d04a4f9e66b5ede3a7_MD5.jpg",
-    "image/b7f1bf0c18f1e0546f9112d1baf736d5_MD5.jpg",
     "清单/常用skill清单.md",
-    "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
     "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/x/skill/网文-skill.md",
     "清单/任务清单.md",
@@ -305,7 +306,6 @@
     "raw/articles/Harness in memory.md",
     "_templates/daily-note.md",
     "Dashboards/Habit Dashboard.md",
-    "Daily Notes/2026/04/2026-04-30.md",
     "Dashboards",
     "Daily Notes/2026/04",
     "Daily Notes/2026",
