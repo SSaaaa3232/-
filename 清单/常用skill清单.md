@@ -32,23 +32,25 @@ tags:
 
 ## skill-switch
 
-| ✅ / ❌ | 命令行                       | 简介                         | 实现难度⭐️     | 参考   | 依赖     |
-| ----- | ------------------------- | -------------------------- | ---------- | ---- | ------ |
-| ✅     | /git-down                 | 同步github star目录            | ⭐️         |      |        |
-| ✅     | /image                    | 一键obsidian归类image          | ⭐️         |      |        |
-| ❌     |                           | 论文自动化                      | ⭐️⭐️⭐️⭐️⭐️ |      |        |
-| ❌     |                           | PNG转化SVG图片                 | ⭐️⭐️       |      |        |
-| ❌     |                           | 心理助手咨询                     | ⭐️⭐️⭐️     |      |        |
-| ❌     |                           | github项目跟踪寻找有帮助潜力的项目       | ⭐️⭐️⭐️⭐️   |      | 现成     |
-| ✅     | /docx-create              | docx-creater               | ⭐️         |      | pandoc |
-| ✅     | /translate                | synbio-academic-translator | ⭐️⭐️       | 论文翻译 | 合成生物   |
-| ✅     | /download-yang和/send-yang | feishu-yang                |            |      |        |
-| ❌     | /git-find                 | 搜索GitHub有没有相关项目            |            |      |        |
-| ✅     | /git-create               | 在Git上创建仓库同步文件夹路径           |            |      |        |
-| ✅     | /skill-down               | 下载skill到Nezikk仓库           |            |      |        |
-| ❌     | /aha                      | 灵感                         |            |      |        |
-| ✅     | /nskill+                  | 在Nezikk-s-skill文件夹里创建文件夹   |            |      |        |
-| ✅     | /justdo+                  | 在项目文件夹里创建文件夹               |            |      |        |
+| 命令行                       | 简介                         | 参考   | 依赖     |
+| ------------------------- | -------------------------- | ---- | ------ |
+| /git-down                 | 同步github star目录            |      |        |
+| /image                    | 一键obsidian归类image          |      |        |
+|                           | 论文自动化                      |      |        |
+|                           |                            |      |        |
+|                           | 心理助手咨询                     |      |        |
+|                           | github项目跟踪寻找有帮助潜力的项目       |      | 现成     |
+| /docx-create              | docx-creater               |      | pandoc |
+| /translate                | synbio-academic-translator | 论文翻译 | 合成生物   |
+| /download-yang和/send-yang | feishu-yang                |      |        |
+| /git-find                 | 搜索GitHub有没有相关项目            |      |        |
+| /git-create               | 在Git上创建仓库同步文件夹路径           |      |        |
+| /skill-down               | 下载skill到Nezikk仓库           |      |        |
+| /aha                      | 灵感                         | ❌    |        |
+| /nskill+                  | 在Nezikk-s-skill文件夹里创建文件夹   |      |        |
+| /justdo+                  | 在项目文件夹里创建文件夹               |      |        |
+| /remember                 | 记住优化才运行的skill              |      |        |
+| /git-ana                  | 到github找到链接项目分析            |      |        |
 
 # Git：
 
