@@ -37,7 +37,7 @@ tags:
 | /git-down                 | 同步github star目录            |      |        |
 | /image                    | 一键obsidian归类image          |      |        |
 |                           | 论文自动化                      |      |        |
-|                           |                            |      |        |
+| /repeat                   | 复述                         |      |        |
 |                           | 心理助手咨询                     |      |        |
 |                           | github项目跟踪寻找有帮助潜力的项目       |      | 现成     |
 | /docx-create              | docx-creater               |      | pandoc |
