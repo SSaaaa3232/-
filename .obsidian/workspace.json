@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "TrendRadar/Daily/2026-05-05.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "2026-05-05"
+            }
+          },
+          {
+            "id": "8e63f1d3654e10a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/GitHub Stars.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "GitHub Stars"
             }
           }
         ],
@@ -265,9 +289,16 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
+    "TrendRadar/Important/2026-05-05-094346-增量分析.md",
+    "TrendRadar/Important",
+    "清单/GitHub Stars.md",
+    "TrendRadar/Daily/2026-05-05.md",
+    "清单/任务清单.md",
+    "清单/Top100-KOL-华语-AI-2026.md",
+    "清单/REPO.md",
+    "清单/MCP清单.md",
     "Daily Notes/2026/05/2026-05-05.md",
     "清单/密钥.md",
-    "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Daily",
     "TrendRadar",
     "清单/常用skill清单.md",
@@ -296,21 +327,14 @@
     "image/fe718380749b62d04a4f9e66b5ede3a7_MD5.jpg",
     "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/x/skill/网文-skill.md",
-    "清单/任务清单.md",
     "raw/articles/YC 2026 RFS 的赌徒心态：要想富先修路.md",
-    "raw/个人👤/行为/调研/分析/AI 的经济账根本算不通.md",
-    "raw/个人👤/行为/调研/分析/Karpathy 访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering.md",
-    "raw/articles/Memory-claude.md",
-    "Daily Notes/2026/05/2026-05-01.md",
     "Daily Notes/2026/05",
-    "raw/团队team/skill/「洁癖.Skill」.md",
     "raw/个人👤/行为/memory",
     "raw/memory",
     "memory",
     "未命名",
     "Dashboards",
     "Daily Notes/2026/04",
-    "Daily Notes/2026",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
