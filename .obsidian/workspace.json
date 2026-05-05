@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/常用skill清单.md",
+                "file": "清单/密钥.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "常用skill清单"
+              "title": "密钥"
             }
           }
         ],
@@ -265,6 +265,7 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
+    "清单/常用skill清单.md",
     "TrendRadar/Daily/2026-05-04.md",
     "TrendRadar/Daily",
     "TrendRadar",
@@ -290,7 +291,6 @@
     "image/4658ba585f9e8f24a6b42919c60e5bdf_MD5.jpg",
     "image/fa12b2de127c7ad6051f784b7e8c8aeb_MD5.jpg",
     "image/fe718380749b62d04a4f9e66b5ede3a7_MD5.jpg",
-    "清单/常用skill清单.md",
     "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/x/skill/网文-skill.md",
     "清单/任务清单.md",
