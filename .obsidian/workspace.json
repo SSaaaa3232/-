@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/密钥.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "密钥"
+              "title": "任务清单"
             }
           }
         ],
@@ -238,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -265,10 +265,13 @@
   },
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
-    "清单/常用skill清单.md",
-    "TrendRadar/Daily/2026-05-04.md",
+    "Daily Notes/2026/05/2026-05-05.md",
+    "清单/密钥.md",
+    "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Daily",
     "TrendRadar",
+    "清单/常用skill清单.md",
+    "TrendRadar/Daily/2026-05-04.md",
     "raw/个人👤/行为/Study/方法论/How to Make Knowledge Graphs Blazing Fast.md",
     "raw/个人👤/行为/调研/分析/YC 2026 RFS 的赌徒心态：要想富先修路.md",
     "raw/个人👤/行为/调研/分析/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
@@ -301,9 +304,6 @@
     "Daily Notes/2026/05/2026-05-01.md",
     "Daily Notes/2026/05",
     "raw/团队team/skill/「洁癖.Skill」.md",
-    "raw/个人👤/行为/memory/Memory.md",
-    "raw/articles/Memory.md",
-    "raw/个人👤/行为/memory/Harness in memory.md",
     "raw/个人👤/行为/memory",
     "raw/memory",
     "memory",
