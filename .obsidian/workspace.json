@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "Promoter prediction.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "Promoter prediction"
             }
           }
         ]
@@ -238,18 +248,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "7e30d4a89da86111",
   "lastOpenFiles": [
+    "TrendRadar/清单.md",
+    "清单/任务清单.md",
+    "TrendRadar/Important/2026-05-05-143156-增量分析.md",
     "TrendRadar/Important/2026-05-05-140145-增量分析.md",
     "TrendRadar/Important/2026-05-05-133128-增量分析.md",
-    "清单/任务清单.md",
     "Promoter prediction.md",
-    "TrendRadar/Important/2026-05-05-143156-增量分析.md",
     "raw/团队team/skill/Gbrain.md",
     "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Important/2026-05-05-130119-增量分析.md",
     "TrendRadar/Important/2026-05-05-103154-增量分析.md",
-    "TrendRadar/清单.md",
     "TrendRadar/Important/2026-05-05-123120-增量分析.md",
     "TrendRadar/Important/2026-05-05-113118-增量分析.md",
     "清单/GitHub Stars.md",

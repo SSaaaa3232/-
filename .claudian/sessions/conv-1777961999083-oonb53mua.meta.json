@@ -4,8 +4,8 @@
   "title": "解释CNN二分类",
   "titleGenerationStatus": "success",
   "createdAt": 1777961999083,
-  "updatedAt": 1777962026527,
-  "lastResponseAt": 1777962026527,
+  "updatedAt": 1777966815174,
+  "lastResponseAt": 1777966815174,
   "sessionId": "019df6cb-1ce1-7821-b9b2-7aea3c4408bd",
   "providerState": {
     "threadId": "019df6cb-1ce1-7821-b9b2-7aea3c4408bd",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Promoter prediction.md",
   "usage": {
-    "inputTokens": 15779,
+    "inputTokens": 18830,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 13696,
+    "cacheReadInputTokens": 15744,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 15779,
-    "percentage": 6,
+    "contextTokens": 18830,
+    "percentage": 7,
     "model": "gpt-5.5"
   }
 }
