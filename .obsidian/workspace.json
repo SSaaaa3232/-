@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/Daily/2026-05-05.md",
+                "file": "TrendRadar/Important/2026-05-05-095040-增量分析.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-05"
+              "title": "2026-05-05-095040-增量分析"
             }
           },
           {
@@ -290,9 +290,10 @@
   "active": "3bd46e13d3532400",
   "lastOpenFiles": [
     "TrendRadar/Important/2026-05-05-094346-增量分析.md",
+    "TrendRadar/Important/2026-05-05-095040-增量分析.md",
+    "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Important",
     "清单/GitHub Stars.md",
-    "TrendRadar/Daily/2026-05-05.md",
     "清单/任务清单.md",
     "清单/Top100-KOL-华语-AI-2026.md",
     "清单/REPO.md",
@@ -327,7 +328,6 @@
     "image/fe718380749b62d04a4f9e66b5ede3a7_MD5.jpg",
     "raw/articles/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/x/skill/网文-skill.md",
-    "raw/articles/YC 2026 RFS 的赌徒心态：要想富先修路.md",
     "Daily Notes/2026/05",
     "raw/个人👤/行为/memory",
     "raw/memory",
