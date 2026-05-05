@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/Important/2026-05-05-140145-增量分析.md",
+                "file": "Promoter prediction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-05-140145-增量分析"
+              "title": "Promoter prediction"
             }
           }
         ],
@@ -238,7 +238,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -263,11 +263,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8e63f1d3654e10a4",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "TrendRadar/Important/2026-05-05-143156-增量分析.md",
+    "TrendRadar/Important/2026-05-05-140145-增量分析.md",
     "TrendRadar/Important/2026-05-05-133128-增量分析.md",
     "raw/团队team/skill/Gbrain.md",
-    "TrendRadar/Important/2026-05-05-140145-增量分析.md",
     "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Important/2026-05-05-130119-增量分析.md",
     "TrendRadar/Important/2026-05-05-103154-增量分析.md",
@@ -294,7 +295,6 @@
     "raw/个人👤/行为/调研/分析/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
     "raw/个人👤/行为/调研/分析/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "raw/个人👤/行为/调研/YC 2026 RFS 的赌徒心态：要想富先修路.md",
-    "raw/个人👤/行为/调研/Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样.md",
     "image/5bb14222e590e71bf84c1555a403bc3f_MD5.jpg",
     "image/02891013eb82e4ed533af504f4dcc40c_MD5.jpg",
     "image/d277b7831cdc990295080f7ca4731f18_MD5.jpg",

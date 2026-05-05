@@ -1,0 +1,26 @@
+{
+  "id": "conv-1777961999083-oonb53mua",
+  "providerId": "codex",
+  "title": "解释CNN二分类",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777961999083,
+  "updatedAt": 1777962026527,
+  "lastResponseAt": 1777962026527,
+  "sessionId": "019df6cb-1ce1-7821-b9b2-7aea3c4408bd",
+  "providerState": {
+    "threadId": "019df6cb-1ce1-7821-b9b2-7aea3c4408bd",
+    "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/05/rollout-2026-05-05T14-19-59-019df6cb-1ce1-7821-b9b2-7aea3c4408bd.jsonl",
+    "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
+  },
+  "currentNote": "Promoter prediction.md",
+  "usage": {
+    "inputTokens": 15779,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 13696,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 15779,
+    "percentage": 6,
+    "model": "gpt-5.5"
+  }
+}

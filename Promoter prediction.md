@@ -33,14 +33,14 @@ sources:
 
 ## 和 GPT 训练流程的对应关系
 
-| GPT 小模型 | 启动子预测模型 |
-|---|---|
-| 文本 | DNA 序列 |
-| tokenizer 把文字变数字 | DNA 编码把 A/T/C/G/N 变数字 |
-| Transformer 预测下一个字符 | CNN/Transformer 判断是否为 promoter |
-| train.py 训练下一个 token | train.py 训练二分类 |
-| generate.py 生成文字 | predict.py 预测 promoter 概率 |
-| checkpoint 保存模型大脑 | checkpoint 保存生物预测模型 |
+| GPT 小模型              | 启动子预测模型                        |
+| -------------------- | ------------------------------ |
+| 文本                   | DNA 序列                         |
+| tokenizer 把文字变数字     | DNA 编码把 A/T/C/G/N 变数字          |
+| Transformer 预测下一个字符  | CNN/Transformer 判断是否为 promoter |
+| train.py 训练下一个 token | train.py 训练二分类                 |
+| generate.py 生成文字     | predict.py 预测 promoter 概率      |
+| checkpoint 保存模型大脑    | checkpoint 保存生物预测模型            |
 
 对应到代码结构：
 
