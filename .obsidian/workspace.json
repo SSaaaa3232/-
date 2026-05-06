@@ -54,6 +54,30 @@
               "icon": "lucide-file",
               "title": "2026-05-06"
             }
+          },
+          {
+            "id": "aaa80e85c2e15da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/清单.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "清单"
+            }
           }
         ],
         "currentTab": 1
@@ -275,8 +299,8 @@
   },
   "active": "9ac06e144d35c3bb",
   "lastOpenFiles": [
-    "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/清单.md",
+    "TrendRadar/Daily/2026-05-06.md",
     "raw/podcast/Reiner Pope – The math behind how LLMs are trained and served.md",
     "Paseo/Orchestration skills - Paseo Docs.md",
     "Paseo/Best practices - Paseo Docs.md",

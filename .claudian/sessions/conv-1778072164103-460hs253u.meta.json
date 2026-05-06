@@ -1,0 +1,26 @@
+{
+  "id": "conv-1778072164103-460hs253u",
+  "providerId": "codex",
+  "title": "解释 TOS 含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778072164109,
+  "updatedAt": 1778072192466,
+  "lastResponseAt": 1778072185513,
+  "sessionId": "019dfd5c-1805-7e51-9d5d-f18a2b014dc0",
+  "providerState": {
+    "threadId": "019dfd5c-1805-7e51-9d5d-f18a2b014dc0",
+    "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/06/rollout-2026-05-06T20-56-04-019dfd5c-1805-7e51-9d5d-f18a2b014dc0.jsonl",
+    "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
+  },
+  "currentNote": "TrendRadar/Daily/2026-05-06.md",
+  "usage": {
+    "inputTokens": 14130,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 13696,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 14130,
+    "percentage": 5,
+    "model": "gpt-5.4-mini"
+  }
+}
