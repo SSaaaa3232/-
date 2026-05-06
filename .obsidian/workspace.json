@@ -54,33 +54,9 @@
               "icon": "lucide-file",
               "title": "清单"
             }
-          },
-          {
-            "id": "f1d5d5e7f59b5fa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/任务清单.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "任务清单"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -297,8 +273,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "f1d5d5e7f59b5fa1",
+  "active": "3ce9baf6d456e77e",
   "lastOpenFiles": [
+    "TrendRadar/x/宝玉/宝玉.md",
+    "TrendRadar/x/宝玉/images/Screenshot 2026-05-06 at 5.08.32 PM.png",
+    "TrendRadar/x/宝玉/images/2026-05-06-153109-宝玉.png",
+    "TrendRadar/x/宝玉/images/2026-05-06-153831-宝玉.png",
+    "清单/任务清单.md",
     "TrendRadar/清单.md",
     "2026四大经济周期思维导图.md",
     "ac699de1cb1055d6f07308c308f2dd8a_MD5.webp",
@@ -328,22 +309,18 @@
     "x",
     "已思考/闲鱼陪伴经济-阅读笔记.md",
     "已思考",
-    "清单/任务清单.md",
     "wiki/Claudian-YishenTu.md",
     "wiki/kepano-obsidian-skills.md",
     "wiki/rvk7895-llm-knowledge-bases.md",
     "wiki/ballred-obsidian-claude-pkm.md",
     "wiki/Nexus-claudesidian-mcp.md",
     "wiki/Ar9av-obsidian-wiki.md",
-    "TrendRadar/x/宝玉/images/2026-05-06-153831-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-153449-宝玉.png",
-    "TrendRadar/x/宝玉/images/2026-05-06-153109-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-152544-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151835-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151507-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151205-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-150820-宝玉.png",
-    "TrendRadar/x/宝玉/images/2026-05-06-145407-宝玉.png",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
