@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Promoter prediction.md",
+                "file": "TrendRadar/Daily/2026-05-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promoter prediction"
+              "title": "2026-05-06"
+            }
+          },
+          {
+            "id": "3ce9baf6d456e77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/清单.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "清单"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,8 +273,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7e30d4a89da86111",
+  "active": "3ce9baf6d456e77e",
   "lastOpenFiles": [
+    "TrendRadar/Daily/2026-05-06.md",
+    "TrendRadar/清单.md",
+    "清单/任务清单.md",
+    "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
+    "项目/润色.md",
+    "项目/Promoter prediction.md",
+    "Promoter prediction.md",
+    "项目",
+    "TrendRadar/x/宝玉/images/2026-05-06-153831-宝玉.png",
+    "TrendRadar/x/宝玉/images/2026-05-06-153449-宝玉.png",
+    "润色.md",
+    "TrendRadar/x/宝玉/images/2026-05-06-153109-宝玉.png",
+    "TrendRadar/x/宝玉/images/2026-05-06-152544-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151835-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151507-宝玉.png",
     "raw/个人👤/行为/调研/分析/Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent”.md",
@@ -261,41 +299,28 @@
     "TrendRadar/x/宝玉/images/2026-05-06-145407-宝玉.png",
     "raw/个人👤/认知/10 Lessons for Agentic Coding.md",
     "image/2026-05-06-135441-宝玉.png",
-    "image/2026-05-06-135947-宝玉.png",
-    "image/2026-05-06-140337-宝玉.png",
-    "image/2026-05-06-135121-宝玉.png",
-    "image/2026-05-06-134010-宝玉.png",
-    "image/0920726659883f0748956ad1a20deb1c_MD5.png",
     "TrendRadar/x/宝玉/宝玉.md",
     "TrendRadar/x/宝玉/images",
     "TrendRadar/x/宝玉",
     "raw/articles/AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）.md",
     "TrendRadar/x",
-    "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/Daily/2026-05-05.md",
     "TrendRadar/Important/2026-05-05-173135-增量分析.md",
     "TrendRadar/Important/2026-05-05-170129-增量分析.md",
     "raw/articles/10 Lessons for Agentic Coding.md",
     "TrendRadar/Important/2026-05-05-160143-增量分析.md",
     "TrendRadar/Important/2026-05-05-163134-增量分析.md",
-    "Promoter prediction.md",
-    "TrendRadar/清单.md",
-    "清单/任务清单.md",
     "TrendRadar/Important/2026-05-05-143156-增量分析.md",
     "TrendRadar/Important/2026-05-05-140145-增量分析.md",
     "TrendRadar/Important/2026-05-05-133128-增量分析.md",
     "raw/团队team/skill/Gbrain.md",
     "TrendRadar/Important/2026-05-05-130119-增量分析.md",
-    "TrendRadar/Important/2026-05-05-103154-增量分析.md",
-    "TrendRadar/Important/2026-05-05-123120-增量分析.md",
-    "TrendRadar/Important/2026-05-05-113118-增量分析.md",
     "清单1",
     "TrendRadar/Important",
     "TrendRadar/Daily",
     "TrendRadar",
     "Daily Notes/2026/05",
     "raw/个人👤/行为/memory",
-    "raw/memory",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
