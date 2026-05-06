@@ -17,10 +17,11 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-05-06. 执行 `ingest raw`：`raw/` 中 161 个未 ingested Markdown 已 seed 入库；此前 22 个已有标记的来源跳过。
+2026-05-06. 完成全库 lint + 断链修复：dead links 0、歧义链接 0、frontmatter gaps 0；补了少量 alias notes 和 4 个 frontmatter 段。
 
 ## Key Recent Facts
 - 新增/更新核心 synthesis：[[raw-batch-synthesis-2026-05-06]]。
+- 新增健康检查报告：[[lint-report-2026-05-06]]。
 - 主要概念簇：[[Claude Code 与 Agentic Coding]], [[Agent Skills 工业化]], [[Harness 与多 Agent 操作系统]], [[Agent 记忆与知识系统]], [[AI 安全与权限边界]], [[AI 经济与组织重构]], [[内容创作与个人 IP]], [[认知与决策模型]], [[投资理财与机会判断]], [[技术基础设施与工程工具]], [[视觉表达与设计系统]], [[学习、读书与研究方法]], [[网络身份与出海基础设施]], [[AI 模型与前沿研究]]。
 - 领域总览更新：[[AI Agent 系统]], [[个人认知与学习]], [[内容创作与视觉表达]], [[投资、商业与组织]], [[工程基础设施]], [[AI 前沿研究]]。
 

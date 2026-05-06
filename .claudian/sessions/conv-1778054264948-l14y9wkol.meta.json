@@ -4,8 +4,8 @@
   "title": "Explain Obsidian wiki command",
   "titleGenerationStatus": "success",
   "createdAt": 1778054264949,
-  "updatedAt": 1778055361708,
-  "lastResponseAt": 1778055361708,
+  "updatedAt": 1778056127057,
+  "lastResponseAt": 1778056127057,
   "sessionId": "019dfc4a-fa9f-7e21-a07d-3fb55846cdf9",
   "providerState": {
     "threadId": "019dfc4a-fa9f-7e21-a07d-3fb55846cdf9",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 76460,
+    "inputTokens": 164343,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 75648,
+    "cacheReadInputTokens": 163712,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 76460,
-    "percentage": 30,
+    "contextTokens": 164343,
+    "percentage": 64,
     "model": "gpt-5.4-mini"
   }
 }

@@ -1,3 +1,13 @@
+---
+type: resource
+status: developing
+created: 2026-05-06
+updated: 2026-05-06
+title: "GitHub Stars"
+tags:
+  - resource
+  - list
+---
 
 
 ## 😃FUnny

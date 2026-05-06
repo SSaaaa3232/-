@@ -14,6 +14,13 @@ related:
 ---
 
 
+
+## [2026-05-06] lint | Full vault health check + broken-link repair
+- Scope: 511 Markdown files scanned across the vault, excluding `.git/`, `.obsidian/`, `.claude/`, and instruction docs.
+- Result: dead links 0, ambiguous wikilink targets 0, frontmatter gaps 0.
+- Auto-fixes: repaired all broken links, normalized source references, added 4 frontmatter blocks, and created alias notes for legacy paths.
+- Report: [[lint-report-2026-05-06]]
+
 # Operation Log
 
 Navigation: [[index]] | [[hot]] | [[overview]]
