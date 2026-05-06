@@ -18,7 +18,7 @@ related:
   - "[[Thin Harness Fat Skills]]"
   - "[[AutoAgent 自优化代理]]"
 sources:
-  - "[[达尔文.skill]]"
+  - "[[raw/团队team/方法论/达尔文.skill.md]]"
 ---
 
 # 达尔文 Skill 自优化系统
@@ -79,4 +79,4 @@ npx skills add alchaincyf/darwin-skill
 GitHub: [darwin-skill](https://github.com/alchaincyf/darwin-skill)
 
 ## 来源
-(Source: [[达尔文.skill]])，@AlchainHust，2026-04-13
+(Source: [[raw/团队team/方法论/达尔文.skill.md]])，@AlchainHust，2026-04-13

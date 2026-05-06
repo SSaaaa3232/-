@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验]]"
 title: 我与Claude， ChatGPT， Gemini, 和Grok的“共生”体验
 source: https://x.com/hqinjarsy/status/2044649067637252164
 author:

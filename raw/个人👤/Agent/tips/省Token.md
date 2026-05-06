@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选]]"
 title: AI时代的省钱哲学：如何把每一个Token花在刀刃上｜亮马桥小纪严选
 source: https://mp.weixin.qq.com/s/Djw_lg3QUBLUSi01wV4Qwg
 author:

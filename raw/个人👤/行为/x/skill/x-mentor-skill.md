@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - alchaincyf x-mentor-skill X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-]]"
 title: "alchaincyf/x-mentor-skill: X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill"
 source: "https://github.com/alchaincyf/x-mentor-skill/blob/master/SKILL.md"
 author:

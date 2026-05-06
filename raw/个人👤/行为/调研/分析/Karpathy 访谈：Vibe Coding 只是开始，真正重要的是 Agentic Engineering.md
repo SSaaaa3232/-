@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Karpathy 最新访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering]]"
 title: "Karpathy 最新访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering"
 source: "https://x.com/dotey/status/2049617833370202182"
 author:

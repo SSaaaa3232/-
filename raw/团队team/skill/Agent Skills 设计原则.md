@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @shao__meng]]"
 title: Thread by @shao__meng
 source: https://x.com/shao__meng/status/2043311350374338897
 author:

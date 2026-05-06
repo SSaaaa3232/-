@@ -1,0 +1,25 @@
+{
+  "id": "conv-1778054264948-l14y9wkol",
+  "providerId": "codex",
+  "title": "Explain Obsidian wiki command",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778054264949,
+  "updatedAt": 1778055361708,
+  "lastResponseAt": 1778055361708,
+  "sessionId": "019dfc4a-fa9f-7e21-a07d-3fb55846cdf9",
+  "providerState": {
+    "threadId": "019dfc4a-fa9f-7e21-a07d-3fb55846cdf9",
+    "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/06/rollout-2026-05-06T15-57-45-019dfc4a-fa9f-7e21-a07d-3fb55846cdf9.jsonl",
+    "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 76460,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 75648,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 76460,
+    "percentage": 30,
+    "model": "gpt-5.4-mini"
+  }
+}

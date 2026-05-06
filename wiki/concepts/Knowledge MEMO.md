@@ -18,7 +18,7 @@ related:
   - "[[Retain 间隔重复]]"
   - "[[Wiki 为谁而建]]"
 sources:
-  - "[[raw/团队team/方法论/Karpathy或许答错了一个根本问题wiki 是为谁准备的]]"
+  - "[[raw/团队team/方法论/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md]]"
 ---
 
 # Knowledge MEMO
@@ -63,4 +63,4 @@ sources:
 
 ## 来源
 
-(Source: [[raw/团队team/方法论/Karpathy或许答错了一个根本问题wiki 是为谁准备的]])，来自 @owenliang60，2026-04-13
+(Source: [[raw/团队team/方法论/Karpathy或许答错了一个根本问题wiki 是为谁准备的?.md]])，来自 @owenliang60，2026-04-13

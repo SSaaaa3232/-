@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @brad_zhang2024]]"
 title: Thread by @brad_zhang2024
 source: https://x.com/brad_zhang2024/status/2042984441644224919
 author:

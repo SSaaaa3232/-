@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 轻松掌握Anthropic官方给的五种 多Agent协作 模式]]"
 title: 轻松掌握Anthropic官方给的五种"多Agent协作"模式
 source: https://x.com/KKaWSB/status/2043883512168886387
 author:

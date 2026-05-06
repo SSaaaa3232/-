@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "清单"
             }
+          },
+          {
+            "id": "f1d5d5e7f59b5fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/清单.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "清单"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,7 +276,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 463.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,54 +298,54 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "3ce9baf6d456e77e",
+  "active": "f1d5d5e7f59b5fa1",
   "lastOpenFiles": [
-    "TrendRadar/Daily/2026-05-06.md",
-    "TrendRadar/清单.md",
+    "读书/思维结构书单.md",
+    "读书",
+    "02-raw/articles/Inbox/书单/第一性原理.md",
+    "02-raw/articles/Inbox/书单",
+    "02-raw/articles/Inbox",
+    "02-raw/articles",
+    "02-raw",
+    "x/已思考/祛魅-快速致富的幻觉.md",
+    "x/已思考/前置奖励法.md",
+    "x/已思考",
+    "x",
+    "已思考/闲鱼陪伴经济-阅读笔记.md",
+    "已思考",
+    "OpenClaw保险AI案例思维导图.md",
+    "2026四大经济周期思维导图.md",
+    "纳瓦尔拉维坎特44个人性真相.md",
+    "每日安排.md",
+    "读书笔记模板.md",
+    "任务卡片模板.md",
+    "阅读提问辅助流程.md",
     "清单/任务清单.md",
-    "raw/articles/DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！.md",
-    "项目/润色.md",
-    "项目/Promoter prediction.md",
-    "Promoter prediction.md",
+    "wiki/Claudian-YishenTu.md",
+    "wiki/kepano-obsidian-skills.md",
+    "wiki/rvk7895-llm-knowledge-bases.md",
+    "wiki/ballred-obsidian-claude-pkm.md",
+    "wiki/Nexus-claudesidian-mcp.md",
+    "wiki/Ar9av-obsidian-wiki.md",
+    "wiki/claude-obsidian-ecosystem-research.md",
+    "wiki/cherry-picks.md",
+    "wiki/claude-obsidian-ecosystem.md",
+    "wiki/Wiki Map.md",
+    "wiki/meta/raw-ingest-inventory-2026-05-06.md",
+    "wiki/synthesis/raw-batch-synthesis-2026-05-06.md",
+    "wiki/domains/AI 前沿研究.md",
     "项目",
     "TrendRadar/x/宝玉/images/2026-05-06-153831-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-153449-宝玉.png",
-    "润色.md",
     "TrendRadar/x/宝玉/images/2026-05-06-153109-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-152544-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151835-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151507-宝玉.png",
-    "raw/个人👤/行为/调研/分析/Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent”.md",
-    "raw/articles/Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent”.md",
-    "raw/个人👤/行为/调研/skill/AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）.md",
-    "raw/团队team/skill/AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）.md",
     "TrendRadar/x/宝玉/images/2026-05-06-151205-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-150820-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-145407-宝玉.png",
-    "raw/个人👤/认知/10 Lessons for Agentic Coding.md",
     "image/2026-05-06-135441-宝玉.png",
-    "TrendRadar/x/宝玉/宝玉.md",
     "TrendRadar/x/宝玉/images",
-    "TrendRadar/x/宝玉",
-    "raw/articles/AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）.md",
-    "TrendRadar/x",
-    "TrendRadar/Daily/2026-05-05.md",
-    "TrendRadar/Important/2026-05-05-173135-增量分析.md",
-    "TrendRadar/Important/2026-05-05-170129-增量分析.md",
-    "raw/articles/10 Lessons for Agentic Coding.md",
-    "TrendRadar/Important/2026-05-05-160143-增量分析.md",
-    "TrendRadar/Important/2026-05-05-163134-增量分析.md",
-    "TrendRadar/Important/2026-05-05-143156-增量分析.md",
-    "TrendRadar/Important/2026-05-05-140145-增量分析.md",
-    "TrendRadar/Important/2026-05-05-133128-增量分析.md",
-    "raw/团队team/skill/Gbrain.md",
-    "TrendRadar/Important/2026-05-05-130119-增量分析.md",
-    "清单1",
-    "TrendRadar/Important",
-    "TrendRadar/Daily",
-    "TrendRadar",
-    "Daily Notes/2026/05",
-    "raw/个人👤/行为/memory",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

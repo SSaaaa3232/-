@@ -10,7 +10,7 @@ related:
   - "[[index]]"
   - "[[overview]]"
   - "[[LLM Wiki Pattern]]"
-  - "[[Wiki vs RAG]]"
+  - "[[LLM Wiki Pattern|Wiki vs RAG]]"
   - "[[Wiki Map]]"
 ---
 
@@ -92,7 +92,7 @@ After 3–5 ingests, the graph starts to look like a real knowledge network. Cro
 - **[[index]]** — master catalog, all pages by type
 - **[[overview]]** — executive summary of vault contents
 - **[[LLM Wiki Pattern]]** — the pattern this vault is built on
-- **[[Wiki vs RAG]]** — why a wiki beats RAG at human scale
+- **[[LLM Wiki Pattern|Wiki vs RAG]]** — why a wiki beats RAG at human scale
 - **[[dashboard]]** — live Dataview queries (requires Dataview plugin)
 
 ---

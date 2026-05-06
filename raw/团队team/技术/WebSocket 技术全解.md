@@ -1,3 +1,8 @@
+---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - WebSocket 技术全解]]"
+---
+
 # WebSocket 技术全解
 
 ## 一、WebSocket 是什么

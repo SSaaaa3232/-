@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Why Your “AI-First” Strategy Is Probably Wrong 为什么你的“人工智能优先”策略可能是错误的]]"
 title: "Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的"
 source: "https://x.com/intuitiveml/status/2043545596699750791"
 author:

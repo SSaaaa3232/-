@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 参考架构]]"
 source: https://x.com/GoSailGlobal/status/2039500792202412094?s=20
 MemOS: https://github.com/MemTensor/MemOS
 created: 2026-04-04

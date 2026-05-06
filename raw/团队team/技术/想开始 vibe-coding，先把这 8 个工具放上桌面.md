@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 想开始 vibe-coding，先把这 8 个工具放上桌面]]"
 title: "想开始 vibe-coding，先把这 8 个工具放上桌面"
 source: "https://x.com/Russell3402/status/2044394530875846959"
 author:

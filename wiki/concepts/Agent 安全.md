@@ -18,7 +18,7 @@ related:
   - "[[Harness Engineering]]"
   - "[[多智能体协作五种模式]]"
 sources:
-  - "[[raw/团队team/方法论/The Shorthand Guide to Everything Agentic Security]]"
+  - "[[raw/团队team/方法论/The Shorthand Guide to Everything Agentic Security.md]]"
 ---
 
 # Agent 安全
@@ -105,4 +105,4 @@ process.kill(-child.pid, "SIGKILL"); // 杀进程组，不只是父进程
 - [ ] 扫描 skills/hooks/MCP 配置如同扫描供应链
 
 ## 来源
-(Source: [[raw/团队team/方法论/The Shorthand Guide to Everything Agentic Security]])，@affaanmustafa，2026-02-27
+(Source: [[raw/团队team/方法论/The Shorthand Guide to Everything Agentic Security.md]])，@affaanmustafa，2026-02-27

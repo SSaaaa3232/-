@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - I want to automate my entire workflow with Claude Cowork (full course).]]"
 title: "I want to automate my entire workflow with Claude Cowork (full course)."
 source: "https://x.com/eng_khairallah1/status/2040715865524691088"
 author:

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpat]]"
 title: Why Karpathy’s Second Brain Breaks at Agent Scale. How Mercury Solves It.为什么 Karpathy 的第二大脑在代理规模上崩溃了。水星如何解决它。
 source: https://x.com/Ctrl_Alt_Zaid/status/2049082538686382397
 author:

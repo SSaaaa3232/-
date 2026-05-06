@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @dotey - dc8df6]]"
 title: "Thread by @dotey"
 source: "https://x.com/dotey/status/1950309012819624121"
 author:

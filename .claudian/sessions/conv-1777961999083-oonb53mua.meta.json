@@ -4,7 +4,7 @@
   "title": "解释CNN二分类",
   "titleGenerationStatus": "success",
   "createdAt": 1777961999083,
-  "updatedAt": 1777966815174,
+  "updatedAt": 1778054225120,
   "lastResponseAt": 1777966815174,
   "sessionId": "019df6cb-1ce1-7821-b9b2-7aea3c4408bd",
   "providerState": {
@@ -12,7 +12,6 @@
     "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/05/rollout-2026-05-05T14-19-59-019df6cb-1ce1-7821-b9b2-7aea3c4408bd.jsonl",
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
-  "currentNote": "Promoter prediction.md",
   "usage": {
     "inputTokens": 18830,
     "cacheCreationInputTokens": 0,

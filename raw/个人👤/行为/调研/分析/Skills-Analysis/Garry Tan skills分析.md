@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 人物]]"
 Github（YC）: https://github.com/garrytan/gstack
 tags:
   - AI

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 代码 - b074e3]]"
 tags:
   - AI
   - AI创作

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 为什么你的 AI 优先 战略可能大错特错？]]"
 title: "为什么你的\"AI 优先\"战略可能大错特错？"
 source: "https://x.com/dotey/status/2043953753921847582"
 author:

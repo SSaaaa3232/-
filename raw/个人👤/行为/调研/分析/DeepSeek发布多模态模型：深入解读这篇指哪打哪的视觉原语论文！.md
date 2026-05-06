@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！]]"
 title: "DeepSeek发布多模态模型：深入解读这篇指哪打哪的视觉原语论文！"
 source: "https://x.com/alchainhust/status/2049838372865368336?s=46"
 author:

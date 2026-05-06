@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 我是怎么运作的：内观一个自进化 Agent 的 Harness]]"
 title: "我是怎么运作的：内观一个自进化 Agent 的 Harness"
 source: "https://x.com/yuanhao/status/2043490301294022741"
 author:

@@ -2,7 +2,7 @@
 type: overview
 title: "Wiki Overview"
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-05-06
 tags:
   - meta
   - overview
@@ -12,59 +12,34 @@ related:
   - "[[hot]]"
   - "[[log]]"
   - "[[dashboard]]"
-  - "[[LLM Wiki Pattern]]"
-sources:
+  - "[[raw-batch-synthesis-2026-05-06]]"
 ---
 
 # Wiki Overview
 
 Navigation: [[index]] | [[hot]] | [[log]] | [[dashboard]]
 
----
-
 ## Purpose
 
-This is the claude-obsidian demo vault. It demonstrates the [[LLM Wiki Pattern]] — a system for building persistent, compounding knowledge bases using Claude and Obsidian.
-
-Run `/wiki` to scaffold this vault for your own domain and replace this overview.
-
----
-
-## Current Seed Content
-
-
-**Concepts seeded:**
-- [[LLM Wiki Pattern]] — the core architecture
-- [[Hot Cache]] — session context mechanism
-- [[Compounding Knowledge]] — why the pattern works
-
-**Entities seeded:**
-- [[Andrej Karpathy]] — originated the pattern
-
-**Sources seeded:**
-- [[claude-obsidian-ecosystem-research]] — 16+ projects, 13 cherry-picks identified (2026-04-08)
-
----
+这是一个 DEF 混合模式 Obsidian LLM Wiki：个人第二大脑 + AI/Agent 研究库 + 读书/课程/方法论沉淀。目标不是存资料，而是把 raw 输入持续转化为可检索、可链接、可复利的概念、领域、问题和行动框架。
 
 ## Current State
 
-- Sources ingested: 2
-- Wiki pages: 26
-- Last activity: 2026-04-08 (v1.4.1 shipped, release session filed)
-
----
-
-## Canvases
-
-- [[claude-obsidian-presentation]] — Full presentation: hero, overview, skills, architecture, Wiki vs RAG, visual demos (2026-04-07)
-- [[AI Marketing Hub Cover Images Canvas]] — Cover image library for AI Marketing Hub brand assets
-
----
+- Latest ingest: 2026-05-06 `raw/` batch, 161 个新来源 seed 入库
+- Previous ingest: 2026-04-17 `raw/团队team/方法论/` 第一批 22 文件
+- Core synthesis: [[raw-batch-synthesis-2026-05-06]]
+- Main domains: [[AI Agent 系统]], [[个人认知与学习]], [[内容创作与视觉表达]], [[投资、商业与组织]], [[工程基础设施]], [[AI 前沿研究]]
 
 ## Key Themes
 
-**Knowledge compounds.** Unlike RAG, the wiki pre-compiles synthesis. Cross-references are already there. Contradictions are flagged. Every ingest enriches existing pages rather than adding isolated chunks.
+1. **AI Agent 操作系统化**：Claude Code、Skills、Harness、Memory、Hooks、Wiki 正在合流为个人/团队生产系统。
+2. **Skill 工业化**：高价值 prompt 正在升级为有触发、有边界、有验证的可复用 Skill。
+3. **认知与输出复利**：资料收藏必须进入提炼、输出、决策或行动，否则只是信息消费。
+4. **AI-first 的真实约束**：组织重构、成本、权限、安全、评估与人类 loop 比“接入 AI”更关键。
+5. **跨域应用**：内容创作、PPT/视觉、投资判断、网络基础设施、读书学习都在被同一套 Agent/Skill 方法论改造。
 
-**The hot cache is the force multiplier.** A ~500-word file captures recent context. New sessions start with full context at minimal token cost.
+## Next Best Actions
 
-**Obsidian is the IDE, Claude is the programmer.** The graph view shows what's connected. The human curates sources and asks questions. Claude writes and maintains everything else.
+- 对高价值长文运行单独 deep ingest，升级为成熟概念页。
+- 把可执行流程沉淀为 checklist/playbook/skill。
+- 对法规、市场、模型能力、产品信息做日期化验证。

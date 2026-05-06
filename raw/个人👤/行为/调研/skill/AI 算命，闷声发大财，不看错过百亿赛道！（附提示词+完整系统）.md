@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）]]"
 title: "AI 算命，闷声发大财，不看错过百亿赛道！（附提示词+完整系统）"
 source: "https://x.com/yidabuilds/status/2051525349301944794"
 author:

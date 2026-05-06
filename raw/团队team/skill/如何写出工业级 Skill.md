@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 如何写出工业级 Skill]]"
 title: "如何写出工业级 Skill"
 source: "https://x.com/fakemaidenmaker/status/2051111166416396713?s=46"
 author:

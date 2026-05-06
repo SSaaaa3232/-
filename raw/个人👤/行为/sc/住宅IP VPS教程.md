@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 住宅IP VPS教程]]"
 title: 住宅IP VPS教程
 source: https://x.com/AYi_AInotes/status/2041443477423374428
 author:

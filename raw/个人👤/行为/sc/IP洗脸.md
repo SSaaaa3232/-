@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @AYi_AInotes - aee1e5]]"
 title: Thread by @AYi_AInotes
 source: https://x.com/AYi_AInotes/status/2042092726544691469
 author:

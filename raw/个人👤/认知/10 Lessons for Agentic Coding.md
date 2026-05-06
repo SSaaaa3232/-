@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 10 Lessons for Agentic Coding]]"
 title: "10 Lessons for Agentic Coding"
 source: "https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html"
 author:

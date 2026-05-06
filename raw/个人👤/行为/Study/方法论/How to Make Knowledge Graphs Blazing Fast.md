@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱]]"
 title: "How to Make Knowledge Graphs Blazing Fast如何快速制作知识图谱"
 source: "https://x.com/techwith_ram/status/2044032272081588395"
 author:

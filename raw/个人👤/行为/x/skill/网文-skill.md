@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 失业一周写出 573 星 Skill，他用 Claude Code 写网文养家]]"
 title: "失业一周写出 573 星 Skill，他用 Claude Code 写网文养家"
 source: "https://x.com/GoSailGlobal/status/2049862449474740224"
 author:

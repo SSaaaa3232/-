@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - The Shorthand Guide to Everything Agentic Security]]"
 source: [[02-raw/articles/2026/04/The Shorthand Guide to Everything Agentic Security.md]]
 date: 2026-04-04
 tags:

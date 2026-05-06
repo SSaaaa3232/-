@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 10大我希望早点知道的Claude code使用技巧]]"
 title: "10大我希望早点知道的Claude code使用技巧"
 source: "https://x.com/lxfater/status/2041448785516343592"
 author:

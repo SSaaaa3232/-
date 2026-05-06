@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图]]"
 title: Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图
 source: https://x.com/GoSailGlobal/status/2042787444429578346
 author:

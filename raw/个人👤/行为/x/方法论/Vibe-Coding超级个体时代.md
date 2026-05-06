@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Vibe Coding 带来的超级个体时代]]"
 title: Vibe Coding 带来的超级个体时代
 tags: [Vibe Coding, AI, 超级个体, 创业, 开源]
 category: AI创业

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 8 Claude Code Hooks That Automate What You Keep Forgetting]]"
 title: 8 Claude Code Hooks That Automate What You Keep Forgetting
 source: https://x.com/zodchiii/status/2040000216456143002
 author:

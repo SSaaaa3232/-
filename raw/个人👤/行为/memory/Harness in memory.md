@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Post by @dotey on X]]"
 title: Post by @dotey on X
 source: https://x.com/dotey/status/2049534755729707205
 author:

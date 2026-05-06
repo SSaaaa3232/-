@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 操作系统（实战）：Hermes-Agent vs 自建OpenClaw Harness]]"
 title: 操作系统（实战）：Hermes-Agent vs 自建OpenClaw  Harness
 source: https://x.com/servasyy_ai/status/2042473092036116847
 author:

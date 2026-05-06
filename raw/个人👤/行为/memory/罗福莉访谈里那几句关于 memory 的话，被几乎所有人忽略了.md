@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了]]"
 title: "罗福莉访谈里那几句关于 memory 的话，被几乎所有人忽略了"
 source: "https://x.com/elliotchen100/status/2048931934043255177"
 author:

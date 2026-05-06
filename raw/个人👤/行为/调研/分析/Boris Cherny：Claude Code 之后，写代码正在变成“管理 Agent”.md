@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent” - 6cd15e]]"
 title: "Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent”"
 source: "https://x.com/dotey/status/2051688341519609897?s=46"
 author:

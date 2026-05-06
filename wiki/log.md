@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Operation Log
-updated: 2026-04-08
+updated: 2026-05-06
 tags:
   - meta
   - log
@@ -12,6 +12,7 @@ related:
   - "[[overview]]"
   - "[[wiki/sources/_index]]"
 ---
+
 
 # Operation Log
 
@@ -24,6 +25,15 @@ Entry format: `## [YYYY-MM-DD] operation | Title`
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
+
+
+## [2026-05-06] ingest | raw/ batch（161 文件）
+- 来源：`raw/` 全目录；跳过 22 个已有 `ingested` 标记文件，处理 161 个未 ingest Markdown。
+- Created/updated source pages: 161 pages under [[wiki/sources/_index]].
+- Created/updated concept clusters: 15 pages under [[wiki/concepts/_index]].
+- Created/updated domain pages: 6 pages under [[wiki/domains/_index]].
+- Synthesis: [[raw-batch-synthesis-2026-05-06]].
+- Notes: source pages are seed-level extractive ingests; high-value long sources should be deep-ingested individually.
 
 ## [2026-04-17] ingest | raw/团队team/方法论/ 第一批（22文件）
 - 来源：`raw/团队team/方法论/`（22个文件，含 LLM-wiki method 子文件夹 5 个文件）

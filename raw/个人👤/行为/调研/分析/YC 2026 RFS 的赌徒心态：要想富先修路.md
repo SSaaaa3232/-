@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - YC 2026 RFS 的赌徒心态：要想富先修路]]"
 title: "YC 2026 RFS 的赌徒心态：要想富先修路"
 source: "https://x.com/oops073111/status/2049530062219939956"
 author:

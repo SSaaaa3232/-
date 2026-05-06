@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页]]"
 title: "how i rebuilt our landing page in 4 hrs with Claude我如何用 Claude 在 4 小时内重建我们的登陆页"
 source: "https://x.com/DhravyaShah/status/2044249709326573594"
 author:

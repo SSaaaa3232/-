@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样]]"
 title: "Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样"
 source: "https://x.com/dotey/status/2050014278019588405"
 author:

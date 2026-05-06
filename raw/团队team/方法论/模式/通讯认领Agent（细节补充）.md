@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @timyangnet - a9a9ab]]"
 title: Thread by @timyangnet
 source: https://x.com/timyangnet/status/2043086842762014744
 author:

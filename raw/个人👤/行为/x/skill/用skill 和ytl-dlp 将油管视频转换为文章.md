@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章]]"
 title: "分享一个本地实用的技巧： 用skill 和ytl-dlp 将油管视频转换为文章"
 source: "https://x.com/PandaTalk8/status/2049358259027587309"
 author:

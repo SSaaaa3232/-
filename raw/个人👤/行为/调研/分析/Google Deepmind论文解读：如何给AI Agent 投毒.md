@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Google Deepmind论文解读：如何给AI Agent 投毒]]"
 title: Google Deepmind论文解读：如何给AI Agent 投毒
 source: https://x.com/vista8/status/2046038788582088830
 author:

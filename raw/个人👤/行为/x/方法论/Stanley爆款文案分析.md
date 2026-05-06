@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Stanley 爆款文案背后的 社交传播动力学]]"
 created: 2026-04-04
 modified: 2026-04-04
 tags:

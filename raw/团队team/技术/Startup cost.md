@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @vivoplt]]"
 title: Thread by @vivoplt
 source: https://x.com/vivoplt/status/2035372452394774888
 author:

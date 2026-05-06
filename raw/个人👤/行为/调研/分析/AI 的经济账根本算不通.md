@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - AI 的经济账根本算不通]]"
 title: "AI 的经济账根本算不通"
 source: "https://x.com/dotey/status/2049283917509693942"
 author:

@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-04-17
+updated: 2026-05-06
 tags:
   - meta
   - index
@@ -14,103 +14,75 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-04-17 (第一批 ingest 完成) | Mode: D+E+F（个人·研究·读书）
+Last updated: 2026-05-06 (`ingest raw`) | Mode: D+E+F（个人·研究·读书）
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[Wiki Map]] | [[getting-started]]
 
----
+## Latest Batch
+- [[raw-batch-synthesis-2026-05-06]] — 161 个 raw 来源的综合摘要与后续 deep-ingest 建议
+- [[wiki/sources/_index]] — source pages 总索引
+- [[wiki/concepts/_index]] — concept pages 总索引
+- [[wiki/domains/_index]] — domain pages 总索引
+
+## Domains
+- [[AI Agent 系统]]
+- [[个人认知与学习]]
+- [[内容创作与视觉表达]]
+- [[投资、商业与组织]]
+- [[工程基础设施]]
+- [[AI 前沿研究]]
+
+## Concept Clusters
+- [[Claude Code 与 Agentic Coding]] — 22 sources
+- [[Agent Skills 工业化]] — 42 sources
+- [[Harness 与多 Agent 操作系统]] — 10 sources
+- [[Agent 记忆与知识系统]] — 9 sources
+- [[AI 安全与权限边界]] — 5 sources
+- [[AI 经济与组织重构]] — 11 sources
+- [[内容创作与个人 IP]] — 12 sources
+- [[认知与决策模型]] — 17 sources
+- [[投资理财与机会判断]] — 15 sources
+- [[技术基础设施与工程工具]] — 21 sources
+- [[视觉表达与设计系统]] — 13 sources
+- [[学习、读书与研究方法]] — 8 sources
+- [[网络身份与出海基础设施]] — 5 sources
+- [[AI 模型与前沿研究]] — 9 sources
+
+## Existing Core Concepts
+- [[Thin Harness Fat Skills]]
+- [[多智能体协作五种模式]]
+- [[Harness Engineering]]
+- [[Agent 安全]]
+- [[AutoAgent 自优化代理]]
+- [[ASMR Agent 记忆系统]]
+- [[LLM Wiki Pattern]]
+- [[Knowledge MEMO]]
+- [[Wiki 为谁而建]]
+- [[人必须在 Loop 里]]
+- [[深度研究两阶段法]]
+- [[苏格拉底-维特根斯坦-波兰尼思维清洁系统]]
+- [[范式投资 vs 赢家模式]]
+- [[Codex 团队极简管理]]
 
 ## Mode D — 个人第二大脑
+- Goals: [[wiki/goals/_index]]
+- Areas: [[wiki/areas/_index]]
+- People: [[wiki/people/_index]]
+- Resources: [[wiki/resources/_index]]
 
-### Goals（目标）
-<!-- 示例：[[2026 年度目标]], [[健身计划]] -->
-
-### Areas（生活领域）
-<!-- 健康 / 职业 / 财务 / 创作 / 人际 / 成长 -->
-
-### People（关系）
-<!-- 重要人物、共同上下文 -->
-
-### Resources（资源）
-<!-- 书单、工具、课程推荐 -->
-
----
-
-## Mode E — 学术研究
-
-### Papers（论文）
-<!-- 示例：[[Attention Is All You Need]] -->
-
-### Concepts（概念）
-
-**AI / Agent 设计**
-- [[Thin Harness Fat Skills]] — 三层AI架构：Skills(90%价值) / Harness(薄) / 确定性工具
-- [[多智能体协作五种模式]] — Anthropic 5种模式：Generator-Verifier、Orchestrator-Subagent等
-- [[Harness Engineering]] — L0-L4能力阶梯，horse/racetrack比喻
-- [[Agent 安全]] — CVE-2025-59536/CVE-2026-21852，最小权限，三角死亡组合
-- [[AutoAgent 自优化代理]] — meta-agent优化task-agent，模型共情，涌现行为
-- [[ASMR Agent 记忆系统]] — ~99% LongMemEval，主动检索胜向量搜索，专职Agent架构
-- [[达尔文 Skill 自优化系统]] — 棘轮机制，双重评估，100分评分体系
-
-**知识管理 / 方法论**
-- [[LLM Wiki Pattern]] — Karpathy原始模式，3层架构，4种操作，persistent wiki vs RAG
-- [[Knowledge MEMO]] — LLM Wiki扩展版，FSRS-6间隔重复，Retain步骤
-- [[Wiki 为谁而建]] — Agent上下文 vs 人类大脑脚手架的根本分叉
-- [[知识图谱]] — 节点/边/三元组，推断能力，vs 关系型数据库
-
-**思维 / 决策**
-- [[wiki/concepts/横纵分析法]] — 纵向(时间轴) + 横向(对比)双轴研究框架
-- [[苏格拉底-维特根斯坦-波兰尼思维清洁系统]] — F/D/Q命题分解，追问链，默会知识提取
-- [[深度研究两阶段法]] — Phase 1 Web IO探索 → Phase 2 本地文件挖掘，Data Room模式
-
-**投资**
-- [[范式投资 vs 赢家模式]] — 8位范式投资人方法论，归纳法vs演绎法，估值纪律
-
-**产品 / 团队管理**
-- [[Codex 团队极简管理]] — 10要点Spec，近远规划法，PM=填空岗位，海盗船运作
-
-**人与AI协作**
-- [[人必须在 Loop 里]] — 30%护城河，人类终审原则
-
-### Thesis（综述）
-<!-- 演化中的综合观点 -->
-
-### Gaps（空白）
-<!-- 开放问题、矛盾点 -->
-
----
+## Mode E — 研究
+- Papers: [[wiki/papers/_index]]
+- Concepts: [[wiki/concepts/_index]]
+- Thesis: [[wiki/thesis/_index]]
+- Gaps: [[wiki/gaps/_index]]
 
 ## Mode F — 读书 / 课程
+- Books: [[wiki/books/_index]]
+- Courses: [[wiki/courses/_index]]
+- Themes: [[wiki/themes/_index]]
+- Synthesis: [[wiki/synthesis/_index]]
 
-### Books（书籍）
-<!-- 示例：[[深度工作]], [[象与骑象人]] -->
-
-### Courses（课程）
-<!-- 示例：[[CS50]], [[Fast.ai]] -->
-
-### Themes（主题）
-<!-- 跨书/课程的主题线索 -->
-
-### Synthesis（个人提炼）
-<!-- 我的收获和实践应用 -->
-
----
-
-## 共享区域
-
-### Sources（原始来源）
-<!-- ingest 后自动填入 -->
-
-### Questions（问答存档）
-<!-- query 后存入 -->
-
-### Comparisons（对比分析）
-<!-- 多对象横向对比 -->
-
-### Domains（领域总览）
-<!-- 顶层领域节点 -->
-
-### Entities（实体）
-
-**人物**
-- [[owenliang60]] — Knowledge MEMO作者，跨域思考者（硅谷工程师+投资+哲学）
+## Shared
+- Sources: [[wiki/sources/_index]]
+- Domains: [[wiki/domains/_index]]
+- Entities: [[wiki/entities/_index]]

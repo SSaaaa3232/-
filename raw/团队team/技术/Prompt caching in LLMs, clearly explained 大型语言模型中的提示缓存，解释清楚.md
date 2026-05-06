@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚]]"
 title: "Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚"
 source: "https://x.com/_avichawla/status/2044670188998803855"
 author:

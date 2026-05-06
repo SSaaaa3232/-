@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 构建IP系统的底层架构 （全文手打、放心食用）]]"
 title: "构建IP系统的底层架构 （全文手打、放心食用）"
 source: "https://x.com/shaozhu93314/status/2047186395555590428"
 author:

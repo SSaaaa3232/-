@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Lock the F ck in and Make the next 6 Months Better than the Last 10 Years]]"
 title: "Lock the F*ck in and Make the next 6 Months Better than the Last 10 Years"
 source: "https://x.com/Tim_Denning/status/2036022953385873708"
 author:

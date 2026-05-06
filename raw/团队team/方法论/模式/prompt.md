@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 规则]]"
 aliases:
 source: https://x.com/Pluvio9yte/status/2038980082471997921?s=20
 created: 2026-04-04

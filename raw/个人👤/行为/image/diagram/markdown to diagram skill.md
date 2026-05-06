@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @xicilion]]"
 title: Thread by @xicilion
 source: https://x.com/xicilion/status/2042848369450848424
 author:

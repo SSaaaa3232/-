@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 方案：]]"
 source: https://linux.do/t/topic/1782304
 阅读日期: 2026-04-02
 tags:

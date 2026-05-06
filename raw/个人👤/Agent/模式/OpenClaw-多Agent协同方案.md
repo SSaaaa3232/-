@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作]]"
 title: 你的OpenClaw还是单兵作战？这套多Agent协同方案让它们学会了团队合作
 source: https://x.com/GoSailGlobal/status/2039500792202412094
 author:

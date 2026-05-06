@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 2026 年新一代 VPN：IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？]]"
 title: 2026 年新一代 VPN：IEPL + 机房 IP，还是 CN2 GIA + 住宅 IP？
 source: https://x.com/AYi_AInotes/status/2042952591454130430
 author:

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）]]"
 title: "黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）"
 source: "https://x.com/fxtrader/status/2044663892530622477"
 author:

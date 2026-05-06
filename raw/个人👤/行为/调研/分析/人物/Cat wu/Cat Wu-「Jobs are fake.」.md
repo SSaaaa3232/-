@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Post by @chenchengpro on X]]"
 title: "Post by @chenchengpro on X"
 source: "https://x.com/chenchengpro/status/2047480549636472832"
 author:

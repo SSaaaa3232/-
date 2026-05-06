@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 大多数公司根本没有为 AI 做好准备]]"
 title: "大多数公司根本没有为 AI 做好准备"
 source: "https://x.com/dotey/status/2051057428075053120?s=46"
 author:

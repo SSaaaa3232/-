@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - How Anthropic’s product team moves faster than anyone else Cat Wu (Head of Product,]]"
 title: "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)"
 source: "https://www.youtube.com/watch?v=PplmzlgE0kg"
 author:

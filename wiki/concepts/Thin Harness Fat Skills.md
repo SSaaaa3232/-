@@ -17,7 +17,7 @@ related:
   - "[[Harness Engineering]]"
   - "[[Skill 作为永久资产]]"
 sources:
-  - "[[Thin Harness, Fat Skills]]"
+  - "[[raw/团队team/方法论/Thin Harness, Fat Skills.md]]"
 ---
 
 # Thin Harness, Fat Skills
@@ -57,4 +57,4 @@ AI 工作系统的三层架构原则：**价值的 90% 在 Skills，Harness 只�
 
 ## 来源
 
-(Source: [[Thin Harness, Fat Skills]])，来自 @KKaWSB，2026-04-16
+(Source: [[raw/团队team/方法论/Thin Harness, Fat Skills.md]])，来自 @KKaWSB，2026-04-16

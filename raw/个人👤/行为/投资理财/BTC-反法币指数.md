@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 货币越不稳定的国家，BTC使用率越高]]"
 created: 2026-04-04
 modified: 2026-04-04
 tags:

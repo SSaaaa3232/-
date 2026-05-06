@@ -1,0 +1,16 @@
+---
+type: alias
+status: evergreen
+created: 2026-05-06
+updated: 2026-05-06
+title: "OpenClaw保险AI案例思维导图"
+tags:
+  - alias
+---
+
+# OpenClaw保险AI案例思维导图
+
+This is an alias / redirect note created to repair broken links.
+
+Canonical:
+- [[raw/个人👤/行为/投资理财/OpenClaw保险AI助理3万案例]]

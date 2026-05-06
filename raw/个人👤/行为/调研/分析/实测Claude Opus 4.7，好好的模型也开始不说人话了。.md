@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 实测Claude Opus 4.7，好好的模型也开始不说人话了。]]"
 title: "实测Claude Opus 4.7，好好的模型也开始不说人话了。"
 source: "https://x.com/Khazix0918/status/2044983382850080901"
 author:

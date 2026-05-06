@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 开源一个 PPT Skill｜压进了我 10 年的设计经验]]"
 title: "开源一个 PPT Skill｜压进了我 10 年的设计经验"
 source: "https://x.com/op7418/status/2047486546300051478"
 author:

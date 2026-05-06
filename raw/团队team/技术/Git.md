@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 创建带有新分支的工作树]]"
 aliases:
 tags:
   - ClaudeCode

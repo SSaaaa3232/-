@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Post by @AYi_AInotes on X]]"
 title: Post by @AYi_AInotes on X
 source: https://x.com/AYi_AInotes/status/2048278717793722747
 author:

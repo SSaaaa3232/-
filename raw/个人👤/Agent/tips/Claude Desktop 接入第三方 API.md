@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Claude Desktop 接入第三方 API 教程]]"
 title: "Claude Desktop 接入第三方 API 教程"
 source: "https://x.com/Pluvio9yte/status/2049293145670836459"
 author:

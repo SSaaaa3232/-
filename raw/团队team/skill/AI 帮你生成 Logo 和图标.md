@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 我做了个 Skill：让 AI 帮你生成 Logo 和图标]]"
 title: 我做了个 Skill：让 AI 帮你生成 Logo 和图标
 source: https://x.com/op7418/status/2044634498432962806
 author:

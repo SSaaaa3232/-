@@ -19,7 +19,7 @@ related:
   - "[[达尔文 Skill 自优化系统]]"
   - "[[多智能体协作五种模式]]"
 sources:
-  - "[[AutoAgent first open source library for self-optimizing agents]]"
+  - "[[raw/团队team/方法论/AutoAgent first open source library for self-optimizing agents.md]]"
 ---
 
 # AutoAgent 自优化代理
@@ -76,5 +76,5 @@ meta-agent 的循环：
 - 所有其他参赛者都是手动调优；AutoAgent 不是
 
 ## 来源
-(Source: [[AutoAgent first open source library for self-optimizing agents]])，@kevingu，2026-02-28
+(Source: [[raw/团队team/方法论/AutoAgent first open source library for self-optimizing agents.md]])，@kevingu，2026-02-28
 GitHub: [autoagent](https://github.com/kevinrgu/autoagent)

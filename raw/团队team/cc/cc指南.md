@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 153K+ Star！我把Anthropic黑客松冠军的Claude Code配置整理成了这份终极指南]]"
 title: 153K+ Star！我把Anthropic黑客松冠军的Claude Code配置整理成了这份终极指南
 source: https://x.com/VincentLogic/status/2043571849079222624
 author:

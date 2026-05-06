@@ -20,7 +20,7 @@ related:
   - "[[Thin Harness Fat Skills]]"
   - "[[人必须在 Loop 里]]"
 sources:
-  - "[[访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点]]"
+  - "[[raw/团队team/方法论/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md]]"
 ---
 
 # Codex 团队极简管理
@@ -105,5 +105,5 @@ Codex 核心开源 → 最前沿用户直接 fork 源码实验未发布功能 �
 **当 Codex 野心扩展到 9 亿 ChatGPT 用户时，这套方法是否仍然有效——是一个开放问题。**
 
 ## 来源
-(Source: [[访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点]])，@dotey，2026-04-06
+(Source: [[raw/团队team/方法论/访谈｜Codex 团队如何用自己的产品构建产品——整个 Spec 只有 10 个要点.md]])，@dotey，2026-04-06
 原始视频：[Behind the Craft](https://www.youtube.com/watch?v=9qXc-THAvc0)

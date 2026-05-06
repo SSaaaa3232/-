@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 我逆向了Claude Design！免费开源！设计逻辑全公开]]"
 title: "我逆向了Claude Design！免费开源！设计逻辑全公开"
 source: "https://x.com/AlchainHust/status/2046567787460431995"
 author:

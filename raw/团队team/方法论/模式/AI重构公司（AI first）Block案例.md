@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 从层级到智能 - AI重构公司]]"
 title: 从层级到智能 - AI重构公司
 source: https://x.com/nash_su/status/2043223180563849386
 author:

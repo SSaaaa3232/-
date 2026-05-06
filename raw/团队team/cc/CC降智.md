@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - CC降智]]"
 aliases:
 tags:
   - ClaudeCode

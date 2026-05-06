@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]]"
 title: "从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层"
 source: "https://x.com/IceBearMiner/status/2037888800341610684"
 author:

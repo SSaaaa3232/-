@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Thread by @hank_aibtc]]"
 title: Thread by @hank_aibtc
 source: https://x.com/hank_aibtc/status/2043883785029407059
 author:

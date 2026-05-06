@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Synthesis Index"
-updated: 2026-04-17
+updated: 2026-05-06
 tags:
   - meta
   - mode-e
@@ -21,3 +21,6 @@ status: evergreen
 
 ## 待消化
 <!-- - [[标题]] — 暂时搁置，待有空深挖 -->
+
+## 2026-05-06
+- [[raw-batch-synthesis-2026-05-06]] — `raw/` 批量 ingest 综合摘要

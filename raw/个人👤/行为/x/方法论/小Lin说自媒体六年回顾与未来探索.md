@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 小Lin说：自媒体六年回顾与未来探索]]"
 title: 小Lin说：自媒体六年回顾与未来探索
 tags: [自媒体, 内容创作, 小Lin说, 知识付费, AI创作]
 category: 内容创作

@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - 38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding]]"
 title: "38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding"
 source: "https://x.com/GoSailGlobal/status/2049336319286063302"
 author:

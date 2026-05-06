@@ -1,4 +1,6 @@
 ---
+ingested: 2026-05-06
+wiki_page: "[[wiki/sources/Source - Mac Bridge 工作原理详解]]"
 title: Mac Bridge 工作原理详解
 tags: [技术原理, Mac Bridge, 网络, WebSocket]
 category: 技术知识
