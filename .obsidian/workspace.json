@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "TrendRadar/Daily/2026-05-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "2026-05-07"
             }
           }
         ],
@@ -323,13 +323,13 @@
   },
   "active": "6ed2e46fdca0cc75",
   "lastOpenFiles": [
-    "清单/密钥.md",
-    "清单/任务清单.md",
-    "清单/开通服务.md",
+    "TrendRadar/清单.md",
     "TrendRadar/Daily/2026-05-07.md",
+    "清单/任务清单.md",
+    "清单/密钥.md",
+    "清单/开通服务.md",
     "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/Daily/2026-05-05.md",
-    "TrendRadar/清单.md",
     "raw/podcast/Reiner Pope – The math behind how LLMs are trained and served.md",
     "Paseo/Orchestration skills - Paseo Docs.md",
     "Paseo/Best practices - Paseo Docs.md",
