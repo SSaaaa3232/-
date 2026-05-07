@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/Daily/2026-05-05.md",
+                "file": "TrendRadar/Daily/2026-05-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-05"
-            }
-          },
-          {
-            "id": "9ac06e144d35c3bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/Daily/2026-05-06.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-06"
+              "title": "2026-05-07"
             }
           },
           {
@@ -109,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
+                "file": "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow"
+              "title": "开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -345,14 +321,20 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "aaa80e85c2e15da6",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "TrendRadar/Daily/2026-05-06.md",
+    "raw/articles/RAG.md",
+    "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
+    "raw/articles/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
+    "raw/articles/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "TrendRadar/清单.md",
+    "TrendRadar/Daily/2026-05-07.md",
+    "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/Daily/2026-05-05.md",
+    "raw/articles/两周浅学 RAG.md",
+    "3613ec8d694817823f811126a4d5061c_MD5.webp",
     "prompt/我整理了 1940 个 Seedance 2.0 视频 Prompt：总结 8 种更容易复用的写法.md",
     "prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
-    "raw/articles/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "image/20a62201170e924fc5af6c7bc63948ec_MD5.png",
     "image/4021a12ae3f7f41185b7d3576a63d8ba_MD5.jpg",
     "image/1aa4442a902430ff790d588e47a27ed7_MD5.jpg",
@@ -362,11 +344,7 @@
     "image/09a3f346b7a8aa2e8baa6ea3e9634a1e_MD5.png",
     "image/3d6d281dd236f9297ea74e666c704baa_MD5.jpg",
     "image/d7d3c63962d4cfd9236c672ffd1bc394_MD5.jpg",
-    "image/d1f0149bf3362d34e42cd6d4afa0dd2c_MD5.jpg",
     "prompt",
-    "TrendRadar/Daily/2026-05-07.md",
-    "raw/articles/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
-    "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
     "raw/articles/Maestro-Flow打包到一个skill，Maestro-Flow-One——软件全生命周期自动推进.md",
     "清单/开通服务.md",
     "清单/任务清单.md",
@@ -383,7 +361,6 @@
     "TrendRadar/x/宝玉/宝玉.md",
     "2026四大经济周期思维导图.md",
     "CLAUDE.md",
-    "阅读提问辅助流程.md",
     "raw/个人👤/读书",
     "raw/读书",
     "读书",
