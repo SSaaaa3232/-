@@ -21,8 +21,6 @@ aliases:
 
 ## 1. 开头范例
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#1-%E5%BC%80%E5%A4%B4%E8%8C%83%E4%BE%8B)
-
 **叙事启动型：**
 
 > 故事是这样的。 我最近刷淘宝挺多，然后昨天，鬼使神差的，在淘宝上，搜了一下DeepSeek。
@@ -59,7 +57,6 @@ aliases:
 
 ## 2. 口语化转场
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#2-%E5%8F%A3%E8%AF%AD%E5%8C%96%E8%BD%AC%E5%9C%BA)
 
 好的转场：
 
@@ -87,7 +84,6 @@ aliases:
 
 ## 3. 知识"随手掏"示例
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#3-%E7%9F%A5%E8%AF%86%E9%9A%8F%E6%89%8B%E6%8E%8F%E7%A4%BA%E4%BE%8B)
 
 **好的方式（聊AI爱心时顺带掏出格式塔心理学）：**
 
@@ -109,7 +105,6 @@ aliases:
 
 ## 4. 自嘲和自我暴露
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#4-%E8%87%AA%E5%98%B2%E5%92%8C%E8%87%AA%E6%88%91%E6%9A%B4%E9%9C%B2)
 
 **自嘲：**
 
@@ -137,7 +132,6 @@ aliases:
 
 ## 5. 亲自下场 / 调查实验
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#5-%E4%BA%B2%E8%87%AA%E4%B8%8B%E5%9C%BA--%E8%B0%83%E6%9F%A5%E5%AE%9E%E9%AA%8C)
 
 **买9.9元的DeepSeek：**
 
@@ -157,7 +151,6 @@ aliases:
 
 ## 6. 人物画像法
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#6-%E4%BA%BA%E7%89%A9%E7%94%BB%E5%83%8F%E6%B3%95)
 
 **从"已付款1000人"想象出一个具体的人：**
 
@@ -169,7 +162,6 @@ aliases:
 
 ## 7. 文化升维
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#7-%E6%96%87%E5%8C%96%E5%8D%87%E7%BB%B4)
 
 **9.9元DeepSeek → 北京折叠：**
 
@@ -197,7 +189,6 @@ aliases:
 
 ## 8. 逐一展示法
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#8-%E9%80%90%E4%B8%80%E5%B1%95%E7%A4%BA%E6%B3%95)
 
 **测试AI能不能看到爱心（逐一展示各模型翻车）：**
 
@@ -221,7 +212,6 @@ aliases:
 
 ## 9. 句式断裂
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#9-%E5%8F%A5%E5%BC%8F%E6%96%AD%E8%A3%82)
 
 用一个极短的句子或短语独立成段，制造停顿和重量感：
 
@@ -247,7 +237,6 @@ aliases:
 
 ## 10. 幽默写法
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#10-%E5%B9%BD%E9%BB%98%E5%86%99%E6%B3%95)
 
 **荒诞比喻：**
 
@@ -275,7 +264,6 @@ aliases:
 
 ## 11. 结尾范例
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#11-%E7%BB%93%E5%B0%BE%E8%8C%83%E4%BE%8B)
 
 **引用收尾：**
 
@@ -303,7 +291,6 @@ aliases:
 
 ## 12. AI初稿 vs 卡兹克修改对比
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#12-ai%E5%88%9D%E7%A8%BF-vs-%E5%8D%A1%E5%85%B9%E5%85%8B%E4%BF%AE%E6%94%B9%E5%AF%B9%E6%AF%94)
 
 **AI写的**：有个小伙伴刚来的时候，专业能力说实话不算特别突出，但他有个特点，就是什么新工具都想试试。Claude刚出来他就用上了，Midjourney他玩得比谁都溜
 
@@ -327,7 +314,6 @@ aliases:
 
 ## 13. 论述中的故意打破
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#13-%E8%AE%BA%E8%BF%B0%E4%B8%AD%E7%9A%84%E6%95%85%E6%84%8F%E6%89%93%E7%A0%B4)
 
 在逻辑论述中故意加入口语打断，破坏严谨性，让文章听起来像真人在说话：
 
@@ -353,7 +339,6 @@ aliases:
 
 ## 14. 对立面的理解与承认
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#14-%E5%AF%B9%E7%AB%8B%E9%9D%A2%E7%9A%84%E7%90%86%E8%A7%A3%E4%B8%8E%E6%89%BF%E8%AE%A4)
 
 讲观点之前先完全站在对方角度，让读者觉得"他理解我"：
 
@@ -369,7 +354,6 @@ aliases:
 
 ## 15. 方法论中的坦诚学习曲线
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#15-%E6%96%B9%E6%B3%95%E8%AE%BA%E4%B8%AD%E7%9A%84%E5%9D%A6%E8%AF%9A%E5%AD%A6%E4%B9%A0%E6%9B%B2%E7%BA%BF)
 
 好的方法论不只讲成功画面，还坦诚告诉你初期会有多痛苦：
 
@@ -387,7 +371,6 @@ aliases:
 
 ## 16. 反向论证的荒诞启蒙
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#16-%E5%8F%8D%E5%90%91%E8%AE%BA%E8%AF%81%E7%9A%84%E8%8D%92%E8%AF%9E%E5%90%AF%E8%92%99)
 
 先满足期待，再打破期待，最后深化洞察：
 
@@ -405,7 +388,6 @@ aliases:
 
 ## 17. 疑问句制造节奏刹车
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#17-%E7%96%91%E9%97%AE%E5%8F%A5%E5%88%B6%E9%80%A0%E8%8A%82%E5%A5%8F%E5%88%B9%E8%BD%A6)
 
 用疑问句让读者停一秒，准备接收新信息块：
 
@@ -423,7 +405,6 @@ aliases:
 
 ## 18. 层层剥开式写法
 
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#18-%E5%B1%82%E5%B1%82%E5%89%A5%E5%BC%80%E5%BC%8F%E5%86%99%E6%B3%95)
 
 不直接讲结论，用"现象→表面解释→更深追问→核心洞察"渐进展开：
 
@@ -440,8 +421,6 @@ aliases:
 ---
 
 ## 19. 谦逊铺垫的进阶写法
-
-[](https://github.com/KKKKhazix/khazix-skills/blob/main/khazix-writer/references/style_examples.md#19-%E8%B0%A6%E9%80%8A%E9%93%BA%E5%9E%AB%E7%9A%84%E8%BF%9B%E9%98%B6%E5%86%99%E6%B3%95)
 
 在方法论文章开头，不只是说"我也不确定"，而是真诚地表达写这类文章的心理负担：
 
