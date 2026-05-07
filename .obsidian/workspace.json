@@ -79,8 +79,7 @@
               "title": "工业级 Skill"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,10 +296,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "2bc960d3584809d5",
   "lastOpenFiles": [
-    "清单/任务清单.md",
     "raw/团队team/技术/逆向🔄.md",
+    "清单/任务清单.md",
     "raw/团队team/skill/工业级 Skill.md",
     "TrendRadar/Daily/2026-05-07.md",
     "raw/团队team/skill/工业级 Skill copy.md",
