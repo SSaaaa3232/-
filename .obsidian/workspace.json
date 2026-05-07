@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/清单.md",
+                "file": "TrendRadar/Daily/2026-05-07.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "清单"
+              "title": "2026-05-07"
             }
           }
         ],
@@ -273,8 +273,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "aaa80e85c2e15da6",
   "lastOpenFiles": [
+    "TrendRadar/Daily/2026-05-06.md",
+    "TrendRadar/Daily/2026-05-05.md",
+    "raw/articles/两周浅学 RAG.md",
     "raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
     "raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
@@ -290,9 +293,6 @@
     "raw/articles/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "TrendRadar/清单.md",
     "TrendRadar/Daily/2026-05-07.md",
-    "TrendRadar/Daily/2026-05-06.md",
-    "TrendRadar/Daily/2026-05-05.md",
-    "raw/articles/两周浅学 RAG.md",
     "3613ec8d694817823f811126a4d5061c_MD5.webp",
     "prompt/我整理了 1940 个 Seedance 2.0 视频 Prompt：总结 8 种更容易复用的写法.md",
     "prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
