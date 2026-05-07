@@ -6,7 +6,7 @@ author:
 published: 2026-05-02
 created: 2026-05-07
 ---
-## 两周浅学 RAG：vibe coding 了一个 demo，请大佬指教
+##  RAG：vibe coding 
 
 > 不是教程，是"我学完两周后的理解快照"，有哪里讲偏了或者有待提高的，欢迎在评论区留言
 

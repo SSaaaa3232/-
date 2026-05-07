@@ -54,57 +54,9 @@
               "icon": "lucide-file",
               "title": "清单"
             }
-          },
-          {
-            "id": "6ed2e46fdca0cc75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用"
-            }
-          },
-          {
-            "id": "e63aa74ff0787978",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -323,6 +275,15 @@
   },
   "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
+    "raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
+    "raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
+    "raw/团队team/技术/Maestro",
+    "Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
+    "Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
+    "Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
+    "Maestro",
+    "raw/团队team/技术/RAG.md",
     "raw/articles/RAG.md",
     "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
     "raw/articles/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
@@ -354,21 +315,12 @@
     "Paseo/Best practices - Paseo Docs.md",
     "Paseo/CLI - Paseo Docs.md",
     "Paseo",
-    "OpenClaw保险AI案例思维导图.md",
-    "纳瓦尔拉维坎特44个人性真相.md",
-    "每日安排.md",
-    "任务卡片模板.md",
-    "TrendRadar/x/宝玉/宝玉.md",
-    "2026四大经济周期思维导图.md",
-    "CLAUDE.md",
     "raw/个人👤/读书",
     "raw/读书",
     "读书",
     "02-raw/articles/Inbox/书单",
     "02-raw/articles/Inbox",
     "02-raw/articles",
-    "02-raw",
-    "x/已思考",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
