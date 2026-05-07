@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/Daily/2026-05-06.md",
+                "file": "清单/开通服务.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-06"
+              "title": "开通服务"
             }
           },
           {
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -321,12 +321,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "9ac06e144d35c3bb",
+  "active": "6ed2e46fdca0cc75",
   "lastOpenFiles": [
-    "TrendRadar/Daily/2026-05-05.md",
-    "TrendRadar/Daily/2026-05-06.md",
-    "TrendRadar/清单.md",
+    "清单/密钥.md",
     "清单/任务清单.md",
+    "清单/开通服务.md",
+    "TrendRadar/Daily/2026-05-07.md",
+    "TrendRadar/Daily/2026-05-06.md",
+    "TrendRadar/Daily/2026-05-05.md",
+    "TrendRadar/清单.md",
     "raw/podcast/Reiner Pope – The math behind how LLMs are trained and served.md",
     "Paseo/Orchestration skills - Paseo Docs.md",
     "Paseo/Best practices - Paseo Docs.md",
@@ -358,11 +361,8 @@
     "02-raw/articles/Inbox",
     "02-raw/articles",
     "02-raw",
-    "x/已思考/祛魅-快速致富的幻觉.md",
-    "x/已思考/前置奖励法.md",
     "x/已思考",
     "x",
-    "已思考/闲鱼陪伴经济-阅读笔记.md",
     "TrendRadar/x/宝玉/images/2026-05-06-153449-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-152544-宝玉.png",
     "TrendRadar/x/宝玉/images/2026-05-06-151835-宝玉.png",
