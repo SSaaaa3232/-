@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "5648ab07fdfb07dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/清单.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "清单"
-            }
-          },
-          {
             "id": "cdb086d566dfeb80",
             "type": "leaf",
             "state": {
@@ -297,13 +273,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5648ab07fdfb07dd",
+  "active": "cdb086d566dfeb80",
   "lastOpenFiles": [
-    "TrendRadar/Daily/2026-05-08.md",
     "TrendRadar/分类汇总.md",
-    "TrendRadar/清单.md",
-    "清单/websearch.md",
     "清单/任务清单.md",
+    "清单/MCP.md",
+    "清单/websearch.md",
+    "TrendRadar/Daily/2026-05-08.md",
+    "TrendRadar/清单.md",
     "TrendRadar/Daily/2026-05-07.md",
     "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/Daily/2026-05-05.md",
@@ -332,7 +309,6 @@
     "raw/articles/RAG.md",
     "raw/articles/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
     "raw/articles/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
-    "raw/articles/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "3613ec8d694817823f811126a4d5061c_MD5.webp",
     "image/20a62201170e924fc5af6c7bc63948ec_MD5.png",
     "image/4021a12ae3f7f41185b7d3576a63d8ba_MD5.jpg",

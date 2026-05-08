@@ -179,8 +179,7 @@ vault/
 ### TrendRadar Staging Convention
 
 - `TrendRadar/` is a curated staging area between `.raw/` and `wiki/`.
-- `TrendRadar/清单.md` is the running shortlist of monitored items.
-- `TrendRadar/分类汇总.md` is the reorganized review layer for human reading and tagging.
+- `TrendRadar/分类汇总.md` is the canonical running shortlist of monitored items.
 - Files inside `TrendRadar/` are editable staging notes, unlike `.raw/`.
 - Nothing in `TrendRadar/` should be auto-ingested in bulk by default.
 - Only human-reviewed and tagged entries should be promoted into `wiki/sources/`.
