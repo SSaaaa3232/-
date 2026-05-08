@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/GitHub/2026-05-08.md",
+                "file": "TrendRadar/分类汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-08"
+              "title": "分类汇总"
             }
           }
         ]
@@ -251,13 +251,17 @@
   },
   "active": "fbfc1bd48e562dcc",
   "lastOpenFiles": [
-    "TrendRadar/LinuxDo/2026-05-08.md",
-    "TrendRadar/LinuxDo",
+    "raw/个人👤/行为/PPT/PPT.md",
+    "raw/个人👤/行为/PPT/ppt agent.md",
+    "raw/个人👤/行为/PPT/PPT视觉优化方案.md",
+    "raw/个人👤/行为/PPT/PPT Skill.md",
     "TrendRadar/V2EX/2026-05-08.md",
-    "TrendRadar/V2EX",
-    "TrendRadar/分类汇总.md",
     "TrendRadar/Daily/2026-05-08.md",
+    "TrendRadar/分类汇总.md",
+    "TrendRadar/LinuxDo/2026-05-08.md",
     "TrendRadar/GitHub/2026-05-08.md",
+    "TrendRadar/LinuxDo",
+    "TrendRadar/V2EX",
     "清单/任务清单.md",
     "TrendRadar/GitHub",
     "_templates/daily-note.md",
@@ -282,11 +286,7 @@
     "raw/articles/两周浅学 RAG.md",
     "raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
     "raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
-    "raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
     "raw/团队team/技术/Maestro",
-    "Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md",
-    "Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md",
-    "Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
     "3613ec8d694817823f811126a4d5061c_MD5.webp",
     "image/20a62201170e924fc5af6c7bc63948ec_MD5.png",
     "image/4021a12ae3f7f41185b7d3576a63d8ba_MD5.jpg",
