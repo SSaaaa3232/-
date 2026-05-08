@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/websearch.md",
+                "file": "TrendRadar/清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "websearch"
+              "title": "清单"
             }
           },
           {
@@ -297,13 +297,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1ca978258884b172",
+  "active": "5648ab07fdfb07dd",
   "lastOpenFiles": [
+    "TrendRadar/Daily/2026-05-08.md",
     "TrendRadar/分类汇总.md",
     "TrendRadar/清单.md",
-    "清单/任务清单.md",
     "清单/websearch.md",
-    "TrendRadar/Daily/2026-05-08.md",
+    "清单/任务清单.md",
     "TrendRadar/Daily/2026-05-07.md",
     "TrendRadar/Daily/2026-05-06.md",
     "TrendRadar/Daily/2026-05-05.md",
