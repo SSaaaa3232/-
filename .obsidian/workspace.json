@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "TrendRadar/GitHub/2026-05-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "2026-05-08"
             }
           }
         ]
@@ -251,14 +251,16 @@
   },
   "active": "fbfc1bd48e562dcc",
   "lastOpenFiles": [
-    "TrendRadar/GitHub/2026-05-08.md",
-    "TrendRadar/GitHub",
+    "TrendRadar/V2EX/2026-05-08.md",
+    "TrendRadar/V2EX",
+    "TrendRadar/分类汇总.md",
     "TrendRadar/Daily/2026-05-08.md",
-    "_templates/daily-note.md",
+    "TrendRadar/GitHub/2026-05-08.md",
     "清单/任务清单.md",
+    "TrendRadar/GitHub",
+    "_templates/daily-note.md",
     "TrendRadar/Daily/2026-05-07.md",
     "清单/websearch.md",
-    "TrendRadar/分类汇总.md",
     "清单/MCP.md",
     "TrendRadar/清单.md",
     "TrendRadar/Daily/2026-05-06.md",
@@ -285,7 +287,6 @@
     "Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md",
     "Maestro",
     "raw/团队team/技术/RAG.md",
-    "raw/articles/RAG.md",
     "3613ec8d694817823f811126a4d5061c_MD5.webp",
     "image/20a62201170e924fc5af6c7bc63948ec_MD5.png",
     "image/4021a12ae3f7f41185b7d3576a63d8ba_MD5.jpg",
@@ -296,7 +297,6 @@
     "image/09a3f346b7a8aa2e8baa6ea3e9634a1e_MD5.png",
     "image/3d6d281dd236f9297ea74e666c704baa_MD5.jpg",
     "image/d7d3c63962d4cfd9236c672ffd1bc394_MD5.jpg",
-    "prompt",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
