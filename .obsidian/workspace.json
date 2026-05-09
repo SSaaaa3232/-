@@ -55,8 +55,7 @@
               "title": "中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,10 +273,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "35da7eb51db66fa6",
+  "active": "fdf0ba5c94909da5",
   "lastOpenFiles": [
-    "清单/任务清单.md",
     "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
+    "清单/任务清单.md",
     "raw/articles/Using Claude Code The Unreasonable Effectiveness of HTML.md",
     "9c8a47e66d8dc956108dcedbf26f1232_MD5.jpg",
     "966c298907e4c8ca799c9148bb403103_MD5.png",
