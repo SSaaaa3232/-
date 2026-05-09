@@ -50,6 +50,7 @@ status: developing
 | 编排层            | https://github.com/catlog22/maestro-flow                                                                    |          |
 | Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill    |
 | devtools       | https://github.com/ChromeDevTools/chrome-devtools-mcp                                                       | mcp，逆向开发 |
+| 编排多agent       | https://github.com/oujingzhou/openfr                                                                        |          |
 
 ## Skills 
 
@@ -61,16 +62,18 @@ status: developing
 
 ## create
 
-| 子类     | 条目                                                                     | Tag           |
-| ------ | ---------------------------------------------------------------------- | ------------- |
-| PPT    | [开源的 html AI ppt 客户端生成器](https://www.v2ex.com/t/1211017)               |               |
-| 电商生图   | [【开源】电商 AI 生图爆款流水线](https://linux.do/t/topic/2110033)                  |               |
-| 生视频    | [AIDC-AI / Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)    |               |
-| 去水印    | [做了一个更垂直的 AI 图片清理工具，想听听大家对产品定位的建议](https://www.v2ex.com/t/1210341)     |               |
-| 剪印平替   | https://github.com/Augani/openreel-video                               |               |
-| 视频自动解说 | https://github.com/worldwonderer/video-recap                           | ASR，TTS，skill |
-| 开站     | [佬友们，0成本开站的方法找到了](https://linux.do/t/topic/2139475) `05-09 12:44, CHY` |               |
-| 创作     | https://github.com/zy-zmc/tianming-novel-ai-writer                     | 长上下文，记忆       |
+| 子类        | 条目                                                                     | Tag           |
+| --------- | ---------------------------------------------------------------------- | ------------- |
+| PPT       | [开源的 html AI ppt 客户端生成器](https://www.v2ex.com/t/1211017)               |               |
+| 电商生图      | [【开源】电商 AI 生图爆款流水线](https://linux.do/t/topic/2110033)                  |               |
+| 生视频       | [AIDC-AI / Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)    |               |
+| 去水印       | [做了一个更垂直的 AI 图片清理工具，想听听大家对产品定位的建议](https://www.v2ex.com/t/1210341)     |               |
+| 剪印平替      | https://github.com/Augani/openreel-video                               |               |
+| 视频自动解说    | https://github.com/worldwonderer/video-recap                           | ASR，TTS，skill |
+| 开站        | [佬友们，0成本开站的方法找到了](https://linux.do/t/topic/2139475) `05-09 12:44, CHY` |               |
+| 创作        | https://github.com/zy-zmc/tianming-novel-ai-writer                     | 长上下文，记忆       |
+| wallpaper | https://github.com/yoqu/ZenWallpaper                                   |               |
+| pretext   | https://github.com/zenojor/zenosite                                    | 个人网站          |
 
 ## reverse
 
