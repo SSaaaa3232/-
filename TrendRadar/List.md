@@ -21,6 +21,11 @@ status: developing
 | ---- | ---------------------------------------------- | ------- |
 | 惊鸿过隙 | https://github.com/muyuanlove?tab=repositories | 信息安全研究员 |
 |      |                                                |         |
+## Memory
+
+|     |                                         |
+| --- | --------------------------------------- |
+|     | https://github.com/rohitg00/agentmemory |
 
 ## browser
 
@@ -34,16 +39,17 @@ status: developing
 
 ## 开发
 
-| 子类             | 条目                                                                                                          | Tag   |
-| -------------- | ----------------------------------------------------------------------------------------------------------- | ----- |
-| 管理与流程          | [SprintiQ – open-source sprint planning for Claude Code](https://github.com/SprintiQ-Incorporated/sprintiq) |       |
-| 开发思路           | [codex+image2王朝了](https://linux.do/t/topic/2118512)                                                         | 方法论   |
-| 长时工作流          | [bytedance / deer-flow](https://github.com/bytedance/deer-flow)                                             |       |
-| 工程技能           | [addyosmani / agent-skills](https://github.com/addyosmani/agent-skills)                                     |       |
-| 工程skill        | [addyosmani /      agent-skills](https://github.com/addyosmani/agent-skills)                                |       |
-| 生命周期           | https://github.com/awslabs/aidlc-workflows                                                                  |       |
-| 编排层            | https://github.com/catlog22/maestro-flow                                                                    |       |
-| Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill |
+| 子类             | 条目                                                                                                          | Tag      |
+| -------------- | ----------------------------------------------------------------------------------------------------------- | -------- |
+| 管理与流程          | [SprintiQ – open-source sprint planning for Claude Code](https://github.com/SprintiQ-Incorporated/sprintiq) |          |
+| 开发思路           | [codex+image2王朝了](https://linux.do/t/topic/2118512)                                                         | 方法论      |
+| 长时工作流          | [bytedance / deer-flow](https://github.com/bytedance/deer-flow)                                             |          |
+| 工程技能           | [addyosmani / agent-skills](https://github.com/addyosmani/agent-skills)                                     |          |
+| 工程skill        | [addyosmani /      agent-skills](https://github.com/addyosmani/agent-skills)                                |          |
+| 生命周期           | https://github.com/awslabs/aidlc-workflows                                                                  |          |
+| 编排层            | https://github.com/catlog22/maestro-flow                                                                    |          |
+| Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill    |
+| devtools       | https://github.com/ChromeDevTools/chrome-devtools-mcp                                                       | mcp，逆向开发 |
 
 ## Skills 
 
@@ -97,13 +103,22 @@ status: developing
 | 本地RAG | [LearningCircuit / local-deep-research](https://github.com/LearningCircuit/local-deep-research) |     |
 ## course
 
-| 子类    | 条目                                             | Tag |
-| ----- | ---------------------------------------------- | --- |
-| AI0-1 | https://github.com/datawhalechina/hello-agents |     |
+| 子类          | 条目                                             | Tag |
+| ----------- | ---------------------------------------------- | --- |
+| AI0-1       | https://github.com/datawhalechina/hello-agents |     |
+| vibe-coding | https://github.com/datawhalechina/easy-vibe    |     |
+| LLM         | https://github.com/Lordog/dive-into-llms       |     |
+## VPN
+
+|     |                                              |
+| --- | -------------------------------------------- |
+|     | https://github.com/masterking32/MasterDnsVPN |
 
 ## funny
 
-| 子类  | 条目                                                           | Tag |
-| --- | ------------------------------------------------------------ | --- |
-| 社区？ | [lobehub /      lobehub](https://github.com/lobehub/lobehub) |     |
-| 交易  | [HKUDS / AI-Trader](https://github.com/HKUDS/AI-Trader)      |     |
+| 子类     | 条目                                                           | Tag |
+| ------ | ------------------------------------------------------------ | --- |
+| 社区？    | [lobehub /      lobehub](https://github.com/lobehub/lobehub) |     |
+| 交易     | [HKUDS / AI-Trader](https://github.com/HKUDS/AI-Trader)      |     |
+| robot  | https://github.com/rowboatlabs/rowboat                       |     |
+| 3D扫描去噪 | https://github.com/playcanvas/supersplat                     |     |

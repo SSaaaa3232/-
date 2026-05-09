@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/List.md",
+                "file": "TrendRadar/V2EX/2026-05-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "List"
+              "title": "2026-05-08"
             }
           },
           {
@@ -65,7 +65,8 @@
               "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -283,10 +284,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "fdf0ba5c94909da5",
+  "active": "35da7eb51db66fa6",
   "lastOpenFiles": [
     "TrendRadar/LinuxDo/2026-05-09.md",
+    "TrendRadar/V2EX/2026-05-08.md",
+    "TrendRadar/V2EX/2026-05-09.md",
     "TrendRadar/List.md",
+    "TrendRadar/GitHub/2026-05-09.md",
     "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
     "清单/任务清单.md",
     "raw/articles/Using Claude Code The Unreasonable Effectiveness of HTML.md",
@@ -310,14 +314,11 @@
     "raw/个人👤/行为/渗透/历时八小时,拿下HTB Usage靶机，附详细渗透测试记录.md",
     "raw/个人👤/行为/渗透/历时5小时，成功拿下HTB 第N台 靶机 Pilgrimage，附详细记录（wp）.md",
     "raw/个人👤/行为/渗透/渗透：拿下HTB TartarSauce靶机，附详细渗透记录.md",
-    "TrendRadar/GitHub/2026-05-09.md",
     "TrendRadar/LinuxDo/2026-05-08.md",
     "TrendRadar/GitHub/2026-05-08.md",
     "prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
     "x/灵感.md",
-    "TrendRadar/V2EX/2026-05-08.md",
     "清单/明文加密.md",
-    "TrendRadar/V2EX/2026-05-09.md",
     "raw/个人👤/行为/PPT/PPT.md",
     "raw/个人👤/行为/PPT/ppt agent.md",
     "raw/个人👤/行为/PPT/PPT视觉优化方案.md",
