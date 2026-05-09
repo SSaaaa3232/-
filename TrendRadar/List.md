@@ -74,6 +74,8 @@ status: developing
 | 创作        | https://github.com/zy-zmc/tianming-novel-ai-writer                     | 长上下文，记忆       |
 | wallpaper | https://github.com/yoqu/ZenWallpaper                                   |               |
 | pretext   | https://github.com/zenojor/zenosite                                    | 个人网站          |
+| 视频发布      | https://github.com/hanliang97/MatrixMedia                              | 逆向            |
+| 视频发布（文章）  | https://juejin.cn/post/7636984000939327498                             |               |
 
 ## reverse
 
