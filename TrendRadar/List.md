@@ -51,6 +51,7 @@ status: developing
 | Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill    |
 | devtools       | https://github.com/ChromeDevTools/chrome-devtools-mcp                                                       | mcp，逆向开发 |
 | 编排多agent       | https://github.com/oujingzhou/openfr                                                                        |          |
+| 用户鉴权           | https://github.com/pocketbase/pocketbase                                                                    | firebase |
 
 ## Skills 
 
