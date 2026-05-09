@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "TrendRadar/GitHub/2026-05-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "2026-05-09"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
+                "file": "TrendRadar/List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置"
+              "title": "List"
+            }
+          },
+          {
+            "id": "e9fa368879dacb24",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -275,6 +285,8 @@
   },
   "active": "fdf0ba5c94909da5",
   "lastOpenFiles": [
+    "TrendRadar/LinuxDo/2026-05-09.md",
+    "TrendRadar/List.md",
     "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
     "清单/任务清单.md",
     "raw/articles/Using Claude Code The Unreasonable Effectiveness of HTML.md",
@@ -288,8 +300,6 @@
     "13ea0d1298fb867fc51eb00f033563e6_MD5.png",
     "a0570fae803f586f0fd53cd5a2dab68e_MD5.png",
     "8c36a0b5ea2bdad566f906f2d90c94a9_MD5.png",
-    "TrendRadar/List.md",
-    "TrendRadar/LinuxDo/2026-05-09.md",
     "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
     "raw/articles/送给全体年轻人：学生创业的 10 道坎（适用于互联网、软件、AI方向的创业）.md",
     "raw/个人👤/行为/渗透/【每周更新】OSCP攀登计划-渗透测试报告清单linux.do版本.md",

@@ -64,6 +64,7 @@ status: developing
 | 剪印平替   | https://github.com/Augani/openreel-video                               |               |
 | 视频自动解说 | https://github.com/worldwonderer/video-recap                           | ASR，TTS，skill |
 | 开站     | [佬友们，0成本开站的方法找到了](https://linux.do/t/topic/2139475) `05-09 12:44, CHY` |               |
+| 创作     | https://github.com/zy-zmc/tianming-novel-ai-writer                     | 长上下文，记忆       |
 
 ## reverse
 
