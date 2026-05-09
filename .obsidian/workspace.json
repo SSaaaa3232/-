@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/分类汇总.md",
+                "file": "TrendRadar/LinuxDo/2026-05-09.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "分类汇总"
+              "title": "2026-05-09"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -298,9 +298,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ffdd4119dc1ea0f5",
+  "active": "1ae25972a03ff13c",
   "lastOpenFiles": [
-    "TrendRadar/分类汇总.md",
+    "TrendRadar/LinuxDo/2026-05-08.md",
+    "TrendRadar/LinuxDo/2026-05-09.md",
+    "TrendRadar/GitHub/2026-05-08.md",
+    "TrendRadar/List.md",
     "TrendRadar/GitHub/2026-05-09.md",
     "清单/任务清单.md",
     "prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
@@ -308,9 +311,6 @@
     "TrendRadar/V2EX/2026-05-08.md",
     "清单/明文加密.md",
     "TrendRadar/V2EX/2026-05-09.md",
-    "TrendRadar/LinuxDo/2026-05-08.md",
-    "TrendRadar/LinuxDo/2026-05-09.md",
-    "TrendRadar/GitHub/2026-05-08.md",
     "raw/个人👤/行为/PPT/PPT.md",
     "raw/个人👤/行为/PPT/ppt agent.md",
     "raw/个人👤/行为/PPT/PPT视觉优化方案.md",
