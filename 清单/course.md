@@ -3,7 +3,7 @@ created: 2026-04-04
 modified: 2026-04-04
 category: uncategorized
 ---
-# 2026年 GitHub 开源 AI 学习项目汇总
+
 
 > 原文来源：https://x.com/saccc_c/status/2030559651448930421
 > 作者：Sac
