@@ -119,6 +119,11 @@ status: developing
 |     |                                              |
 | --- | -------------------------------------------- |
 |     | https://github.com/masterking32/MasterDnsVPN |
+## 建模
+
+|     |                                 |
+| --- | ------------------------------- |
+| 扩散  | https://github.com/z-lab/dflash |
 
 ## funny
 

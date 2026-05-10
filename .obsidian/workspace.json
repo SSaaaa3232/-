@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35da7eb51db66fa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/V2EX/2026-05-09.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-09"
-            }
-          },
-          {
             "id": "e9fa368879dacb24",
             "type": "leaf",
             "state": {
@@ -54,33 +30,8 @@
               "icon": "lucide-file",
               "title": "List"
             }
-          },
-          {
-            "id": "790014c407b01756",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/V2EX/2026-05-09.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-09"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -297,8 +248,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "790014c407b01756",
+  "active": "e9fa368879dacb24",
   "lastOpenFiles": [
+    "TrendRadar/GitHub/2026-05-09.md",
+    "TrendRadar/LinuxDo/2026-05-09.md",
+    "TrendRadar/V2EX/2026-05-09.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
     "清单/course.md",
     "x/各领域X账号推荐.md",
@@ -306,11 +260,8 @@
     "TrendRadar/V2EX/2026-05-10.md",
     "TrendRadar/GitHub/2026-05-10.md",
     "TrendRadar/List.md",
-    "TrendRadar/V2EX/2026-05-09.md",
     "raw/articles/注册土耳其 appleid 被锁国区和付款方式没有 None 的解决方法.md",
     "d8bb38618939586de4a0c8dc93432a57_MD5.png",
-    "TrendRadar/GitHub/2026-05-09.md",
-    "TrendRadar/LinuxDo/2026-05-09.md",
     "prompt/表情包-涂鸦风格（自定义角色）.md",
     "raw/articles/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
     "bd809cd5f6b53def22d59d10b38bffc4_MD5.webp",
