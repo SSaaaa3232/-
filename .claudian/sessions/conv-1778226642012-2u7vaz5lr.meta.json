@@ -4,8 +4,8 @@
   "title": "整理 Markdown 1-16 为表格",
   "titleGenerationStatus": "success",
   "createdAt": 1778226642013,
-  "updatedAt": 1778328977807,
-  "lastResponseAt": 1778328977806,
+  "updatedAt": 1778378099799,
+  "lastResponseAt": 1778378099799,
   "sessionId": "019e0691-3d73-7022-9e30-6da3de794738",
   "providerState": {
     "threadId": "019e0691-3d73-7022-9e30-6da3de794738",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 21101,
+    "inputTokens": 24321,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 17280,
+    "cacheReadInputTokens": 21888,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 21101,
-    "percentage": 8,
+    "contextTokens": 24321,
+    "percentage": 9,
     "model": "gpt-5.4-mini"
   }
 }

@@ -56,12 +56,12 @@
             }
           },
           {
-            "id": "b600560444e87192",
+            "id": "dc50a08f00b59a22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/V2EX/2026-05-10.md",
+                "file": "项目/Paseo/终端APP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +76,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-10"
+              "title": "终端APP"
             }
           },
           {
-            "id": "67c731bc0bfc7861",
+            "id": "9082bc0602880188",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
+                "file": "提示词html.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽"
+              "title": "提示词html"
             }
           }
         ],
@@ -321,31 +321,35 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "67c731bc0bfc7861",
+  "active": "9082bc0602880188",
   "lastOpenFiles": [
-    "0b8caca27b3cf9b915ce5d2ce3e01cd3_MD5.png",
-    "7276bc1ac5eb50cf8235c86eb3e4fbce_MD5.png",
-    "8d706377247795397b1bd03703d59874_MD5.png",
-    "66e0fc536267dee5182b4c1d0f971263_MD5.png",
-    "fb6be2a5a7aca7488903fd9d78448a17_MD5.png",
-    "3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
-    "4a9991a4a00a49309a884c7ba277025e_MD5.png",
-    "605465f660233ef3fd01716c886ff3b0_MD5.png",
-    "6a88df67ce021fa988986c176d006873_MD5.png",
-    "5b4d3a9fe5087c219d96235609ad3147_MD5.png",
-    "b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",
-    "raw/articles/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
+    "提示词html copy.md",
+    "项目/Paseo/终端APP.md",
+    "提示词html.md",
+    "项目/Paseo/Orchestration skills - Paseo Docs.md",
+    "TrendRadar/GitHub/2026-05-10.md",
+    "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/V2EX/2026-05-10.md",
-    "TrendRadar/List.md",
+    "raw/团队team/技术/vibe coding.md",
+    "image/6a88df67ce021fa988986c176d006873_MD5.png",
+    "image/3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
+    "image/b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",
+    "image/7276bc1ac5eb50cf8235c86eb3e4fbce_MD5.png",
+    "image/5b4d3a9fe5087c219d96235609ad3147_MD5.png",
+    "image/bd809cd5f6b53def22d59d10b38bffc4_MD5.webp",
+    "image/0b8caca27b3cf9b915ce5d2ce3e01cd3_MD5.png",
+    "image/848884f3b12ce81a65abf2ae1b5345b3_MD5.jpg",
+    "image/a2545a794d2431886567389d3cc86473_MD5.png",
+    "image/fb6be2a5a7aca7488903fd9d78448a17_MD5.png",
     "清单/任务清单.md",
+    "raw/articles/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
+    "TrendRadar/List.md",
     "TrendRadar/GitHub/2026-05-09.md",
     "TrendRadar/LinuxDo/2026-05-09.md",
     "TrendRadar/V2EX/2026-05-09.md",
-    "TrendRadar/LinuxDo/2026-05-10.md",
     "清单/course.md",
     "x/各领域X账号推荐.md",
     "x/Top100-KOL-华语-AI-2026.md",
-    "TrendRadar/GitHub/2026-05-10.md",
     "raw/articles/注册土耳其 appleid 被锁国区和付款方式没有 None 的解决方法.md",
     "prompt/表情包-涂鸦风格（自定义角色）.md",
     "raw/articles/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
@@ -355,11 +359,7 @@
     "raw/articles/Using Claude Code The Unreasonable Effectiveness of HTML.md",
     "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
     "raw/articles/送给全体年轻人：学生创业的 10 道坎（适用于互联网、软件、AI方向的创业）.md",
-    "raw/个人👤/行为/渗透/【每周更新】OSCP攀登计划-渗透测试报告清单linux.do版本.md",
-    "raw/个人👤/行为/渗透/历时五小时，拿下HTB Tabby靶机，附详细渗透测试记录.md",
     "raw/个人👤/行为/渗透",
-    "TrendRadar/分类汇总.md",
-    "raw/个人👤/行为/渗透/HTB Bashed 渗透测试详细记录.md",
     "TrendRadar/LinuxDo",
     "TrendRadar/V2EX",
     "TrendRadar/GitHub",
