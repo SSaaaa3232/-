@@ -3,6 +3,9 @@ aliases:
 ---
 | 远程终端app | mosh+tailscale | 临时demo：relay service |
 | ------- | -------------- | -------------------- |
+https://github.com/bytedance/UI-TARS-desktop
+
+paseo
 
 Redock 主要做了如下工作：
 

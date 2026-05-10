@@ -56,30 +56,6 @@
             }
           },
           {
-            "id": "dc50a08f00b59a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/Paseo/终端APP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "终端APP"
-            }
-          },
-          {
             "id": "9082bc0602880188",
             "type": "leaf",
             "state": {
@@ -104,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -323,9 +299,9 @@
   },
   "active": "9082bc0602880188",
   "lastOpenFiles": [
-    "提示词html copy.md",
     "项目/Paseo/终端APP.md",
     "提示词html.md",
+    "提示词html copy.md",
     "项目/Paseo/Orchestration skills - Paseo Docs.md",
     "TrendRadar/GitHub/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
