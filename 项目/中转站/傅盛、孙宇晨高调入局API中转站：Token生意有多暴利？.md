@@ -109,8 +109,6 @@ Token虚标：官方实际消耗100个Token，后台给你记200甚至300个。�
 
 但市场上大多数玩家，都在第二档和第三档之间游走。
 
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
 图3 | API中转站18种盈利模式全景图 | 数据来源: 什么值得买, 网易
 
 ## 普通人还有机会吗？
