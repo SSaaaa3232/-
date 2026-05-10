@@ -79,30 +79,6 @@ status: developing
 | 视频发布      | https://github.com/hanliang97/MatrixMedia                              | 逆向            |
 | 视频发布（文章）  | https://juejin.cn/post/7636984000939327498                             |               |
 
-## reverse
-
-| 子类          | 条目                                                                                          | Tag |
-| ----------- | ------------------------------------------------------------------------------------------- | --- |
-| 加速/网络       | [Flowseal / zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)     |     |
-| 反代/中转       | [拒绝token焦虑 cpa（CLI Proxy API）反代 chatgpt（Codex）保姆级全图文教程](https://linux.do/t/topic/2120257)   |     |
-| 文件系统聚合      | [分享一个自用文件管理工具 iFile：把 WebDAV、S3、R2、Google Drive 等挂到系统文件管理器](https://www.v2ex.com/t/1211005) |     |
-| relay 风险/经验 | [codex真不能碰](https://linux.do/t/topic/2123016)                                               |     |
-| 敏感信息        | https://github.com/muyuanlove/sensitive_info_extractor                                      |     |
-
-## ios
-
-| 子类     | 条目                                                                             | Tag |
-| ------ | ------------------------------------------------------------------------------ | --- |
-| 语音输入   | [开源语音输入法工具OpenLess--你的下一段prompt,用嘴写](https://linux.do/t/topic/2109374)         |     |
-| iOS 性能 | [iOS 列表性能优化实战：从 45fps 到 60fps 的蜕变](https://juejin.cn/post/7635102638107754534) |     |
-
-## scene
-
-| 子类     | 条目                                                                      | Tag |
-| ------ | ----------------------------------------------------------------------- | --- |
-| 智能家居控制 | [让 AI Agent 控制你家所有米家设备 — mijia-control](https://www.v2ex.com/t/1210284) |     |
-
-## model
 
 | 子类    | 条目                                                                                              | Tag |
 | ----- | ----------------------------------------------------------------------------------------------- | --- |
