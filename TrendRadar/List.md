@@ -110,11 +110,17 @@ status: developing
 | 本地RAG | [LearningCircuit / local-deep-research](https://github.com/LearningCircuit/local-deep-research) |     |
 ## course
 
-| 子类          | 条目                                             | Tag |
-| ----------- | ---------------------------------------------- | --- |
-| AI0-1       | https://github.com/datawhalechina/hello-agents |     |
-| vibe-coding | https://github.com/datawhalechina/easy-vibe    |     |
-| LLM         | https://github.com/Lordog/dive-into-llms       |     |
+| 子类          | 条目                                             | Tag |                             |
+| ----------- | ---------------------------------------------- | --- | --------------------------- |
+| AI0-1       | https://github.com/datawhalechina/hello-agents |     |                             |
+| vibe-coding | https://github.com/datawhalechina/easy-vibe    |     |                             |
+| LLM         | https://github.com/Lordog/dive-into-llms       |     |                             |
+|             | Prompt-Engineering-Guide                       |     | 系统性学习如何写出高质量提示词             |
+|             | Happy-LLM                                      |     | 从0到1深入理解大语言模型的核心原理与实践       |
+|             | Hugging Face Agents Course                     |     | HF官方出品，带你用主流框架搭出真正能跑的Agent  |
+|             | claude-code-best-practice                      |     | 将Claude融入真实开发工作流的最佳实践指南与工具集 |
+|             | awesome-agent-skills                           |     | Agent Skills 终极指南           |
+|             | awesome-openclaw-tutorial                      |     | OpenClaw 最全指南：从部署到各种玩法      |
 ## VPN
 
 |     |                                              |

@@ -11,29 +11,6 @@ tags:
   - MCP
 ---
 
-**If you don't know what MCP is:** it's how you connect Claude to external tools. 
-## Search & Research 🔍检索与研究 🔍
-
-**01 — Tavily** — AI-optimized web search. Returns clean content, not just links. Built specifically for AI agents. **Free: 1,000 queries/mo****01 — Tavily** — AI 优化的网页搜索。返回干净的内容，而不仅仅是链接。专为 AI 代理设计。 **免费：每月 1000 次查询**
-
-[https://github.com/tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
-
-**02 — Exa** — Semantic search. Finds pages by meaning, not keywords. Great for research and finding similar content. **Free: 1,000 searches/mo****02 — Exa** — 语义搜索。通过意义而非关键词来查找页面。非常适合研究和寻找类似内容。 **免费：每月 1000 次搜索**
-
-[https://github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
-
-**03 — Brave Search** — Independent web search index, no Google tracking. 6 tools: web, local, image, video, news, summarizer. **Paid: from $5/mo****03 — 勇敢搜索** — 独立的网络搜索索引，无谷歌追踪。6 个工具：网页、本地、图片、视频、新闻、摘要器。 **报酬：每月 5 美元起**
-
-[https://github.com/anthropics/anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts)
-
-**04 — Perplexity** — Answer-engine with deep research and reasoning. Returns synthesized answers, not raw results. **Free tier available****04 — 困惑——** 带有深度研究和推理的答案引擎。返回的是综合答案，而非原始结果。 **免费套餐**
-
-[https://github.com/ppl-ai/perplexity-mcp](https://github.com/ppl-ai/perplexity-mcp)
-
-**05 — Context7** — Live documentation for any framework. Claude stops hallucinating outdated APIs. Essential for devs working with fast-moving libraries. **Free & open-source****05 — Context7** — 适用于任何框架的实时文档。Claude 停止了对过时 API 的幻觉。对于使用快速库的开发者来说，这本书必不可少。 **免费且开源**
-
-[https://github.com/context-labs/context7](https://github.com/context-labs/context7)
-
 ## Web Scraping & Data Extraction 🌐网页爬取与数据提取 🌐
 
 **06 — Firecrawl** — Any URL to clean markdown in seconds. Autonomous research agent, JS rendering, full site crawls. The go-to for RAG pipelines. **Free: 500 lifetime credits****06 — Firecrawl** — 任何能在几秒内清理 Markdown 的网址。自主研究代理，JS 渲染，全站爬行。RAG 管道的首选。 **免费：500 终身积分**
