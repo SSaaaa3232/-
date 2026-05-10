@@ -1,0 +1,16 @@
+{
+  "source": {
+    "type": "raw",
+    "original": "/ncreate · ncreate skill 自身架构（会话内生成素材）",
+    "title": "ncreate skill 整体思维图",
+    "fetched_at": "2026-05-10T19:09:00+08:00"
+  },
+  "layer": "archive",
+  "intake_chain": ["raw-passthrough"],
+  "capabilities_used": ["markdown"],
+  "image_backend": "none",
+  "cost_estimate": {"tokens": 0, "images": 0, "usd": 0.0},
+  "artifacts": [{"path": "index.md", "kind": "md"}],
+  "linked_output": "../../../output/png/2026-05-10_ncreate-overall-mindmap/",
+  "danger_use": null
+}

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8f9157540d4843c",
+            "id": "5d3ccd200bdd3512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/基于fitbit的健康监测.md",
+                "file": "raw/articles/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "基于fitbit的健康监测"
+              "title": "继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家"
             }
           },
           {
-            "id": "c4df3e633b7ac2f4",
+            "id": "db8764bdf7f7ac5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/编排.md",
+                "file": "项目/编排层.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "编排"
+              "title": "编排层"
             }
           },
           {
@@ -78,43 +78,9 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
-          },
-          {
-            "id": "a47a5b7fca6689a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/V2EX/2026-05-10.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-10"
-            }
-          },
-          {
-            "id": "5d3ccd200bdd3512",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -332,53 +298,52 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5d3ccd200bdd3512",
+  "active": "b10c8257915d27dc",
   "lastOpenFiles": [
+    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
     "TrendRadar/任务清单.md",
-    "TrendRadar/V2EX/2026-05-10.md",
+    "清洗/output/png/2026-05-10_ncreate-mindmap-test/main.png",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.png",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.svg",
+    "项目/编排层.md",
+    "raw/articles/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
+    "TrendRadar/V2EX/2026-05-10.md",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/manifest.json",
+    "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/manifest.json",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.mmd",
+    "9b7ddbeaa5411680ec6eaa30b4cc4923_MD5.png",
+    "1221f4d0737b3c3bf71866761995be77_MD5.png",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.puml",
+    "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/index.md",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap",
+    "清洗/input/raw/2026-05-10_ncreate-overall-mindmap",
     "raw/articles/【知乎长文】高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
     "b5368de4788416a3069428e5d1b315fc_MD5.jpg",
     "cfd5909d47b3cf20d61ddf1ab65305b6_MD5.png",
     "TrendRadar/GitHub/2026-05-10.md",
-    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
     "清洗/output/png/2026-05-10_ncreate-mindmap-test/manifest.json",
-    "清洗/output/png/2026-05-10_ncreate-mindmap-test/main.png",
     "清洗/output/png/2026-05-10_ncreate-mindmap-test/source.dot",
     "清洗/output/png/2026-05-10_ncreate-mindmap-test/source.puml",
-    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
     "清洗/input/file/2026-05-10_ncreate-skill-md",
-    "清洗/output/png/2026-05-10_ncreate-mindmap-test",
     "raw/团队team/方法论/10.md",
-    "清洗/input/file/2026-05-10_ncreate-readme",
-    "清洗/input/file",
     "清洗/output/png/2026-05-10_ncreate-流程与比对/main.png",
     "清洗/input/raw/2026-05-10_ncreate-流程与比对/index.md",
-    "清洗/input/raw/2026-05-10_ncreate-流程与比对/manifest.json",
-    "清洗/output/png/2026-05-10_ncreate-流程与比对/manifest.json",
     "raw/articles/10.md",
-    "清洗/output/png/2026-05-10_ncreate-流程与比对/source.mmd",
     "清洗/ncreate-流程与比对.md",
     "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
     "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
     "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
-    "项目/编排.md",
     "项目/提示词html.md",
     "项目/Promoter prediction.md",
     "项目/基于fitbit的健康监测.md",
     "CLAUDE.md",
     "项目/WechatIMG17857.jpg",
-    "项目/编排层.md",
     "x/灵感.md",
     "清单/常用skill清单.md",
     "TrendRadar/List.md",
     "清单/开通服务.md",
-    "项目/明文加密.md",
-    "清单/密钥.md",
-    "image/6a88df67ce021fa988986c176d006873_MD5.png",
-    "image/3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
-    "image/b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",
-    "image/7276bc1ac5eb50cf8235c86eb3e4fbce_MD5.png",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
