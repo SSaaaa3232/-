@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/任务清单.md",
+                "file": "项目/基于fitbit的健康监测.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
-            }
-          },
-          {
-            "id": "799b5a860fd9696e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "基于fitbit的健康监测"
             }
           },
           {
@@ -78,9 +54,201 @@
               "icon": "lucide-file",
               "title": "编排"
             }
+          },
+          {
+            "id": "b10c8257915d27dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/任务清单.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "任务清单"
+            }
+          },
+          {
+            "id": "a47a5b7fca6689a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/V2EX/2026-05-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-10"
+            }
+          },
+          {
+            "id": "46f36f4ec9d66cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/LinuxDo/2026-05-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-10"
+            }
+          },
+          {
+            "id": "91a97ea474b3f9d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TrendRadar/GitHub/2026-05-10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-05-10"
+            }
+          },
+          {
+            "id": "ea4d4d70e41a90c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/送给全体年轻人：学生创业的 10 道坎（适用于互联网、软件、AI方向的创业）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "送给全体年轻人：学生创业的 10 道坎（适用于互联网、软件、AI方向的创业）"
+            }
+          },
+          {
+            "id": "3089012a25ef3d1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "想创业的心蠢蠢欲动，问问大家看法"
+            }
+          },
+          {
+            "id": "3ebf66414480cdce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？"
+            }
+          },
+          {
+            "id": "80b80e073e2ad0df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Using Claude Code The Unreasonable Effectiveness of HTML"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -298,12 +466,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "3ebf66414480cdce",
   "lastOpenFiles": [
-    "CLAUDE.md",
+    "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
+    "raw/articles/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
+    "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
+    "raw/articles/送给全体年轻人：学生创业的 10 道坎（适用于互联网、软件、AI方向的创业）.md",
+    "TrendRadar/GitHub/2026-05-10.md",
+    "TrendRadar/LinuxDo/2026-05-10.md",
+    "TrendRadar/V2EX/2026-05-10.md",
     "TrendRadar/任务清单.md",
-    "项目/WechatIMG17857.jpg",
     "项目/编排.md",
+    "项目/提示词html.md",
+    "项目/Promoter prediction.md",
+    "项目/基于fitbit的健康监测.md",
+    "CLAUDE.md",
+    "项目/WechatIMG17857.jpg",
     "项目/编排层.md",
     "x/灵感.md",
     "清单/常用skill清单.md",
@@ -315,18 +493,8 @@
     "清单/websearch.md",
     "清单/REPO.md",
     "清单/AI学习路线图.md",
-    "TrendRadar/V2EX/2026-05-10.md",
     "清单/course.md",
     "清单/GitHub Stars.md",
-    "项目/提示词html.md",
-    "项目/基于fitbit的健康监测.md",
-    "基于fitbit的健康监测.md",
-    "提示词html.md",
-    "项目/Paseo/终端APP.md",
-    "提示词html copy.md",
-    "项目/Paseo/Orchestration skills - Paseo Docs.md",
-    "TrendRadar/GitHub/2026-05-10.md",
-    "TrendRadar/LinuxDo/2026-05-10.md",
     "image/6a88df67ce021fa988986c176d006873_MD5.png",
     "image/3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
     "image/b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",

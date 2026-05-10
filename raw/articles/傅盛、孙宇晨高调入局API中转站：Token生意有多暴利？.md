@@ -6,9 +6,6 @@ author:
 published:
 created: 2026-05-09
 ---
-AI探索者怀林君 *2026年5月7日 13:05*
-
-![[bd809cd5f6b53def22d59d10b38bffc4_MD5.webp]]
 
 孙宇晨宣布全面切换至B.AI，傅盛推出Easy Router入局API中转。 **一个200美元月租的账号能套出5000美元** ，月流水500万毛利率50%。这门生意分三档：正规、灰色、黑产，普通人两三千块就能启动。
 
@@ -96,10 +93,6 @@ Token虚标：官方实际消耗100个Token，后台给你记200甚至300个。�
 
 有些免费中转站之所以免费，就是靠卖数据盈利。
 
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-图2 | API中转站三档生意利润金字塔 | 数据来源: 什么值得买, 界面新闻
-
 ## 18种盈利模式，我全扒出来了
 
 这行的赚钱方式远比表面看起来复杂。我把能扒到的全部整理了一遍，一共18种。
@@ -148,7 +141,6 @@ CSDN上有完整教程：海外服务器200-500块一年，囤点API额度几百
 
 第三，合规风险越来越高。国内对数据出境、AI服务备案的监管正在收紧，灰色玩法迟早会被清洗。
 
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图4 | 普通人入局：启动资金 vs 月流水 | 数据来源: CSDN文库, 什么值得买
 
 ## Token经济的终局是什么？
 
@@ -176,8 +168,6 @@ API中转站的本质，不是技术，是 **信息差** 。
 
 中间那些靠信息差套利的小作坊，会一批批死掉。
 
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图5 | 中国日均Token调用量增长 | 数据来源: 国家数据局, DoNews
-
 ## 我的判断
 
 傅盛和孙宇晨的入局，是一个信号。
@@ -199,35 +189,3 @@ API中转站的本质，不是技术，是 **信息差** 。
 **2\. 找到垂直场景。** 专门做给学生党、做给某个行业的开发者、做给小白用户。大而全打不过OpenRouter。
 
 **3\. 把服务做重。** 帮用户配环境、教用户调Prompt、给用户提供行业模板。让用户觉得"值"，而不是觉得"便宜"。
-
-数据来源说明
-
-1\. 区块链新闻 2026/5/2 — 孙宇晨宣布全面切换至B.AI中转站
-
-2\. 什么值得买 2026/5/4 — 傅盛孙宇晨下场！月入百万的AI中转站生意
-
-3\. 极客公园 2026/3/4 — 从OpenClaw到EasyClaw：AI Agent最后一公里
-
-4\. 界面新闻/虎嗅 2026/5/6 — API中转站暴利生意面临洗牌
-
-5\. 国家数据局 — 2025年全国日均Token调用量达100万亿
-
-6\. DoNews 2026/5/6 — API中转站成Token经济隐秘红利通道
-
-7\. 网易 2026/5/3 — 一文详解中转站为什么这么赚钱
-
-8\. 澎湃新闻 2026/4/16 — 傅盛踩中了所有热点，猎豹移动仍没有爆点
-
-**免责声明：** 本文所有数据均来自公开媒体报道及行业从业者访谈，数据采集时间为2026年5月。API中转站涉及复杂的法律与合规问题，包括但不限于数据跨境传输、模型厂商用户协议、算力转售授权等。本文仅作行业现象分析，不构成任何投资、创业或商业决策建议。涉及账号拼车、模型掉包、Token虚标等行为可能违反服务商条款甚至触犯法律，请勿尝试。
-
-![Image](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-**微信扫一扫赞赏作者**
-
-AI商业观察手记 · 目录
-
-继续滑动看下一个
-
-AI探索怀林君
-
-向上滑动看下一个
