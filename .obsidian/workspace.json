@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
+                "file": "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +56,7 @@
             }
           },
           {
-            "id": "b10c8257915d27dc",
+            "id": "2aebf99add06b16b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,6 +77,30 @@
               },
               "icon": "lucide-file",
               "title": "任务清单"
+            }
+          },
+          {
+            "id": "640307a869c0b27f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考"
             }
           }
         ],
@@ -137,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 410.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -298,16 +322,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b10c8257915d27dc",
+  "active": "2aebf99add06b16b",
   "lastOpenFiles": [
-    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
-    "TrendRadar/任务清单.md",
-    "清洗/output/png/2026-05-10_ncreate-mindmap-test/main.png",
-    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.png",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.svg",
+    "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
+    "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
     "项目/编排层.md",
-    "raw/articles/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
+    "TrendRadar/任务清单.md",
+    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
+    "清洗/input/raw/2026-05-10_ncreate-流程与比对/index.md",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.svg",
+    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.png",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
+    "清洗/output/png/2026-05-10_ncreate-mindmap-test/main.png",
     "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/V2EX/2026-05-10.md",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/manifest.json",
@@ -319,7 +345,6 @@
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/index.md",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap",
-    "raw/articles/【知乎长文】高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
     "b5368de4788416a3069428e5d1b315fc_MD5.jpg",
     "cfd5909d47b3cf20d61ddf1ab65305b6_MD5.png",
     "TrendRadar/GitHub/2026-05-10.md",
@@ -329,7 +354,6 @@
     "清洗/input/file/2026-05-10_ncreate-skill-md",
     "raw/团队team/方法论/10.md",
     "清洗/output/png/2026-05-10_ncreate-流程与比对/main.png",
-    "清洗/input/raw/2026-05-10_ncreate-流程与比对/index.md",
     "raw/articles/10.md",
     "清洗/ncreate-流程与比对.md",
     "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",

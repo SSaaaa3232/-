@@ -6,17 +6,6 @@ author:
 published: 2026-05-10
 created: 2026-05-10
 ---
-券商万0.854免5开户活动火热进行中！
-
-[![[1221f4d0737b3c3bf71866761995be77_MD5.png]]](https://www.v2ex.com/t/1210393#reply4)
-
-券商万0.854免5活动火热进行中！评论就抽龙泉秦王剑！
-
-Promoted by [daxiaolian](https://www.v2ex.com/member/daxiaolian)
-
-[PRO](https://www.v2ex.com/pro/about)
-
-> 原文在这里： [logseq](https://mlhiter.github.io/#/page/%E9%9D%A2%E5%90%91%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84ai%20%E6%8F%90%E6%95%88%20harness%E6%8C%87%E5%8D%97) 。
 
 > 这篇文章是我同事在出差的时候问我能不能分享一些 AI 经验给客户，进而形成的一篇文章，内容可能有点乱，可以多看看 skill 部分，那里是我用过的所有 skill ，是最核心最能给大家提效的部分。
 
@@ -470,21 +459,4 @@ Harness 不是一次写完的。
 
 只要这套东西跑起来，AI 就不再只是一个问答工具，而会慢慢变成开发流程的一部分。
 
-大功告成。
 
-4 replies **•** 2026-05-10 18:21:27 +08:00
-
-|  |  | 1  **[shakespark](https://www.v2ex.com/member/shakespark)** 2h 9m ago  感谢分享 |
-| --- | --- | --- |
-
-|  |  | 2  **[zisen](https://www.v2ex.com/member/zisen)** 1h 11m ago  感谢楼主分享，我发现针对不同的工作类型，使用的 skills 也会差别非常大，所以我觉得尽量不要一口气导入很多 skills 或者装那种懒人包之类的插件，而是根据自己的工作场景来导入然后调优，我的 skills 大部分是自己写的，也会分享给同事，但是放到互联网上作用就不大了 |
-| --- | --- | --- |
-
-|  |  | 3  **[teaguexiao](https://www.v2ex.com/member/teaguexiao)** 50 mins ago  全局规则写「不希望 AI 做的事」、项目规则写「仓库的边界和命令」，这个拆法特别实用。亲测 [AGENTS.md](http://agents.md/) 里光一条「不要修改本次任务以外的文件」就能省掉 80% 的 review 时间。 |
-| --- | --- | --- |
-
-|  |  | 4  **[mlhiter955](https://www.v2ex.com/member/mlhiter955)**  OP  30 mins ago  @ [zisen](https://www.v2ex.com/member/zisen) 是这样的，我这里列举的所有 skill 也不是都安装的，大部分是我接触感觉有价值的。平常常用的就那么几个哈哈。我最常用就是新需求会先用 think 来分析/bug 就用 hunt ，然后执行，最后 neat-freak 来同步一下记忆和文档，然后 git-commit 提交一下代码。设计的话就用 design 或者 impeccable ，这俩比较看我心情，前者简单些，后者复杂些。我自己也写过一些 skill ，也是都是些偏个人和内部的工作流，不太适合分享。 |
-| --- | --- | --- |
-
-**[About](https://www.v2ex.com/about) · [Help](https://www.v2ex.com/help) · [Advertise](https://www.v2ex.com/pro/about) · [Blog](https://blog.v2ex.com/) · [API](https://www.v2ex.com/help/api) · [FAQ](https://www.v2ex.com/faq) · [Solana](https://www.v2ex.com/solana) · 2855 Online** Highest 6679 · [Select Language](https://www.v2ex.com/select/language) 创意工作者们的社区 World is powered by solitude VERSION: 3.9.8.5 · 71ms · [UTC 10:52](https://www.v2ex.com/worldclock#utc) · [PVG 18:52](https://www.v2ex.com/worldclock#pvg) · [LAX 03:52](https://www.v2ex.com/worldclock#lax) · [JFK 06:52](https://www.v2ex.com/worldclock#jfk)  
-♥ Do have faith in what you're doing.
