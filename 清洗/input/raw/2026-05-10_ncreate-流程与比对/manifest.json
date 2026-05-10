@@ -1,0 +1,18 @@
+{
+  "source": {
+    "type": "raw",
+    "original": "/ncreate 讲解 + 21 源 skill 比对（会话内生成）",
+    "title": "ncreate 流程讲解 × 21 源 Skill 逐项比对",
+    "fetched_at": "2026-05-10T17:36:00+08:00"
+  },
+  "layer": "archive",
+  "intake_chain": ["raw-passthrough"],
+  "capabilities_used": ["markdown"],
+  "image_backend": "none",
+  "cost_estimate": {"tokens": 0, "images": 0, "usd": 0.0},
+  "artifacts": [
+    {"path": "index.md", "kind": "md"}
+  ],
+  "linked_output": "../../../output/png/2026-05-10_ncreate-流程与比对/",
+  "danger_use": null
+}

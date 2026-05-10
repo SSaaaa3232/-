@@ -1,0 +1,89 @@
+@startmindmap
+title ncreate 流程讲解 × 21 源 Skill 比对
+
+* ncreate 单一 skill
+** 行为底板
+*** Think Before Coding
+*** Simplicity First
+*** Surgical Changes (只写清洗 root)
+*** Goal-Driven (artifact+manifest+report)
+** 七步工作流
+*** 1 Parse 材料+层
+*** 2 Preflight 探 7天TTL 非阻塞
+*** 3 Intake 素材→md
+*** 4 Branch on Layer
+*** 5 Per-layer preflight 阻塞
+*** 6 Deliver
+*** 7 Report 一句话
+
+left side
+
+** Intake 5 源
+*** file → markitdown (huashu能力1)
+*** url 通用 → trafilatura + html-to-markdown
+*** url 动态 → baoyu-url-to-markdown (CDP)
+*** youtube → baoyu-youtube-transcript
+*** x/twitter → danger-x-to-markdown (同意门)
+*** raw → 直通
+*** 统一 formatter: baoyu-format-markdown
+** 5 层交付
+*** L1 归档 仅 md
+*** L2 HTML pandoc 4主题\n(article/report/reading/interactive)
+*** L3 图文\n(cover + illustrator + compress)
+*** L4 PNG 9 子类型
+*** L5 PPTX/PSD 3 分支
+** PNG 9 子类型
+*** cover (imagine)
+*** infographic-AI (imagine)
+*** infographic-template (无key)
+*** infocard (无key)
+*** comic (imagine)
+*** diagram (SVG+@2x)
+*** architecture (HTML 分层)
+*** mindmap (PlantUML)
+*** canvas (Obsidian 原生)
+** Danger 链路
+*** 仅 2 条: x-to-md / gemini-web
+*** 每次念风险 + 查 consent.json
+*** 无 consent 就停
+*** manifest.danger_use 记 consent_ref
+*** 不从非 danger 静默回落
+
+right side
+
+** 21 源 skill 比对
+*** Conversion 6
+**** compress-image 🟡 简化
+**** danger-x ✅ 完整
+**** format-md 🟠 抽象化
+**** url-to-md 🟡 简化
+**** youtube 🟡 简化
+**** huashu-md-html 🟡 部分简化
+*** Export 3
+**** slide-deck 🟡 简化
+**** image2ppt 🟡 简化
+**** image2psd 🟡 简化
+*** Visual 12
+**** illustrator 🟠 Prompt文件硬约束丢失
+**** comic 🟡 简化
+**** cover-image 🟡 5维度/11色板/7风格丢失
+**** danger-gemini ✅ 机制完整
+**** diagram 🟡 9类图/8色板抹平
+**** imagine 🟠 10后端/EXTEND Step0丢失
+**** infographic 🔴 21×22矩阵丢失
+**** architecture 🟠 5条Critical Rules丢失
+**** canvas ✅ Obsidian兼容保留
+**** infocard 🟡 Density×Structure×Mood丢失
+**** template-infographic 🔴 50+模板名全丢
+**** mindmap 🟡 2标记风格/方向/内联色丢失
+** 🔴 4 条必补
+*** infographic 21×22
+*** template 50+ 模板名
+*** illustrator Prompt 文件硬约束
+*** imagine Step0 EXTEND 前置 preflight
+** 🟠 4 条建议补
+*** huashu URL 读/查分流
+*** cover 5维度表
+*** diagram 9类图×8色板
+*** architecture 5 Critical Rules
+@endmindmap

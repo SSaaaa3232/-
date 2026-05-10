@@ -155,24 +155,12 @@
             "id": "ea4d4d70e41a90c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "raw/articles/10.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg"
               },
-              "icon": "lucide-file",
-              "title": "10"
+              "icon": "lucide-image",
+              "title": "main"
             }
           }
         ],
@@ -394,15 +382,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ea4d4d70e41a90c0",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.png",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
+    "清洗/input/raw/2026-05-10_ncreate-流程与比对/index.md",
+    "清洗/input/raw/2026-05-10_ncreate-流程与比对/manifest.json",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/manifest.json",
+    "raw/articles/10.md",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/source.mmd",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对/source.puml",
+    "清洗/output/png/2026-05-10_ncreate-流程与比对",
+    "清洗/output/png",
+    "清洗/input/raw/2026-05-10_ncreate-流程与比对",
+    "清洗/input/raw",
+    "清洗/ncreate-流程与比对.md",
     "清洗/output",
     "清洗/input",
-    "清洗",
     "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
     "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
     "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
-    "raw/articles/10.md",
     "TrendRadar/GitHub/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/V2EX/2026-05-10.md",
@@ -423,8 +422,6 @@
     "清单/MCP.md",
     "清单/websearch.md",
     "清单/REPO.md",
-    "清单/AI学习路线图.md",
-    "清单/course.md",
     "image/6a88df67ce021fa988986c176d006873_MD5.png",
     "image/3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
     "image/b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",
@@ -432,16 +429,6 @@
     "image/5b4d3a9fe5087c219d96235609ad3147_MD5.png",
     "image/bd809cd5f6b53def22d59d10b38bffc4_MD5.webp",
     "image/0b8caca27b3cf9b915ce5d2ce3e01cd3_MD5.png",
-    "image/848884f3b12ce81a65abf2ae1b5345b3_MD5.jpg",
-    "image/a2545a794d2431886567389d3cc86473_MD5.png",
-    "raw/个人👤/行为/渗透",
-    "TrendRadar/LinuxDo",
-    "TrendRadar/V2EX",
-    "TrendRadar/GitHub",
-    "tools/x-following-sync/sync-following.mjs",
-    "tools/x-following-sync/sync-following.test.mjs",
-    "tools/x-following-sync",
-    "tools",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
