@@ -37,7 +37,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编排.md",
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "c4df3e633b7ac2f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/编排.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -56,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,9 +300,11 @@
   },
   "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "项目/编排层.md",
-    "编排.md",
+    "CLAUDE.md",
     "TrendRadar/任务清单.md",
+    "项目/WechatIMG17857.jpg",
+    "项目/编排.md",
+    "项目/编排层.md",
     "x/灵感.md",
     "清单/常用skill清单.md",
     "TrendRadar/List.md",
@@ -301,7 +327,6 @@
     "项目/Paseo/Orchestration skills - Paseo Docs.md",
     "TrendRadar/GitHub/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
-    "raw/团队team/技术/vibe coding.md",
     "image/6a88df67ce021fa988986c176d006873_MD5.png",
     "image/3ca4725b5cc873417fb6c1932b5204e0_MD5.png",
     "image/b47c1f0f9a8e38fbd89082bc98fd0e02_MD5.png",
@@ -311,7 +336,6 @@
     "image/0b8caca27b3cf9b915ce5d2ce3e01cd3_MD5.png",
     "image/848884f3b12ce81a65abf2ae1b5345b3_MD5.jpg",
     "image/a2545a794d2431886567389d3cc86473_MD5.png",
-    "image/fb6be2a5a7aca7488903fd9d78448a17_MD5.png",
     "raw/个人👤/行为/渗透",
     "TrendRadar/LinuxDo",
     "TrendRadar/V2EX",
