@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "6a5d85003c4d1322",
+            "id": "799b5a860fd9696e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编排层.md",
+                "file": "编排.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "编排层"
+              "title": "编排"
             }
           }
         ],
@@ -252,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 438.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,9 +274,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6a5d85003c4d1322",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "编排层.md",
+    "项目/编排层.md",
+    "编排.md",
     "TrendRadar/任务清单.md",
     "x/灵感.md",
     "清单/常用skill清单.md",
@@ -310,7 +312,6 @@
     "image/848884f3b12ce81a65abf2ae1b5345b3_MD5.jpg",
     "image/a2545a794d2431886567389d3cc86473_MD5.png",
     "image/fb6be2a5a7aca7488903fd9d78448a17_MD5.png",
-    "raw/articles/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
     "raw/个人👤/行为/渗透",
     "TrendRadar/LinuxDo",
     "TrendRadar/V2EX",
