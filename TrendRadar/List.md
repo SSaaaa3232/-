@@ -39,19 +39,20 @@ status: developing
 
 ## 开发
 
-| 子类             | 条目                                                                                                          | Tag      |
-| -------------- | ----------------------------------------------------------------------------------------------------------- | -------- |
-| 管理与流程          | [SprintiQ – open-source sprint planning for Claude Code](https://github.com/SprintiQ-Incorporated/sprintiq) |          |
-| 开发思路           | [codex+image2王朝了](https://linux.do/t/topic/2118512)                                                         | 方法论      |
-| 长时工作流          | [bytedance / deer-flow](https://github.com/bytedance/deer-flow)                                             |          |
-| 工程技能           | [addyosmani / agent-skills](https://github.com/addyosmani/agent-skills)                                     |          |
-| 工程skill        | [addyosmani /      agent-skills](https://github.com/addyosmani/agent-skills)                                |          |
-| 生命周期           | https://github.com/awslabs/aidlc-workflows                                                                  |          |
-| 编排层            | https://github.com/catlog22/maestro-flow                                                                    |          |
-| Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill    |
-| devtools       | https://github.com/ChromeDevTools/chrome-devtools-mcp                                                       | mcp，逆向开发 |
-| 编排多agent       | https://github.com/oujingzhou/openfr                                                                        |          |
-| 用户鉴权           | https://github.com/pocketbase/pocketbase                                                                    | firebase |
+| 子类             | 条目                                                                                                          | Tag         |
+| -------------- | ----------------------------------------------------------------------------------------------------------- | ----------- |
+| 管理与流程          | [SprintiQ – open-source sprint planning for Claude Code](https://github.com/SprintiQ-Incorporated/sprintiq) |             |
+| 开发思路           | [codex+image2王朝了](https://linux.do/t/topic/2118512)                                                         | 方法论         |
+| 长时工作流          | [bytedance / deer-flow](https://github.com/bytedance/deer-flow)                                             |             |
+| 工程技能           | [addyosmani / agent-skills](https://github.com/addyosmani/agent-skills)                                     |             |
+| 工程skill        | [addyosmani /      agent-skills](https://github.com/addyosmani/agent-skills)                                |             |
+| 生命周期           | https://github.com/awslabs/aidlc-workflows                                                                  |             |
+| 编排层            | https://github.com/catlog22/maestro-flow                                                                    |             |
+| Flutter 应用程序开发 | https://github.com/flutter/skills                                                                           | skill       |
+| devtools       | https://github.com/ChromeDevTools/chrome-devtools-mcp                                                       | mcp，逆向开发    |
+| 用户鉴权           | https://github.com/pocketbase/pocketbase                                                                    | firebase，后端 |
+|                |                                                                                                             |             |
+
 
 ## Skills 
 
