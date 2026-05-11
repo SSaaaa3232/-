@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "640307a869c0b27f",
+            "id": "d217facde2280af3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
+                "file": "项目/编排层.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考"
+              "title": "编排层"
             }
           },
           {
-            "id": "c638c4345c6b1611",
+            "id": "ca0a0db42b138bd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/V2EX/2026-05-10.md",
+                "file": "TrendRadar/LinuxDo/2026-05-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "2026-05-10"
             }
-          },
-          {
-            "id": "d217facde2280af3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/开通服务.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "开通服务"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -322,16 +298,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d217facde2280af3",
+  "active": "ca0a0db42b138bd1",
   "lastOpenFiles": [
+    "TrendRadar/LinuxDo/2026-05-11.md",
+    "TrendRadar/V2EX/2026-05-11.md",
+    "项目/编排层.md",
     "TrendRadar/V2EX/2026-05-10.md",
     "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
+    "清单/开通服务.md",
     "项目/出海独立站技术栈.md",
-    "TrendRadar/LinuxDo/2026-05-11.md",
     "TrendRadar/GitHub/2026-05-11.md",
-    "TrendRadar/V2EX/2026-05-11.md",
-    "TrendRadar/任务清单.md",
-    "项目/编排层.md",
+    "清单/任务清单.md",
     "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
     "清洗/output/png/2026-05-10_reverse-workflow/main.png",
     "清洗/output/png/2026-05-10_reverse-workflow/source.svg",
@@ -369,7 +346,6 @@
     "项目/Promoter prediction.md",
     "项目/基于fitbit的健康监测.md",
     "CLAUDE.md",
-    "x/灵感.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
