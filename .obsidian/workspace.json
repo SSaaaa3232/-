@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prompt.md",
+                "file": "raw/个人👤/行为/Study/prompt/Study prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "prompt"
+              "title": "Study prompt"
+            }
+          },
+          {
+            "id": "505712f7aee57f6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/ncreate优化-提示词html.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ncreate优化-提示词html"
             }
           }
         ],
@@ -324,11 +348,16 @@
   },
   "active": "2cfccda5bcff8590",
   "lastOpenFiles": [
-    "prompt.md",
-    "项目/VPS.md",
+    "prompt/funny-prompt.md",
+    "项目/ncreate优化-提示词html.md",
+    "031a2cfae28822b5667afdf6f3e00110_MD5.svg",
+    "57cf456347509ded69a7cf69f2db9c3b_MD5.png",
+    "111998d43faef6f8ec29a447a33c53da_MD5.svg",
     "清单/任务清单.md",
-    "452d3caac9baafd422fddc38ca412c42_MD5.png",
+    "项目/润色.md",
     "项目/编排层.md",
+    "项目/VPS.md",
+    "452d3caac9baafd422fddc38ca412c42_MD5.png",
     "项目/出海独立站技术栈.md",
     "image/WechatIMG17857.jpg",
     "image/main.svg",
@@ -336,9 +365,6 @@
     "image/source.svg",
     "image/main.png",
     "image/005a5f185cbcd690d84eef9fb1235792_MD5.png",
-    "image/519453735a7ee1492b608bf1f222d99c_MD5.png",
-    "image/50bae34acb7e33bc2ef0f3b091d7aa81_MD5.png",
-    "image/29a53d657e1efd000735679ecde5ff57_MD5.png",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
@@ -367,9 +393,6 @@
     "raw/articles/10.md",
     "清洗/ncreate-流程与比对.md",
     "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
-    "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
-    "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
-    "项目/提示词html.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
