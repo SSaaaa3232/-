@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2aebf99add06b16b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TrendRadar/LinuxDo/2026-05-11.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-11"
-            }
-          },
-          {
             "id": "d217facde2280af3",
             "type": "leaf",
             "state": {
@@ -56,12 +32,12 @@
             }
           },
           {
-            "id": "ca0a0db42b138bd1",
+            "id": "9a4906bb25f178b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/LinuxDo/2026-05-10.md",
+                "file": "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-05-10"
+              "title": "长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -298,8 +274,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ca0a0db42b138bd1",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "71af9a3fe525ef39a45c5091c2d5de0d_MD5.png",
+    "afe7f0bca1865b96c0963ece914ed881_MD5.png",
+    "72d9455fad035fc08d3628d223d89595_MD5.png",
+    "778d04674f9d0c85974c0f7426bf5746_MD5.png",
+    "a328d417a23bc17e2e5d10320b8bf986_MD5.png",
+    "69b3988c92416fbfa48e1d34bcaf66af_MD5.png",
+    "986cac7ecf4743f1505dffde44b0c170_MD5.png",
+    "d1ef8ba5f14bd9322da9b6506a2a409f_MD5.png",
+    "b97f517f4cf698c44a432f392924bc81_MD5.png",
+    "3288ad884075dc5284c2b5e28def23f0_MD5.png",
+    "bf72c6238a5604edeac15e534f161788_MD5.png",
+    "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
+    "TrendRadar/GitHub/2026-05-11.md",
+    "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-11.md",
     "TrendRadar/V2EX/2026-05-11.md",
     "项目/编排层.md",
@@ -307,11 +297,8 @@
     "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
     "清单/开通服务.md",
     "项目/出海独立站技术栈.md",
-    "TrendRadar/GitHub/2026-05-11.md",
     "清单/任务清单.md",
     "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
-    "清洗/output/png/2026-05-10_reverse-workflow/main.png",
-    "清洗/output/png/2026-05-10_reverse-workflow/source.svg",
     "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow/index.md",
@@ -319,22 +306,13 @@
     "清洗/input/raw",
     "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
     "清洗/input/raw/2026-05-10_ncreate-流程与比对/index.md",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.svg",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/main.png",
-    "清洗/output/png/2026-05-10_ncreate-流程与比对/main.svg",
-    "清洗/output/png/2026-05-10_ncreate-mindmap-test/main.png",
-    "TrendRadar/LinuxDo/2026-05-10.md",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/manifest.json",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/manifest.json",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.mmd",
-    "9b7ddbeaa5411680ec6eaa30b4cc4923_MD5.png",
-    "1221f4d0737b3c3bf71866761995be77_MD5.png",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.puml",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/index.md",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap",
-    "b5368de4788416a3069428e5d1b315fc_MD5.jpg",
-    "cfd5909d47b3cf20d61ddf1ab65305b6_MD5.png",
     "TrendRadar/GitHub/2026-05-10.md",
     "raw/团队team/方法论/10.md",
     "raw/articles/10.md",
@@ -344,8 +322,6 @@
     "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
     "项目/提示词html.md",
     "项目/Promoter prediction.md",
-    "项目/基于fitbit的健康监测.md",
-    "CLAUDE.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
