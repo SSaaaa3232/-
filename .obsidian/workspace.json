@@ -54,9 +54,57 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "80d94c29caf5464f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/VPS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPS"
+            }
+          },
+          {
+            "id": "b724e54b73ec8985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/出海独立站技术栈.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "出海独立站技术栈"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,21 +322,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee06c983cd7f1d79",
+  "active": "b724e54b73ec8985",
   "lastOpenFiles": [
-    "项目/编排层.md",
+    "项目/VPS.md",
+    "项目/出海独立站技术栈.md",
     "清单/任务清单.md",
+    "image/WechatIMG17857.jpg",
+    "image/main.svg",
+    "image/main_1.png",
+    "image/source.svg",
+    "image/main.png",
+    "image/005a5f185cbcd690d84eef9fb1235792_MD5.png",
+    "image/519453735a7ee1492b608bf1f222d99c_MD5.png",
+    "image/50bae34acb7e33bc2ef0f3b091d7aa81_MD5.png",
+    "image/29a53d657e1efd000735679ecde5ff57_MD5.png",
+    "image/d73ddcd9086806191be662f16b687bdf_MD5.png",
+    "项目/编排层.md",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
-    "71af9a3fe525ef39a45c5091c2d5de0d_MD5.png",
-    "afe7f0bca1865b96c0963ece914ed881_MD5.png",
-    "72d9455fad035fc08d3628d223d89595_MD5.png",
-    "778d04674f9d0c85974c0f7426bf5746_MD5.png",
-    "a328d417a23bc17e2e5d10320b8bf986_MD5.png",
-    "69b3988c92416fbfa48e1d34bcaf66af_MD5.png",
-    "986cac7ecf4743f1505dffde44b0c170_MD5.png",
-    "d1ef8ba5f14bd9322da9b6506a2a409f_MD5.png",
-    "b97f517f4cf698c44a432f392924bc81_MD5.png",
-    "3288ad884075dc5284c2b5e28def23f0_MD5.png",
     "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-11.md",
@@ -296,7 +346,6 @@
     "TrendRadar/V2EX/2026-05-10.md",
     "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
     "清单/开通服务.md",
-    "项目/出海独立站技术栈.md",
     "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
     "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
     "清洗/output/png/2026-05-10_reverse-workflow",

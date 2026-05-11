@@ -4,23 +4,22 @@
   "title": "整理 How to install 上方名称链接表格",
   "titleGenerationStatus": "success",
   "createdAt": 1778383152077,
-  "updatedAt": 1778383212338,
-  "lastResponseAt": 1778383212338,
+  "updatedAt": 1778479462462,
+  "lastResponseAt": 1778479462462,
   "sessionId": "019e0fe5-67b6-70c2-8b93-2ed45fc3940f",
   "providerState": {
     "threadId": "019e0fe5-67b6-70c2-8b93-2ed45fc3940f",
     "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/10/rollout-2026-05-10T11-19-13-019e0fe5-67b6-70c2-8b93-2ed45fc3940f.jsonl",
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
-  "currentNote": "清单/MCP清单.md",
   "usage": {
-    "inputTokens": 21359,
+    "inputTokens": 25891,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 19328,
+    "cacheReadInputTokens": 23936,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 21359,
-    "percentage": 8,
+    "contextTokens": 25891,
+    "percentage": 10,
     "model": "gpt-5.4-mini"
   }
 }
