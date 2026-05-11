@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TrendRadar/V2EX/2026-05-11.md",
+                "file": "TrendRadar/LinuxDo/2026-05-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,8 +78,33 @@
               "icon": "lucide-file",
               "title": "2026-05-10"
             }
+          },
+          {
+            "id": "046c81a07d186abb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/请教一套出海独立站技术栈.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "请教一套出海独立站技术栈"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -297,14 +322,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2aebf99add06b16b",
+  "active": "046c81a07d186abb",
   "lastOpenFiles": [
-    "TrendRadar/任务清单.md",
+    "raw/articles/请教一套出海独立站技术栈.md",
+    "TrendRadar/LinuxDo/2026-05-11.md",
+    "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/V2EX/2026-05-10.md",
     "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
-    "TrendRadar/GitHub/2026-05-11.md",
-    "TrendRadar/LinuxDo/2026-05-11.md",
     "TrendRadar/V2EX/2026-05-11.md",
+    "TrendRadar/任务清单.md",
     "项目/编排层.md",
     "raw/团队team/方法论/继上次分享 claude code 经验后，过了半年我的一些新的体验带来的一篇指南分享给大家.md",
     "清洗/output/png/2026-05-10_reverse-workflow/main.png",
@@ -344,7 +370,6 @@
     "项目/基于fitbit的健康监测.md",
     "CLAUDE.md",
     "x/灵感.md",
-    "清单/常用skill清单.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
