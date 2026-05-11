@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "VPS"
             }
+          },
+          {
+            "id": "2cfccda5bcff8590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prompt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "prompt"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5,
-    "collapsed": true
+    "width": 410.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -299,11 +322,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee06c983cd7f1d79",
+  "active": "2cfccda5bcff8590",
   "lastOpenFiles": [
+    "prompt.md",
     "项目/VPS.md",
-    "452d3caac9baafd422fddc38ca412c42_MD5.png",
     "清单/任务清单.md",
+    "452d3caac9baafd422fddc38ca412c42_MD5.png",
     "项目/编排层.md",
     "项目/出海独立站技术栈.md",
     "image/WechatIMG17857.jpg",
