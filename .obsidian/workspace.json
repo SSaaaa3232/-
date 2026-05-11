@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "db7f887b5e2b4c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/VPS/VPS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPS"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -274,10 +298,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee06c983cd7f1d79",
+  "active": "db7f887b5e2b4c89",
   "lastOpenFiles": [
-    "项目/VPS/我的 Self-hosting 记录.md",
     "清单/任务清单.md",
+    "项目/VPS/我的 Self-hosting 记录.md",
     "项目/VPS/sc/住宅IP VPS教程.md",
     "657d932159695129d04ded17633278fc_MD5.webp",
     "8728c156b8bd3df94b779335e8e27dc8_MD5.webp",
