@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -299,10 +299,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "80d94c29caf5464f",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
-    "清单/任务清单.md",
     "项目/VPS.md",
+    "452d3caac9baafd422fddc38ca412c42_MD5.png",
+    "清单/任务清单.md",
     "项目/编排层.md",
     "项目/出海独立站技术栈.md",
     "image/WechatIMG17857.jpg",
@@ -314,7 +315,6 @@
     "image/519453735a7ee1492b608bf1f222d99c_MD5.png",
     "image/50bae34acb7e33bc2ef0f3b091d7aa81_MD5.png",
     "image/29a53d657e1efd000735679ecde5ff57_MD5.png",
-    "image/d73ddcd9086806191be662f16b687bdf_MD5.png",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
@@ -346,7 +346,6 @@
     "raw/articles/想创业的心蠢蠢欲动，问问大家看法.md",
     "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
     "项目/提示词html.md",
-    "项目/Promoter prediction.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
