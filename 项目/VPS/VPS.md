@@ -9,6 +9,7 @@ aliases:
 |     | https://github.com/awesome-selfhosted/awesome-selfhosted |
 |     | https://linux.do/t/topic/225815                          |
 |     | https://blog.lkwplus.com/posts/self-hosting#open-webui   |
+|     | https://github.com/mikeroyal/Self-Hosting-Guide          |
 
 # list
 
