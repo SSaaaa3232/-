@@ -78,57 +78,9 @@
               "icon": "lucide-file",
               "title": "VPS"
             }
-          },
-          {
-            "id": "2cfccda5bcff8590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/个人👤/行为/Study/prompt/Study prompt.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Study prompt"
-            }
-          },
-          {
-            "id": "505712f7aee57f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/ncreate优化-提示词html.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ncreate优化-提示词html"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,17 +298,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2cfccda5bcff8590",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
-    "prompt/funny-prompt.md",
+    "项目/编排层.md",
+    "清单/任务清单.md",
+    "项目/VPS.md",
     "项目/ncreate优化-提示词html.md",
+    "raw/个人👤/行为/Study/prompt/Study prompt.md",
+    "prompt/funny-prompt.md",
     "031a2cfae28822b5667afdf6f3e00110_MD5.svg",
     "57cf456347509ded69a7cf69f2db9c3b_MD5.png",
     "111998d43faef6f8ec29a447a33c53da_MD5.svg",
-    "清单/任务清单.md",
     "项目/润色.md",
-    "项目/编排层.md",
-    "项目/VPS.md",
     "452d3caac9baafd422fddc38ca412c42_MD5.png",
     "项目/出海独立站技术栈.md",
     "image/WechatIMG17857.jpg",
