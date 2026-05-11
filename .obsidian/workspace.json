@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -346,8 +346,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c59fa883c396dd4f",
+  "active": "db7f887b5e2b4c89",
   "lastOpenFiles": [
+    "清单/开通服务.md",
     "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
     "raw/articles/常见地区vps推荐 copy.md",
     "raw/articles/常见各种线路和网络的科普 copy.md",
@@ -362,7 +363,6 @@
     "4afc8f44750ed55b0bfd3c514ae19c4e_MD5.png",
     "a3ce603a0a1c8b8ef43497b789962b5a_MD5.png",
     "e3a95487bca0fac84db9099ba08dd79d_MD5.png",
-    "清单/开通服务.md",
     "清单/任务清单.md",
     "项目/VPS/VPS.md",
     "项目/VPS/我的 Self-hosting 记录.md",
