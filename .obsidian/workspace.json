@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "VPS"
             }
-          },
-          {
-            "id": "b724e54b73ec8985",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/出海独立站技术栈.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "出海独立站技术栈"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -322,11 +298,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b724e54b73ec8985",
+  "active": "80d94c29caf5464f",
   "lastOpenFiles": [
-    "项目/VPS.md",
-    "项目/出海独立站技术栈.md",
     "清单/任务清单.md",
+    "项目/VPS.md",
+    "项目/编排层.md",
+    "项目/出海独立站技术栈.md",
     "image/WechatIMG17857.jpg",
     "image/main.svg",
     "image/main_1.png",
@@ -337,7 +314,6 @@
     "image/50bae34acb7e33bc2ef0f3b091d7aa81_MD5.png",
     "image/29a53d657e1efd000735679ecde5ff57_MD5.png",
     "image/d73ddcd9086806191be662f16b687bdf_MD5.png",
-    "项目/编排层.md",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
