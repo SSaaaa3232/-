@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "9a4906bb25f178b4",
+            "id": "ee06c983cd7f1d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash"
+              "title": "任务清单"
             }
           }
         ],
@@ -274,8 +274,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
+    "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "71af9a3fe525ef39a45c5091c2d5de0d_MD5.png",
     "afe7f0bca1865b96c0963ece914ed881_MD5.png",
     "72d9455fad035fc08d3628d223d89595_MD5.png",
@@ -286,8 +287,6 @@
     "d1ef8ba5f14bd9322da9b6506a2a409f_MD5.png",
     "b97f517f4cf698c44a432f392924bc81_MD5.png",
     "3288ad884075dc5284c2b5e28def23f0_MD5.png",
-    "bf72c6238a5604edeac15e534f161788_MD5.png",
-    "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "TrendRadar/GitHub/2026-05-11.md",
     "TrendRadar/LinuxDo/2026-05-10.md",
     "TrendRadar/LinuxDo/2026-05-11.md",
