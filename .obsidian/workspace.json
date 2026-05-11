@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/VPS.md",
+                "file": "项目/VPS/VPS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "VPS"
             }
+          },
+          {
+            "id": "75adf0fb1e63b6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/VPS/sc/住宅IP VPS教程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "住宅IP VPS教程"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -298,14 +322,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee06c983cd7f1d79",
+  "active": "80d94c29caf5464f",
   "lastOpenFiles": [
-    "项目/编排层.md",
+    "项目/VPS/sc/住宅IP VPS教程.md",
+    "项目/VPS/VPS.md",
+    "项目/ncreate",
+    "项目/VPS",
     "清单/任务清单.md",
-    "项目/VPS.md",
+    "项目/编排层.md",
     "项目/ncreate优化-提示词html.md",
     "raw/个人👤/行为/Study/prompt/Study prompt.md",
-    "prompt/funny-prompt.md",
+    "项目/ncreate/prompt 1/funny-prompt.md",
     "031a2cfae28822b5667afdf6f3e00110_MD5.svg",
     "57cf456347509ded69a7cf69f2db9c3b_MD5.png",
     "111998d43faef6f8ec29a447a33c53da_MD5.svg",
@@ -339,13 +366,10 @@
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.mmd",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.puml",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/index.md",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap",
-    "清洗/input/raw/2026-05-10_ncreate-overall-mindmap",
     "TrendRadar/GitHub/2026-05-10.md",
     "raw/团队team/方法论/10.md",
     "raw/articles/10.md",
     "清洗/ncreate-流程与比对.md",
-    "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

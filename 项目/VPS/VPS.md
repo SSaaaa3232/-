@@ -80,7 +80,7 @@ aliases:
 | alist（webdav）  | 网盘备份                                                          |     |
 | aria2          |                                                               | 下载  |
 | 定时维护网站         |                                                               |     |
-| 签到             |                                                               |     |
+| 签到             | 自动签到，抓包模拟，https://cnb.cool/i.o/workbuddy_checkin              |     |
 | 微软E5续签         | https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X | 全家桶 |
 | AnonAddy       | 批量注册                                                          |     |
 公共的E5续期服务上跑，炸号了一次，现在自部署稳定的很
