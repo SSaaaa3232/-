@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "VPS"
             }
+          },
+          {
+            "id": "c59fa883c396dd4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/开通服务.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "开通服务"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -298,15 +322,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "db7f887b5e2b4c89",
+  "active": "c59fa883c396dd4f",
   "lastOpenFiles": [
     "清单/任务清单.md",
+    "项目/VPS/VPS.md",
     "项目/VPS/我的 Self-hosting 记录.md",
     "项目/VPS/sc/住宅IP VPS教程.md",
     "657d932159695129d04ded17633278fc_MD5.webp",
     "8728c156b8bd3df94b779335e8e27dc8_MD5.webp",
     "6dae09b111e3ae1a48bba48a664791be_MD5.webp",
-    "项目/VPS/VPS.md",
     "项目/VPS/sc copy/EqualVPN-住宅IP.md",
     "项目/VPS/sc copy/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
     "项目/VPS/sc copy/IP洗脸.md",
