@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "开通服务"
             }
+          },
+          {
+            "id": "36d4a5fca19984ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "从零开始的VPS科普：认识你的第一台服务器"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -322,15 +346,29 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c59fa883c396dd4f",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "raw/articles/常见地区vps推荐 copy.md",
+    "raw/articles/常见各种线路和网络的科普 copy.md",
+    "raw/articles/从零开始的VPS科普：认识你的第一台服务器 copy.md",
+    "raw/articles/常见各种线路和网络的科普.md",
+    "raw/articles/常见地区vps推荐.md",
+    "818a9b3becc80203e80ed6fb8356cf7e_MD5.png",
+    "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
+    "b00eef5bfd8e03ba67c7934d9c70e148_MD5.jpg",
+    "35f8a5a7aaffebd3c46243c652c0125f_MD5.png",
+    "a533f9425b684ff38cf3106f23380bc8_MD5.png",
+    "a8f2977d74ca2354218743f6335cb612_MD5.png",
+    "4afc8f44750ed55b0bfd3c514ae19c4e_MD5.png",
+    "a3ce603a0a1c8b8ef43497b789962b5a_MD5.png",
+    "e3a95487bca0fac84db9099ba08dd79d_MD5.png",
+    "清单/开通服务.md",
     "清单/任务清单.md",
     "项目/VPS/VPS.md",
     "项目/VPS/我的 Self-hosting 记录.md",
     "项目/VPS/sc/住宅IP VPS教程.md",
     "657d932159695129d04ded17633278fc_MD5.webp",
     "8728c156b8bd3df94b779335e8e27dc8_MD5.webp",
-    "6dae09b111e3ae1a48bba48a664791be_MD5.webp",
     "项目/VPS/sc copy/EqualVPN-住宅IP.md",
     "项目/VPS/sc copy/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
     "项目/VPS/sc copy/IP洗脸.md",
@@ -345,23 +383,10 @@
     "项目/ncreate优化-提示词html.md",
     "raw/个人👤/行为/Study/prompt/Study prompt.md",
     "项目/ncreate/prompt 1/funny-prompt.md",
-    "031a2cfae28822b5667afdf6f3e00110_MD5.svg",
-    "57cf456347509ded69a7cf69f2db9c3b_MD5.png",
-    "111998d43faef6f8ec29a447a33c53da_MD5.svg",
     "项目/润色.md",
-    "452d3caac9baafd422fddc38ca412c42_MD5.png",
     "项目/出海独立站技术栈.md",
-    "image/WechatIMG17857.jpg",
-    "image/main.svg",
-    "image/main_1.png",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
     "TrendRadar/GitHub/2026-05-11.md",
-    "TrendRadar/LinuxDo/2026-05-10.md",
-    "TrendRadar/LinuxDo/2026-05-11.md",
-    "TrendRadar/V2EX/2026-05-11.md",
-    "TrendRadar/V2EX/2026-05-10.md",
-    "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
-    "清单/开通服务.md",
     "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow",
