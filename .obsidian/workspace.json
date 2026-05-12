@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -370,8 +370,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "28394f0a33463d4a",
+  "active": "c59fa883c396dd4f",
   "lastOpenFiles": [
+    "项目/Promoter prediction.md",
     "项目/VPS/VPS.md",
     "清单/开通服务.md",
     "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
@@ -410,7 +411,6 @@
     "项目/润色.md",
     "项目/出海独立站技术栈.md",
     "项目/长篇实战 含调优方向记录一次M5 Max 128G 部署 ds4.c + DeepSeek V4 Flash.md",
-    "TrendRadar/GitHub/2026-05-11.md",
     "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow",
