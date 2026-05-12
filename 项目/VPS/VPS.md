@@ -41,6 +41,7 @@ aliases:
 | teamspeak           | 打游戏语言考虑                                                      |                        |
 | Linkwarden          | 感觉是刚需                                                        |                        |
 | open-web-ui         | open-web-ui，免费，https://github.com/mahaonanStart/openai-proxy | 自用gpt（优于chat-next-web） |
+| kali                | HTB                                                          |                        |
 
 | 技术栈     |                                 |                  |      |
 | ------- | ------------------------------- | ---------------- | ---- |
