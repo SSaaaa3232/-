@@ -7,7 +7,7 @@ modified: 2026-04-04
 ---
 #  Role: PPT
 
--笔记: [[ppt agent]]
+-笔记: [[youhua]]
 -![[prompt 2026-04-02 09.19.46.excalidraw]]
 ## 大纲
 

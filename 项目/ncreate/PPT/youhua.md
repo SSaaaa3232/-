@@ -15,6 +15,17 @@ modified: 2026-04-04
 ---
 # 方案：
 
+|                                |                                       |                                        |
+| ------------------------------ | ------------------------------------- | -------------------------------------- |
+| beamer                         | 代码编译PDF                               | 学术，严谨，专业                               |
+| 网页版写prompt=》codex改，改完=》网页      | 网页版写prompt                            | codex视觉能力不太行                           |
+| image2抽卡，codex复现               |                                       |                                        |
+| image 2 出图再转ppt                | bggg                                  |                                        |
+| aionui，里面的Office cli（多agrnt编排） | https://github.com/iOfficeAI/AionUi   | https://github.com/iOfficeAI/OfficeCLI |
+| ppt skil                       | https://github.com/hugohe3/ppt-master |                                        |
+|                                |                                       |                                        |
+
+
 - 策划：
 	- 先让AI生成一个，不要各种复杂效果，简简单单，清清爽爽的页面初稿。
 	- 到后面再去加设计的效果
