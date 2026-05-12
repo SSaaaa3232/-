@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/Promoter prediction.md",
+                "file": "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,35 +124,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promoter prediction"
-            }
-          },
-          {
-            "id": "d6b09cfd8447f800",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/渗透/OSCP攀登计划-渗透测试报告.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OSCP攀登计划-渗透测试报告"
+              "title": "傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -348,8 +324,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5,
-    "collapsed": true
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -370,12 +345,27 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c59fa883c396dd4f",
+  "active": "28394f0a33463d4a",
   "lastOpenFiles": [
-    "项目/VPS/VPS.md",
+    "项目/中转站/CLI Proxy API）反代 chatgpt（Codex）.md",
+    "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名.md",
+    "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
+    "7f690620ab3b999358c405bf1da011fc_MD5.png",
+    "25b0b6ae93c7ece7da63bcfad19bc30a_MD5.png",
+    "98814d66dd45123e446d9f4f9521d13c_MD5.png",
+    "637fdceac1e54f5be68453d1703e67e1_MD5.png",
+    "09ae3e10f5f9edc2f2c87d7080da8116_MD5.jpg",
+    "56081974286188da51c20605fb6c05a6_MD5.png",
+    "c2bcec37e0ba4addb55557d831868c14_MD5.png",
+    "a0efad482b69cb8953bc1e296a282841_MD5.png",
+    "c415abeabc8ecf05819ac79e8725715c_MD5.png",
+    "1749858a735c6684dba4bc6ff91568dd_MD5.png",
+    "项目/Monkey/GPT订阅周限.md",
+    "项目/Monkey",
     "项目/渗透/OSCP攀登计划-渗透测试报告.md",
-    "清单/任务清单.md",
     "清单/开通服务.md",
+    "项目/VPS/VPS.md",
+    "清单/任务清单.md",
     "项目/Promoter prediction.md",
     "项目/VPS/从零开始的VPS科普：认识你的第一台服务器.md",
     "项目/编排层.md",
@@ -384,18 +374,8 @@
     "raw/articles/从零开始的VPS科普：认识你的第一台服务器 copy.md",
     "项目/VPS/常见各种线路和网络的科普.md",
     "项目/VPS/常见地区vps推荐.md",
-    "818a9b3becc80203e80ed6fb8356cf7e_MD5.png",
-    "b00eef5bfd8e03ba67c7934d9c70e148_MD5.jpg",
-    "35f8a5a7aaffebd3c46243c652c0125f_MD5.png",
-    "a533f9425b684ff38cf3106f23380bc8_MD5.png",
-    "a8f2977d74ca2354218743f6335cb612_MD5.png",
-    "4afc8f44750ed55b0bfd3c514ae19c4e_MD5.png",
-    "a3ce603a0a1c8b8ef43497b789962b5a_MD5.png",
-    "e3a95487bca0fac84db9099ba08dd79d_MD5.png",
     "项目/VPS/我的 Self-hosting 记录.md",
     "项目/VPS/sc/住宅IP VPS教程.md",
-    "657d932159695129d04ded17633278fc_MD5.webp",
-    "8728c156b8bd3df94b779335e8e27dc8_MD5.webp",
     "项目/VPS/sc copy/EqualVPN-住宅IP.md",
     "项目/VPS/sc copy/VIRCS AT&T+Frontier美国家宽测评：优质的美西家宽.md",
     "项目/VPS/sc copy/IP洗脸.md",
@@ -407,17 +387,12 @@
     "项目/ncreate",
     "项目/VPS",
     "项目/ncreate优化-提示词html.md",
-    "raw/个人👤/行为/Study/prompt/Study prompt.md",
-    "项目/ncreate/prompt 1/funny-prompt.md",
-    "项目/润色.md",
-    "项目/出海独立站技术栈.md",
     "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow",
     "清洗/input/raw",
     "清洗/output/png/2026-05-10_ncreate-overall-mindmap/manifest.json",
     "清洗/input/raw/2026-05-10_ncreate-overall-mindmap/manifest.json",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/source.mmd",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

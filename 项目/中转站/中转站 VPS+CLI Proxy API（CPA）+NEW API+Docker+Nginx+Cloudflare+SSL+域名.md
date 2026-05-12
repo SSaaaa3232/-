@@ -4,7 +4,7 @@ source: "https://linux.do/t/topic/2140889"
 author:
   - "[[worenbudaoni]]"
 published: 2026-05-09
-created: 2026-05-09
+created: 2026-05-12
 ---
 > 非常感谢各位佬友对我之前文章的认可，既然大家对此类的文章比较感兴趣，恰巧我也研究过，所以继续给大家带来一个搭建中转站的教程  
 > 该文章不会着重的讲解CPA的使用，有兴趣的佬友可以看我的这篇文章：[拒绝token焦虑 cpa（CLI Proxy API）反代 chatgpt（Codex） 保姆级全图文教程 - 开发调优 - LINUX DO](https://linux.do/t/topic/2120257)
@@ -31,7 +31,7 @@ created: 2026-05-09
 > 这个为新人优惠，2c2g一年99米  
 > 这是两个图片拼接起来的，颜色不同的大框表示不同的图片，这两个图片的截取在同一个页面，下滑即可
 
-[![[6716796ae2017ea4f8e0acd6aad368aa_MD5.png]]
+[![[6716796ae2017ea4f8e0acd6aad368aa_MD5_1.png]]
 
 image1438×936 69.5 KB
 
@@ -41,7 +41,7 @@ image1438×936 69.5 KB
 
 > 这也是两张图片拼接起来的，颜色不同的大框表示不同的图片，上面黄框是腾讯云的主页的头部标签，下面红框是点击控制台后进入控制台的页面
 
-[![[f16c412caa212f8ba4e2bf81222ac900_MD5.png]]
+[![[f16c412caa212f8ba4e2bf81222ac900_MD5_1.png]]
 
 image1854×632 80.7 KB
 
@@ -52,7 +52,7 @@ image1854×632 80.7 KB
 > 也是由黄框和红框分别不同的图片  
 > 由于腾讯云默认安全组打开了22端口（SSH服务），这里就不进安全组了，后文有讲到如何配置安全组，这里不过多赘述
 
-[![[6488c53a6fc903c875655196567214a3_MD5.png]]
+[![[6488c53a6fc903c875655196567214a3_MD5_1.png]]
 
 image1692×548 67.2 KB
 
@@ -63,7 +63,7 @@ image1692×548 67.2 KB
 > 填写名称、主机ip、用户名和密码即可连接到我们的服务器  
 > FinalShell的好处就是修改文件或者上传下载文件时是可视化的，不用一遍一遍敲命令行
 
-[![[80eb3772401baf1c6c0686d4181be280_MD5.png]]
+[![[80eb3772401baf1c6c0686d4181be280_MD5_1.png]]
 
 image1132×621 65.5 KB
 
@@ -100,7 +100,7 @@ mkdir -p /opt/proxy/{cpa/{logs,auths},newapi/{data,logs}} && cd /opt/proxy && to
     └── logs/
 ```
 
-[![[c0c4a566ba0541d74c9e603f1b0fd2d9_MD5.png]]
+[![[c0c4a566ba0541d74c9e603f1b0fd2d9_MD5_1.png]]
 
 image854×456 56.4 KB
 
@@ -108,7 +108,7 @@ image854×456 56.4 KB
 
 ### 2、cpa目录下的 config.yaml 文件
 
-> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5.png]]的是可修改的，其他的可以照抄
+> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5_1.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5_1.png]]的是可修改的，其他的可以照抄
 
 ```yaml
 # 服务器绑定主机/接口，默认空字符串同时绑定 IPv4/IPv6  
@@ -158,7 +158,7 @@ usage-statistics-enabled: false
 
 ### 3、proxy目录下的 docker-compose.yml 文件
 
-> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5.png]]的是可修改的，其他的可以照抄
+> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5_1.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5_1.png]]的是可修改的，其他的可以照抄
 
 ```yaml
 # newapi docker-compose 配置参考：  
@@ -268,7 +268,7 @@ volumes:
 
 ### 4、把认证文件放进 /opt/proxy/cpa/auths 目录下
 
-[![[146d4a27d2e27ee14ecdd63b15ad50c8_MD5.png]]
+[![[146d4a27d2e27ee14ecdd63b15ad50c8_MD5_1.png]]
 
 image840×200 16.7 KB
 
@@ -316,7 +316,7 @@ success
 
 #### （1、先去控制台进入选择我们的服务器
 
-[![[d1c88770b0c653df6a4ede274d101a90_MD5.png]]
+[![[d1c88770b0c653df6a4ede274d101a90_MD5_1.png]]
 
 image720×576 83.3 KB
 
@@ -324,7 +324,7 @@ image720×576 83.3 KB
 
 #### （2、选择防火墙并添加规则，下面三个是官方配置的，不要动，特别是SSH登录（22端口）
 
-[![[2a7510362dff1cb48a1fa53be5e1ed07_MD5.png]]
+[![[2a7510362dff1cb48a1fa53be5e1ed07_MD5_1.png]]
 
 image1540×553 117 KB
 
@@ -332,7 +332,7 @@ image1540×553 117 KB
 
 #### （3、添加规则：配置来源和端口号
 
-[![[9381bb213d1711746694dcd32ba75b64_MD5.png]]
+[![[9381bb213d1711746694dcd32ba75b64_MD5_1.png]]
 
 image1186×434 35.8 KB
 
@@ -340,7 +340,7 @@ image1186×434 35.8 KB
 
 #### （4、确认好后就多了一条
 
-[![[f861b480641f8b57b800503bedbb3ff4_MD5.png]]
+[![[f861b480641f8b57b800503bedbb3ff4_MD5_1.png]]
 
 image1543×651 42.9 KB
 
@@ -386,7 +386,7 @@ docker compose down
 
 ## 三、我们通过 [http://ip:3000](http://ip:3000/) 就可以访问我们中转站了
 
-[![[183ae37e78a6ce6a9c873eb75b84818f_MD5.png]]
+[![[183ae37e78a6ce6a9c873eb75b84818f_MD5_1.png]]
 
 image1744×821 214 KB
 
@@ -404,7 +404,7 @@ image1744×821 214 KB
 
 ### 2、渠道管理
 
-[![[171c2bbc4d0ec35422800ed3a2100254_MD5.png]]
+[![[171c2bbc4d0ec35422800ed3a2100254_MD5_1.png]]
 
 image1813×836 47.2 KB
 
@@ -419,7 +419,7 @@ image1813×836 47.2 KB
 > API地址（放个可以复制粘贴的：[http://cpa:8317](http://cpa:8317/)）：就是cpa的地址  
 > 模型：秘钥和api地址填好后点击获取即可
 
-[![[0019bbd6e34c6f041d7df87edea74cae_MD5.png]]
+[![[0019bbd6e34c6f041d7df87edea74cae_MD5_1.png]]
 
 image1397×882 88.3 KB
 
@@ -427,7 +427,7 @@ image1397×882 88.3 KB
 
 点击测试后发现报错，我们就根据报错提示去配置价格  
 
-[![[bce251183c33cb84c4532cc570ac1d96_MD5.png]]
+[![[bce251183c33cb84c4532cc570ac1d96_MD5_1.png]]
 
 image1581×342 45.4 KB
 
@@ -437,7 +437,7 @@ image1581×342 45.4 KB
 
 #### 设置模型价格
 
-[![[4aa5233b9563ee0c9dc981ea3207e84c_MD5.png]]
+[![[4aa5233b9563ee0c9dc981ea3207e84c_MD5_1.png]]
 
 image1832×767 107 KB
 
@@ -445,7 +445,7 @@ image1832×767 107 KB
 
 我们再去点击测试，发现就可以通过了  
 
-[![[faad6a0b485a827c028e80b9fde72b3c_MD5.png]]
+[![[faad6a0b485a827c028e80b9fde72b3c_MD5_1.png]]
 
 image1547×314 30.5 KB
 
@@ -453,7 +453,7 @@ image1547×314 30.5 KB
 
 在模型广场里面也可以看见我们配置的模型了  
 
-[![[869baf2841a9d9981572f387b412075a_MD5.jpg]]
+[![[869baf2841a9d9981572f387b412075a_MD5_1.jpg]]
 
 image1869×614 166 KB
 
@@ -463,7 +463,7 @@ image1869×614 166 KB
 
 系统设置里面有很多功能，比如修改可见菜单  
 
-[![[a0e3631c1def1b9d28ba9da4df207bf1_MD5.png]]
+[![[a0e3631c1def1b9d28ba9da4df207bf1_MD5_1.png]]
 
 image1830×786 51.1 KB
 
@@ -471,7 +471,7 @@ image1830×786 51.1 KB
 
 设置签到功能  
 
-[![[8dd2ca8a5f39481759c3c0411401f7ac_MD5.png]]
+[![[8dd2ca8a5f39481759c3c0411401f7ac_MD5_1.png]]
 
 image1676×462 24.4 KB
 
@@ -479,7 +479,7 @@ image1676×462 24.4 KB
 
 设置公告、api信息、支付等等  
 
-[![[703d0e4de660d1a4273beb1967d50775_MD5.png]]
+[![[703d0e4de660d1a4273beb1967d50775_MD5_1.png]]
 
 image1819×748 52.8 KB
 
@@ -487,7 +487,7 @@ image1819×748 52.8 KB
 
 ### 4、配置令牌
 
-[![[adc04a1b4a4b11f4eb8abda9bc67d05d_MD5.png]]
+[![[adc04a1b4a4b11f4eb8abda9bc67d05d_MD5_1.png]]
 
 image1475×888 95.1 KB
 
@@ -497,7 +497,7 @@ image1475×888 95.1 KB
 
 > 配置一下刚才我们复制的秘钥
 
-[![[0a84b0eb0e5d24c3d770196f870ffcee_MD5.png]]
+[![[0a84b0eb0e5d24c3d770196f870ffcee_MD5_1.png]]
 
 image900×600 34.8 KB
 
@@ -505,7 +505,7 @@ image900×600 34.8 KB
 
 > 测试一下，没有问题
 
-[![[de587fd9be391cf3a926289878d3a200_MD5.png]]
+[![[de587fd9be391cf3a926289878d3a200_MD5_1.png]]
 
 image872×360 22.7 KB
 
@@ -513,7 +513,7 @@ image872×360 22.7 KB
 
 > 在数据看板中也可以看见使用情况
 
-[![[d266527a40b2104c9f84f21aca8cff90_MD5.png]]
+[![[d266527a40b2104c9f84f21aca8cff90_MD5_1.png]]
 
 image1843×762 75.9 KB
 
@@ -533,7 +533,7 @@ image1843×762 75.9 KB
 
 #### （1、进入域名与网站
 
-[![[760065f776d24b53ad9b3573124ca270_MD5.png]]
+[![[760065f776d24b53ad9b3573124ca270_MD5_1.png]]
 
 image1429×419 45.8 KB
 
@@ -544,7 +544,7 @@ image1429×419 45.8 KB
 > 查询之后下滑点击购买就可以了  
 > 域名这里买了之后要实名去备份，审核要几个工作日吧，有点忘记了
 
-[![[30a4d016f44acd915c3978f0c77fe276_MD5.png]]
+[![[30a4d016f44acd915c3978f0c77fe276_MD5_1.png]]
 
 image1488×423 76.4 KB
 
@@ -558,7 +558,7 @@ image1488×423 76.4 KB
 
 > 下面那个我已经注册了，上面已经有服务了，注销在注册太麻烦
 
-[![[f14e62845a8a681aba05049069f7eab5_MD5.png]]
+[![[f14e62845a8a681aba05049069f7eab5_MD5_1.png]]
 
 image1844×500 33.8 KB
 
@@ -566,7 +566,7 @@ image1844×500 33.8 KB
 
 ##### ②、跟着我的步骤点点就行了
 
-[![[467bc7a6ebf8289a391682557a32d70d_MD5.png]]
+[![[467bc7a6ebf8289a391682557a32d70d_MD5_1.png]]
 
 image1557×855 193 KB
 
@@ -574,7 +574,7 @@ image1557×855 193 KB
 
 > 上面四个步骤结束后我们得到了下面这个页面，需要去我们的云服务商重新配置一下DNS解析
 
-[![[f8138bb884269d141b20fa4f39c71efd_MD5.png]]
+[![[f8138bb884269d141b20fa4f39c71efd_MD5_1.png]]
 
 image973×577 35.8 KB
 
@@ -584,7 +584,7 @@ image973×577 35.8 KB
 
 > 进入我们的工作台，点击域名就可以看到我们购买的域名了  
 > 
-> [![[e74318d7355ad2094ddd61eef20a105f_MD5.png]]
+> [![[e74318d7355ad2094ddd61eef20a105f_MD5_1.png]]
 > 
 > image1794×521 71.3 KB
 > 
@@ -594,7 +594,7 @@ image973×577 35.8 KB
 > 注： 国际域名最少填写2个，最多填写13个，国内域名最多填写6个。  
 > 所以我们两个都要复制哦，把之前的替换掉
 
-[![[6167ba6c787829cea891a8c77241a513_MD5.png]]
+[![[6167ba6c787829cea891a8c77241a513_MD5_1.png]]
 
 image1506×474 127 KB
 
@@ -604,7 +604,7 @@ image1506×474 127 KB
 
 > 下拉后，点击我已更新名称服务器  
 > 
-> [![[a0b9db77a8e7bdb077db051b866dcba8_MD5.png]]
+> [![[a0b9db77a8e7bdb077db051b866dcba8_MD5_1.png]]
 > 
 > image984×583 31.5 KB
 > 
@@ -612,7 +612,7 @@ image1506×474 127 KB
 
 > 我们等十分钟后刷新一下  
 > 
-> [![[8c36a0b5ea2bdad566f906f2d90c94a9_MD5.png]]
+> [![[8c36a0b5ea2bdad566f906f2d90c94a9_MD5_1.png]]
 > 
 > image967×443 28.2 KB
 > 
@@ -620,7 +620,7 @@ image1506×474 127 KB
 
 > 如果出现这样就代表成功了，由于我已经配置了一个域名，不想再去买一个配置了，下面这张图用的小黄大佬的图，大佬的文章我也贴在最后了
 
-[![[13ea0d1298fb867fc51eb00f033563e6_MD5.png]]
+[![[13ea0d1298fb867fc51eb00f033563e6_MD5_1.png]]
 
 image750×449 121 KB
 
@@ -706,7 +706,7 @@ http {
 
 #### api.conf
 
-> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5.png]]的是可修改的，其他的可以照抄
+> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5_1.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5_1.png]]的是可修改的，其他的可以照抄
 
 ```
 # ==================== HTTP 重定向到 HTTPS ====================
@@ -783,7 +783,7 @@ server {
 
 > 这里我们去cloudflare 获取
 
-[![[a0570fae803f586f0fd53cd5a2dab68e_MD5.png]]
+[![[a0570fae803f586f0fd53cd5a2dab68e_MD5_1.png]]
 
 image1826×793 84.3 KB
 
@@ -791,7 +791,7 @@ image1826×793 84.3 KB
 
 > 创建一个证书
 
-[![[fa36cd1a715cb46472b1849acadfdc69_MD5.png]]
+[![[fa36cd1a715cb46472b1849acadfdc69_MD5_1.png]]
 
 image1837×841 64 KB
 
@@ -799,7 +799,7 @@ image1837×841 64 KB
 
 > 输入一下我们要的二级域名，点击创建
 
-[![[b63cab71e3eba6f3da16f33c742e90b7_MD5.png]]
+[![[b63cab71e3eba6f3da16f33c742e90b7_MD5_1.png]]
 
 image1822×752 81.3 KB
 
@@ -807,7 +807,7 @@ image1822×752 81.3 KB
 
 > 我们就得到了 api.pem 和 api.key 复制粘贴进去，记得这个页面还有个确认要点
 
-[![[63a3bc0676e529e79e6f2ed48790597b_MD5.png]]
+[![[63a3bc0676e529e79e6f2ed48790597b_MD5_1.png]]
 
 image1484×639 77.2 KB
 
@@ -824,7 +824,7 @@ image1484×639 77.2 KB
 > 
 > 因为DNS解析需要时间1-10分钟，所以我把DNS的步骤提前了，我们后面的步骤走完就可以直接通过我们的二级域名访问我们的项目了
 
-[![[c5f09b3348f629f6771cd17966ae44f3_MD5.png]]
+[![[c5f09b3348f629f6771cd17966ae44f3_MD5_1.png]]
 
 image1575×577 114 KB
 
@@ -861,7 +861,7 @@ You most likely need to use --zone=docker option.
 
 > 在上文中我已经讲解了怎么进入安全组了，这里就不过多赘述了，记得把之前的3000端口给关闭掉，虽然我们通过linux防火墙已经关闭了，但怎么安全怎么来
 
-[![[154ad9112bb7c88e83060f808c5f345c_MD5.png]]
+[![[154ad9112bb7c88e83060f808c5f345c_MD5_1.png]]
 
 image1299×637 63.1 KB
 
@@ -871,7 +871,7 @@ image1299×637 63.1 KB
 
 > 该文件内容是完整的，但里面参数也需要修改一下  
 > 现在new-api不直接对外提供服务，只能内网访问，后面通过nginx反向代理到443端口，对外提供服务  
-> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5.png]]的是可修改的，其他的可以照抄
+> 包含![[86843c96badd0eeaf855fddbb4c6897d_MD5_1.png]]的参数是需要修改的，包含![[0b0fef4da603e5f0ee1be390ecaa5383_MD5_1.png]]的是可修改的，其他的可以照抄
 
 ```yaml
 # newapi docker-compose 配置参考：  
@@ -1009,7 +1009,7 @@ networks:
 > 启动：`docker compose up -d`  
 > 启动完成后就可以访问我们的二级域名转到我们的项目了
 
-[![[9c8a47e66d8dc956108dcedbf26f1232_MD5.jpg]]
+[![[9c8a47e66d8dc956108dcedbf26f1232_MD5_1.jpg]]
 
 image1754×908 143 KB
 
@@ -1017,15 +1017,15 @@ image1754×908 143 KB
 
 > 并且通过了CF的代理，DNS也不是直接转向我们机器的ip，这样就大大滴安全了（并不）
 
-[![[966c298907e4c8ca799c9148bb403103_MD5.png]]
+[![[966c298907e4c8ca799c9148bb403103_MD5_1.png]]
 
 image793×311 9.15 KB
 
 ](https://cdn3.ldstatic.com/original/4X/d/5/6/d56a5f7a7c698993b4178168ca3d2b425a7832bf.png "image")
 
-> 测试我们最关心的 反代问题，没问题，文章完结撒花![[b00c9eff105369519395ba0d221d24b7_MD5.png]]
+> 测试我们最关心的 反代问题，没问题，文章完结撒花![[b00c9eff105369519395ba0d221d24b7_MD5_1.png]]
 
-[![[acc9ff4573ee68a7c7e64f8f23c6bbbf_MD5.png]]
+[![[acc9ff4573ee68a7c7e64f8f23c6bbbf_MD5_1.png]]
 
 image861×546 36.2 KB
 
