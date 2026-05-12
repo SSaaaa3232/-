@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,11 +346,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c59fa883c396dd4f",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
+    "项目/ncreate/PPT/youhua.md",
     "清单/任务清单.md",
     "清单/开通服务.md",
-    "项目/ncreate/PPT/youhua.md",
     "项目/编排层.md",
     "项目/ncreate/PPT/PPT视觉优化方案.md",
     "项目/ncreate/prompt/PPT.md",
