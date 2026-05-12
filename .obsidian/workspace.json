@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "36d4a5fca19984ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "从零开始的VPS科普：认识你的第一台服务器"
-            }
-          },
-          {
             "id": "28394f0a33463d4a",
             "type": "leaf",
             "state": {
@@ -373,9 +349,11 @@
   "active": "c59fa883c396dd4f",
   "lastOpenFiles": [
     "项目/Promoter prediction.md",
-    "项目/VPS/VPS.md",
-    "清单/开通服务.md",
     "raw/articles/从零开始的VPS科普：认识你的第一台服务器.md",
+    "清单/开通服务.md",
+    "清单/任务清单.md",
+    "项目/编排层.md",
+    "项目/VPS/VPS.md",
     "raw/articles/常见地区vps推荐 copy.md",
     "raw/articles/常见各种线路和网络的科普 copy.md",
     "raw/articles/从零开始的VPS科普：认识你的第一台服务器 copy.md",
@@ -389,7 +367,6 @@
     "4afc8f44750ed55b0bfd3c514ae19c4e_MD5.png",
     "a3ce603a0a1c8b8ef43497b789962b5a_MD5.png",
     "e3a95487bca0fac84db9099ba08dd79d_MD5.png",
-    "清单/任务清单.md",
     "项目/VPS/我的 Self-hosting 记录.md",
     "项目/VPS/sc/住宅IP VPS教程.md",
     "657d932159695129d04ded17633278fc_MD5.webp",
@@ -404,7 +381,6 @@
     "项目/VPS/sc copy",
     "项目/ncreate",
     "项目/VPS",
-    "项目/编排层.md",
     "项目/ncreate优化-提示词html.md",
     "raw/个人👤/行为/Study/prompt/Study prompt.md",
     "项目/ncreate/prompt 1/funny-prompt.md",
