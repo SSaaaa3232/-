@@ -127,8 +127,7 @@
               "title": "开通服务"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -346,13 +345,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee06c983cd7f1d79",
+  "active": "d217facde2280af3",
   "lastOpenFiles": [
-    "项目/VPS/VPS.md",
     "项目/ncreate/PPT/youhua.md",
+    "清单/任务清单.md",
+    "项目/VPS/VPS.md",
     "清单/开通服务.md",
     "raw/articles/AI 时代到底该怎么管一个工程团队.md",
-    "清单/任务清单.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
     "image/dc857aa09a068d28a072aecdf84a9f01_MD5.png",
     "image/536132c049ea80322073938d39aaea0e_MD5.png",
