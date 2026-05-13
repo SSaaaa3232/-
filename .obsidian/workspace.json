@@ -126,32 +126,9 @@
               "icon": "lucide-file",
               "title": "开通服务"
             }
-          },
-          {
-            "id": "4aaf7721fb1560e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/AI 时代到底该怎么管一个工程团队.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AI 时代到底该怎么管一个工程团队"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -369,23 +346,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d217facde2280af3",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
     "项目/VPS/VPS.md",
     "项目/ncreate/PPT/youhua.md",
     "清单/开通服务.md",
     "raw/articles/AI 时代到底该怎么管一个工程团队.md",
-    "8207bc7e2bcad362e397b6ab9a69e3c9_MD5.png",
-    "c9f32882c5b938ddb817f3bef07fd51c_MD5.png",
-    "d3076e372b60623024fbbef2ccefc4a2_MD5.png",
-    "90e1333efeefe9f641213c6c76c7b196_MD5.jpg",
-    "e30fbb521629b17565784aa760e95b31_MD5.jpg",
-    "bfe3c283a08ed9d53cdbde50ee99f3d1_MD5.jpg",
-    "7ea5135e29ad8c02ce76651fc37e2276_MD5.png",
-    "c1e417ed78a068d0874b5cc4dc0dbc88_MD5.jpg",
-    "6a9d9e2e4e24a1639f5896ef509d7e8f_MD5.jpg",
-    "41fc2b36bf58ebac2e3413b4e4bda583_MD5.jpg",
     "清单/任务清单.md",
+    "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
+    "image/dc857aa09a068d28a072aecdf84a9f01_MD5.png",
+    "image/536132c049ea80322073938d39aaea0e_MD5.png",
+    "image/09ae3e10f5f9edc2f2c87d7080da8116_MD5.jpg",
+    "image/f38de01fd95a42a6ad5f79f36176206b_MD5.jpg",
+    "image/8e01def99846f319d117de52e8f099b7_MD5.jpg",
+    "image/865ed6289cfec11ef12edf31cc1d159b_MD5.jpg",
+    "image/1adeda1caf5d981e2993cf738bb03c5c_MD5.jpg",
+    "image/41fc2b36bf58ebac2e3413b4e4bda583_MD5.jpg",
+    "image/a7a30e94a3bb91b1d440d2a001936906_MD5.jpg",
     "项目/编排层.md",
     "项目/ncreate/PPT/PPT视觉优化方案.md",
     "项目/ncreate/prompt/PPT.md",
