@@ -25,23 +25,25 @@ aliases:
 
 ## website
 
-|                     |                                                              |                        |
-| ------------------- | ------------------------------------------------------------ | ---------------------- |
-| MC/farmine          | https://www.imxbk.com/2786.html                              |                        |
-| halo                | https://github.com/tw93/tw93.github.io                       | 跟踪一下自己做的事情             |
-| x                   |                                                              |                        |
-| 中转                  | relay sevices                                                |                        |
-| VPN                 | https://github.com/masterking32/MasterDnsVPN                 |                        |
-| webdav              | rclone（平替）（云相册lmmich）                                        | 网盘                     |
-| unblockneteaseMusic |                                                              | 可选                     |
-| emby                | 影视资源（webdav/rclone）                                          |                        |
-| 远程桌面                | https://www.imxbk.com/3311.html                              |                        |
-| RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行           | 已有folo                 |
-| bitwarden           | 密码管理可以考虑                                                     |                        |
-| teamspeak           | 打游戏语言考虑                                                      |                        |
-| Linkwarden          | 感觉是刚需                                                        |                        |
-| open-web-ui         | open-web-ui，免费，https://github.com/mahaonanStart/openai-proxy | 自用gpt（优于chat-next-web） |
-| kali                | HTB                                                          |                        |
+|                     |                                                                                             |                        |
+| ------------------- | ------------------------------------------------------------------------------------------- | ---------------------- |
+| MC/farmine          | https://www.imxbk.com/2786.html                                                             |                        |
+| halo                | https://github.com/tw93/tw93.github.io                                                      | 跟踪一下自己做的事情             |
+| x                   |                                                                                             |                        |
+| 中转                  | relay sevices                                                                               |                        |
+| VPN                 | https://github.com/masterking32/MasterDnsVPN                                                |                        |
+| webdav              | rclone（平替）（云相册lmmich）                                                                       | 网盘                     |
+| unblockneteaseMusic |                                                                                             | 可选                     |
+| emby                | 影视资源（webdav/rclone）                                                                         |                        |
+| 远程桌面                | https://www.imxbk.com/3311.html                                                             |                        |
+| RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行                                          | 已有folo                 |
+| bitwarden           | 密码管理可以考虑                                                                                    |                        |
+| teamspeak           | 打游戏语言考虑                                                                                     |                        |
+| Linkwarden          | 感觉是刚需                                                                                       |                        |
+| open-web-ui         | open-web-ui，免费，https://github.com/mahaonanStart/openai-proxy                                | 自用gpt（优于chat-next-web） |
+| kali                | HTB                                                                                         |                        |
+| sub-store           | **搭配 Docker**：如果你有 VPS，建议使用 `sub-store` 配合 `sub-store-backend` 镜像，并使用反向代理挂载 SSL 证书，实现安全公网访问 |                        |
+| SillyTavern         | Chub.ai下载角色卡（png）形式                                                                         | 接APi                   |
 
 | 技术栈     |                                 |                  |      |
 | ------- | ------------------------------- | ---------------- | ---- |
