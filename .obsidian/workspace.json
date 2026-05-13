@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/ncreate/PPT/youhua.md",
+                "file": "项目/ncreate/PPT/生图.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "youhua"
+              "title": "生图"
             }
           },
           {
@@ -348,10 +348,10 @@
   },
   "active": "c59fa883c396dd4f",
   "lastOpenFiles": [
-    "项目/编排层.md",
-    "项目/ncreate/PPT/youhua.md",
-    "清单/任务清单.md",
     "项目/VPS/VPS.md",
+    "项目/ncreate/PPT/生图.md",
+    "项目/编排层.md",
+    "清单/任务清单.md",
     "清单/开通服务.md",
     "raw/articles/AI 时代到底该怎么管一个工程团队.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
