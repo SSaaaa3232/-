@@ -26,27 +26,19 @@ aliases:
 
 ## website
 
-|                     |                                                                                             |                        |
-| ------------------- | ------------------------------------------------------------------------------------------- | ---------------------- |
-| MC/farmine          | https://www.imxbk.com/2786.html                                                             |                        |
-| halo                | https://github.com/tw93/tw93.github.io                                                      | 跟踪一下自己做的事情             |
-| x                   |                                                                                             |                        |
-| 中转                  | relay sevices                                                                               |                        |
-| VPN                 | https://github.com/masterking32/MasterDnsVPN                                                |                        |
-| webdav              | rclone（平替）（云相册lmmich）                                                                       | 网盘                     |
-| unblockneteaseMusic |                                                                                             | 可选                     |
-| emby                | 影视资源（webdav/rclone）                                                                         |                        |
-| 远程桌面                | https://www.imxbk.com/3311.html                                                             |                        |
-| RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行                                          | 已有folo                 |
-| bitwarden           | 密码管理可以考虑                                                                                    |                        |
-| teamspeak           | 打游戏语言考虑                                                                                     |                        |
-| Linkwarden          | 感觉是刚需                                                                                       |                        |
-| open-web-ui         | open-web-ui，免费，https://github.com/mahaonanStart/openai-proxy                                | 自用gpt（优于chat-next-web） |
-| kali                | HTB                                                                                         |                        |
-| sub-store           | **搭配 Docker**：如果你有 VPS，建议使用 `sub-store` 配合 `sub-store-backend` 镜像，并使用反向代理挂载 SSL 证书，实现安全公网访问 |                        |
-| SillyTavern         | Chub.ai下载角色卡（png）形式                                                                         | 接APi                   |
-| 哪吒探针                |                                                                                             |                        |
-|                     |                                                                                             |                        |
+|              |                                                              |                        |
+| ------------ | ------------------------------------------------------------ | ---------------------- |
+| VPN          | https://github.com/masterking32/MasterDnsVPN                 |                        |
+| bitwarden    | 密码管理可以考虑                                                     |                        |
+| Linkwarden   | 感觉是刚需                                                        |                        |
+| open-web-ui  | open-web-ui，免费，https://github.com/mahaonanStart/openai-proxy | 自用gpt（优于chat-next-web） |
+| RustDesk自建中转 |                                                              |                        |
+
+- WordPress
+- hexo
+- Typecho
+- Ghost
+- Halo（比较吃内存）
 ## 雷池
 
 |               |                                          |
@@ -57,7 +49,7 @@ aliases:
 | 探针            |                                          |
 | SSL 终结器       | **动态防护**：把你的网页 HTML/JS 加密                |
 | 网站隐身衣         | 多个 VPS 节点，雷池可以作为统一的网关，保护你真正的业务源站 IP 不外泄。 |
-|               |                                          |
+| 哪吒探针          |                                          |
 
 
 | 技术栈     |                                 |                  |      |
@@ -71,100 +63,87 @@ aliases:
 | 访问统计    | plausible                       |                  |      |
 ## 备份
 
-|                                                                                                                                      |                                                                                                                                                        |     |                              |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ---------------------------- |
-| Alist                                                                                                                                | 磁盘                                                                                                                                                     | 基础  |                              |
-| openlist                                                                                                                             | 多网盘资源的整合、搜索与在线播放                                                                                                                                       | 进阶  | 资源索引化，对接 Aria2 或 qBittorrent |
-| reclone                                                                                                                              |                                                                                                                                                        |     |                              |
-| 下载                                                                                                                                   | Aria2 或 t[qbittorrent](https://www.qbittorrent.org/)：BT下崽器                                                                                             |     |                              |
-| [gitea](https://docs.gitea.com/)                                                                                                     | git托管服务，带gitea-runner，能基本兼容跑 github-actions 。                                                                                                          |     |                              |
-| PosgreSQL                                                                                                                            | - [postgresql](https://www.postgresql.org/)：PosgreSQL数据库                                                                                               |     |                              |
-| [Github Runner](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners)  | [Github Runner](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) - Github Action自部署 |     |                              |
+|                                                                                                                                     |                                                                                                                                                        |              |                              |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---------------------------- |
+| Alist                                                                                                                               | 磁盘                                                                                                                                                     | 基础           |                              |
+| openlist                                                                                                                            | 多网盘资源的整合、搜索与在线播放                                                                                                                                       | 进阶           | 资源索引化，对接 Aria2 或 qBittorrent |
+| reclone                                                                                                                             | - rclone - 文件向对象存储备份                                                                                                                                   |              |                              |
+| 下载                                                                                                                                  | Aria2 或 t[qbittorrent](https://www.qbittorrent.org/)：BT下崽器                                                                                             |              |                              |
+| [gitea](https://docs.gitea.com/)                                                                                                    | git托管服务，带gitea-runner，能基本兼容跑 github-actions 。                                                                                                          |              |                              |
+| PosgreSQL                                                                                                                           | - [postgresql](https://www.postgresql.org/)：PosgreSQL数据库                                                                                               |              |                              |
+| [Github Runner](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) | [Github Runner](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) - Github Action自部署 |              |                              |
+| MySQL - 数据库                                                                                                                         |                                                                                                                                                        |              |                              |
+| Navicat Premium - 数据库查看编辑器                                                                                                          |                                                                                                                                                        |              |                              |
+| **加速**                                                                                                                              |                                                                                                                                                        |              |                              |
+| redis                                                                                                                               |                                                                                                                                                        | 缓存跑临时任务      |                              |
+| kspeeder<br>                                                                                                                        |                                                                                                                                                        | Docker 镜像加速池 |                              |
 
 ## Docker
 
-|                                    |              |                                                      |                             |
-| ---------------------------------- | ------------ | ---------------------------------------------------- | --------------------------- |
-| **三者类似**                           |              |                                                      |                             |
-| Tailscale                          |              | 异地组网                                                 | zerotie，配合moonlight远程       |
-| Cloudflare Tunnel                  |              | DDNS（动态域名解析）                                         |                             |
-| lucky/zerotier                     |              | frp（frps）                                            | cf穿透                        |
-| **反向代理**                           |              |                                                      |                             |
-| nginx                              |              | 流量分发，反向代理，路径到子域名调用服务                                 | npm（图形化管理），与dokploy功能重叠，二选一 |
-| Caddy                              |              | 反向代理                                                 |                             |
-| **加速**                             |              |                                                      |                             |
-| redis                              |              | 缓存跑临时任务                                              |                             |
-| kspeeder<br>                       |              | Docker 镜像加速池                                         |                             |
-| beszel                             | 监控VPS，docker |                                                      | 监控面板                        |
-| wallos                             |              |                                                      | 记账                          |
-| dokploy                            | 建站           | dockge（极简编排一堆容器）                                     | 部署面板                        |
-| WatchYourPorts                     |              | 端口监控                                                 |                             |
-| AnonAddy                           |              | 注册账号                                                 |                             |
-| [it-tools](https://it-tools.tech/) |              | 清爽的开发小工具合集（base64,hash,uuid,timestamp,yaml,json,toml |                             |
-## 青龙：
-
-| 定时，批量注册，爬虫                                                                                                 | https://github.com/whyour/qinglong                                                          |     |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --- |
-| subs-check<br>                                                                                             | 通过爬虫或 API，从公开的 GitHub 仓库、Telegram 频道、各类免费分享页面抓取原始订阅链接或 base64 节点点                           | 上游  |
-| sub-store                                                                                                  | **搭配 Docker**：如果你有 VPS，建议使用 `sub-store` 配合 `sub-store-backend` 镜像，并使用反向代理挂载 SSL 证书，实现安全公网访问 | 下游  |
-| 微软E5续签[Microsoft 365 E5 Renew X](https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X) - 白嫖微软E5续期 | https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X                               | 全家桶 |
-| AnonAddy                                                                                                   | 批量注册邮箱（号池子）                                                                                 | 薅羊毛 |
-| QD-Today                                                                                                   | 自动签到，抓包模拟，https://cnb.cool/i.o/workbuddy_checkin                                            | 薅羊毛 |
-| - [cert-manager](https://cert-manager.io/)                                                                 | - [cert-manager](https://cert-manager.io/) ：一个自动申请/续期免费证书的服务，为我k8s里的服务自动管理HTTPS证书           |     |
-|                                                                                                            |                                                                                             |     |
-公共的E5续期服务上跑，炸号了一次，现在自部署稳定的很
-## 其他
-### 基础服务：
-
+|                                    |              |                                                                                                 |                             |
+| ---------------------------------- | ------------ | ----------------------------------------------------------------------------------------------- | --------------------------- |
+| **三者类似**                           |              |                                                                                                 |                             |
+| Tailscale                          |              | 异地组网                                                                                            | zerotie，配合moonlight远程       |
+| Cloudflare Tunnel                  |              | DDNS（动态域名解析）                                                                                    |                             |
+| lucky/zerotier                     |              | frp（frps）                                                                                       | cf穿透                        |
+| **反向代理**                           |              |                                                                                                 |                             |
+| nginx                              |              | 流量分发，反向代理，路径到子域名调用服务                                                                            | npm（图形化管理），与dokploy功能重叠，二选一 |
+| Caddy                              |              | 反向代理                                                                                            |                             |
+| beszel                             | 监控VPS，docker |                                                                                                 | 监控面板                        |
+| WatchYourPorts                     |              | 端口监控                                                                                            |                             |
+| [it-tools](https://it-tools.tech/) |              | 清爽的开发小工具合集（base64,hash,uuid,timestamp,yaml,json,toml                                            |                             |
+| 1panel/宝塔                          |              | Orbstack - Docker Desktop替代                                                                     |                             |
+|                                    |              | - [RustDesk Server](https://github.com/rustdesk/rustdesk-server) - 远程桌面                         |                             |
+|                                    |              | [Uptime Kuma](https://github.com/louislam/uptime-kuma) - 服务状态监控                                 |                             |
+|                                    |              | - [pve-exporter](https://github.com/prometheus-pve/prometheus-pve-exporter)：PVE监控数据接入prometheus |                             |
+|                                    |              | [grafana](https://grafana.com/)：配合Prometheus的监控看板                                               |                             |
+|                                    |              | - [victoria-metrics](https://victoriametrics.com/)：兼容替代Prometheus监控                             |                             |
 - [pve](https://pve.proxmox.com/) ：虚拟机平台，下述所有服务基本都在这个宿主上
 - [k3s](https://k3s.io/) ：一个小型的k8s发行版，非常容易搭建，我目前绝大部分服务都在用它跑
 - [k8s-cf-ns-sync](https://github.com/das6ng/k8s-cf-ns-sync) ：将配置在 Ingress 上的dns配置自动同步到cloudflare上。（夹个私货 ![[452d3caac9baafd422fddc38ca412c42_MD5.png]]
 
 - [Jellyfin](https://jellyfin.org/)：本地影视剧媒体服务器，或者叫家庭影视中心？
-- [postgresql](https://www.postgresql.org/)：PosgreSQL数据库
-
 - [cookiecloud](https://github.com/easychen/CookieCloud) ：CookieCloud是一个和自架服务器同步浏览器Cookie和LocalStorage的小工具。（给我的MP用的
-- [victoria-metrics](https://victoriametrics.com/)：兼容替代Prometheus监控
-- [grafana](https://grafana.com/)：配合Prometheus的监控看板
-- [pve-exporter](https://github.com/prometheus-pve/prometheus-pve-exporter)：PVE监控数据接入prometheus
-
-# 虚拟显示
-
-|     |                                                                         |
-| --- | ----------------------------------------------------------------------- |
-|     | Orbstack - Docker Desktop替代                                             |
-|     | - [RustDesk Server](https://github.com/rustdesk/rustdesk-server) - 远程桌面 |
-|     | [Uptime Kuma](https://github.com/louislam/uptime-kuma) - 服务状态监控         |
-|     |                                                                         |
-
-- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - 加密DNS解析
-- Minecraft - 撸树
-    - [Velocity Proxy](https://papermc.io/software/velocity) - Minecraft 反向代理
-    - [Limbo Server](https://github.com/Nan1t/NanoLimbo) - 虚空服务器
-    - 后端服务器*n
-- [Cloudflare DDNS](https://github.com/favonia/cloudflare-ddns) - 动态公网IP
-- [Microsoft 365 E5 Renew X](https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X) - 白嫖微软E5续期
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - 服务状态监控
+-- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - 加密DNS解析
+ [Cloudflare DDNS](https://github.com/favonia/cloudflare-ddns) - 动态公网IP
 - [Tailscale Derper](https://github.com/tailscale/tailscale/tree/main/cmd/derper) - 自部署Tailscale中继服务器
-- [Github Runner](https://docs.github.com/zh/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) - Github Action自部署
-- [Alist](https://alist.nn.ci/) - 网盘挂载
-- [Home Assistant](https://home-assistant.io/) - 智能家庭中枢
-
-- MCSManager - Minecraft服务器管理器
-- Orbstack - Docker Desktop替代
 - Sublime Text - 文本编辑器
-- Navicat Premium - 数据库查看编辑器
-- MySQL - 数据库
 - App Cleaner & Uninstaller - 应用卸载器
-
 - Homerow - 键盘控制工具
 - Lingon X - 登录项与计划任务管理
 - Bartender 5 - 屏幕顶栏管理
 - SwitchHosts - Host文件管理
-
 - BetterDisplay - 虚拟显示器
 - BetterTouchTool - 键盘快捷键
-- rclone - 文件向对象存储备份
+## 青龙：
+
+| 定时，批量注册，爬虫                                                                                                 | https://github.com/whyour/qinglong                                                          |      |     |
+| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---- | --- |
+| subs-check<br>                                                                                             | 通过爬虫或 API，从公开的 GitHub 仓库、Telegram 频道、各类免费分享页面抓取原始订阅链接或 base64 节点点                           | 上游   |     |
+| sub-store                                                                                                  | **搭配 Docker**：如果你有 VPS，建议使用 `sub-store` 配合 `sub-store-backend` 镜像，并使用反向代理挂载 SSL 证书，实现安全公网访问 | 下游   |     |
+| 微软E5续签[Microsoft 365 E5 Renew X](https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X) - 白嫖微软E5续期 | https://github.com/hongyonghan/Docker_Microsoft365_E5_Renew_X                               | 全家桶  |     |
+| AnonAddy                                                                                                   | 批量注册邮箱（号池子）                                                                                 | 薅羊毛  |     |
+| QD-Today                                                                                                   | 自动签到，抓包模拟，https://cnb.cool/i.o/workbuddy_checkin                                            | 薅羊毛  |     |
+| - [cert-manager](https://cert-manager.io/)                                                                 | - [cert-manager](https://cert-manager.io/) ：一个自动申请/续期免费证书的服务，为我k8s里的服务自动管理HTTPS证书           |      |     |
+| AnonAddy                                                                                                   |                                                                                             | 注册账号 |     |
+公共的E5续期服务上跑，炸号了一次，现在自部署稳定的很
+
+## 娱乐
+
+|                     |                                                                         |        |
+| ------------------- | ----------------------------------------------------------------------- | ------ |
+| Minecraft           | [Velocity Proxy](https://papermc.io/software/velocity) - Minecraft 反向代理 |        |
+|                     | - [Limbo Server](https://github.com/Nan1t/NanoLimbo) - 虚空服务器            |        |
+|                     | 后端服务器*n                                                                 |        |
+|                     | MCSManager - Minecraft服务器管理器                                            |        |
+| MC/farmine          | https://www.imxbk.com/2786.html                                         |        |
+| unblockneteaseMusic |                                                                         | 可选     |
+| kali                | HTB                                                                     |        |
+| SillyTavern         | Chub.ai下载角色卡（png）形式                                                     | 接APi   |
+| RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行                      | 已有folo |
+| emby                | 影视资源（webdav/rclone）                                                     |        |
+| bitwarden           | 密码管理可以考虑                                                                |        |
+
 
 本次部署时尝试的方法优先级：`Docker Compose` → `Docker Run` → `Binary` - `Application` - `Virtual Machine`。我非常建议各位在自己的VPS或服务器上部署的时候也尝试类似的方案，个人认为这样有助于管理和下次迁移服务。
 
