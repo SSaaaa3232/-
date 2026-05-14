@@ -12,9 +12,9 @@ tags:
 ---
 # CLI
 
-|        |                                     |
-| ------ | ----------------------------------- |
-| wechat | https://github.com/jackwener/wx-cli |
+|        |                                     |                                            |     |
+| ------ | ----------------------------------- | ------------------------------------------ | --- |
+| wechat | https://github.com/jackwener/wx-cli | https://github.com/ylytdeng/wechat-decrypt | 破解  |
 
 # MCP Servers 
 ## 爬虫

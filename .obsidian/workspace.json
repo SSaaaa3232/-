@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,12 +346,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "ee06c983cd7f1d79",
   "lastOpenFiles": [
+    "清单/任务清单.md",
     "项目/编排层.md",
     "清单/MCP.md",
     "项目/VPS/VPS.md",
-    "清单/任务清单.md",
     "清单/开通服务.md",
     "项目/ncreate/prompt/funny-prompt.md",
     "项目/ncreate/prompt/PPT.md",
