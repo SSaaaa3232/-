@@ -65,7 +65,7 @@ aliases:
 
 |                                                                                                                                     |                                                                                                                                                        |              |                              |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ---------------------------- |
-| Alist                                                                                                                               | 磁盘                                                                                                                                                     | 基础           |                              |
+| Alist                                                                                                                               | 磁盘                                                                                                                                                     | 基础           | Iw0s6JUH                     |
 | openlist                                                                                                                            | 多网盘资源的整合、搜索与在线播放                                                                                                                                       | 进阶           | 资源索引化，对接 Aria2 或 qBittorrent |
 | reclone                                                                                                                             | - rclone - 文件向对象存储备份                                                                                                                                   |              |                              |
 | 下载                                                                                                                                  | Aria2 或 t[qbittorrent](https://www.qbittorrent.org/)：BT下崽器                                                                                             |              |                              |
@@ -131,26 +131,24 @@ aliases:
 
 ## 娱乐
 
-|                     |                                                                         |        |
-| ------------------- | ----------------------------------------------------------------------- | ------ |
-| Minecraft           | [Velocity Proxy](https://papermc.io/software/velocity) - Minecraft 反向代理 |        |
-|                     | - [Limbo Server](https://github.com/Nan1t/NanoLimbo) - 虚空服务器            |        |
-|                     | 后端服务器*n                                                                 |        |
-|                     | MCSManager - Minecraft服务器管理器                                            |        |
-| MC/farmine          | https://www.imxbk.com/2786.html                                         |        |
-| unblockneteaseMusic |                                                                         | 可选     |
-| kali                | HTB                                                                     |        |
-| SillyTavern         | Chub.ai下载角色卡（png）形式                                                     | 接APi   |
-| RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行                      | 已有folo |
-| emby                | 影视资源（webdav/rclone）                                                     |        |
+|                     |                                                                         |     |
+| ------------------- | ----------------------------------------------------------------------- | --- |
+| Minecraft           | [Velocity Proxy](https://papermc.io/software/velocity) - Minecraft 反向代理 |     |
+|                     | - [Limbo Server](https://github.com/Nan1t/NanoLimbo) - 虚空服务器            |     |
+|                     | 后端服务器*n                                                                 |     |
+|                     | MCSManager - Minecraft服务器管理器                                            |     |
+| MC/farmine          | https://www.imxbk.com/2786.html                                         |     |
+| unblockneteaseMusic | https://music.nezikk.com                                                | 可选  |
+| kali                | HTB                                                                     |     |
+|                     |                                                                         |     |
 
 
 ## 开发
 
-|            |             |      |
-| ---------- | ----------- | ---- |
-| PocketBase | 一小时搭出后端 API | 轻量后端 |
-|            |             |      |
+|            |                |                                      | 公网                      |
+| ---------- | -------------- | ------------------------------------ | ----------------------- |
+| PocketBase | 一小时搭出后端 API    | 轻量后端                                 |                         |
+| coder      | KeepSimple2026 | https://github.com/coder/coder#coder | https://code.nezikk.com |
 
 本次部署时尝试的方法优先级：`Docker Compose` → `Docker Run` → `Binary` - `Application` - `Virtual Machine`。我非常建议各位在自己的VPS或服务器上部署的时候也尝试类似的方案，个人认为这样有助于管理和下次迁移服务。
 
