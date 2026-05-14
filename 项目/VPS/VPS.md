@@ -77,6 +77,7 @@ aliases:
 | **加速**                                                                                                                              |                                                                                                                                                        |              |                              |
 | redis                                                                                                                               |                                                                                                                                                        | 缓存跑临时任务      |                              |
 | kspeeder<br>                                                                                                                        |                                                                                                                                                        | Docker 镜像加速池 |                              |
+| SFTPGo                                                                                                                              | 界面美观简洁的 WebUI 进行用户管理和文件操作                                                                                                                              |              |                              |
 
 ## Docker
 
@@ -144,6 +145,12 @@ aliases:
 | emby                | 影视资源（webdav/rclone）                                                     |        |
 
 
+## 开发
+
+|            |             |      |
+| ---------- | ----------- | ---- |
+| PocketBase | 一小时搭出后端 API | 轻量后端 |
+|            |             |      |
 
 本次部署时尝试的方法优先级：`Docker Compose` → `Docker Run` → `Binary` - `Application` - `Virtual Machine`。我非常建议各位在自己的VPS或服务器上部署的时候也尝试类似的方案，个人认为这样有助于管理和下次迁移服务。
 
