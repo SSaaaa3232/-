@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -346,10 +346,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "db7f887b5e2b4c89",
   "lastOpenFiles": [
-    "清单/MCP.md",
     "清单/任务清单.md",
+    "清单/MCP.md",
     "项目/编排层.md",
     "项目/VPS/VPS.md",
     "清单/开通服务.md",
