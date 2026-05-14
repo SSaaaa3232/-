@@ -10,6 +10,11 @@ tags:
   - list
   - MCP
 ---
+# CLI
+
+|        |                                     |
+| ------ | ----------------------------------- |
+| wechat | https://github.com/jackwener/wx-cli |
 
 # MCP Servers 
 ## 爬虫
