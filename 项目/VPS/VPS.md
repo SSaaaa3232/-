@@ -142,7 +142,7 @@ aliases:
 | SillyTavern         | Chub.ai下载角色卡（png）形式                                                     | 接APi   |
 | RSShub              | 如果搞不定每个月35算了，RSSHub + FreshRSS（reader5）如果在六天之内搞定就行                      | 已有folo |
 | emby                | 影视资源（webdav/rclone）                                                     |        |
-| bitwarden           | 密码管理可以考虑                                                                |        |
+
 
 
 本次部署时尝试的方法优先级：`Docker Compose` → `Docker Run` → `Binary` - `Application` - `Virtual Machine`。我非常建议各位在自己的VPS或服务器上部署的时候也尝试类似的方案，个人认为这样有助于管理和下次迁移服务。
