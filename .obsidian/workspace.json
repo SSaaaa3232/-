@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "e5fe5b9c6c1cfc6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -346,11 +370,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "e5fe5b9c6c1cfc6f",
   "lastOpenFiles": [
+    "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
+    "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
+    "75d966f10361d2640235b6bd74ea718d_MD5.jpg",
+    "48d0f33cf392b6a8cdeaf506f0bcb1d8_MD5.jpg",
+    "3c014aabc8bc1840003391d3101b8a59_MD5.jpg",
+    "c2fb5bb703e7601e60429354122fc6d7_MD5.jpg",
+    "6a59b22bfcb48090e2eeeae85507e052_MD5.jpg",
+    "059d0621f3792a45056e848d933e0d01_MD5.jpg",
+    "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
+    "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
+    "清单/任务清单.md",
     "清单/开通服务.md",
     "项目/VPS/VPS.md",
-    "清单/任务清单.md",
     "清单/MCP.md",
     "项目/编排层.md",
     "项目/ncreate/prompt/funny-prompt.md",
@@ -362,14 +396,6 @@
     "raw/articles/AI 时代到底该怎么管一个工程团队.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
     "image/dc857aa09a068d28a072aecdf84a9f01_MD5.png",
-    "image/536132c049ea80322073938d39aaea0e_MD5.png",
-    "image/09ae3e10f5f9edc2f2c87d7080da8116_MD5.jpg",
-    "image/f38de01fd95a42a6ad5f79f36176206b_MD5.jpg",
-    "image/8e01def99846f319d117de52e8f099b7_MD5.jpg",
-    "image/865ed6289cfec11ef12edf31cc1d159b_MD5.jpg",
-    "image/1adeda1caf5d981e2993cf738bb03c5c_MD5.jpg",
-    "image/41fc2b36bf58ebac2e3413b4e4bda583_MD5.jpg",
-    "image/a7a30e94a3bb91b1d440d2a001936906_MD5.jpg",
     "项目/ncreate/PPT/PPT视觉优化方案.md",
     "项目/ncreate/skill/PPT Skill.md",
     "项目/ncreate/润色.md",
@@ -384,8 +410,6 @@
     "项目/渗透/OSCP攀登计划-渗透测试报告.md",
     "项目/Promoter prediction.md",
     "项目/VPS/从零开始的VPS科普：认识你的第一台服务器.md",
-    "raw/articles/常见地区vps推荐 copy.md",
-    "raw/articles/常见各种线路和网络的科普 copy.md",
     "项目/VPS/sc copy",
     "项目/ncreate",
     "项目/VPS",
