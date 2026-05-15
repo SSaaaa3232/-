@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
+                "file": "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control"
+              "title": "analysis"
             }
           }
         ],
@@ -209,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -372,6 +373,10 @@
   },
   "active": "e5fe5b9c6c1cfc6f",
   "lastOpenFiles": [
+    "wiki/papers/_index.md",
+    "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis.md",
+    "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
+    "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
     "75d966f10361d2640235b6bd74ea718d_MD5.jpg",
@@ -381,7 +386,6 @@
     "6a59b22bfcb48090e2eeeae85507e052_MD5.jpg",
     "059d0621f3792a45056e848d933e0d01_MD5.jpg",
     "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
-    "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
     "清单/任务清单.md",
     "清单/开通服务.md",
     "项目/VPS/VPS.md",
@@ -393,9 +397,8 @@
     "项目/ncreate/prompt/表情包-涂鸦风格（自定义角色）.md",
     "项目/ncreate/prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
     "项目/ncreate/PPT/生图.md",
-    "raw/articles/AI 时代到底该怎么管一个工程团队.md",
+    "raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
-    "image/dc857aa09a068d28a072aecdf84a9f01_MD5.png",
     "项目/ncreate/PPT/PPT视觉优化方案.md",
     "项目/ncreate/skill/PPT Skill.md",
     "项目/ncreate/润色.md",
@@ -409,7 +412,6 @@
     "项目/Monkey",
     "项目/渗透/OSCP攀登计划-渗透测试报告.md",
     "项目/Promoter prediction.md",
-    "项目/VPS/从零开始的VPS科普：认识你的第一台服务器.md",
     "项目/VPS/sc copy",
     "项目/ncreate",
     "项目/VPS",
@@ -417,7 +419,6 @@
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow",
     "清洗/input/raw",
-    "清洗/output/png/2026-05-10_ncreate-overall-mindmap/manifest.json",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
