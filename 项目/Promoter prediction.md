@@ -25,6 +25,11 @@ sources:
   - "https://epd.expasy.org/epd/"
 ---
 
+|                      |                                                         |
+| -------------------- | ------------------------------------------------------- |
+| hg codex model train | https://huggingface.co/blog/zh/hf-skills-training-codex |
+|                      |                                                         |
+
 # Promoter prediction
 
 ## 一句话
