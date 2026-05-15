@@ -127,8 +127,7 @@
               "title": "任务清单"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -346,7 +345,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
     "清单/任务清单.md",
     "wiki/Wiki Map.canvas",
