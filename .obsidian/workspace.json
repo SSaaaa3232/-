@@ -107,24 +107,12 @@
             "id": "0cd654e474bce892",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "项目/ncreate/润色.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/Promoter prediction mindmap.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "润色"
+              "icon": "excalidraw-icon",
+              "title": "Promoter prediction mindmap"
             }
           },
           {
@@ -370,8 +358,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "0cd654e474bce892",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
+    "Excalidraw/Promoter prediction mindmap.excalidraw",
+    "项目/ncreate/润色.md",
     "清单/任务清单.md",
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/ncreate copy/PPT/生图.md",
@@ -397,7 +388,6 @@
     "项目/ncreate copy/skill/Huashu Design.md",
     "项目/ncreate copy/skill",
     "项目/ncreate copy",
-    "项目/ncreate/润色.md",
     "项目/Paseo/终端APP.md",
     "项目/Paseo/Orchestration skills - Paseo Docs.md",
     "项目/Paseo/编排层.md",
@@ -405,7 +395,6 @@
     "项目/渗透/渗透：拿下HTB TartarSauce靶机，附详细渗透记录 copy.md",
     "项目/渗透/历时八小时,拿下HTB Usage靶机，附详细渗透测试记录 copy.md",
     "项目/渗透/历时五小时，拿下HTB Tabby靶机，附详细渗透测试记录 copy.md",
-    "项目/渗透/历时5小时，成功拿下HTB 第N台 靶机 Pilgrimage，附详细记录（wp） copy.md",
     "wiki/Wiki Map.canvas",
     "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
@@ -418,7 +407,6 @@
     "059d0621f3792a45056e848d933e0d01_MD5.jpg",
     "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
-    "项目/ncreate 1",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",
