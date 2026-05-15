@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/编排层.md",
+                "file": "项目/Paseo/编排层.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "项目/ncreate/润色.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "润色"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/ncreate/PPT/生图.md",
+                "file": "项目/ncreate/ncreate优化-提示词html.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "生图"
+              "title": "ncreate优化-提示词html"
             }
           }
         ],
@@ -370,26 +370,43 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "项目/ncreate/PPT/生图.md",
     "清单/任务清单.md",
-    "项目/VPS/VPS.md",
-    "清单/开通服务.md",
-    "项目/编排层.md",
-    "项目/ncreate/PPT/PPT视觉优化方案.md",
-    "项目/ncreate/skill/PPT Skill.md",
-    "项目/ncreate/prompt/年报转化可视化网页.md",
-    "项目/ncreate/prompt/PPT.md",
-    "项目/ncreate/prompt/funny-prompt.md",
-    "项目/ncreate/润色.md",
     "项目/ncreate/ncreate优化-提示词html.md",
-    "项目/Promoter prediction.md",
+    "项目/ncreate copy/PPT/生图.md",
+    "项目/ncreate copy/PPT/PPT视觉优化方案.md",
+    "项目/ncreate copy/PPT",
+    "项目/ncreate copy/prompt/表情包-涂鸦风格（自定义角色）.md",
+    "项目/ncreate copy/prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
+    "项目/ncreate copy/prompt/我整理了 1940 个 Seedance 2.0 视频 Prompt：总结 8 种更容易复用的写法.md",
+    "项目/ncreate copy/prompt/年报转化可视化网页.md",
+    "项目/ncreate copy/prompt/funny-prompt.md",
+    "项目/ncreate copy/prompt/PPT.md",
+    "项目/ncreate copy/prompt",
+    "项目/ncreate copy/image/插图（文章，展示）/prompt/illustrator and image skill （prompt）.md",
+    "项目/ncreate copy/image/插图（文章，展示）/prompt",
+    "项目/ncreate copy/image/diagram/markdown to diagram skill.md",
+    "项目/ncreate copy/image/diagram/diagram（tech-graph）fireworks.md",
+    "项目/ncreate copy/image/插图（文章，展示）",
+    "项目/ncreate copy/image/diagram",
+    "项目/ncreate copy/image",
+    "项目/ncreate copy/ncreate优化-提示词html.md",
+    "项目/ncreate copy/润色.md",
+    "项目/ncreate copy/skill/PPT Skill.md",
+    "项目/ncreate copy/skill/Huashu Design.md",
+    "项目/ncreate copy/skill",
+    "项目/ncreate copy",
+    "项目/ncreate/润色.md",
+    "项目/Paseo/终端APP.md",
+    "项目/Paseo/Orchestration skills - Paseo Docs.md",
+    "项目/Paseo/编排层.md",
+    "项目/渗透/HTB Bashed 渗透测试详细记录.md",
+    "项目/渗透/渗透：拿下HTB TartarSauce靶机，附详细渗透记录 copy.md",
+    "项目/渗透/历时八小时,拿下HTB Usage靶机，附详细渗透测试记录 copy.md",
+    "项目/渗透/历时五小时，拿下HTB Tabby靶机，附详细渗透测试记录 copy.md",
+    "项目/渗透/历时5小时，成功拿下HTB 第N台 靶机 Pilgrimage，附详细记录（wp） copy.md",
     "wiki/Wiki Map.canvas",
-    "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis.md",
-    "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis copy.md",
-    "wiki/papers/_index.md",
-    "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
     "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
@@ -400,25 +417,8 @@
     "6a59b22bfcb48090e2eeeae85507e052_MD5.jpg",
     "059d0621f3792a45056e848d933e0d01_MD5.jpg",
     "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
-    "清单/MCP.md",
-    "项目/ncreate/prompt/表情包-涂鸦风格（自定义角色）.md",
-    "项目/ncreate/prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
-    "raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
     "项目/ncreate 1",
-    "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
-    "项目/中转站/CLI Proxy API）反代 chatgpt（Codex）.md",
-    "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名.md",
-    "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
-    "项目/Monkey/GPT订阅周限.md",
-    "项目/Monkey",
-    "项目/VPS/sc copy",
-    "项目/ncreate",
-    "项目/VPS",
-    "清洗/output/png/2026-05-10_reverse-workflow/manifest.json",
-    "清洗/output/png/2026-05-10_reverse-workflow",
-    "清洗/input/raw/2026-05-10_reverse-workflow",
-    "清洗/input/raw",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",
