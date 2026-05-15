@@ -126,33 +126,9 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
-          },
-          {
-            "id": "e5fe5b9c6c1cfc6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "analysis"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -345,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -371,10 +346,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e5fe5b9c6c1cfc6f",
+  "active": "0cd654e474bce892",
   "lastOpenFiles": [
-    "wiki/papers/_index.md",
+    "清单/任务清单.md",
+    "wiki/Wiki Map.canvas",
     "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis.md",
+    "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters/analysis copy.md",
+    "wiki/papers/_index.md",
     "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
     "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
@@ -386,7 +364,6 @@
     "6a59b22bfcb48090e2eeeae85507e052_MD5.jpg",
     "059d0621f3792a45056e848d933e0d01_MD5.jpg",
     "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
-    "清单/任务清单.md",
     "清单/开通服务.md",
     "项目/VPS/VPS.md",
     "清单/MCP.md",
@@ -410,8 +387,6 @@
     "项目/中转站/中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置.md",
     "项目/Monkey/GPT订阅周限.md",
     "项目/Monkey",
-    "项目/渗透/OSCP攀登计划-渗透测试报告.md",
-    "项目/Promoter prediction.md",
     "项目/VPS/sc copy",
     "项目/ncreate",
     "项目/VPS",
@@ -419,7 +394,6 @@
     "清洗/output/png/2026-05-10_reverse-workflow",
     "清洗/input/raw/2026-05-10_reverse-workflow",
     "清洗/input/raw",
-    "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",
