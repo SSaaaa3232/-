@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/Promoter prediction.md",
+                "file": "项目/ncreate/PPT/生图.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Promoter prediction"
+              "title": "生图"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -370,8 +369,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "eac9ec3c6651cb5a",
+  "active": "d217facde2280af3",
   "lastOpenFiles": [
+    "项目/ncreate/PPT/生图.md",
+    "项目/ncreate/PPT/PPT视觉优化方案.md",
+    "项目/ncreate/skill/PPT Skill.md",
+    "项目/ncreate/prompt/年报转化可视化网页.md",
+    "项目/ncreate/prompt/PPT.md",
+    "项目/ncreate/prompt/funny-prompt.md",
+    "项目/ncreate/润色.md",
+    "项目/ncreate/ncreate优化-提示词html.md",
+    "项目/Promoter prediction.md",
     "清单/任务清单.md",
     "项目/VPS/VPS.md",
     "项目/编排层.md",
@@ -392,18 +400,10 @@
     "7c2476ed623c456ea7156f6cb4fa9884_MD5.jpg",
     "清单/开通服务.md",
     "清单/MCP.md",
-    "项目/ncreate/prompt/funny-prompt.md",
-    "项目/ncreate/prompt/PPT.md",
-    "项目/ncreate/prompt/年报转化可视化网页.md",
     "项目/ncreate/prompt/表情包-涂鸦风格（自定义角色）.md",
     "项目/ncreate/prompt/我整理了 4666 个 GPT Image 2 Prompt，挑 6 个案例拆 Prompt 写法.md",
-    "项目/ncreate/PPT/生图.md",
     "raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md",
     "image/7f690620ab3b999358c405bf1da011fc_MD5.png",
-    "项目/ncreate/PPT/PPT视觉优化方案.md",
-    "项目/ncreate/skill/PPT Skill.md",
-    "项目/ncreate/润色.md",
-    "项目/ncreate/ncreate优化-提示词html.md",
     "项目/ncreate 1",
     "项目/中转站/傅盛、孙宇晨高调入局API中转站：Token生意有多暴利？.md",
     "项目/中转站/CLI Proxy API）反代 chatgpt（Codex）.md",
