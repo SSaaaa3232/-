@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -394,10 +395,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "eac9ec3c6651cb5a",
+  "active": "b1bdde17cb1aacdd",
   "lastOpenFiles": [
-    "清单/任务清单.md",
+    "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
+    "清单/开通服务.md",
+    "清单/任务清单.md",
     "raw/1/Reiner Pope – The math behind how LLMs are trained and served.md",
     "raw/1/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md",
     "raw/1/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
@@ -417,7 +420,6 @@
     "Excalidraw/agent-orchestration-layer/manifest.json",
     "Excalidraw/agent-orchestration-layer/mindmap.json",
     "Excalidraw/agent-orchestration-layer",
-    "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw",
     "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
@@ -430,7 +432,6 @@
     "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.24.55.excalidraw.md",
     "Excalidraw/认知边界 2026-04-14 23.40.05.excalidraw.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
-    "清单/开通服务.md",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
     "Excalidraw/aniger-promoter-model-routes/manifest.json",
     "Excalidraw/aniger-promoter-model-routes/mindmap.json",
@@ -439,7 +440,6 @@
     "项目/VPS/VPS.md",
     "清单/MCP.md",
     "项目/ncreate/ncreate优化-提示词html.md",
-    "项目/Paseo/Best practices - Paseo Docs.md",
     "wiki/Wiki Map.canvas",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
