@@ -194,6 +194,11 @@
       "label": "structure"
     },
     {
+      "from": "n-root",
+      "to": "n-risk",
+      "label": "guards"
+    },
+    {
       "from": "n-stack",
       "to": "n-runtime",
       "label": "foundation"

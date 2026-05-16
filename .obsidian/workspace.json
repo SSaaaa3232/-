@@ -143,24 +143,12 @@
             "id": "b1bdde17cb1aacdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "项目/Paseo/编排层.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "编排层"
+              "icon": "excalidraw-icon",
+              "title": "本地-agent-编排层"
             }
           }
         ],
@@ -221,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -384,10 +373,13 @@
   },
   "active": "b1bdde17cb1aacdd",
   "lastOpenFiles": [
+    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw.md",
+    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
+    "项目/Paseo/编排层.md",
+    "Excalidraw/agent-orchestration-layer/manifest.json",
     "Excalidraw/agent-orchestration-layer/mindmap.json",
     "Excalidraw/agent-orchestration-layer",
     "raw/articles/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md",
-    "项目/Paseo/编排层.md",
     "清单/任务清单.md",
     "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw",
@@ -407,10 +399,7 @@
     "Excalidraw/aniger-promoter-model-routes/manifest.json",
     "Excalidraw/aniger-promoter-model-routes/mindmap.json",
     "Excalidraw/aniger-promoter-model-routes",
-    "清洗/output/png/danger-test/manifest.json",
     "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
-    "清洗/output/png/danger-test/prompts",
-    "清洗/output/png/danger-test",
     "项目/VPS/VPS.md",
     "清单/MCP.md",
     "项目/ncreate/ncreate优化-提示词html.md",
@@ -419,7 +408,6 @@
     "项目/Paseo/CLI - Paseo Docs.md",
     "项目/Paseo/终端APP.md",
     "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
-    "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "wiki/Wiki Map.canvas",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
