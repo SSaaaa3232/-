@@ -197,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -360,8 +361,9 @@
   },
   "active": "0cd654e474bce892",
   "lastOpenFiles": [
-    "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
+    "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
     "Excalidraw/Promoter prediction mindmap.excalidraw",
+    "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/Paseo/编排层.md",
     "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
@@ -394,7 +396,6 @@
     "项目/Paseo/Orchestration skills - Paseo Docs.md",
     "项目/渗透/HTB Bashed 渗透测试详细记录.md",
     "项目/渗透/渗透：拿下HTB TartarSauce靶机，附详细渗透记录 copy.md",
-    "项目/渗透/历时八小时,拿下HTB Usage靶机，附详细渗透测试记录 copy.md",
     "wiki/Wiki Map.canvas",
     "wiki/papers/deep-learning-guided-programmable-design-of-ecoli-core-promoters",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
