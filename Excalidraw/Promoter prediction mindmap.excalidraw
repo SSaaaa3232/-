@@ -302,12 +302,11 @@
 			"frameId": null,
 			"roundness": null,
 			"seed": 302,
-			"version": 2,
-			"versionNonce": 168058766,
+			"version": 3,
+			"versionNonce": 543522702,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1778851827357,
-			"link": null,
+			"updated": 1778903587480,
 			"locked": false,
 			"text": "3. 模型训练路线\n\n第一层：k-mer + XGBoost\n- k-mer 是特征，不是模型\n- XGBoost 是回归模型\n- CPU 可跑\n- 看 Spearman / Top-K\n\n第二层：one-hot + CNN\n- one-hot 是编码方法\n- CNN 学局部 motif\n- Colab / Kaggle GPU\n\n第三层：DNA Transformer\n- DNABERT-2 embedding + XGBoost\n- DNABERT-2 embedding + MLP\n- 冻结 DNABERT-2 + regression head\n- Nucleotide Transformer embedding\n\n不建议：\n- 从零训练大型 Transformer\n- 第一版全量微调大模型\n\n输出：\n- best_predictor\n- model_config\n- model_comparison_report",
 			"fontSize": 18,
@@ -320,7 +319,7 @@
 			"autoResize": true,
 			"index": "a8",
 			"hasTextLink": false,
-			"rawText": ""
+			"rawText": "3. 模型训练路线\n\n第一层：k-mer + XGBoost\n- k-mer 是特征，不是模型\n- XGBoost 是回归模型\n- CPU 可跑\n- 看 Spearman / Top-K\n\n第二层：one-hot + CNN\n- one-hot 是编码方法\n- CNN 学局部 motif\n- Colab / Kaggle GPU\n\n第三层：DNA Transformer\n- DNABERT-2 embedding + XGBoost\n- DNABERT-2 embedding + MLP\n- 冻结 DNABERT-2 + regression head\n- Nucleotide Transformer embedding\n\n不建议：\n- 从零训练大型 Transformer\n- 第一版全量微调大模型\n\n输出：\n- best_predictor\n- model_config\n- model_comparison_report"
 		},
 		{
 			"id": "phase4-bg",
@@ -512,12 +511,11 @@
 			"frameId": null,
 			"roundness": null,
 			"seed": 602,
-			"version": 2,
-			"versionNonce": 1582735950,
+			"version": 3,
+			"versionNonce": 1003625426,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1778851827357,
-			"link": null,
+			"updated": 1778903598955,
 			"locked": false,
 			"text": "当前最小执行清单：确认 TPM 表 ID 类型 -> 下载同版本 genome.fa 和 GFF3 -> 匹配 14000 条 gene_id -> 提取上游 1000 bp promoter -> 生成 promoter_tpm_clean.csv -> 训练 k-mer + XGBoost -> 查看 Spearman 和 Top-K",
 			"fontSize": 20,
@@ -530,7 +528,7 @@
 			"autoResize": true,
 			"index": "aE",
 			"hasTextLink": false,
-			"rawText": ""
+			"rawText": "当前最小执行清单：确认 TPM 表 ID 类型 -> 下载同版本 genome.fa 和 GFF3 -> 匹配 14000 条 gene_id -> 提取上游 1000 bp promoter -> 生成 promoter_tpm_clean.csv -> 训练 k-mer + XGBoost -> 查看 Spearman 和 Top-K"
 		}
 	],
 	"appState": {
@@ -550,10 +548,10 @@
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 663.5875598010839,
-		"scrollY": 714.849843347516,
+		"scrollX": 741.8491103751028,
+		"scrollY": 584.7885216213936,
 		"zoom": {
-			"value": 0.377903
+			"value": 0.485797
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
