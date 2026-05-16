@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "title": "黑曲霉 promoter 模型路线",
+  "source": {
+    "type": "conversation",
+    "path": "/Users/saaaaa/Desktop/项目/promoter prediction/Promoter prediction.md",
+    "created_at": "2026-05-16T16:45:00+08:00"
+  },
+  "layout": "dependency",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "模型路线总图",
+      "type": "topic",
+      "summary": "把黑曲霉 promoter 项目的回归、分类、排序和生成闭环拆开，避免把所有任务都塞给一个模型。",
+      "note": "当前实验结论：CNN 回归更适合连续强度粗排序；Nucleotide Transformer frozen embedding 分类更适合强/弱 promoter 筛选。",
+      "discussion_prompt": "继续讨论如何把回归模型和分类模型组合成最终 promoter 筛选器。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-goal",
+      "label": "最终目标",
+      "type": "context",
+      "summary": "项目目标不是单纯比较模型，而是建立 promoter 预测、生成和实验验证闭环。",
+      "note": "目标链条：数据集 -> 强度预测/筛选模型 -> 生成候选 promoter -> 模型筛选 -> 实验验证 -> 数据回流。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-data-reality",
+      "label": "数据现实",
+      "type": "dispute",
+      "summary": "TPM 是 promoter 强度 proxy，不等于纯 promoter activity。",
+      "note": "TPM 受 5'UTR、CDS、mRNA 稳定性、染色质、转录因子状态、基因功能和测序噪声影响。",
+      "discussion_prompt": "继续分析如何把 TPM proxy label 转化成更可辩护的 promoter-associated expression label。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-paper-gap",
+      "label": "对标差距",
+      "type": "dispute",
+      "summary": "大肠杆菌论文命中率高，不只是因为 Transformer 强，而是因为 label 更干净、实验系统更受控。",
+      "note": "该类工作通常有统一测量系统、组合 promoter library、受控变量和更直接的 activity label。当前黑曲霉天然 promoter + TPM 的噪声更高。",
+      "discussion_prompt": "继续把对标论文和当前项目的 label、数据分布、模型目标逐项对照。",
+      "source": "analysis copy.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-baselines",
+      "label": "已完成 baseline",
+      "type": "context",
+      "summary": "XGBoost 和 CNN 证明数据有可学习信号，但不是最终主模型。",
+      "note": "XGBoost S575de test Spearman 0.5098；CNN S575de test Spearman 0.5268，Top10 hit 0.3798。",
+      "source": "/Users/saaaaa/Desktop/数据/reports/model_comparison_summary.md",
+      "priority": "medium",
+      "status": "resolved"
+    },
+    {
+      "id": "n-xgboost",
+      "label": "XGBoost 验证信号",
+      "type": "conclusion",
+      "summary": "k-mer + XGBoost 用低成本证明序列和 TPM 之间不是随机关系。",
+      "note": "作用是 baseline，不承担最终筛选器角色。",
+      "source": "local reports",
+      "priority": "low",
+      "status": "resolved"
+    },
+    {
+      "id": "n-cnn-baseline",
+      "label": "CNN 粗排序",
+      "type": "conclusion",
+      "summary": "one-hot CNN 当前是连续强度回归里表现最好的本地 baseline。",
+      "note": "优势：能学习局部 motif；劣势：Top10 hit 仍偏低，说明单纯 MSE 回归不够。",
+      "discussion_prompt": "继续设计 CNN+attention 或 multi-task CNN 来提高 Top10 hit。",
+      "source": "local reports",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-nt-regression",
+      "label": "NT 回归受限",
+      "type": "conclusion",
+      "summary": "Nucleotide Transformer frozen embedding 做连续 TPM 回归没有超过 CNN。",
+      "note": "v01 test Spearman 0.4971；v03 test Spearman 0.4883。说明 frozen embedding + MLP 不是强回归器。",
+      "source": "/Users/saaaaa/Desktop/数据/reports/dna_pretrained_colab_results_summary.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-nt-classifier",
+      "label": "NT 强弱筛选",
+      "type": "conclusion",
+      "summary": "Nucleotide Transformer frozen embedding 在 top10 vs bottom10 分类上表现强。",
+      "note": "v04 classification test AUROC 0.9016；AP 0.9085；F1 0.8224。适合作为强 promoter 筛选器。",
+      "discussion_prompt": "继续设计如何把 NT top10 probability 融合进最终候选排序分数。",
+      "source": "/Users/saaaaa/Desktop/数据/reports/dna_pretrained_colab_results_summary.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-two-tasks",
+      "label": "两个任务不冲突",
+      "type": "concept",
+      "summary": "回归模型和分类模型回答不同问题，可以组合使用。",
+      "note": "回归问：强度大概是多少？分类问：像不像 top10 强 promoter？",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-regression-role",
+      "label": "回归 = 排序器",
+      "type": "concept",
+      "summary": "回归模型输出连续分数，用于给大量 promoter 候选做粗排序。",
+      "note": "输入 promoter，输出 predicted log10(TPM+1)。不要求完美预测 TPM，但要尽量提高 Spearman 和 Top hit。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-classification-role",
+      "label": "分类 = 筛选器",
+      "type": "concept",
+      "summary": "DNA 预训练分类模型输出 top10 probability，用于筛掉不像强 promoter 的候选。",
+      "note": "它不预测精确 TPM，而是判断明显强 vs 明显弱。适合后续生成候选过滤。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-better-regression",
+      "label": "更好回归路线",
+      "type": "topic",
+      "summary": "不要只换更大模型，而要让回归目标更贴近 Top hit 和排序。",
+      "note": "核心方向：CNN+attention、特征融合、multi-task、ranking、树模型强 baseline。",
+      "discussion_prompt": "继续选择最适合低预算实现的回归增强路线。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-cnn-attention",
+      "label": "CNN + Attention",
+      "type": "action",
+      "summary": "在 CNN motif 特征之后加 attention，让模型学习哪些 promoter 区域更重要。",
+      "note": "适合捕捉 TATA、CAAT、TFBS 附近贡献；比完整 Transformer 更便宜。",
+      "discussion_prompt": "继续设计 CNN+Attention 的最小实现脚本。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-feature-fusion",
+      "label": "特征融合回归",
+      "type": "action",
+      "summary": "把 CNN embedding、GC、长度、motif、k-mer 和 NT top10 probability 融合后回归。",
+      "note": "适合小数据，提升可解释性；也能把 NT 分类优势转化为回归排序分数。",
+      "discussion_prompt": "继续列出第一版 biological features 和 fusion head。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-multitask",
+      "label": "Multi-task CNN",
+      "type": "action",
+      "summary": "共享 CNN backbone，同时训练回归 head、top10 分类 head 和排序目标。",
+      "note": "比单纯 MSE 更贴近目标：既预测强度，又提高 top promoter 命中率。",
+      "discussion_prompt": "继续设计 multi-task loss：MSE + BCE + ranking loss。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-ranking",
+      "label": "Pairwise ranking",
+      "type": "action",
+      "summary": "训练模型判断 promoter A 是否比 B 更强，直接优化排序能力。",
+      "note": "不要求精确 TPM，只要求强者分数高于弱者；更贴近 Top10 hit。",
+      "discussion_prompt": "继续设计 pair construction 和 ranking loss。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-lightgbm",
+      "label": "LightGBM / CatBoost",
+      "type": "action",
+      "summary": "用 k-mer、motif、GC、长度、NT embedding 训练强传统回归 baseline。",
+      "note": "训练便宜，小数据表现强；适合作为论文中的 strong classical baseline。",
+      "discussion_prompt": "继续判断是否先跑 LightGBM+NT embedding 作为低成本增强。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-not-priority",
+      "label": "暂不优先",
+      "type": "dispute",
+      "summary": "从零训练 Transformer 或全量微调大模型成本高，当前证据不足。",
+      "note": "样本量约 1.4 万且 TPM label 噪声大；从零训练容易过拟合，回报不确定。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-ensemble",
+      "label": "最终组合分数",
+      "type": "concept",
+      "summary": "把回归强度分数和 NT top10 probability 组合成最终筛选分数。",
+      "note": "示例：final_score = normalized_regression_score + alpha * NT_top10_probability。",
+      "discussion_prompt": "继续设计 final_score 的验证方式和阈值选择。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-generation-loop",
+      "label": "生成闭环",
+      "type": "topic",
+      "summary": "生成模型产生候选后，用回归排序器和分类筛选器共同过滤。",
+      "note": "流程：生成 10000 条候选 -> 回归粗排序 -> NT 分类筛选 -> 去重/约束过滤 -> 实验验证。",
+      "discussion_prompt": "继续把预测模型如何接入 diffusion/突变搜索生成模型画成流程图。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-next-actions",
+      "label": "下一步实验",
+      "type": "action",
+      "summary": "优先做能直接提高回归排序和 top hit 的低成本实验。",
+      "note": "建议顺序：1 CNN+feature fusion；2 multi-task CNN；3 LightGBM+NT embedding；4 DNABERT-2 v04 分类对比；5 ranking loss。",
+      "discussion_prompt": "继续把下一步拆成可执行脚本和 Colab/本地任务。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "todo"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-goal",
+      "label": "目标"
+    },
+    {
+      "from": "n-root",
+      "to": "n-data-reality",
+      "label": "约束"
+    },
+    {
+      "from": "n-root",
+      "to": "n-paper-gap",
+      "label": "对标"
+    },
+    {
+      "from": "n-root",
+      "to": "n-baselines",
+      "label": "已做"
+    },
+    {
+      "from": "n-baselines",
+      "to": "n-xgboost",
+      "label": "信号验证"
+    },
+    {
+      "from": "n-baselines",
+      "to": "n-cnn-baseline",
+      "label": "回归 baseline"
+    },
+    {
+      "from": "n-baselines",
+      "to": "n-nt-regression",
+      "label": "回归实验"
+    },
+    {
+      "from": "n-baselines",
+      "to": "n-nt-classifier",
+      "label": "分类实验"
+    },
+    {
+      "from": "n-root",
+      "to": "n-two-tasks",
+      "label": "任务拆分"
+    },
+    {
+      "from": "n-two-tasks",
+      "to": "n-regression-role",
+      "label": "连续强度"
+    },
+    {
+      "from": "n-two-tasks",
+      "to": "n-classification-role",
+      "label": "强弱筛选"
+    },
+    {
+      "from": "n-cnn-baseline",
+      "to": "n-regression-role",
+      "label": "承担"
+    },
+    {
+      "from": "n-nt-classifier",
+      "to": "n-classification-role",
+      "label": "承担"
+    },
+    {
+      "from": "n-regression-role",
+      "to": "n-better-regression",
+      "label": "需要增强"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-cnn-attention",
+      "label": "路线1"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-feature-fusion",
+      "label": "路线2"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-multitask",
+      "label": "路线3"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-ranking",
+      "label": "路线4"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-lightgbm",
+      "label": "路线5"
+    },
+    {
+      "from": "n-root",
+      "to": "n-not-priority",
+      "label": "避免误区"
+    },
+    {
+      "from": "n-regression-role",
+      "to": "n-ensemble",
+      "label": "融合"
+    },
+    {
+      "from": "n-classification-role",
+      "to": "n-ensemble",
+      "label": "融合"
+    },
+    {
+      "from": "n-ensemble",
+      "to": "n-generation-loop",
+      "label": "服务闭环"
+    },
+    {
+      "from": "n-generation-loop",
+      "to": "n-goal",
+      "label": "回到目标"
+    },
+    {
+      "from": "n-root",
+      "to": "n-next-actions",
+      "label": "执行"
+    },
+    {
+      "from": "n-better-regression",
+      "to": "n-next-actions",
+      "label": "优先"
+    },
+    {
+      "from": "n-nt-classifier",
+      "to": "n-next-actions",
+      "label": "对比"
+    }
+  ]
+}

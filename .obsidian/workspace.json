@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -383,8 +383,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b1bdde17cb1aacdd",
+  "active": "0cd654e474bce892",
   "lastOpenFiles": [
+    "项目/Paseo/编排层.md",
+    "Excalidraw/aniger-promoter-model-routes/manifest.json",
+    "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
+    "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw",
+    "Excalidraw/aniger-promoter-model-routes/mindmap.json",
+    "Excalidraw/aniger-promoter-model-routes",
     "清洗/output/png/danger-test/manifest.json",
     "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
     "清洗/output/png/danger-test/prompts",
@@ -399,7 +405,6 @@
     "项目/Paseo/Best practices - Paseo Docs.md",
     "项目/Paseo/CLI - Paseo Docs.md",
     "项目/Paseo/终端APP.md",
-    "项目/Paseo/编排层.md",
     "Excalidraw/prompt 2026-04-02 09.19.46.excalidraw.md",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
@@ -415,12 +420,6 @@
     "项目/ncreate copy/prompt/PPT.md",
     "项目/ncreate copy/prompt",
     "项目/ncreate copy/image/插图（文章，展示）/prompt/illustrator and image skill （prompt）.md",
-    "项目/ncreate copy/image/插图（文章，展示）/prompt",
-    "项目/ncreate copy/image/diagram/markdown to diagram skill.md",
-    "项目/ncreate copy/image/插图（文章，展示）",
-    "项目/ncreate copy/image/diagram",
-    "项目/ncreate copy/image",
-    "项目/ncreate copy/skill",
     "wiki/Wiki Map.canvas",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
