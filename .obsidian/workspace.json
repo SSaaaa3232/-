@@ -109,10 +109,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Promoter prediction mindmap.excalidraw"
+                "file": "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "Promoter prediction mindmap"
+              "title": "黑曲霉-promoter-模型路线"
             }
           },
           {
@@ -385,10 +385,11 @@
   },
   "active": "0cd654e474bce892",
   "lastOpenFiles": [
-    "项目/Paseo/编排层.md",
-    "Excalidraw/aniger-promoter-model-routes/manifest.json",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw",
+    "Excalidraw/Promoter prediction mindmap.excalidraw",
+    "项目/Paseo/编排层.md",
+    "Excalidraw/aniger-promoter-model-routes/manifest.json",
     "Excalidraw/aniger-promoter-model-routes/mindmap.json",
     "Excalidraw/aniger-promoter-model-routes",
     "清洗/output/png/danger-test/manifest.json",
@@ -397,7 +398,6 @@
     "清洗/output/png/danger-test",
     "项目/VPS/VPS.md",
     "清单/MCP.md",
-    "Excalidraw/Promoter prediction mindmap.excalidraw",
     "清单/开通服务.md",
     "清单/任务清单.md",
     "项目/ncreate/ncreate优化-提示词html.md",
