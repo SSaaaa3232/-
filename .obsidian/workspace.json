@@ -164,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -383,10 +383,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cd654e474bce892",
+  "active": "b1bdde17cb1aacdd",
   "lastOpenFiles": [
-    "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
+    "清单/任务清单.md",
+    "清单/开通服务.md",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw",
+    "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
     "Excalidraw/Promoter prediction mindmap.excalidraw",
     "项目/Paseo/编排层.md",
     "Excalidraw/aniger-promoter-model-routes/manifest.json",
@@ -398,8 +400,6 @@
     "清洗/output/png/danger-test",
     "项目/VPS/VPS.md",
     "清单/MCP.md",
-    "清单/开通服务.md",
-    "清单/任务清单.md",
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/Promoter prediction.md",
     "项目/Paseo/Best practices - Paseo Docs.md",
