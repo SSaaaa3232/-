@@ -104,18 +104,6 @@
             }
           },
           {
-            "id": "b1bdde17cb1aacdd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/ai-agent-harness-company-structure/1/ai-agent-harness-公司结构.excalidraw"
-              },
-              "icon": "excalidraw-icon",
-              "title": "ai-agent-harness-公司结构"
-            }
-          },
-          {
             "id": "1fd18ec350244719",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -384,6 +372,14 @@
   },
   "active": "a5242b1a8dd6237c",
   "lastOpenFiles": [
+    "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
+    "Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw",
+    "Excalidraw/ai-agent-harness-company-structure/1/ai-agent-harness-公司结构.excalidraw",
+    "项目/Paseo/编排层.md",
+    "Excalidraw/aidlc-harness-lifecycle/manifest.json",
+    "Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw.md",
+    "Excalidraw/aidlc-harness-lifecycle/mindmap.json",
+    "Excalidraw/aidlc-harness-lifecycle",
     "Excalidraw/ai-agent-harness-company-structure/2/本地-agent-编排层.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/1/sprintiq-git-ana-analysis.md",
     "Excalidraw/ai-agent-harness-company-structure/2",
@@ -394,12 +390,6 @@
     "Excalidraw/ai-agent-harness-company-structure/1/ai-agent-harness-current-function-map.excalidraw",
     "raw/paper/paper.md",
     "Excalidraw/deer-flow-harness-long-running-learnings/manifest.json",
-    "Excalidraw/deer-flow-harness-long-running-learnings/mindmap.json",
-    "Excalidraw/deer-flow-harness-long-running-learnings",
-    "项目/Paseo/编排层.md",
-    "raw/paper",
-    "Excalidraw/ai-agent-harness-company-structure/1/sprintiq-harness-commander-learnings.excalidraw",
-    "Excalidraw/ai-agent-harness-company-structure/1/本地-agent-编排层.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-current-function-map.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/2/sprintiq-harness-commander-learnings.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-公司结构.excalidraw.md",
@@ -421,15 +411,12 @@
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/论文/AI科研Context Is All You Need.md",
     "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw.md",
-    "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
     "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-大公司关系图.excalidraw.md",
     "清单/开通服务.md",
     "清单/任务清单.md",
     "raw/1/Reiner Pope – The math behind how LLMs are trained and served.md",
     "raw/1/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md",
     "raw/1/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
-    "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
-    "项目/Promoter prediction.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

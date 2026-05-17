@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "analysis",
+    "path": "/Users/saaaaa/Desktop/项目/编排/analysis/reports/aidlc-workflows-git-ana.md",
+    "created_at": "2026-05-17T19:30:00+08:00"
+  },
+  "title": "AIDLC 融入 Harness 生命周期",
+  "layout": "dependency",
+  "node_count": 14,
+  "edge_count": 15,
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/aidlc-harness-lifecycle/mindmap.json",
+      "kind": "mindmap-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw",
+      "kind": "excalidraw-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw.md",
+      "kind": "obsidian-excalidraw"
+    }
+  ],
+  "generated_at": "2026-05-17T11:13:04.213113+00:00"
+}
