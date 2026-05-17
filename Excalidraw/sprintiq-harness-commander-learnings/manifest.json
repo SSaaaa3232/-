@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "analysis",
+    "path": "analysis/repos/sprintiq",
+    "created_at": "2026-05-17T00:00:00+08:00"
+  },
+  "title": "SprintiQ 对 Harness 统帅 Agent 的启发",
+  "layout": "dependency",
+  "node_count": 21,
+  "edge_count": 23,
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/sprintiq-harness-commander-learnings/mindmap.json",
+      "kind": "mindmap-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/sprintiq-harness-commander-learnings/sprintiq-harness-commander-learnings.excalidraw",
+      "kind": "excalidraw-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/sprintiq-harness-commander-learnings/sprintiq-harness-commander-learnings.excalidraw.md",
+      "kind": "obsidian-excalidraw"
+    }
+  ],
+  "generated_at": "2026-05-17T10:03:40.441852+00:00"
+}
