@@ -162,9 +162,21 @@
               "icon": "lucide-file",
               "title": "编排层"
             }
+          },
+          {
+            "id": "75afce6de768fb5c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "ai-agent-harness-公司结构.excalidraw"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -221,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -357,7 +368,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -382,8 +393,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a5242b1a8dd6237c",
+  "active": "75afce6de768fb5c",
   "lastOpenFiles": [
+    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw",
+    "项目/Paseo/编排层.md",
     "raw/TED/ted.md",
     "raw/TED",
     "image/f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
@@ -402,7 +415,6 @@
     "项目/ncreate/PPT/生图.md",
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/论文/AI科研Context Is All You Need.md",
-    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw",
     "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
     "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "Excalidraw/ai-agent-harness-user-internal-flow/manifest.json",
@@ -410,7 +422,6 @@
     "Excalidraw/ai-agent-harness-user-internal-flow/mindmap.json",
     "Excalidraw/ai-agent-harness-user-internal-flow",
     "项目/论文",
-    "项目/Paseo/编排层.md",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
