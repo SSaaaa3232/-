@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
+                "file": "项目/ncreate/润色.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -136,7 +136,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "深度拆解：AI Agent Harness 的构造【译】"
+              "title": "润色"
             }
           },
           {
@@ -145,10 +145,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw"
+                "file": "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "ai-agent-harness-大公司关系图"
+              "title": "ai-agent-harness-公司结构"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -394,28 +394,28 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b1bdde17cb1aacdd",
+  "active": "eac9ec3c6651cb5a",
   "lastOpenFiles": [
+    "项目/Paseo/编排层.md",
+    "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
+    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
+    "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure-2/manifest.json",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure-2/mindmap.json",
     "Excalidraw/ai-agent-harness-company-structure-2",
     "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure/manifest.json",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure/mindmap.json",
     "Excalidraw/ai-agent-harness-company-structure",
     "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
-    "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
     "清单/开通服务.md",
     "清单/任务清单.md",
     "raw/1/Reiner Pope – The math behind how LLMs are trained and served.md",
     "raw/1/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md",
     "raw/1/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
     "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
-    "项目/Paseo/编排层.md",
     "项目/Promoter prediction.md",
     "d9372b22e37fb91a56279fa21f223568_MD5.jpg",
     "527e25b62d30b99f7e4245043d591a87_MD5.jpg",
@@ -426,7 +426,6 @@
     "c33d16fc6dc958eaa56255da3e24b0b5_MD5.jpg",
     "540d545a13c776ca983678f0559064b8_MD5.jpg",
     "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw.md",
-    "Excalidraw/agent-orchestration-layer/manifest.json",
     "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "human-skill-mindmap.md",
