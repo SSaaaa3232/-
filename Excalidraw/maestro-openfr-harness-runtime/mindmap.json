@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "title": "Harness Runtime 补强：Maestro + OpenFR",
+  "source": {
+    "type": "analysis",
+    "path": "analysis/reports/maestro-openfr-harness-integration.md",
+    "created_at": "2026-05-17T00:00:00+08:00"
+  },
+  "layout": "horizontal",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "Harness补强",
+      "type": "topic",
+      "summary": "用 Maestro 的运行时能力和 OpenFR 的角色状态图补齐 Harness 多 Agent 编排。",
+      "note": "保持大公司模式：人类老板 -> Commander -> 固定角色 Agent -> 跨生态本机 Agent adapter。",
+      "discussion_prompt": "继续把 Harness Runtime MVP 拆成可执行代码任务。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-product-boundary",
+      "label": "产品边界",
+      "type": "context",
+      "summary": "不偏离最初的公司模式想法。",
+      "note": "只做大公司模式；人类是老板；Codex/Claude 入口模型是 Commander；不做同生态 100 Agent swarm。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-large-company",
+      "label": "大公司模式",
+      "type": "concept",
+      "summary": "固定组织结构，不再保留小公司模式。",
+      "note": "用户只和 Commander 对话；Commander 统筹 Research、Strategy、Architect、Coding、Review、QA、Delivery。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-cross-ecosystem",
+      "label": "跨生态个性化",
+      "type": "concept",
+      "summary": "扫描用户电脑已有 Agent，而不是只开同一生态 Agent。",
+      "note": "Codex、Claude CLI、OpenCode、Gemini、本地脚本、平台内置 Agent 都进入 Agent Registry。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-maestro",
+      "label": "Maestro可吸收",
+      "type": "topic",
+      "summary": "主要解决真实运行时：调度、启动、消息、恢复、防假完成。",
+      "note": "不要照搬命令体系，只吸收模块边界。",
+      "source": "analysis/repos/maestro-flow",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-chaingraph",
+      "label": "ChainGraph",
+      "type": "concept",
+      "summary": "用 command、decision、gate、fork、join、terminal 表达任务图。",
+      "note": "证据：analysis/repos/maestro-flow/src/coordinator/graph-types.ts:43。",
+      "source": "analysis/repos/maestro-flow/src/coordinator/graph-types.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-graphwalker",
+      "label": "GraphWalker",
+      "type": "concept",
+      "summary": "执行状态机，支持 start、resume、next、stop。",
+      "note": "证据：analysis/repos/maestro-flow/src/coordinator/graph-walker.ts:44。",
+      "source": "analysis/repos/maestro-flow/src/coordinator/graph-walker.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-parallel-runner",
+      "label": "并发调度器",
+      "type": "concept",
+      "summary": "同 sessionKey 串行，不同 sessionKey 并行，全局 maxConcurrency 控制。",
+      "note": "证据：analysis/repos/maestro-flow/src/agents/parallel-cli-runner.ts:5。",
+      "source": "analysis/repos/maestro-flow/src/agents/parallel-cli-runner.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-adapters",
+      "label": "CLI适配器",
+      "type": "concept",
+      "summary": "统一 spawn、stop、sendMessage、supportsInteractive。",
+      "note": "证据：analysis/repos/maestro-flow/src/agents/cli-agent-runner.ts:31。",
+      "source": "analysis/repos/maestro-flow/src/agents/cli-agent-runner.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-broker",
+      "label": "消息代理",
+      "type": "concept",
+      "summary": "事件、消息、取消、超时、状态查询的中心。",
+      "note": "Agent 间传话不是直接聊天，而是 broker 留消息、状态和结果。证据：analysis/repos/maestro-flow/src/async/delegate-broker.ts:157。",
+      "source": "analysis/repos/maestro-flow/src/async/delegate-broker.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-result-contract",
+      "label": "防假完成",
+      "type": "conclusion",
+      "summary": "没有机器可读结果块就不算完成。",
+      "note": "Maestro 没有 COORDINATE RESULT 就失败；Harness 应改成 HARNESS RESULT + evidence。",
+      "source": "analysis/repos/maestro-flow/src/coordinator/output-parser.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-openfr",
+      "label": "OpenFR可吸收",
+      "type": "topic",
+      "summary": "主要解决角色状态图、辩论循环、结构化输出和过程观测。",
+      "note": "不吸收金融工具，不把它当跨生态进程编排器。",
+      "source": "analysis/repos/openfr",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-typed-state",
+      "label": "Typed状态",
+      "type": "concept",
+      "summary": "共享状态明确列出每个角色产物。",
+      "note": "证据：analysis/repos/openfr/src/openfr/agents/utils/agent_states.py:33。",
+      "source": "analysis/repos/openfr/src/openfr/agents/utils/agent_states.py",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-role-nodes",
+      "label": "固定角色节点",
+      "type": "concept",
+      "summary": "角色节点固定，不让模型随意创造组织。",
+      "note": "OpenFR 固定 Market、Fundamentals、News、Macro、Bull、Bear、Manager 等节点；Harness 固定公司七角色。",
+      "source": "analysis/repos/openfr/src/openfr/graph/setup.py",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-debate-loop",
+      "label": "有界循环",
+      "type": "concept",
+      "summary": "辩论/修复循环要有最大轮数。",
+      "note": "OpenFR 用 count 限制 Bull/Bear 和风险三方；Harness 用于 Review/QA/Coding 修复闭环。",
+      "source": "analysis/repos/openfr/src/openfr/graph/conditional_logic.py",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-structured-output",
+      "label": "结构化输出",
+      "type": "concept",
+      "summary": "最终交付用 schema 表达，而不是纯自然语言。",
+      "note": "OpenFR 用 Pydantic FinalDecision；Harness Delivery 应有 status、artifacts、evidence、risks、next_steps。",
+      "source": "analysis/repos/openfr/src/openfr/agents/schemas.py",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-event-timing",
+      "label": "节点耗时",
+      "type": "concept",
+      "summary": "每个节点产出 elapsed，便于找瓶颈。",
+      "note": "证据：analysis/repos/openfr/src/openfr/graph/research_graph.py:125。",
+      "source": "analysis/repos/openfr/src/openfr/graph/research_graph.py",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-solved-gaps",
+      "label": "解决缺口",
+      "type": "topic",
+      "summary": "两个项目组合后可以补齐 Harness 当前运行短板。",
+      "note": "Maestro 补运行时；OpenFR 补角色状态。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-auto-concurrency",
+      "label": "自动并发",
+      "type": "conclusion",
+      "summary": "不是一个一个跑；依赖就绪且 sessionKey 不冲突的任务可同时跑。",
+      "note": "fork/join + scheduler 实现。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-real-launch",
+      "label": "真实启动",
+      "type": "conclusion",
+      "summary": "通过 Adapter 启动 Codex、Claude、OpenCode 等真实 CLI Agent。",
+      "note": "先做 direct spawn；交互场景再做 terminal backend。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-agent-message",
+      "label": "Agent传话",
+      "type": "conclusion",
+      "summary": "通过 Broker 和 shared state 传递，不靠自由聊天。",
+      "note": "handoff、inject、after_complete、result 都写入 messages/events。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-resume",
+      "label": "恢复运行",
+      "type": "conclusion",
+      "summary": "run state + history prompt 支持中断后继续。",
+      "note": "Maestro 的 walker-state 和 CliHistoryStore 是可参考方向。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-internalize",
+      "label": "融入Harness",
+      "type": "topic",
+      "summary": "把外部项目的好设计变成 Harness 自己的 Company Runtime。",
+      "note": "不是复制仓库，而是落成 Harness runtime 模块。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-company-graph",
+      "label": "CompanyGraph",
+      "type": "action",
+      "summary": "固定公司角色图，Commander 只能调度这些角色。",
+      "note": "建议文件：harness/src/runtime/company-graph.ts。",
+      "discussion_prompt": "开始实现 CompanyGraph，并把默认大公司 workflow 写成数据结构。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-scheduler",
+      "label": "Scheduler",
+      "type": "action",
+      "summary": "按依赖、sessionKey 和 maxConcurrency 派发任务。",
+      "note": "建议文件：harness/src/runtime/scheduler.ts。",
+      "discussion_prompt": "实现 scheduler：ready queue、join all/any/majority、sessionKey 串行。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-broker-module",
+      "label": "Broker模块",
+      "type": "action",
+      "summary": "JSONL 事件和消息队列，后续可换 SQLite。",
+      "note": "建议文件：harness/src/runtime/broker.ts。",
+      "discussion_prompt": "实现 JSONL Broker：publish、poll、queueMessage、cancel、timeout。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-adapter-module",
+      "label": "Adapter模块",
+      "type": "action",
+      "summary": "把扫描到的本机 Agent 统一包装成可启动对象。",
+      "note": "建议文件：harness/src/adapters/*.ts。",
+      "discussion_prompt": "先实现 Codex/Claude/OpenCode CLI adapters 的最小 spawn/stop。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-parser-module",
+      "label": "ResultParser",
+      "type": "action",
+      "summary": "解析 HARNESS RESULT，没有证据就失败。",
+      "note": "建议文件：harness/src/runtime/result-parser.ts。",
+      "discussion_prompt": "实现 HARNESS RESULT parser 并接入 evidence auditor。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-do-not-copy",
+      "label": "不照搬",
+      "type": "dispute",
+      "summary": "吸收结构，不复制产品形态。",
+      "note": "Maestro 命令宇宙、OpenFR 金融领域、dashboard、MCP 都不是当前核心。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-no-dashboard",
+      "label": "不急UI",
+      "type": "dispute",
+      "summary": "继续 plugin/CLI 优先，不先做独立 dashboard。",
+      "note": "符合原产品安排：降低迁移成本，附着现有用户习惯。",
+      "source": "AI Agent Harness 产品实现安排.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-no-mcp-first",
+      "label": "MCP后置",
+      "type": "dispute",
+      "summary": "MCP 是传输层，不是编排本体。",
+      "note": "CLI/plugin 足够先跑 MVP；MCP 后续用于外部接入。",
+      "source": "analysis/reports/maestro-openfr-harness-integration.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-no-db-first",
+      "label": "数据库后置",
+      "type": "dispute",
+      "summary": "MVP 用 JSONL，规模化再 SQLite/Postgres。",
+      "note": "Maestro 同时有 file broker 和 SQLite broker，说明可分阶段。",
+      "source": "analysis/repos/maestro-flow/src/async/delegate-broker.ts",
+      "priority": "medium",
+      "status": "understood"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-product-boundary",
+      "label": "约束"
+    },
+    {
+      "from": "n-product-boundary",
+      "to": "n-large-company",
+      "label": "模式"
+    },
+    {
+      "from": "n-product-boundary",
+      "to": "n-cross-ecosystem",
+      "label": "差异化"
+    },
+    {
+      "from": "n-root",
+      "to": "n-maestro",
+      "label": "运行时"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-chaingraph",
+      "label": "图"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-graphwalker",
+      "label": "执行"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-parallel-runner",
+      "label": "并发"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-adapters",
+      "label": "启动"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-broker",
+      "label": "通信"
+    },
+    {
+      "from": "n-maestro",
+      "to": "n-result-contract",
+      "label": "验收"
+    },
+    {
+      "from": "n-root",
+      "to": "n-openfr",
+      "label": "角色状态"
+    },
+    {
+      "from": "n-openfr",
+      "to": "n-typed-state",
+      "label": "状态"
+    },
+    {
+      "from": "n-openfr",
+      "to": "n-role-nodes",
+      "label": "角色"
+    },
+    {
+      "from": "n-openfr",
+      "to": "n-debate-loop",
+      "label": "循环"
+    },
+    {
+      "from": "n-openfr",
+      "to": "n-structured-output",
+      "label": "输出"
+    },
+    {
+      "from": "n-openfr",
+      "to": "n-event-timing",
+      "label": "观测"
+    },
+    {
+      "from": "n-root",
+      "to": "n-solved-gaps",
+      "label": "补齐"
+    },
+    {
+      "from": "n-solved-gaps",
+      "to": "n-auto-concurrency",
+      "label": "调度"
+    },
+    {
+      "from": "n-solved-gaps",
+      "to": "n-real-launch",
+      "label": "启动"
+    },
+    {
+      "from": "n-solved-gaps",
+      "to": "n-agent-message",
+      "label": "传话"
+    },
+    {
+      "from": "n-solved-gaps",
+      "to": "n-resume",
+      "label": "恢复"
+    },
+    {
+      "from": "n-root",
+      "to": "n-internalize",
+      "label": "落地"
+    },
+    {
+      "from": "n-internalize",
+      "to": "n-company-graph",
+      "label": "P1"
+    },
+    {
+      "from": "n-internalize",
+      "to": "n-scheduler",
+      "label": "P2"
+    },
+    {
+      "from": "n-internalize",
+      "to": "n-broker-module",
+      "label": "P3"
+    },
+    {
+      "from": "n-internalize",
+      "to": "n-adapter-module",
+      "label": "P4"
+    },
+    {
+      "from": "n-internalize",
+      "to": "n-parser-module",
+      "label": "P5"
+    },
+    {
+      "from": "n-root",
+      "to": "n-do-not-copy",
+      "label": "边界"
+    },
+    {
+      "from": "n-do-not-copy",
+      "to": "n-no-dashboard",
+      "label": "UI"
+    },
+    {
+      "from": "n-do-not-copy",
+      "to": "n-no-mcp-first",
+      "label": "协议"
+    },
+    {
+      "from": "n-do-not-copy",
+      "to": "n-no-db-first",
+      "label": "存储"
+    }
+  ]
+}

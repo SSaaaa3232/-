@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "analysis",
+    "path": "analysis/reports/maestro-openfr-harness-integration.md",
+    "created_at": "2026-05-17T00:00:00+08:00"
+  },
+  "title": "Harness Runtime 补强：Maestro + OpenFR",
+  "layout": "horizontal",
+  "node_count": 32,
+  "edge_count": 31,
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/maestro-openfr-harness-runtime/mindmap.json",
+      "kind": "mindmap-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw",
+      "kind": "excalidraw-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw.md",
+      "kind": "obsidian-excalidraw"
+    }
+  ],
+  "generated_at": "2026-05-17T11:48:17.474321+00:00"
+}
