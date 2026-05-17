@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "title": "AI Agent Harness 公司结构",
+  "source": {
+    "type": "conversation",
+    "path": "/Users/saaaaa/Desktop/项目/编排/harness",
+    "created_at": "2026-05-17T14:25:00+08:00"
+  },
+  "layout": "horizontal",
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Harness 公司",
+      "type": "topic",
+      "summary": "Harness 是让 Codex/Claude 变成入口统帅，并组织多个角色 Agent 工作的运行层。",
+      "note": "用户不应该手动管理 mission_id/run_id；正常体验是对模型说一句任务，模型作为 Commander 调用 Harness。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "boss",
+      "label": "人类老板",
+      "type": "concept",
+      "summary": "用户只表达目标、约束和关键决策，不负责手动调度 Agent。",
+      "note": "老板只管方向：要什么、不要什么、什么时候停下来确认。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "plugin-entry",
+      "label": "插件入口",
+      "type": "concept",
+      "summary": "Codex/Claude 读取 projection 后自动扮演 Commander Agent。",
+      "note": "当前产物是 Codex 的 AGENTS.md projection 和 Claude 的 CLAUDE.md / harness-orchestrate 命令模板。",
+      "source": "harness/src/projection/projectors.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "commander",
+      "label": "统帅 Agent",
+      "type": "concept",
+      "summary": "Commander 接收老板一句话，创建 mission，生成角色分工、编排图和 handoff packet。",
+      "note": "当前只保留大公司模式：Research → Strategy → Architect → Coding → Review → QA → Delivery。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "will-points",
+      "label": "四个意志点",
+      "type": "concept",
+      "summary": "起点、创新点、转折点、终点是老板的方向约束。",
+      "note": "它们会进入 mission 和每个 handoff packet 的上下文。",
+      "source": "AI Agent Harness 产品实现安排.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "large-company-only",
+      "label": "大公司模式",
+      "type": "conclusion",
+      "summary": "现在不再做小公司模式，所有任务都走角色化多 Agent 编排。",
+      "note": "即使是简单 bug，也先经过 Research、Strategy、Architect、Coding、Review、QA、Delivery 的角色链。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "resolved"
+    },
+    {
+      "id": "role-graph",
+      "label": "角色编排图",
+      "type": "concept",
+      "summary": "Agent 不是普通步骤，而是带权限、职责、证据要求的角色节点。",
+      "note": "commander-plan.json 中包含 agentRoles 和 orchestrationGraph。",
+      "source": "harness/src/types/schema.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "research-agent",
+      "label": "研究 Agent",
+      "type": "concept",
+      "summary": "先收集背景、未知点和参考证据。",
+      "note": "输出 research-notes.md / source-list.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "strategy-agent",
+      "label": "战略 Agent",
+      "type": "concept",
+      "summary": "把老板意图转成策略、取舍和成功标准。",
+      "note": "输出 strategy-brief.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "architect-agent",
+      "label": "架构 Agent",
+      "type": "concept",
+      "summary": "定义系统边界、接口和实施顺序。",
+      "note": "输出 architecture-plan.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "coding-agent",
+      "label": "编码 Agent",
+      "type": "concept",
+      "summary": "负责实际代码修改、测试和变更记录。",
+      "note": "输出 implementation.patch / test-output.txt。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "review-agent",
+      "label": "审查 Agent",
+      "type": "concept",
+      "summary": "检查架构、代码、风险和证据是否足够。",
+      "note": "有权阻止交付。输出 review-report.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "qa-agent",
+      "label": "QA Agent",
+      "type": "concept",
+      "summary": "负责验证、验收标准和阻塞项。",
+      "note": "输出 qa-report.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "delivery-agent",
+      "label": "交付 Agent",
+      "type": "concept",
+      "summary": "整理最终结果、证据引用和下一步决策。",
+      "note": "输出 delivery-report.md。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "runtime",
+      "label": "运行底座",
+      "type": "concept",
+      "summary": "维护 .harness 状态、注册表、workflow、证据和报告。",
+      "note": "CLI 现在是底层运行器，不是最终用户应该感知的主界面。",
+      "source": "harness/src",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "mission-store",
+      "label": "Mission 状态",
+      "type": "concept",
+      "summary": "保存老板意图、四个意志点、Commander 计划和 handoff packets。",
+      "note": ".harness/missions/<mission_id>.json / .plan.md / .commander-plan.json / .handoffs.jsonl。",
+      "source": "harness/src/core/mission.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "evidence-store",
+      "label": "证据账本",
+      "type": "concept",
+      "summary": "每一步必须留下 evidence，最终报告必须引用 evidence。",
+      "note": ".harness/runs/<run_id>/evidence.jsonl 是核心审计记录。",
+      "source": "harness/src/core/evidence.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "hooks",
+      "label": "制度 Hook",
+      "type": "concept",
+      "summary": "Hook 是公司制度：没有证据不能完成，转折点要人类确认。",
+      "note": "当前包含 before_execute、evidence_required、before_final_report、before_turning_point。",
+      "source": "harness/src/core/policy.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "skills-mcp",
+      "label": "能力资源层",
+      "type": "concept",
+      "summary": "Skill 是 SOP，MCP 是工具接口，Agent 通过它们获得能力。",
+      "note": "当前 registry 已有内置 skills/mcp；后续要从本地 skills 自动注册。",
+      "source": "harness/src/registry/registry.ts",
+      "priority": "medium",
+      "status": "todo",
+      "discussion_prompt": "继续实现 Skill 自动注册和 MCP 能力映射。"
+    },
+    {
+      "id": "normal-use",
+      "label": "拿到手用法",
+      "type": "action",
+      "summary": "本地先用 orchestrate 一句话跑通，接入 Codex/Claude 后让模型自动调用。",
+      "note": "命令：cd harness && ./bin/harness orchestrate \"我要做 X\"。",
+      "source": "harness/README.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "debug-use",
+      "label": "调试命令",
+      "type": "action",
+      "summary": "需要排查时再用 init、scan、registry、mission list、run status、report、observe。",
+      "note": "这些命令是底层调试工具，不是最终用户主流程。",
+      "source": "harness/README.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "current-limit",
+      "label": "当前限制",
+      "type": "dispute",
+      "summary": "现在已经有编排协议，但还没有真实并行 Agent 执行器。",
+      "note": "当前会生成 handoff packet，但不会真的启动多个外部 Codex/Claude agent 并行执行。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "open",
+      "discussion_prompt": "下一步实现 agent worker runtime，让 handoff packet 被真实 Agent 消费。"
+    },
+    {
+      "id": "next-step",
+      "label": "下一步",
+      "type": "action",
+      "summary": "实现 Agent worker runtime，让角色 Agent 读取 handoff、执行、回写 evidence。",
+      "note": "这是从协议层走向真实多 Agent 编排的关键。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "todo",
+      "discussion_prompt": "设计 Agent worker runtime 的最小可运行版本。"
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "boss",
+      "label": "谁使用"
+    },
+    {
+      "from": "boss",
+      "to": "plugin-entry",
+      "label": "对话入口"
+    },
+    {
+      "from": "plugin-entry",
+      "to": "commander",
+      "label": "自动接管"
+    },
+    {
+      "from": "commander",
+      "to": "will-points",
+      "label": "方向约束"
+    },
+    {
+      "from": "commander",
+      "to": "large-company-only",
+      "label": "固定模式"
+    },
+    {
+      "from": "commander",
+      "to": "role-graph",
+      "label": "组织编排"
+    },
+    {
+      "from": "role-graph",
+      "to": "research-agent",
+      "label": "1"
+    },
+    {
+      "from": "role-graph",
+      "to": "strategy-agent",
+      "label": "2"
+    },
+    {
+      "from": "role-graph",
+      "to": "architect-agent",
+      "label": "3"
+    },
+    {
+      "from": "role-graph",
+      "to": "coding-agent",
+      "label": "4"
+    },
+    {
+      "from": "role-graph",
+      "to": "review-agent",
+      "label": "5"
+    },
+    {
+      "from": "role-graph",
+      "to": "qa-agent",
+      "label": "6"
+    },
+    {
+      "from": "role-graph",
+      "to": "delivery-agent",
+      "label": "7"
+    },
+    {
+      "from": "root",
+      "to": "runtime",
+      "label": "底座"
+    },
+    {
+      "from": "runtime",
+      "to": "mission-store",
+      "label": "任务状态"
+    },
+    {
+      "from": "runtime",
+      "to": "evidence-store",
+      "label": "证据"
+    },
+    {
+      "from": "runtime",
+      "to": "hooks",
+      "label": "制度"
+    },
+    {
+      "from": "runtime",
+      "to": "skills-mcp",
+      "label": "能力"
+    },
+    {
+      "from": "root",
+      "to": "normal-use",
+      "label": "怎么用"
+    },
+    {
+      "from": "normal-use",
+      "to": "debug-use",
+      "label": "排查"
+    },
+    {
+      "from": "root",
+      "to": "current-limit",
+      "label": "边界"
+    },
+    {
+      "from": "current-limit",
+      "to": "next-step",
+      "label": "下一步"
+    }
+  ]
+}
