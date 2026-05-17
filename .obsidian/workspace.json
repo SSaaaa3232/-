@@ -104,42 +104,6 @@
             }
           },
           {
-            "id": "0cd654e474bce892",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Promoter prediction mindmap"
-            }
-          },
-          {
-            "id": "eac9ec3c6651cb5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/ncreate/润色.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "润色"
-            }
-          },
-          {
             "id": "b1bdde17cb1aacdd",
             "type": "leaf",
             "state": {
@@ -174,9 +138,33 @@
               "icon": "lucide-file",
               "title": "深度拆解：AI Agent Harness 的构造【译】"
             }
+          },
+          {
+            "id": "a5242b1a8dd6237c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ted.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ted"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -394,22 +382,39 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "eac9ec3c6651cb5a",
+  "active": "a5242b1a8dd6237c",
   "lastOpenFiles": [
+    "ted.md",
+    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
+    "项目/论文/润色.md",
+    "项目/论文/Obsidian + Notemd 做论文深读与长期积累.md",
+    "226cd4faa5421d58abd09feb73cc6989_MD5.png",
+    "0c55ffd9e03c0d066c40a6ce7fda9da9_MD5.png",
+    "444f2b6501d6295c7ef4f0ef42afc96f_MD5.png",
+    "fec3d1f7f7ed51e0a11c6d5dcdd909f7_MD5.png",
+    "32ab9b6871bf63602bf4965d0d8911cb_MD5.png",
+    "89671a6ef3f0efa356bad751dde7d7be_MD5.jpg",
+    "f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
+    "a5800d0fbec25027f42d5744e57c9e03_MD5.jpg",
+    "7ffee3aa3ac4c32cf94a63023ab79139_MD5.jpg",
+    "89dafbcc7f4c5c3289c48b1a6c0636e4_MD5.jpg",
+    "项目/ncreate/PPT/生图.md",
+    "项目/ncreate/ncreate优化-提示词html.md",
+    "项目/论文/AI科研Context Is All You Need.md",
+    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw",
+    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
+    "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
+    "Excalidraw/ai-agent-harness-user-internal-flow/manifest.json",
+    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw.md",
+    "Excalidraw/ai-agent-harness-user-internal-flow/mindmap.json",
+    "Excalidraw/ai-agent-harness-user-internal-flow",
+    "项目/论文",
     "项目/Paseo/编排层.md",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
-    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
     "Excalidraw/ai-agent-harness-company-structure-2/manifest.json",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure-2/mindmap.json",
-    "Excalidraw/ai-agent-harness-company-structure-2",
-    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
-    "Excalidraw/ai-agent-harness-company-structure/manifest.json",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure/mindmap.json",
-    "Excalidraw/ai-agent-harness-company-structure",
-    "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "清单/开通服务.md",
     "清单/任务清单.md",
     "raw/1/Reiner Pope – The math behind how LLMs are trained and served.md",
@@ -417,14 +422,6 @@
     "raw/1/How Anthropic’s product team moves faster than anyone else  Cat Wu (Head of Product, Claude Code).md",
     "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
     "项目/Promoter prediction.md",
-    "d9372b22e37fb91a56279fa21f223568_MD5.jpg",
-    "527e25b62d30b99f7e4245043d591a87_MD5.jpg",
-    "f7d597ce67978b7f18e1f69641bd797b_MD5.jpg",
-    "1e07675ca26e026b2ee0ed85ec0d2a02_MD5.jpg",
-    "315a0546450a30c706ca661dbfde1f4c_MD5.jpg",
-    "c6a0d6c8f977b68380321c4ff5b3c4ea_MD5.jpg",
-    "c33d16fc6dc958eaa56255da3e24b0b5_MD5.jpg",
-    "540d545a13c776ca983678f0559064b8_MD5.jpg",
     "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw.md",
     "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
@@ -433,15 +430,7 @@
     "Excalidraw/工程范式/工程范式 2026-03-30 09.57.27.excalidraw.md",
     "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.42.50.excalidraw.md",
     "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.34.53.excalidraw.md",
-    "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.24.55.excalidraw.md",
-    "Excalidraw/认知边界 2026-04-14 23.40.05.excalidraw.md",
-    "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
-    "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
-    "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
-    "项目/VPS/VPS.md",
     "wiki/Wiki Map.canvas",
-    "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
-    "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",

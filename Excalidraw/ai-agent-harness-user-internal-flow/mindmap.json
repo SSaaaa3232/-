@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "title": "AI Agent Harness 使用与内部执行流程",
+  "source": {
+    "type": "conversation",
+    "path": "/Users/saaaaa/Desktop/项目/编排",
+    "created_at": "2026-05-17T15:10:00+08:00"
+  },
+  "layout": "vertical",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "Harness 流程",
+      "type": "topic",
+      "summary": "用户在 Codex 或 Claude 里自然说话，Harness 在后台完成大公司式多 Agent 编排。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-user-entry",
+      "label": "用户入口",
+      "type": "topic",
+      "summary": "用户不直接操作复杂 CLI，而是在 Codex 或 Claude 接入插件后自然表达任务。",
+      "note": "本地可用 `./bin/harness orchestrate \"你的任务\"` 模拟这个入口。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-connect-plugin",
+      "label": "接入投影",
+      "type": "action",
+      "summary": "先生成 Codex/Claude 可读的 Commander 投影文件。",
+      "note": "命令：`./bin/harness project codex` 或 `./bin/harness project claude`。产物在 `.harness/projections/`，不会覆盖用户原始配置。",
+      "source": "harness/README.md",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-natural-chat",
+      "label": "自然对话",
+      "type": "action",
+      "summary": "用户只说目标，不需要说 agent 怎么拆。",
+      "note": "例如：在 Codex/Claude 里说“帮我实现跨生态 agent 编排能力”。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-check-output",
+      "label": "查看结果",
+      "type": "action",
+      "summary": "用户最终看报告、分配关系、证据和阻塞点。",
+      "note": "关键文件：`.harness/missions/<mission>.commander-plan.json`、`.harness/missions/<mission>.handoffs.jsonl`、`.harness/runs/<run>/report.md`。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-commander",
+      "label": "Commander",
+      "type": "topic",
+      "summary": "入口模型变成统帅 Agent，负责识别任务、扫描资源、分配角色和要求证据。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-will-points",
+      "label": "四个意志点",
+      "type": "concept",
+      "summary": "把用户原话转成起点、创新点、转折点、终点。",
+      "note": "这是人类老板最小控制面：决定方向，不亲自管每个执行细节。",
+      "source": "AI Agent Harness 产品实现安排.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-discovery",
+      "label": "扫描已有 Agent",
+      "type": "action",
+      "summary": "扫描项目、全局配置和 PATH 上已有的 agent/CLI/skill/MCP。",
+      "note": "包括 `.claude/agents`、`.codex/agents`、`skills/*/SKILL.md`、`.mcp.json`、`facebook/agents`、`codex`、`claude`、`opencode`、`gemini`、`aider`。",
+      "source": "harness/src/scanner/agent-discovery.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-inventory",
+      "label": "Agent 清单",
+      "type": "concept",
+      "summary": "扫描结果写成可审计 JSON，供 Commander 分配角色。",
+      "note": "产物：`.harness/agents/discovered-agents.json`。每条记录包含 provider、kind、roles、capabilities、confidence、evidence。",
+      "source": "harness/src/types/schema.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-company-roles",
+      "label": "固定公司角色",
+      "type": "concept",
+      "summary": "角色固定，具体 agent 可替换。",
+      "note": "Research → Strategy → Architect → Coding → Review → QA → Delivery。只保留大公司模式。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-assignment",
+      "label": "个性化分配",
+      "type": "action",
+      "summary": "Commander 为每个公司角色选择最合适的已发现 agent。",
+      "note": "项目内 agent 优先于全局 agent，优先于 PATH 通用 CLI。Coding 偏 Codex/OpenCode/Aider，Review 偏 Claude/Codex，Research 偏 Gemini/Claude/local skill。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-handoff",
+      "label": "交接包",
+      "type": "concept",
+      "summary": "每个部门收到标准 HandoffPacket，知道目标、上下文、证据要求和被分配 agent。",
+      "note": "产物：`.harness/missions/<mission_id>.handoffs.jsonl`。字段里包含 `assigned_agent`。",
+      "source": "harness/src/core/commander.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-workflow",
+      "label": "执行骨架",
+      "type": "concept",
+      "summary": "当前版本跑可审计 stub workflow，不真正启动外部 agent。",
+      "note": "流程：clarify → plan → execute_stub → review_stub → verify_stub → report。每步都必须写 evidence。",
+      "source": "harness/src/core/workflow.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-evidence",
+      "label": "证据闭环",
+      "type": "conclusion",
+      "summary": "不能空口说完成，最终报告必须引用 evidence。",
+      "note": "产物：`.harness/runs/<run_id>/evidence.jsonl`、`report.md`、`summary.md`、`timeline.json`。",
+      "source": "harness/src/core/workflow.ts",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-boundary",
+      "label": "当前边界",
+      "type": "dispute",
+      "summary": "现在完成的是发现、分配、交接和审计，不是外部 agent 真实执行。",
+      "note": "下一步应该做 delegate job state、agent adapter、message bus、decision loop、real MCP server。",
+      "discussion_prompt": "基于当前 Harness，继续设计 delegate job state 和 agent adapter 的最小实现。",
+      "source": "docs/tasks/2026-05-17-harness-optimization-task-table.md",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-not-deviation",
+      "label": "不偏方向",
+      "type": "conclusion",
+      "summary": "产品不是 CLI-first、不是小公司模式、不是单生态开很多同类 agent。",
+      "note": "核心是跨生态 agent inventory + 固定公司角色 + 个性化分配 + handoff + evidence。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-user-entry",
+      "label": "用户看到"
+    },
+    {
+      "from": "n-user-entry",
+      "to": "n-connect-plugin",
+      "label": "首次接入"
+    },
+    {
+      "from": "n-user-entry",
+      "to": "n-natural-chat",
+      "label": "日常使用"
+    },
+    {
+      "from": "n-user-entry",
+      "to": "n-check-output",
+      "label": "验收"
+    },
+    {
+      "from": "n-root",
+      "to": "n-commander",
+      "label": "内部入口"
+    },
+    {
+      "from": "n-commander",
+      "to": "n-will-points",
+      "label": "理解任务"
+    },
+    {
+      "from": "n-commander",
+      "to": "n-discovery",
+      "label": "扫描资源"
+    },
+    {
+      "from": "n-discovery",
+      "to": "n-inventory",
+      "label": "写清单"
+    },
+    {
+      "from": "n-commander",
+      "to": "n-company-roles",
+      "label": "组织结构"
+    },
+    {
+      "from": "n-company-roles",
+      "to": "n-assignment",
+      "label": "绑定具体 agent"
+    },
+    {
+      "from": "n-inventory",
+      "to": "n-assignment",
+      "label": "作为输入"
+    },
+    {
+      "from": "n-assignment",
+      "to": "n-handoff",
+      "label": "生成交接"
+    },
+    {
+      "from": "n-handoff",
+      "to": "n-workflow",
+      "label": "进入执行"
+    },
+    {
+      "from": "n-workflow",
+      "to": "n-evidence",
+      "label": "留下证据"
+    },
+    {
+      "from": "n-evidence",
+      "to": "n-check-output",
+      "label": "反馈用户"
+    },
+    {
+      "from": "n-root",
+      "to": "n-boundary",
+      "label": "当前限制"
+    },
+    {
+      "from": "n-root",
+      "to": "n-not-deviation",
+      "label": "方向判断"
+    }
+  ]
+}
