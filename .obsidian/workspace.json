@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ted.md",
+                "file": "raw/TED/ted.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -356,12 +356,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 438.5,
-    "collapsed": true
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -382,22 +381,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "a5242b1a8dd6237c",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "ted.md",
+    "raw/TED",
+    "image/f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
+    "image/3c014aabc8bc1840003391d3101b8a59_MD5.jpg",
+    "image/1e07675ca26e026b2ee0ed85ec0d2a02_MD5.jpg",
+    "image/3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
+    "image/540d545a13c776ca983678f0559064b8_MD5.jpg",
+    "image/32ab9b6871bf63602bf4965d0d8911cb_MD5.png",
+    "image/c6a0d6c8f977b68380321c4ff5b3c4ea_MD5.jpg",
+    "image/f7d597ce67978b7f18e1f69641bd797b_MD5.jpg",
+    "image/48d0f33cf392b6a8cdeaf506f0bcb1d8_MD5.jpg",
+    "image/3779977ee04fe9c6128393ead9cfe8af_MD5.jpg",
+    "raw/TED/ted.md",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
     "项目/论文/润色.md",
     "项目/论文/Obsidian + Notemd 做论文深读与长期积累.md",
-    "226cd4faa5421d58abd09feb73cc6989_MD5.png",
-    "0c55ffd9e03c0d066c40a6ce7fda9da9_MD5.png",
-    "444f2b6501d6295c7ef4f0ef42afc96f_MD5.png",
-    "fec3d1f7f7ed51e0a11c6d5dcdd909f7_MD5.png",
-    "32ab9b6871bf63602bf4965d0d8911cb_MD5.png",
-    "89671a6ef3f0efa356bad751dde7d7be_MD5.jpg",
-    "f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
-    "a5800d0fbec25027f42d5744e57c9e03_MD5.jpg",
-    "7ffee3aa3ac4c32cf94a63023ab79139_MD5.jpg",
-    "89dafbcc7f4c5c3289c48b1a6c0636e4_MD5.jpg",
     "项目/ncreate/PPT/生图.md",
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/论文/AI科研Context Is All You Need.md",
@@ -429,7 +429,6 @@
     "Excalidraw/工程范式/工程范式 2026-03-30 10.06.38.excalidraw.md",
     "Excalidraw/工程范式/工程范式 2026-03-30 09.57.27.excalidraw.md",
     "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.42.50.excalidraw.md",
-    "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.34.53.excalidraw.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

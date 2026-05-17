@@ -4,8 +4,8 @@
   "title": "整理 How to install 上方名称链接表格",
   "titleGenerationStatus": "success",
   "createdAt": 1778383152077,
-  "updatedAt": 1778652706505,
-  "lastResponseAt": 1778652706505,
+  "updatedAt": 1779003208472,
+  "lastResponseAt": 1779003208471,
   "sessionId": "019e0fe5-67b6-70c2-8b93-2ed45fc3940f",
   "providerState": {
     "threadId": "019e0fe5-67b6-70c2-8b93-2ed45fc3940f",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
   },
   "usage": {
-    "inputTokens": 37093,
+    "inputTokens": 41141,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 34176,
+    "cacheReadInputTokens": 39296,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 37093,
-    "percentage": 14,
+    "contextTokens": 41141,
+    "percentage": 16,
     "model": "gpt-5.4-mini"
   }
 }
