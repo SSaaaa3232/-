@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "title": "DeerFlow 给 Harness 的长稳运行借鉴",
+  "source": {
+    "type": "analysis",
+    "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/deer-flow-harness-long-running-learnings/deer-flow-git-ana-analysis.md",
+    "created_at": "2026-05-17T18:30:00+08:00"
+  },
+  "layout": "dependency",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "长稳运行层",
+      "type": "topic",
+      "summary": "DeerFlow 的核心启发是把长任务从一次模型调用升级成有状态、有事件、有检查点的运行时系统。",
+      "note": "用于优化你的 AI Agent Harness：大公司模式、跨生态个性化 Agent 编排、Commander 统筹、多角色 handoff。",
+      "source": "analysis",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-positioning",
+      "label": "项目定位",
+      "type": "context",
+      "summary": "DeerFlow 是 super agent harness，编排 sub-agents、memory、sandboxes、skills。",
+      "note": "证据：README.md:12；backend/CLAUDE.md:7。",
+      "source": "analysis/repos/deer-flow/README.md:12",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-runtime-shell",
+      "label": "运行时外壳",
+      "type": "concept",
+      "summary": "Gateway 初始化 runtime singletons：stream、checkpoint、store、run manager、event store。",
+      "note": "证据：backend/app/gateway/deps.py:41-92。你的 Harness 对应 plugin/CLI/MCP 共用 core。",
+      "source": "analysis/repos/deer-flow/backend/app/gateway/deps.py:41",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-run-manager",
+      "label": "RunManager",
+      "type": "concept",
+      "summary": "把每次任务变成 run 状态机，支持持久化和并发策略。",
+      "note": "pending/running/success/error/timeout/interrupted；支持 reject/interrupt/rollback。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/runtime/runs/manager.py:42",
+      "priority": "high",
+      "status": "todo",
+      "discussion_prompt": "把当前 Harness 的 workflow/run 文件改造成 RunManager：状态、并发策略、cancel/rollback 应该怎么设计？"
+    },
+    {
+      "id": "n-worker",
+      "label": "后台 Worker",
+      "type": "concept",
+      "summary": "run_agent 后台执行，运行前 snapshot，finally 必定 flush/publish_end/cleanup。",
+      "note": "证据：worker.py:181-197, 366-403。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/runtime/runs/worker.py:181",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-stream",
+      "label": "事件流",
+      "type": "concept",
+      "summary": "StreamBridge 解耦 worker 和消费者，支持 Last-Event-ID、heartbeat、bounded replay。",
+      "note": "你的本地版可以是 events.jsonl + observe --follow --after <seq>。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/runtime/stream_bridge/base.py:16",
+      "priority": "high",
+      "status": "todo",
+      "discussion_prompt": "为 Harness 设计本地 StreamBridge：如何让 Codex/Claude 插件持续观察 run/job 事件？"
+    },
+    {
+      "id": "n-checkpoint",
+      "label": "检查点",
+      "type": "concept",
+      "summary": "Checkpointer/Store 支持 memory、sqlite、postgres，把状态恢复和长期存储分层。",
+      "note": "MVP 可继续 file/jsonl，但接口要预留 StateStore。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py:1",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-event-store",
+      "label": "证据事件库",
+      "type": "concept",
+      "summary": "RunEventStore 统一 message、trace、lifecycle、evidence，并保证 seq 递增。",
+      "note": "你的 evidence.jsonl 应并入 event stream，report 引用 event id。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/runtime/events/store/base.py:17",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-subagent",
+      "label": "受控委派",
+      "type": "concept",
+      "summary": "Subagent 有状态、有 hard limit，且禁止子 agent 再开 subagent。",
+      "note": "你的跨生态 Agent 更不可控，更要限制深度和并发。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/tools/builtins/task_tool.py:262",
+      "priority": "high",
+      "status": "todo",
+      "discussion_prompt": "把 Harness 的 agent 管 agent 收束成 Commander 审批的 delegation_request，而不是无限递归。"
+    },
+    {
+      "id": "n-prompt",
+      "label": "统帅 Prompt",
+      "type": "concept",
+      "summary": "Prompt 明确 DECOMPOSE、DELEGATE、SYNTHESIZE，但真正限制靠中间件。",
+      "note": "证据：lead_agent/prompt.py:235-255；subagent_limit_middleware.py:25-35。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/agents/lead_agent/prompt.py:235",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-memory",
+      "label": "角色记忆",
+      "type": "concept",
+      "summary": "Memory queue 用 thread/user/agent 作为 key，避免不同 agent 记忆混杂。",
+      "note": "Harness 应给 Research/Strategy/Architect/Coding/Review/QA/Delivery 做 role memory namespace。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/agents/memory/queue.py:43",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-sandbox",
+      "label": "工作区隔离",
+      "type": "concept",
+      "summary": "per-thread/user sandbox path mapping，skills read-only，自定义 mount 要校验。",
+      "note": "Harness 调外部 CLI agent 时，应给每个 delegate job 独立 handoff/workspace/outputs。",
+      "source": "analysis/repos/deer-flow/backend/packages/harness/deerflow/sandbox/local/local_sandbox_provider.py:34",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-tests",
+      "label": "测试矩阵",
+      "type": "learning",
+      "summary": "DeerFlow 用测试覆盖 run、stream、rollback、blocking IO、memory queue、subagent limit。",
+      "note": "Harness 下一批测试应覆盖 cancel、timeout、stream replay、递归委派拦截、report missing。",
+      "source": "analysis/repos/deer-flow/backend/tests/test_run_worker_rollback.py:96",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-harness-p0",
+      "label": "Harness P0",
+      "type": "action",
+      "summary": "先做 RunManager、EventStore、Delegate Stream、硬并发限制、防递归、finally contract。",
+      "note": "这直接补当前 Harness 的长稳运行短板，不偏离大公司模式。",
+      "source": "analysis",
+      "priority": "high",
+      "status": "todo"
+    },
+    {
+      "id": "n-harness-p1",
+      "label": "Harness P1",
+      "type": "action",
+      "summary": "再做 StateStore、observe reconnect、job rollback、middleware chain、blocking IO tests。",
+      "note": "等本地文件版稳定，再考虑 SQLite/Postgres。",
+      "source": "analysis",
+      "priority": "medium",
+      "status": "todo"
+    },
+    {
+      "id": "n-dont-copy",
+      "label": "不要照搬",
+      "type": "dispute",
+      "summary": "不要把 Harness 变成 DeerFlow 的单一 super agent app。",
+      "note": "你的差异化仍是跨生态个性化 Agent 编排：扫描已有 Codex/Claude/OpenCode/Gemini/Aider/Facebook agents，再按公司角色分配。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-product-fit",
+      "label": "产品贴合",
+      "type": "conclusion",
+      "summary": "吸收运行时，不吸收产品形态。用 DeerFlow 的工程骨架加固你的大公司 Commander 体系。",
+      "note": "当前方向：大公司模式 only；入口模型为 Commander；跨生态 agent discovery；固定角色链；证据驱动交付。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "resolved"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-positioning",
+      "label": "参考对象"
+    },
+    {
+      "from": "n-root",
+      "to": "n-runtime-shell",
+      "label": "运行时容器"
+    },
+    {
+      "from": "n-runtime-shell",
+      "to": "n-run-manager",
+      "label": "管理 run"
+    },
+    {
+      "from": "n-run-manager",
+      "to": "n-worker",
+      "label": "驱动执行"
+    },
+    {
+      "from": "n-worker",
+      "to": "n-stream",
+      "label": "发布进度"
+    },
+    {
+      "from": "n-worker",
+      "to": "n-checkpoint",
+      "label": "恢复状态"
+    },
+    {
+      "from": "n-worker",
+      "to": "n-event-store",
+      "label": "记录证据"
+    },
+    {
+      "from": "n-root",
+      "to": "n-subagent",
+      "label": "多 Agent"
+    },
+    {
+      "from": "n-subagent",
+      "to": "n-prompt",
+      "label": "prompt 引导"
+    },
+    {
+      "from": "n-subagent",
+      "to": "n-tests",
+      "label": "防回归"
+    },
+    {
+      "from": "n-root",
+      "to": "n-memory",
+      "label": "长上下文"
+    },
+    {
+      "from": "n-root",
+      "to": "n-sandbox",
+      "label": "隔离"
+    },
+    {
+      "from": "n-run-manager",
+      "to": "n-harness-p0",
+      "label": "落地"
+    },
+    {
+      "from": "n-stream",
+      "to": "n-harness-p0",
+      "label": "落地"
+    },
+    {
+      "from": "n-event-store",
+      "to": "n-harness-p0",
+      "label": "落地"
+    },
+    {
+      "from": "n-subagent",
+      "to": "n-harness-p0",
+      "label": "落地"
+    },
+    {
+      "from": "n-checkpoint",
+      "to": "n-harness-p1",
+      "label": "下一步"
+    },
+    {
+      "from": "n-memory",
+      "to": "n-harness-p1",
+      "label": "下一步"
+    },
+    {
+      "from": "n-tests",
+      "to": "n-harness-p1",
+      "label": "下一步"
+    },
+    {
+      "from": "n-root",
+      "to": "n-dont-copy",
+      "label": "边界"
+    },
+    {
+      "from": "n-dont-copy",
+      "to": "n-product-fit",
+      "label": "收束"
+    },
+    {
+      "from": "n-harness-p0",
+      "to": "n-product-fit",
+      "label": "加固"
+    },
+    {
+      "from": "n-harness-p1",
+      "to": "n-product-fit",
+      "label": "演进"
+    }
+  ]
+}
