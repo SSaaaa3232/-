@@ -169,10 +169,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md"
+                "file": "Excalidraw/ai-agent-harness-current-function-map/ai-agent-harness-current-function-map.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "ai-agent-harness-公司结构.excalidraw"
+              "title": "ai-agent-harness-current-function-map"
             }
           }
         ],
@@ -372,7 +372,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 438.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -395,20 +396,27 @@
   },
   "active": "75afce6de768fb5c",
   "lastOpenFiles": [
-    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw",
     "项目/Paseo/编排层.md",
+    "Excalidraw/ai-agent-harness-current-function-map/ai-agent-harness-current-function-map.excalidraw",
+    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
+    "Excalidraw/ai-agent-harness-current-function-map/mindmap.json",
+    "Excalidraw/ai-agent-harness-current-function-map/manifest.json",
+    "Excalidraw/ai-agent-harness-current-function-map/ai-agent-harness-current-function-map.excalidraw.md",
+    "Excalidraw/ai-agent-harness-current-function-map",
+    "raw/1/创始人手册：打造 AI 原生初创公司.md",
+    "7a96599d675d8891a60434a1f03232d4_MD5.png",
+    "c135d7c4de332db35b8973f1718729df_MD5.png",
+    "30a7cd3d694e8eaec36aad7b72adff8f_MD5.png",
+    "2c5aa0ef6f6699e317f4e9bb9d4819f3_MD5.png",
+    "ee9a55b3a54992394209407db863051d_MD5.png",
+    "21ba0460ce1830fe384d1406c4cd407d_MD5.png",
+    "d8c2c32fbe66ca399656474b6cfb6d33_MD5.png",
+    "953823e1fb826a533629381f848c3452_MD5.png",
+    "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw",
     "raw/TED/ted.md",
     "raw/TED",
     "image/f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
     "image/3c014aabc8bc1840003391d3101b8a59_MD5.jpg",
-    "image/1e07675ca26e026b2ee0ed85ec0d2a02_MD5.jpg",
-    "image/3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
-    "image/540d545a13c776ca983678f0559064b8_MD5.jpg",
-    "image/32ab9b6871bf63602bf4965d0d8911cb_MD5.png",
-    "image/c6a0d6c8f977b68380321c4ff5b3c4ea_MD5.jpg",
-    "image/f7d597ce67978b7f18e1f69641bd797b_MD5.jpg",
-    "image/48d0f33cf392b6a8cdeaf506f0bcb1d8_MD5.jpg",
-    "image/3779977ee04fe9c6128393ead9cfe8af_MD5.jpg",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
     "项目/论文/润色.md",
     "项目/论文/Obsidian + Notemd 做论文深读与长期积累.md",
@@ -419,12 +427,7 @@
     "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "Excalidraw/ai-agent-harness-user-internal-flow/manifest.json",
     "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw.md",
-    "Excalidraw/ai-agent-harness-user-internal-flow/mindmap.json",
-    "Excalidraw/ai-agent-harness-user-internal-flow",
-    "项目/论文",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
-    "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
-    "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw.md",
     "清单/开通服务.md",
     "清单/任务清单.md",
@@ -438,8 +441,6 @@
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "human-skill-mindmap.md",
     "Excalidraw/工程范式/工程范式 2026-03-30 10.06.38.excalidraw.md",
-    "Excalidraw/工程范式/工程范式 2026-03-30 09.57.27.excalidraw.md",
-    "Excalidraw/Claude code源码解析/Claude code源码解析 2026-03-31 20.42.50.excalidraw.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

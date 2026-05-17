@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "analysis",
+    "path": "/Users/saaaaa/Desktop/项目/编排/harness",
+    "created_at": "2026-05-17T09:52:58.114759+00:00"
+  },
+  "title": "AI Agent Harness 当前功能图",
+  "layout": "dependency",
+  "node_count": 43,
+  "edge_count": 61,
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/ai-agent-harness-current-function-map/mindmap.json",
+      "kind": "mindmap-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/ai-agent-harness-current-function-map/ai-agent-harness-current-function-map.excalidraw",
+      "kind": "excalidraw-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/ai-agent-harness-current-function-map/ai-agent-harness-current-function-map.excalidraw.md",
+      "kind": "obsidian-excalidraw"
+    }
+  ],
+  "generated_at": "2026-05-17T09:52:58.179408+00:00"
+}
