@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "title": "AI Agent Harness 大公司关系图",
+  "source": {
+    "type": "conversation",
+    "created_at": "2026-05-17T00:00:00+08:00"
+  },
+  "layout": "vertical",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "Harness 大公司",
+      "type": "topic",
+      "summary": "把人类从亲自指挥执行 Agent，升级为只决定关键方向、由统筹 Agent 管理执行体系。",
+      "note": "核心隐喻：小公司是老板亲自下场干活；大公司是老板定义方向，CEO 和组织系统调动部门完成复杂目标。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-small-company",
+      "label": "小公司模式",
+      "type": "dispute",
+      "summary": "人类直接对单个 Agent 下命令，相当于老板亲自下场做任务。",
+      "note": "优点是快、简单；缺点是上限由人类认知、拆解能力、提示能力决定。未知领域里，人类不知道怎么问、怎么拆、怎么验收。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-big-company",
+      "label": "大公司模式",
+      "type": "conclusion",
+      "summary": "人类定义方向，入口 Agent 统筹组织，多个专业 Agent 分工执行。",
+      "note": "产品目标不是替代人类，而是把人类从执行细节中抽离出来，让组织能力突破个人认知上限。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-human-boss",
+      "label": "人类老板",
+      "type": "concept",
+      "summary": "人类是绝对老板，只负责不可外包的方向判断。",
+      "note": "四个关键意志点：起点、创新点、转折点、终点。人类不需要掌握全部专业知识，也不需要亲自拆每个任务。",
+      "discussion_prompt": "继续细化：人类老板在每个阶段需要做哪些最小决策？",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-four-points",
+      "label": "四个意志点",
+      "type": "concept",
+      "summary": "起点、创新点、转折点、终点是人类保留控制权的最小接口。",
+      "note": "起点=我要什么方向；创新点=哪里要突破常规；转折点=何时改变路径；终点=什么算完成。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-entry-agent",
+      "label": "入口统帅 Agent",
+      "type": "concept",
+      "summary": "插件插入哪个 Agent，哪个 Agent 就成为人类的沟通入口和公司话事人。",
+      "note": "例如插入 Codex，则 Codex 当前模型承担 CEO/话事人角色；插入 Claude，则 Claude 承担入口统筹。用户不需要直接理解背后的多 Agent 运作。",
+      "discussion_prompt": "继续细化：Codex/Claude 作为入口 Agent 时，哪些职责相同，哪些职责不同？",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-harness-runtime",
+      "label": "Harness 运行层",
+      "type": "concept",
+      "summary": "真正的组织系统，负责把人类意志变成可执行流程。",
+      "note": "包括任务拆解、上下文管理、角色分配、状态记录、证据收集、策略约束、跨平台适配。Plugin 是入口形态，Harness Runtime 是核心能力。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-orchestrator",
+      "label": "编排层",
+      "type": "concept",
+      "summary": "把目标拆成阶段、角色、依赖、检查点和交付物。",
+      "note": "相当于公司里的 COO/项目管理系统，决定谁先做、谁复核、哪里停下来问老板、哪里自动推进。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-agents",
+      "label": "部门 Agent",
+      "type": "concept",
+      "summary": "专业 Agent 像公司部门，承担研究、设计、工程、审查、测试、交付等职能。",
+      "note": "这些 Agent 不直接争夺用户入口，而是在 Harness 的调度下完成专门任务。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-strategy-agent",
+      "label": "战略 Agent",
+      "type": "concept",
+      "summary": "负责澄清目标、识别机会、提出路线和备选方案。",
+      "note": "对应公司战略部/产品负责人；主要处理起点与创新点。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-research-agent",
+      "label": "研究 Agent",
+      "type": "concept",
+      "summary": "负责补全未知领域知识、调研资料、验证事实。",
+      "note": "解决人类面对未知领域无从下手的问题。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-architect-agent",
+      "label": "架构 Agent",
+      "type": "concept",
+      "summary": "负责把目标转成系统结构、模块边界和技术路线。",
+      "note": "对应技术负责人/架构师。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-execution-agent",
+      "label": "执行 Agent",
+      "type": "concept",
+      "summary": "负责写代码、改文件、跑命令、调用工具完成具体任务。",
+      "note": "Codex、Claude、Cursor、其他 CLI agent 都可以成为执行部门。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-review-agent",
+      "label": "审查 Agent",
+      "type": "concept",
+      "summary": "负责代码审查、方案质疑、风险识别和质量门禁。",
+      "note": "对应公司里的法务、QA、架构评审、红队审查。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-ops-agent",
+      "label": "交付 Agent",
+      "type": "concept",
+      "summary": "负责整理报告、产物归档、发布、同步 Obsidian 或项目文档。",
+      "note": "让复杂执行过程留下可复用的组织资产。",
+      "source": "conversation",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-capability-layer",
+      "label": "能力资源层",
+      "type": "concept",
+      "summary": "Skills、MCP、Hooks 是 Agent 组织的能力、工具和制度。",
+      "note": "Agent 是员工；Skill 是岗位 SOP；MCP 是外部工具/系统接口；Hook 是流程制度和风控。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-skills",
+      "label": "Skill = SOP",
+      "type": "concept",
+      "summary": "Skill 封装可复用的方法、角色、流程和输出规范。",
+      "note": "像公司里的培训手册/岗位作业标准，让不同 Agent 可以复用稳定能力。",
+      "discussion_prompt": "继续细化：哪些 Skill 应该成为 Harness 第一批内置能力？",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-mcp",
+      "label": "MCP = 工具接口",
+      "type": "concept",
+      "summary": "MCP 连接外部系统、数据源、浏览器、数据库、文件和服务。",
+      "note": "像公司采购的设备、外部 API、内部系统权限。它让 Agent 不只会说，还能接触真实世界。",
+      "discussion_prompt": "继续细化：Harness 需要统一管理哪些 MCP 连接和权限？",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-hooks",
+      "label": "Hook = 制度",
+      "type": "concept",
+      "summary": "Hook 在关键节点拦截、检查、记录或要求人工确认。",
+      "note": "像审批流、财务制度、审计日志、安全红线。用于防止 Agent 跳步、假完成、误删、越权。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-state-memory",
+      "label": "状态记忆层",
+      "type": "concept",
+      "summary": "记录任务状态、上下文、证据、产物、偏好和历史决策。",
+      "note": "公司不是靠单次对话运转，而是靠流程、档案、交接和组织记忆。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-human-gates",
+      "label": "人工门禁",
+      "type": "conclusion",
+      "summary": "人类在关键转折点介入，而不是每一步都亲自执行。",
+      "note": "这保留了老板的方向控制权，同时避免老板陷入低层执行细节。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-output",
+      "label": "伟大产物",
+      "type": "conclusion",
+      "summary": "最终目标是让个体拥有大公司式组织能力，突破小作坊上限。",
+      "note": "不是让 AI 替代老板，而是让老板拥有组织、部门、制度、工具和执行网络。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-plugin-form",
+      "label": "插件形态",
+      "type": "concept",
+      "summary": "Harness 通过插件附着到 Codex、Claude、Cursor 等现有入口。",
+      "note": "不抢用户已有工作习惯，而是在原入口后面接入组织系统。",
+      "source": "conversation",
+      "priority": "high",
+      "status": "understood"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-small-company",
+      "label": "对比"
+    },
+    {
+      "from": "n-root",
+      "to": "n-big-company",
+      "label": "目标"
+    },
+    {
+      "from": "n-big-company",
+      "to": "n-human-boss",
+      "label": "最高控制权"
+    },
+    {
+      "from": "n-human-boss",
+      "to": "n-four-points",
+      "label": "只管关键意志"
+    },
+    {
+      "from": "n-four-points",
+      "to": "n-entry-agent",
+      "label": "传达给"
+    },
+    {
+      "from": "n-entry-agent",
+      "to": "n-plugin-form",
+      "label": "通过"
+    },
+    {
+      "from": "n-plugin-form",
+      "to": "n-harness-runtime",
+      "label": "接入"
+    },
+    {
+      "from": "n-harness-runtime",
+      "to": "n-orchestrator",
+      "label": "核心"
+    },
+    {
+      "from": "n-orchestrator",
+      "to": "n-agents",
+      "label": "调度"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-strategy-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-research-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-architect-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-execution-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-review-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-agents",
+      "to": "n-ops-agent",
+      "label": "部门"
+    },
+    {
+      "from": "n-orchestrator",
+      "to": "n-capability-layer",
+      "label": "调用"
+    },
+    {
+      "from": "n-capability-layer",
+      "to": "n-skills",
+      "label": "方法"
+    },
+    {
+      "from": "n-capability-layer",
+      "to": "n-mcp",
+      "label": "工具"
+    },
+    {
+      "from": "n-capability-layer",
+      "to": "n-hooks",
+      "label": "制度"
+    },
+    {
+      "from": "n-harness-runtime",
+      "to": "n-state-memory",
+      "label": "沉淀"
+    },
+    {
+      "from": "n-state-memory",
+      "to": "n-human-gates",
+      "label": "支撑"
+    },
+    {
+      "from": "n-human-gates",
+      "to": "n-output",
+      "label": "收敛"
+    }
+  ]
+}

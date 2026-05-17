@@ -145,10 +145,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw"
+                "file": "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw"
               },
               "icon": "excalidraw-icon",
-              "title": "本地-agent-编排层"
+              "title": "ai-agent-harness-大公司关系图"
             }
           },
           {
@@ -233,8 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
-    "collapsed": true
+    "width": 377.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -397,6 +396,12 @@
   },
   "active": "b1bdde17cb1aacdd",
   "lastOpenFiles": [
+    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
+    "Excalidraw/ai-agent-harness-company-structure/manifest.json",
+    "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw.md",
+    "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
+    "Excalidraw/ai-agent-harness-company-structure/mindmap.json",
+    "Excalidraw/ai-agent-harness-company-structure",
     "Excalidraw/aniger-promoter-model-routes/Promoter prediction mindmap.excalidraw",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
     "清单/开通服务.md",
@@ -407,7 +412,6 @@
     "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md",
     "项目/Paseo/编排层.md",
     "项目/Promoter prediction.md",
-    "Excalidraw/agent-orchestration-layer/本地-agent-编排层.excalidraw",
     "d9372b22e37fb91a56279fa21f223568_MD5.jpg",
     "527e25b62d30b99f7e4245043d591a87_MD5.jpg",
     "f7d597ce67978b7f18e1f69641bd797b_MD5.jpg",
@@ -433,13 +437,9 @@
     "Excalidraw/认知边界 2026-04-14 23.40.05.excalidraw.md",
     "Excalidraw/达尔文.skill 2026-04-14 21.19.21.excalidraw.md",
     "Excalidraw/aniger-promoter-model-routes/黑曲霉-promoter-模型路线.excalidraw.md",
-    "Excalidraw/aniger-promoter-model-routes/manifest.json",
-    "Excalidraw/aniger-promoter-model-routes/mindmap.json",
-    "Excalidraw/aniger-promoter-model-routes",
     "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
     "项目/VPS/VPS.md",
     "清单/MCP.md",
-    "项目/ncreate/ncreate优化-提示词html.md",
     "wiki/Wiki Map.canvas",
     "3b42b186152fe34bd4d4cb875b145322_MD5.jpg",
     "003a49664701ec0b60d3fb51e81132a0_MD5.jpg",
