@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/TED/ted.md",
+                "file": "项目/Paseo/编排层.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ted"
+              "title": "编排层"
             }
           }
         ],
@@ -221,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -381,8 +382,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "a5242b1a8dd6237c",
   "lastOpenFiles": [
+    "raw/TED/ted.md",
     "raw/TED",
     "image/f769557865675d8aa52fc08d78ccc9bf_MD5.jpg",
     "image/3c014aabc8bc1840003391d3101b8a59_MD5.jpg",
@@ -394,7 +396,6 @@
     "image/f7d597ce67978b7f18e1f69641bd797b_MD5.jpg",
     "image/48d0f33cf392b6a8cdeaf506f0bcb1d8_MD5.jpg",
     "image/3779977ee04fe9c6128393ead9cfe8af_MD5.jpg",
-    "raw/TED/ted.md",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw",
     "项目/论文/润色.md",
     "项目/论文/Obsidian + Notemd 做论文深读与长期积累.md",
@@ -412,7 +413,6 @@
     "项目/Paseo/编排层.md",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw",
-    "Excalidraw/ai-agent-harness-company-structure-2/manifest.json",
     "Excalidraw/ai-agent-harness-company-structure-2/ai-agent-harness-公司结构.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/ai-agent-harness-大公司关系图.excalidraw.md",
     "清单/开通服务.md",
