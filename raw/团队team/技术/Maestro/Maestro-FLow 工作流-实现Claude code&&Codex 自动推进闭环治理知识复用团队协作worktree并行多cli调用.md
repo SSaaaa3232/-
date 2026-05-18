@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Maestro-FLow 工作流：Claude Code 与 Codex 自动推进闭环治理]]"
+raw_path: "raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md"
 title: "【开源自荐】Maestro-FLow 工作流-实现Claude code&&Codex 自动推进/闭环治理/知识复用/团队协作/worktree并行/多cli调用"
 source: "https://linux.do/t/topic/2102464"
 author:

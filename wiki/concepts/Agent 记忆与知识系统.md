@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "Agent 记忆与知识系统"
 tags:
   - concept
@@ -17,6 +17,9 @@ sources:
   - "[[wiki/sources/Source - MEMORY 高层规则（待整理）]]"
   - "[[wiki/sources/Source - 参考架构]]"
   - "[[wiki/sources/Source - Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图]]"
+  - "[[wiki/sources/Source - 深度拆解：AI Agent Harness 的构造【译】]]"
+  - "[[wiki/sources/Source - Paper 待读清单]]"
+  - "[[wiki/sources/Source - 两周浅学 RAG]]"
 ---
 
 # Agent 记忆与知识系统
@@ -40,3 +43,8 @@ sources:
 - [[wiki/sources/Source - MEMORY 高层规则（待整理）]] — `raw/团队team/方法论/MEMORY 高层规则（待整理）.md`
 - [[wiki/sources/Source - 参考架构]] — `raw/团队team/方法论/模式/MemOS.md`
 - [[wiki/sources/Source - Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图]] — `raw/团队team/方法论/模式/Skill、Harness、记忆、安全.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - 深度拆解：AI Agent Harness 的构造【译】]] — `raw/1/深度拆解：AI Agent Harness 的构造【译】.md`；文章系统解释 AI Agent Harness：编排循环、工具、记忆、上下文管理、状态持久化、错误处理和护栏。
+- [[wiki/sources/Source - Paper 待读清单]] — `raw/paper/paper.md`；论文链接清单，包含 Multi-agent LLM Agent Memory 与 DNA 引导 CRISPR-Cas12 细胞 RNA 靶向。
+- [[wiki/sources/Source - 两周浅学 RAG]] — `raw/团队team/技术/RAG.md`；作者用两周学习快照解释 RAG，从“搜索 + LLM”的朴素理解进入语义检索、词袋模型、向量相似等基础。

@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - TED 待看清单]]"
+raw_path: "raw/TED/ted.md"
 aliases:
 ---
 

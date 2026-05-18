@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Hot Cache"
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
   - hot-cache
@@ -10,6 +10,7 @@ related:
   - "[[index]]"
   - "[[log]]"
   - "[[overview]]"
+  - "[[raw-incremental-ingest-2026-05-18]]"
 ---
 
 # Recent Context
@@ -17,18 +18,14 @@ related:
 Navigation: [[index]] | [[log]] | [[overview]]
 
 ## Last Updated
-2026-05-06. 完成全库 lint + 断链修复：dead links 0、歧义链接 0、frontmatter gaps 0；补了少量 alias notes 和 4 个 frontmatter 段。
+2026-05-18. 完成 `raw/` 增量 ingest：处理 21 个未带 `ingested` 标记的 Markdown 来源，生成 source seed pages，并给原文 frontmatter 写入 `ingested` / `wiki_page` / `raw_path` 防重复标记。
 
 ## Key Recent Facts
-- 新增/更新核心 synthesis：[[raw-batch-synthesis-2026-05-06]]。
-- 新增健康检查报告：[[lint-report-2026-05-06]]。
-- 主要概念簇：[[Claude Code 与 Agentic Coding]], [[Agent Skills 工业化]], [[Harness 与多 Agent 操作系统]], [[Agent 记忆与知识系统]], [[AI 安全与权限边界]], [[AI 经济与组织重构]], [[内容创作与个人 IP]], [[认知与决策模型]], [[投资理财与机会判断]], [[技术基础设施与工程工具]], [[视觉表达与设计系统]], [[学习、读书与研究方法]], [[网络身份与出海基础设施]], [[AI 模型与前沿研究]]。
-- 领域总览更新：[[AI Agent 系统]], [[个人认知与学习]], [[内容创作与视觉表达]], [[投资、商业与组织]], [[工程基础设施]], [[AI 前沿研究]]。
+- 新增综合摘要：[[raw-incremental-ingest-2026-05-18]]。
+- 新增资料强化三条主线：[[Claude Code 与 Agentic Coding]]、[[Harness 与多 Agent 操作系统]]、[[AI 经济与组织重构]]。
+- 新增/扩展外延：[[RAG]] 相关的 [[Agent 记忆与知识系统]]、HTML artifact 相关的 [[视觉表达与设计系统]]、以及新概念 [[合成生物学与生物设计]]。
+- `CLAUDE.md` 已更新：以后 ingest `raw/` 后必须立即写入 `ingested` 标记；批量 ingest 先跳过已标记文件，避免重复编译。
 
-## Big Picture
-这批 raw 的主线是把 AI Agent 能力工程化：用 Claude Code/Skills/Harness/Memory/Wiki 形成个人与团队操作系统，再扩展到内容创作、研究分析、视觉表达、投资判断和基础设施。核心张力是“放大自动化”与“保持可控”：权限、安全、验证、时效性和人类 loop 都需要被显式设计。
-
-## Recommended Next
-1. 对 Cat Wu 长访谈、AI 经济账、知识图谱、决策心智模型、Claude Code Hooks 做 deep ingest。
-2. 把高频流程转成 Skill/playbook。
-3. 对市场、法规、模型版本、产品能力类内容联网复核后再用于决策。
+## Active Threads
+- 继续把 `raw/` 作为用户手动分类的原始资料区，不移动原文。
+- 推荐 deep ingest：[[Source - Claude 技能构建完整指南]], [[Source - 深度拆解：AI Agent Harness 的构造【译】]], [[Source - Reiner Pope – The math behind how LLMs are trained and served]], Maestro/CCW 系列。

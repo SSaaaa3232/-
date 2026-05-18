@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]]"
+raw_path: "raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md"
 title: "【知乎长文】高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考"
 source: "https://linux.do/t/topic/2145779"
 author:

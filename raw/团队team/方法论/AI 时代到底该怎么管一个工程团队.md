@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]]"
+raw_path: "raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md"
 title: "AI 时代到底该怎么管一个工程团队"
 source: "https://baoyu.io/blog/2026-05-12/running-an-ai-native-engineering-org"
 author:

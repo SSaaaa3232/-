@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Claude-code-workflow(CCW) 使用技巧分享]]"
+raw_path: "raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md"
 title: "【长期贴】 Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow"
 source: "https://linux.do/t/topic/1863021"
 author:

@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - CCW V7.X 与 Maestro-Flow 展望]]"
+raw_path: "raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md"
 title: "[开源]CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望"
 source: "https://linux.do/t/topic/1806070"
 author:

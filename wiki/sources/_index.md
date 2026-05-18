@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Sources Index"
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
 status: evergreen
@@ -10,6 +10,51 @@ status: evergreen
 # Sources Index
 
 所有已 ingest 的原始来源，每条对应一个 `wiki/sources/` 页面。
+
+## 2026-05-18 raw incremental ingest (21)
+
+### AI 模型与前沿研究 (3)
+- [[wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served]] — `raw/1/Reiner Pope – The math behind how LLMs are trained and served.md`
+- [[wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f]] — `raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md`
+- [[wiki/sources/Source - Paper 待读清单]] — `raw/paper/paper.md`
+
+### AI 经济与组织重构 (4)
+- [[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]] — `raw/1/创始人手册：打造 AI 原生初创公司.md`
+- [[wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次]] — `raw/articles/AI最大的礼物，是让你能廉价地失败100次.md`
+- [[wiki/sources/Source - 创业十道坎]] — `raw/团队team/方法论/10.md`
+- [[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]] — `raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md`
+
+### Agent Skills 工业化 (1)
+- [[wiki/sources/Source - Claude 技能构建完整指南]] — `raw/1/skill building/claude-skills-building-guide.md`
+
+### Agent 记忆与知识系统 (1)
+- [[wiki/sources/Source - 两周浅学 RAG]] — `raw/团队team/技术/RAG.md`
+
+### Claude Code 与 Agentic Coding (3)
+- [[wiki/sources/Source - 为什么我不“凭感觉编程”]] — `raw/articles/为什么我不“凭感觉编程”.md`
+- [[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]] — `raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md`
+- [[wiki/sources/Source - Vibe coding 与传统软件工程流程]] — `raw/团队team/技术/vibe coding.md`
+
+### Harness 与多 Agent 操作系统 (4)
+- [[wiki/sources/Source - 深度拆解：AI Agent Harness 的构造【译】]] — `raw/1/深度拆解：AI Agent Harness 的构造【译】.md`
+- [[wiki/sources/Source - Claude-code-workflow(CCW) 使用技巧分享]] — `raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md`
+- [[wiki/sources/Source - Maestro-FLow 工作流：Claude Code 与 Codex 自动推进闭环治理]] — `raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md`
+- [[wiki/sources/Source - CCW V7.X 与 Maestro-Flow 展望]] — `raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md`
+
+### 内容创作与个人 IP (1)
+- [[wiki/sources/Source - 上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。]] — `raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md`
+
+### 技术基础设施与工程工具 (1)
+- [[wiki/sources/Source - 逆向工程复现方法论：chat.bankofai.io]] — `raw/团队team/技术/逆向🔄.md`
+
+### 杂项与待复核 (1)
+- [[wiki/sources/Source - TED 待看清单]] — `raw/TED/ted.md`
+
+### 视觉表达与设计系统 (1)
+- [[wiki/sources/Source - Using Claude Code： The Unreasonable Effectiveness of HTML]] — `raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md`
+
+### 认知与决策模型 (1)
+- [[wiki/sources/Source - Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita]] — `raw/1/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md`
 
 ## 2026-05-06 raw batch
 

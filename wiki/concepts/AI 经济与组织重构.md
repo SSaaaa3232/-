@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "AI 经济与组织重构"
 tags:
   - concept
@@ -19,6 +19,11 @@ sources:
   - "[[wiki/sources/Source - 大多数公司根本没有为 AI 做好准备]]"
   - "[[wiki/sources/Source - 从层级到智能 - AI重构公司]]"
   - "[[wiki/sources/Source - Why Your “AI-First” Strategy Is Probably Wrong 为什么你的“人工智能优先”策略可能是错误的]]"
+  - "[[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]]"
+  - "[[wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次]]"
+  - "[[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]]"
+  - "[[wiki/sources/Source - 创业十道坎]]"
+  - "[[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]]"
 ---
 
 # AI 经济与组织重构
@@ -44,3 +49,10 @@ AI-first 不是把 AI 贴到原流程，而是重新定义成本结构、岗位�
 - [[wiki/sources/Source - 大多数公司根本没有为 AI 做好准备]] — `raw/团队team/方法论/大多数公司根本没有为 AI 做好准备.md`
 - [[wiki/sources/Source - 从层级到智能 - AI重构公司]] — `raw/团队team/方法论/模式/AI重构公司（AI first）Block案例.md`
 - [[wiki/sources/Source - Why Your “AI-First” Strategy Is Probably Wrong 为什么你的“人工智能优先”策略可能是错误的]] — `raw/团队team/方法论/模式/Why Your “AI-First” Strategy Is Probably Wrong  为什么你的“人工智能优先”策略可能是错误的.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]] — `raw/1/创始人手册：打造 AI 原生初创公司.md`；文章重构 AI-native startup 的生命周期：构思、MVP、发布和扩展都被 AI 工具显著压缩。
+- [[wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次]] — `raw/articles/AI最大的礼物，是让你能廉价地失败100次.md`；文章提出 AI 的最大礼物不是让人更容易成功，而是让人可以更廉价地失败。
+- [[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]] — `raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md`；文章从 PPTX Agent 项目的 Vibe Coding 协作实践出发，讨论架构约束、重构、hooks、测试和高级工程师成长断档。
+- [[wiki/sources/Source - 创业十道坎]] — `raw/团队team/方法论/10.md`；文章以“十道坎”形式讨论创业失败的常见认知陷阱，开篇聚焦赛道选择和目标过大。
+- [[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]] — `raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md`；文章转述 Anthropic Fiona Fung 关于 AI-native engineering org 的演讲，讨论 AI 时代工程团队管理。

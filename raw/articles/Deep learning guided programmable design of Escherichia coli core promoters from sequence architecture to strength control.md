@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f]]"
+raw_path: "raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md"
 title: "Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control"
 source: "https://academic.oup.com/nar/article/53/16/gkaf863/8246948?login=true"
 author:

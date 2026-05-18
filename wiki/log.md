@@ -1,7 +1,7 @@
 ---
 type: meta
 title: Operation Log
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
   - log
@@ -12,6 +12,14 @@ related:
   - "[[overview]]"
   - "[[wiki/sources/_index]]"
 ---
+
+
+## [2026-05-18] ingest | raw/ incremental（21 文件）
+- 来源：`raw/` 全目录；处理 21 个未带 `ingested` 标记的 Markdown，跳过所有已标记文件。
+- Created source pages: 21 pages under [[wiki/sources/_index]].
+- Updated concept/domain indexes: [[wiki/concepts/_index]], [[wiki/domains/_index]], [[wiki/index]].
+- Synthesis: [[raw-incremental-ingest-2026-05-18]].
+- 防重复：已给本轮所有 raw 原文 frontmatter 追加 `ingested: 2026-05-18`、`wiki_page`、`raw_path`；后续 ingest 必须先检查该字段并跳过。
 
 
 

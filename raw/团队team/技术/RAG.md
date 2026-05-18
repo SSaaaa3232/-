@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - 两周浅学 RAG]]"
+raw_path: "raw/团队team/技术/RAG.md"
 title: "两周浅学 RAG"
 source: "https://juejin.cn/post/7634584510009524276"
 author:

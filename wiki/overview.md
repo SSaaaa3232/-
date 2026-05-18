@@ -2,7 +2,7 @@
 type: overview
 title: "Wiki Overview"
 created: 2026-04-07
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
   - overview
@@ -25,9 +25,10 @@ Navigation: [[index]] | [[hot]] | [[log]] | [[dashboard]]
 
 ## Current State
 
-- Latest ingest: 2026-05-06 `raw/` batch, 161 个新来源 seed 入库
+- Latest ingest: 2026-05-18 `raw/` incremental batch, 21 个新来源 seed 入库，原文已写入 `ingested` 防重复标记
+- Previous major ingest: 2026-05-06 `raw/` batch, 161 个新来源 seed 入库
 - Previous ingest: 2026-04-17 `raw/团队team/方法论/` 第一批 22 文件
-- Core synthesis: [[raw-batch-synthesis-2026-05-06]]
+- Core synthesis: [[raw-batch-synthesis-2026-05-06]]; [[raw-incremental-ingest-2026-05-18]]
 - Main domains: [[AI Agent 系统]], [[个人认知与学习]], [[内容创作与视觉表达]], [[投资、商业与组织]], [[工程基础设施]], [[AI 前沿研究]]
 
 ## Key Themes

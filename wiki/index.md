@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Wiki Index"
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
   - index
@@ -14,11 +14,12 @@ related:
 
 # Wiki Index
 
-Last updated: 2026-05-06 (`ingest raw`) | Mode: D+E+F（个人·研究·读书）
+Last updated: 2026-05-18 (`raw/` incremental ingest) | Mode: D+E+F（个人·研究·读书）
 
 Navigation: [[overview]] | [[log]] | [[hot]] | [[Wiki Map]] | [[getting-started]]
 
 ## Latest Batch
+- [[raw-incremental-ingest-2026-05-18]] — 21 个 raw 新来源的增量摘要；所有原文已写入 `ingested` 防重复标记
 - [[raw-batch-synthesis-2026-05-06]] — 161 个 raw 来源的综合摘要与后续 deep-ingest 建议
 - [[wiki/sources/_index]] — source pages 总索引
 - [[wiki/concepts/_index]] — concept pages 总索引
@@ -33,20 +34,22 @@ Navigation: [[overview]] | [[log]] | [[hot]] | [[Wiki Map]] | [[getting-started]
 - [[AI 前沿研究]]
 
 ## Concept Clusters
-- [[Claude Code 与 Agentic Coding]] — 22 sources
-- [[Agent Skills 工业化]] — 42 sources
-- [[Harness 与多 Agent 操作系统]] — 10 sources
-- [[Agent 记忆与知识系统]] — 9 sources
-- [[AI 安全与权限边界]] — 5 sources
-- [[AI 经济与组织重构]] — 11 sources
-- [[内容创作与个人 IP]] — 12 sources
-- [[认知与决策模型]] — 17 sources
-- [[投资理财与机会判断]] — 15 sources
-- [[技术基础设施与工程工具]] — 21 sources
-- [[视觉表达与设计系统]] — 13 sources
-- [[学习、读书与研究方法]] — 8 sources
+- [[Claude Code 与 Agentic Coding]] — 32 sources
+- [[Agent Skills 工业化]] — 43 sources
+- [[Harness 与多 Agent 操作系统]] — 14 sources
+- [[Agent 记忆与知识系统]] — 12 sources
+- [[AI 安全与权限边界]] — 7 sources
+- [[AI 经济与组织重构]] — 16 sources
+- [[内容创作与个人 IP]] — 14 sources
+- [[认知与决策模型]] — 21 sources
+- [[投资理财与机会判断]] — 16 sources
+- [[技术基础设施与工程工具]] — 31 sources
+- [[视觉表达与设计系统]] — 15 sources
+- [[学习、读书与研究方法]] — 10 sources
 - [[网络身份与出海基础设施]] — 5 sources
-- [[AI 模型与前沿研究]] — 9 sources
+- [[AI 模型与前沿研究]] — 13 sources
+- [[杂项与待复核]] — 1 sources
+- [[合成生物学与生物设计]] — 2 sources
 
 ## Existing Core Concepts
 - [[Thin Harness Fat Skills]]

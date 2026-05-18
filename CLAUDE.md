@@ -91,7 +91,7 @@ vault/
 - 链接使用 `[[Note Name]]` 格式，文件名唯一，无需路径
 - `raw/` 是主用原始文件区，由用户手动归类；ingest 时**尊重现有目录结构**，不要自动搬运、重命名或改分类
 - `.raw/` 仅视为旧版/外部工具遗留入口；除非用户明确指定，否则不要要求用户把资料放入 `.raw/`，也不要主动写入 `.raw/`
-- `raw/` 中的原始资料原则上**永远不改正文内容**；**唯一例外**：ingest 完成后可在文件头部追加 ingest 标记 frontmatter：
+- `raw/` 中的原始资料原则上**永远不改正文内容**；**唯一例外**：ingest 完成后必须立即在文件头部追加 ingest 标记 frontmatter，用作防重复编译标签：
   ```yaml
   ---
   ingested: YYYY-MM-DD
@@ -100,6 +100,7 @@ vault/
   ---
   ```
   增量 ingest 前先检查文件是否已有 `ingested` 字段，有则跳过
+- 防重复规则：批量或单篇 ingest 前必须先扫描 `raw/` 文件 frontmatter；只要存在 `ingested:` 字段就跳过，不再重复生成 source page 或重复编译。
 - `wiki/index.md` 是主目录，每次 ingest 后更新
 - `wiki/log.md` 只追加，新条目放在**顶部**，不编辑过去条目
 - `wiki/hot.md` 每次操作后更新，保持 ~500 词

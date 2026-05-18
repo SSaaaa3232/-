@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - 深度拆解：AI Agent Harness 的构造【译】]]"
+raw_path: "raw/1/深度拆解：AI Agent Harness 的构造【译】.md"
 title: "深度拆解：AI Agent Harness 的构造【译】"
 source: "https://x.com/dotey/status/2053601852261110201"
 author:

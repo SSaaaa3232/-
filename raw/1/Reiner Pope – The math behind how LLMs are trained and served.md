@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served]]"
+raw_path: "raw/1/Reiner Pope – The math behind how LLMs are trained and served.md"
 title: "Reiner Pope – The math behind how LLMs are trained and served"
 source: "https://www.dwarkesh.com/p/reiner-pope"
 author:

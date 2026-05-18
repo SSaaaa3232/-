@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "Claude Code 与 Agentic Coding"
 tags:
   - concept
@@ -30,6 +30,16 @@ sources:
   - "[[wiki/sources/Source - 38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding]]"
   - "[[wiki/sources/Source - Claude Code]]"
   - "[[wiki/sources/Source - 从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]]"
+  - "[[wiki/sources/Source - Claude 技能构建完整指南]]"
+  - "[[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]]"
+  - "[[wiki/sources/Source - 为什么我不“凭感觉编程”]]"
+  - "[[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]]"
+  - "[[wiki/sources/Source - Using Claude Code： The Unreasonable Effectiveness of HTML]]"
+  - "[[wiki/sources/Source - Claude-code-workflow(CCW) 使用技巧分享]]"
+  - "[[wiki/sources/Source - Maestro-FLow 工作流：Claude Code 与 Codex 自动推进闭环治理]]"
+  - "[[wiki/sources/Source - CCW V7.X 与 Maestro-Flow 展望]]"
+  - "[[wiki/sources/Source - Vibe coding 与传统软件工程流程]]"
+  - "[[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]]"
 ---
 
 # Claude Code 与 Agentic Coding
@@ -66,3 +76,15 @@ sources:
 - [[wiki/sources/Source - 38k 星，Matt Pocock 把工程师级 Skill 全开源了，专治 Claude Code vibe coding]] — `raw/团队team/skill/Matt Pocock -工程师级 Skill -Claude Code vibe coding.md`
 - [[wiki/sources/Source - Claude Code]] — `raw/团队team/skill/PUA-Skill.md`
 - [[wiki/sources/Source - 从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层]] — `raw/团队team/技术/从零开始两天构建一个 Claude Code：带你拆解 AI CLI 的每一层.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - Claude 技能构建完整指南]] — `raw/1/skill building/claude-skills-building-guide.md`；一份 Claude Skills 构建指南，覆盖基础、规划设计、测试迭代、分发共享、模式和故障排除。
+- [[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]] — `raw/1/创始人手册：打造 AI 原生初创公司.md`；文章重构 AI-native startup 的生命周期：构思、MVP、发布和扩展都被 AI 工具显著压缩。
+- [[wiki/sources/Source - 为什么我不“凭感觉编程”]] — `raw/articles/为什么我不“凭感觉编程”.md`；文章是对 vibe coding 叙事的个人反思，强调 LLM 工具并不自动带来纯粹生产力天堂。
+- [[wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考]] — `raw/个人👤/行为/调研/分析/高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md`；文章从 PPTX Agent 项目的 Vibe Coding 协作实践出发，讨论架构约束、重构、hooks、测试和高级工程师成长断档。
+- [[wiki/sources/Source - Using Claude Code： The Unreasonable Effectiveness of HTML]] — `raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md`；文章解释为什么在 Claude Code/Agent 输出中，HTML 有时比 Markdown 更有效。
+- [[wiki/sources/Source - Claude-code-workflow(CCW) 使用技巧分享]] — `raw/团队team/技术/Maestro/Claude-code-workflow(CCW) –使用技巧分享-自认为最工程化的harness workflow.md`；CCW 是一个工程化 Claude Code workflow，强调不同复杂度任务入口、半自动/全自动运行、多 CLI 协作和语义编排。
+- [[wiki/sources/Source - Maestro-FLow 工作流：Claude Code 与 Codex 自动推进闭环治理]] — `raw/团队team/技术/Maestro/Maestro-FLow 工作流-实现Claude code&&Codex 自动推进闭环治理知识复用团队协作worktree并行多cli调用.md`；Maestro-FLow 是面向复杂软件系统开发的工作流，覆盖 brainstorm、roadmap、analysis、plan、execute、test 的闭环。
+- [[wiki/sources/Source - CCW V7.X 与 Maestro-Flow 展望]] — `raw/团队team/技术/Maestro/开源CCW(claude-code-workflow)V7.X版本新增Cadence team和 codex csv spawn 工作流&&下一代工作流(maestro-flow)展望.md`；文章介绍 CCW 7.X 新增 Spec 系统、Cadence team、Codex CSV spawn 工作流，并展望 Maestro-Flow。
+- [[wiki/sources/Source - Vibe coding 与传统软件工程流程]] — `raw/团队team/技术/vibe coding.md`；短笔记强调在 agentic engineering 时代，确认需求、schema、API、后端、文档、前端和迭代流程只会更重要。
+- [[wiki/sources/Source - AI 时代到底该怎么管一个工程团队]] — `raw/团队team/方法论/AI 时代到底该怎么管一个工程团队.md`；文章转述 Anthropic Fiona Fung 关于 AI-native engineering org 的演讲，讨论 AI 时代工程团队管理。

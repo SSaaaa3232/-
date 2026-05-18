@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita]]"
+raw_path: "raw/1/Master Self Control & Overcome Procrastination  Dr. Kentaro Fujita.md"
 title: "Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita"
 source: "https://www.youtube.com/watch?v=e89rVf4Pf0k"
 author:

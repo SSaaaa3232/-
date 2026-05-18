@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Claude 技能构建完整指南]]"
+raw_path: "raw/1/skill building/claude-skills-building-guide.md"
 title: Claude 技能构建完整指南
 source: "https://drive.google.com/file/d/1QR-Pq-KB_M6CRfo39D2g8Q6lEfNxNkxG/view"
 type: pdf-cleaned-markdown

@@ -2,7 +2,7 @@
 type: domain
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "AI 前沿研究"
 tags:
   - domain
@@ -22,3 +22,9 @@ tags:
 - 对最高价值来源单独 deep ingest。
 - 把可执行内容拆成 checklist / playbook。
 - 对时效性强的信息标注验证日期。
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served]] — 关联 [[AI 模型与前沿研究]]；`raw/1/Reiner Pope – The math behind how LLMs are trained and served.md`
+- [[wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f]] — 关联 [[AI 模型与前沿研究]]；`raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md`
+- [[wiki/sources/Source - Paper 待读清单]] — 关联 [[AI 模型与前沿研究]]；`raw/paper/paper.md`
+- [[wiki/sources/Source - 两周浅学 RAG]] — 关联 [[AI 模型与前沿研究]]；`raw/团队team/技术/RAG.md`

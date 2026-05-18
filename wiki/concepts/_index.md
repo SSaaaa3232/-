@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Concepts Index"
-updated: 2026-05-06
+updated: 2026-05-18
 tags:
   - meta
   - mode-e
@@ -12,6 +12,24 @@ status: evergreen
 # Concepts Index
 
 格式：`- 概念名 — 定义（状态：seed/developing/mature）`
+
+## 2026-05-18 incremental raw ingest concepts
+
+- [[AI 安全与权限边界]] — +2 sources. 提示注入、权限放大、逆向工程、凭证、网络边界与最小权限。
+- [[AI 模型与前沿研究]] — +4 sources. 模型训练/推理、架构、前沿论文、模型能力边界和科学 AI。
+- [[AI 经济与组织重构]] — +5 sources. AI-native 组织、一人公司、工程团队管理、岗位边界和成本结构变化。
+- [[Agent Skills 工业化]] — +1 sources. Skill 从提示词片段升级为可安装、可测试、可复用的操作单元。
+- [[Agent 记忆与知识系统]] — +3 sources. 长期记忆、RAG、知识库、热缓存、主动检索与结构化外部脑。
+- [[Claude Code 与 Agentic Coding]] — +10 sources. Claude Code、Codex、vibe coding、agentic coding、AI 产品经理与编码工作流。
+- [[Harness 与多 Agent 操作系统]] — +4 sources. 薄 Harness、OpenClaw/Hermes/Maestro/CCW、多 Agent 协作、任务编排与操作系统化。
+- [[内容创作与个人 IP]] — +2 sources. 内容选题、分发、复盘、个人 IP、团队内容生产与 AI 辅助创作。
+- [[合成生物学与生物设计]] — +2 sources. AI 辅助 DNA/RNA/启动子/CRISPR 等生命科学设计与工程化。
+- [[学习、读书与研究方法]] — +2 sources. 学习策略、待看清单、快速进入领域、间隔复习与研究路径。
+- [[技术基础设施与工程工具]] — +10 sources. 工程工具链、RAG、逆向、缓存、芯片/集群、Web/CLI 基础设施。
+- [[投资理财与机会判断]] — +1 sources. 宏观、创业赛道、现金流机会、风险识别与机会筛选。
+- [[杂项与待复核]] — +1 sources. 低信号、待看、待清洗或需要后续复核的来源。
+- [[视觉表达与设计系统]] — +2 sources. HTML artifact、PPT、图表、信息图、设计 prompt 与视觉化工作流。
+- [[认知与决策模型]] — +4 sources. 自控、拖延、目标、创业判断、反确定性和高质量决策。
 
 ## 2026-05-06 raw batch concepts
 - [[Claude Code 与 Agentic Coding]] — 这批来源把 Claude Code 从“代码补全工具”推进到“管理 Agent 的工作台”：核心能力不只是生成代码，而是约束、规划、hooks、上下文管理、PM/工程协作与可审计执行。（状态：developing）

@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - Using Claude Code： The Unreasonable Effectiveness of HTML]]"
+raw_path: "raw/个人👤/认知/Using Claude Code The Unreasonable Effectiveness of HTML.md"
 title: "Using Claude Code: The Unreasonable Effectiveness of HTML"
 source: "https://x.com/trq212/status/2052809885763747935"
 author:

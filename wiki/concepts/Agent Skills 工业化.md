@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "Agent Skills 工业化"
 tags:
   - concept
@@ -50,6 +50,7 @@ sources:
   - "[[wiki/sources/Source - 开源「洁癖.Skill」，让你的Agent越用越聪明。]]"
   - "[[wiki/sources/Source - 如何写出工业级 Skill]]"
   - "[[wiki/sources/Source - Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图]]"
+  - "[[wiki/sources/Source - Claude 技能构建完整指南]]"
 ---
 
 # Agent Skills 工业化
@@ -106,3 +107,6 @@ Skill 正在从提示词片段演化为可安装、可测试、可复用的操�
 - [[wiki/sources/Source - 开源「洁癖.Skill」，让你的Agent越用越聪明。]] — `raw/团队team/skill/「洁癖.Skill」.md`
 - [[wiki/sources/Source - 如何写出工业级 Skill]] — `raw/团队team/skill/如何写出工业级 Skill.md`
 - [[wiki/sources/Source - Skill、Harness、记忆、安全：60篇文章和20个项目之后，我们画出了AI Agent的完整拼图]] — `raw/团队team/方法论/模式/Skill、Harness、记忆、安全.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - Claude 技能构建完整指南]] — `raw/1/skill building/claude-skills-building-guide.md`；一份 Claude Skills 构建指南，覆盖基础、规划设计、测试迭代、分发共享、模式和故障排除。

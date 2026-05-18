@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "AI 模型与前沿研究"
 tags:
   - concept
@@ -17,6 +17,10 @@ sources:
   - "[[wiki/sources/Source - 黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）]]"
   - "[[wiki/sources/Source - 6个改变决策的心智模型]]"
   - "[[wiki/sources/Source - Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚]]"
+  - "[[wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served]]"
+  - "[[wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f]]"
+  - "[[wiki/sources/Source - Paper 待读清单]]"
+  - "[[wiki/sources/Source - 两周浅学 RAG]]"
 ---
 
 # AI 模型与前沿研究
@@ -40,3 +44,9 @@ sources:
 - [[wiki/sources/Source - 黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）]] — `raw/个人👤/行为/调研/分析/黄仁勋最新访谈，谈及中国芯片算力与Anthropic以及Mythos模型等问题（全文2.4万字）.md`
 - [[wiki/sources/Source - 6个改变决策的心智模型]] — `raw/个人👤/认知/决策的6个心智模型.md`
 - [[wiki/sources/Source - Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚]] — `raw/团队team/技术/Prompt caching in LLMs, clearly explained 大型语言模型中的提示缓存，解释清楚.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served]] — `raw/1/Reiner Pope – The math behind how LLMs are trained and served.md`；Dwarkesh Patel 访谈 Reiner Pope，围绕 LLM 训练、推理、集群、芯片和模型架构的数学与工程约束展开。
+- [[wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f]] — `raw/articles/Deep learning guided programmable design of Escherichia coli core promoters from sequence architecture to strength control.md`；论文研究用深度学习指导大肠杆菌 core promoter 的可编程设计，从序列结构预测并控制启动子强度。
+- [[wiki/sources/Source - Paper 待读清单]] — `raw/paper/paper.md`；论文链接清单，包含 Multi-agent LLM Agent Memory 与 DNA 引导 CRISPR-Cas12 细胞 RNA 靶向。
+- [[wiki/sources/Source - 两周浅学 RAG]] — `raw/团队team/技术/RAG.md`；作者用两周学习快照解释 RAG，从“搜索 + LLM”的朴素理解进入语义检索、词袋模型、向量相似等基础。

@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - 上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。]]"
+raw_path: "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md"
 title: "上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。"
 source: "https://x.com/Khazix0918/status/2056222671223112105"
 author:

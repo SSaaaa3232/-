@@ -1,4 +1,7 @@
 ---
+ingested: 2026-05-18
+wiki_page: "[[wiki/sources/Source - 创始人手册：打造 AI 原生初创公司]]"
+raw_path: "raw/1/创始人手册：打造 AI 原生初创公司.md"
 title: "创始人手册：打造 AI 原生初创公司"
 source: "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup"
 author:

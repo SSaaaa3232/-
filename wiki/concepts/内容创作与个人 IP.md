@@ -2,7 +2,7 @@
 type: concept
 status: developing
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-18
 title: "内容创作与个人 IP"
 tags:
   - concept
@@ -20,6 +20,8 @@ sources:
   - "[[wiki/sources/Source - 成为 X 中文区 Top 10 的路]]"
   - "[[wiki/sources/Source - 构建IP系统的底层架构 （全文手打、放心食用）]]"
   - "[[wiki/sources/Source - 算法分发时代的自救指南]]"
+  - "[[wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次]]"
+  - "[[wiki/sources/Source - 上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。]]"
 ---
 
 # 内容创作与个人 IP
@@ -46,3 +48,7 @@ sources:
 - [[wiki/sources/Source - 成为 X 中文区 Top 10 的路]] — `raw/个人👤/行为/x/方法论/成为X中文区Top10.md`
 - [[wiki/sources/Source - 构建IP系统的底层架构 （全文手打、放心食用）]] — `raw/个人👤/行为/x/方法论/构建IP系统的底层架构.md`
 - [[wiki/sources/Source - 算法分发时代的自救指南]] — `raw/个人👤/行为/x/方法论/算法分发时代自救指南.md`
+
+## 2026-05-18 Incremental Ingest
+- [[wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次]] — `raw/articles/AI最大的礼物，是让你能廉价地失败100次.md`；文章提出 AI 的最大礼物不是让人更容易成功，而是让人可以更廉价地失败。
+- [[wiki/sources/Source - 上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。]] — `raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md`；Khazix 总结 AI 时代内容创作方法论：获取信息、找角度、创作。
