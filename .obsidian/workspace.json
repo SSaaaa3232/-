@@ -11,24 +11,12 @@
             "id": "d217facde2280af3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "项目/Promoter prediction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "Promoter prediction"
+              "icon": "excalidraw-icon",
+              "title": "agency-agents-融入-harness"
             }
           },
           {
@@ -199,8 +187,7 @@
               "title": "website"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -418,13 +405,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "37f8f40eef564c7f",
+  "active": "d217facde2280af3",
   "lastOpenFiles": [
-    "清单/任务清单.md",
+    "项目/Promoter prediction.md",
+    "项目/Paseo/编排层.md",
     "项目/website/website.md",
+    "清单/任务清单.md",
     "项目/website",
     "项目/we b si te",
-    "项目/Paseo/编排层.md",
     "Excalidraw/gstack-harness-integration/manifest.json",
     "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw.md",
     "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw",
@@ -465,7 +453,6 @@
     "项目/ncreate/ncreate优化-提示词html.md",
     "项目/论文/AI科研Context Is All You Need.md",
     "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-大公司关系图.excalidraw.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
