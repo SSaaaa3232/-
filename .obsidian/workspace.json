@@ -174,9 +174,33 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "018c09d3ce6290b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/website/website.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "website"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -394,8 +418,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d13c96ffdfd30635",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
+    "清单/任务清单.md",
+    "项目/website/website.md",
+    "项目/website",
+    "项目/we b si te",
     "项目/Paseo/编排层.md",
     "Excalidraw/gstack-harness-integration/manifest.json",
     "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw.md",
@@ -407,8 +435,6 @@
     "Excalidraw/aura-agent-harness-long-running/aura-对-harness-长跑稳定性的启发.excalidraw.md",
     "Excalidraw/aura-agent-harness-long-running/aura-对-harness-长跑稳定性的启发.excalidraw",
     "Excalidraw/aura-agent-harness-long-running",
-    "Excalidraw/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw",
-    "Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw",
     "Excalidraw/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw.md",
     "Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw.md",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
@@ -440,7 +466,6 @@
     "项目/论文/AI科研Context Is All You Need.md",
     "Excalidraw/ai-agent-harness-user-internal-flow/ai-agent-harness-使用与内部执行流程.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-大公司关系图.excalidraw.md",
-    "清单/开通服务.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
