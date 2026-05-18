@@ -80,31 +80,7 @@
             }
           },
           {
-            "id": "ec812ecfece983cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLAUDE.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CLAUDE"
-            }
-          },
-          {
-            "id": "d47705cbcb5d0c91",
+            "id": "2d4a79eb158d6bac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -324,7 +300,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5
+    "width": 630.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -345,36 +322,37 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b0c8a769ceabf72e",
+  "active": "2d4a79eb158d6bac",
   "lastOpenFiles": [
-    "清单/任务清单.md",
     "wiki/synthesis/raw-incremental-ingest-2026-05-18.md",
-    "wiki/concepts/合成生物学与生物设计.md",
-    "wiki/sources/Source - AI 时代到底该怎么管一个工程团队.md",
-    "wiki/sources/Source - 创业十道坎.md",
-    "wiki/sources/Source - 逆向工程复现方法论：chat.bankofai.io.md",
-    "wiki/sources/Source - Vibe coding 与传统软件工程流程.md",
-    "wiki/sources/Source - 两周浅学 RAG.md",
-    "wiki/sources/Source - CCW V7.X 与 Maestro-Flow 展望.md",
-    "wiki/sources/Source - Maestro-FLow 工作流：Claude Code 与 Codex 自动推进闭环治理.md",
-    "wiki/sources/Source - Claude-code-workflow(CCW) 使用技巧分享.md",
-    "wiki/sources/Source - Using Claude Code： The Unreasonable Effectiveness of HTML.md",
-    "wiki/sources/Source - 高级工程师即将断档？由近期的 Vibe Coding 协作实践而发散开来的思考.md",
-    "wiki/sources/Source - Paper 待读清单.md",
-    "wiki/sources/Source - 为什么我不“凭感觉编程”.md",
-    "wiki/sources/Source - 上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
-    "wiki/sources/Source - Deep learning guided programmable design of Escherichia coli core promoters from sequence architectu - e1173f.md",
-    "wiki/sources/Source - AI最大的礼物，是让你能廉价地失败100次.md",
-    "wiki/sources/Source - TED 待看清单.md",
-    "wiki/sources/Source - 深度拆解：AI Agent Harness 的构造【译】.md",
-    "wiki/sources/Source - 创始人手册：打造 AI 原生初创公司.md",
-    "wiki/sources/Source - Claude 技能构建完整指南.md",
-    "wiki/sources/Source - Reiner Pope – The math behind how LLMs are trained and served.md",
-    "wiki/sources/Source - Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita.md",
-    "Excalidraw/human-skill-mindmap.md",
+    "wiki/synthesis/raw-batch-synthesis-2026-05-06.md",
+    "wiki/synthesis/_index.md",
+    "wiki/themes/_index.md",
+    "wiki/Ar9av-obsidian-wiki.md",
+    "wiki/ballred-obsidian-claude-pkm.md",
+    "wiki/claude-obsidian-ecosystem.md",
+    "wiki/Claudian-YishenTu.md",
+    "wiki/getting-started.md",
+    "wiki/hot.md",
+    "wiki/index.md",
+    "wiki/kepano-obsidian-skills.md",
+    "wiki/log.md",
+    "wiki/Nexus-claudesidian-mcp.md",
+    "wiki/overview.md",
+    "wiki/rvk7895-llm-knowledge-bases.md",
+    "wiki/Wiki Map.md",
+    "wiki/Wiki Map.canvas",
+    "清单/开通服务.md",
+    "CLAUDE.md",
+    "wiki/domains/个人认知与学习.md",
+    "wiki/domains/AI Agent 系统.md",
+    "wiki/domains/_index.md",
+    "wiki/courses/_index.md",
+    "wiki/concepts/网络身份与出海基础设施.md",
+    "wiki/concepts/Knowledge MEMO.md",
+    "wiki/concepts/Harness 与多 Agent 操作系统.md",
     "image/d2c840347312d20208d2ba109c607fad_MD5.jpg",
     "image/00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
-    "清单/MCP.md",
     "raw/1/skill building/source.pdf",
     "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
     "Excalidraw/claude-skills-building-guide/manifest.json",
@@ -393,7 +371,6 @@
     "image/69612263c70f46149c24326d2180aed2_MD5.jpg",
     "image/624f7ea980629d221ec666ed811d3d0c_MD5.jpg",
     "image/ede11641b0f7b26ea0acf19f3c957247_MD5.jpg",
-    "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",
