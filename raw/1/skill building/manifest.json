@@ -1,0 +1,40 @@
+{
+  "source": {
+    "type": "url",
+    "original": "https://drive.google.com/file/d/1QR-Pq-KB_M6CRfo39D2g8Q6lEfNxNkxG/view",
+    "title": "Claude 技能构建完整指南",
+    "fetched_at": "2026-05-18T16:51:44+08:00",
+    "pdf_path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/source.pdf"
+  },
+  "layer": "archive",
+  "intake_chain": [
+    "google-drive-download",
+    "pdftotext-column-crop",
+    "manual-markdown-cleanup"
+  ],
+  "image_backend": "none",
+  "cost_estimate": {
+    "tokens": 0,
+    "images": 0,
+    "usd": 0.0
+  },
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "kind": "markdown"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/source.pdf",
+      "kind": "pdf"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/source-zh.txt",
+      "kind": "raw-text"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/source-en.txt",
+      "kind": "raw-text"
+    }
+  ],
+  "danger_use": null
+}

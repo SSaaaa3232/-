@@ -1,0 +1,1151 @@
+The Complete Guide   Claude 技能构建完
+to Building Skills
+for Claude           全指南
+Contents                                目录
+Introduction                    3       引言 3 基础 4 规划与设计 7 测试与迭代 14 分发与共享 18 模式
+                                        与故障排除 21 资源与 references 28
+Fundamentals                   4
+
+Planning and design             7
+
+Testing and iteration          14
+
+Distribution and sharing       18
+
+Patterns and troubleshooting   21
+
+Resources and references       28
+
+
+
+
+                                    2                                            2
+Introduction                                                                                                                                                                     引言
+A skill is a set of instructions - packaged as a simple folder - that teaches Claude   Two Paths Through This Guide                                                              技能是一组指令——打包成一个简单的文件夹——用于教导Claude如何处理特定的        本指南的两条路径
+how to handle specific tasks or workflows. Skills are one of the most powerful         Building standalone skills? Focus on Fundamentals, Planning and Design, and               任务或工作流。技能是为满足您的特定需求而定制Claude的最强大方式之一。无需        构建独立技能？请重点关注基础、规划与设计以及类别1‑2。增强MCP集成？"技
+ways to customize Claude for your specific needs. Instead of re-explaining your        category 1-2. Enhancing an MCP integration? The "Skills + MCP" section and                在每次对话中重新解释您的偏好、流程和领域专业知识，技能让您一次性教导             能+ MCP"部分和类别3适合你。两条路径共享相同的技术要求，但你可以选择与
+preferences, processes, and domain expertise in every conversation, skills let you     category 3 are for you. Both paths share the same technical requirements, but             Claude，并在每次使用时受益。                              自身用例相关的部分。
+teach Claude once and benefit every time.                                              you choose what's relevant to your use case.
+
+Skills are powerful when you have repeatable workflows: generating frontend            What you'll get out of this guide: By the end, you'll be able to build a functional       当您拥有可重复的工作流时，技能会非常强大：根据规格生成前端设计、使用一致           你将从本指南中获得什么：到最后，你将能够在一次会话中构建一个功能性的技能。
+designs from specs, conducting research with consistent methodology, creating          skill in a single sitting. Expect about 15-30 minutes to build and test your first        的方法论进行研究、创建遵循团队风格指南的文档，或编排多步骤流程。它们与            预计使用skill‑creator构建和测试你的第一个可用技能大约需要15‑30分钟。
+documents that follow your team's style guide, or orchestrating multi-step             working skill using the skill-creator.                                                    Claude的内置Capabilities（如代码执行和文档创建）配合良好。对于那些构建
+processes. They work well with Claude's built-in capabilities like code execution                                                                                                MCP集成的人来说，技能增添了另一个强大的层面，帮助将原始工具访问转化为
+and document creation. For those building MCP integrations, skills add another         Let's get started.                                                                        可靠、优化的工作流。                                     让我们开始吧。
+powerful layer helping turn raw tool access into reliable, optimized workflows.
+
+This guide covers everything you need to know to build effective skills - from                                                                                                   本指南涵盖了构建有效技能所需了解的一切——从规划与设计到测试与分发。无
+planning and structure to testing and distribution. Whether you're building a                                                                                                    论你是为自己、团队还是社区构建技能，都能在其中找到实用的模式和真实示例。
+skill for yourself, your team, or for the community, you'll find practical patterns
+and real-world examples throughout.
+
+What you'll learn:                                                                                                                                                               您将学到：
+• Technical requirements and best practices for skill structure                                                                                                                  • 技能结构的技术要求和最佳实践
+
+• Patterns for standalone skills and MCP-enhanced workflows                                                                                                                      • 独立技能和MCP增强工作流的模式
+
+• Patterns we've seen work well across different use cases                                                                                                                       • 我们在不同用例中验证有效的模式
+
+• How to test, iterate, and distribute your skills                                                                                                                               • 如何测试、迭代并分发你的技能
+
+Who this is for:                                                                                                                                                                 适用对象：
+• Developers who want Claude to follow specific workflows consistently                                                                                                           • 希望Claude能持续遵循特定工作流的开发者
+                                                                                                                                                                             3
+• Power users who want Claude to follow specific workflows                                                                                                                       • 希望Claude遵循特定工作流的高级用户
+
+• Teams looking to standardize how Claude works across their organization                                                                                                        • 希望在其组织内标准化Claude工作方式的团队
+Chapter 1          第一章
+
+
+
+
+Fundamentals   4
+                   基础    4
+  Chapter 1                                                                                                                                                                 第一章
+
+
+
+Fundamentals                                                                                                                                                              基础
+What is a skill?                                                                    Composability                                                                         什么是技能？                                                                              可组合性
+
+A skill is a folder containing:                                                     Claude can load multiple skills simultaneously. Your skill should work well           技能是一个包含以下内容的文件夹：                                                                    Claude 可以同时加载多个技能。您的技能应与其他技能良好协作，不应假
+                                                                                    alongside others, not assume it's the only capability available.                                                                                                          设它是唯一可用的能力。
+• SKILL.md (required): Instructions in Markdown with YAML frontmatter                                                                                                     • SKILL.md（必需）：包含 YAML 前置元数据的 Markdown 格式说明
+
+• scripts/ (optional): Executable code (Python, Bash, etc.)                         Portability                                                                           • scripts/（可选）：可执行代码（Python、Bash 等）
+                                                                                                                                                                                                                                                              可移植性
+• references/ (optional): Documentation loaded as needed                                                                                                                  • references/（可选）：按需加载的文档
+                                                                                    Skills work identically across Claude.ai, Claude Code, and API. Create a skill once                                                                                       Skills work identically across Claude.ai, Claude Code, and API. Create a skill once
+• assets/ (optional): Templates, fonts, icons used in output                        and it works across all surfaces without modification, provided the environment       • assets/（可选）：输出中使用的模板、字体、图标                                                        and it works across all surfaces without modification, provided the environment
+                                                                                    supports any dependencies the skill requires.                                                                                                                             supports any dependencies the skill requires.
+
+Core design principles                                                                                                                                                    核心设计原则
+                                                                                    For MCP Builders: Skills + Connectors                                                                                                                                     致 MCP 构建者：技能 + 连接器
+Progressive Disclosure                                                                                                                                                    渐进式披露
+                                                                                    💡 Building standalone skills without MCP? Skip to Planning and Design - you can                                                                                           💡 正在构建不依赖 MCP 的独立技能？请跳转至规划与设计部分——您可以随时返
+Skills use a three-level system:                                                    always return here later.                                                             技能采用三级系统：                                                                           回此处。
+• First level (YAML frontmatter): Always loaded in Claude's system prompt.                                                                                                • 第一级（YAML 前置元数据）：始终加载到 Claude 的系统提示词中。提供足
+                                                                                    If you already have a working MCP server, you've done the hard part. Skills are                                                                                           如果您已经拥有一个可运行的 MCP 服务器，那么您已经完成了最困难的部分。
+  Provides just enough information for Claude to know when each skill should                                                                                              够的信息让 Claude 知道何时应使用每个技能，而不需要将所有内容加载到上下
+                                                                                    the knowledge layer on top - capturing the workflows and best practices you                                                                                               技能是位于其上的知识层——用于捕获您已知的工作流和最佳实践，以便
+  be used without loading all of it into context.                                                                                                                         文中。
+                                                                                    already know, so Claude can apply them consistently.                                                                                                                      Claude 能够一致地应用它们。
+• Second level (SKILL.md body): Loaded when Claude thinks the skill is                                                                                                    • 第二层（SKILL.md正文）：当Claude认为该技能与当前任务相关时加载。
+  relevant to the current task. Contains the full instructions and guidance.                                                                                              包含完整的指令和指导信息。
+                                                                                    The kitchen analogy                                                                   技能在Claude.ai、Claude Code和API中工作方式完全相同。只需创建一次技能，无需修改即可在所有平台上使用，前提是环境支持该技能所需的任何依赖项。   厨房类比
+• Third level (Linked files): Additional files bundled within the skill directory
+  that Claude can choose to navigate and discover only as needed.                   MCP provides the professional kitchen: access to tools, ingredients, and                Claude可以根据需要选择性地浏览和发现这些文件。                                                        MCP 提供了专业厨房：可以访问工具、食材和设备。
+                                                                                    equipment.
+This progressive disclosure minimizes token usage while maintaining                                                                                                       这种渐进式披露能在保持专业专长的同时，最小化令牌使用量。
+specialized expertise.                                                              Skills provide the recipes: step-by-step instructions on how to create something                                                                                          技能提供食谱：关于如何创造有价值事物的分步说明。
+                                                                                    valuable.
+
+
+
+
+                                                                                                                                                                      5                                                                                                                                                                         5
+Together, they enable users to accomplish complex tasks without needing to               它们共同让用户无需自行摸索每一步，就能完成复杂的任务。
+figure out every step themselves.
+
+How they work together:                                                                  它们如何协同工作：
+
+
+  MCP (Connectivity)                        Skills (Knowledge)                            MCP (连接性)                 技能 (知识)
+
+
+  Connects Claude to your service           Teaches Claude how to use your service        将 Claude 连接到您的服务          教导 Claude 如何有效使用您的服务
+  (Notion, Asana, Linear, etc.)             effectively                                   (Notion、Asana、Linear 等)
+
+
+  Provides real-time data access and tool   Captures workflows and best practices         提供实时数据访问和工具               捕获工作流和最佳实践
+  invocation                                                                              调用
+
+
+  What Claude can do                        How Claude should do it                       Claude 能做什么               Claude 应该如何做
+
+
+
+
+Why this matters for your MCP users                                                      这对您的 MCP用户 为何重要
+
+Without skills:                                                                          没有技能时：
+• Users connect your MCP but don't know what to do next                                  • 用户连接了您的 MCP，但不知道下一步该做什么
+
+• Support tickets asking "how do I do X with your integration"                           • 询问“如何通过您的集成实现 X”的支持工单
+
+• Each conversation starts from scratch                                                  • 每次对话都从头开始
+
+• Inconsistent results because users prompt differently each time                        • 结果不一致，因为用户每次的提示方式不同
+
+• Users blame your connector when the real issue is workflow guidance                    • 用户责怪您的连接器，而真正的问题在于工作流指导
+
+
+With skills:                                                                             具备技能：
+• Pre-built workflows activate automatically when needed                                 • 预构建工作流会在需要时自动激活
+
+• Consistent, reliable tool usage                                                        • 一致、可靠的工具使用
+
+• Best practices embedded in every interaction                                           • 最佳实践嵌入于每一次交互中
+
+• Lower learning curve for your integration                                              • 降低您的集成学习曲线
+
+
+
+
+                                                                                     6                                                     6
+Chapter 2                 第二章
+
+
+
+
+Planning and design   7
+                          规划与设计   7
+  Chapter 2                                                                                                                                                                第二章
+
+
+
+Planning and design                                                                                                                                                       规划与设计
+Start with use cases                                                                 Common skill use case categories                                                     从用例开始                                                         常见技能用例类别
+Before writing any code, identify 2-3 concrete use cases your skill should enable.   At Anthropic, we’ve observed three common use cases:                                 在编写任何代码之前，先确定你的技能应能实现的2‑3个具体用例。                               在Anthropic，我们观察到三种常见用例：
+
+
+Good use case definition:                                                            Category 1: Document & Asset Creation                                                良好的用例定义：                                                      类别 1：文档与资源创建
+                                                                                     Used for: Creating consistent, high-quality output including documents,                                                                            用途：创建一致、高质量的输出，包括文档、演示文稿、应用程序、设计、
+   Use Case: Project Sprint Planning                                                 presentations, apps, designs, code, etc.                                              Use Case: Project Sprint Planning                            代码等。
+   Trigger: User says "help me plan this sprint" or "create                                                                                                                Trigger: User says "help me plan this sprint" or "create
+   sprint tasks"                                                                     Real example: frontend-design skill (also see skills for docx, pptx, xlsx, and        sprint tasks"                                                实际示例：前端设计技能（另请参阅 DOCX、PPTX、XLSX 和 PPT 相关技能）
+   Steps:                                                                            ppt)                                                                                  Steps:
+   1. Fetch current project status from Linear (via MCP)                                                                                                                   1. Fetch current project status from Linear (via MCP)
+   2. Analyze team velocity and capacity                                             "Create distinctive, production-grade frontend interfaces with high design            2. Analyze team velocity and capacity                        "创建独特、生产级的高质量设计前端界面。适用于构建Web组件、页面、
+   3. Suggest task prioritization                                                    quality. Use when building web components, pages, artifacts, posters, or              3. Suggest task prioritization                               工件、海报或应用程序。"
+   4. Create tasks in Linear with proper labels and estimates                        applications."                                                                        4. Create tasks in Linear with proper labels and estimates
+   Result: Fully planned sprint with tasks created                                                                                                                         Result: Fully planned sprint with tasks created
+                                                                                     Key techniques:                                                                                                                                    关键技术：
+
+                                                                                     • Embedded style guides and brand standards                                                                                                        • Embedded style guides and brand standards
+Ask yourself:                                                                        • Template structures for consistent output
+                                                                                                                                                                          问问自己：                                                         • 用于一致输出的模板结构
+• What does a user want to accomplish?                                                                                                                                    • 用户想要实现什么目标？
+                                                                                     • Quality checklists before finalizing                                                                                                             • 最终确定前的质量检查清单
+• What multi-step workflows does this require?                                                                                                                            • 这需要哪些多步骤工作流？
+                                                                                     • No external tools required - uses Claude's built-in capabilities                                                                                 • 无需外部工具 ‑ 使用 Claude 的内置 Capabilities
+• Which tools are needed (built-in or MCP?)                                                                                                                               • 需要哪些工具（内置工具还是MCP？）
+
+• What domain knowledge or best practices should be embedded?                                                                                                             • 应嵌入哪些领域知识或最佳实践？
+
+
+
+
+                                                                                                                                                                      8                                                                                                               8
+Category 2: Workflow Automation                                                  Define success criteria                                                                  类别 2：工作流自动化                                     定义成功标准
+Used for: Multi-step processes that benefit from consistent methodology,                                                                                                  用途：适用于受益于一致方法论的多步骤流程，包括跨多个MCP服务器的
+                                                                                 How will you know your skill is working?                                                                                                 如何确认您的技能正在有效运作？
+including coordination across multiple MCP servers.                                                                                                                       协调工作。
+                                                                                 These are aspirational targets - rough benchmarks rather than precise                                                                    这些是理想目标——粗略的基准而非精确阈值。力求严谨，但需接受评估中会存在
+Real example: skill-creator skill                                                                                                                                         真实示例：skill‑creator 技能
+                                                                                 thresholds. Aim for rigor but accept that there will be an element of vibes-based                                                        一定基于直觉的成分。我们正在积极开发更稳健的测量指南与工具。
+
+"Interactive guide for creating new skills. Walks the user through use case      assessment. We are actively developing more robust measurement guidance and              "创建新技能的交互式指南。引导用户完成用例定义、前置元数据生成、指
+definition, frontmatter generation, instruction writing, and validation."        tooling.                                                                                 令编写和验证。"
+
+
+Key techniques:
+                                                                                 Quantitative metrics:                                                                    关键技术：
+                                                                                                                                                                                                                          量化指标：
+                                                                                 • Skill triggers on 90% of relevant queries                                                                                              • 技能在90%的相关查询中触发
+• Step-by-step workflow with validation gates                                                                                                                             • 包含验证关卡的逐步工作流
+                                                                                   – How to measure: Run 10-20 test queries that should trigger your skill. Track                                                          – 测量方法：运行10‑20条应触发您技能的测试查询。追踪其自动加载的次数与
+• Templates for common structures                                                    how many times it loads automatically vs. requires explicit invocation.              • 用于常见结构的模板                                      需要显式调用的次数。
+• Built-in review and improvement suggestions                                    • Completes workflow in X tool calls                                                     • 内置审查与改进建议                                     • 在X次工具调用中完成工作流
+• Iterative refinement loops                                                       – How to measure: Compare the same task with and without the skill enabled.            • 迭代优化循环                                         – 测量方法：对比启用与未启用技能时执行同一任务的情况。统计工具调用次数
+                                                                                     Count tool calls and total tokens consumed.                                                                                           及消耗的令牌总数。
+Category 3: MCP Enhancement                                                      • 0 failed API calls per workflow                                                        类别 3：MCP 增强                                     • 0 每个工作流失败的API调用
+                                                                                   – How to measure: Monitor MCP server logs during test runs. Track retry rates                                                           – 衡量方法：在测试运行期间监控MCP服务器日志。跟踪重试率和错误代码。
+Used for: Workflow guidance to enhance the tool access an MCP server provides.                                                                                            用途：提供工作流指导，以增强 MCP 服务器所提供的工具访问能力。
+                                                                                     and error codes.
+Real example: sentry-code-review skill (from Sentry)                                                                                                                      实际示例：sentry‑code‑review 技能（来自 Sentry）
+                                                                                 Qualitative metrics:                                                                                                                     定性指标：
+"Automatically analyzes and fixes detected bugs in GitHub Pull Requests using                                                                                             "通过其 MCP 服务器，利用 Sentry 的错误监控数据，自动分析并修复 GitHub
+                                                                                 • Users don't need to prompt Claude about next steps                                                                                     • 用户无需提示Claude下一步操作
+Sentry's error monitoring data via their MCP server."                                                                                                                     拉取请求中检测到的错误。"
+                                                                                   – How to assess: During testing, note how often you need to redirect or clarify.                                                        – 评估方法：在测试期间，记录你需要重新引导或澄清的频率。向测试用户征求
+                                                                                     Ask beta users for feedback.                                                                                                          反馈。
+Key techniques:                                                                                                                                                           关键技术：
+
+• Coordinates multiple MCP calls in sequence                                                                                                                              • 按顺序协调多个MCP调用
+                                                                                 • Workflows complete without user correction                                                                                             • 工作流无需用户修正即可完成
+• Embeds domain expertise                                                          – How to assess: Run the same request 3-5 times. Compare outputs for                   • 嵌入领域专业知识                                       – 评估方法：运行同一请求 3‑5 次。比较输出的结构一致性和质量。
+
+• Provides context users would otherwise need to specify                             structural consistency and quality.                                                  • 提供用户通常需要另行指定的上下文
+
+• Error handling for common MCP issues                                           • Consistent results across sessions                                                     • 针对常见MCP问题的错误处理                                • 跨会话结果一致
+                                                                                   – How to assess: Can a new user accomplish the task on first try with minimal                                                           – 评估方法：新用户能否在首次尝试时，以最少的指导完成该任务？
+                                                                                     guidance?
+
+
+
+
+                                                                                                                                                                      9                                                                                             9
+Technical requirements                                                            YAML frontmatter: The most important part                                         技术要求                                                       YAML 前置元数据：最重要的部分
+
+                                                                                  The YAML frontmatter is how Claude decides whether to load your skill. Get this                                                              YAML 前置元数据是 Claude 决定是否加载您技能的依据。请务必正确填写。
+File structure                                                                                                                                                      文件结构
+                                                                                  right.
+
+   your-skill-name/                                                               Minimal required format                                                             your-skill-name/                                         必需的最小格式
+   ├── SKILL.md                  # Required - main skill file                                                                                                         ├── SKILL.md              # Required - main skill file
+   ├── scripts/                  # Optional - executable code                                                                                                         ├── scripts/              # Optional - executable code
+                                                                                     ---                                                                                                                                         ---
+   │    ├── process_data.py # Example                                                                                                                                 │   ├── process_data.py # Example
+                                                                                     name: your-skill-name                                                                                                                       name: your-skill-name
+   │    └── validate.sh # Example                                                                                                                                     │   └── validate.sh # Example
+                                                                                     description: What it does. Use when user asks to [specific                                                                                  description: What it does. Use when user asks to [specific
+   ├── references/               # Optional - documentation                                                                                                           ├── references/           # Optional - documentation
+                                                                                     phrases].                                                                                                                                   phrases].
+   │    ├── api-guide.md # Example                                                                                                                                    │   ├── api-guide.md # Example
+                                                                                     ---                                                                                                                                         ---
+   │    └── examples/ # Example                                                                                                                                       │   └── examples/ # Example
+   └── assets/                  # Optional - templates, etc.                                                                                                          └── assets/              # Optional - templates, etc.
+        └── report-template.md # Example                                                                                                                                  └── report-template.md # Example
+                                                                                  That's all you need to start.                                                                                                                这就是你开始所需的一切。
+
+
+Critical rules                                                                    Field requirements                                                                关键规则                                                       字段要求
+
+                                                                                  name (required):                                                                                                                             姓名（必需）：
+SKILL.md naming:                                                                                                                                                    SKILL.md命名：
+                                                                                  • kebab-case only                                                                                                                            • 仅限短横线命名法
+• Must be exactly SKILL.md (case-sensitive)                                                                                                                         • 必须完全为SKILL.md (区分大小写)
+                                                                                  • No spaces or capitals                                                                                                                      • 无空格或大写字母
+• No variations accepted (SKILL.MD, skill.md, etc.)                                                                                                                 • 不接受任何变体（SKILL.md、技能.md等）
+                                                                                  • Should match folder name                                                                                                                   • 应与文件夹名称匹配
+
+Skill folder naming:                                                                                                                                                Skill 文件夹命名：
+                                                                                  description (required):                                                                                                                      description（必需）：
+• Use kebab-case: notion-project-setup        ✅                                   • MUST include BOTH:
+                                                                                                                                                                    • 使用短横线命名法：notion-project-setup            ✅               • 必须包含以下两者：
+• No spaces: Notion Project Setup       ❌                                           – What the skill does                                                           • 无空格：Notion Project Setup         ❌                        – 该技能的功能
+
+• No underscores: notion_project_setup        ❌                                     – When to use it (trigger conditions)
+                                                                                                                                                                    • 无下划线：notion_project_setup            ❌                    – 何时使用（触发条件）
+
+• No capitals: NotionProjectSetup      ❌                                          • Under 1024 characters
+                                                                                                                                                                    • 无大写字母：NotionProjectSetup        ❌                        • 少于1024个字符
+
+                                                                                  • No XML tags (< or >)                                                                                                                       • 无XML标签（< 或>）
+No README.md:                                                                                                                                                       无 README.md：
+                                                                                  • Include specific tasks users might say                                                                                                     • 包含用户可能提及的具体任务
+• Don't include README.md inside your skill folder                                • Mention file types if relevant                                                  • 不要在您的 Skill 文件夹中包含 README.md                             • 提及相关的文件类型
+• All documentation goes in SKILL.md or references/                                                                                                                 • 所有文档都应放在 SKILL.md 或 references/ 目录中
+
+• Note: when distributing via GitHub, you'll still want a repo-level README for                                                                                     • 注意：通过 GitHub 分发时，您仍需要一个仓库级 README 供人类用户使用——
+  human users — see Distribution and Sharing.                                                                                                                       请参阅分发与共享。
+
+                                                                                                                                                               10                                                                                                                             10
+license (optional):                                                            Writing effective skills                                                                   许可证（可选）：                                        编写有效的技能
+• Use if making skill open source                                                                                                                                         • 若将技能开源时使用
+                                                                               The description field                                                                                                                      描述字段
+• Common: MIT, Apache-2.0                                                                                                                                                 • 常见：MIT、Apache‑2.0
+
+                                                                               According to Anthropic's engineering blog: "This metadata...provides just                                                                  根据 Anthropic 的工程博客所述：“此元数据⋯⋯为 Claude 提供了足够的信息，
+compatibility (optional)                                                                                                                                                  兼容性（可选）
+                                                                               enough information for Claude to know when each skill should be used without                                                               使其知道何时应使用每种技能，而不必将所有内容加载到上下文中。”这是渐进
+• 1-500 characters                                                             loading all of it into context." This is the first level of progressive disclosure.        • 1‑500字符                                       式披露的第一层。
+• Indicates environment requirements: e.g. intended product, required system                                                                                              • 指明环境要求：例如目标产品、所需系统包、网络访问需求等。
+  packages, network access needs, etc.                                         Structure:                                                                                                                                 结构：
+
+metadata (optional):                                                                                                                                                      元数据（可选）：
+                                                                                  [What it does] + [When to use it] + [Key capabilities]                                                                                     [What it does] + [When to use it] + [Key capabilities]
+• Any custom key-value pairs                                                                                                                                              • 任何自定义键值对
+
+• Suggested: author, version, mcp-server                                                                                                                                  • 建议：作者、版本、mcp‑server
+
+• Example:                                                                                                                                                                • 示例：
+                                                                               Examples of good descriptions:                                                                                                             Examples of good descriptions:
+  ```yaml                                                                                                                                                                  ```yaml
+  metadata:                                                                                                                                                                metadata:
+         author: ProjectHub                                                                                                                                                       author: ProjectHub
+                                                                                  # Good - specific and actionable                                                                                                           # Good - specific and actionable
+         version: 1.0.0 mcp-server: projecthub                                    description: Analyzes Figma design files and generates                                          version: 1.0.0 mcp-server: projecthub      良好描述的示例：
+  ```                                                                             developer handoff documentation. Use when user uploads .fig                              ```
+                                                                                  files, asks for "design specs", "component documentation", or
+Security restrictions                                                             "design-to-code handoff".                                                               安全限制
+
+Forbidden in frontmatter:                                                         # Good - includes trigger phrases                                                       前置元数据中禁止包含：                                        # Good - includes trigger phrases
+                                                                                  description: Manages Linear project workflows including sprint                                                                             description: Manages Linear project workflows including sprint
+• XML angle brackets (< >)                                                                                                                                                • XML 尖括号 (< >)
+                                                                                  planning, task creation, and status tracking. Use when user                                                                                planning, task creation, and status tracking. Use when user
+• Skills with "claude" or "anthropic" in name (reserved)                          mentions "sprint", "Linear tasks", "project planning", or asks                          • 名称中包含“Claude”或“Anthropic”的技能（保留）                 mentions "sprint", "Linear tasks", "project planning", or asks
+                                                                                  to "create tickets".                                                                                                                       to "create tickets".
+Why: Frontmatter appears in Claude's system prompt. Malicious content could                                                                                               原因：前置元数据出现在 Claude 的系统提示词中。恶意内容可能会注入指令。
+inject instructions.                                                              # Good - clear value proposition                                                                                                           # Good - clear value proposition
+                                                                                  description: End-to-end customer onboarding workflow for                                                                                   description: End-to-end customer onboarding workflow for
+                                                                                  PayFlow. Handles account creation, payment setup, and                                                                                      PayFlow. Handles account creation, payment setup, and
+                                                                                  subscription management. Use when user says "onboard new                                                                                   subscription management. Use when user says "onboard newcustomer",
+                                                                                  customer", "set up subscription", or "create PayFlow account".                                                                              "set up subscription", or "create PayFlow account".
+
+
+
+
+                                                                                                                                                                     11                                                                                                                           11
+Examples of bad descriptions:                                                                                                                      不良描述示例：
+                                                                                       Example:                                                                                                                      Example:
+                                                                                       ```bash                                                                                                                       ```bash
+   # Too vague                                                                                                                                      # Too vague
+                                                                                       python scripts/fetch_data.py --project-id PROJECT_ID                                                                          python scripts/fetch_data.py --project-id PROJECT_ID
+   description: Helps with projects.                                                                                                                description: Helps with projects.
+                                                                                       Expected output: [describe what success looks like]                                                                           Expected output: [describe what success looks like]
+
+   # Missing triggers                                                                                                                               # Missing triggers
+   description: Creates sophisticated multi-page documentation                                                                                      description: Creates sophisticated multi-page documentation
+   systems.                                                                         (Add more steps as needed)                                      systems.                                                      (根据需要添加更多步骤)
+
+
+   # Too technical, no user triggers                                                                                                                # Too technical, no user triggers
+                                                                                    Examples                                                                                                                      示例
+   description: Implements the Project entity model with                                                                                            description: Implements the Project entity model with
+   hierarchical relationships.                                                                                                                      hierarchical relationships.
+                                                                                    Example 1: [common scenario]                                                                                                  示例 1：[常见场景]
+
+                                                                                    User says: "Set up a new marketing campaign"                                                                                  用户说：“设置一个新的营销活动”
+
+Writing the main instructions                                                       Actions:                                                       编写主要指令                                                         操作：
+
+After the frontmatter, write the actual instructions in Markdown.                   1. Fetch existing campaigns via MCP                            在前置元数据之后，使用 Markdown 编写实际的指令。                                  1. Fetch existing campaigns via MCP
+
+                                                                                    2. Create new campaign with provided parameters                                                                               2. Create new campaign with provided parameters
+Recommended structure:                                                                                                                             推荐结构：
+                                                                                    Result: Campaign created with confirmation link                                                                               结果：活动已创建，附带确认链接
+Adapt this template for your skill. Replace bracketed sections with your specific                                                                  请根据您的技能调整此模板。将方括号内的部分替换为您具体的内容。
+content.                                                                            (Add more examples as needed)                                                                                                 (根据需要添加更多示例)
+
+
+   ---                                                                                                                                              ---
+                                                                                    Troubleshooting                                                                                                               故障排除
+   name: your-skill                                                                                                                                 name: your-skill
+   description: [...]                                                                                                                               description: [--.]
+   ---
+                                                                                    Error: [Common error message]                                   ---
+                                                                                                                                                                                                                  错误：[常见错误信息]
+
+                                                                                    Cause: [Why it happens]                                                                                                       原因：[为何发生]
+   # Your Skill Name                                                                                                                                # Your Skill Name
+
+                                                                                    Solution: [How to fix]                                                                                                        解决方案：[如何修复]
+   ## Instructions                                                                                                                                  -# Instructions
+                                                                                    (Add more error cases as needed)                                                                                              (根据需要添加更多错误案例)
+   ### Step 1: [First Major Step]                                                                                                                   --# Step 1: [First Major Step]
+   Clear explanation of what happens.                                                                                                               Clear explanation of what happens.
+
+
+
+
+                                                                                                                                              12                                                                                                                            12
+Best Practices for Instructions                                    Reference bundled resources clearly                                                 指令的最佳实践                                                              明确引用捆绑资源
+
+
+Be Specific and Actionable                                                                                                                             具体且可操作
+                                                                      Before writing queries, consult `references/api-patterns.md`                                                                                           Before writing queries, consult `references/api-patterns.md`for:
+                                                                      for:
+✅ Good:                                                               - Rate limiting guidance
+                                                                                                                                                       ✅ 良好示例：                                                               - Rate limiting guidance
+                                                                      - Pagination patterns                                                                                                                                  - Pagination patterns
+   Run `python scripts/validate.py --input {filename}` to check       - Error codes and handling                                                            Run `python scripts/validate.py --input {filename}` to check     - Error codes and handling
+   data format.                                                                                                                                             data format.
+   If validation fails, common issues include:                                                                                                              If validation fails, common issues include:
+   - Missing required fields (add them to the CSV)                 Use progressive disclosure                                                               - Missing required fields (add them to the CSV)                 使用渐进式披露
+   - Invalid date formats (use YYYY-MM-DD)                                                                                                                  - Invalid date formats (use YYYY-MM-DD)
+                                                                   Keep SKILL.md focused on core instructions. Move detailed documentation to                                                                               保持SKILL.md专注于核心说明。将详细文档移至`references/` 并链接至该
+                                                                                                                                                                                                                            处。（参阅核心设计原则了解三级系统的工作原理。）
+❌ Bad:                                                             `references/` and link to it. (See Core Design Principles for how the three-
+                                                                   level system works.)
+                                                                                                                                                       ❌ 不良示
+                                                                                                                                                       例：
+
+
+
+
+   Validate the data before proceeding.                                                                                                                     Validate the data before proceeding.
+
+
+
+Include error handling                                                                                                                                 包含错误处理
+
+
+
+   ## Common Issues                                                                                                                                         -# Common Issues
+
+
+   ### MCP Connection Failed                                                                                                                                --# MCP Connection Failed
+   If you see "Connection refused":                                                                                                                         If you see "Connection refused":
+   1. Verify MCP server is running: Check Settings > Extensions                                                                                             1. Verify MCP server is running: Check Settings > Extensions
+   2. Confirm API key is valid                                                                                                                              2. Confirm API key is valid
+   3. Try reconnecting: Settings > Extensions > [Your Service] >                                                                                            3. Try reconnecting: Settings > Extensions > [Your Service] >
+   Reconnect                                                                                                                                                Reconnect
+
+
+
+
+                                                                                                                                                  13                                                                                                                                            13
+Chapter 3                    第三章
+
+
+
+
+Testing and iteration   14
+                             测试与迭代   14
+  Chapter 3                                                                                                                                                                     第3章
+
+
+
+Testing and iteration                                                                                                                                                         测试与迭代
+Skills can be tested at varying levels of rigor depending on your needs:             Recommended Testing Approach                                                             可根据需求以不同严谨程度测试技能：                                                          推荐的测试方法
+• Manual testing in Claude.ai - Run queries directly and observe behavior. Fast                                                                                               • 在 Claude.ai 中进行手动测试 ‑ 直接运行查询并观察行为。快速迭代，无需设置。
+                                                                                     Based on early experience, effective skills testing typically covers three areas:                                                                                   根据早期经验，有效的技能测试通常涵盖三个领域：
+  iteration, no setup required.
+
+• Scripted testing in Claude Code - Automate test cases for repeatable               1. Triggering tests                                                                      • 在 Claude Code 中进行脚本化测试 ‑ 自动化测试用例，以便在变更中                                  1. 触发测试
+  validation across changes.                                                                                                                                                  实现可重复的验证。
+                                                                                     Goal: Ensure your skill loads at the right times.                                                                                                                   目标：确保您的技能在正确时机加载。
+• Programmatic testing via skills API - Build evaluation suites that run                                                                                                      • Programmatic testing via skills API - Build evaluation suites that run
+  systematically against defined test sets.                                          Test cases:                                                                                systematically against defined test sets.                                测试用例：
+
+Choose the approach that matches your quality requirements and the visibility        • ✅ Triggers on obvious tasks                                                            请根据您的质量要求和技能的可见性来选择相应的方法。一个由小型团队内部使                                        • ✅ 触发明显任务
+of your skill. A skill used internally by a small team has different testing needs   • ✅ Triggers on paraphrased requests                                                     用的技能，其测试需求与部署给数千名企业用户的技能截然不同。                                              • ✅ 在改写请求时触发
+
+                                                                                     • ❌ Doesn't trigger on unrelated topics                                                                                                                             • ❌ 对无关主题不触发
+than one deployed to thousands of enterprise users.
+
+
+                                                                                     Example test suite:                                                                                                                                                 示例测试套件：
+   Pro Tip: Iterate on a single task before expanding                                                                                                                           专业建议：先针对单个任务进行迭代，再扩展范围
+
+                                                                                         Should trigger:                                                                                                                                                     Should trigger:
+We’ve found that the most effective skill creators iterate on a single challenging       - "Help me set up a new ProjectHub workspace"                                        我们发现，最有效的技能创建者会针对一个具有挑战性的任务进行反复迭代，直                                            - "Help me set up a new ProjectHub workspace"
+task until Claude succeeds, then extract the winning approach into a skill. This         - "I need to create a project in ProjectHub"                                         到Claude成功，然后将获胜的方法提取为一项技能。这利用了Claude的上下文                                       - "I need to create a project in ProjectHub"
+leverages Claude’s in-context learning and provides faster signal than broad             - "Initialize a ProjectHub project for Q4 planning"                                  学习能力，并且比广泛的测试能提供更快的反馈信号。一旦你有了一个可用的基                                            - "Initialize a ProjectHub project for Q4 planning"
+
+testing. Once you have a working foundation, expand to multiple test cases for                                                                                                础，就可以扩展到多个测试用例以实现覆盖。
+                                                                                         Should NOT trigger:                                                                                                                                                 Should NOT trigger:
+coverage.
+                                                                                         - "What's the weather in San Francisco?"                                                                                                                            - "What's the weather in San Francisco?"
+                                                                                         - "Help me write Python code"                                                                                                                                       - "Help me write Python code"
+                                                                                         - "Create a spreadsheet" (unless ProjectHub skill handles                                                                                                           - "Create a spreadsheet" (unless ProjectHub skill handles
+                                                                                         sheets)                                                                                                                                                             sheets)
+
+
+
+
+                                                                                                                                                                         15                                                                                                                                              15
+2. Functional tests                                                                                                                                                    2. 功能测试
+                                                                                  With skill:                                                                                                                                      With skill:
+Goal: Verify the skill produces correct outputs.                                  - Automatic workflow execution                                                       目标：验证技能能产生正确的输出。                                            - Automatic workflow execution
+                                                                                  - 2 clarifying questions only                                                                                                                    - 2 clarifying questions only
+Test cases:                                                                       - 0 failed API calls                                                                 测试用例：                                                       - 0 failed API calls
+
+• Valid outputs generated                                                         - 6,000 tokens consumed                                                              • 有效输出已生成                                                   - 6,000 tokens consumed
+
+• API calls succeed                                                                                                                                                    • API调用成功
+
+• Error handling works                                                                                                                                                 • 错误处理生效
+
+• Edge cases covered                                                           Using the skill-creator skill                                                           • 边缘情况已覆盖                                                  使用技能创建器技能
+
+Example:                                                                       The skill-creator skill - available in Claude.ai via plugin directory or                                                                           该skill-creator 技能——可通过插件目录在Claude.ai获取或为Claude
+                                                                                                                                                                       示例：
+                                                                               download for Claude Code - can help you build and iterate on skills. If you                                                                        Code下载——能帮助你构建并迭代技能。如果你拥有一个MCP服务器并清楚你
+                                                                               have an MCP server and know your top 2–3 workflows, you can build and test a                                                                       最常用的2–3个工作流，你可以在一次会话中构建并测试一个功能性技能——通常
+   Test: Create project with 5 tasks                                           functional skill in a single sitting - often in 15–30 minutes.                            Test: Create project with 5 tasks                        只需15–30分钟。
+   Given: Project name "Q4 Planning", 5 task descriptions                                                                                                                Given: Project name "Q4 Planning", 5 task descriptions
+   When: Skill executes workflow                                               Creating skills:                                                                          When: Skill executes workflow                            创建技能：
+   Then:                                                                                                                                                                 Then:
+                                                                               • Generate skills from natural language descriptions                                                                                               • 根据自然语言描述生成技能
+      - Project created in ProjectHub                                                                                                                                      - Project created in ProjectHub
+      - 5 tasks created with correct properties                                • Produce properly formatted SKILL.md with frontmatter                                      - 5 tasks created with correct properties              • 生成带有前置元数据的格式正确的SKILL.md
+      - All tasks linked to project                                                                                                                                        - All tasks linked to project
+                                                                               • Suggest trigger phrases and structure                                                                                                            • 建议触发短语和结构
+      - No API errors                                                                                                                                                      - No API errors
+
+                                                                               Reviewing skills:                                                                                                                                  审查技能：
+
+                                                                               • Flag common issues (vague descriptions, missing triggers, structural                                                                             • 标记常见问题（描述模糊、缺少触发、结构问题）
+3. Performance comparison                                                        problems)                                                                             3. 性能比较
+                                                                               • Identify potential over/under-triggering risks                                                                                                   • 识别潜在的过度/欠触发风险
+Goal: Prove the skill improves results vs. baseline.                                                                                                                   目标：证明该技能相比基线能改善结果。
+                                                                               • Suggest test cases based on the skill's stated purpose                                                                                           • 根据技能的既定目的建议测试用例
+Use the metrics from Define Success Criteria. Here's what a comparison might                                                                                           使用“定义成功标准”中的指标。以下是比较可能呈现的样子。
+look like.                                                                     Iterative improvement:                                                                                                                             迭代改进：
+
+                                                                               • After using your skill and encountering edge cases or failures, bring those                                                                      • 在使用你的技能并遇到边缘情况或失败后，将这些示例带回给
+Baseline comparison:                                                                                                                                                   基线比较：
+                                                                                 examples back to skill-creator                                                                                                                   skill‑creator
+
+                                                                               • Example: "Use the issues & solution identified in this chat to improve how the                                                                   • 示例：“利用本次聊天中发现的问题与解决方案，改进该技能处理[特定边缘情
+   Without skill:                                                                                                                                                        Without skill:
+                                                                                 skill handles [specific edge case]"                                                                                                              况]的方式”
+   - User provides instructions each time                                                                                                                                - User provides instructions each time
+   - 15 back-and-forth messages                                                                                                                                          - 15 back-and-forth messages
+   - 3 failed API calls requiring retry                                                                                                                                  - 3 failed API calls requiring retry
+   - 12,000 tokens consumed                                                                                                                                              - 12,000 tokens consumed
+
+                                                                                                                                                                  16                                                                                                               16
+To use:                                                                         Execution issues:                                            使用方法：                                                        执行问题：
+
+                                                                                • Inconsistent results                                                                                                    • 结果不一致
+   "Use the skill-creator skill to help me build a skill for                                                                                  "Use the skill-creator skill to help me build a skill for
+                                                                                • API call failures                                                                                                       • API调用失败
+   [your use case]"                                                                                                                           [your use case]"
+                                                                                • User corrections needed                                                                                                 • 需要用户纠正
+
+
+Note: skill-creator helps you design and refine skills but does not execute                                                                  注意：skill‑creator 帮助您设计和优化技能，但不执行自动化测试套件或
+                                                                                   Solution: Improve instructions, add error handling                                                                      解决方案：改进指令，添加错误处理
+automated test suites or produce quantitative evaluation results.                                                                            生成定量评估结果。
+
+
+Iteration based on feedback                                                                                                                  基于反馈的迭代
+Skills are living documents. Plan to iterate based on:                                                                                       技能是动态文档。计划基于以下因素进行迭代：
+
+
+Undertriggering signals:                                                                                                                     触发不足信号：
+
+• Skill doesn't load when it should                                                                                                          • 技能在应该加载时未加载
+
+• Users manually enabling it                                                                                                                 • 用户手动启用它
+
+• Support questions about when to use it                                                                                                     • 关于何时使用它的支持问题
+
+
+
+   Solution: Add more detail and nuance to the description - this may include                                                                 解决方案：在description中添加更多细节和细微差别——这可能包括针对技
+   keywords particularly for technical terms                                                                                                  术术语的关键词
+
+
+
+Overtriggering signals:                                                                                                                      过度触发信号：
+
+• Skill loads for irrelevant queries                                                                                                         • 技能为无关查询加载
+
+• Users disabling it                                                                                                                         • 用户禁用它
+
+• Confusion about purpose                                                                                                                    • 对目的感到困惑
+
+
+
+   Solution: Add negative triggers, be more specific                                                                                          解决方案：添加否定触发词，更具体
+
+
+
+
+                                                                                                                                        17                                                                                    17
+Chapter 4               第4章
+
+
+
+
+Distribution and        分发与共享
+sharing            18           18
+  Chapter 4                                                                                                                                                                 第四章
+
+
+
+Distribution and sharing                                                                                                                                                   分发与共享
+Skills make your MCP integration more complete. As users compare connectors,         Using skills via API                                                                  技能让你的 MCP 集成更加完善。当用户比较连接器时，那些具备技能的连接器能        通过API使用技能
+those with skills offer a faster path to value, giving you an edge over MCP-only                                                                                           提供更快的价值实现路径，让你相较于仅支持 MCP 的替代方案更具优势。
+alternatives.                                                                        For programmatic use cases - such as building applications, agents, or automated                                                    对于程序化用例——例如构建应用程序、代理或自动化工作流以利用技能——API提
+                                                                                     workflows that leverage skills - the API provides direct control over skill                                                         供了对技能管理和执行的直接控制。
+                                                                                     management and execution.
+Current distribution model (January 2026)                                                                                                                                  当前分发模型（2026年1月）
+                                                                                     Key capabilities:                                                                                                                   关键Capabilities：
+How individual users get skills:                                                                                                                                           个人用户如何获取技能：
+                                                                                     •    `/v1/skills` endpoint for listing and managing skills                                                                          •   `/v1/skills` 用于列出和管理技能的端点
+1. Download the skill folder                                                                                                                                               1. 下载 Skill 文件夹
+                                                                                     • Add skills to Messages API requests via the `container.skills` parameter                                                          • 通过`container.skills` 参数向 Messages API 请求添加技能
+2. Zip the folder (if needed)                                                                                                                                              2. 压缩文件夹（如果需要）
+                                                                                     • Version control and management through the Claude Console                                                                         • 通过 Claude 控制台进行版本控制与管理
+3. Upload to Claude.ai via Settings > Capabilities > Skills                                                                                                                3. 通过设置 > Capabilities > 技能上传到 Claude.ai
+                                                                                     • Works with the Claude Agent SDK for building custom agents                                                                        • 与 Claude Agent SDK 配合使用，用于构建自定义 Agent
+4. Or place in Claude Code skills directory                                                                                                                                4. 或放置在 Claude Code 技能目录中
+
+                                                                                     When to use skills via the API vs. Claude.ai:                                                                                       何时通过 API 使用技能 vs. Claude.ai：
+Organization-level skills:                                                                                                                                                 组织级技能：
+• Admins can deploy skills workspace-wide (shipped December 18, 2025)                    Use Case                                           Best Surface                   • 管理员可以部署整个工作空间的技能（发布于 2025年12月18日）               使用场景                            最佳使用界面
+• Automatic updates                                                                                                                                                        • 自动更新
+                                                                                         End users interacting with skills directly         Claude.ai / Claude Code                                                          终端用户直接与技能交互                     Claude.ai / Claude Code
+• Centralized management                                                                                                                                                   • 集中化管理
+                                                                                         Manual testing and iteration during development    Claude.ai / Claude Code                                                          开发过程中的手动测试与迭代                   Claude.ai / Claude Code
+
+An open standard                                                                                                                                                           一个开放标准
+                                                                                         Individual, ad-hoc workflows                       Claude.ai / Claude Code                                                          个人、临时工作流                        Claude.ai / Claude Code
+
+We've published Agent Skills as an open standard. Like MCP, we believe skills                                                                                              我们已将智能体技能发布为开放标准。与MCP一样，我们认为技能应该能够在不
+should be portable across tools and platforms - the same skill should work               Applications using skills programmatically         API                            同工具和平台间移植——同一个技能应该能够无论您使用的是Claude还是其他AI           应用程序以程序化方式使用技能                  API
+whether you're using Claude or other AI platforms. That said, some skills are                                                                                              平台。当然，有些技能旨在充分利用特定平台的Capabilities；作者可以在技能的
+designed to take full advantage of a specific platform's capabilities; authors can       Production deployments at scale                    API                            compatibility 字段中注明这一点。我们一直在与生态系统成员合作制定该标准，       大规模生产部署                         API
+
+note this in the skill's compatibility field. We've been collaborating with                                                                                                并对早期的采纳感到兴奋。
+members of the ecosystem on the standard, and we're excited by early adoption.           Automated pipelines and agent systems              API                                                                              自动化流水线与智能体系统                    API
+
+
+
+
+                                                                                                                                                                      19                                                                                                               19
+Note: Skills in the API require the Code Execution Tool beta, which provides the                                                                                      注意：API中的技能需要代码执行工具测试版，该工具提供了技能运行所需的安全
+secure environment skills need to run.                                                      - Select the skill folder (zipped)                                        环境。                                                                 - Select the skill folder (zipped)
+
+
+For implementation details, see:                                                        3. Enable the skill:                                                          有关实现细节，请参阅：                                                      3. Enable the skill:
+                                                                                            - Toggle on the [Your Service] skill                                                                                                          - Toggle on the [Your Service] skill
+• Skills API Quickstart                                                                     - Ensure your MCP server is connected                                     • Skills API 快速入门                                                   - Ensure your MCP server is connected
+• Create Custom skills                                                                                                                                                • 创建自定义技能
+                                                                                        4. Test:                                                                                                                                       4. Test:
+• Skills in the Agent SDK                                                                   - Ask Claude: "Set up a new project in [Your Service]"                    • Agent SDK 中的技能                                                    - Ask Claude: "Set up a new project in [Your Service]"
+
+
+
+Recommended approach today                                                           Positioning your skill                                                           当前推荐的方法                                                         定位你的技能
+Start by hosting your skill on GitHub with a public repo, clear README (for          How you describe your skill determines whether users understand its value and    首先，将你的技能托管在 GitHub 上，拥有一个公开仓库、清晰的 README（供                      你如何描述你的技能决定了用户是否能理解其价值并真正尝试使用。在撰写关于你
+human visitors — this is separate from your skill folder, which should not contain   actually try it. When writing about your skill—in your README, documentation,    访客阅读——这与你的技能文件夹是分开的，技能文件夹不应包含 README.md），                       的技能的内容时——无论是在README、文档还是营销材料中——请牢记以下原则。
+a README.md), and example usage with screenshots. Then add a section                 or marketing - keep these principles in mind.                                    并提供带有截图的示例用法。然后，在你的 MCP 文档中添加一个部分，链接到该
+to your MCP documentation that links to the skill, explains why using both                                                                                            技能，解释为何两者结合使用有价值，并提供一份快速入门指南。
+together is valuable, and provides a quick-start guide.                              Focus on outcomes, not features:                                                                                                                 聚焦于成果，而非功能：
+
+1. Host on GitHub                                                                    ✅ Good:                                                                          1. 托管在 GitHub                                                   ✅ 优点：
+  – Public repo for open-source skills                                                                                                                                  – 公开仓库用于开源技能
+  – Clear README with installation instructions                                         "The ProjectHub skill enables teams to set up complete project                  – 清晰的 README 包含安装说明                                            "The ProjectHub skill enables teams to set up complete project
+  – Example usage and screenshots                                                       workspaces in seconds — including pages, databases, and                         – 示例用法和截图                                                      workspaces in seconds — including pages, databases, and
+                                                                                        templates — instead of spending 30 minutes on manual setup."                                                                                   templates — instead of spending 30 minutes on manual setup."
+2. Document in Your MCP Repo                                                                                                                                          2. 在您的 MCP 仓库中记录
+  – Link to skills from MCP documentation                                                                                                                               – 从 MCP 文档链接到技能
+  – Explain the value of using both together
+  – Provide quick-start guide
+                                                                                     ❌ Bad:                                                                             – 解释两者结合使用的价值
+                                                                                                                                                                        – 提供快速入门指南
+                                                                                                                                                                                                                                      ❌ 缺点：
+3. Create an Installation Guide                                                         "The ProjectHub skill is a folder containing YAML frontmatter                 3. 创建安装指南                                                        "The ProjectHub skill is a folder containing YAML frontmatter
+                                                                                        and Markdown instructions that calls our MCP server tools."                                                                                    and Markdown instructions that calls our MCP server tools."
+
+   ## Installing the [Your Service] skill                                                                                                                               -# Installing the [Your Service] skill
+
+   1. Download the skill:                                                            Highlight the MCP + skills story:                                                  1. Download the skill:                                        突出MCP + 技能故事：
+       - Clone repo: `git clone https://github.com/yourcompany/                                                                                                            - Clone repo: `git clone https:-/github.com/yourcompany/
+         skills`                                                                                                                                                             skills`
+       - Or download ZIP from Releases                                                  "Our MCP server gives Claude access to your Linear projects.                       - Or download ZIP from Releases                             "Our MCP server gives Claude access to your Linear projects.
+                                                                                        Our skills teach Claude your team's sprint planning workflow.                                                                                  Our skills teach Claude your team's sprint planning workflow.
+   2. Install in Claude:                                                                Together, they enable AI-powered project management."                           2. Install in Claude:                                          Together, they enable AI-powered project management."
+       - Open Claude.ai > Settings > skills                                                                                                                                - Open Claude.ai > Settings > skills
+       - Click "Upload skill"                                                                                                                                              - Click "Upload skill"
+                                                                                                                                                                 20                                                                                                                                     20
+Chapter 5              第5章
+
+
+
+
+Patterns and           模式与故障排除
+troubleshooting   21             21
+  Chapter 5                                                                                                                                                     第5章
+
+
+
+Patterns and troubleshooting                                                                                                                                   模式与故障排除
+These patterns emerged from skills created by early adopters and internal teams.    Pattern 1: Sequential workflow orchestration                               这些模式源自早期采用者和内部团队创建的技能。它们代表了我们看到行之有效的              模式 1：顺序工作流编排
+They represent common approaches we've seen work well, not prescriptive                                                                                        常见方法，而非规定性的模板。
+templates.                                                                          Use when: Your users need multi-step processes in a specific order.                                                          适用场景：您的用户需要按特定顺序执行多步骤流程。
+
+                                                                                    Example structure:                                                                                                           示例结构：
+Choosing your approach: Problem-first vs. tool-first                                                                                                           选择你的方法：问题优先 vs 工具优先
+
+Think of it like Home Depot. You might walk in with a problem - "I need to fix a       ## Workflow: Onboard New Customer                                       想象一下家得宝的情景。你可能带着一个问题走进商店——“我需要修理一个厨                -# Workflow: Onboard New Customer
+kitchen cabinet" - and an employee points you to the right tools. Or you might                                                                                 房橱柜”——然后店员会指引你找到合适的工具。或者，你可能挑选了一把新电
+pick out a new drill and ask how to use it for your specific job.                      ### Step 1: Create Account                                              钻，然后询问如何用它来完成你的具体工作。                               --# Step 1: Create Account
+                                                                                       Call MCP tool: `create_customer`                                                                                           Call MCP tool: `create_customer`
+Skills work the same way:                                                              Parameters: name, email, company                                        技能的工作方式与此相同：                                       Parameters: name, email, company
+
+• Problem-first: "I need to set up a project workspace" → Your skill orchestrates                                                                              • 问题优先："我需要设置一个项目工作区" → 您的技能会按正确顺序编排正确的
+                                                                                       ### Step 2: Setup Payment                                                                                                  --# Step 2: Setup Payment
+  the right MCP calls in the right sequence. Users describe outcomes; the skill                                                                                MCP 调用。用户描述结果；技能处理工具。
+                                                                                       Call MCP tool: `setup_payment_method`                                                                                      Call MCP tool: `setup_payment_method`
+  handles the tools.
+                                                                                       Wait for: payment method verification                                                                                      Wait for: payment method verification
+• Tool-first: "I have Notion MCP connected" → Your skill teaches Claude the                                                                                    • 工具优先："我已连接 Notion MCP" → 您的技能向 Claude 传授最优工作流
+  optimal workflows and best practices. Users have access; the skill provides          ### Step 3: Create Subscription                                         和最佳实践。用户拥有访问权限；技能提供专业知识。                           --# Step 3: Create Subscription
+  expertise.                                                                           Call MCP tool: `create_subscription`                                                                                       Call MCP tool: `create_subscription`
+                                                                                       Parameters: plan_id, customer_id (from Step 1)                                                                             Parameters: plan_id, customer_id (from Step 1)
+Most skills lean one direction. Knowing which framing fits your use case helps                                                                                 多数技能偏向某一方向。了解哪种框架适合您的使用场景，有助于您选择下方正
+you choose the right pattern below.                                                    ### Step 4: Send Welcome Email                                          确的模式。                                              --# Step 4: Send Welcome Email
+                                                                                       Call MCP tool: `send_email`                                                                                                Call MCP tool: `send_email`
+                                                                                       Template: welcome_email_template                                                                                           Template: welcome_email_template
+
+
+
+
+                                                                                    Key techniques:                                                                                                              关键技术：
+
+                                                                                    • Explicit step ordering                                                                                                     • 显式步骤排序
+
+                                                                                    • Dependencies between steps                                                                                                 • 步骤间依赖
+
+                                                                                    • Validation at each stage                                                                                                   • 每个阶段的验证
+
+                                                                                    • Rollback instructions for failures                                                                                         • 失败回滚指令
+                                                                                                                                                          22                                                                                                       22
+Pattern 2: Multi-MCP coordination               Pattern 3: Iterative refinement                               模式2：多MCP协调                                    模式 3：迭代优化
+Use when: Workflows span multiple services.     Use when: Output quality improves with iteration.             适用场景：工作流跨越多个服务。                               适用场景：输出质量通过迭代得以提升。
+
+Example: Design-to-development handoff          Example: Report generation                                    示例：设计到开发交接                                    示例：报告生成
+
+
+   ### Phase 1: Design Export (Figma MCP)          ## Iterative Report Creation                                --# Phase 1: Design Export (Figma MCP)        -# Iterative Report Creation
+   1. Export design assets from Figma                                                                          1. Export design assets from Figma
+   2. Generate design specifications               ### Initial Draft                                           2. Generate design specifications             --# Initial Draft
+   3. Create asset manifest                        1. Fetch data via MCP                                       3. Create asset manifest                      1. Fetch data via MCP
+                                                   2. Generate first draft report                                                                            2. Generate first draft report
+   ### Phase 2: Asset Storage (Drive MCP)          3. Save to temporary file                                   --# Phase 2: Asset Storage (Drive MCP)        3. Save to temporary file
+   1. Create project folder in Drive                                                                           1. Create project folder in Drive
+   2. Upload all assets                            ### Quality Check                                           2. Upload all assets                          --# Quality Check
+   3. Generate shareable links                     1. Run validation script: `scripts/check_report.py`         3. Generate shareable links                   1. Run validation script: `scripts/check_report.py`
+                                                   2. Identify issues:                                                                                       2. Identify issues:
+   ### Phase 3: Task Creation (Linear MCP)             - Missing sections                                      --# Phase 3: Task Creation (Linear MCP)          - Missing sections
+   1. Create development tasks                         - Inconsistent formatting                               1. Create development tasks                      - Inconsistent formatting
+   2. Attach asset links to tasks                      - Data validation errors                                2. Attach asset links to tasks                   - Data validation errors
+   3. Assign to engineering team                                                                               3. Assign to engineering team
+                                                   ### Refinement Loop                                                                                       --# Refinement Loop
+   ### Phase 4: Notification (Slack MCP)           1. Address each identified issue                            --# Phase 4: Notification (Slack MCP)         1. Address each identified issue
+   1. Post handoff summary to #engineering         2. Regenerate affected sections                             1. Post handoff summary to #engineering       2. Regenerate affected sections
+   2. Include asset links and task references      3. Re-validate                                              2. Include asset links and task references    3. Re-validate
+                                                   4. Repeat until quality threshold met                                                                     4. Repeat until quality threshold met
+
+
+Key techniques:                                    ### Finalization                                           关键技术：                                          --# Finalization
+                                                   1. Apply final formatting                                                                                 1. Apply final formatting
+• Clear phase separation                                                                                      • 清晰的阶段分离
+                                                   2. Generate summary                                                                                       2. Generate summary
+• Data passing between MCPs                        3. Save final version                                      • MCP间的数据传递                                    3. Save final version
+
+• Validation before moving to next phase                                                                      • 进入下一阶段前的验证
+
+• Centralized error handling                    Key techniques:                                               • 集中式错误处理                                     关键技术：
+
+                                                • Explicit quality criteria                                                                                 • 明确的质量标准
+
+                                                • Iterative improvement                                                                                     • 迭代改进
+
+                                                • Validation scripts                                                                                        • 验证脚本
+
+                                                • Know when to stop iterating                                                                               • 知道何时停止迭代
+
+                                                                                                         23                                                                                                        23
+Pattern 4: Context-aware tool selection                         Pattern 5: Domain-specific intelligence                                    模式 4：上下文感知工具选择                                    模式 5：领域特定智能
+Use when: Same outcome, different tools depending on context.   Use when: Your skill adds specialized knowledge beyond tool access.        使用场景：目标相同，但根据上下文选择不同的工具。                          使用场景：当你的技能提供了超越工具访问的专门知识时。
+
+Example: File storage                                           Example: Financial compliance                                              示例：文件存储                                           示例：金融合规
+
+
+   ## Smart File Storage                                           ## Payment Processing with Compliance                                    -# Smart File Storage                             -# Payment Processing with Compliance
+
+
+   ### Decision Tree                                               ### Before Processing (Compliance Check)                                 --# Decision Tree                                 --# Before Processing (Compliance Check)
+   1. Check file type and size                                     1. Fetch transaction details via MCP                                     1. Check file type and size                       1. Fetch transaction details via MCP
+   2. Determine best storage location:                             2. Apply compliance rules:                                               2. Determine best storage location:               2. Apply compliance rules:
+       - Large files (>10MB): Use cloud storage MCP                   - Check sanctions lists                                                 - Large files (>10MB): Use cloud storage MCP       - Check sanctions lists
+       - Collaborative docs: Use Notion/Docs MCP                      - Verify jurisdiction allowances                                        - Collaborative docs: Use Notion/Docs MCP          - Verify jurisdiction allowances
+       - Code files: Use GitHub MCP                                   - Assess risk level                                                     - Code files: Use GitHub MCP                       - Assess risk level
+       - Temporary files: Use local storage                        3. Document compliance decision                                            - Temporary files: Use local storage            3. Document compliance decision
+
+
+   ### Execute Storage                                             ### Processing                                                           --# Execute Storage                               --# Processing
+   Based on decision:                                              IF compliance passed:                                                    Based on decision:                                IF compliance passed:
+   - Call appropriate MCP tool                                       - Call payment processing MCP tool                                     - Call appropriate MCP tool                         - Call payment processing MCP tool
+   - Apply service-specific metadata                                 - Apply appropriate fraud checks                                       - Apply service-specific metadata                   - Apply appropriate fraud checks
+   - Generate access link                                            - Process transaction                                                  - Generate access link                              - Process transaction
+                                                                   ELSE:                                                                                                                      ELSE:
+   ### Provide Context to User                                       - Flag for review                                                      --# Provide Context to User                         - Flag for review
+   Explain why that storage was chosen                               - Create compliance case                                               Explain why that storage was chosen                 - Create compliance case
+
+
+                                                                   ### Audit Trail                                                                                                            --# Audit Trail
+Key techniques:                                                    - Log all compliance checks                                             关键技术：                                              - Log all compliance checks
+                                                                   - Record processing decisions                                                                                              - Record processing decisions
+• Clear decision criteria                                                                                                                  • 清晰的决策标准
+                                                                   - Generate audit report                                                                                                    - Generate audit report
+• Fallback options                                                                                                                         • 备用选项
+
+• Transparency about choices                                                                                                               • 关于选择的透明度
+                                                                Key techniques:                                                                                                              关键技术：
+
+                                                                • Domain expertise embedded in logic                                                                                         • 嵌入逻辑中的领域专业知识
+
+                                                                • Compliance before action                                                                                                   • 行动前合规
+
+                                                                • Comprehensive documentation                                                                                                • 全面的文档
+
+                                                                • Clear governance                                                                                                           • 清晰的治理
+
+
+                                                                                                                                      24                                                                                                 24
+Troubleshooting                                                                                                                             故障排除
+                                                         # Wrong                                                                                                                # Wrong
+                                                         name: My Cool Skill                                                                                                    name: My Cool Skill
+Skill won't upload                                                                                                                          技能无法上传
+
+Error: "Could not find SKILL.md in uploaded folder"      # Correct                                                                          错误："无法在上传的文件夹中找到 SKILL.md"          # Correct
+                                                         name: my-cool-skill                                                                                                    name: my-cool-skill
+Cause: File not named exactly SKILL.md                                                                                                      原因：文件未精确命名为 SKILL.md
+
+Solution:                                                                                                                                   解决方案：
+                                                      Skill doesn't trigger                                                                                                  技能未触发
+• Rename to SKILL.md (case-sensitive)                                                                                                       • 重命名为 SKILL.md（大小写敏感）
+
+• Verify with: ls -la should show SKILL.md            Symptom: Skill never loads automatically                                              • 验证：ls ‑la 应显示 SKILL.md         症状：技能从未自动加载
+
+Error: "Invalid frontmatter"                          Fix:                                                                                  错误：“无效的前置元数据”                    Fix:
+
+Cause: YAML formatting issue                          Revise your description field. See The Description Field for good/bad examples.       原因：YAML 格式问题                     修订您的描述字段。请参阅《描述字段》了解好坏示例。
+
+Common mistakes:                                      Quick checklist:                                                                      常见错误：                            快速检查清单：
+
+                                                      • Is it too generic? ("Helps with projects" won't work)                                                                • 是否过于笼统？（“协助项目”无效）
+   # Wrong - missing delimiters                       • Does it include trigger phrases users would actually say?                             # Wrong - missing delimiters   • 是否包含用户实际会说的触发短语？
+   name: my-skill                                                                                                                             name: my-skill
+   description: Does things
+                                                      • Does it mention relevant file types if applicable?                                    description: Does things
+                                                                                                                                                                             • 是否提及了相关的文件类型（如适用）？
+
+                                                      Debugging approach:                                                                                                    调试方法：
+   # Wrong - unclosed quotes                                                                                                                  # Wrong - unclosed quotes
+   name: my-skill                                                                                                                             name: my-skill
+                                                      Ask Claude: "When would you use the [skill name] skill?" Claude will quote the                                         询问Claude：“何时会使用[技能名称] 技能？”Claude会引用description回复。
+   description: "Does things                                                                                                                  description: "Does things
+                                                      description back. Adjust based on what's missing.                                                                      根据缺失内容进行调整。
+
+   # Correct                                                                                                                                  # Correct
+   ---
+                                                      Skill triggers too often                                                                ---
+                                                                                                                                                                             技能触发过于频繁
+   name: my-skill                                                                                                                             name: my-skill
+                                                      Symptom: Skill loads for unrelated queries                                                                             症状：技能因无关查询而加载
+   description: Does things                                                                                                                   description: Does things
+   ---                                                Solutions:                                                                              ---
+                                                                                                                                                                             解决方案：
+                                                      1. Add negative triggers                                                                                               1. 添加否定触发词
+Error: "Invalid skill name"                                                                                                                 错误：“无效的技能名称”
+                                                         description: Advanced data analysis for CSV files. Use for                                                             description: Advanced data analysis for CSV files. Use for
+Cause: Name has spaces or capitals                       statistical modeling, regression, clustering. Do NOT use for                       原因：姓名包含空格或大写字母
+                                                                                                                                                                                statistical modeling, regression, clustering. Do NOT use for
+                                                         simple data exploration (use data-viz skill instead).                                                                  simple data exploration (use data-viz skill instead).
+
+
+
+                                                                                                                                       25                                                                                                      25
+2. Be more specific                                                 Instructions not followed                                                                 2. 更具体一些                                                           未遵循指令
+
+                                                                    Symptom: Skill loads but Claude doesn't follow instructions                                                                                                  症状：技能已加载但Claude未遵循指令
+   # Too broad                                                                                                                                                  # Too broad
+   description: Processes documents                                                                                                                             description: Processes documents
+                                                                    Common causes:                                                                                                                                               常见原因：
+
+   # More specific                                                  1. Instructions too verbose                                                                 # More specific                                                  1. 指令过于冗长
+   description: Processes PDF legal documents for contract review     – Keep instructions concise                                                               description: Processes PDF legal documents for contract review    – 保持指令简洁
+                                                                      – Use bullet points and numbered lists                                                                                                                      – 使用要点和编号列表
+                                                                      – Move detailed reference to separate files                                                                                                                 – 将详细参考资料移至单独文件
+3. Clarify scope                                                                                                                                              3. 明确范围
+                                                                    2. Instructions buried                                                                                                                                       2. 指令被埋藏
+                                                                      – Put critical instructions at the top                                                                                                                      – 将关键指令置于顶部
+   description: PayFlow payment processing for e-commerce. Use        – Use ## Important or ## Critical headers
+                                                                                                                                                                description: PayFlow payment processing for e-commerce. Use
+                                                                                                                                                                                                                                  – 使用 ## 重要或 ## 关键标题
+   specifically for online payment workflows, not for general                                                                                                   specifically for online payment workflows, not for general
+                                                                      – Repeat key points if needed                                                                                                                               – 必要时重复关键点
+   financial queries.                                                                                                                                           financial queries.
+                                                                    3. Ambiguous language                                                                                                                                        3. 语言表述模糊
+
+
+                                                                       # Bad                                                                                                                                                      # Bad
+MCP connection issues                                                  Make sure to validate things properly                                                  MCP 连接问题                                                            Make sure to validate things properly
+
+Symptom: Skill loads but MCP calls fail                                                                                                                       症状：技能已加载但 MCP 调用失败
+                                                                       # Good                                                                                                                                                     # Good
+                                                                       CRITICAL: Before calling create_project, verify:                                                                                                           CRITICAL: Before calling create_project, verify:
+Checklist:                                                                                                                                                    检查清单：
+                                                                       - Project name is non-empty                                                                                                                                - Project name is non-empty
+1. Verify MCP server is connected                                      - At least one team member assigned                                                    1. 验证 MCP 服务器已连接                                                    - At least one team member assigned
+  – Claude.ai: Settings > Extensions > [Your Service]                  - Start date is not in the past                                                         – Claude.ai：设置 > 扩展 > [您的服务]                                       - Start date is not in the past
+  – Should show "Connected" status                                                                                                                             – OAuth令牌已刷新
+
+2. Check authentication                                             Advanced technique: For critical validations, consider bundling a script                  2. 检查认证                                                              高级技巧：对于关键验证，可以考虑捆绑一个脚本，以程序化方式执行检查，
+  – API keys valid and not expired                                  that performs the checks programmatically rather than relying on language                  – API密钥有效且未过期                                                     而非依赖语言指令。代码是确定性的；语言解释则不然。请参阅 Office 技能中的
+  – Proper permissions/scopes granted                               instructions. Code is deterministic; language interpretation isn't. See the Office         – 已授予适当权限/作用域                                                     示例以了解此模式。
+
+  – OAuth tokens refreshed                                          skills for examples of this pattern.                                                       – OAuth tokens refreshed
+
+3. Test MCP independently                                           4. Model "laziness" Add explicit encouragement:                                           3. 独立测试 MCP                                                        4. 模型“惰性”添加明确鼓励：
+  – Ask Claude to call MCP directly (without skill)                                                                                                            – 检查 MCP 服务器文档
+  – "Use [Service] MCP to fetch my projects"                           ## Performance Notes                                                                    – "使用[服务] MCP来获取我的项目"                                              -# Performance Notes
+  – If this fails, issue is MCP not skill                              - Take your time to do this thoroughly                                                  – 如果失败，问题在于 MCP 而非技能                                               - Take your time to do this thoroughly
+                                                                       - Quality is more important than speed                                                                                                                     - Quality is more important than speed
+4. Verify tool names                                                                                                                                          4. 验证工具名称
+                                                                       - Do not skip validation steps                                                                                                                             - Do not skip validation steps
+  – Skill references correct MCP tool names                                                                                                                    – 技能引用了正确的 MCP 工具名称
+  – Check MCP server documentation                                                                                                                             – Check MCP server documentation
+                                                                    Note: Adding this to user prompts is more effective than in SKILL.md                                                                                         注意：将此添加到用户提示中比在SKILL.md中更有效
+  – Tool names are case-sensitive                                                                                                                              – 工具名称区分大小写
+                                                                                                                                                         26                                                                                                                          26
+Large context issues                                                            大型上下文问题
+
+Symptom: Skill seems slow or responses degraded                                 症状：技能似乎运行缓慢或响应质量下降
+
+Causes:                                                                         原因：
+• Skill content too large                                                       • 技能内容过大
+
+• Too many skills enabled simultaneously                                        • 同时启用过多技能
+
+• All content loaded instead of progressive disclosure                          • 加载全部内容而非采用渐进式披露
+
+Solutions:                                                                      解决方案：
+1. Optimize SKILL.md size                                                       1. 优化 SKILL.md 文件大小
+  – Move detailed docs to references/                                            – 将详细文档移至 references/ 目录
+  – Link to references instead of inline                                         – 链接至参考资料而非内嵌
+  – Keep SKILL.md under 5,000 words                                              – 保持 SKILL.md 字数在 5,000 以内
+
+2. Reduce enabled skills                                                        2. 减少启用技能数量
+  – Evaluate if you have more than 20 - 50 skills enabled simultaneously         – 评估是否同时启用了超过 20 ‑ 50 个技能
+  – Recommend selective enablement                                               – 建议选择性启用
+  – Consider skill "packs" for related capabilities                              – 考虑为相关Capabilities提供技能"包"
+
+
+
+
+                                                                           27                                 27
+Chapter 6            第六章
+
+
+
+
+Resources and        资源与
+references           references
+                28                28
+  Chapter 6                                                                                                                                                      第6章
+
+
+
+Resources and references                                                                                                                                       资源与references
+If you're building your first skill, start with the Best Practices Guide, then   Tools and Utilities                                                           如果你正在构建你的第一个技能，请从最佳实践指南开始，然后根据需要   工具与实用程序
+reference the API docs as needed.                                                                                                                              参考API文档。
+                                                                                 skill-creator skill:                                                                                             技能创建器技能：
+Official Documentation                                                           • Built into Claude.ai and available for Claude Code                          官方文档                               • 内置于 Claude.ai 中，并可供 Claude Code 使用
+
+                                                                                 • Can generate skills from descriptions                                                                          • 可根据描述生成技能
+Anthropic Resources:                                                                                                                                           Anthropic资源：
+                                                                                 • Reviews and provides recommendations                                                                           • 审查并提供建议
+• Best Practices Guide                                                                                                                                         • 最佳实践指南
+                                                                                 • Use: "Help me build a skill using skill-creator"                                                               • 用法示例："帮我使用 skill‑creator 构建一个技能"
+• Skills Documentation                                                                                                                                         • 技能文档
+
+• API Reference                                                                  Validation:                                                                   • API参考                            验证：
+• MCP Documentation                                                              • skill-creator can assess your skills                                        • MCP 文档                           • skill‑creator 可以评估您的技能
+
+                                                                                 • Ask: "Review this skill and suggest improvements"                                                              • 询问示例："审查此技能并提出改进建议"
+Blog Posts:                                                                                                                                                    博客文章：
+                                                                                                                                                               • 智能体技能介绍
+• Introducing Agent Skills
+                                                                                 Getting Support                                                                                                  获取支持
+• Engineering Blog: Equipping Agents for the Real World                                                                                                        • 工程博客：为智能体配备现实世界能力
+
+• Skills Explained                                                               For Technical Questions:                                                      • 技能详解                             技术问题咨询：
+
+• How to Create Skills for Claude                                                • General questions: Community forums at the Claude Developers Discord        • 如何为 Claude 创建技能                  • 一般性问题：请前往 Claude 开发者 Discord 社区论坛
+
+• Building Skills for Claude Code                                                                                                                              • 为 Claude Code 构建技能
+                                                                                 For Bug Reports:                                                                                                 Bug 报告：
+• Improving Frontend Design through Skills                                                                                                                     • 通过技能改进前端设计                       • GitHub Issues：anthropics/skills/issues
+                                                                                 • GitHub Issues: anthropics/skills/issues
+
+                                                                                 • Include: Skill name, error message, steps to reproduce                                                         • 请包含：技能名称、错误信息、复现步骤
+Example skills                                                                                                                                                 示例技能
+
+Public skills repository:                                                                                                                                      公共技能仓库：
+• GitHub: anthropics/skills                                                                                                                                    • GitHub：anthropics/skills
+
+• Contains Anthropic-created skills you can customize                                                                                                          • 包含可供您自定义的 Anthropic 创建的技能
+
+                                                                                                                                                          29                                                                                 29
+                                                                                                                                           参考A：快速
+                                                                                     Before upload                                                                       上传前
+Reference A: Quick                                                                     Tested triggering on obvious tasks                                                 测试在明显任务上的触发
+
+
+checklist                                                                              Tested triggering on paraphrased requests
+
+                                                                                       Verified doesn't trigger on unrelated topics
+                                                                                                                                           chec清单                         测试在改写请求上的触发
+
+                                                                                                                                                                          Verified 不会在无关主题上触发
+Use this checklist to validate your skill before and after upload. If you want                                                             使用此清单在上传前后验证您的技能。如果您希望
+                                                                                       Functional tests pass                                                              功能测试通过
+a faster start, use the skill-creator skill to generate your first draft, then run                                                         更快上手，可使用技能创建器技能生成您的初稿，然后运行
+through this list to make sure you haven't missed anything.                            Tool integration works (if applicable)              此清单以确保您没有遗漏任何内容。               工具集成正常工作（如适用）
+
+                                                                                       Compressed as .zip file                                                            压缩为 .zip文件
+
+Before you start                                                                                                                           开始之前
+                                                                                     After upload                                                                        上传后
+    Identified 2-3 concrete use cases                                                                                                       已确定 2‑3 个具体用例
+
+    Tools identified (built-in or MCP)                                                 Test in real conversations                           已确定工具（内置或 MCP）                在实际对话中进行测试
+
+    Reviewed this guide and example skills                                             Monitor for under/over-triggering                    已审阅本指南及示例技能                   监控触发不足/过度触发的情况
+
+    Planned folder structure                                                           Collect user feedback                                已规划文件夹结构                      收集用户反馈
+
+                                                                                       Iterate on description and instructions                                            迭代优化描述和说明
+
+During development                                                                     Update version in metadata                          开发期间                           更新元数据中的版本
+
+    Folder named in kebab-case                                                                                                              文件夹名称采用短横线命名法
+
+    SKILL.md file exists (exact spelling)                                                                                                   SKILL.md 文件存在（拼写准确）
+
+    YAML frontmatter has --- delimiters                                                                                                     YAML 前置元数据有 ‑‑‑ 分隔符
+
+    name field: kebab-case, no spaces, no capitals                                                                                          name 字段：短横线命名法，无空格，无大写字母
+
+    description includes WHAT and WHEN                                                                                                      description 包含 WHAT 和 WHEN
+
+    No XML tags (< >) anywhere                                                                                                              任何地方都没有 XML标签 (< >)
+
+    Instructions are clear and actionable                                                                                                   指令清晰且可操作
+
+    Error handling included                                                                                                                 包含错误处理
+
+    Examples provided                                                                                                                       提供示例
+
+    References clearly linked                                                                                                               References 清晰链接
+
+
+
+
+                                                                                                                                      30                                                        30
+                                                                     Security notes                                                                                                                                    安全说明
+Reference B: YAML                                                                                                                                  参考 B：YAML 前置元数
+frontmatter                                                          Allowed:
+                                                                     • Any standard YAML types (strings, numbers, booleans, lists, objects)
+                                                                                                                                                   据                                                                   允许：
+                                                                                                                                                                                                                       • 任何标准 YAML 类型（字符串、数字、布尔值、列表、对象）
+
+                                                                     • Custom metadata fields                                                                                                                          • 自定义元数据字段
+Required fields                                                                                                                                    必填字段
+                                                                     • Long descriptions (up to 1024 characters)                                                                                                       • 长描述（最多1024个字符）
+
+  ---                                                                                                                                               ---
+                                                                     Forbidden:                                                                                                                                        禁止项：
+  name: skill-name-in-kebab-case                                                                                                                    name: skill-name-in-kebab-case
+  description: What it does and when to use it. Include specific     • XML angle brackets (< >) - security restriction                              description: What it does and when to use it. Include specific     • XML 尖括号 (< >) ‑ 安全限制
+  trigger phrases.                                                                                                                                  trigger phrases.
+                                                                     • Code execution in YAML (uses safe YAML parsing)                                                                                                 • YAML 中的代码执行（使用安全 YAML 解析）
+  ---                                                                                                                                               ---
+                                                                     • Skills named with "claude" or "anthropic" prefix (reserved)                                                                                     • 以 "claude" 或 "anthropic" 前缀命名的技能（保留项）
+
+
+
+
+All optional fields                                                                                                                                所有可选字段
+
+  name: skill-name                                                                                                                                  name: skill-name
+  description: [required description]                                                                                                               description: [required description]
+  license: MIT # Optional: License for open-source                                                                                                  license: MIT # Optional: License for open-source
+  allowed-tools: "Bash(python:*) Bash(npm:*) WebFetch" # Optional:                                                                                  allowed-tools: "Bash(python:*) Bash(npm:*) WebFetch" # Optional:
+  Restrict tool access                                                                                                                              Restrict tool access
+  metadata: # Optional: Custom fields                                                                                                               metadata: # Optional: Custom fields
+    author: Company Name                                                                                                                              author: Company Name
+    version: 1.0.0                                                                                                                                    version: 1.0.0
+    mcp-server: server-name                                                                                                                           mcp-server: server-name
+    category: productivity                                                                                                                            category: productivity
+    tags: [project-management, automation]                                                                                                            tags: [project-management, automation]
+    documentation: https://example.com/docs                                                                                                           documentation: https:-/example.com/docs
+    support: support@example.com                                                                                                                      support: support@example.com
+
+
+
+
+                                                                                                                                              31                                                                                                                 31
+Reference C: Complete skill                                                            参考C：完整的技能示例
+examples
+For full, production-ready skills demonstrating the patterns in this guide:            如需完整的、可用于生产环境的技能，以演示本指南中的模式：
+
+• Document Skills - PDF, DOCX, PPTX, XLSX creation                                     • 文档技能 ‑ PDF、DOCX、PPTX、XLSX创建
+
+• Example Skills - Various workflow patterns                                           • 示例技能 ‑ 各种工作流模式
+
+• Partner Skills Directory - View skills from various partners such as Asana,          • 合作伙伴技能目录 ‑ 查看来自Asana等各类合作伙伴的技能
+  Atlassian, Canva, Figma, Sentry, Zapier, and more                                     Atlassian、Canva、Figma、Sentry、Zapier等
+
+These repositories stay up-to-date and include additional examples beyond              这些仓库始终保持更新，并包含超出此处所涵盖内容的额外示例。克隆它们，根据
+what's covered here. Clone them, modify them for your use case, and use them as        您的用例进行修改，并将其用作模板。
+templates.
+
+
+
+
+                                                                                  32                                           32
+claude.ai   Claude.ai
+

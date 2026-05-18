@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d217facde2280af3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。"
-            }
-          },
-          {
             "id": "ee06c983cd7f1d79",
             "type": "leaf",
             "state": {
@@ -104,12 +80,12 @@
             }
           },
           {
-            "id": "1fd18ec350244719",
+            "id": "ec812ecfece983cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,35 +100,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "深度拆解：AI Agent Harness 的构造【译】"
+              "title": "CLAUDE"
             }
           },
           {
-            "id": "a5242b1a8dd6237c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/Paseo/编排层.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "编排层"
-            }
-          },
-          {
-            "id": "d13c96ffdfd30635",
+            "id": "d47705cbcb5d0c91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -174,32 +126,9 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
-          },
-          {
-            "id": "018c09d3ce6290b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/website/website.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "website"
-            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -391,12 +320,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 438.5,
-    "collapsed": true
+    "width": 500.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -417,54 +345,53 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "d217facde2280af3",
+  "active": "d47705cbcb5d0c91",
   "lastOpenFiles": [
-    "00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
-    "ffc8374a92959682da81d4b4d36b095a_MD5.jpg",
-    "86a00044401acae7be073be1846aef7a_MD5.jpg",
-    "69612263c70f46149c24326d2180aed2_MD5.jpg",
-    "624f7ea980629d221ec666ed811d3d0c_MD5.jpg",
-    "ede11641b0f7b26ea0acf19f3c957247_MD5.jpg",
-    "2b121426e7324181cbbf59fbe5d38212_MD5.jpg",
-    "1f50c614e1220432e1733fb5ad192269_MD5.jpg",
-    "f89fde7f4d3f5035408de7fa6ac01173_MD5.jpg",
-    "a5133ce63bd4f6344a0aa0aff9f65226_MD5.jpg",
-    "2cf012a33765f1e38c1934105469aa96_MD5.jpg",
-    "raw/articles/为什么我不“凭感觉编程”.md",
-    "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
-    "Excalidraw/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw",
-    "项目/Promoter prediction.md",
-    "项目/Paseo/编排层.md",
-    "项目/website/website.md",
-    "清单/任务清单.md",
-    "项目/website",
-    "项目/we b si te",
-    "Excalidraw/gstack-harness-integration/manifest.json",
-    "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw.md",
-    "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw",
-    "Excalidraw/gstack-harness-integration/mindmap.json",
-    "Excalidraw/gstack-harness-integration",
-    "Excalidraw/aura-agent-harness-long-running/mindmap.json",
-    "Excalidraw/aura-agent-harness-long-running/manifest.json",
-    "Excalidraw/aura-agent-harness-long-running/aura-对-harness-长跑稳定性的启发.excalidraw.md",
-    "Excalidraw/aura-agent-harness-long-running/aura-对-harness-长跑稳定性的启发.excalidraw",
-    "Excalidraw/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw.md",
-    "Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw.md",
+    "Excalidraw/human-skill-mindmap.md",
+    "image/d2c840347312d20208d2ba109c607fad_MD5.jpg",
+    "image/00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
+    "清单/MCP.md",
+    "raw/articles/AI最大的礼物，是让你能廉价地失败100次.md",
+    "CLAUDE.md",
     "raw/1/深度拆解：AI Agent Harness 的构造【译】.md",
-    "Excalidraw/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw.md",
+    "raw/1/skill building/claude-skills-building-guide.md",
+    "raw/1/skill building/source.pdf",
+    "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
+    "Excalidraw/claude-skills-building-guide/manifest.json",
+    "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw.md",
+    "Excalidraw/claude-skills-building-guide/mindmap.json",
+    "Excalidraw/claude-skills-building-guide",
+    "raw/1/skill building/manifest.json",
+    "WIKI.md",
+    "项目/Paseo/编排层.md",
+    "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
+    "清单/任务清单.md",
+    "raw/1/skill building/page-preview.txt",
+    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p33-right.txt",
+    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p33-left.txt",
+    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p32-right.txt",
+    "image/7999ce2a25bab151fdac57ab04ed7eae_MD5.jpg",
+    "image/edb8eb033664312cbe8ae3706b9b1030_MD5.jpg",
+    "image/6778a160a2865fb26d7a8cd811d46973_MD5.jpg",
+    "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
+    "image/ffc8374a92959682da81d4b4d36b095a_MD5.jpg",
+    "image/86a00044401acae7be073be1846aef7a_MD5.jpg",
+    "image/69612263c70f46149c24326d2180aed2_MD5.jpg",
+    "image/624f7ea980629d221ec666ed811d3d0c_MD5.jpg",
+    "image/ede11641b0f7b26ea0acf19f3c957247_MD5.jpg",
+    "raw/articles/为什么我不“凭感觉编程”.md",
+    "项目/Promoter prediction.md",
+    "项目/website/website.md",
+    "Excalidraw/gstack-harness-integration/gstack-harness-integration.excalidraw.md",
+    "Excalidraw/ai-agent-harness-company-structure/aura-agent-harness-long-running/aura-对-harness-长跑稳定性的启发.excalidraw.md",
+    "Excalidraw/ai-agent-harness-company-structure/agency-agents-harness-personalization/agency-agents-融入-harness.excalidraw.md",
+    "Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw.md",
+    "Excalidraw/ai-agent-harness-company-structure/aidlc-harness-lifecycle/aidlc-融入-harness-生命周期.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/2/本地-agent-编排层.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/1/sprintiq-git-ana-analysis.md",
     "Excalidraw/ai-agent-harness-company-structure/2/deer-flow-harness-long-running-learnings.excalidraw.md",
     "Excalidraw/ai-agent-harness-company-structure/1/deer-flow-git-ana-analysis.md",
     "raw/paper/paper.md",
-    "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-current-function-map.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure/2/sprintiq-harness-commander-learnings.excalidraw.md",
-    "Excalidraw/ai-agent-harness-company-structure/2/ai-agent-harness-公司结构.excalidraw.md",
-    "raw/1/创始人手册：打造 AI 原生初创公司.md",
-    "raw/TED/ted.md",
-    "项目/论文/润色.md",
-    "项目/论文/Obsidian + Notemd 做论文深读与长期积累.md",
-    "项目/ncreate/PPT/生图.md",
     "wiki/Wiki Map.canvas",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",

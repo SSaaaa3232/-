@@ -55,11 +55,11 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.4-mini"
+    "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
     "claude": "high",
-    "codex": "high"
+    "codex": "xhigh"
   },
   "savedProviderServiceTier": {
     "codex": "default"

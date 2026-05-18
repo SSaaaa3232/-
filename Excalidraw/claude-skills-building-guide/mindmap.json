@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "title": "Claude 技能构建完整指南",
+  "source": {
+    "type": "markdown",
+    "path": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+    "created_at": "2026-05-18T16:52:46+08:00"
+  },
+  "layout": "horizontal",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "构建 Claude 技能",
+      "type": "topic",
+      "summary": "把可重复工作流沉淀为可加载、可测试、可分发的技能。",
+      "note": "核心主题：技能 = 指令文件夹 + 渐进式披露 + 可执行工作流。",
+      "discussion_prompt": "基于这张图，帮我设计一个具体技能的 SKILL.md 结构。",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-intro",
+      "label": "技能定位",
+      "type": "concept",
+      "summary": "技能教 Claude 按特定任务或工作流稳定执行。",
+      "note": "适合前端设计、研究、文档创建、多步骤流程，以及 MCP 工具编排。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-basics",
+      "label": "基础结构",
+      "type": "concept",
+      "summary": "技能目录由必需的 SKILL.md 和可选资源组成。",
+      "note": "典型组成：SKILL.md、scripts/、references/、assets/。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-design",
+      "label": "规划设计",
+      "type": "concept",
+      "summary": "先定义用例、触发词、步骤和成功结果，再写文件。",
+      "note": "推荐先确定 2-3 个具体用例。",
+      "discussion_prompt": "帮我把一个模糊需求拆成技能用例、触发词和工作流步骤。",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-testing",
+      "label": "测试迭代",
+      "type": "action",
+      "summary": "通过触发、功能和效率测试持续修正技能。",
+      "note": "测试层级：手动测试、Claude Code 脚本化测试、Skills API 程序化测试。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-distribution",
+      "label": "分发共享",
+      "type": "concept",
+      "summary": "技能需要清晰安装、启用、测试和定位说明。",
+      "note": "推荐托管在 GitHub，README 写清价值、安装和示例。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-patterns",
+      "label": "模式排障",
+      "type": "concept",
+      "summary": "常见工作流模式帮助技能从工具清单变成问题解决方案。",
+      "note": "包括顺序编排、多 MCP 协调、迭代优化、上下文选择和领域智能。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-resources",
+      "label": "资源清单",
+      "type": "source",
+      "summary": "官方文档、skill-creator 和检查清单支撑落地。",
+      "note": "包括最佳实践、技能文档、Skills API、Agent SDK 与完整示例。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-repeatable",
+      "label": "可重复工作流",
+      "type": "concept",
+      "summary": "技能最适合反复出现、需要一致方法的任务。",
+      "note": "不要为一次性、无稳定流程的任务过度设计技能。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-mcp-layer",
+      "label": "MCP 知识层",
+      "type": "concept",
+      "summary": "MCP 提供连接性，技能提供如何使用工具的知识。",
+      "note": "厨房类比：MCP 是厨房，技能是食谱。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-skill-md",
+      "label": "SKILL.md",
+      "type": "concept",
+      "summary": "必需主文件，包含 frontmatter 和技能正文。",
+      "note": "frontmatter 用于触发判断；正文用于执行说明。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-progressive",
+      "label": "渐进式披露",
+      "type": "concept",
+      "summary": "把信息分为 frontmatter、正文和按需文件三层。",
+      "note": "目标是降低上下文占用，同时保留专业能力。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-composable",
+      "label": "可组合可移植",
+      "type": "concept",
+      "summary": "技能应能与其他技能共存，并跨 Claude.ai、Claude Code、API 使用。",
+      "note": "不要假设当前技能是唯一能力。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-usecase",
+      "label": "用例优先",
+      "type": "action",
+      "summary": "先写清用户目标、触发语、步骤和结果。",
+      "note": "示例字段：Use Case、Trigger、Steps、Result。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-categories",
+      "label": "三类用例",
+      "type": "concept",
+      "summary": "文档资源创建、工作流自动化、MCP 增强。",
+      "note": "类别 1 偏输出一致性；类别 2 偏流程；类别 3 偏工具协作。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-success",
+      "label": "成功标准",
+      "type": "conclusion",
+      "summary": "用触发率、失败调用、澄清次数、token 和质量稳定性评估。",
+      "note": "90% 触发率是理想基准，不是硬阈值。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-yaml",
+      "label": "YAML frontmatter",
+      "type": "concept",
+      "summary": "决定技能是否被加载，必须具体描述触发场景和能力。",
+      "note": "name 使用 kebab-case；description = 做什么 + 何时用 + 核心能力。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-instructions",
+      "label": "可执行指令",
+      "type": "action",
+      "summary": "指令要具体、可验证，并引用 references 中的详细材料。",
+      "note": "避免模糊描述；提供命令、失败原因和恢复步骤。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-trigger-test",
+      "label": "触发测试",
+      "type": "action",
+      "summary": "验证明显请求触发、改写请求触发、无关请求不触发。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-function-test",
+      "label": "功能测试",
+      "type": "action",
+      "summary": "验证输出生成、API 调用、错误处理和边缘情况。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-efficiency-test",
+      "label": "效率测试",
+      "type": "action",
+      "summary": "比较无技能和有技能时的轮次、失败率与 token 消耗。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-feedback",
+      "label": "反馈迭代",
+      "type": "action",
+      "summary": "根据触发不足和执行问题修订描述、指令和 references。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-github",
+      "label": "GitHub 托管",
+      "type": "action",
+      "summary": "用公开仓库、README、安装步骤和示例请求帮助用户采用。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-api",
+      "label": "API 使用",
+      "type": "concept",
+      "summary": "通过 /v1/skills、container.skills、控制台和 Agent SDK 管理技能。",
+      "note": "API 中技能依赖代码执行工具测试版安全环境。",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-positioning",
+      "label": "价值定位",
+      "type": "action",
+      "summary": "说明解决什么问题、适合谁、相比 MCP-only 有何改进。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-seq",
+      "label": "顺序编排",
+      "type": "concept",
+      "summary": "适合固定顺序的多步骤工作流。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-multi-mcp",
+      "label": "多 MCP 协调",
+      "type": "concept",
+      "summary": "适合跨 Figma、Drive、Linear 等多个服务的流程。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-iterative",
+      "label": "迭代优化",
+      "type": "concept",
+      "summary": "适合报告、设计等需要多轮质量提升的输出。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-tool-choice",
+      "label": "上下文工具选择",
+      "type": "concept",
+      "summary": "根据文件类型、大小、目标等上下文选择工具。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-domain",
+      "label": "领域智能",
+      "type": "concept",
+      "summary": "把合规、金融、团队规则等专业判断写进技能。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-troubleshoot",
+      "label": "故障排除",
+      "type": "question",
+      "summary": "常见问题包括无法上传、frontmatter 无效、未触发、未遵循指令、上下文过大。",
+      "note": "优先检查 SKILL.md 命名、name 格式、description 具体性和说明长度。",
+      "discussion_prompt": "帮我诊断一个技能为什么没有自动触发。",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-checklist",
+      "label": "快速检查清单",
+      "type": "action",
+      "summary": "上传前后验证用例、工具、触发、功能、集成、端到端运行。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-examples",
+      "label": "完整示例",
+      "type": "source",
+      "summary": "参考文档技能、示例技能和合作伙伴技能目录。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-skill-creator",
+      "label": "skill-creator",
+      "type": "source",
+      "summary": "用于生成、审查和改进技能，但不替代自动化测试。",
+      "note": "",
+      "discussion_prompt": "",
+      "source": "/Users/saaaaa/Obsidian-Template/raw/1/google-drive-pdf-1QR-Pq-KB/claude-skills-building-guide.md",
+      "priority": "medium",
+      "status": "understood"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-intro"
+    },
+    {
+      "from": "n-root",
+      "to": "n-basics"
+    },
+    {
+      "from": "n-root",
+      "to": "n-design"
+    },
+    {
+      "from": "n-root",
+      "to": "n-testing"
+    },
+    {
+      "from": "n-root",
+      "to": "n-distribution"
+    },
+    {
+      "from": "n-root",
+      "to": "n-patterns"
+    },
+    {
+      "from": "n-root",
+      "to": "n-resources"
+    },
+    {
+      "from": "n-intro",
+      "to": "n-repeatable"
+    },
+    {
+      "from": "n-intro",
+      "to": "n-mcp-layer"
+    },
+    {
+      "from": "n-basics",
+      "to": "n-skill-md"
+    },
+    {
+      "from": "n-basics",
+      "to": "n-progressive"
+    },
+    {
+      "from": "n-basics",
+      "to": "n-composable"
+    },
+    {
+      "from": "n-design",
+      "to": "n-usecase"
+    },
+    {
+      "from": "n-design",
+      "to": "n-categories"
+    },
+    {
+      "from": "n-design",
+      "to": "n-success"
+    },
+    {
+      "from": "n-design",
+      "to": "n-yaml"
+    },
+    {
+      "from": "n-design",
+      "to": "n-instructions"
+    },
+    {
+      "from": "n-testing",
+      "to": "n-trigger-test"
+    },
+    {
+      "from": "n-testing",
+      "to": "n-function-test"
+    },
+    {
+      "from": "n-testing",
+      "to": "n-efficiency-test"
+    },
+    {
+      "from": "n-testing",
+      "to": "n-feedback"
+    },
+    {
+      "from": "n-distribution",
+      "to": "n-github"
+    },
+    {
+      "from": "n-distribution",
+      "to": "n-api"
+    },
+    {
+      "from": "n-distribution",
+      "to": "n-positioning"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-seq"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-multi-mcp"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-iterative"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-tool-choice"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-domain"
+    },
+    {
+      "from": "n-patterns",
+      "to": "n-troubleshoot"
+    },
+    {
+      "from": "n-resources",
+      "to": "n-checklist"
+    },
+    {
+      "from": "n-resources",
+      "to": "n-examples"
+    },
+    {
+      "from": "n-resources",
+      "to": "n-skill-creator"
+    }
+  ]
+}

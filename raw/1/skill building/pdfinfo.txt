@@ -1,0 +1,15 @@
+Producer:        BabelDOCv0.6.0_1779034919.029499_Translation_generated_by_AI,please_carefully_discern_3992a60438a21706:04b90803edb2f1ed025914ab7c8e7dbc65dfcec73528a022f65194069d43c2a8
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           33
+Encrypted:       no
+Page size:       1584 x 612 pts
+Page rot:        0
+File size:       901460 bytes
+Optimized:       no
+PDF version:     1.7
