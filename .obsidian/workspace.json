@@ -161,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -300,8 +301,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 630.5,
-    "collapsed": true
+    "width": 806.4000000000001
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -322,8 +322,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2d4a79eb158d6bac",
+  "active": "b0c8a769ceabf72e",
   "lastOpenFiles": [
+    "清单/任务清单.md",
     "wiki/synthesis/raw-incremental-ingest-2026-05-18.md",
     "wiki/synthesis/raw-batch-synthesis-2026-05-06.md",
     "wiki/synthesis/_index.md",
@@ -350,7 +351,6 @@
     "wiki/courses/_index.md",
     "wiki/concepts/网络身份与出海基础设施.md",
     "wiki/concepts/Knowledge MEMO.md",
-    "wiki/concepts/Harness 与多 Agent 操作系统.md",
     "image/d2c840347312d20208d2ba109c607fad_MD5.jpg",
     "image/00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
     "raw/1/skill building/source.pdf",
