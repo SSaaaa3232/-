@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "项目/ncreate/ncreate优化-提示词html.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "ncreate优化-提示词html"
             }
           }
         ],
@@ -156,13 +156,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "311f0a0fcc4ca413",
+            "type": "leaf",
+            "state": {
+              "type": "zotflow-tree-view",
+              "state": {},
+              "icon": "library",
+              "title": "Zotero Library"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -301,7 +310,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 806.4000000000001
+    "width": 806.4000000000001,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,10 +329,12 @@
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
-      "claudian:Open Claudian": false
+      "claudian:Open Claudian": false,
+      "zotflow:ZotFlow: Activity Center": false,
+      "zotflow:ZotFlow: Search Zotero": false
     }
   },
-  "active": "b0c8a769ceabf72e",
+  "active": "2d4a79eb158d6bac",
   "lastOpenFiles": [
     "清单/任务清单.md",
     "wiki/synthesis/raw-incremental-ingest-2026-05-18.md",
