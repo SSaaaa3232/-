@@ -220,7 +220,7 @@ var require_moment = __commonJS({
         }
         return to3;
       }
-      function Moment4(config) {
+      function Moment6(config) {
         copyConfig(this, config);
         this._d = new Date(config._d != null ? config._d.getTime() : NaN);
         if (!this.isValid()) {
@@ -233,7 +233,7 @@ var require_moment = __commonJS({
         }
       }
       function isMoment(obj) {
-        return obj instanceof Moment4 || obj != null && obj._isAMomentObject != null;
+        return obj instanceof Moment6 || obj != null && obj._isAMomentObject != null;
       }
       function warn(msg) {
         if (hooks.suppressDeprecationWarnings === false && typeof console !== "undefined" && console.warn) {
@@ -1018,15 +1018,15 @@ var require_moment = __commonJS({
           "i"
         );
       }
-      function createDate(y2, m2, d2, h4, M2, s2, ms) {
+      function createDate(y2, m2, d2, h3, M2, s2, ms) {
         var date;
         if (y2 < 100 && y2 >= 0) {
-          date = new Date(y2 + 400, m2, d2, h4, M2, s2, ms);
+          date = new Date(y2 + 400, m2, d2, h3, M2, s2, ms);
           if (isFinite(date.getFullYear())) {
             date.setFullYear(y2);
           }
         } else {
-          date = new Date(y2, m2, d2, h4, M2, s2, ms);
+          date = new Date(y2, m2, d2, h3, M2, s2, ms);
         }
         return date;
       }
@@ -1836,8 +1836,8 @@ var require_moment = __commonJS({
         } else if (militaryOffset) {
           return 0;
         } else {
-          var hm = parseInt(numOffset, 10), m2 = hm % 100, h4 = (hm - m2) / 100;
-          return h4 * 60 + m2;
+          var hm = parseInt(numOffset, 10), m2 = hm % 100, h3 = (hm - m2) / 100;
+          return h3 * 60 + m2;
         }
       }
       function configFromRFC2822(config) {
@@ -2138,7 +2138,7 @@ var require_moment = __commonJS({
         configFromArray(config);
       }
       function createFromConfig(config) {
-        var res = new Moment4(checkOverflow(prepareConfig(config)));
+        var res = new Moment6(checkOverflow(prepareConfig(config)));
         if (res._nextDay) {
           res.add(1, "d");
           res._nextDay = void 0;
@@ -2155,7 +2155,7 @@ var require_moment = __commonJS({
           config._i = input = config._locale.preparse(input);
         }
         if (isMoment(input)) {
-          return new Moment4(checkOverflow(input));
+          return new Moment6(checkOverflow(input));
         } else if (isDate(input)) {
           config._d = input;
         } else if (isArray2(format2)) {
@@ -2699,7 +2699,7 @@ var require_moment = __commonJS({
         );
       }
       function clone3() {
-        return new Moment4(this);
+        return new Moment6(this);
       }
       function isAfter(input, units) {
         var localInput = isMoment(input) ? input : createLocal(input);
@@ -3472,7 +3472,7 @@ var require_moment = __commonJS({
       function getZoneName() {
         return this._isUTC ? "Coordinated Universal Time" : "";
       }
-      var proto = Moment4.prototype;
+      var proto = Moment6.prototype;
       proto.add = add;
       proto.calendar = calendar$1;
       proto.clone = clone3;
@@ -4734,77 +4734,13 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/.pnpm/vhtml@2.2.0/node_modules/vhtml/dist/vhtml.js
-var require_vhtml = __commonJS({
-  "node_modules/.pnpm/vhtml@2.2.0/node_modules/vhtml/dist/vhtml.js"(exports, module2) {
-    (function(global, factory) {
-      typeof exports === "object" && typeof module2 !== "undefined" ? module2.exports = factory() : typeof define === "function" && define.amd ? define(factory) : global.vhtml = factory();
-    })(exports, (function() {
-      "use strict";
-      var emptyTags = ["area", "base", "br", "col", "command", "embed", "hr", "img", "input", "keygen", "link", "meta", "param", "source", "track", "wbr"];
-      var esc = function esc2(str) {
-        return String(str).replace(/[&<>"']/g, function(s2) {
-          return "&" + map3[s2] + ";";
-        });
-      };
-      var map3 = { "&": "amp", "<": "lt", ">": "gt", '"': "quot", "'": "apos" };
-      var setInnerHTMLAttr = "dangerouslySetInnerHTML";
-      var DOMAttributeNames = {
-        className: "class",
-        htmlFor: "for"
-      };
-      var sanitized = {};
-      function h4(name, attrs) {
-        var stack = [], s2 = "";
-        attrs = attrs || {};
-        for (var i2 = arguments.length; i2-- > 2; ) {
-          stack.push(arguments[i2]);
-        }
-        if (typeof name === "function") {
-          attrs.children = stack.reverse();
-          return name(attrs);
-        }
-        if (name) {
-          s2 += "<" + name;
-          if (attrs) for (var _i in attrs) {
-            if (attrs[_i] !== false && attrs[_i] != null && _i !== setInnerHTMLAttr) {
-              s2 += " " + (DOMAttributeNames[_i] ? DOMAttributeNames[_i] : esc(_i)) + '="' + esc(attrs[_i]) + '"';
-            }
-          }
-          s2 += ">";
-        }
-        if (emptyTags.indexOf(name) === -1) {
-          if (attrs[setInnerHTMLAttr]) {
-            s2 += attrs[setInnerHTMLAttr].__html;
-          } else while (stack.length) {
-            var child = stack.pop();
-            if (child) {
-              if (child.pop) {
-                for (var _i2 = child.length; _i2--; ) {
-                  stack.push(child[_i2]);
-                }
-              } else {
-                s2 += sanitized[child] === true ? child : esc(child);
-              }
-            }
-          }
-          s2 += name ? "</" + name + ">" : "";
-        }
-        sanitized[s2] = true;
-        return s2;
-      }
-      return h4;
-    }));
-  }
-});
-
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => SRPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian32 = require("obsidian");
+var import_obsidian36 = require("obsidian");
 
 // src/algorithms/base/repetition-item.ts
 var RepetitionItem = class {
@@ -4830,18 +4766,1881 @@ var SrsAlgorithm = class _SrsAlgorithm {
   }
 };
 
-// src/algorithms/osr/obsidian-vault-notelink-info-finder.ts
-var ObsidianVaultNoteLinkInfoFinder = class {
-  constructor(metadataCache) {
-    this.metadataCache = metadataCache;
+// node_modules/.pnpm/ts-fsrs@5.3.1/node_modules/ts-fsrs/dist/index.mjs
+var State = /* @__PURE__ */ ((State2) => {
+  State2[State2["New"] = 0] = "New";
+  State2[State2["Learning"] = 1] = "Learning";
+  State2[State2["Review"] = 2] = "Review";
+  State2[State2["Relearning"] = 3] = "Relearning";
+  return State2;
+})(State || {});
+var Rating = /* @__PURE__ */ ((Rating2) => {
+  Rating2[Rating2["Manual"] = 0] = "Manual";
+  Rating2[Rating2["Again"] = 1] = "Again";
+  Rating2[Rating2["Hard"] = 2] = "Hard";
+  Rating2[Rating2["Good"] = 3] = "Good";
+  Rating2[Rating2["Easy"] = 4] = "Easy";
+  return Rating2;
+})(Rating || {});
+var TypeConvert = class _TypeConvert {
+  static card(card) {
+    return {
+      ...card,
+      state: _TypeConvert.state(card.state),
+      due: _TypeConvert.time(card.due),
+      last_review: card.last_review ? _TypeConvert.time(card.last_review) : void 0
+    };
   }
-  getResolvedTargetLinksForNotePath(path2) {
-    return this.metadataCache.resolvedLinks[path2];
+  static rating(value) {
+    if (typeof value === "string") {
+      const firstLetter = value.charAt(0).toUpperCase();
+      const restOfString = value.slice(1).toLowerCase();
+      const ret = Rating[`${firstLetter}${restOfString}`];
+      if (ret === void 0) {
+        throw new Error(`Invalid rating:[${value}]`);
+      }
+      return ret;
+    } else if (typeof value === "number") {
+      return value;
+    }
+    throw new Error(`Invalid rating:[${value}]`);
+  }
+  static state(value) {
+    if (typeof value === "string") {
+      const firstLetter = value.charAt(0).toUpperCase();
+      const restOfString = value.slice(1).toLowerCase();
+      const ret = State[`${firstLetter}${restOfString}`];
+      if (ret === void 0) {
+        throw new Error(`Invalid state:[${value}]`);
+      }
+      return ret;
+    } else if (typeof value === "number") {
+      return value;
+    }
+    throw new Error(`Invalid state:[${value}]`);
+  }
+  static time(value) {
+    if (value instanceof Date) {
+      return value;
+    }
+    const date = new Date(value);
+    if (typeof value === "object" && value !== null && !Number.isNaN(Date.parse(value) || +date)) {
+      return date;
+    } else if (typeof value === "string") {
+      const timestamp = Date.parse(value);
+      if (!Number.isNaN(timestamp)) {
+        return new Date(timestamp);
+      } else {
+        throw new Error(`Invalid date:[${value}]`);
+      }
+    } else if (typeof value === "number") {
+      return new Date(value);
+    }
+    throw new Error(`Invalid date:[${value}]`);
+  }
+  static review_log(log) {
+    return {
+      ...log,
+      due: _TypeConvert.time(log.due),
+      rating: _TypeConvert.rating(log.rating),
+      state: _TypeConvert.state(log.state),
+      review: _TypeConvert.time(log.review)
+    };
   }
 };
+Date.prototype.scheduler = function(t3, isDay) {
+  return date_scheduler(this, t3, isDay);
+};
+Date.prototype.diff = function(pre, unit) {
+  return date_diff(this, pre, unit);
+};
+Date.prototype.format = function() {
+  return formatDate(this);
+};
+Date.prototype.dueFormat = function(last_review, unit, timeUnit) {
+  return show_diff_message(this, last_review, unit, timeUnit);
+};
+function date_scheduler(now2, t3, isDay) {
+  return new Date(
+    isDay ? TypeConvert.time(now2).getTime() + t3 * 24 * 60 * 60 * 1e3 : TypeConvert.time(now2).getTime() + t3 * 60 * 1e3
+  );
+}
+function date_diff(now2, pre, unit) {
+  if (!now2 || !pre) {
+    throw new Error("Invalid date");
+  }
+  const diff = TypeConvert.time(now2).getTime() - TypeConvert.time(pre).getTime();
+  let r2 = 0;
+  switch (unit) {
+    case "days":
+      r2 = Math.floor(diff / (24 * 60 * 60 * 1e3));
+      break;
+    case "minutes":
+      r2 = Math.floor(diff / (60 * 1e3));
+      break;
+  }
+  return r2;
+}
+function formatDate(dateInput) {
+  const date = TypeConvert.time(dateInput);
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  const hours = date.getHours();
+  const minutes = date.getMinutes();
+  const seconds = date.getSeconds();
+  return `${year}-${padZero(month)}-${padZero(day)} ${padZero(hours)}:${padZero(
+    minutes
+  )}:${padZero(seconds)}`;
+}
+function padZero(num) {
+  return num < 10 ? `0${num}` : `${num}`;
+}
+var TIMEUNIT = [60, 60, 24, 31, 12];
+var TIMEUNITFORMAT = ["second", "min", "hour", "day", "month", "year"];
+function show_diff_message(due, last_review, unit, timeUnit = TIMEUNITFORMAT) {
+  due = TypeConvert.time(due);
+  last_review = TypeConvert.time(last_review);
+  if (timeUnit.length !== TIMEUNITFORMAT.length) {
+    timeUnit = TIMEUNITFORMAT;
+  }
+  let diff = due.getTime() - last_review.getTime();
+  let i2 = 0;
+  diff /= 1e3;
+  for (i2 = 0; i2 < TIMEUNIT.length; i2++) {
+    if (diff < TIMEUNIT[i2]) {
+      break;
+    } else {
+      diff /= TIMEUNIT[i2];
+    }
+  }
+  return `${Math.floor(diff)}${unit ? timeUnit[i2] : ""}`;
+}
+var Grades = Object.freeze([
+  Rating.Again,
+  Rating.Hard,
+  Rating.Good,
+  Rating.Easy
+]);
+var FUZZ_RANGES = [
+  {
+    start: 2.5,
+    end: 7,
+    factor: 0.15
+  },
+  {
+    start: 7,
+    end: 20,
+    factor: 0.1
+  },
+  {
+    start: 20,
+    end: Infinity,
+    factor: 0.05
+  }
+];
+function get_fuzz_range(interval, elapsed_days, maximum_interval) {
+  let delta = 1;
+  for (const range2 of FUZZ_RANGES) {
+    delta += range2.factor * Math.max(Math.min(interval, range2.end) - range2.start, 0);
+  }
+  interval = Math.min(interval, maximum_interval);
+  let min_ivl = Math.max(2, Math.round(interval - delta));
+  const max_ivl = Math.min(Math.round(interval + delta), maximum_interval);
+  if (interval > elapsed_days) {
+    min_ivl = Math.max(min_ivl, elapsed_days + 1);
+  }
+  min_ivl = Math.min(min_ivl, max_ivl);
+  return { min_ivl, max_ivl };
+}
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+function roundTo(num, decimals) {
+  const factor = 10 ** decimals;
+  return Math.round(num * factor) / factor;
+}
+function dateDiffInDays(last, cur) {
+  const utc1 = Date.UTC(
+    last.getUTCFullYear(),
+    last.getUTCMonth(),
+    last.getUTCDate()
+  );
+  const utc2 = Date.UTC(
+    cur.getUTCFullYear(),
+    cur.getUTCMonth(),
+    cur.getUTCDate()
+  );
+  return Math.floor(
+    (utc2 - utc1) / 864e5
+    /** 1000 * 60 * 60 * 24*/
+  );
+}
+var ConvertStepUnitToMinutes = (step) => {
+  const unit = step.slice(-1);
+  const value = parseInt(step.slice(0, -1), 10);
+  if (Number.isNaN(value) || !Number.isFinite(value) || value < 0) {
+    throw new Error(`Invalid step value: ${step}`);
+  }
+  switch (unit) {
+    case "m":
+      return value;
+    case "h":
+      return value * 60;
+    case "d":
+      return value * 1440;
+    default:
+      throw new Error(`Invalid step unit: ${step}, expected m/h/d`);
+  }
+};
+var BasicLearningStepsStrategy = (params, state, cur_step) => {
+  const learning_steps = state === State.Relearning || state === State.Review ? params.relearning_steps : params.learning_steps;
+  const steps_length = learning_steps.length;
+  if (steps_length === 0 || cur_step >= steps_length) return {};
+  const firstStep = learning_steps[0];
+  const toMinutes = ConvertStepUnitToMinutes;
+  const getAgainInterval = () => {
+    return toMinutes(firstStep);
+  };
+  const getHardInterval = () => {
+    if (steps_length === 1) return Math.round(toMinutes(firstStep) * 1.5);
+    const nextStep = learning_steps[1];
+    return Math.round((toMinutes(firstStep) + toMinutes(nextStep)) / 2);
+  };
+  const getStepInfo = (index) => {
+    if (index < 0 || index >= steps_length) {
+      return null;
+    } else {
+      return learning_steps[index];
+    }
+  };
+  const getGoodMinutes = (step) => {
+    return toMinutes(step);
+  };
+  const result = {};
+  const step_info = getStepInfo(Math.max(0, cur_step));
+  if (state === State.Review) {
+    result[Rating.Again] = {
+      scheduled_minutes: toMinutes(step_info),
+      next_step: 0
+    };
+    return result;
+  } else {
+    result[Rating.Again] = {
+      scheduled_minutes: getAgainInterval(),
+      next_step: 0
+    };
+    result[Rating.Hard] = {
+      scheduled_minutes: getHardInterval(),
+      next_step: cur_step
+    };
+    const next_info = getStepInfo(cur_step + 1);
+    if (next_info) {
+      const nextMin = getGoodMinutes(next_info);
+      if (nextMin) {
+        result[Rating.Good] = {
+          scheduled_minutes: Math.round(nextMin),
+          next_step: cur_step + 1
+        };
+      }
+    }
+  }
+  return result;
+};
+function DefaultInitSeedStrategy() {
+  const time = this.review_time.getTime();
+  const reps = this.current.reps;
+  const mul = this.current.difficulty * this.current.stability;
+  return `${time}_${reps}_${mul}`;
+}
+var StrategyMode = /* @__PURE__ */ ((StrategyMode2) => {
+  StrategyMode2["SCHEDULER"] = "Scheduler";
+  StrategyMode2["LEARNING_STEPS"] = "LearningSteps";
+  StrategyMode2["SEED"] = "Seed";
+  return StrategyMode2;
+})(StrategyMode || {});
+var AbstractScheduler = class {
+  // init
+  constructor(card, now2, algorithm, strategies) {
+    __publicField(this, "last");
+    __publicField(this, "current");
+    __publicField(this, "review_time");
+    __publicField(this, "next", /* @__PURE__ */ new Map());
+    __publicField(this, "algorithm");
+    __publicField(this, "strategies");
+    __publicField(this, "elapsed_days", 0);
+    this.algorithm = algorithm;
+    this.last = TypeConvert.card(card);
+    this.current = TypeConvert.card(card);
+    this.review_time = TypeConvert.time(now2);
+    this.strategies = strategies;
+    this.init();
+  }
+  checkGrade(grade) {
+    if (!Number.isFinite(grade) || grade < 0 || grade > 4) {
+      throw new Error(`Invalid grade "${grade}",expected 1-4`);
+    }
+  }
+  init() {
+    const { state, last_review } = this.current;
+    let interval = 0;
+    if (state !== State.New && last_review) {
+      interval = dateDiffInDays(last_review, this.review_time);
+    }
+    this.current.last_review = this.review_time;
+    this.elapsed_days = interval;
+    this.current.elapsed_days = interval;
+    this.current.reps += 1;
+    let seed_strategy = DefaultInitSeedStrategy;
+    if (this.strategies) {
+      const custom_strategy = this.strategies.get(StrategyMode.SEED);
+      if (custom_strategy) {
+        seed_strategy = custom_strategy;
+      }
+    }
+    this.algorithm.seed = seed_strategy.call(this);
+  }
+  preview() {
+    return {
+      [Rating.Again]: this.review(Rating.Again),
+      [Rating.Hard]: this.review(Rating.Hard),
+      [Rating.Good]: this.review(Rating.Good),
+      [Rating.Easy]: this.review(Rating.Easy),
+      [Symbol.iterator]: this.previewIterator.bind(this)
+    };
+  }
+  *previewIterator() {
+    for (const grade of Grades) {
+      yield this.review(grade);
+    }
+  }
+  review(grade) {
+    const { state } = this.last;
+    let item;
+    this.checkGrade(grade);
+    switch (state) {
+      case State.New:
+        item = this.newState(grade);
+        break;
+      case State.Learning:
+      case State.Relearning:
+        item = this.learningState(grade);
+        break;
+      case State.Review:
+        item = this.reviewState(grade);
+        break;
+    }
+    return item;
+  }
+  buildLog(rating) {
+    const { last_review, due, elapsed_days } = this.last;
+    return {
+      rating,
+      state: this.current.state,
+      due: last_review || due,
+      stability: this.current.stability,
+      difficulty: this.current.difficulty,
+      elapsed_days: this.elapsed_days,
+      last_elapsed_days: elapsed_days,
+      scheduled_days: this.current.scheduled_days,
+      learning_steps: this.current.learning_steps,
+      review: this.review_time
+    };
+  }
+};
+var Alea = class {
+  constructor(seed) {
+    __publicField(this, "c");
+    __publicField(this, "s0");
+    __publicField(this, "s1");
+    __publicField(this, "s2");
+    const mash = Mash();
+    this.c = 1;
+    this.s0 = mash(" ");
+    this.s1 = mash(" ");
+    this.s2 = mash(" ");
+    if (seed == null) seed = Date.now();
+    this.s0 -= mash(seed);
+    if (this.s0 < 0) this.s0 += 1;
+    this.s1 -= mash(seed);
+    if (this.s1 < 0) this.s1 += 1;
+    this.s2 -= mash(seed);
+    if (this.s2 < 0) this.s2 += 1;
+  }
+  next() {
+    const t3 = 2091639 * this.s0 + this.c * 23283064365386963e-26;
+    this.s0 = this.s1;
+    this.s1 = this.s2;
+    this.c = t3 | 0;
+    this.s2 = t3 - this.c;
+    return this.s2;
+  }
+  set state(state) {
+    this.c = state.c;
+    this.s0 = state.s0;
+    this.s1 = state.s1;
+    this.s2 = state.s2;
+  }
+  get state() {
+    return {
+      c: this.c,
+      s0: this.s0,
+      s1: this.s1,
+      s2: this.s2
+    };
+  }
+};
+function Mash() {
+  let n2 = 4022871197;
+  return function mash(data) {
+    data = String(data);
+    for (let i2 = 0; i2 < data.length; i2++) {
+      n2 += data.charCodeAt(i2);
+      let h3 = 0.02519603282416938 * n2;
+      n2 = h3 >>> 0;
+      h3 -= n2;
+      h3 *= n2;
+      n2 = h3 >>> 0;
+      h3 -= n2;
+      n2 += h3 * 4294967296;
+    }
+    return (n2 >>> 0) * 23283064365386963e-26;
+  };
+}
+function alea(seed) {
+  const xg = new Alea(seed);
+  const prng = () => xg.next();
+  prng.int32 = () => xg.next() * 4294967296 | 0;
+  prng.double = () => prng() + (prng() * 2097152 | 0) * 11102230246251565e-32;
+  prng.state = () => xg.state;
+  prng.importState = (state) => {
+    xg.state = state;
+    return prng;
+  };
+  return prng;
+}
+var version = "5.3.1";
+var default_request_retention = 0.9;
+var default_maximum_interval = 36500;
+var default_enable_fuzz = false;
+var default_enable_short_term = true;
+var default_learning_steps = Object.freeze([
+  "1m",
+  "10m"
+]);
+var default_relearning_steps = Object.freeze([
+  "10m"
+]);
+var FSRSVersion = `v${version} using FSRS-6.0`;
+var S_MIN = 1e-3;
+var INIT_S_MAX = 100;
+var FSRS5_DEFAULT_DECAY = 0.5;
+var FSRS6_DEFAULT_DECAY = 0.1542;
+var default_w = Object.freeze([
+  0.212,
+  1.2931,
+  2.3065,
+  8.2956,
+  6.4133,
+  0.8334,
+  3.0194,
+  1e-3,
+  1.8722,
+  0.1666,
+  0.796,
+  1.4835,
+  0.0614,
+  0.2629,
+  1.6483,
+  0.6014,
+  1.8729,
+  0.5425,
+  0.0912,
+  0.0658,
+  FSRS6_DEFAULT_DECAY
+]);
+var W17_W18_Ceiling = 2;
+var CLAMP_PARAMETERS = (w17_w18_ceiling, enable_short_term = default_enable_short_term) => [
+  [S_MIN, INIT_S_MAX],
+  [S_MIN, INIT_S_MAX],
+  [S_MIN, INIT_S_MAX],
+  [S_MIN, INIT_S_MAX],
+  [1, 10],
+  [1e-3, 4],
+  [1e-3, 4],
+  [1e-3, 0.75],
+  [0, 4.5],
+  [0, 0.8],
+  [1e-3, 3.5],
+  [1e-3, 5],
+  [1e-3, 0.25],
+  [1e-3, 0.9],
+  [0, 4],
+  [0, 1],
+  [1, 6],
+  [0, w17_w18_ceiling],
+  [0, w17_w18_ceiling],
+  [
+    enable_short_term ? 0.01 : 0,
+    0.8
+  ],
+  [0.1, 0.8]
+];
+var clipParameters = (parameters, numRelearningSteps, enableShortTerm = default_enable_short_term) => {
+  let w17_w18_ceiling = W17_W18_Ceiling;
+  if (Math.max(0, numRelearningSteps) > 1) {
+    const value = -(Math.log(parameters[11]) + Math.log(Math.pow(2, parameters[13]) - 1) + parameters[14] * 0.3) / numRelearningSteps;
+    w17_w18_ceiling = clamp(+value.toFixed(8), 0.01, 2);
+  }
+  const clip = CLAMP_PARAMETERS(w17_w18_ceiling, enableShortTerm).slice(
+    0,
+    parameters.length
+  );
+  return clip.map(
+    ([min, max], index) => clamp(parameters[index] || 0, min, max)
+  );
+};
+var migrateParameters = (parameters, numRelearningSteps = 0, enableShortTerm = default_enable_short_term) => {
+  if (parameters === void 0) {
+    return [...default_w];
+  }
+  switch (parameters.length) {
+    case 21:
+      return clipParameters(
+        Array.from(parameters),
+        numRelearningSteps,
+        enableShortTerm
+      );
+    case 19:
+      console.debug("[FSRS-6]auto fill w from 19 to 21 length");
+      return clipParameters(
+        Array.from(parameters),
+        numRelearningSteps,
+        enableShortTerm
+      ).concat([0, FSRS5_DEFAULT_DECAY]);
+    case 17: {
+      const w2 = clipParameters(
+        Array.from(parameters),
+        numRelearningSteps,
+        enableShortTerm
+      );
+      w2[4] = +(w2[5] * 2 + w2[4]).toFixed(8);
+      w2[5] = +(Math.log(w2[5] * 3 + 1) / 3).toFixed(8);
+      w2[6] = +(w2[6] + 0.5).toFixed(8);
+      console.debug("[FSRS-6]auto fill w from 17 to 21 length");
+      return w2.concat([0, 0, 0, FSRS5_DEFAULT_DECAY]);
+    }
+    default:
+      console.warn("[FSRS]Invalid parameters length, using default parameters");
+      return [...default_w];
+  }
+};
+var generatorParameters = (props) => {
+  var _a2, _b;
+  const learning_steps = Array.isArray(props == null ? void 0 : props.learning_steps) ? props.learning_steps : default_learning_steps;
+  const relearning_steps = Array.isArray(props == null ? void 0 : props.relearning_steps) ? props.relearning_steps : default_relearning_steps;
+  const enable_short_term = (_a2 = props == null ? void 0 : props.enable_short_term) != null ? _a2 : default_enable_short_term;
+  const w2 = migrateParameters(
+    props == null ? void 0 : props.w,
+    relearning_steps.length,
+    enable_short_term
+  );
+  return {
+    request_retention: (props == null ? void 0 : props.request_retention) || default_request_retention,
+    maximum_interval: (props == null ? void 0 : props.maximum_interval) || default_maximum_interval,
+    w: w2,
+    enable_fuzz: (_b = props == null ? void 0 : props.enable_fuzz) != null ? _b : default_enable_fuzz,
+    enable_short_term,
+    learning_steps,
+    relearning_steps
+  };
+};
+function createEmptyCard(now2, afterHandler) {
+  const emptyCard = {
+    due: now2 ? TypeConvert.time(now2) : /* @__PURE__ */ new Date(),
+    stability: 0,
+    difficulty: 0,
+    elapsed_days: 0,
+    scheduled_days: 0,
+    reps: 0,
+    lapses: 0,
+    learning_steps: 0,
+    state: State.New,
+    last_review: void 0
+  };
+  if (afterHandler && typeof afterHandler === "function") {
+    return afterHandler(emptyCard);
+  } else {
+    return emptyCard;
+  }
+}
+var computeDecayFactor = (decayOrParams) => {
+  const decay = typeof decayOrParams === "number" ? -decayOrParams : -decayOrParams[20];
+  const factor = Math.exp(Math.pow(decay, -1) * Math.log(0.9)) - 1;
+  return { decay, factor: roundTo(factor, 8) };
+};
+function forgetting_curve(decayOrParams, elapsed_days, stability) {
+  const { decay, factor } = computeDecayFactor(decayOrParams);
+  return roundTo(Math.pow(1 + factor * elapsed_days / stability, decay), 8);
+}
+var FSRSAlgorithm = class {
+  constructor(params) {
+    __publicField(this, "param");
+    __publicField(this, "intervalModifier");
+    __publicField(this, "_seed");
+    /**
+     * The formula used is :
+     * $$R(t,S) = (1 + \text{FACTOR} \times \frac{t}{9 \cdot S})^{\text{DECAY}}$$
+     * @param {number} elapsed_days t days since the last review
+     * @param {number} stability Stability (interval when R=90%)
+     * @return {number} r Retrievability (probability of recall)
+     */
+    __publicField(this, "forgetting_curve");
+    this.param = new Proxy(
+      generatorParameters(params),
+      this.params_handler_proxy()
+    );
+    this.intervalModifier = this.calculate_interval_modifier(
+      this.param.request_retention
+    );
+    this.forgetting_curve = forgetting_curve.bind(this, this.param.w);
+  }
+  get interval_modifier() {
+    return this.intervalModifier;
+  }
+  set seed(seed) {
+    this._seed = seed;
+  }
+  /**
+   * @see https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm#fsrs-5
+   *
+   * The formula used is: $$I(r,s) = (r^{\frac{1}{DECAY}} - 1) / FACTOR \times s$$
+   * @param request_retention 0<request_retention<=1,Requested retention rate
+   * @throws {Error} Requested retention rate should be in the range (0,1]
+   */
+  calculate_interval_modifier(request_retention) {
+    if (request_retention <= 0 || request_retention > 1) {
+      throw new Error("Requested retention rate should be in the range (0,1]");
+    }
+    const { decay, factor } = computeDecayFactor(this.param.w);
+    return roundTo((Math.pow(request_retention, 1 / decay) - 1) / factor, 8);
+  }
+  /**
+   * Get the parameters of the algorithm.
+   */
+  get parameters() {
+    return this.param;
+  }
+  /**
+   * Set the parameters of the algorithm.
+   * @param params Partial<FSRSParameters>
+   */
+  set parameters(params) {
+    this.update_parameters(params);
+  }
+  params_handler_proxy() {
+    const _this = this;
+    return {
+      set: function(target, prop, value) {
+        if (prop === "request_retention" && Number.isFinite(value)) {
+          _this.intervalModifier = _this.calculate_interval_modifier(
+            Number(value)
+          );
+        } else if (prop === "w") {
+          value = migrateParameters(
+            value,
+            target.relearning_steps.length,
+            target.enable_short_term
+          );
+          _this.forgetting_curve = forgetting_curve.bind(this, value);
+          _this.intervalModifier = _this.calculate_interval_modifier(
+            Number(target.request_retention)
+          );
+        }
+        Reflect.set(target, prop, value);
+        return true;
+      }
+    };
+  }
+  update_parameters(params) {
+    const _params = generatorParameters(params);
+    for (const key in _params) {
+      const paramKey = key;
+      this.param[paramKey] = _params[paramKey];
+    }
+  }
+  /**
+     * The formula used is :
+     * $$ S_0(G) = w_{G-1}$$
+     * $$S_0 = \max \lbrace S_0,0.1\rbrace $$
+  
+     * @param g Grade (rating at Anki) [1.again,2.hard,3.good,4.easy]
+     * @return Stability (interval when R=90%)
+     */
+  init_stability(g2) {
+    return Math.max(this.param.w[g2 - 1], 0.1);
+  }
+  /**
+   * The formula used is :
+   * $$D_0(G) = w_4 - e^{(G-1) \cdot w_5} + 1 $$
+   * $$D_0 = \min \lbrace \max \lbrace D_0(G),1 \rbrace,10 \rbrace$$
+   * where the $$D_0(1)=w_4$$ when the first rating is good.
+   *
+   * @param {Grade} g Grade (rating at Anki) [1.again,2.hard,3.good,4.easy]
+   * @return {number} Difficulty $$D \in [1,10]$$
+   */
+  init_difficulty(g2) {
+    const w2 = this.param.w;
+    const d2 = w2[4] - Math.exp((g2 - 1) * w2[5]) + 1;
+    return roundTo(d2, 8);
+  }
+  /**
+   * If fuzzing is disabled or ivl is less than 2.5, it returns the original interval.
+   * @param {number} ivl - The interval to be fuzzed.
+   * @param {number} elapsed_days t days since the last review
+   * @return {number} - The fuzzed interval.
+   **/
+  apply_fuzz(ivl, elapsed_days) {
+    if (!this.param.enable_fuzz || ivl < 2.5) return Math.round(ivl);
+    const generator = alea(this._seed);
+    const fuzz_factor = generator();
+    const { min_ivl, max_ivl } = get_fuzz_range(
+      ivl,
+      elapsed_days,
+      this.param.maximum_interval
+    );
+    return Math.floor(fuzz_factor * (max_ivl - min_ivl + 1) + min_ivl);
+  }
+  /**
+   *   @see The formula used is : {@link FSRSAlgorithm.calculate_interval_modifier}
+   *   @param {number} s - Stability (interval when R=90%)
+   *   @param {number} elapsed_days t days since the last review
+   */
+  next_interval(s2, elapsed_days) {
+    const newInterval = Math.min(
+      Math.max(1, Math.round(s2 * this.intervalModifier)),
+      this.param.maximum_interval
+    );
+    return this.apply_fuzz(newInterval, elapsed_days);
+  }
+  /**
+   * @see https://github.com/open-spaced-repetition/fsrs4anki/issues/697
+   */
+  linear_damping(delta_d, old_d) {
+    return roundTo(delta_d * (10 - old_d) / 9, 8);
+  }
+  /**
+   * The formula used is :
+   * $$\text{delta}_d = -w_6 \cdot (g - 3)$$
+   * $$\text{next}_d = D + \text{linear damping}(\text{delta}_d , D)$$
+   * $$D^\prime(D,R) = w_7 \cdot D_0(4) +(1 - w_7) \cdot \text{next}_d$$
+   * @param {number} d Difficulty $$D \in [1,10]$$
+   * @param {Grade} g Grade (rating at Anki) [1.again,2.hard,3.good,4.easy]
+   * @return {number} $$\text{next}_D$$
+   */
+  next_difficulty(d2, g2) {
+    const delta_d = -this.param.w[6] * (g2 - 3);
+    const next_d = d2 + this.linear_damping(delta_d, d2);
+    return clamp(
+      this.mean_reversion(this.init_difficulty(Rating.Easy), next_d),
+      1,
+      10
+    );
+  }
+  /**
+   * The formula used is :
+   * $$w_7 \cdot \text{init} +(1 - w_7) \cdot \text{current}$$
+   * @param {number} init $$w_2 : D_0(3) = w_2 + (R-2) \cdot w_3= w_2$$
+   * @param {number} current $$D - w_6 \cdot (R - 2)$$
+   * @return {number} difficulty
+   */
+  mean_reversion(init, current) {
+    const w2 = this.param.w;
+    return roundTo(w2[7] * init + (1 - w2[7]) * current, 8);
+  }
+  /**
+   * The formula used is :
+   * $$S^\prime_r(D,S,R,G) = S\cdot(e^{w_8}\cdot (11-D)\cdot S^{-w_9}\cdot(e^{w_{10}\cdot(1-R)}-1)\cdot w_{15}(\text{if} G=2) \cdot w_{16}(\text{if} G=4)+1)$$
+   * @param {number} d Difficulty D \in [1,10]
+   * @param {number} s Stability (interval when R=90%)
+   * @param {number} r Retrievability (probability of recall)
+   * @param {Grade} g Grade (Rating[0.again,1.hard,2.good,3.easy])
+   * @return {number} S^\prime_r new stability after recall
+   */
+  next_recall_stability(d2, s2, r2, g2) {
+    const w2 = this.param.w;
+    const hard_penalty = Rating.Hard === g2 ? w2[15] : 1;
+    const easy_bound = Rating.Easy === g2 ? w2[16] : 1;
+    return roundTo(
+      clamp(
+        s2 * (1 + Math.exp(w2[8]) * (11 - d2) * Math.pow(s2, -w2[9]) * (Math.exp((1 - r2) * w2[10]) - 1) * hard_penalty * easy_bound),
+        S_MIN,
+        36500
+      ),
+      8
+    );
+  }
+  /**
+   * The formula used is :
+   * $$S^\prime_f(D,S,R) = w_{11}\cdot D^{-w_{12}}\cdot ((S+1)^{w_{13}}-1) \cdot e^{w_{14}\cdot(1-R)}$$
+   * enable_short_term = true : $$S^\prime_f \in \min \lbrace \max \lbrace S^\prime_f,0.01\rbrace, \frac{S}{e^{w_{17} \cdot w_{18}}} \rbrace$$
+   * enable_short_term = false : $$S^\prime_f \in \min \lbrace \max \lbrace S^\prime_f,0.01\rbrace, S \rbrace$$
+   * @param {number} d Difficulty D \in [1,10]
+   * @param {number} s Stability (interval when R=90%)
+   * @param {number} r Retrievability (probability of recall)
+   * @return {number} S^\prime_f new stability after forgetting
+   */
+  next_forget_stability(d2, s2, r2) {
+    const w2 = this.param.w;
+    return roundTo(
+      clamp(
+        w2[11] * Math.pow(d2, -w2[12]) * (Math.pow(s2 + 1, w2[13]) - 1) * Math.exp((1 - r2) * w2[14]),
+        S_MIN,
+        36500
+      ),
+      8
+    );
+  }
+  /**
+   * The formula used is :
+   * $$S^\prime_s(S,G) = S \cdot e^{w_{17} \cdot (G-3+w_{18})}$$
+   * @param {number} s Stability (interval when R=90%)
+   * @param {Grade} g Grade (Rating[0.again,1.hard,2.good,3.easy])
+   */
+  next_short_term_stability(s2, g2) {
+    const w2 = this.param.w;
+    const sinc = Math.pow(s2, -w2[19]) * Math.exp(w2[17] * (g2 - 3 + w2[18]));
+    const maskedSinc = g2 >= Rating.Hard ? Math.max(sinc, 1) : sinc;
+    return roundTo(clamp(s2 * maskedSinc, S_MIN, 36500), 8);
+  }
+  /**
+   * Calculates the next state of memory based on the current state, time elapsed, and grade.
+   *
+   * @param memory_state - The current state of memory, which can be null.
+   * @param t - The time elapsed since the last review.
+   * @param {Rating} g Grade (Rating[0.Manual,1.Again,2.Hard,3.Good,4.Easy])
+   * @param r - Optional retrievability value. If not provided, it will be calculated.
+   * @returns The next state of memory with updated difficulty and stability.
+   */
+  next_state(memory_state, t3, g2, r2) {
+    const { difficulty: d2, stability: s2 } = memory_state != null ? memory_state : {
+      difficulty: 0,
+      stability: 0
+    };
+    if (t3 < 0) {
+      throw new Error(`Invalid delta_t "${t3}"`);
+    }
+    if (g2 < 0 || g2 > 4) {
+      throw new Error(`Invalid grade "${g2}"`);
+    }
+    if (d2 === 0 && s2 === 0) {
+      return {
+        difficulty: clamp(this.init_difficulty(g2), 1, 10),
+        stability: this.init_stability(g2)
+      };
+    }
+    if (g2 === 0) {
+      return {
+        difficulty: d2,
+        stability: s2
+      };
+    }
+    if (d2 < 1 || s2 < S_MIN) {
+      throw new Error(
+        `Invalid memory state { difficulty: ${d2}, stability: ${s2} }`
+      );
+    }
+    const w2 = this.param.w;
+    r2 = typeof r2 === "number" ? r2 : this.forgetting_curve(t3, s2);
+    let new_s;
+    if (t3 === 0 && this.param.enable_short_term) {
+      new_s = this.next_short_term_stability(s2, g2);
+    } else if (g2 === 1) {
+      const s_after_fail = this.next_forget_stability(d2, s2, r2);
+      let [w_17, w_18] = [0, 0];
+      if (this.param.enable_short_term) {
+        w_17 = w2[17];
+        w_18 = w2[18];
+      }
+      const next_s_min = s2 / Math.exp(w_17 * w_18);
+      new_s = clamp(roundTo(next_s_min, 8), S_MIN, s_after_fail);
+    } else {
+      new_s = this.next_recall_stability(d2, s2, r2, g2);
+    }
+    const new_d = this.next_difficulty(d2, g2);
+    return { difficulty: new_d, stability: new_s };
+  }
+};
+var BasicScheduler = class extends AbstractScheduler {
+  constructor(card, now2, algorithm, strategies) {
+    super(card, now2, algorithm, strategies);
+    __publicField(this, "learningStepsStrategy");
+    let learningStepStrategy = BasicLearningStepsStrategy;
+    if (this.strategies) {
+      const custom_strategy = this.strategies.get(StrategyMode.LEARNING_STEPS);
+      if (custom_strategy) {
+        learningStepStrategy = custom_strategy;
+      }
+    }
+    this.learningStepsStrategy = learningStepStrategy;
+  }
+  getLearningInfo(card, grade) {
+    var _a2, _b, _c, _d;
+    const parameters = this.algorithm.parameters;
+    card.learning_steps = card.learning_steps || 0;
+    const steps_strategy = this.learningStepsStrategy(
+      parameters,
+      card.state,
+      card.learning_steps
+    );
+    const scheduled_minutes = Math.max(
+      0,
+      (_b = (_a2 = steps_strategy[grade]) == null ? void 0 : _a2.scheduled_minutes) != null ? _b : 0
+    );
+    const next_steps = Math.max(0, (_d = (_c = steps_strategy[grade]) == null ? void 0 : _c.next_step) != null ? _d : 0);
+    return {
+      scheduled_minutes,
+      next_steps
+    };
+  }
+  /**
+   * @description This function applies the learning steps based on the current card's state and grade.
+   */
+  applyLearningSteps(nextCard, grade, to_state) {
+    const { scheduled_minutes, next_steps } = this.getLearningInfo(
+      this.current,
+      grade
+    );
+    if (scheduled_minutes > 0 && scheduled_minutes < 1440) {
+      nextCard.learning_steps = next_steps;
+      nextCard.scheduled_days = 0;
+      nextCard.state = to_state;
+      nextCard.due = date_scheduler(
+        this.review_time,
+        Math.round(scheduled_minutes),
+        false
+        /** true:days false: minute */
+      );
+    } else {
+      nextCard.state = State.Review;
+      if (scheduled_minutes >= 1440) {
+        nextCard.learning_steps = next_steps;
+        nextCard.due = date_scheduler(
+          this.review_time,
+          Math.round(scheduled_minutes),
+          false
+          /** true:days false: minute */
+        );
+        nextCard.scheduled_days = Math.floor(scheduled_minutes / 1440);
+      } else {
+        nextCard.learning_steps = 0;
+        const interval = this.algorithm.next_interval(
+          nextCard.stability,
+          this.elapsed_days
+        );
+        nextCard.scheduled_days = interval;
+        nextCard.due = date_scheduler(this.review_time, interval, true);
+      }
+    }
+  }
+  newState(grade) {
+    const exist = this.next.get(grade);
+    if (exist) {
+      return exist;
+    }
+    const next = this.next_ds(this.elapsed_days, grade);
+    this.applyLearningSteps(next, grade, State.Learning);
+    const item = {
+      card: next,
+      log: this.buildLog(grade)
+    };
+    this.next.set(grade, item);
+    return item;
+  }
+  learningState(grade) {
+    const exist = this.next.get(grade);
+    if (exist) {
+      return exist;
+    }
+    const next = this.next_ds(this.elapsed_days, grade);
+    this.applyLearningSteps(
+      next,
+      grade,
+      this.last.state
+      /** Learning or Relearning */
+    );
+    const item = {
+      card: next,
+      log: this.buildLog(grade)
+    };
+    this.next.set(grade, item);
+    return item;
+  }
+  reviewState(grade) {
+    const exist = this.next.get(grade);
+    if (exist) {
+      return exist;
+    }
+    const interval = this.elapsed_days;
+    const retrievability = this.algorithm.forgetting_curve(
+      interval,
+      this.current.stability
+    );
+    const next_again = this.next_ds(interval, Rating.Again, retrievability);
+    const next_hard = this.next_ds(interval, Rating.Hard, retrievability);
+    const next_good = this.next_ds(interval, Rating.Good, retrievability);
+    const next_easy = this.next_ds(interval, Rating.Easy, retrievability);
+    this.next_interval(next_hard, next_good, next_easy, interval);
+    this.next_state(next_hard, next_good, next_easy);
+    this.applyLearningSteps(next_again, Rating.Again, State.Relearning);
+    next_again.lapses += 1;
+    const item_again = {
+      card: next_again,
+      log: this.buildLog(Rating.Again)
+    };
+    const item_hard = {
+      card: next_hard,
+      log: super.buildLog(Rating.Hard)
+    };
+    const item_good = {
+      card: next_good,
+      log: super.buildLog(Rating.Good)
+    };
+    const item_easy = {
+      card: next_easy,
+      log: super.buildLog(Rating.Easy)
+    };
+    this.next.set(Rating.Again, item_again);
+    this.next.set(Rating.Hard, item_hard);
+    this.next.set(Rating.Good, item_good);
+    this.next.set(Rating.Easy, item_easy);
+    return this.next.get(grade);
+  }
+  /**
+   * Review next_ds
+   */
+  next_ds(t3, g2, r2) {
+    const next_state = this.algorithm.next_state(
+      {
+        difficulty: this.current.difficulty,
+        stability: this.current.stability
+      },
+      t3,
+      g2,
+      r2
+    );
+    const card = TypeConvert.card(this.current);
+    card.difficulty = next_state.difficulty;
+    card.stability = next_state.stability;
+    return card;
+  }
+  /**
+   * Review next_interval
+   */
+  next_interval(next_hard, next_good, next_easy, interval) {
+    let hard_interval, good_interval;
+    hard_interval = this.algorithm.next_interval(next_hard.stability, interval);
+    good_interval = this.algorithm.next_interval(next_good.stability, interval);
+    hard_interval = Math.min(hard_interval, good_interval);
+    good_interval = Math.max(good_interval, hard_interval + 1);
+    const easy_interval = Math.max(
+      this.algorithm.next_interval(next_easy.stability, interval),
+      good_interval + 1
+    );
+    next_hard.scheduled_days = hard_interval;
+    next_hard.due = date_scheduler(this.review_time, hard_interval, true);
+    next_good.scheduled_days = good_interval;
+    next_good.due = date_scheduler(this.review_time, good_interval, true);
+    next_easy.scheduled_days = easy_interval;
+    next_easy.due = date_scheduler(this.review_time, easy_interval, true);
+  }
+  /**
+   * Review next_state
+   */
+  next_state(next_hard, next_good, next_easy) {
+    next_hard.state = State.Review;
+    next_hard.learning_steps = 0;
+    next_good.state = State.Review;
+    next_good.learning_steps = 0;
+    next_easy.state = State.Review;
+    next_easy.learning_steps = 0;
+  }
+};
+var LongTermScheduler = class extends AbstractScheduler {
+  newState(grade) {
+    const exist = this.next.get(grade);
+    if (exist) {
+      return exist;
+    }
+    this.current.scheduled_days = 0;
+    this.current.elapsed_days = 0;
+    const first_interval = 0;
+    const next_again = this.next_ds(first_interval, Rating.Again);
+    const next_hard = this.next_ds(first_interval, Rating.Hard);
+    const next_good = this.next_ds(first_interval, Rating.Good);
+    const next_easy = this.next_ds(first_interval, Rating.Easy);
+    this.next_interval(
+      next_again,
+      next_hard,
+      next_good,
+      next_easy,
+      first_interval
+    );
+    this.next_state(next_again, next_hard, next_good, next_easy);
+    this.update_next(next_again, next_hard, next_good, next_easy);
+    return this.next.get(grade);
+  }
+  next_ds(t3, g2, r2) {
+    const next_state = this.algorithm.next_state(
+      {
+        difficulty: this.current.difficulty,
+        stability: this.current.stability
+      },
+      t3,
+      g2,
+      r2
+    );
+    const card = TypeConvert.card(this.current);
+    card.difficulty = next_state.difficulty;
+    card.stability = next_state.stability;
+    return card;
+  }
+  /**
+   * @see https://github.com/open-spaced-repetition/ts-fsrs/issues/98#issuecomment-2241923194
+   */
+  learningState(grade) {
+    return this.reviewState(grade);
+  }
+  reviewState(grade) {
+    const exist = this.next.get(grade);
+    if (exist) {
+      return exist;
+    }
+    const interval = this.elapsed_days;
+    const retrievability = this.algorithm.forgetting_curve(
+      interval,
+      this.current.stability
+    );
+    const next_again = this.next_ds(interval, Rating.Again, retrievability);
+    const next_hard = this.next_ds(interval, Rating.Hard, retrievability);
+    const next_good = this.next_ds(interval, Rating.Good, retrievability);
+    const next_easy = this.next_ds(interval, Rating.Easy, retrievability);
+    this.next_interval(next_again, next_hard, next_good, next_easy, interval);
+    this.next_state(next_again, next_hard, next_good, next_easy);
+    next_again.lapses += 1;
+    this.update_next(next_again, next_hard, next_good, next_easy);
+    return this.next.get(grade);
+  }
+  /**
+   * Review/New next_interval
+   */
+  next_interval(next_again, next_hard, next_good, next_easy, interval) {
+    let again_interval, hard_interval, good_interval, easy_interval;
+    again_interval = this.algorithm.next_interval(
+      next_again.stability,
+      interval
+    );
+    hard_interval = this.algorithm.next_interval(next_hard.stability, interval);
+    good_interval = this.algorithm.next_interval(next_good.stability, interval);
+    easy_interval = this.algorithm.next_interval(next_easy.stability, interval);
+    again_interval = Math.min(again_interval, hard_interval);
+    hard_interval = Math.max(hard_interval, again_interval + 1);
+    good_interval = Math.max(good_interval, hard_interval + 1);
+    easy_interval = Math.max(easy_interval, good_interval + 1);
+    next_again.scheduled_days = again_interval;
+    next_again.due = date_scheduler(this.review_time, again_interval, true);
+    next_hard.scheduled_days = hard_interval;
+    next_hard.due = date_scheduler(this.review_time, hard_interval, true);
+    next_good.scheduled_days = good_interval;
+    next_good.due = date_scheduler(this.review_time, good_interval, true);
+    next_easy.scheduled_days = easy_interval;
+    next_easy.due = date_scheduler(this.review_time, easy_interval, true);
+  }
+  /**
+   * Review/New next_state
+   */
+  next_state(next_again, next_hard, next_good, next_easy) {
+    next_again.state = State.Review;
+    next_again.learning_steps = 0;
+    next_hard.state = State.Review;
+    next_hard.learning_steps = 0;
+    next_good.state = State.Review;
+    next_good.learning_steps = 0;
+    next_easy.state = State.Review;
+    next_easy.learning_steps = 0;
+  }
+  update_next(next_again, next_hard, next_good, next_easy) {
+    const item_again = {
+      card: next_again,
+      log: this.buildLog(Rating.Again)
+    };
+    const item_hard = {
+      card: next_hard,
+      log: super.buildLog(Rating.Hard)
+    };
+    const item_good = {
+      card: next_good,
+      log: super.buildLog(Rating.Good)
+    };
+    const item_easy = {
+      card: next_easy,
+      log: super.buildLog(Rating.Easy)
+    };
+    this.next.set(Rating.Again, item_again);
+    this.next.set(Rating.Hard, item_hard);
+    this.next.set(Rating.Good, item_good);
+    this.next.set(Rating.Easy, item_easy);
+  }
+};
+var Reschedule = class {
+  /**
+   * Creates an instance of the `Reschedule` class.
+   * @param fsrs - An instance of the FSRS class used for scheduling.
+   */
+  constructor(fsrs2) {
+    __publicField(this, "fsrs");
+    this.fsrs = fsrs2;
+  }
+  /**
+   * Replays a review for a card and determines the next review date based on the given rating.
+   * @param card - The card being reviewed.
+   * @param reviewed - The date the card was reviewed.
+   * @param rating - The grade given to the card during the review.
+   * @returns A `RecordLogItem` containing the updated card and review log.
+   */
+  replay(card, reviewed, rating) {
+    return this.fsrs.next(card, reviewed, rating);
+  }
+  /**
+   * Processes a manual review for a card, allowing for custom state, stability, difficulty, and due date.
+   * @param card - The card being reviewed.
+   * @param state - The state of the card after the review.
+   * @param reviewed - The date the card was reviewed.
+   * @param elapsed_days - The number of days since the last review.
+   * @param stability - (Optional) The stability of the card.
+   * @param difficulty - (Optional) The difficulty of the card.
+   * @param due - (Optional) The due date for the next review.
+   * @returns A `RecordLogItem` containing the updated card and review log.
+   * @throws Will throw an error if the state or due date is not provided when required.
+   */
+  handleManualRating(card, state, reviewed, elapsed_days, stability, difficulty, due) {
+    if (typeof state === "undefined") {
+      throw new Error("reschedule: state is required for manual rating");
+    }
+    let log;
+    let next_card;
+    if (state === State.New) {
+      log = {
+        rating: Rating.Manual,
+        state,
+        due: due != null ? due : reviewed,
+        stability: card.stability,
+        difficulty: card.difficulty,
+        elapsed_days,
+        last_elapsed_days: card.elapsed_days,
+        scheduled_days: card.scheduled_days,
+        learning_steps: card.learning_steps,
+        review: reviewed
+      };
+      next_card = createEmptyCard(reviewed);
+      next_card.last_review = reviewed;
+    } else {
+      if (typeof due === "undefined") {
+        throw new Error("reschedule: due is required for manual rating");
+      }
+      const scheduled_days = date_diff(due, reviewed, "days");
+      log = {
+        rating: Rating.Manual,
+        state: card.state,
+        due: card.last_review || card.due,
+        stability: card.stability,
+        difficulty: card.difficulty,
+        elapsed_days,
+        last_elapsed_days: card.elapsed_days,
+        scheduled_days: card.scheduled_days,
+        learning_steps: card.learning_steps,
+        review: reviewed
+      };
+      next_card = {
+        ...card,
+        state,
+        due,
+        last_review: reviewed,
+        stability: stability || card.stability,
+        difficulty: difficulty || card.difficulty,
+        elapsed_days,
+        scheduled_days,
+        reps: card.reps + 1
+      };
+    }
+    return { card: next_card, log };
+  }
+  /**
+   * Reschedules a card based on its review history.
+   *
+   * @param current_card - The card to be rescheduled.
+   * @param reviews - An array of review history objects.
+   * @returns An array of record log items representing the rescheduling process.
+   */
+  reschedule(current_card, reviews) {
+    const collections = [];
+    let cur_card = createEmptyCard(current_card.due);
+    for (const review of reviews) {
+      let item;
+      review.review = TypeConvert.time(review.review);
+      if (review.rating === Rating.Manual) {
+        let interval = 0;
+        if (cur_card.state !== State.New && cur_card.last_review) {
+          interval = date_diff(review.review, cur_card.last_review, "days");
+        }
+        item = this.handleManualRating(
+          cur_card,
+          review.state,
+          review.review,
+          interval,
+          review.stability,
+          review.difficulty,
+          review.due ? TypeConvert.time(review.due) : void 0
+        );
+      } else {
+        item = this.replay(cur_card, review.review, review.rating);
+      }
+      collections.push(item);
+      cur_card = item.card;
+    }
+    return collections;
+  }
+  calculateManualRecord(current_card, now2, record_log_item, update_memory) {
+    if (!record_log_item) {
+      return null;
+    }
+    const { card: reschedule_card, log } = record_log_item;
+    const cur_card = TypeConvert.card(current_card);
+    if (cur_card.due.getTime() === reschedule_card.due.getTime()) {
+      return null;
+    }
+    cur_card.scheduled_days = date_diff(
+      reschedule_card.due,
+      cur_card.due,
+      "days"
+    );
+    return this.handleManualRating(
+      cur_card,
+      reschedule_card.state,
+      TypeConvert.time(now2),
+      log.elapsed_days,
+      update_memory ? reschedule_card.stability : void 0,
+      update_memory ? reschedule_card.difficulty : void 0,
+      reschedule_card.due
+    );
+  }
+};
+var FSRS = class extends FSRSAlgorithm {
+  constructor(param) {
+    super(param);
+    __publicField(this, "strategyHandler", /* @__PURE__ */ new Map());
+    __publicField(this, "Scheduler");
+    const { enable_short_term } = this.parameters;
+    this.Scheduler = enable_short_term ? BasicScheduler : LongTermScheduler;
+  }
+  params_handler_proxy() {
+    const _this = this;
+    return {
+      set: function(target, prop, value) {
+        if (prop === "request_retention" && Number.isFinite(value)) {
+          _this.intervalModifier = _this.calculate_interval_modifier(
+            Number(value)
+          );
+        } else if (prop === "enable_short_term") {
+          _this.Scheduler = value === true ? BasicScheduler : LongTermScheduler;
+        } else if (prop === "w") {
+          value = migrateParameters(
+            value,
+            target.relearning_steps.length,
+            target.enable_short_term
+          );
+          _this.forgetting_curve = forgetting_curve.bind(this, value);
+          _this.intervalModifier = _this.calculate_interval_modifier(
+            Number(target.request_retention)
+          );
+        }
+        Reflect.set(target, prop, value);
+        return true;
+      }
+    };
+  }
+  useStrategy(mode, handler) {
+    this.strategyHandler.set(mode, handler);
+    return this;
+  }
+  clearStrategy(mode) {
+    if (mode) {
+      this.strategyHandler.delete(mode);
+    } else {
+      this.strategyHandler.clear();
+    }
+    return this;
+  }
+  getScheduler(card, now2) {
+    const schedulerStrategy = this.strategyHandler.get(
+      StrategyMode.SCHEDULER
+    );
+    const Scheduler = schedulerStrategy || this.Scheduler;
+    const instance = new Scheduler(card, now2, this, this.strategyHandler);
+    return instance;
+  }
+  /**
+   * Display the collection of cards and logs for the four scenarios after scheduling the card at the current time.
+   * @param card Card to be processed
+   * @param now Current time or scheduled time
+   * @param afterHandler Convert the result to another type. (Optional)
+   * @example
+   * ```typescript
+   * const card: Card = createEmptyCard(new Date());
+   * const f = fsrs();
+   * const recordLog = f.repeat(card, new Date());
+   * ```
+   * @example
+   * ```typescript
+   * interface RevLogUnchecked
+   *   extends Omit<ReviewLog, "due" | "review" | "state" | "rating"> {
+   *   cid: string;
+   *   due: Date | number;
+   *   state: StateType;
+   *   review: Date | number;
+   *   rating: RatingType;
+   * }
+   *
+   * interface RepeatRecordLog {
+   *   card: CardUnChecked; //see method: createEmptyCard
+   *   log: RevLogUnchecked;
+   * }
+   *
+   * function repeatAfterHandler(recordLog: RecordLog) {
+   *     const record: { [key in Grade]: RepeatRecordLog } = {} as {
+   *       [key in Grade]: RepeatRecordLog;
+   *     };
+   *     for (const grade of Grades) {
+   *       record[grade] = {
+   *         card: {
+   *           ...(recordLog[grade].card as Card & { cid: string }),
+   *           due: recordLog[grade].card.due.getTime(),
+   *           state: State[recordLog[grade].card.state] as StateType,
+   *           last_review: recordLog[grade].card.last_review
+   *             ? recordLog[grade].card.last_review!.getTime()
+   *             : null,
+   *         },
+   *         log: {
+   *           ...recordLog[grade].log,
+   *           cid: (recordLog[grade].card as Card & { cid: string }).cid,
+   *           due: recordLog[grade].log.due.getTime(),
+   *           review: recordLog[grade].log.review.getTime(),
+   *           state: State[recordLog[grade].log.state] as StateType,
+   *           rating: Rating[recordLog[grade].log.rating] as RatingType,
+   *         },
+   *       };
+   *     }
+   *     return record;
+   * }
+   * const card: Card = createEmptyCard(new Date(), cardAfterHandler); //see method:  createEmptyCard
+   * const f = fsrs();
+   * const recordLog = f.repeat(card, new Date(), repeatAfterHandler);
+   * ```
+   */
+  repeat(card, now2, afterHandler) {
+    const instance = this.getScheduler(card, now2);
+    const recordLog = instance.preview();
+    if (afterHandler && typeof afterHandler === "function") {
+      return afterHandler(recordLog);
+    } else {
+      return recordLog;
+    }
+  }
+  /**
+   * Display the collection of cards and logs for the card scheduled at the current time, after applying a specific grade rating.
+   * @param card Card to be processed
+   * @param now Current time or scheduled time
+   * @param grade Rating of the review (Again, Hard, Good, Easy)
+   * @param afterHandler Convert the result to another type. (Optional)
+   * @example
+   * ```typescript
+   * const card: Card = createEmptyCard(new Date());
+   * const f = fsrs();
+   * const recordLogItem = f.next(card, new Date(), Rating.Again);
+   * ```
+   * @example
+   * ```typescript
+   * interface RevLogUnchecked
+   *   extends Omit<ReviewLog, "due" | "review" | "state" | "rating"> {
+   *   cid: string;
+   *   due: Date | number;
+   *   state: StateType;
+   *   review: Date | number;
+   *   rating: RatingType;
+   * }
+   *
+   * interface NextRecordLog {
+   *   card: CardUnChecked; //see method: createEmptyCard
+   *   log: RevLogUnchecked;
+   * }
+   *
+  function nextAfterHandler(recordLogItem: RecordLogItem) {
+    const recordItem = {
+      card: {
+        ...(recordLogItem.card as Card & { cid: string }),
+        due: recordLogItem.card.due.getTime(),
+        state: State[recordLogItem.card.state] as StateType,
+        last_review: recordLogItem.card.last_review
+          ? recordLogItem.card.last_review!.getTime()
+          : null,
+      },
+      log: {
+        ...recordLogItem.log,
+        cid: (recordLogItem.card as Card & { cid: string }).cid,
+        due: recordLogItem.log.due.getTime(),
+        review: recordLogItem.log.review.getTime(),
+        state: State[recordLogItem.log.state] as StateType,
+        rating: Rating[recordLogItem.log.rating] as RatingType,
+      },
+    };
+    return recordItem
+  }
+   * const card: Card = createEmptyCard(new Date(), cardAfterHandler); //see method:  createEmptyCard
+   * const f = fsrs();
+   * const recordLogItem = f.repeat(card, new Date(), Rating.Again, nextAfterHandler);
+   * ```
+   */
+  next(card, now2, grade, afterHandler) {
+    const instance = this.getScheduler(card, now2);
+    const g2 = TypeConvert.rating(grade);
+    if (g2 === Rating.Manual) {
+      throw new Error("Cannot review a manual rating");
+    }
+    const recordLogItem = instance.review(g2);
+    if (afterHandler && typeof afterHandler === "function") {
+      return afterHandler(recordLogItem);
+    } else {
+      return recordLogItem;
+    }
+  }
+  /**
+   * Get the retrievability of the card
+   * @param card  Card to be processed
+   * @param now  Current time or scheduled time
+   * @param format  default:true , Convert the result to another type. (Optional)
+   * @returns  The retrievability of the card,if format is true, the result is a string, otherwise it is a number
+   */
+  get_retrievability(card, now2, format = true) {
+    const processedCard = TypeConvert.card(card);
+    now2 = now2 ? TypeConvert.time(now2) : /* @__PURE__ */ new Date();
+    const t3 = processedCard.state !== State.New ? Math.max(date_diff(now2, processedCard.last_review, "days"), 0) : 0;
+    const r2 = processedCard.state !== State.New ? this.forgetting_curve(t3, +processedCard.stability.toFixed(8)) : 0;
+    return format ? `${(r2 * 100).toFixed(2)}%` : r2;
+  }
+  /**
+   *
+   * @param card Card to be processed
+   * @param log last review log
+   * @param afterHandler Convert the result to another type. (Optional)
+   * @example
+   * ```typescript
+   * const now = new Date();
+   * const f = fsrs();
+   * const emptyCardFormAfterHandler = createEmptyCard(now);
+   * const repeatFormAfterHandler = f.repeat(emptyCardFormAfterHandler, now);
+   * const { card, log } = repeatFormAfterHandler[Rating.Hard];
+   * const rollbackFromAfterHandler = f.rollback(card, log);
+   * ```
+   *
+   * @example
+   * ```typescript
+   * const now = new Date();
+   * const f = fsrs();
+   * const emptyCardFormAfterHandler = createEmptyCard(now, cardAfterHandler);  //see method: createEmptyCard
+   * const repeatFormAfterHandler = f.repeat(emptyCardFormAfterHandler, now, repeatAfterHandler); //see method: fsrs.repeat()
+   * const { card, log } = repeatFormAfterHandler[Rating.Hard];
+   * const rollbackFromAfterHandler = f.rollback(card, log, cardAfterHandler);
+   * ```
+   */
+  rollback(card, log, afterHandler) {
+    const processedCard = TypeConvert.card(card);
+    const processedLog = TypeConvert.review_log(log);
+    if (processedLog.rating === Rating.Manual) {
+      throw new Error("Cannot rollback a manual rating");
+    }
+    let last_due;
+    let last_review;
+    let last_lapses;
+    switch (processedLog.state) {
+      case State.New:
+        last_due = processedLog.due;
+        last_review = void 0;
+        last_lapses = 0;
+        break;
+      case State.Learning:
+      case State.Relearning:
+      case State.Review:
+        last_due = processedLog.review;
+        last_review = processedLog.due;
+        last_lapses = processedCard.lapses - (processedLog.rating === Rating.Again && processedLog.state === State.Review ? 1 : 0);
+        break;
+    }
+    const prevCard = {
+      ...processedCard,
+      due: last_due,
+      stability: processedLog.stability,
+      difficulty: processedLog.difficulty,
+      elapsed_days: processedLog.last_elapsed_days,
+      scheduled_days: processedLog.scheduled_days,
+      reps: Math.max(0, processedCard.reps - 1),
+      lapses: Math.max(0, last_lapses),
+      learning_steps: processedLog.learning_steps,
+      state: processedLog.state,
+      last_review
+    };
+    if (afterHandler && typeof afterHandler === "function") {
+      return afterHandler(prevCard);
+    } else {
+      return prevCard;
+    }
+  }
+  /**
+   *
+   * @param card Card to be processed
+   * @param now Current time or scheduled time
+   * @param reset_count Should the review count information(reps,lapses) be reset. (Optional)
+   * @param afterHandler Convert the result to another type. (Optional)
+   * @example
+   * ```typescript
+   * const now = new Date();
+   * const f = fsrs();
+   * const emptyCard = createEmptyCard(now);
+   * const scheduling_cards = f.repeat(emptyCard, now);
+   * const { card, log } = scheduling_cards[Rating.Hard];
+   * const forgetCard = f.forget(card, new Date(), true);
+   * ```
+   *
+   * @example
+   * ```typescript
+   * interface RepeatRecordLog {
+   *   card: CardUnChecked; //see method: createEmptyCard
+   *   log: RevLogUnchecked; //see method: fsrs.repeat()
+   * }
+   *
+   * function forgetAfterHandler(recordLogItem: RecordLogItem): RepeatRecordLog {
+   *     return {
+   *       card: {
+   *         ...(recordLogItem.card as Card & { cid: string }),
+   *         due: recordLogItem.card.due.getTime(),
+   *         state: State[recordLogItem.card.state] as StateType,
+   *         last_review: recordLogItem.card.last_review
+   *           ? recordLogItem.card.last_review!.getTime()
+   *           : null,
+   *       },
+   *       log: {
+   *         ...recordLogItem.log,
+   *         cid: (recordLogItem.card as Card & { cid: string }).cid,
+   *         due: recordLogItem.log.due.getTime(),
+   *         review: recordLogItem.log.review.getTime(),
+   *         state: State[recordLogItem.log.state] as StateType,
+   *         rating: Rating[recordLogItem.log.rating] as RatingType,
+   *       },
+   *     };
+   * }
+   * const now = new Date();
+   * const f = fsrs();
+   * const emptyCardFormAfterHandler = createEmptyCard(now, cardAfterHandler); //see method:  createEmptyCard
+   * const repeatFormAfterHandler = f.repeat(emptyCardFormAfterHandler, now, repeatAfterHandler); //see method: fsrs.repeat()
+   * const { card } = repeatFormAfterHandler[Rating.Hard];
+   * const forgetFromAfterHandler = f.forget(card, date_scheduler(now, 1, true), false, forgetAfterHandler);
+   * ```
+   */
+  forget(card, now2, reset_count = false, afterHandler) {
+    const processedCard = TypeConvert.card(card);
+    now2 = TypeConvert.time(now2);
+    const scheduled_days = processedCard.state === State.New ? 0 : date_diff(now2, processedCard.due, "days");
+    const forget_log = {
+      rating: Rating.Manual,
+      state: processedCard.state,
+      due: processedCard.due,
+      stability: processedCard.stability,
+      difficulty: processedCard.difficulty,
+      elapsed_days: 0,
+      last_elapsed_days: processedCard.elapsed_days,
+      scheduled_days,
+      learning_steps: processedCard.learning_steps,
+      review: now2
+    };
+    const forget_card = {
+      ...processedCard,
+      due: now2,
+      stability: 0,
+      difficulty: 0,
+      elapsed_days: 0,
+      scheduled_days: 0,
+      reps: reset_count ? 0 : processedCard.reps,
+      lapses: reset_count ? 0 : processedCard.lapses,
+      learning_steps: 0,
+      state: State.New,
+      last_review: processedCard.last_review
+    };
+    const recordLogItem = { card: forget_card, log: forget_log };
+    if (afterHandler && typeof afterHandler === "function") {
+      return afterHandler(recordLogItem);
+    } else {
+      return recordLogItem;
+    }
+  }
+  /**
+   * Reschedules the current card and returns the rescheduled collections and reschedule item.
+   *
+   * @template T - The type of the record log item.
+   * @param {CardInput | Card} current_card - The current card to be rescheduled.
+   * @param {Array<FSRSHistory>} reviews - The array of FSRSHistory objects representing the reviews.
+   * @param {Partial<RescheduleOptions<T>>} options - The optional reschedule options.
+   * @returns {IReschedule<T>} - The rescheduled collections and reschedule item.
+   *
+   * @example
+   * ```typescript
+   * const f = fsrs()
+   * const grades: Grade[] = [Rating.Good, Rating.Good, Rating.Good, Rating.Good]
+   * const reviews_at = [
+   *   new Date(2024, 8, 13),
+   *   new Date(2024, 8, 13),
+   *   new Date(2024, 8, 17),
+   *   new Date(2024, 8, 28),
+   * ]
+   *
+   * const reviews: FSRSHistory[] = []
+   * for (let i = 0; i < grades.length; i++) {
+   *   reviews.push({
+   *     rating: grades[i],
+   *     review: reviews_at[i],
+   *   })
+   * }
+   *
+   * const results_short = scheduler.reschedule(
+   *   createEmptyCard(),
+   *   reviews,
+   *   {
+   *     skipManual: false,
+   *   }
+   * )
+   * console.log(results_short)
+   * ```
+   */
+  reschedule(current_card, reviews = [], options = {}) {
+    const {
+      recordLogHandler,
+      reviewsOrderBy,
+      skipManual = true,
+      now: now2 = /* @__PURE__ */ new Date(),
+      update_memory_state: updateMemoryState = false
+    } = options;
+    if (reviewsOrderBy && typeof reviewsOrderBy === "function") {
+      reviews.sort(reviewsOrderBy);
+    }
+    if (skipManual) {
+      reviews = reviews.filter((review) => review.rating !== Rating.Manual);
+    }
+    const rescheduleSvc = new Reschedule(this);
+    const collections = rescheduleSvc.reschedule(
+      options.first_card || createEmptyCard(),
+      reviews
+    );
+    const len = collections.length;
+    const cur_card = TypeConvert.card(current_card);
+    const manual_item = rescheduleSvc.calculateManualRecord(
+      cur_card,
+      now2,
+      len ? collections[len - 1] : void 0,
+      updateMemoryState
+    );
+    if (recordLogHandler && typeof recordLogHandler === "function") {
+      return {
+        collections: collections.map(recordLogHandler),
+        reschedule_item: manual_item ? recordLogHandler(manual_item) : null
+      };
+    }
+    return {
+      collections,
+      reschedule_item: manual_item
+    };
+  }
+};
+var fsrs = (params) => {
+  return new FSRS(params || {});
+};
 
-// src/algorithms/osr/srs-algorithm-osr.ts
-var import_moment2 = __toESM(require_moment());
+// src/algorithms/fsrs/fsrs-helpers.ts
+var import_moment = __toESM(require_moment());
+var FSRS_COMMENT_PREFIX = "fsrs";
+var LEGACY_MIN_EASE = 130;
+var LEGACY_MAX_EASE = 370;
+function buildFsrsParameters(settings) {
+  return {
+    ["request_retention"]: settings.fsrsDesiredRetention,
+    ["maximum_interval"]: settings.maximumInterval,
+    ["enable_short_term"]: true
+  };
+}
+function reviewResponseToFsrsGrade(response) {
+  switch (response) {
+    case 3 /* Again */:
+      return Rating.Again;
+    case 2 /* Hard */:
+      return Rating.Hard;
+    case 1 /* Good */:
+      return Rating.Good;
+    case 0 /* Easy */:
+      return Rating.Easy;
+    default:
+      throw new Error(`Unsupported FSRS response: ${response}`);
+  }
+}
+function easeToDifficulty(ease) {
+  if (ease === null || ease === void 0) {
+    return 5.5;
+  }
+  const clampedEase = clamp2(ease, LEGACY_MIN_EASE, LEGACY_MAX_EASE);
+  const normalized = (clampedEase - LEGACY_MIN_EASE) / (LEGACY_MAX_EASE - LEGACY_MIN_EASE);
+  return clamp2(10 - normalized * 9, 1, 10);
+}
+function difficultyToEase(difficulty) {
+  const clampedDifficulty = clamp2(difficulty, 1, 10);
+  const normalized = (10 - clampedDifficulty) / 9;
+  return Math.round(LEGACY_MIN_EASE + normalized * (LEGACY_MAX_EASE - LEGACY_MIN_EASE));
+}
+function legacyScheduleToFsrsCard(schedule, now2) {
+  var _a2;
+  const interval = Math.max(1, Math.round((_a2 = schedule == null ? void 0 : schedule.interval) != null ? _a2 : 1));
+  const due = (schedule == null ? void 0 : schedule.dueDate) ? schedule.dueDate.clone() : now2.clone();
+  const lastReview = due.clone().subtract(interval, "d");
+  return {
+    due: due.toDate(),
+    stability: Math.max(0.1, interval),
+    difficulty: easeToDifficulty(schedule == null ? void 0 : schedule.latestEase),
+    ["elapsed_days"]: Math.max(0, now2.diff(lastReview, "days")),
+    ["scheduled_days"]: interval,
+    ["learning_steps"]: 0,
+    reps: Math.max(1, Math.round(Math.log2(interval + 1))),
+    lapses: 0,
+    state: State.Review,
+    ["last_review"]: lastReview.toDate()
+  };
+}
+function formatFsrsTimestamp(date) {
+  return date ? date.toDate().toISOString() : "-";
+}
+function parseFsrsTimestamp(input) {
+  return input === "-" ? null : (0, import_moment.default)(input);
+}
+function clamp2(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+// src/algorithms/fsrs/rep-item-schedule-info-fsrs.ts
+var import_moment3 = __toESM(require_moment());
 
 // src/constants.ts
 var FLASHCARD_SCHEDULE_INFO = /\s?<!--SR:!.+?-->/g;
@@ -4851,22 +6650,6 @@ var OBSIDIAN_TAG_AT_STARTOFLINE_REGEX = /^#[^\s#]+/gi;
 var OBSIDIAN_BLOCK_ID_ENDOFLINE_REGEX = / (\^[a-zA-Z0-9-]+)$/;
 var PREFERRED_DATE_FORMAT = "YYYY-MM-DD";
 var ALLOWED_DATE_FORMATS = [PREFERRED_DATE_FORMAT, "DD-MM-YYYY", "ddd MMM DD YYYY"];
-var IMAGE_FORMATS = [
-  "jpg",
-  "jpeg",
-  "gif",
-  "png",
-  "svg",
-  "webp",
-  "apng",
-  "avif",
-  "jfif",
-  "pjpeg",
-  "pjp",
-  "bmp"
-];
-var AUDIO_FORMATS = ["mp3", "webm", "m4a", "wav", "ogg"];
-var VIDEO_FORMATS = ["mp4", "mkv", "avi", "mov"];
 var COLLAPSE_ICON = '<svg viewBox="0 0 100 100" width="8" height="8" class="svg-icon right-triangle"><path fill="currentColor" stroke="currentColor" d="M94.9,20.8c-1.4-2.5-4.1-4.1-7.1-4.1H12.2c-3,0-5.7,1.6-7.1,4.1c-1.3,2.4-1.2,5.2,0.2,7.6L43.1,88c1.5,2.3,4,3.7,6.9,3.7 s5.4-1.4,6.9-3.7l37.8-59.6C96.1,26,96.2,23.2,94.9,20.8L94.9,20.8z"></path></svg>';
 var TICKS_PER_DAY = 24 * 3600 * 1e3;
 var SR_HTML_COMMENT_BEGIN = "<!--SR:";
@@ -4874,16 +6657,162 @@ var SR_HTML_COMMENT_END = "-->";
 var SR_TAB_VIEW = "spaced-repetition-tab-view";
 var DEBUG_MODE_ENABLED = false;
 
+// src/utils/dates.ts
+var import_moment2 = __toESM(require_moment());
+function formatDateYYYYMMDD(ticks) {
+  return ticks.format(PREFERRED_DATE_FORMAT);
+}
+function formatDateWithMoment(ticks, format) {
+  return (0, import_moment2.default)(ticks).format(format);
+}
+var LiveDateProvider = class {
+  constructor() {
+    this.dayBoundary = null;
+  }
+  get now() {
+    return (0, import_moment2.default)();
+  }
+  get today() {
+    let result = (0, import_moment2.default)().startOf("day");
+    if (this.dayBoundary && this.dayBoundary.hour !== 0 && this.dayBoundary.minute !== 0 && this.dayBoundary.second !== 0) {
+      const nowTime = (0, import_moment2.default)();
+      const customDayBoundary = (0, import_moment2.default)().hour(this.dayBoundary.hour).minute(this.dayBoundary.minute).second(this.dayBoundary.second).millisecond(0);
+      if (nowTime.isBefore(customDayBoundary)) {
+        result = (0, import_moment2.default)().startOf("day").subtract(1, "day");
+      } else {
+        result = (0, import_moment2.default)().startOf("day");
+      }
+    }
+    return result;
+  }
+  getDayBoundary() {
+    return this.dayBoundary;
+  }
+  setDayBoundary(dayBoundary) {
+    this.dayBoundary = dayBoundary;
+  }
+};
+var DateUtil = class {
+  static dateStrToMoment(str) {
+    return (0, import_moment2.default)(str, ALLOWED_DATE_FORMATS);
+  }
+  static strToDayBoundary(str) {
+    const dayStr = str.split(":");
+    if (dayStr.length !== 3) {
+      return null;
+    }
+    const hour = parseInt(dayStr[0]);
+    if (hour < 0 || hour > 23 || Number.isNaN(hour)) {
+      return null;
+    }
+    const minute = parseInt(dayStr[1]);
+    if (minute < 0 || minute > 59 || Number.isNaN(minute)) {
+      return null;
+    }
+    const second = parseInt(dayStr[2]);
+    if (second < 0 || second > 59 || Number.isNaN(second)) {
+      return null;
+    }
+    const dayBoundary = {
+      hour,
+      minute,
+      second
+    };
+    return dayBoundary;
+  }
+};
+var globalDateProvider = new LiveDateProvider();
+
+// src/algorithms/base/rep-item-schedule-info.ts
+var RepItemScheduleInfo = class {
+  get dueDateAsUnix() {
+    return this.dueDate.valueOf();
+  }
+  isDue() {
+    return this.dueDate && this.dueDate.isSameOrBefore(globalDateProvider.today);
+  }
+  formatDueDate() {
+    return formatDateYYYYMMDD(this.dueDate);
+  }
+  delayedBeforeReviewDaysInt() {
+    return Math.max(0, Math.floor(this.delayedBeforeReviewTicks / TICKS_PER_DAY));
+  }
+};
+
+// src/algorithms/fsrs/rep-item-schedule-info-fsrs.ts
+var RepItemScheduleInfoFsrs = class _RepItemScheduleInfoFsrs extends RepItemScheduleInfo {
+  constructor(dueDate, interval, difficulty, stability, state, reps, lapses, learningSteps, lastReview) {
+    super();
+    this.dueDate = dueDate;
+    this.interval = interval;
+    this.difficulty = difficulty;
+    this.stability = stability;
+    this.state = state;
+    this.reps = reps;
+    this.lapses = lapses;
+    this.learningSteps = learningSteps;
+    this.lastReview = lastReview;
+    this.latestEase = difficultyToEase(difficulty);
+    this.delayedBeforeReviewTicks = dueDate && globalDateProvider.now ? globalDateProvider.now.valueOf() - dueDate.valueOf() : 0;
+  }
+  static fromFsrsCard(card) {
+    return new _RepItemScheduleInfoFsrs(
+      (0, import_moment3.default)(card.due),
+      card.scheduled_days,
+      card.difficulty,
+      card.stability,
+      card.state,
+      card.reps,
+      card.lapses,
+      card.learning_steps,
+      card.last_review ? (0, import_moment3.default)(card.last_review) : null
+    );
+  }
+  toFsrsCardInput(now2 = globalDateProvider.now) {
+    const lastReview = this.lastReview ? this.lastReview.clone() : now2.clone();
+    return {
+      due: this.dueDate.toDate(),
+      stability: this.stability,
+      difficulty: this.difficulty,
+      ["elapsed_days"]: Math.max(0, now2.diff(lastReview, "days")),
+      ["scheduled_days"]: this.interval,
+      ["learning_steps"]: this.learningSteps,
+      reps: this.reps,
+      lapses: this.lapses,
+      state: this.state,
+      ["last_review"]: this.lastReview ? this.lastReview.toDate() : null
+    };
+  }
+  isDue() {
+    return this.dueDate && this.dueDate.isSameOrBefore(globalDateProvider.now);
+  }
+  isShortTerm() {
+    return this.interval < 1;
+  }
+  formatCardScheduleForHtmlComment() {
+    return `!${FSRS_COMMENT_PREFIX},${formatFsrsTimestamp(this.dueDate)},${this.interval},${this.stability},${this.difficulty},${this.state},${this.reps},${this.lapses},${this.learningSteps},${formatFsrsTimestamp(this.lastReview)}`;
+  }
+};
+
+// src/algorithms/osr/srs-algorithm-osr.ts
+var import_moment4 = __toESM(require_moment());
+
 // src/lang/helpers.ts
 var import_obsidian = require("obsidian");
 
 // src/lang/locale/en.ts
 var en = {
   // flashcard-modal.tsx
+  CRAM_MODE: "Cram Mode",
+  REVIEW_MODE: "Review Mode",
   DECKS: "Decks",
   DUE_CARDS: "Due Cards",
+  DUE: "Due",
   NEW_CARDS: "New Cards",
+  SEEN_CARDS: "Seen Cards",
+  SEEN: "Seen",
   TOTAL_CARDS: "Total Cards",
+  TOTAL: "Total",
   BACK: "Back",
   SKIP: "Skip",
   EDIT_CARD: "Edit Card",
@@ -4899,12 +6828,18 @@ var en = {
   CURRENT_EASE_HELP_TEXT: "Current Ease: ",
   CURRENT_INTERVAL_HELP_TEXT: "Current Interval: ",
   CARD_GENERATED_FROM: "Generated from: ${notePath}",
+  JUMP_TO: "Jump to card",
+  JUMP_TO_AND_CLOSE: "Close and jump to card",
+  OPEN_IN_BACKGROUND: "Open card in background",
   VIEW_CARD_INFO: "View Card Info",
+  DELETE_CARD: "Delete Card",
+  DELETE_CARD_CONFIRMATION: "This action cannot be undone and might alter your notes in unwanted ways. Are you sure you want to delete this card?",
   // main.ts
   OPEN_NOTE_FOR_REVIEW: "Open a note for review",
   REVIEW_CARDS: "Review flashcards",
   REVIEW_DIFFICULTY_FILE_MENU: "Review: ${difficulty}",
   REVIEW_NOTE_DIFFICULTY_CMD: "Review note as ${difficulty}",
+  REVIEW_CARD_DIFFICULTY_CMD: "Review card as ${difficulty}",
   CRAM_ALL_CARDS: "Select a deck to cram",
   REVIEW_ALL_CARDS: "Review flashcards from all notes",
   REVIEW_CARDS_IN_NOTE: "Review flashcards in this note",
@@ -4947,13 +6882,17 @@ var en = {
   FLASHCARD_EASY_LABEL: "Easy Button Text",
   FLASHCARD_GOOD_LABEL: "Good Button Text",
   FLASHCARD_HARD_LABEL: "Hard Button Text",
+  FLASHCARD_AGAIN_LABEL: "Again Button Text",
   FLASHCARD_EASY_DESC: 'Customize the label for the "Easy" Button',
   FLASHCARD_GOOD_DESC: 'Customize the label for the "Good" Button',
   FLASHCARD_HARD_DESC: 'Customize the label for the "Hard" Button',
+  FLASHCARD_AGAIN_DESC: 'Customize the label for the "Again" Button',
   REVIEW_BUTTON_DELAY: "Button Press Delay (ms)",
   REVIEW_BUTTON_DELAY_DESC: "Add a delay to the review buttons before they can be pressed again.",
   FLASHCARD_TAGS: "Flashcard tags",
   FLASHCARD_TAGS_DESC: "Enter tags separated by spaces or newlines i.e. #flashcards #deck2 #deck3.",
+  FLASHCARD_TAGS_TO_IGNORE: "Tags to ignore",
+  FLASHCARD_TAGS_TO_IGNORE_DESC: "Enter tags separated by spaces or newlines. Notes containing any of these tags will be excluded from flashcard review.",
   CONVERT_FOLDERS_TO_DECKS: "Convert folders to decks and subdecks",
   CONVERT_FOLDERS_TO_DECKS_DESC: "This is an alternative to the Flashcard tags option above.",
   INLINE_SCHEDULING_COMMENTS: "Save scheduling comment on the same line as the flashcard's last line?",
@@ -4964,6 +6903,8 @@ var en = {
   SHOW_CARD_CONTEXT_DESC: "i.e. Title > Heading 1 > Subheading > ... > Subheading",
   SHOW_INTERVAL_IN_REVIEW_BUTTONS: "Show next review time in the review buttons",
   SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC: "Useful to know how far in the future your cards are being pushed.",
+  SHOW_DELETE_BUTTON: "Show Delete button",
+  SHOW_DELETE_BUTTON_DESC: "Adds a delete button to the card review UI.",
   CARD_MODAL_HEIGHT_PERCENT: "Flashcard Height Percentage",
   CARD_MODAL_SIZE_PERCENT_DESC: "Should be set to 100% on mobile or if you have very large images",
   RESET_DEFAULT: "Reset to default",
@@ -5001,6 +6942,8 @@ var en = {
   REVIEW_PANE_ON_STARTUP: "Enable note review pane on startup",
   TAGS_TO_REVIEW: "Tags to review",
   TAGS_TO_REVIEW_DESC: "Enter tags separated by spaces or newlines i.e. #review #tag2 #tag3.",
+  NOTE_TAGS_TO_IGNORE: "Tags to ignore",
+  NOTE_TAGS_TO_IGNORE_DESC: "Enter tags separated by spaces or newlines. Notes containing any of these tags will be excluded from note review.",
   OPEN_RANDOM_NOTE: "Open a random note for review",
   OPEN_RANDOM_NOTE_DESC: "When you turn this off, notes are ordered by importance (PageRank).",
   AUTO_NEXT_NOTE: "Open next note automatically after a review",
@@ -5010,8 +6953,15 @@ var en = {
   UI: "User Interface",
   OPEN_IN_TAB: "Open in new tab",
   OPEN_IN_TAB_DESC: "Turn this off to open the plugin in a modal window",
+  STATUS_BAR_SETTINGS: "Status Bar",
   SHOW_STATUS_BAR: "Show status bar",
-  SHOW_STATUS_BAR_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
+  SHOW_STATUS_BAR_DESC: "Turn this off to hide all status messages in Obsidian's status bar",
+  SHOW_CARD_STATUS_BAR_ITEM: "Show card status bar item",
+  SHOW_CARD_STATUS_BAR_ITEM_DESC: "Turn this off to hide the flashcard's review status in Obsidian's status bar",
+  SHOW_NOTE_STATUS_BAR_ITEM: "Show note status bar item",
+  SHOW_NOTE_STATUS_BAR_ITEM_DESC: "Turn this off to hide the note's review status in Obsidian's status bar",
+  SHOW_UPDATE_AVAILABLE_STATUS_BAR_ITEM: "Show update available status bar item",
+  SHOW_UPDATE_AVAILABLE_STATUS_BAR_ITEM_DESC: "Turn this off to hide the update available status bar item",
   SHOW_RIBBON_ICON: "Show icon in the ribbon bar",
   SHOW_RIBBON_ICON_DESC: "Turn this off to hide the plugin icon from Obsidian's ribbon bar",
   ENABLE_FILE_MENU_REVIEW_OPTIONS: "Enable the review options in the file menu (e.g. Review: Easy, Good, Hard)",
@@ -5021,6 +6971,8 @@ var en = {
   ALGORITHM: "Algorithm",
   CHECK_ALGORITHM_WIKI: 'For more information, check the <a href="${algoUrl}">algorithm details</a>.',
   SM2_OSR_VARIANT: "OSR's variant of SM-2",
+  SWITCH_TO_FSRS_ALGORITHM: "Switch flashcard algorithm to FSRS?",
+  CONFIRM_FSRS_ALGORITHM_SWITCH: "Switching to FSRS may cause unforseen data loss, as it is still not tested enough! Switching changes how flashcard scheduling data is formatted as cards are reviewed. this means that rewritten cards in the FSRS format, will require a lot more parameters and thus a longer, more intrusive, scheduling data comment. There is best effort backwards compatibility for the scheduling comments, in case you might want to switch back to OSR. This means your scheduling data will be rewritten to the OSR format once you review a card with OSR enabled.",
   BASE_EASE: "Base ease",
   BASE_EASE_DESC: "minimum = 130, preferrably approximately 250.",
   BASE_EASE_MIN_WARNING: "The base ease must be at least 130.",
@@ -5052,6 +7004,8 @@ var en = {
   CONFIRM: "Confirm",
   SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS: "Scheduling data deletion in progress...",
   SCHEDULING_DATA_HAS_BEEN_DELETED: "Scheduling data has been deleted from all notes and flashcards.",
+  USE_CUSTOM_HOTKEYS: "Use custom hotkeys",
+  USE_CUSTOM_HOTKEYS_DESC: "Enable custom hotkeys for the review cards commands. The default hotkeys wont be active after enabling this. Custom hotkeys can only be used when using the 'Open in new tab' option.",
   // sidebar.ts
   NOTES_REVIEW_QUEUE: "Notes Review Queue",
   CLOSE: "Close",
@@ -5108,7 +7062,7 @@ var en = {
   INVALID_START_OF_DAY_WARNING: "Invalid format for start of day",
   // Settings > Scheduling > Delete
   DELETE_SCHEDULING_DATA_IN_NOTES: "Delete Scheduling Data in Notes",
-  DELETE_SCHEDULING_DATA_IN_NOTES_DESC: "Delete scheduling data from all notes and flashcards.",
+  DELETE_SCHEDULING_DATA_IN_NOTES_DESC: "Delete scheduling data from all notes.",
   DELETE_SCHEDULING_DATA_IN_CARDS: "Delete Scheduling Data in Cards",
   DELETE_SCHEDULING_DATA_IN_CARDS_DESC: "Delete scheduling data from all cards.",
   CONFIRM_SCHEDULING_DATA_IN_NOTES_DELETION: "Are you sure you want to delete all scheduling data from your notes? This action cannot be undone.",
@@ -5121,7 +7075,26 @@ var en = {
   AGAIN: "Again",
   // Settings > info
   CHECK_ROADMAP: 'Check out the <a href="${roadMapUrl}">roadmap</a> for upcoming features.',
-  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.'
+  CHECK_DEV_NEWS: 'Check out the <a href="${devNewsUrl}">dev news</a> for the latest development news.',
+  OPEN_MENU: "Open menu",
+  DELETE_NOTE_SCHEDULING_DATA_IN_NOTE: "Delete note scheduling data in note",
+  CONFIRM_NOTE_SCHEDULING_DATA_IN_NOTE_DELETION: "Are you sure you want to delete note scheduling data in this note?",
+  NOTE_SCHEDULING_DATA_IN_NOTE_DELETION_IN_PROGRESS: "Deleting note scheduling data in note...",
+  DELETE_SCHEDULING_DATA_OF_CARDS_IN_NOTE: "Delete scheduling data of cards in note",
+  CONFIRM_SCHEDULING_DATA_OF_CARDS_IN_NOTE_DELETION: "Are you sure you want to delete scheduling data of cards in note?",
+  SCHEDULING_DATA_OF_CARDS_IN_NOTE_DELETION_IN_PROGRESS: "Deleting scheduling data of cards in note...",
+  DELETE_TAGS_WHEN_DELETING_SCHEDULING_DATA: "Delete tags when deleting scheduling data",
+  DELETE_TAGS_WHEN_DELETING_SCHEDULING_DATA_DESC: "Delete tags when deleting scheduling data",
+  ENABLE_FILE_MENU_DELETE_BUTTON: "Enable file menu delete button",
+  ENABLE_FILE_MENU_DELETE_BUTTON_DESC: "Enables the delete button in the file menu for scheduling data",
+  DATA_PAGE_NAME: "Data",
+  GROUP_RESET_SETTINGS: "Reset settings",
+  GROUP_RESET_SETTINGS_DESC: "Reset all settings to their default values",
+  RESET_SETTINGS: "Reset settings",
+  CONFIRM_RESET_SETTINGS: "Are you sure you want to reset all settings to their default values?",
+  RESET_SETTINGS_CONFIRMATION: "Resetting all settings to their default values...",
+  DATE_FORMAT_FOR_NOTE_REVIEW_QUEUE: "Date format for note review queue",
+  DATE_FORMAT_FOR_NOTE_REVIEW_QUEUE_DESC: 'Date format for note review queue (see <a href="${docsUrl}">moment.js</a> for details). It only updates, once the note review queue is reopened.'
 };
 var en_default = en;
 
@@ -9165,85 +11138,6 @@ function textInterval(interval, isMobile) {
   }
 }
 
-// src/utils/dates.ts
-var import_moment = __toESM(require_moment());
-function formatDateYYYYMMDD(ticks) {
-  return ticks.format(PREFERRED_DATE_FORMAT);
-}
-var LiveDateProvider = class {
-  constructor() {
-    this.dayBoundary = null;
-  }
-  get now() {
-    return (0, import_moment.default)();
-  }
-  get today() {
-    let result = (0, import_moment.default)().startOf("day");
-    if (this.dayBoundary && this.dayBoundary.hour !== 0 && this.dayBoundary.minute !== 0 && this.dayBoundary.second !== 0) {
-      const nowTime = (0, import_moment.default)();
-      const customDayBoundary = (0, import_moment.default)().hour(this.dayBoundary.hour).minute(this.dayBoundary.minute).second(this.dayBoundary.second).millisecond(0);
-      if (nowTime.isBefore(customDayBoundary)) {
-        result = (0, import_moment.default)().startOf("day").subtract(1, "day");
-      } else {
-        result = (0, import_moment.default)().startOf("day");
-      }
-    }
-    return result;
-  }
-  getDayBoundary() {
-    return this.dayBoundary;
-  }
-  setDayBoundary(dayBoundary) {
-    this.dayBoundary = dayBoundary;
-  }
-};
-var DateUtil = class {
-  static dateStrToMoment(str) {
-    return (0, import_moment.default)(str, ALLOWED_DATE_FORMATS);
-  }
-  static strToDayBoundary(str) {
-    const dayStr = str.split(":");
-    if (dayStr.length !== 3) {
-      return null;
-    }
-    const hour = parseInt(dayStr[0]);
-    if (hour < 0 || hour > 23 || Number.isNaN(hour)) {
-      return null;
-    }
-    const minute = parseInt(dayStr[1]);
-    if (minute < 0 || minute > 59 || Number.isNaN(minute)) {
-      return null;
-    }
-    const second = parseInt(dayStr[2]);
-    if (second < 0 || second > 59 || Number.isNaN(second)) {
-      return null;
-    }
-    const dayBoundary = {
-      hour,
-      minute,
-      second
-    };
-    return dayBoundary;
-  }
-};
-var globalDateProvider = new LiveDateProvider();
-
-// src/algorithms/base/rep-item-schedule-info.ts
-var RepItemScheduleInfo = class {
-  get dueDateAsUnix() {
-    return this.dueDate.valueOf();
-  }
-  isDue() {
-    return this.dueDate && this.dueDate.isSameOrBefore(globalDateProvider.today);
-  }
-  formatDueDate() {
-    return formatDateYYYYMMDD(this.dueDate);
-  }
-  delayedBeforeReviewDaysInt() {
-    return Math.max(0, Math.floor(this.delayedBeforeReviewTicks / TICKS_PER_DAY));
-  }
-};
-
 // src/algorithms/osr/rep-item-schedule-info-osr.ts
 var _RepItemScheduleInfoOsr = class _RepItemScheduleInfoOsr extends RepItemScheduleInfo {
   constructor(dueDate, interval, latestEase, delayedBeforeReviewTicks = null) {
@@ -9337,7 +11231,7 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
       response,
       dueDateNoteHistogram
     );
-    result.dueDate = (0, import_moment2.default)(globalDateProvider.today.add(result.interval, "d"));
+    result.dueDate = (0, import_moment4.default)(globalDateProvider.today.add(result.interval, "d"));
     return result;
   }
   noteOnLoadedNote(path2, note, noteEase) {
@@ -9387,7 +11281,7 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
     );
     const interval = temp.interval;
     const ease = temp.latestEase;
-    const dueDate = (0, import_moment2.default)(globalDateProvider.today.add(interval, "d"));
+    const dueDate = (0, import_moment4.default)(globalDateProvider.today.add(interval, "d"));
     this.noteEaseList.setEaseForPath(notePath, ease);
     return new RepItemScheduleInfoOsr(dueDate, interval, ease);
   }
@@ -9445,6 +11339,75 @@ var SrsAlgorithmOsr = class _SrsAlgorithmOsr {
   }
   noteStats() {
     return this.noteEaseList;
+  }
+};
+
+// src/algorithms/fsrs/srs-algorithm-fsrs.ts
+var SrsAlgorithmFsrs = class {
+  constructor(settings) {
+    this.noteDelegate = new SrsAlgorithmOsr(settings);
+    this.scheduler = fsrs(buildFsrsParameters(settings));
+  }
+  noteOnLoadedNote(path2, note, noteEase) {
+    this.noteDelegate.noteOnLoadedNote(path2, note, noteEase);
+  }
+  noteCalcNewSchedule(notePath, osrNoteGraph, response, dueDateNoteHistogram) {
+    return this.noteDelegate.noteCalcNewSchedule(
+      notePath,
+      osrNoteGraph,
+      response,
+      dueDateNoteHistogram
+    );
+  }
+  noteCalcUpdatedSchedule(notePath, noteSchedule, response, dueDateNoteHistogram) {
+    return this.noteDelegate.noteCalcUpdatedSchedule(
+      notePath,
+      noteSchedule,
+      response,
+      dueDateNoteHistogram
+    );
+  }
+  noteStats() {
+    return this.noteDelegate.noteStats();
+  }
+  cardGetResetSchedule() {
+    const now2 = globalDateProvider.now.toDate();
+    const emptyCard = createEmptyCard(now2);
+    emptyCard.state = State.New;
+    emptyCard["scheduled_days"] = 0;
+    emptyCard["learning_steps"] = 0;
+    emptyCard.due = now2;
+    emptyCard["last_review"] = null;
+    return RepItemScheduleInfoFsrs.fromFsrsCard(emptyCard);
+  }
+  cardGetNewSchedule(response, _notePath, _dueDateFlashcardHistogram) {
+    const now2 = globalDateProvider.now.toDate();
+    const recordLog = this.scheduler.next(
+      createEmptyCard(now2),
+      now2,
+      reviewResponseToFsrsGrade(response)
+    );
+    return RepItemScheduleInfoFsrs.fromFsrsCard(recordLog.card);
+  }
+  cardCalcUpdatedSchedule(response, schedule, _dueDateFlashcardHistogram) {
+    const now2 = globalDateProvider.now;
+    const card = schedule instanceof RepItemScheduleInfoFsrs ? schedule.toFsrsCardInput(now2) : legacyScheduleToFsrsCard(schedule, now2);
+    const recordLog = this.scheduler.next(
+      card,
+      now2.toDate(),
+      reviewResponseToFsrsGrade(response)
+    );
+    return RepItemScheduleInfoFsrs.fromFsrsCard(recordLog.card);
+  }
+};
+
+// src/algorithms/osr/obsidian-vault-notelink-info-finder.ts
+var ObsidianVaultNoteLinkInfoFinder = class {
+  constructor(metadataCache) {
+    this.metadataCache = metadataCache;
+  }
+  getResolvedTargetLinksForNotePath(path2) {
+    return this.metadataCache.resolvedLinks[path2];
   }
 };
 
@@ -9893,6 +11856,8 @@ var DeckStats = class {
 };
 var FlashcardReviewSequencer = class {
   constructor(reviewMode, cardSequencer, settings, srsAlgorithm, questionPostponementList, dueDateFlashcardHistogram) {
+    this.pendingCards = [];
+    this.currentTopicPath = TopicPath.emptyPath;
     this.reviewMode = reviewMode;
     this.cardSequencer = cardSequencer;
     this.settings = settings;
@@ -9902,6 +11867,9 @@ var FlashcardReviewSequencer = class {
   }
   get hasCurrentCard() {
     return this.cardSequencer.currentCard !== null && this.cardSequencer.currentCard !== void 0;
+  }
+  get hasPendingCards() {
+    return this.pendingCards.length > 0;
   }
   get currentCard() {
     return this.cardSequencer.currentCard;
@@ -9913,6 +11881,9 @@ var FlashcardReviewSequencer = class {
   get currentDeck() {
     return this.cardSequencer.currentDeck;
   }
+  get nextPendingDueUnix() {
+    return this.pendingCards.length > 0 ? Math.min(...this.pendingCards.map((pendingCard) => pendingCard.dueUnix)) : null;
+  }
   get currentNote() {
     return this.currentQuestion.note;
   }
@@ -9922,16 +11893,23 @@ var FlashcardReviewSequencer = class {
     this.cardSequencer.setBaseDeck(remainingDeckTree);
     this._originalDeckTree = originalDeckTree;
     this.remainingDeckTree = remainingDeckTree;
+    this.pendingCards = [];
     this.setCurrentDeck(TopicPath.emptyPath);
   }
   setCurrentDeck(topicPath) {
+    this.currentTopicPath = topicPath;
+    this.wakeDuePendingCards();
     this.cardSequencer.setIteratorTopicPath(topicPath);
     this.cardSequencer.nextCard();
+  }
+  refreshCurrentDeck() {
+    this.setCurrentDeck(this.currentTopicPath);
   }
   get originalDeckTree() {
     return this._originalDeckTree;
   }
   getDeckStats(topicPath) {
+    this.wakeDuePendingCards();
     const totalCount = this._originalDeckTree.getDeck(topicPath).getDistinctCardCount(2 /* All */, true);
     const remainingDeck = this.remainingDeckTree.getDeck(topicPath);
     const newCount = remainingDeck.getDistinctCardCount(0 /* NewCard */, true);
@@ -9960,6 +11938,7 @@ var FlashcardReviewSequencer = class {
     );
   }
   getSubDecksWithCardsInQueue(deck) {
+    this.wakeDuePendingCards();
     let subDecksWithCardsInQueue = [];
     deck.subdecks.forEach((subDeck) => {
       subDecksWithCardsInQueue = subDecksWithCardsInQueue.concat(
@@ -9988,24 +11967,28 @@ var FlashcardReviewSequencer = class {
     }
   }
   async processReviewReviewMode(response) {
+    let shortTermRequeue = "none";
     if (response !== 4 /* Reset */ || this.currentCard.hasSchedule) {
       const oldSchedule = this.currentCard.scheduleInfo;
       this.currentCard.scheduleInfo = this.determineCardSchedule(response, this.currentCard);
-      this.currentCard.scheduleInfo.interval = Math.max(
-        1,
-        this.currentCard.scheduleInfo.interval
-      );
+      shortTermRequeue = this.getShortTermRequeueMode(this.currentCard.scheduleInfo);
       await DataStore.getInstance().questionWriteSchedule(this.currentQuestion);
       if (oldSchedule) {
-        const today = globalDateProvider.today.valueOf();
-        const nDays = Math.ceil(
-          (oldSchedule.dueDateAsUnix - today) / TICKS_PER_DAY
-        );
+        const now2 = globalDateProvider.now.valueOf();
+        const nDays = Math.ceil((oldSchedule.dueDateAsUnix - now2) / TICKS_PER_DAY);
         this.dueDateFlashcardHistogram.decrement(nDays);
       }
       this.dueDateFlashcardHistogram.increment(this.currentCard.scheduleInfo.interval);
+    } else if (response === 4 /* Reset */) {
+      shortTermRequeue = "immediate";
     }
-    if (response === 4 /* Reset */) {
+    if (shortTermRequeue === "pending") {
+      await this.handlePendingRequeue();
+    } else if (shortTermRequeue === "immediate" || response === 4 /* Reset */) {
+      if (this.settings.burySiblingCards) {
+        await this.burySiblingCards();
+        this.deleteSiblingCardsFromAllDecks();
+      }
       this.cardSequencer.moveCurrentCardToEndOfList();
       this.cardSequencer.nextCard();
     } else {
@@ -10024,12 +12007,55 @@ var FlashcardReviewSequencer = class {
       await this.questionPostponementList.write();
     }
   }
+  deleteSiblingCardsFromAllDecks() {
+    for (const siblingCard of this.currentQuestion.cards) {
+      if (Object.is(siblingCard, this.currentCard)) {
+        continue;
+      }
+      this.remainingDeckTree.deleteCardFromAllDecks(siblingCard, false);
+    }
+  }
+  async handlePendingRequeue() {
+    var _a2;
+    const pendingCard = this.currentCard;
+    const dueUnix = (_a2 = pendingCard.scheduleInfo) == null ? void 0 : _a2.dueDateAsUnix;
+    if (this.settings.burySiblingCards) {
+      await this.burySiblingCards();
+      this.deleteSiblingCardsFromAllDecks();
+    }
+    this.cardSequencer.deleteCurrentCardFromAllDecks();
+    this.pendingCards.push({ card: pendingCard, dueUnix });
+  }
   async processReviewCramMode(response) {
     if (response === 0 /* Easy */) this.deleteCurrentCard();
     else {
       this.cardSequencer.moveCurrentCardToEndOfList();
       this.cardSequencer.nextCard();
     }
+  }
+  getShortTermRequeueMode(scheduleInfo) {
+    if (!scheduleInfo || scheduleInfo.interval >= 1) {
+      return "none";
+    }
+    return scheduleInfo.isDue() ? "immediate" : "pending";
+  }
+  wakeDuePendingCards() {
+    if (this.pendingCards.length === 0) {
+      return;
+    }
+    const nowUnix = globalDateProvider.now.valueOf();
+    const remainingPendingCards = [];
+    for (const pendingCard of this.pendingCards) {
+      if (pendingCard.dueUnix <= nowUnix) {
+        this.remainingDeckTree.appendCard(
+          pendingCard.card.question.topicPathList,
+          pendingCard.card
+        );
+      } else {
+        remainingPendingCards.push(pendingCard);
+      }
+    }
+    this.pendingCards = remainingPendingCards;
   }
   determineCardSchedule(response, card) {
     let result;
@@ -10057,6 +12083,12 @@ var FlashcardReviewSequencer = class {
     const q2 = this.currentQuestion.questionText;
     q2.actualQuestion = text;
     await DataStore.getInstance().questionWrite(this.currentQuestion);
+  }
+  async deleteCurrentCardFromNote() {
+    const question = this.currentQuestion;
+    await DataStore.getInstance().questionDelete(question);
+    this._originalDeckTree.deleteQuestionFromAllDecks(question, false);
+    this.cardSequencer.deleteCurrentQuestionFromAllDecks();
   }
 };
 
@@ -10148,7 +12180,7 @@ var range = (a2, b2, str) => {
   return result;
 };
 
-// node_modules/.pnpm/brace-expansion@5.0.4/node_modules/brace-expansion/dist/esm/index.js
+// node_modules/.pnpm/brace-expansion@5.0.5/node_modules/brace-expansion/dist/esm/index.js
 var escSlash = "\0SLASH" + Math.random() + "\0";
 var escOpen = "\0OPEN" + Math.random() + "\0";
 var escClose = "\0CLOSE" + Math.random() + "\0";
@@ -10258,7 +12290,7 @@ function expand_(str, max, isTop) {
       const x2 = numeric(n2[0]);
       const y2 = numeric(n2[1]);
       const width = Math.max(n2[0].length, n2[1].length);
-      let incr = n2.length === 3 && n2[2] !== void 0 ? Math.abs(numeric(n2[2])) : 1;
+      let incr = n2.length === 3 && n2[2] !== void 0 ? Math.max(Math.abs(numeric(n2[2])), 1) : 1;
       let test = lte;
       const reverse = y2 < x2;
       if (reverse) {
@@ -10308,7 +12340,7 @@ function expand_(str, max, isTop) {
   return expansions;
 }
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/assert-valid-pattern.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/assert-valid-pattern.js
 var MAX_PATTERN_LENGTH = 1024 * 64;
 var assertValidPattern = (pattern) => {
   if (typeof pattern !== "string") {
@@ -10319,7 +12351,7 @@ var assertValidPattern = (pattern) => {
   }
 };
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/brace-expressions.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/brace-expressions.js
 var posixClasses = {
   "[:alnum:]": ["\\p{L}\\p{Nl}\\p{Nd}", true],
   "[:alpha:]": ["\\p{L}\\p{Nl}", true],
@@ -10428,15 +12460,15 @@ var parseClass = (glob, position) => {
   return [comb, uflag, endPos - pos, true];
 };
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/unescape.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/unescape.js
 var unescape = (s2, { windowsPathsNoEscape = false, magicalBraces = true } = {}) => {
   if (magicalBraces) {
-    return windowsPathsNoEscape ? s2.replace(/\[([^\/\\])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
+    return windowsPathsNoEscape ? s2.replace(/\[([^/\\])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^/\\])\]/g, "$1$2").replace(/\\([^/])/g, "$1");
   }
-  return windowsPathsNoEscape ? s2.replace(/\[([^\/\\{}])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^\/\\{}])\]/g, "$1$2").replace(/\\([^\/{}])/g, "$1");
+  return windowsPathsNoEscape ? s2.replace(/\[([^/\\{}])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^/\\{}])\]/g, "$1$2").replace(/\\([^/{}])/g, "$1");
 };
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/ast.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/ast.js
 var _a;
 var types = /* @__PURE__ */ new Set(["!", "?", "+", "*", "@"]);
 var isExtglobType = (c2) => types.has(c2);
@@ -10557,13 +12589,7 @@ var AST = class {
   }
   // reconstructs the pattern
   toString() {
-    if (__privateGet(this, _toString) !== void 0)
-      return __privateGet(this, _toString);
-    if (!this.type) {
-      return __privateSet(this, _toString, __privateGet(this, _parts).map((p2) => String(p2)).join(""));
-    } else {
-      return __privateSet(this, _toString, this.type + "(" + __privateGet(this, _parts).map((p2) => String(p2)).join("|") + ")");
-    }
+    return __privateGet(this, _toString) !== void 0 ? __privateGet(this, _toString) : !this.type ? __privateSet(this, _toString, __privateGet(this, _parts).map((p2) => String(p2)).join("")) : __privateSet(this, _toString, this.type + "(" + __privateGet(this, _parts).map((p2) => String(p2)).join("|") + ")");
   }
   push(...parts) {
     for (const p2 of parts) {
@@ -11113,7 +13139,7 @@ parseGlob_fn = function(glob, hasMagic, noEmpty = false) {
 __privateAdd(AST, _AST_static);
 _a = AST;
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/escape.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/escape.js
 var escape = (s2, { windowsPathsNoEscape = false, magicalBraces = false } = {}) => {
   if (magicalBraces) {
     return windowsPathsNoEscape ? s2.replace(/[?*()[\]{}]/g, "[$&]") : s2.replace(/[?*()[\]\\{}]/g, "\\$&");
@@ -11121,7 +13147,7 @@ var escape = (s2, { windowsPathsNoEscape = false, magicalBraces = false } = {}) 
   return windowsPathsNoEscape ? s2.replace(/[?*()[\]]/g, "[$&]") : s2.replace(/[?*()[\]\\]/g, "\\$&");
 };
 
-// node_modules/.pnpm/minimatch@10.2.4/node_modules/minimatch/dist/esm/index.js
+// node_modules/.pnpm/minimatch@10.2.5/node_modules/minimatch/dist/esm/index.js
 var minimatch = (p2, pattern, options = {}) => {
   assertValidPattern(pattern);
   if (!options.nocomment && pattern.charAt(0) === "#") {
@@ -11129,7 +13155,7 @@ var minimatch = (p2, pattern, options = {}) => {
   }
   return new Minimatch(pattern, options).match(p2);
 };
-var starDotExtRE = /^\*+([^+@!?\*\[\(]*)$/;
+var starDotExtRE = /^\*+([^+@!?*[(]*)$/;
 var starDotExtTest = (ext2) => (f2) => !f2.startsWith(".") && f2.endsWith(ext2);
 var starDotExtTestDot = (ext2) => (f2) => f2.endsWith(ext2);
 var starDotExtTestNocase = (ext2) => {
@@ -11148,7 +13174,7 @@ var dotStarTest = (f2) => f2 !== "." && f2 !== ".." && f2.startsWith(".");
 var starRE = /^\*+$/;
 var starTest = (f2) => f2.length !== 0 && !f2.startsWith(".");
 var starTestDot = (f2) => f2.length !== 0 && f2 !== "." && f2 !== "..";
-var qmarksRE = /^\?+([^+@!?\*\[\(]*)?$/;
+var qmarksRE = /^\?+([^+@!?*[(]*)?$/;
 var qmarksTestNocase = ([$0, ext2 = ""]) => {
   const noext = qmarksTestNoExt([$0]);
   if (!ext2)
@@ -11370,10 +13396,10 @@ var Minimatch = class {
   // of patterns that we have to process.
   preprocess(globParts) {
     if (this.options.noglobstar) {
-      for (let i2 = 0; i2 < globParts.length; i2++) {
-        for (let j2 = 0; j2 < globParts[i2].length; j2++) {
-          if (globParts[i2][j2] === "**") {
-            globParts[i2][j2] = "*";
+      for (const partset of globParts) {
+        for (let j2 = 0; j2 < partset.length; j2++) {
+          if (partset[j2] === "**") {
+            partset[j2] = "*";
           }
         }
       }
@@ -11451,7 +13477,7 @@ var Minimatch = class {
       let dd = 0;
       while (-1 !== (dd = parts.indexOf("..", dd + 1))) {
         const p2 = parts[dd - 1];
-        if (p2 && p2 !== "." && p2 !== ".." && p2 !== "**") {
+        if (p2 && p2 !== "." && p2 !== ".." && p2 !== "**" && !(this.isWindows && /^[a-z]:$/i.test(p2))) {
           didSomething = true;
           parts.splice(dd - 1, 2);
           dd -= 2;
@@ -11732,7 +13758,7 @@ var Minimatch = class {
       re = "^(?!" + re + ").+$";
     try {
       this.regexp = new RegExp(re, [...flags].join(""));
-    } catch (ex) {
+    } catch (e2) {
       this.regexp = false;
     }
     return this.regexp;
@@ -11740,7 +13766,7 @@ var Minimatch = class {
   slashSplit(p2) {
     if (this.preserveMultipleSlashes) {
       return p2.split("/");
-    } else if (this.isWindows && /^\/\/[^\/]+/.test(p2)) {
+    } else if (this.isWindows && /^\/\/[^/]+/.test(p2)) {
       return ["", ...p2.split(/\/+/)];
     } else {
       return p2.split(/\/+/);
@@ -11771,8 +13797,7 @@ var Minimatch = class {
         filename = ff[i2];
       }
     }
-    for (let i2 = 0; i2 < set2.length; i2++) {
-      const pattern = set2[i2];
+    for (const pattern of set2) {
       let file = ff;
       if (options.matchBase && pattern.length === 1) {
         file = [filename];
@@ -12109,21 +14134,22 @@ var DeckOrder = /* @__PURE__ */ ((DeckOrder2) => {
   return DeckOrder2;
 })(DeckOrder || {});
 var SingleDeckIterator = class _SingleDeckIterator {
-  get hasCurrentCard() {
-    return this.cardIdx !== null && this.cardIdx !== void 0;
-  }
-  get currentCard() {
-    let result = null;
-    if (this.cardIdx !== null && this.cardIdx !== void 0)
-      result = this.deck.getCard(this.cardIdx, this.cardListType);
-    return result;
-  }
   constructor(iteratorOrder) {
+    this.deck = null;
     this.iteratorOrder = iteratorOrder;
     this.preferredCardListType = _SingleDeckIterator.getCardListTypeForIterator(
       this.iteratorOrder
     );
     this.weightedRandomNumber = WeightedRandomNumber.create();
+  }
+  get hasCurrentCard() {
+    return this.cardIdx !== null && this.cardIdx !== void 0;
+  }
+  get currentCard() {
+    let result = null;
+    if (this.cardIdx !== null && this.cardIdx !== void 0 && this.deck !== null)
+      result = this.deck.getCard(this.cardIdx, this.cardListType);
+    return result;
   }
   setDeck(deck) {
     this.deck = deck;
@@ -12509,7 +14535,7 @@ var CardDueDateHistogram = class extends DueDateHistogram {
       deckOrder: 0 /* PrevDeckComplete_Sequential */,
       cardOrder: 2 /* DueFirstSequential */
     };
-    const today = globalDateProvider.today.valueOf();
+    const now2 = globalDateProvider.now.valueOf();
     const iterator = new DeckTreeIterator(iteratorOrder, deckTree.clone());
     iterator.setIteratorTopicPath(TopicPath.emptyPath);
     while (iterator.nextCard()) {
@@ -12517,7 +14543,7 @@ var CardDueDateHistogram = class extends DueDateHistogram {
       if (card.hasSchedule) {
         const scheduledCard = card.scheduleInfo;
         const nDays = Math.ceil(
-          (scheduledCard.dueDateAsUnix - today) / TICKS_PER_DAY
+          (scheduledCard.dueDateAsUnix - now2) / TICKS_PER_DAY
         );
         this.increment(nDays);
       }
@@ -12526,7 +14552,7 @@ var CardDueDateHistogram = class extends DueDateHistogram {
 };
 
 // src/file.ts
-var import_moment3 = __toESM(require_moment());
+var import_moment5 = __toESM(require_moment());
 var import_obsidian2 = require("obsidian");
 
 // src/utils/strings.ts
@@ -12680,7 +14706,7 @@ var SrTFile = class {
     let result = null;
     const frontmatter = await this.getFrontmatter();
     if (frontmatter && frontmatter.has("sr-due") && frontmatter.has("sr-interval") && frontmatter.has("sr-ease")) {
-      const dueDate = (0, import_moment3.default)(frontmatter.get("sr-due"), ALLOWED_DATE_FORMATS);
+      const dueDate = (0, import_moment5.default)(frontmatter.get("sr-due"), ALLOWED_DATE_FORMATS);
       const interval = parseFloat(frontmatter.get("sr-interval"));
       const ease = parseFloat(frontmatter.get("sr-ease"));
       result = new RepItemScheduleInfoOsr(dueDate, interval, ease);
@@ -13270,9 +15296,9 @@ function parse(text, options) {
 var DEFAULT_SETTINGS = {
   // flashcards
   flashcardTags: ["#flashcards"],
+  flashcardTagsToIgnore: [],
   convertFoldersToDecks: false,
   burySiblingCards: false,
-  randomizeCardOrder: null,
   flashcardCardOrder: "DueFirstRandom",
   flashcardDeckOrder: "PrevDeckComplete_Sequential",
   convertClozePatternsToInputs: false,
@@ -13286,18 +15312,25 @@ var DEFAULT_SETTINGS = {
   multilineReversedCardSeparator: "??",
   multilineCardEndMarker: "",
   editLaterTag: "#edit-later",
+  randomizeCardOrder: void 0,
   // notes
   enableNoteReviewPaneOnStartup: true,
   tagsToReview: ["#review"],
+  noteTagsToIgnore: [],
   noteFoldersToIgnore: ["**/*.excalidraw.md"],
   openRandomNote: false,
   autoNextNote: false,
-  disableFileMenuReviewOptions: false,
+  disableFileMenuReviewOptions: void 0,
+  showFileMenuReviewOptions: true,
+  deleteTagsOnSchedulingDataDeletion: false,
   maxNDaysNotesReviewQueue: 365,
   // UI settings
   showRibbonIcon: true,
   showStatusBar: true,
-  initiallyExpandAllSubdecksInTree: false,
+  showCardStatusBarItem: true,
+  showNoteStatusBarItem: true,
+  showUpdateAvailableStatusBarItem: true,
+  initiallyExpandAllSubdecksInTree: true,
   showContextInCards: true,
   showIntervalInReviewButtons: true,
   flashcardHeightPercentage: 60,
@@ -13309,8 +15342,11 @@ var DEFAULT_SETTINGS = {
   flashcardGoodText: t("GOOD"),
   flashcardHardText: t("HARD"),
   reviewButtonDelay: 0,
+  showDeleteButtonInCardView: false,
+  showDeleteButtonInFileMenu: false,
   openViewInNewTab: false,
   openViewInNewTabMobile: false,
+  useCustomHotkeys: false,
   // algorithm
   algorithm: "SM-2-OSR" /* SM_2_OSR */,
   baseEase: 250,
@@ -13319,19 +15355,21 @@ var DEFAULT_SETTINGS = {
   loadBalance: true,
   maximumInterval: 36525,
   maxLinkFactor: 1,
+  fsrsDesiredRetention: 0.9,
   startOfDay: "00:00:00",
   // storage
   dataStore: "NOTES" /* NOTES */,
   cardCommentOnSameLine: false,
   // logging
   showSchedulingDebugMessages: false,
-  showParserDebugMessages: false
+  showParserDebugMessages: false,
+  preferredDateFormatForNoteReviewQueue: "MMM DD YYYY"
 };
 function upgradeSettings(settings) {
   if (settings.randomizeCardOrder !== null && settings.randomizeCardOrder !== void 0 && (settings.flashcardCardOrder === null || settings.flashcardCardOrder === void 0) && (settings.flashcardDeckOrder === null || settings.flashcardDeckOrder === void 0)) {
     settings.flashcardCardOrder = settings.randomizeCardOrder ? "DueFirstRandom" : "DueFirstSequential";
     settings.flashcardDeckOrder = "PrevDeckComplete_Sequential";
-    settings.randomizeCardOrder = null;
+    settings.randomizeCardOrder = void 0;
   }
   if (settings.clozePatterns === null || settings.clozePatterns === void 0) {
     settings.clozePatterns = [];
@@ -13341,6 +15379,12 @@ function upgradeSettings(settings) {
       settings.clozePatterns.push("**[123;;]answer[;;hint]**");
     if (settings.convertCurlyBracketsToClozes)
       settings.clozePatterns.push("{{[123;;]answer[;;hint]}}");
+  }
+  if (settings.disableFileMenuReviewOptions !== void 0) {
+    settings.disableFileMenuReviewOptions = void 0;
+  }
+  if (settings.fsrsDesiredRetention === null || settings.fsrsDesiredRetention === void 0) {
+    settings.fsrsDesiredRetention = DEFAULT_SETTINGS.fsrsDesiredRetention;
   }
 }
 var SettingsUtil = class _SettingsUtil {
@@ -13353,28 +15397,61 @@ var SettingsUtil = class _SettingsUtil {
   static isAnyTagANoteReviewTag(settings, tags) {
     for (const tag of tags) {
       if (settings.tagsToReview.some(
-        (tagToReview) => tag === tagToReview || tag.startsWith(tagToReview + "/")
+        (tagToReview) => this.isSubTagContainedInTag(tagToReview, tag)
       )) {
         return true;
       }
     }
     return false;
   }
+  static isAnyTagIgnoredForFlashcards(settings, tags) {
+    return tags.some((tag) => _SettingsUtil.isTagInList(settings.flashcardTagsToIgnore, tag));
+  }
+  static isAnyTagIgnoredForNotes(settings, tags) {
+    return tags.some((tag) => _SettingsUtil.isTagInList(settings.noteTagsToIgnore, tag));
+  }
   // Given a list of tags, return the subset that is in settings.tagsToReview
   static filterForNoteReviewTag(settings, tags) {
     const result = [];
     for (const tagToReview of settings.tagsToReview) {
-      if (tags.some((tag) => tag === tagToReview || tag.startsWith(tagToReview + "/"))) {
+      if (tags.some((tag) => this.isSubTagContainedInTag(tagToReview, tag))) {
         result.push(tagToReview);
       }
     }
     return result;
   }
-  static isTagInList(tagList, tag) {
+  /**
+   * Checks if the tag is in the tagList.
+   *
+   * @param tagList - The list of tags to check.
+   * @param tag - The tag to check.
+   * @param exactMatch - Whether to match the tag exactly or if it should be a sub tag.
+   * @returns true if the tag is in the tagList, false otherwise.
+   */
+  static isTagInList(tagList, tag, exactMatch = false) {
     for (const tagFromList of tagList) {
-      if (tag === tagFromList || tag.startsWith(tagFromList + "/")) {
-        return true;
+      if (exactMatch) {
+        if (tagFromList === tag) {
+          return true;
+        }
+      } else {
+        if (this.isSubTagContainedInTag(tagFromList, tag)) {
+          return true;
+        }
       }
+    }
+    return false;
+  }
+  /**
+   * Checks if the subTag is contained in the tag.
+   *
+   * @param tag - The tag to check.
+   * @param subTag - The subTag to check.
+   * @returns true if the subTag is contained in the tag, false otherwise.
+   */
+  static isSubTagContainedInTag(tag, subTag) {
+    if (tag === subTag || subTag.startsWith(tag + "/")) {
+      return true;
     }
     return false;
   }
@@ -13688,21 +15765,24 @@ var OsrCore = class {
     const schedule = await noteFile.getNoteSchedule();
     let note = null;
     this.osrNoteGraph.processLinks(noteFile.path);
+    const tags = noteFile.getAllTagsFromCache();
     const topicPath = this.findTopicPath(noteFile);
-    if (topicPath.hasPath) {
+    if (topicPath.hasPath && !SettingsUtil.isAnyTagIgnoredForFlashcards(this.settings, tags)) {
       note = await this.loadNote(noteFile, topicPath);
-      note.appendCardsToDeck(this.fullDeckTree);
+      if (note !== null) note.appendCardsToDeck(this.fullDeckTree);
     }
     SrsAlgorithm.getInstance().noteOnLoadedNote(noteFile.path, note, schedule == null ? void 0 : schedule.latestEase);
-    const tags = noteFile.getAllTagsFromCache();
     const matchedNoteTags = SettingsUtil.filterForNoteReviewTag(this.settings, tags);
     if (matchedNoteTags.length === 0) {
+      return;
+    }
+    if (SettingsUtil.isAnyTagIgnoredForNotes(this.settings, tags)) {
       return;
     }
     const noteSchedule = await noteFile.getNoteSchedule();
     this._noteReviewQueue.addNoteToQueue(noteFile, noteSchedule, matchedNoteTags);
   }
-  finaliseLoad() {
+  finalizeLoad() {
     this.osrNoteGraph.generatePageRanks();
     this._reviewableDeckTree = DeckTreeFilter.filterForReviewableCards(this.fullDeckTree);
     this._reviewableDeckTree.sortSubdecksList();
@@ -13753,7 +15833,7 @@ var OsrCore = class {
     if (settings.burySiblingCards) {
       const topicPath = this.findTopicPath(noteFile);
       const noteX = await this.loadNote(noteFile, topicPath);
-      if (noteX.questionList.length > 0) {
+      if (noteX !== null && noteX.questionList.length > 0) {
         for (const question of noteX.questionList) {
           this._questionPostponementList.add(question);
         }
@@ -13764,7 +15844,7 @@ var OsrCore = class {
   async loadNote(noteFile, topicPath) {
     const loader = new NoteFileLoader(this.settings);
     const note = await loader.load(noteFile, this.defaultTextDirection, topicPath);
-    if (note.hasChanged) {
+    if (note !== null && note.hasChanged) {
       await note.writeNoteFile(this.settings);
     }
     return note;
@@ -13797,7 +15877,7 @@ var OsrAppCore = class extends OsrCore {
         const file = this.createSrTFile(noteFile);
         await this.processFile(file);
       }
-      this.finaliseLoad();
+      this.finalizeLoad();
     } finally {
       this._syncLock = false;
     }
@@ -13822,15 +15902,10 @@ var DataStoreInNoteAlgorithmOsr = class {
     return result;
   }
   formatCardSchedule(card) {
-    let result;
     if (card.hasSchedule) {
-      const schedule = card.scheduleInfo;
-      const dateStr = schedule.dueDate ? formatDateYYYYMMDD(schedule.dueDate) : RepItemScheduleInfoOsr.dummyDueDateForNewCard;
-      result = `!${dateStr},${schedule.interval},${schedule.latestEase}`;
-    } else {
-      result = `!${RepItemScheduleInfoOsr.dummyDueDateForNewCard},${RepItemScheduleInfoOsr.initialInterval},${this.settings.baseEase}`;
+      return card.scheduleInfo.formatCardScheduleForHtmlComment();
     }
-    return result;
+    return `!${RepItemScheduleInfoOsr.dummyDueDateForNewCard},${RepItemScheduleInfoOsr.initialInterval},${this.settings.baseEase}`;
   }
 };
 
@@ -13840,26 +15915,26 @@ var StoreInNotes = class {
     this.settings = settings;
   }
   questionCreateSchedule(originalQuestionText, _2) {
-    let scheduling = [
+    var _a2;
+    const schedulingComment = (_a2 = originalQuestionText.match(/<!--SR:(.+?)-->/m)) == null ? void 0 : _a2[1];
+    if (schedulingComment) {
+      return this.parseMultiScheduleComment(schedulingComment);
+    }
+    const legacyMultiScheduling = [
       ...originalQuestionText.matchAll(MULTI_SCHEDULING_EXTRACTOR)
     ];
-    if (scheduling.length === 0)
-      scheduling = [...originalQuestionText.matchAll(LEGACY_SCHEDULING_EXTRACTOR)];
+    if (legacyMultiScheduling.length > 0) {
+      return legacyMultiScheduling.map(
+        (match2) => this.parseLegacySchedule(match2[1], parseInt(match2[2]), parseInt(match2[3]))
+      );
+    }
     const result = [];
-    for (let i2 = 0; i2 < scheduling.length; i2++) {
-      const match2 = scheduling[i2];
+    const scheduling = [...originalQuestionText.matchAll(LEGACY_SCHEDULING_EXTRACTOR)];
+    for (const match2 of scheduling) {
       const dueDateStr = match2[1];
       const interval = parseInt(match2[2]);
       const ease = parseInt(match2[3]);
-      const dueDate = DateUtil.dateStrToMoment(dueDateStr);
-      let info;
-      if (dueDate === null || formatDateYYYYMMDD(dueDate) === RepItemScheduleInfoOsr.dummyDueDateForNewCard) {
-        info = null;
-      } else {
-        const delayBeforeReviewTicks = dueDate.valueOf() - globalDateProvider.today.valueOf();
-        info = new RepItemScheduleInfoOsr(dueDate, interval, ease, delayBeforeReviewTicks);
-      }
-      result.push(info);
+      result.push(this.parseLegacySchedule(dueDateStr, interval, ease));
     }
     return result;
   }
@@ -13874,6 +15949,56 @@ var StoreInNotes = class {
     const newText = question.updateQuestionWithinNoteText(fileText, this.settings);
     await question.note.file.write(newText);
     question.hasChanged = false;
+  }
+  async questionDelete(question) {
+    const fileText = await question.note.file.read();
+    const originalText = question.questionText.original;
+    const newText = MultiLineTextFinder.findAndReplace(fileText, originalText, "");
+    if (newText) {
+      await question.note.file.write(newText);
+    }
+  }
+  parseMultiScheduleComment(comment) {
+    const segments = comment.split("!").map((segment) => segment.trim()).filter((segment) => segment.length > 0);
+    return segments.map((segment) => this.parseScheduleSegment(segment));
+  }
+  parseScheduleSegment(segment) {
+    if (segment.startsWith(FSRS_COMMENT_PREFIX + ",")) {
+      const fields = segment.split(",");
+      const [
+        _algorithm,
+        dueDateStr2,
+        intervalStr2,
+        stabilityStr,
+        difficultyStr,
+        stateStr,
+        repsStr,
+        lapsesStr,
+        learningStepsStr,
+        lastReviewStr
+      ] = fields;
+      return new RepItemScheduleInfoFsrs(
+        parseFsrsTimestamp(dueDateStr2),
+        parseFloat(intervalStr2),
+        parseFloat(difficultyStr),
+        parseFloat(stabilityStr),
+        parseInt(stateStr),
+        parseInt(repsStr),
+        parseInt(lapsesStr),
+        parseInt(learningStepsStr),
+        parseFsrsTimestamp(lastReviewStr)
+      );
+    }
+    const [dueDateStr, intervalStr, easeStr] = segment.split(",");
+    return this.parseLegacySchedule(dueDateStr, parseInt(intervalStr), parseInt(easeStr));
+  }
+  parseLegacySchedule(dueDateStr, interval, ease) {
+    const dueDate = DateUtil.dateStrToMoment(dueDateStr);
+    if (dueDate === null || formatDateYYYYMMDD(dueDate) === RepItemScheduleInfoOsr.dummyDueDateForNewCard) {
+      return null;
+    }
+    const delayBeforeReviewTicks = dueDate.valueOf() - globalDateProvider.today.valueOf();
+    return new RepItemScheduleInfoOsr(dueDate, interval, ease, delayBeforeReviewTicks);
   }
 };
 
@@ -14097,9 +16222,143 @@ var DEFAULT_DATA = {
 };
 
 // src/ui/obsidian-ui-components/item-views/review-queue-list-view.tsx
+var import_obsidian7 = require("obsidian");
+
+// src/delete-scheduling-data.ts
 var import_obsidian5 = require("obsidian");
+async function removeSchedulingInfoInNotes(vault, file, deleteTags, tagsToDelete = []) {
+  try {
+    await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
+      delete frontmatter["sr-due"];
+      delete frontmatter["sr-interval"];
+      delete frontmatter["sr-ease"];
+    });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
+  }
+  if (deleteTags) {
+    await removeTagsFromFile(vault, file, tagsToDelete);
+  }
+}
+async function removeTagsFromFile(vault, file, tagsToDelete) {
+  await removeTagsFromFrontmatter(vault, file, tagsToDelete);
+  try {
+    await vault.process(file, (data) => {
+      let newData = data;
+      for (const tagToDelete of tagsToDelete.sort((a2, b2) => b2.length - a2.length)) {
+        const regex = new RegExp(
+          // eslint-disable-next-line no-useless-escape
+          `(${tagToDelete}[/[a-zA-z-[0-9]*]*/]*[a-zA-z-[0-9]*]*)`,
+          "gm"
+        );
+        newData = newData.replace(regex, "");
+        newData = newData.replace(tagToDelete, "");
+      }
+      return newData;
+    });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
+  }
+}
+async function removeTagsFromFrontmatter(vault, file, tagsToDelete) {
+  try {
+    await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
+      frontmatter["tags"] = frontmatter["tags"].filter((tag) => {
+        let deleteTag = false;
+        for (const tagToDelete of tagsToDelete.sort((a2, b2) => b2.length - a2.length)) {
+          if (tag.startsWith(tagToDelete.replace("#", ""))) {
+            deleteTag = true;
+            break;
+          }
+        }
+        return !deleteTag;
+      });
+    });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
+  }
+}
+async function removeSchedulingInfoInCards(vault, file, deleteTags, tagsToDelete = []) {
+  try {
+    await vault.process(file, (data) => {
+      return data.replace(FLASHCARD_SCHEDULE_INFO, "");
+    });
+  } catch (e2) {
+    console.log({ filePath: file.path, error: e2 });
+  }
+  if (deleteTags) {
+    await removeTagsFromFile(vault, file, tagsToDelete);
+  }
+}
+async function deleteAllSchedulingData(deleteTags, deckTagsToDelete = [], noteTagsToDelete = []) {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfoInNotes(this.app.vault, files[i2], deleteTags, noteTagsToDelete);
+    await removeSchedulingInfoInCards(this.app.vault, files[i2], deleteTags, deckTagsToDelete);
+  }
+  new import_obsidian5.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteAllSchedulingDataInNotes(deleteTags, tagsToDelete = []) {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfoInNotes(this.app.vault, files[i2], deleteTags, tagsToDelete);
+  }
+  new import_obsidian5.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteAllSchedulingDataInCards(deleteTags, tagsToDelete = []) {
+  const files = this.app.vault.getMarkdownFiles();
+  for (let i2 = 0; i2 < files.length; i2++) {
+    await removeSchedulingInfoInCards(this.app.vault, files[i2], deleteTags, tagsToDelete);
+  }
+  new import_obsidian5.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteAllSchedulingDataOfCardsInNote(file, deleteTags, tagsToDelete) {
+  await removeSchedulingInfoInCards(this.app.vault, file, deleteTags, tagsToDelete);
+  new import_obsidian5.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+async function deleteNoteSchedulingDataInNote(file, deleteTags, tagsToDelete) {
+  await removeSchedulingInfoInNotes(this.app.vault, file, deleteTags, tagsToDelete);
+  new import_obsidian5.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
+}
+
+// src/ui/obsidian-ui-components/modals/confirmation-modal.tsx
+var import_obsidian6 = require("obsidian");
+var ConfirmationModal = class extends import_obsidian6.Modal {
+  /**
+   * Creates a confirmation modal.
+   * @param app - The Obsidian app instance.
+   * @param title - Title of the modal.
+   * @param description - Description text in the modal body.
+   * @param confirmationMessage - Notice message to display upon confirmation.
+   * @param onConfirm - Callback function to execute upon confirmation.
+   */
+  constructor(app, title, description, confirmationMessage, onConfirm) {
+    super(app);
+    this.setTitle(title);
+    this.titleEl.addClass("sr-confirmation-modal-header");
+    this.setContent(description);
+    this.contentEl.addClass("sr-confirmation-modal-content");
+    new import_obsidian6.Setting(this.contentEl).setClass("sr-confirmation-modal-button-container").addButton(
+      (button) => button.setButtonText(t("CONFIRM")).setClass("mod-warning").onClick(async () => {
+        if (confirmationMessage) {
+          new import_obsidian6.Notice(confirmationMessage);
+        }
+        if (onConfirm) {
+          await onConfirm();
+        }
+        this.close();
+      })
+    ).addButton(
+      (button) => button.setButtonText(t("CANCEL")).onClick(() => {
+        this.close();
+      })
+    );
+  }
+};
+
+// src/ui/obsidian-ui-components/item-views/review-queue-list-view.tsx
 var REVIEW_QUEUE_VIEW_TYPE = "review-queue-list-view";
-var ReviewQueueListView = class extends import_obsidian5.ItemView {
+var ReviewQueueListView = class extends import_obsidian7.ItemView {
   get noteReviewQueue() {
     return this.nextNoteReviewHandler.noteReviewQueue;
   }
@@ -14136,7 +16395,7 @@ var ReviewQueueListView = class extends import_obsidian5.ItemView {
     this.headerEl = this.contentEl.createDiv("sr-note-review-header");
     const titleWrapper = this.headerEl.createDiv("sr-note-review-header-title-wrapper");
     const titleIcon = titleWrapper.createDiv("sr-note-review-header-title-icon");
-    (0, import_obsidian5.setIcon)(titleIcon, "lucide-file-clock");
+    (0, import_obsidian7.setIcon)(titleIcon, "lucide-file-clock");
     titleWrapper.createDiv("sr-note-review-header-title").setText(t("OPEN_NOTE_FOR_REVIEW"));
     const subTitleWrapper = this.contentEl.createDiv("sr-note-review-header-subtitle-wrapper");
     subTitleWrapper.createDiv("sr-note-review-header-subtitle").setText(t("NOTE_REVIEW_QUEUE_HINT"));
@@ -14212,7 +16471,10 @@ var ReviewQueueListView = class extends import_obsidian5.ItemView {
         } else if (nDays === 1) {
           folderTitle = t("TOMORROW");
         } else {
-          folderTitle = new Date(sNote.dueUnix).toDateString();
+          folderTitle = formatDateWithMoment(
+            sNote.dueUnix,
+            this.settings.preferredDateFormatForNoteReviewQueue
+          );
         }
         schedFolderEl = this.createFolder(
           parentEl,
@@ -14302,10 +16564,10 @@ var ReviewQueueListView = class extends import_obsidian5.ItemView {
     const navFileContextBtn = navFileTitle.createDiv(
       "sr-review-context-btn clickable-icon"
     );
-    (0, import_obsidian5.setIcon)(navFileContextBtn, "ellipsis-vertical");
+    (0, import_obsidian7.setIcon)(navFileContextBtn, "ellipsis-vertical");
     navFileContextBtn.addEventListener("click", async (event) => {
       event.preventDefault();
-      const fileMenu = new import_obsidian5.Menu();
+      const fileMenu = new import_obsidian7.Menu();
       fileMenu.addItem((item) => {
         item.setTitle(
           t("REVIEW_DIFFICULTY_FILE_MENU", {
@@ -14333,6 +16595,26 @@ var ReviewQueueListView = class extends import_obsidian5.ItemView {
           this.plugin.saveNoteReviewResponse(file, 2 /* Hard */);
         });
       });
+      fileMenu.addSeparator();
+      if (this.plugin.data.settings.showDeleteButtonInFileMenu) {
+        fileMenu.addItem((item) => {
+          item.setTitle(t("DELETE_NOTE_SCHEDULING_DATA_IN_NOTE")).setIcon("trash").setWarning(true).onClick(async () => {
+            new ConfirmationModal(
+              this.plugin.app,
+              t("DELETE_NOTE_SCHEDULING_DATA_IN_NOTE"),
+              t("CONFIRM_NOTE_SCHEDULING_DATA_IN_NOTE_DELETION"),
+              t("NOTE_SCHEDULING_DATA_IN_NOTE_DELETION_IN_PROGRESS"),
+              () => {
+                deleteNoteSchedulingDataInNote(
+                  file,
+                  this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                  this.plugin.data.settings.tagsToReview
+                );
+              }
+            ).open();
+          });
+        });
+      }
       fileMenu.showAtPosition({
         x: event.pageX,
         y: event.pageY
@@ -14353,12 +16635,12 @@ var ReviewQueueListView = class extends import_obsidian5.ItemView {
 };
 
 // src/ui/ui-manager.tsx
-var import_obsidian31 = require("obsidian");
+var import_obsidian35 = require("obsidian");
 
 // src/icons/app-icon.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 function appIcon() {
-  (0, import_obsidian6.addIcon)(
+  (0, import_obsidian8.addIcon)(
     "SpacedRepIcon",
     `<path fill="currentColor" stroke="currentColor" d="M 88.960938 17.257812 L 47.457031 17.257812 C 45.679688 17.257812 44.230469 18.703125 44.230469 20.484375 L 44.230469 86.558594 C 44.230469 88.335938 45.679688 89.785156 47.457031 89.785156 L 88.960938 89.785156 C 90.738281 89.785156 92.1875 88.335938 92.1875 86.558594 L 92.1875 20.484375 C 92.1875 18.703125 90.738281 17.257812 88.960938 17.257812 Z M 88.28125 85.878906 L 48.136719 85.878906 L 48.136719 21.164062 L 88.28125 21.164062 Z M 88.28125 85.878906 "/>
         <path fill="currentColor" stroke="currentColor"  d="M 88.960938 9.445312 L 61.667969 9.445312 C 59.925781 3.816406 54.011719 0.515625 48.269531 2.054688 L 8.183594 12.796875 C 2.304688 14.371094 -1.199219 20.4375 0.378906 26.316406 L 17.476562 90.140625 C 18.796875 95.066406 23.269531 98.324219 28.144531 98.324219 C 29.085938 98.324219 30.046875 98.199219 31 97.945312 L 40.765625 95.328125 C 42.625 96.75 44.941406 97.597656 47.457031 97.597656 L 88.960938 97.597656 C 95.046875 97.597656 100 92.644531 100 86.558594 L 100 20.484375 C 100 14.398438 95.046875 9.445312 88.960938 9.445312 Z M 29.988281 94.171875 C 26.1875 95.191406 22.269531 92.925781 21.25 89.128906 L 4.152344 25.304688 C 3.132812 21.507812 5.394531 17.585938 9.195312 16.570312 L 49.28125 5.828125 C 52.578125 4.945312 55.960938 6.53125 57.464844 9.445312 L 47.457031 9.445312 C 41.371094 9.445312 36.417969 14.398438 36.417969 20.484375 L 36.417969 86.558594 C 36.417969 88.558594 36.957031 90.433594 37.890625 92.054688 Z M 96.09375 86.558594 C 96.09375 90.492188 92.894531 93.691406 88.960938 93.691406 L 47.457031 93.691406 C 43.523438 93.691406 40.324219 90.492188 40.324219 86.558594 L 40.324219 20.484375 C 40.324219 16.550781 43.523438 13.351562 47.457031 13.351562 L 88.960938 13.351562 C 92.894531 13.351562 96.09375 16.550781 96.09375 20.484375 Z M 96.09375 86.558594 "/>
@@ -14368,362 +16650,37 @@ function appIcon() {
 }
 
 // src/ui/obsidian-ui-components/item-views/sr-tab-view.tsx
-var import_obsidian18 = require("obsidian");
+var import_obsidian21 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/content-manager.tsx
+var import_moment8 = __toESM(require_moment());
+var import_obsidian20 = require("obsidian");
 
 // src/ui/obsidian-ui-components/content-container/card-container/card-container.tsx
-var import_moment4 = __toESM(require_moment());
-var import_obsidian17 = require("obsidian");
+var import_moment7 = __toESM(require_moment());
+var import_obsidian16 = require("obsidian");
 
 // src/escape-html.ts
 function escapeHtml(s2) {
   return s2.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
 
-// src/ui/obsidian-ui-components/content-container/card-container/controls/card-info-notice.tsx
-var import_obsidian7 = require("obsidian");
-var CardInfoNotice = class extends import_obsidian7.Notice {
-  constructor(schedule, notePath) {
-    var _a2;
-    const currentEaseStr = t("CURRENT_EASE_HELP_TEXT") + ((_a2 = schedule == null ? void 0 : schedule.latestEase) != null ? _a2 : t("NEW"));
-    const currentIntervalStr = t("CURRENT_INTERVAL_HELP_TEXT") + textInterval(schedule == null ? void 0 : schedule.interval, false);
-    const generatedFromStr = t("CARD_GENERATED_FROM", {
-      notePath
-    });
-    super(currentEaseStr + "\n" + currentIntervalStr + "\n" + generatedFromStr);
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/controls.tsx
-var import_obsidian10 = require("obsidian");
-
-// src/ui/sr-button.tsx
-var import_obsidian8 = require("obsidian");
-var SRButtonComponent = class extends import_obsidian8.ButtonComponent {
-  constructor(container, props) {
-    super(container);
-    this.setClass("sr-button");
-    if (props) {
-      if (props.classNames) this.buttonEl.addClasses(props.classNames);
-      if (props.icon) this.setIcon(props.icon);
-      if (props.tooltip) this.setTooltip(props.tooltip);
-      if (props.tooltip) this.buttonEl.setAttribute("aria-label", props.tooltip);
-      if (props.text) this.setButtonText(props.text);
-      if (props.onClick) this.onClick(props.onClick);
-    }
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/back-button.tsx
-var BackButtonComponent = class extends SRButtonComponent {
-  constructor(container, backToDeck, classNames) {
-    super(container, {
-      classNames: ["sr-back-button", ...classNames != null ? classNames : []],
-      icon: "arrow-left",
-      tooltip: t("BACK"),
-      onClick: () => {
-        backToDeck();
-      }
-    });
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/edit-button.tsx
-var EditButtonComponent = class extends SRButtonComponent {
-  constructor(container, editClickHandler, classNames) {
-    super(container, {
-      classNames: ["sr-edit-button", ...classNames != null ? classNames : []],
-      icon: "edit",
-      tooltip: t("EDIT_CARD"),
-      onClick: () => {
-        editClickHandler();
-      }
-    });
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/menu-dots-button.tsx
-var MenuDotsButtonComponent = class extends SRButtonComponent {
-  constructor(container, openMenu, classNames) {
-    super(container, {
-      classNames: ["sr-menu-dots-button", ...classNames != null ? classNames : []],
-      icon: "ellipsis-vertical",
-      tooltip: "Open menu",
-      // TODO: Translate
-      onClick: (evt) => {
-        openMenu(evt);
-      }
-    });
-  }
-};
-
-// src/ui/obsidian-ui-components/modals/confirmation-modal.tsx
-var import_obsidian9 = require("obsidian");
-var ConfirmationModal = class extends import_obsidian9.Modal {
-  /**
-   * Creates a confirmation modal.
-   * @param app - The Obsidian app instance.
-   * @param title - Title of the modal.
-   * @param description - Description text in the modal body.
-   * @param confirmationMessage - Notice message to display upon confirmation.
-   * @param onConfirm - Callback function to execute upon confirmation.
-   */
-  constructor(app, title, description, confirmationMessage, onConfirm) {
-    super(app);
-    this.setTitle(title);
-    this.titleEl.addClass("sr-confirmation-modal-header");
-    this.setContent(description);
-    this.contentEl.addClass("sr-confirmation-modal-content");
-    new import_obsidian9.Setting(this.contentEl).setClass("sr-confirmation-modal-button-container").addButton(
-      (button) => button.setButtonText(t("CONFIRM")).setClass("mod-warning").onClick(async () => {
-        if (confirmationMessage) {
-          new import_obsidian9.Notice(confirmationMessage);
-        }
-        if (onConfirm) {
-          await onConfirm();
-        }
-        this.close();
-      })
-    ).addButton(
-      (button) => button.setButtonText(t("CANCEL")).onClick(() => {
-        this.close();
-      })
-    );
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/reset-button.tsx
-var ResetButtonComponent = class extends SRButtonComponent {
-  constructor(container, app, resetClickHandler, classNames) {
-    super(container, {
-      classNames: ["sr-reset-button", "mod-warning", ...classNames != null ? classNames : []],
-      icon: "history",
-      tooltip: t("RESET_CARD_PROGRESS"),
-      onClick: () => {
-        new ConfirmationModal(
-          app,
-          t("DELETE_SCHEDULING_DATA_OF_CURRENT_CARD"),
-          t("CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD"),
-          t("SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD"),
-          async () => {
-            await resetClickHandler();
-          }
-        ).open();
-      }
-    });
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/skip-button.tsx
-var SkipButtonComponent = class extends SRButtonComponent {
-  constructor(container, skipClickHandler, classNames) {
-    super(container, {
-      classNames: ["sr-skip-button", ...classNames != null ? classNames : []],
-      icon: "chevrons-right",
-      tooltip: t("SKIP"),
-      onClick: () => {
-        skipClickHandler();
-      }
-    });
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/modal-close-button.tsx
-var ModalCloseButtonComponent = class extends SRButtonComponent {
-  constructor(container, closeModal, classNames) {
-    super(container, {
-      classNames: ["sr-modal-close-button", ...classNames != null ? classNames : []],
-      icon: "x",
-      tooltip: t("CLOSE"),
-      onClick: () => {
-        closeModal();
-      }
-    });
-  }
-};
-
-// src/utils/platform-detector.ts
-function EmulatedPlatform() {
-  return {
-    isDesktop: DEBUG_MODE_ENABLED && !document.body.hasClass("emulate-mobile"),
-    isMobile: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile"),
-    isPhone: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile") && document.body.hasClass("is-phone"),
-    isTablet: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile") && document.body.hasClass("is-tablet"),
-    isEmulated: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile")
-  };
-}
-
-// src/ui/obsidian-ui-components/content-container/card-container/controls/controls.tsx
-var ControlsComponent = class {
-  constructor(container, isModal, app, backToDeck, editClickHandler, processReview, displayCurrentCardInfoNotice, skipCurrentCard, jumpToCurrentCard, closeModal) {
-    this.controls = container.createDiv();
-    this.controls.addClass("sr-controls");
-    this.backButton = new BackButtonComponent(this.controls, () => backToDeck(), [
-      (EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone) && isModal ? "mod-raised" : "clickable-icon"
-    ]);
-    this.controls.createDiv().addClass("sr-flex-spacer");
-    this.editButton = new EditButtonComponent(
-      this.controls,
-      () => editClickHandler(),
-      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
-    );
-    this.menuDotsButton = new MenuDotsButtonComponent(
-      this.controls,
-      (evt) => {
-        const cardMenu = new import_obsidian10.Menu();
-        cardMenu.addItem((item) => {
-          item.setTitle("Jump to card").setIcon("arrow-up-right").onClick(() => {
-            jumpToCurrentCard();
-          });
-        });
-        cardMenu.addItem((item) => {
-          item.setTitle(t("VIEW_CARD_INFO")).setIcon("info").onClick(() => {
-            displayCurrentCardInfoNotice();
-          });
-        });
-        cardMenu.showAtMouseEvent(evt);
-      },
-      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
-    );
-    this.resetButton = new ResetButtonComponent(
-      this.controls,
-      app,
-      async () => await processReview(4 /* Reset */),
-      [EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? "mod-raised" : "undefined"]
-    );
-    this.resetButton.setDisabled(true);
-    this.skipButton = new SkipButtonComponent(
-      this.controls,
-      () => skipCurrentCard(),
-      EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? ["mod-raised"] : void 0
-    );
-    this.controls.createDiv().addClass("sr-flex-spacer");
-    this.modalCloseButton = new ModalCloseButtonComponent(
-      this.controls,
-      () => closeModal && closeModal(),
-      [
-        !closeModal && "sr-hide-by-scaling",
-        !closeModal && "hide-height",
-        EmulatedPlatform().isPhone || import_obsidian10.Platform.isPhone ? "mod-raised" : "clickable-icon"
-      ]
-    );
-  }
-  setResetButtonDisabled(disabled) {
-    this.resetButton.buttonEl.toggleClass("mod-disabled", disabled);
-  }
-};
-
-// src/ui/obsidian-ui-components/content-container/card-container/deck-info/info-section.tsx
-var import_obsidian11 = require("obsidian");
-var InfoSectionComponent = class {
-  constructor(container, showContextInCards, backToDeck, closeModal) {
-    this.infoSection = container.createDiv();
-    this.infoSection.addClass("sr-info-section");
-    this.deckProgressInfo = this.infoSection.createDiv();
-    this.deckProgressInfo.addClass("sr-deck-progress-info");
-    this.horizontalBackButton = new BackButtonComponent(
-      this.deckProgressInfo,
-      () => backToDeck(),
-      ["clickable-icon", "sr-horizontal-back-button"]
-    );
-    this.chosenDeckInfo = this.deckProgressInfo.createDiv();
-    this.chosenDeckInfo.addClass("sr-chosen-deck-info");
-    this.chosenDeckName = this.chosenDeckInfo.createDiv();
-    this.chosenDeckName.addClass("sr-chosen-deck-name");
-    this.chosenDeckCounterWrapper = this.chosenDeckInfo.createDiv();
-    this.chosenDeckCounterWrapper.addClass("sr-chosen-deck-counter-wrapper");
-    this.chosenDeckCounterDivider = this.chosenDeckCounterWrapper.createDiv();
-    this.chosenDeckCounterDivider.addClass("sr-chosen-deck-counter-divider");
-    this.chosenDeckCardCounterWrapper = this.chosenDeckCounterWrapper.createDiv();
-    this.chosenDeckCardCounterWrapper.addClass("sr-chosen-deck-card-counter-wrapper");
-    this.chosenDeckCardCounter = this.chosenDeckCardCounterWrapper.createDiv();
-    this.chosenDeckCardCounter.addClass("sr-chosen-deck-card-counter");
-    this.chosenDeckCardCounterIcon = this.chosenDeckCardCounterWrapper.createDiv();
-    this.chosenDeckCardCounterIcon.addClass("sr-chosen-deck-card-counter-icon");
-    (0, import_obsidian11.setIcon)(this.chosenDeckCardCounterIcon, "credit-card");
-    this.chosenDeckSubDeckCounterWrapper = this.chosenDeckCounterWrapper.createDiv();
-    this.chosenDeckSubDeckCounterWrapper.addClass("sr-is-hidden");
-    this.chosenDeckSubDeckCounterWrapper.addClass("sr-chosen-deck-subdeck-counter-wrapper");
-    this.chosenDeckSubDeckCounter = this.chosenDeckSubDeckCounterWrapper.createDiv();
-    this.chosenDeckSubDeckCounter.addClass("sr-chosen-deck-subdeck-counter");
-    this.chosenDeckSubDeckCounterIcon = this.chosenDeckSubDeckCounterWrapper.createDiv();
-    this.chosenDeckSubDeckCounterIcon.addClass("sr-chosen-deck-subdeck-counter-icon");
-    (0, import_obsidian11.setIcon)(this.chosenDeckSubDeckCounterIcon, "layers");
-    this.currentDeckInfo = this.deckProgressInfo.createDiv();
-    this.currentDeckInfo.addClass("sr-is-hidden");
-    this.currentDeckInfo.addClass("sr-current-deck-info");
-    this.currentDeckName = this.currentDeckInfo.createDiv();
-    this.currentDeckName.addClass("sr-current-deck-name");
-    this.currentDeckCounterWrapper = this.currentDeckInfo.createDiv();
-    this.currentDeckCounterWrapper.addClass("sr-current-deck-counter-wrapper");
-    this.currentDeckCounterDivider = this.currentDeckCounterWrapper.createDiv();
-    this.currentDeckCounterDivider.addClass("sr-current-deck-counter-divider");
-    this.currentDeckCardCounterWrapper = this.currentDeckCounterWrapper.createDiv();
-    this.currentDeckCardCounterWrapper.addClass("sr-current-deck-card-counter-wrapper");
-    this.currentDeckCardCounter = this.currentDeckCardCounterWrapper.createDiv();
-    this.currentDeckCardCounter.addClass("sr-current-deck-card-counter");
-    this.currentDeckCardCounterIcon = this.currentDeckCardCounterWrapper.createDiv();
-    this.currentDeckCardCounterIcon.addClass("sr-current-deck-card-counter-icon");
-    (0, import_obsidian11.setIcon)(this.currentDeckCardCounterIcon, "credit-card");
-    this.deckProgressInfo.createDiv().addClasses(["sr-flex-spacer", "sr-horizontal-flex-spacer"]);
-    this.horizontalCloseButton = new ModalCloseButtonComponent(
-      this.deckProgressInfo,
-      () => closeModal && closeModal(),
-      [
-        !closeModal && "sr-hide-by-scaling",
-        !closeModal && "hide-height",
-        "mod-raised",
-        "sr-horizontal-close-button"
-      ]
-    );
-    if (showContextInCards) {
-      this.cardContext = this.infoSection.createDiv();
-      this.cardContext.addClass("sr-context");
-    }
-  }
-  updateChosenDeckInfo(chosenDeck, deckStats, totalCardsInSession, totalDecksInSession) {
-    const chosenDeckStats = deckStats;
-    this.chosenDeckName.setText(`${chosenDeck.deckName}`);
-    this.chosenDeckCardCounter.setText(
-      `${totalCardsInSession - chosenDeckStats.cardsInQueueCount}/${totalCardsInSession}`
-    );
-    if (chosenDeck.subdecks.length === 0) {
-      if (!this.chosenDeckSubDeckCounterWrapper.hasClass("sr-is-hidden")) {
-        this.chosenDeckSubDeckCounterWrapper.addClass("sr-is-hidden");
-      }
-      return;
-    }
-    if (this.chosenDeckSubDeckCounterWrapper.hasClass("sr-is-hidden")) {
-      this.chosenDeckSubDeckCounterWrapper.removeClass("sr-is-hidden");
-    }
-    this.chosenDeckSubDeckCounter.setText(
-      `${totalDecksInSession - chosenDeckStats.decksInQueueOfThisDeckCount}/${totalDecksInSession}`
-    );
-  }
-  updateCurrentDeckInfo(chosenDeck, currentDeck, currentDeckStats, flashcardCardOrder, currentDeckTotalCardsInQueue) {
-    if (chosenDeck.subdecks.length === 0) {
-      if (!this.currentDeckInfo.hasClass("sr-is-hidden")) {
-        this.currentDeckInfo.addClass("sr-is-hidden");
-      }
-      return;
-    }
-    if (this.currentDeckInfo.hasClass("sr-is-hidden")) {
-      this.currentDeckInfo.removeClass("sr-is-hidden");
-    }
-    this.currentDeckName.setText(`${currentDeck.deckName}`);
-    const isRandomMode = flashcardCardOrder === "EveryCardRandomDeckAndCard";
-    if (!isRandomMode) {
-      this.currentDeckCardCounter.setText(
-        `${currentDeckTotalCardsInQueue - currentDeckStats.cardsInQueueOfThisDeckCount}/${currentDeckTotalCardsInQueue}`
-      );
-    }
+// src/ui/obsidian-ui-components/content-container/card-container/context-section/context-section.tsx
+var ContextSectionComponent = class {
+  constructor(parentEl) {
+    this.contextSection = parentEl.createDiv();
+    this.contextSection.addClass("sr-context");
   }
   updateCardContext(showContextInCards, currentQuestion, currentNote) {
-    if (!this.cardContext) return;
     if (!showContextInCards) {
-      this.cardContext.setText("");
+      this.contextSection.setText("");
+      this.contextSection.addClass("sr-is-hidden");
       return;
     }
-    this.cardContext.setText(
+    if (this.contextSection.hasClass("sr-is-hidden")) {
+      this.contextSection.removeClass("sr-is-hidden");
+    }
+    this.contextSection.setText(
       ` ${this._formatQuestionContextText(currentQuestion.questionContext, currentNote)}`
     );
   }
@@ -14744,7 +16701,39 @@ var InfoSectionComponent = class {
 };
 
 // src/ui/obsidian-ui-components/content-container/card-container/response-section/response-section.tsx
-var import_obsidian12 = require("obsidian");
+var import_obsidian10 = require("obsidian");
+
+// src/algorithms/schedule-display.ts
+var import_moment6 = __toESM(require_moment());
+function formatScheduleInterval(schedule, isMobile) {
+  if (!schedule || schedule.interval >= 1 || !schedule.dueDate) {
+    return textInterval(schedule == null ? void 0 : schedule.interval, isMobile);
+  }
+  const diffMs = Math.max(0, schedule.dueDateAsUnix - globalDateProvider.now.valueOf());
+  const totalMinutes = Math.max(1, Math.ceil(diffMs / (60 * 1e3)));
+  if (totalMinutes < 60) {
+    return isMobile ? `${totalMinutes}m` : `${totalMinutes} min`;
+  }
+  const totalHours = Math.max(1, Math.ceil(totalMinutes / 60));
+  return isMobile ? `${totalHours}h` : `${totalHours} hr`;
+}
+
+// src/ui/sr-button.tsx
+var import_obsidian9 = require("obsidian");
+var SRButtonComponent = class extends import_obsidian9.ButtonComponent {
+  constructor(container, props) {
+    super(container);
+    this.setClass("sr-button");
+    if (props) {
+      if (props.classNames) this.buttonEl.addClasses(props.classNames);
+      if (props.icon) this.setIcon(props.icon);
+      if (props.tooltip) this.setTooltip(props.tooltip);
+      if (props.tooltip) this.buttonEl.setAttribute("aria-label", props.tooltip);
+      if (props.text) this.setButtonText(props.text);
+      if (props.onClick) this.onClick(props.onClick);
+    }
+  }
+};
 
 // src/ui/obsidian-ui-components/content-container/card-container/response-section/sr-response-button.tsx
 var SRResponseButtonComponent = class extends SRButtonComponent {
@@ -14759,8 +16748,34 @@ var SRResponseButtonComponent = class extends SRButtonComponent {
         props.onClick();
       }
     });
+    this.buttonEl.setText("");
+    this.smallText = this.buttonEl.createSpan();
+    this.smallText.addClass("sr-small-text");
+    this.largeText = this.buttonEl.createSpan();
+    this.largeText.addClass("sr-large-text");
+    if (props.text) {
+      this.smallText.setText(props.text);
+      this.largeText.setText(props.text);
+    }
+  }
+  setSmallText(text) {
+    this.smallText.setText(text);
+  }
+  setLargeText(text) {
+    this.largeText.setText(text);
   }
 };
+
+// src/utils/platform-detector.ts
+function EmulatedPlatform() {
+  return {
+    isDesktop: DEBUG_MODE_ENABLED && !document.body.hasClass("emulate-mobile"),
+    isMobile: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile"),
+    isPhone: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile") && document.body.hasClass("is-phone"),
+    isTablet: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile") && document.body.hasClass("is-tablet"),
+    isEmulated: DEBUG_MODE_ENABLED && document.body.hasClass("emulate-mobile")
+  };
+}
 
 // src/ui/obsidian-ui-components/content-container/card-container/response-section/response-section.tsx
 var ResponseSectionComponent = class {
@@ -14804,18 +16819,34 @@ var ResponseSectionComponent = class {
     });
   }
   resetResponseButtons() {
+    if (this.responseEl.hasClass("sr-is-hidden")) {
+      this.responseEl.removeClass("sr-is-hidden");
+    }
     this.answerButton.buttonEl.removeClass("sr-is-hidden");
     this.againButton.buttonEl.addClass("sr-is-hidden");
     this.hardButton.buttonEl.addClass("sr-is-hidden");
     this.goodButton.buttonEl.addClass("sr-is-hidden");
     this.easyButton.buttonEl.addClass("sr-is-hidden");
   }
-  showRatingButtons(reviewMode, settings, reviewSequencer, currentCard) {
+  hideAllButtons() {
+    if (!this.responseEl.hasClass("sr-is-hidden")) {
+      this.responseEl.addClass("sr-is-hidden");
+    }
+    this.answerButton.buttonEl.addClass("sr-is-hidden");
+    this.againButton.buttonEl.addClass("sr-is-hidden");
+    this.hardButton.buttonEl.addClass("sr-is-hidden");
+    this.goodButton.buttonEl.addClass("sr-is-hidden");
+    this.easyButton.buttonEl.addClass("sr-is-hidden");
+  }
+  showRatingButtons(reviewMode, againButtonText, hardButtonText, goodButtonText, easyButtonText, showIntervalInReviewButtons, determineButtonSchedule) {
+    if (this.responseEl.hasClass("sr-is-hidden")) {
+      this.responseEl.removeClass("sr-is-hidden");
+    }
     this.answerButton.buttonEl.addClass("sr-is-hidden");
     if (reviewMode === 0 /* Cram */) {
       this.responseEl.addClass("is-cram");
-      this.againButton.setButtonText(`${settings.flashcardAgainText}`);
-      this.easyButton.setButtonText(`${settings.flashcardEasyText}`);
+      this.againButton.setButtonText(`${againButtonText}`);
+      this.easyButton.setButtonText(`${easyButtonText}`);
       if (this.againButton.buttonEl.hasClass("sr-is-hidden")) {
         this.againButton.buttonEl.removeClass("sr-is-hidden");
       }
@@ -14836,464 +16867,506 @@ var ResponseSectionComponent = class {
       this.easyButton.buttonEl.removeClass("sr-is-hidden");
       this._setupEaseButton(
         this.againButton,
-        settings.flashcardAgainText,
-        reviewSequencer,
-        currentCard,
-        settings,
-        3 /* Again */
+        againButtonText,
+        determineButtonSchedule(3 /* Again */),
+        showIntervalInReviewButtons
       );
       this._setupEaseButton(
         this.hardButton,
-        settings.flashcardHardText,
-        reviewSequencer,
-        currentCard,
-        settings,
-        2 /* Hard */
+        hardButtonText,
+        determineButtonSchedule(2 /* Hard */),
+        showIntervalInReviewButtons
       );
       this._setupEaseButton(
         this.goodButton,
-        settings.flashcardGoodText,
-        reviewSequencer,
-        currentCard,
-        settings,
-        1 /* Good */
+        goodButtonText,
+        determineButtonSchedule(1 /* Good */),
+        showIntervalInReviewButtons
       );
       this._setupEaseButton(
         this.easyButton,
-        settings.flashcardEasyText,
-        reviewSequencer,
-        currentCard,
-        settings,
-        0 /* Easy */
+        easyButtonText,
+        determineButtonSchedule(0 /* Easy */),
+        showIntervalInReviewButtons
       );
     }
   }
-  _setupEaseButton(button, buttonName, reviewSequencer, currentCard, settings, reviewResponse) {
-    const schedule = reviewSequencer.determineCardSchedule(
-      reviewResponse,
-      currentCard
-    );
-    const interval = schedule.interval;
-    if (settings.showIntervalInReviewButtons) {
-      if (EmulatedPlatform().isMobile || import_obsidian12.Platform.isMobile) {
-        button.setButtonText(textInterval(interval, true));
-      } else {
-        button.setButtonText(`${buttonName} - ${textInterval(interval, false)}`);
-      }
-    } else {
-      button.setButtonText(buttonName);
-    }
-  }
-};
-
-// src/ui/obsidian-ui-components/modals/sr-modal-view.tsx
-var import_obsidian15 = require("obsidian");
-
-// src/ui/obsidian-ui-components/content-container/deck-container.tsx
-var import_obsidian13 = require("obsidian");
-var import_vhtml = __toESM(require_vhtml());
-var DeckContainer = class {
-  constructor(plugin, settings, reviewSequencer, containerEl, startReviewOfDeck, closeModal) {
-    this.isActive = false;
-    this.plugin = plugin;
-    this.settings = settings;
-    this.reviewSequencer = reviewSequencer;
-    this.containerEl = containerEl;
-    this.startReviewOfDeck = startReviewOfDeck;
-    this.closeModal = closeModal;
-    this.init();
-  }
-  /**
-   * Initializes all static elements in the DeckListView
-   */
-  init() {
-    this.containerEl.addClasses(["sr-container", "sr-deck-container", "sr-is-hidden"]);
-    this.header = this.containerEl.createDiv();
-    this.header.addClass("sr-header");
-    this.titleWrapper = this.header.createDiv();
-    this.titleWrapper.addClass("sr-title-wrapper");
-    this.dummyButtonEl = new import_obsidian13.ButtonComponent(this.titleWrapper).setIcon("circle-question-mark").setClass("sr-dummy-button").setClass("sr-hide-by-scaling").setClass("hide-height");
-    this.titleWrapper.createDiv().addClass("sr-flex-spacer");
-    this.title = this.titleWrapper.createDiv();
-    this.title.addClass("sr-title");
-    this.title.setText(t("DECKS"));
-    this.titleWrapper.createDiv().addClass("sr-flex-spacer");
-    this.closeButton = new ModalCloseButtonComponent(
-      this.titleWrapper,
-      () => this.closeModal && this.closeModal(),
-      [
-        !this.closeModal && "sr-hide-by-scaling",
-        !this.closeModal && "hide-height",
-        EmulatedPlatform().isPhone || import_obsidian13.Platform.isPhone ? "mod-raised" : "clickable-icon",
-        "sr-modal-close-button"
-      ]
-    );
-    this.stats = this.header.createDiv();
-    this.stats.addClass("sr-header-stats-container");
-    this._createHeaderStats();
-    this.headerDivider = this.containerEl.createEl("hr");
-    this.scrollWrapper = this.containerEl.createDiv();
-    this.scrollWrapper.addClass("sr-scroll-wrapper");
-    this.content = this.scrollWrapper.createDiv();
-    this.content.addClass("sr-content");
-  }
-  /**
-   * Shows the DeckListView & rerenders dynamic elements
-   */
-  show() {
-    this.mode = 0 /* Deck */;
-    this._createHeaderStats();
-    this.content.empty();
-    for (const deck of this.reviewSequencer.originalDeckTree.subdecks) {
-      this._createTree(deck, this.content);
-    }
-    if (this.containerEl.hasClass("sr-is-hidden")) {
-      this.containerEl.removeClass("sr-is-hidden");
-      this.isActive = true;
-    }
-  }
-  /**
-   * Hides the DeckListView
-   */
-  hide() {
-    if (!this.containerEl.hasClass("sr-is-hidden")) {
-      this.containerEl.addClass("sr-is-hidden");
-      this.isActive = false;
-    }
-  }
-  /**
-   * Closes the DeckListView
-   */
-  close() {
-    this.hide();
-  }
-  // -> Header
-  _createHeaderStats() {
-    const statistics = this.reviewSequencer.getDeckStats(TopicPath.emptyPath);
-    this.stats.empty();
-    this._createHeaderStatsContainer(t("DUE_CARDS"), statistics.dueCount, "sr-bg-green");
-    this._createHeaderStatsContainer(t("NEW_CARDS"), statistics.newCount, "sr-bg-blue");
-    this._createHeaderStatsContainer(t("TOTAL_CARDS"), statistics.totalCount, "sr-bg-red");
-  }
-  _createHeaderStatsContainer(statsLable, statsNumber, statsClass) {
-    const statsContainer = this.stats.createDiv();
-    statsContainer.ariaLabel = statsLable;
-    statsContainer.addClasses([
-      "tag-pane-tag-count",
-      "tree-item-flair",
-      "sr-header-stats-count",
-      statsClass
-    ]);
-    const lable = statsContainer.createDiv();
-    lable.setText(statsLable + ":");
-    const number = statsContainer.createDiv();
-    number.setText(statsNumber.toString());
-  }
-  // -> Tree content
-  _createTree(deck, container) {
-    const deckStats = this.reviewSequencer.getDeckStats(deck.getTopicPath());
-    const deckTree = container.createDiv("tree-item sr-tree-item-container");
-    const deckTreeSelf = deckTree.createDiv(
-      `tree-item-self tag-pane-tag ${deckStats.dueCount > 0 || deckStats.newCount > 0 ? "is-clickable" : "is-disabled"} sr-tree-item-row`
-    );
-    const shouldBeInitiallyExpanded = this.settings.initiallyExpandAllSubdecksInTree;
-    let collapsed = !shouldBeInitiallyExpanded;
-    let collapseIconEl = null;
-    if (deck.subdecks.length > 0) {
-      collapseIconEl = deckTreeSelf.createDiv("tree-item-icon collapse-icon");
-      collapseIconEl.innerHTML = COLLAPSE_ICON;
-      collapseIconEl.childNodes[0].style.transform = collapsed ? "rotate(-90deg)" : "";
-    }
-    const deckTreeInner = deckTreeSelf.createDiv("tree-item-inner");
-    const deckTreeInnerText = deckTreeInner.createDiv("tag-pane-tag-text");
-    deckTreeInnerText.innerHTML += /* @__PURE__ */ (0, import_vhtml.default)("span", { class: "tag-pane-tag-self" }, deck.deckName);
-    const deckTreeOuter = deckTreeSelf.createDiv();
-    deckTreeOuter.addClasses(["tree-item-flair-outer", "sr-tree-stats-container"]);
-    this._createStats(deckStats, deckTreeOuter);
-    const deckTreeChildren = deckTree.createDiv("tree-item-children");
-    deckTreeChildren.style.display = collapsed ? "none" : "block";
-    if (deck.subdecks.length > 0) {
-      collapseIconEl.addEventListener("click", (e2) => {
-        if (collapsed) {
-          collapseIconEl.childNodes[0].style.transform = "";
-          deckTreeChildren.style.display = "block";
-        } else {
-          collapseIconEl.childNodes[0].style.transform = "rotate(-90deg)";
-          deckTreeChildren.style.display = "none";
+  _setupEaseButton(button, buttonName, schedule, showInterval) {
+    if (showInterval) {
+      button.setSmallText(formatScheduleInterval(schedule, true));
+      button.setLargeText(`${buttonName} - ${formatScheduleInterval(schedule, false)}`);
+      if (EmulatedPlatform().isMobile || import_obsidian10.Platform.isMobile) {
+        if (button.buttonEl.hasClass("sr-show-large-text")) {
+          button.buttonEl.removeClass("sr-show-large-text");
         }
-        e2.stopPropagation();
-        collapsed = !collapsed;
-      });
+        if (!button.buttonEl.hasClass("sr-show-small-text")) {
+          button.buttonEl.addClass("sr-show-small-text");
+        }
+      } else {
+        if (button.buttonEl.hasClass("sr-show-small-text")) {
+          button.buttonEl.removeClass("sr-show-small-text");
+        }
+        if (!button.buttonEl.hasClass("sr-show-large-text")) {
+          button.buttonEl.addClass("sr-show-large-text");
+        }
+      }
+    } else {
+      if (button.buttonEl.hasClass("sr-show-small-text")) {
+        button.buttonEl.removeClass("sr-show-small-text");
+      }
+      if (!button.buttonEl.hasClass("sr-show-large-text")) {
+        button.buttonEl.addClass("sr-show-large-text");
+      }
+      button.setLargeText(buttonName);
     }
-    deckTreeSelf.addEventListener("click", () => {
-      this.startReviewOfDeck(deck);
-    });
-    for (const subdeck of deck.subdecks) {
-      this._createTree(subdeck, deckTreeChildren);
-    }
-  }
-  _createStats(statistics, statsWrapper) {
-    statsWrapper.empty();
-    this._createStatsContainer(
-      t("DUE_CARDS"),
-      statistics.dueCount,
-      "sr-bg-green",
-      statsWrapper
-    );
-    this._createStatsContainer(t("NEW_CARDS"), statistics.newCount, "sr-bg-blue", statsWrapper);
-    this._createStatsContainer(
-      t("TOTAL_CARDS"),
-      statistics.totalCount,
-      "sr-bg-red",
-      statsWrapper
-    );
-  }
-  _createStatsContainer(statsLable, statsNumber, statsClass, statsWrapper) {
-    const statsContainer = statsWrapper.createDiv();
-    statsContainer.ariaLabel = statsLable;
-    statsContainer.addClasses([
-      "tag-pane-tag-count",
-      "tree-item-flair",
-      "sr-tree-stats-count",
-      statsClass
-    ]);
-    statsContainer.setText(statsNumber.toString());
   }
 };
 
-// src/ui/obsidian-ui-components/modals/edit-modal.tsx
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar.tsx
 var import_obsidian14 = require("obsidian");
-var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian14.Modal {
-  constructor(app, existingText, textDirection) {
-    super(app);
-    this.didSaveChanges = false;
-    // -> Functions & helpers
-    this.saveClickCallback = (_2) => this.save();
-    this.cancelClickCallback = (_2) => this.cancel();
-    this.saveOnEnterCallback = (evt) => {
-      if ((evt.ctrlKey || evt.metaKey) && evt.key === "Enter") {
-        evt.preventDefault();
-        this.save();
-      }
-    };
-    this.modalText = existingText;
-    this.changedText = existingText;
-    this.textDirection = textDirection;
-    this.waitForClose = new Promise((resolve2, reject) => {
-      this.resolvePromise = resolve2;
-      this.rejectPromise = reject;
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/deck-info/deck-info.tsx
+var import_obsidian12 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/deck-info/counter-component.tsx
+var import_obsidian11 = require("obsidian");
+var CounterComponent = class {
+  constructor(parentEl, iconId, classNames) {
+    this.counterEl = parentEl.createDiv();
+    this.counterEl.addClass("sr-counter-wrapper");
+    classNames.forEach((className) => {
+      this.counterEl.addClass(className);
     });
-    this.modalEl.addClasses(["sr-modal", "sr-edit-modal"]);
-    this.init();
-    this.open();
+    this.counterTextEl = this.counterEl.createDiv();
+    this.counterTextEl.addClass("sr-counter");
+    this.counterIconEl = this.counterEl.createDiv();
+    this.counterIconEl.addClass("sr-counter-icon");
+    (0, import_obsidian11.setIcon)(this.counterIconEl, iconId);
   }
-  static Prompt(app, placeholder, textDirection) {
-    const newPromptModal = new _FlashcardEditModal(app, placeholder, textDirection);
-    return newPromptModal.waitForClose;
+  setText(text) {
+    this.counterTextEl.setText(text);
   }
-  /**
-   * Initializes all components of the EditModal
-   */
-  init() {
-    var _a2;
-    this.contentEl.empty();
-    this.contentEl.addClass("sr-edit-view");
-    this.title = this.contentEl.createDiv();
-    this.title.setText(t("EDIT_CARD"));
-    this.title.addClass("sr-title");
-    this.textArea = this.contentEl.createEl("textarea");
-    this.textArea.addClass("sr-input");
-    this.textArea.setText((_a2 = this.modalText) != null ? _a2 : "");
-    this.textArea.addEventListener("keydown", this.saveOnEnterCallback);
-    if (this.textDirection === 2 /* Rtl */) {
-      this.textArea.setAttribute("dir", "rtl");
-    }
-    this._createResponse(this.contentEl);
+  hasClass(className) {
+    return this.counterEl.hasClass(className);
   }
-  /**
-   * Opens the EditModal
-   */
-  onOpen() {
-    super.onOpen();
-    this.textArea.focus();
+  addClass(className) {
+    this.counterEl.addClass(className);
   }
-  /**
-   * Closes the EditModal
-   */
-  onClose() {
-    super.onClose();
-    this.resolveInput();
-    this.removeInputListener();
-  }
-  save() {
-    this.didSaveChanges = true;
-    this.changedText = this.textArea.value;
-    this.close();
-  }
-  cancel() {
-    this.close();
-  }
-  resolveInput() {
-    if (!this.didSaveChanges) this.rejectPromise(t("NO_INPUT"));
-    else this.resolvePromise(this.changedText);
-  }
-  removeInputListener() {
-    this.textArea.removeEventListener("keydown", this.saveOnEnterCallback);
-  }
-  // -> Response section
-  _createSaveButton(container) {
-    this.saveButton = new import_obsidian14.ButtonComponent(container);
-    this.saveButton.setClass("sr-response-button");
-    this.saveButton.setClass("sr-save-button");
-    this.saveButton.setClass("sr-bg-green");
-    this.saveButton.setButtonText(t("SAVE"));
-    this.saveButton.onClick((evt) => {
-      this.saveClickCallback(evt);
-    });
-  }
-  _createCancelButton(container) {
-    this.cancelButton = new import_obsidian14.ButtonComponent(container);
-    this.cancelButton.setClass("sr-response-button");
-    this.cancelButton.setClass("sr-cancel-button");
-    this.cancelButton.setClass("sr-bg-red");
-    this.cancelButton.setButtonText(t("CANCEL"));
-    this.cancelButton.onClick((evt) => {
-      this.cancelClickCallback(evt);
-    });
-  }
-  _createSpacerButton(container) {
-    const button = container.createEl("button");
-    button.addClasses(["sr-response-button", "sr-dummy-button"]);
-    button.setText("");
-  }
-  _createResponse(mainContentContainer) {
-    const response = mainContentContainer.createDiv();
-    response.addClass("sr-response");
-    this._createCancelButton(response);
-    this._createSpacerButton(response);
-    this._createSaveButton(response);
+  removeClass(className) {
+    this.counterEl.removeClass(className);
   }
 };
 
-// src/ui/obsidian-ui-components/modals/sr-modal-view.tsx
-var SRModalView = class extends import_obsidian15.Modal {
-  constructor(app, plugin, settings, reviewSequencer, reviewMode) {
-    super(app);
-    this.plugin = plugin;
-    this.settings = settings;
-    this.reviewSequencer = reviewSequencer;
-    this.reviewMode = reviewMode;
-    if (import_obsidian15.Platform.isMobile || EmulatedPlatform().isMobile) {
-      this.modalEl.style.height = this.settings.flashcardHeightPercentageMobile + "%";
-      this.modalEl.style.maxHeight = this.settings.flashcardHeightPercentageMobile + "%";
-      this.modalEl.style.width = this.settings.flashcardWidthPercentageMobile + "%";
-      this.modalEl.style.maxWidth = this.settings.flashcardWidthPercentageMobile + "%";
-    } else {
-      this.modalEl.style.height = this.settings.flashcardHeightPercentage + "%";
-      this.modalEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
-      this.modalEl.style.width = this.settings.flashcardWidthPercentage + "%";
-      this.modalEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
-    }
-    this.modalEl.setAttribute("id", "sr-modal-view");
-    this.modalEl.addClass("sr-view");
-    if (parseInt(this.modalEl.style.height.split("%")[0]) >= 100 || parseInt(this.modalEl.style.width.split("%")[0]) >= 100) {
-      this.modalEl.style.borderRadius = "0";
-    }
-    this.contentEl.addClass("sr-modal-content");
-    this.deckContainer = new DeckContainer(
-      this.plugin,
-      this.settings,
-      this.reviewSequencer,
-      this.contentEl.createDiv(),
-      this._startReviewOfDeck.bind(this),
-      this.close.bind(this)
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/deck-info/progress-counter-component.tsx
+var ProgressCounterComponent = class extends CounterComponent {
+  constructor(parentEl, iconId, progress = 0, total = 0, classNames = []) {
+    super(parentEl, iconId, classNames);
+    this.setProgress(progress, total);
+  }
+  setProgress(progress, total) {
+    this.setText(`${progress}/${total}`);
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/deck-info/deck-info.tsx
+var DeckInfoComponent = class {
+  constructor(parentEl) {
+    this.deckInfoContainer = parentEl.createDiv();
+    this.deckInfoContainer.addClass("sr-info-section");
+    this.chosenDeckInfo = this.deckInfoContainer.createDiv();
+    this.chosenDeckInfo.addClass("sr-deck-info");
+    this.chosenDeckInfo.addClass("sr-bg-blue");
+    this.chosenDeckInfo.addClass("sr-chosen-deck-info");
+    this.chosenDeckName = this.chosenDeckInfo.createDiv();
+    this.chosenDeckName.addClass("sr-deck-name");
+    this.chosenDeckCounterDivider = this.chosenDeckInfo.createDiv();
+    this.chosenDeckCounterDivider.addClass("sr-divider");
+    this.chosenDeckCardCounter = new ProgressCounterComponent(
+      this.chosenDeckInfo,
+      "credit-card",
+      0,
+      0
     );
-    this.cardContainer = new CardContainer(
-      this.app,
-      this.plugin,
-      this.settings,
-      this.reviewSequencer,
-      this.reviewMode,
-      this.contentEl.createDiv(),
-      this._showDecksList.bind(this),
-      this._doEditQuestionText.bind(this),
-      this.close.bind(this)
+    this.chosenDeckSubDeckCounter = new ProgressCounterComponent(
+      this.chosenDeckInfo,
+      "layers",
+      0,
+      0
+    );
+    this.deckPointer = this.deckInfoContainer.createDiv();
+    (0, import_obsidian12.setIcon)(this.deckPointer, "chevron-right");
+    this.deckPointer.addClass("sr-deck-pointer");
+    this.currentDeckInfo = this.deckInfoContainer.createDiv();
+    this.currentDeckInfo.addClass("sr-deck-info");
+    this.currentDeckInfo.addClass("sr-bg-blue");
+    this.currentDeckInfo.addClass("sr-current-deck-info");
+    this.currentDeckName = this.currentDeckInfo.createDiv();
+    this.currentDeckName.addClass("sr-deck-name");
+    this.currentDeckCounterDivider = this.currentDeckInfo.createDiv();
+    this.currentDeckCounterDivider.addClass("sr-divider");
+    this.currentDeckCardCounter = new ProgressCounterComponent(
+      this.currentDeckInfo,
+      "credit-card",
+      0,
+      0
     );
   }
-  onOpen() {
-    const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
-      this.reviewSequencer.originalDeckTree
+  updateInfo(chosenDeckName, totalCardsInChosenDeck, cardProgressInChosenDeck, totalDecksInChosenDeck, deckProgressInChosenDeck, currentDeckName, currentDeckTotalCardsInDeck, cardProgressInCurrentDeck, isTotallyRandom) {
+    this.chosenDeckName.setText(chosenDeckName);
+    this.chosenDeckCardCounter.setProgress(cardProgressInChosenDeck, totalCardsInChosenDeck);
+    this.chosenDeckSubDeckCounter.setProgress(deckProgressInChosenDeck, totalDecksInChosenDeck);
+    this.currentDeckName.setText(currentDeckName);
+    this.currentDeckCardCounter.setProgress(
+      cardProgressInCurrentDeck,
+      currentDeckTotalCardsInDeck
     );
-    let openImmediately = false;
-    let deckWithCards = null;
-    for (const subdeck of subdecksWithCardsInQueue) {
-      const hasNewCards = subdeck.newFlashcards.length > 0;
-      const hasDueCards = subdeck.dueFlashcards.length > 0;
-      const hasDueCardsToday = hasDueCards && subdeck.dueFlashcards.some((card) => {
-        const dueDate = card.scheduleInfo.dueDateAsUnix;
-        const today = globalDateProvider.today.valueOf();
-        return dueDate < today;
+    const hideCurrentDeckInfo = chosenDeckName === currentDeckName || totalDecksInChosenDeck === 1;
+    const hideCurrentDeckCardCounter = isTotallyRandom;
+    const hideSubdeckCounter = totalDecksInChosenDeck === 1;
+    const hideChosenDeckName = !hideCurrentDeckInfo;
+    const hideDeckPointer = hideCurrentDeckInfo;
+    const hideChosenDeckDivider = hideChosenDeckName;
+    const hideCurrentDeckDivider = hideCurrentDeckCardCounter;
+    if (hideChosenDeckName) {
+      if (!this.chosenDeckName.hasClass("sr-is-hidden")) {
+        this.chosenDeckName.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.chosenDeckName.hasClass("sr-is-hidden")) {
+        this.chosenDeckName.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideChosenDeckDivider) {
+      if (!this.chosenDeckCounterDivider.hasClass("sr-is-hidden")) {
+        this.chosenDeckCounterDivider.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.chosenDeckCounterDivider.hasClass("sr-is-hidden")) {
+        this.chosenDeckCounterDivider.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideSubdeckCounter) {
+      if (!this.chosenDeckSubDeckCounter.hasClass("sr-is-hidden")) {
+        this.chosenDeckSubDeckCounter.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.chosenDeckSubDeckCounter.hasClass("sr-is-hidden")) {
+        this.chosenDeckSubDeckCounter.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideDeckPointer) {
+      if (!this.deckPointer.hasClass("sr-is-hidden")) {
+        this.deckPointer.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.deckPointer.hasClass("sr-is-hidden")) {
+        this.deckPointer.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideCurrentDeckInfo) {
+      if (!this.currentDeckInfo.hasClass("sr-is-hidden")) {
+        this.currentDeckInfo.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.currentDeckInfo.hasClass("sr-is-hidden")) {
+        this.currentDeckInfo.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideCurrentDeckDivider) {
+      if (!this.currentDeckCounterDivider.hasClass("sr-is-hidden")) {
+        this.currentDeckCounterDivider.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.currentDeckCounterDivider.hasClass("sr-is-hidden")) {
+        this.currentDeckCounterDivider.removeClass("sr-is-hidden");
+      }
+    }
+    if (hideCurrentDeckCardCounter) {
+      if (!this.currentDeckCardCounter.hasClass("sr-is-hidden")) {
+        this.currentDeckCardCounter.addClass("sr-is-hidden");
+      }
+    } else {
+      if (this.currentDeckCardCounter.hasClass("sr-is-hidden")) {
+        this.currentDeckCardCounter.removeClass("sr-is-hidden");
+      }
+    }
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/back-button.tsx
+var BackButtonComponent = class extends SRButtonComponent {
+  constructor(container, backToDeck, classNames) {
+    super(container, {
+      classNames: ["sr-back-button", ...classNames != null ? classNames : []],
+      icon: "arrow-left",
+      tooltip: t("BACK"),
+      onClick: () => {
+        backToDeck();
+      }
+    });
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/card-menu-button.tsx
+var import_obsidian13 = require("obsidian");
+
+// src/ui/obsidian-ui-components/content-container/menu-button.tsx
+var MenuButtonComponent = class extends SRButtonComponent {
+  constructor(container, openMenu, classNames) {
+    super(container, {
+      classNames: ["sr-menu-dots-button", ...classNames != null ? classNames : []],
+      icon: "ellipsis-vertical",
+      tooltip: t("OPEN_MENU"),
+      onClick: (evt) => {
+        openMenu(evt);
+      }
+    });
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/card-menu-button.tsx
+var CardMenuButtonComponent = class extends MenuButtonComponent {
+  constructor(container, isExtended, showDeleteButton, isModal, isResetButtonDisabled, deleteCurrentCard, editClickHandler, jumpToCurrentCard, displayCurrentCardInfoNotice, skipCurrentCard, onOpenResetModalClick, closeModal, classNames) {
+    super(
+      container,
+      (evt) => {
+        const cardMenu = new import_obsidian13.Menu();
+        this.buildMenu(
+          cardMenu,
+          showDeleteButton,
+          isModal,
+          isExtended,
+          editClickHandler,
+          onOpenResetModalClick,
+          skipCurrentCard,
+          jumpToCurrentCard,
+          displayCurrentCardInfoNotice,
+          deleteCurrentCard,
+          closeModal
+        );
+        cardMenu.showAtMouseEvent(evt);
+      },
+      classNames
+    );
+    this.isResetButtonDisabled = isResetButtonDisabled;
+  }
+  setResetButtonDisabled(disabled) {
+    this.isResetButtonDisabled = disabled;
+  }
+  buildMenu(cardMenu, showDeleteButton, isModal, isExtended, editClickHandler, onOpenResetModalClick, skipCurrentCard, jumpToCurrentCard, displayCurrentCardInfoNotice, deleteCurrentCard, closeModal) {
+    if (isExtended) {
+      cardMenu.addItem((item) => {
+        item.setTitle(t("EDIT_CARD")).setIcon("pencil").onClick(() => {
+          editClickHandler();
+        });
       });
-      const hasCardsToday = hasNewCards || hasDueCardsToday;
-      if (openImmediately && (hasCardsToday || this.reviewMode === 0 /* Cram */)) {
-        openImmediately = false;
-        break;
-      }
-      if (hasCardsToday || this.reviewMode === 0 /* Cram */) {
-        openImmediately = true;
-        deckWithCards = subdeck;
-      }
+      cardMenu.addItem((item) => {
+        item.setTitle(t("RESET_CARD_PROGRESS")).setIcon("reset").onClick(() => {
+          onOpenResetModalClick();
+        }).setDisabled(this.isResetButtonDisabled);
+      });
+      cardMenu.addItem((item) => {
+        item.setTitle(t("SKIP")).setIcon("chevrons-right").onClick(() => {
+          skipCurrentCard();
+        });
+      });
     }
-    if (openImmediately) {
-      this._showFlashcard(deckWithCards);
+    if (isModal) {
+      cardMenu.addItem((item) => {
+        item.setTitle(t("OPEN_IN_BACKGROUND")).setIcon("send-to-back").onClick(() => {
+          jumpToCurrentCard();
+        });
+      });
+      cardMenu.addItem((item) => {
+        item.setTitle(t("JUMP_TO_AND_CLOSE")).setIcon("arrow-up-right").onClick(() => {
+          jumpToCurrentCard();
+          if (closeModal) {
+            closeModal();
+          }
+        });
+      });
     } else {
-      this._showDecksList();
+      cardMenu.addItem((item) => {
+        item.setTitle(t("JUMP_TO")).setIcon("arrow-up-right").onClick(() => {
+          jumpToCurrentCard();
+        });
+      });
+    }
+    cardMenu.addItem((item) => {
+      item.setTitle(t("VIEW_CARD_INFO")).setIcon("info").onClick(() => {
+        displayCurrentCardInfoNotice();
+      });
+    });
+    if (showDeleteButton) {
+      cardMenu.addItem((item) => {
+        item.setTitle(t("DELETE_CARD")).setIcon("trash").onClick(() => {
+          deleteCurrentCard();
+        });
+      });
     }
   }
-  onClose() {
-    this.plugin.uiManager.setSRViewInFocus(false);
-    this.mode = 3 /* Closed */;
-    this.deckContainer.close();
-    this.cardContainer.close();
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/edit-button.tsx
+var EditButtonComponent = class extends SRButtonComponent {
+  constructor(container, editClickHandler, classNames) {
+    super(container, {
+      classNames: ["sr-edit-button", ...classNames != null ? classNames : []],
+      icon: "edit",
+      tooltip: t("EDIT_CARD"),
+      onClick: () => {
+        editClickHandler();
+      }
+    });
   }
-  _showDecksList() {
-    this._hideFlashcard();
-    this.deckContainer.show();
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/reset-button.tsx
+var ResetButtonComponent = class extends SRButtonComponent {
+  constructor(container, onOpenResetModalClick, classNames) {
+    super(container, {
+      classNames: ["sr-reset-button", "mod-warning", ...classNames != null ? classNames : []],
+      icon: "history",
+      tooltip: t("RESET_CARD_PROGRESS"),
+      onClick: onOpenResetModalClick
+    });
   }
-  _hideDecksList() {
-    this.deckContainer.hide();
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/skip-button.tsx
+var SkipButtonComponent = class extends SRButtonComponent {
+  constructor(container, skipClickHandler, classNames) {
+    super(container, {
+      classNames: ["sr-skip-button", ...classNames != null ? classNames : []],
+      icon: "chevrons-right",
+      tooltip: t("SKIP"),
+      onClick: () => {
+        skipClickHandler();
+      }
+    });
   }
-  _showFlashcard(deck) {
-    this._hideDecksList();
-    this.cardContainer.show(deck);
+};
+
+// src/ui/obsidian-ui-components/content-container/modal-close-button.tsx
+var ModalCloseButtonComponent = class extends SRButtonComponent {
+  constructor(container, closeModal, classNames) {
+    super(container, {
+      classNames: ["sr-modal-close-button", ...classNames != null ? classNames : []],
+      icon: "x",
+      tooltip: t("CLOSE"),
+      onClick: () => {
+        closeModal();
+      }
+    });
   }
-  _hideFlashcard() {
-    this.cardContainer.hide();
-  }
-  _startReviewOfDeck(deck) {
-    this.reviewSequencer.setCurrentDeck(deck.getTopicPath());
-    if (this.reviewSequencer.hasCurrentCard) {
-      this._showFlashcard(deck);
-    } else {
-      this._showDecksList();
-    }
-  }
-  async _doEditQuestionText() {
-    const currentQ = this.reviewSequencer.currentQuestion;
-    const textPrompt = currentQ.questionText.actualQuestion;
-    const editModal = FlashcardEditModal.Prompt(
-      this.app,
-      textPrompt,
-      currentQ.questionText.textDirection
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar.tsx
+var CardToolbarComponent = class {
+  constructor(parentEl, showDeleteButton, deleteCurrentCard, backToDeckHandler, editClickHandler, jumpToCurrentCard, displayCurrentCardInfoNotice, skipCurrentCard, onOpenResetModalClick, closeModal) {
+    this.toolbar = parentEl.createDiv();
+    this.toolbar.addClass("sr-card-toolbar");
+    const isModal = closeModal !== void 0;
+    new BackButtonComponent(this.toolbar, () => backToDeckHandler(), [
+      (EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone) && isModal ? "mod-raised" : "clickable-icon"
+    ]);
+    const centerSpacer = this.toolbar.createDiv();
+    centerSpacer.addClass("sr-flex-spacer");
+    centerSpacer.addClass("sr-center-spacer");
+    this.infoSection = new DeckInfoComponent(this.toolbar);
+    this.toolbar.createDiv().addClass("sr-flex-spacer");
+    new EditButtonComponent(
+      this.toolbar,
+      editClickHandler,
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? ["mod-raised"] : ["clickable-icon"]
     );
-    editModal.then(async (modifiedCardText) => {
-      this.reviewSequencer.updateCurrentQuestionText(modifiedCardText);
-    }).catch((reason) => console.log(reason));
+    this.resetButton = new ResetButtonComponent(
+      this.toolbar,
+      onOpenResetModalClick,
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? ["mod-raised"] : ["clickable-icon"]
+    );
+    this.resetButton.setDisabled(true);
+    new SkipButtonComponent(
+      this.toolbar,
+      () => skipCurrentCard(),
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? ["mod-raised"] : ["clickable-icon"]
+    );
+    this.toolbar.createDiv("sr-divider");
+    this.shortMenuButton = new CardMenuButtonComponent(
+      this.toolbar,
+      false,
+      // isExtended = false
+      showDeleteButton,
+      isModal,
+      this.resetButton.disabled,
+      deleteCurrentCard,
+      editClickHandler,
+      jumpToCurrentCard,
+      displayCurrentCardInfoNotice,
+      skipCurrentCard,
+      onOpenResetModalClick,
+      closeModal,
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? ["mod-raised", "sr-short-menu-button"] : ["clickable-icon", "sr-short-menu-button"]
+    );
+    this.extendedMenuButton = new CardMenuButtonComponent(
+      this.toolbar,
+      true,
+      // isExtended = true
+      showDeleteButton,
+      isModal,
+      this.resetButton.disabled,
+      deleteCurrentCard,
+      editClickHandler,
+      jumpToCurrentCard,
+      displayCurrentCardInfoNotice,
+      skipCurrentCard,
+      onOpenResetModalClick,
+      closeModal,
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? ["mod-raised", "sr-extended-menu-button"] : ["clickable-icon", "sr-extended-menu-button"]
+    );
+    if (closeModal === void 0) return;
+    const closeButtonClasses = [
+      EmulatedPlatform().isPhone || import_obsidian14.Platform.isPhone ? "mod-raised" : "clickable-icon"
+    ];
+    new ModalCloseButtonComponent(this.toolbar, closeModal, closeButtonClasses);
+  }
+  /**
+   * Updates the deck info section
+   * @param chosenDeck - The chosen deck
+   * @param currentDeck - The current deck
+   * @param chosenDeckStats - The stats of the chosen deck
+   * @param currentDeckStats - The stats of the current deck
+   * @param totalCardsInSession - The total number of cards in the session
+   * @param totalDecksInSession - The total number of decks in the session
+   * @param currentDeckTotalCardsInQueue - The total number of cards in the current deck
+   * @param settings - The settings object
+   */
+  updateInfo(chosenDeck, currentDeck, chosenDeckStats, currentDeckStats, totalCardsInSession, totalDecksInSession, currentDeckTotalCardsInQueue, flashcardCardOrder) {
+    this.infoSection.updateInfo(
+      chosenDeck.deckName,
+      totalCardsInSession,
+      totalCardsInSession - chosenDeckStats.cardsInQueueCount,
+      totalDecksInSession,
+      totalDecksInSession - chosenDeckStats.decksInQueueOfThisDeckCount,
+      currentDeck.deckName,
+      currentDeckTotalCardsInQueue,
+      currentDeckTotalCardsInQueue - currentDeckStats.cardsInQueueOfThisDeckCount,
+      flashcardCardOrder === "EveryCardRandomDeckAndCard"
+    );
+  }
+  /**
+   * Sets the reset button disabled state
+   * @param disabled - The disabled state
+   */
+  setResetButtonDisabled(disabled) {
+    this.resetButton.buttonEl.toggleClass("mod-disabled", disabled);
+    this.extendedMenuButton.setResetButtonDisabled(disabled);
+    this.shortMenuButton.setResetButtonDisabled(disabled);
   }
 };
 
 // src/utils/renderers.ts
-var import_obsidian16 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 var RenderMarkdownWrapper = class {
   constructor(app, plugin, notePath) {
     this.app = app;
@@ -15309,83 +17382,51 @@ var RenderMarkdownWrapper = class {
       el = containerEl.createDiv();
       el.setAttribute("dir", "rtl");
     } else el = containerEl;
-    import_obsidian16.MarkdownRenderer.render(this.app, markdownString, el, this.notePath, this.plugin);
-    el.findAll(".internal-embed").forEach((el2) => {
-      const link2 = this.parseLink(el2.getAttribute("src"));
-      if (!link2.target) {
-        el2.innerText = link2.text;
-      } else if (link2.target instanceof import_obsidian16.TFile) {
-        if (link2.target.extension !== "md") {
-          this.embedMediaFile(el2, link2.target);
-        } else {
-        }
-      }
-    });
-  }
-  parseLink(src) {
-    const linkComponentsRegex = /^(?<file>[^#^]+)?(?:#(?!\^)(?<heading>.+)|#\^(?<blockId>.+)|#)?$/;
-    const matched = typeof src === "string" && src.match(linkComponentsRegex);
-    const file = matched.groups.file || this.notePath;
-    const target = this.plugin.app.metadataCache.getFirstLinkpathDest(file, this.notePath);
-    return {
-      text: matched[0],
-      file: matched.groups.file,
-      heading: matched.groups.heading,
-      blockId: matched.groups.blockId,
-      target
-    };
-  }
-  embedMediaFile(el, target) {
-    el.innerText = "";
-    if (IMAGE_FORMATS.includes(target.extension)) {
-      el.createEl(
-        "img",
-        {
-          attr: {
-            src: this.plugin.app.vault.getResourcePath(target)
-          }
-        },
-        (img) => {
-          if (el.hasAttribute("width"))
-            img.setAttribute("width", el.getAttribute("width"));
-          else img.setAttribute("width", "100%");
-          if (el.hasAttribute("alt")) img.setAttribute("alt", el.getAttribute("alt"));
-          el.addEventListener(
-            "click",
-            (ev) => ev.target.style.minWidth = ev.target.style.minWidth === "100%" ? null : "100%"
-          );
-        }
-      );
-      el.addClasses(["image-embed", "is-loaded"]);
-    } else if (AUDIO_FORMATS.includes(target.extension) || VIDEO_FORMATS.includes(target.extension)) {
-      el.createEl(
-        AUDIO_FORMATS.includes(target.extension) ? "audio" : "video",
-        {
-          attr: {
-            controls: "",
-            src: this.plugin.app.vault.getResourcePath(target)
-          }
-        },
-        (audio) => {
-          if (el.hasAttribute("alt")) audio.setAttribute("alt", el.getAttribute("alt"));
-        }
-      );
-      el.addClasses(["media-embed", "is-loaded"]);
-    } else {
-      el.innerText = target.path;
+    if (!el.hasClass("markdown-rendered")) {
+      el.addClass("markdown-rendered");
     }
+    const renderChild = new import_obsidian15.MarkdownRenderChild(el);
+    this.plugin.addChild(renderChild);
+    await import_obsidian15.MarkdownRenderer.render(this.app, markdownString, el, this.notePath, renderChild);
+    el.findAll(".internal-link").forEach((el2) => {
+      el2.addEventListener("click", (e2) => {
+        e2.preventDefault();
+        e2.stopPropagation();
+        const href = el2.getAttr("href") || el2.getAttr("data-href");
+        if (href) {
+          this.app.workspace.openLinkText(href, this.notePath, true);
+          return true;
+        }
+        return false;
+      });
+      el2.addEventListener("mouseover", (ev) => {
+        const href = el2.getAttr("href") || el2.getAttr("data-href");
+        if (href) {
+          this.app.workspace.trigger("hover-link", {
+            event: ev,
+            source: "preview",
+            hoverParent: this.plugin,
+            targetEl: el2,
+            linktext: href
+          });
+          return true;
+        }
+        return false;
+      });
+    });
   }
 };
 
 // src/ui/obsidian-ui-components/content-container/card-container/card-container.tsx
 var CardContainer = class {
-  constructor(app, plugin, settings, reviewSequencer, reviewMode, view, backToDeck, editClickHandler, closeModal) {
-    this.isActive = false;
-    this.totalCardsInSession = 0;
-    this.totalDecksInSession = 0;
-    this.currentDeckTotalCardsInQueue = 0;
+  constructor(app, plugin, settings, parentEl, deleteCurrentCard, backToDeckHandler, editCardHandler, processReviewHandler, skipCardHandler, showAnswerHandler, jumpToCurrentCardHandler, displayCurrentCardInfoNoticeHandler, closeModal) {
+    this.contextSection = null;
+    this.pendingClock = null;
+    this.pendingResumeTimeout = null;
+    this.clozeInputs = null;
+    this.clozeAnswers = null;
     this._keydownHandler = (e2) => {
-      if (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT" || this.mode === 3 /* Closed */ || !this.plugin.uiManager.getSRInFocusState() || import_obsidian17.Platform.isMobile || // No keyboard events on mobile
+      if (this.plugin.data.settings.useCustomHotkeys || document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT") || this.cardState === 2 /* Closed */ || !this.plugin.uiManager.getSRInFocusState() || import_obsidian16.Platform.isMobile || // No keyboard events on mobile
       EmulatedPlatform().isMobile) {
         return;
       }
@@ -15395,50 +17436,50 @@ var CardContainer = class {
       };
       switch (e2.code) {
         case "KeyS":
-          this._skipCurrentCard();
+          this.skipCardHandler();
           consumeKeyEvent();
           break;
         case "Enter":
         case "NumpadEnter":
         case "Space":
-          if (this.mode === 1 /* Front */) {
-            this._showAnswer();
+          if (this.cardState === 0 /* Front */) {
+            this.showAnswerHandler();
             consumeKeyEvent();
-          } else if (this.mode === 2 /* Back */) {
-            this._processReview(1 /* Good */);
+          } else if (this.cardState === 1 /* Back */) {
+            this.processReviewHandler(1 /* Good */);
             consumeKeyEvent();
           }
           break;
         case "Numpad1":
         case "Digit1":
-          if (this.mode !== 2 /* Back */) {
+          if (this.cardState !== 1 /* Back */) {
             break;
           }
-          this._processReview(2 /* Hard */);
+          this.processReviewHandler(2 /* Hard */);
           consumeKeyEvent();
           break;
         case "Numpad2":
         case "Digit2":
-          if (this.mode !== 2 /* Back */) {
+          if (this.cardState !== 1 /* Back */) {
             break;
           }
-          this._processReview(1 /* Good */);
+          this.processReviewHandler(1 /* Good */);
           consumeKeyEvent();
           break;
         case "Numpad3":
         case "Digit3":
-          if (this.mode !== 2 /* Back */) {
+          if (this.cardState !== 1 /* Back */) {
             break;
           }
-          this._processReview(0 /* Easy */);
+          this.processReviewHandler(0 /* Easy */);
           consumeKeyEvent();
           break;
         case "Numpad0":
         case "Digit0":
-          if (this.mode !== 2 /* Back */) {
+          if (this.cardState !== 1 /* Back */) {
             break;
           }
-          this._processReview(4 /* Reset */);
+          this.processReviewHandler(4 /* Reset */);
           consumeKeyEvent();
           break;
         default:
@@ -15447,92 +17488,73 @@ var CardContainer = class {
     };
     this.app = app;
     this.plugin = plugin;
-    this.settings = settings;
-    this.reviewSequencer = reviewSequencer;
-    this.reviewMode = reviewMode;
-    this.backToDeck = backToDeck;
-    this.editClickHandler = editClickHandler;
-    this.view = view;
-    this.chosenDeck = null;
-    this.closeModal = closeModal;
-    this.init();
-  }
-  // #region -> public methods
-  /**
-   * Initializes all static elements in the FlashcardView
-   */
-  init() {
+    this.cardState = 2 /* Closed */;
+    this.processReviewHandler = processReviewHandler;
+    this.skipCardHandler = skipCardHandler;
+    this.showAnswerHandler = showAnswerHandler;
+    this.backToDeckHandler = backToDeckHandler;
+    this.view = parentEl.createDiv();
     this.view.addClasses(["sr-container", "sr-card-container", "sr-is-hidden"]);
-    this.controls = new ControlsComponent(
+    this.setCustomHotKeyState(settings.useCustomHotkeys);
+    this.toolbar = new CardToolbarComponent(
       this.view,
-      !this.settings.openViewInNewTab,
-      this.app,
-      () => this.backToDeck(),
-      () => this.editClickHandler(),
-      async (response) => await this._processReview(response),
-      () => this._displayCurrentCardInfoNotice(),
-      () => this._skipCurrentCard(),
-      this._jumpToCurrentCard.bind(this),
-      this.closeModal ? this.closeModal.bind(this) : void 0
+      settings.showDeleteButtonInCardView,
+      deleteCurrentCard,
+      backToDeckHandler,
+      editCardHandler,
+      jumpToCurrentCardHandler,
+      displayCurrentCardInfoNoticeHandler,
+      this.skipCardHandler,
+      () => {
+        new ConfirmationModal(
+          app,
+          t("DELETE_SCHEDULING_DATA_OF_CURRENT_CARD"),
+          t("CONFIRM_SCHEDULING_DATA_DELETION_OF_CURRENT_CARD"),
+          t("SCHEDULING_DATA_DELETION_IN_PROGRESS_OF_CURRENT_CARD"),
+          async () => {
+            await this.processReviewHandler(4 /* Reset */);
+          }
+        ).open();
+      },
+      closeModal
     );
-    this.mainWrapper = this.view.createDiv();
-    this.mainWrapper.addClass("sr-main-wrapper");
-    this.infoSection = new InfoSectionComponent(
-      this.mainWrapper,
-      this.settings.showContextInCards,
-      () => this.backToDeck(),
-      this.closeModal ? this.closeModal.bind(this) : void 0
-    );
-    this.scrollWrapper = this.mainWrapper.createDiv();
+    this.scrollWrapper = this.view.createDiv();
     this.scrollWrapper.addClass("sr-scroll-wrapper");
     this.content = this.scrollWrapper.createDiv();
     this.content.addClass("sr-content");
     this.response = new ResponseSectionComponent(
-      this.mainWrapper,
-      this.settings,
-      () => this._showAnswer(),
-      (response) => this._processReview(response)
+      this.view,
+      settings,
+      this.showAnswerHandler,
+      this.processReviewHandler
     );
   }
+  // #region -> public methods
   /**
    * Shows the FlashcardView if it is hidden
    */
-  async show(chosenDeck) {
+  async openSession(sessionData, settings) {
     if (!this.view.hasClass("sr-is-hidden")) {
       return;
     }
-    this.chosenDeck = chosenDeck;
-    const deckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
-    this.totalCardsInSession = deckStats.cardsInQueueCount;
-    this.totalDecksInSession = deckStats.decksInQueueOfThisDeckCount;
-    await this._drawContent();
+    await this.drawCardFront(sessionData, settings);
     this.view.removeClass("sr-is-hidden");
-    this.isActive = true;
     document.addEventListener("keydown", this._keydownHandler);
-  }
-  /**
-   * Refreshes all dynamic elements
-   */
-  async refresh() {
-    await this._drawContent();
   }
   /**
    * Hides the FlashcardView if it is visible
    */
-  hide() {
+  closeSession() {
     if (this.view.hasClass("sr-is-hidden")) {
       return;
     }
+    if (this.pendingResumeTimeout !== null) {
+      window.clearTimeout(this.pendingResumeTimeout);
+      this.pendingResumeTimeout = null;
+    }
+    this.cardState = 2 /* Closed */;
     document.removeEventListener("keydown", this._keydownHandler);
     this.view.addClass("sr-is-hidden");
-    this.isActive = false;
-  }
-  /**
-   * Closes the FlashcardView
-   */
-  close() {
-    this.hide();
-    document.removeEventListener("keydown", this._keydownHandler);
   }
   /**
    * Blocks the key input to the FlashcardView
@@ -15546,119 +17568,107 @@ var CardContainer = class {
       document.removeEventListener("keydown", this._keydownHandler);
     }
   }
-  // #region -> Functions & helpers
-  async _drawContent() {
-    this.controls.resetButton.disabled = true;
-    this.mode = 1 /* Front */;
-    this.previousDeck = this.currentDeck;
-    this.currentDeck = this.reviewSequencer.currentDeck;
-    if (this.previousDeck !== this.currentDeck) {
-      const currentDeckStats = this.reviewSequencer.getDeckStats(
-        this.currentDeck.getTopicPath()
-      );
-      this.currentDeckTotalCardsInQueue = currentDeckStats.cardsInQueueOfThisDeckCount;
-    }
-    this._updateInfoBar(this.chosenDeck, this.currentDeck);
+  async drawCardFront(sessionData, settings) {
+    this.toolbar.setResetButtonDisabled(true);
+    this.cardState = sessionData.cardData.currentCardState;
+    this._updateInfoBar(sessionData, settings.flashcardCardOrder);
     this.content.empty();
+    if (settings.showContextInCards) {
+      this.contextSection = new ContextSectionComponent(this.content);
+      this.contextSection.updateCardContext(
+        settings.showContextInCards,
+        sessionData.currentQuestion,
+        sessionData.currentNote
+      );
+    }
     const wrapper = new RenderMarkdownWrapper(
       this.app,
       this.plugin,
-      this._currentNote.filePath
+      sessionData.currentNote.filePath
     );
     await wrapper.renderMarkdownWrapper(
-      this._currentCard.front.trimStart(),
+      sessionData.cardData.currentCard.front.trimStart(),
       this.content,
-      this._currentQuestion.questionText.textDirection
+      sessionData.currentQuestion.questionText.textDirection
     );
     this.content.scrollTop = 0;
     this.response.resetResponseButtons();
     this._setupClozeInputListeners();
-  }
-  get _currentCard() {
-    return this.reviewSequencer.currentCard;
-  }
-  get _currentQuestion() {
-    return this.reviewSequencer.currentQuestion;
-  }
-  get _currentNote() {
-    return this.reviewSequencer.currentNote;
-  }
-  async _processReview(response) {
-    const timeNow = (0, import_moment4.now)();
-    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
-      return;
+    if (sessionData.currentQuestion.questionType === 4 /* Cloze */) {
+      const firstInput = document.querySelector(".cloze-input");
+      if (firstInput) {
+        firstInput.focus();
+      }
     }
-    this.lastPressed = timeNow;
-    await this.reviewSequencer.processReview(response);
-    await this._showNextCard();
   }
-  async _showNextCard() {
-    if (this._currentCard !== null && this._currentCard !== void 0) await this.refresh();
-    else this.backToDeck();
-  }
-  // #region -> Controls
-  async _skipCurrentCard() {
-    this.reviewSequencer.skipCurrentCard();
-    await this._showNextCard();
-  }
-  _displayCurrentCardInfoNotice() {
-    new CardInfoNotice(this._currentCard.scheduleInfo, this._currentQuestion.note.filePath);
-  }
-  async _jumpToCurrentCard() {
-    var _a2;
-    const currentQuestion = this.reviewSequencer.currentQuestion;
-    if (!currentQuestion) return;
-    if (!this.settings.openViewInNewTab && !(import_obsidian17.Platform.isMobile || EmulatedPlatform().isMobile) || !this.settings.openViewInNewTabMobile && (import_obsidian17.Platform.isMobile || EmulatedPlatform().isMobile)) {
-      new import_obsidian17.Notice("Note was opened in new tab in the background");
-    }
-    const file = currentQuestion.note.file.tfile;
-    const blockId = currentQuestion.questionText.obsidianBlockId;
-    const line = Math.max(0, (_a2 = currentQuestion.lineNo) != null ? _a2 : 0);
-    if (blockId) {
-      await this.app.workspace.openLinkText(`${file.path}#${blockId}`, file.path, false);
-      return;
-    }
-    const leaf = this.app.workspace.getLeaf("tab");
-    await leaf.openFile(file, { eState: { line } });
-    const markdownView = leaf.view;
-    if (markdownView == null ? void 0 : markdownView.editor) {
-      markdownView.editor.setCursor({ line, ch: 0 });
-      markdownView.editor.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } });
-    }
+  drawPendingState(nextPendingDueUnix) {
+    this.toolbar.setResetButtonDisabled(true);
+    this.cardState = 0 /* Front */;
+    this.content.empty();
+    this.response.hideAllButtons();
+    this.pendingClock = this.content.createDiv({
+      cls: "sr-centered"
+    });
+    const updatePendingClock = () => {
+      var _a2;
+      const startTime = (0, import_moment7.default)();
+      const endTime = (0, import_moment7.default)(nextPendingDueUnix);
+      const duration = import_moment7.default.duration(endTime.diff(startTime));
+      const hours = Math.floor(duration.asHours());
+      const minutes = duration.minutes();
+      const seconds = duration.seconds();
+      const formatted = `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      (_a2 = this.pendingClock) == null ? void 0 : _a2.setText(
+        `Waiting for the next FSRS review step. Next card due in ${formatted} (HH:mm:ss).`
+      );
+      this.pendingResumeTimeout = window.setTimeout(() => {
+        updatePendingClock();
+      }, 1e3);
+    };
+    updatePendingClock();
   }
   // #region -> Deck Info
-  _updateInfoBar(chosenDeck, currentDeck) {
-    const currentDeckStats = this.reviewSequencer.getDeckStats(currentDeck.getTopicPath());
-    const chosenDeckStats = this.reviewSequencer.getDeckStats(chosenDeck.getTopicPath());
-    this.infoSection.updateChosenDeckInfo(
-      chosenDeck,
-      chosenDeckStats,
-      this.totalCardsInSession,
-      this.totalDecksInSession
-    );
-    this.infoSection.updateCurrentDeckInfo(
-      chosenDeck,
-      currentDeck,
-      currentDeckStats,
-      this.settings.flashcardCardOrder,
-      this.currentDeckTotalCardsInQueue
-    );
-    this.infoSection.updateCardContext(
-      this.settings.showContextInCards,
-      this._currentQuestion,
-      this._currentNote
+  setCustomHotKeyState(state) {
+    if (state) {
+      if (!this.view.hasClass("sr-custom-hotkeys")) {
+        this.view.addClass("sr-custom-hotkeys");
+      }
+    } else {
+      if (this.view.hasClass("sr-custom-hotkeys")) {
+        this.view.removeClass("sr-custom-hotkeys");
+      }
+    }
+  }
+  _updateInfoBar(sessionData, flashcardCardOrder) {
+    if (sessionData.deckData.chosenDeck === null || sessionData.deckData.currentDeck === null)
+      return;
+    this.toolbar.updateInfo(
+      sessionData.deckData.chosenDeck,
+      sessionData.deckData.currentDeck,
+      sessionData.deckData.chosenDeckStats,
+      sessionData.deckData.currentDeckStats,
+      sessionData.totalCardsInSession,
+      sessionData.totalDecksInSession,
+      sessionData.deckData.currentDeckTotalCardsInQueue,
+      flashcardCardOrder
     );
   }
   _setupClozeInputListeners() {
     this.clozeInputs = document.querySelectorAll(".cloze-input");
     this.clozeInputs.forEach((input) => {
-      input.addEventListener("change", (e2) => {
+      input.addEventListener("keydown", (e2) => {
+        if (e2.key === "Enter") {
+          e2.preventDefault();
+          e2.stopPropagation();
+          input.blur();
+          this.showAnswerHandler();
+        }
       });
     });
   }
   _evaluateClozeAnswers() {
     this.clozeAnswers = document.querySelectorAll(".cloze-answer");
-    if (this.clozeAnswers.length === this.clozeInputs.length) {
+    if (this.clozeInputs !== null && this.clozeAnswers.length === this.clozeInputs.length) {
       for (let i2 = 0; i2 < this.clozeAnswers.length; i2++) {
         const clozeInput = this.clozeInputs[i2];
         const clozeAnswer = this.clozeAnswers[i2];
@@ -15669,16 +17679,11 @@ var CardContainer = class {
       }
     }
   }
-  // #region -> Response
-  _showAnswer() {
-    const timeNow = (0, import_moment4.now)();
-    if (this.lastPressed && timeNow - this.lastPressed < this.plugin.data.settings.reviewButtonDelay) {
-      return;
-    }
-    this.lastPressed = timeNow;
-    this.mode = 2 /* Back */;
-    this.controls.resetButton.setDisabled(false);
-    if (this._currentQuestion.questionType !== 4 /* Cloze */) {
+  drawBack(sessionData, reviewMode, settings, determineButtonSchedule) {
+    this.setCustomHotKeyState(settings.useCustomHotkeys);
+    this.cardState = sessionData.cardData.currentCardState;
+    this.toolbar.setResetButtonDisabled(false);
+    if (sessionData.currentQuestion.questionType !== 4 /* Cloze */) {
       const hr = document.createElement("hr");
       this.content.appendChild(hr);
     } else {
@@ -15687,52 +17692,835 @@ var CardContainer = class {
     const wrapper = new RenderMarkdownWrapper(
       this.app,
       this.plugin,
-      this._currentNote.filePath
+      sessionData.currentNote.filePath
     );
     wrapper.renderMarkdownWrapper(
-      this._currentCard.back,
+      sessionData.cardData.currentCard.back,
       this.content,
-      this._currentQuestion.questionText.textDirection
+      sessionData.currentQuestion.questionText.textDirection
     );
     this._evaluateClozeAnswers();
     this.response.showRatingButtons(
-      this.reviewMode,
-      this.settings,
-      this.reviewSequencer,
-      this._currentCard
+      reviewMode,
+      settings.flashcardAgainText,
+      settings.flashcardHardText,
+      settings.flashcardGoodText,
+      settings.flashcardEasyText,
+      settings.showIntervalInReviewButtons,
+      determineButtonSchedule
+    );
+    this.plugin.uiManager.setSRViewInFocus(true);
+    this.response.againButton.buttonEl.focus();
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/card-container/toolbar/toolbar-buttons/card-info-notice.tsx
+var import_obsidian17 = require("obsidian");
+var CardInfoNotice = class extends import_obsidian17.Notice {
+  constructor(schedule, notePath) {
+    var _a2;
+    const currentEaseStr = t("CURRENT_EASE_HELP_TEXT") + ((_a2 = schedule == null ? void 0 : schedule.latestEase) != null ? _a2 : t("NEW"));
+    const currentIntervalStr = t("CURRENT_INTERVAL_HELP_TEXT") + formatScheduleInterval(schedule, false);
+    const generatedFromStr = t("CARD_GENERATED_FROM", {
+      notePath
+    });
+    super(currentEaseStr + "\n" + currentIntervalStr + "\n" + generatedFromStr);
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/deck-container/deck-list.tsx
+var DeckListComponent = class {
+  constructor(parentEl, startReviewOfDeck) {
+    this.startReviewOfDeck = startReviewOfDeck;
+    this.scrollWrapper = parentEl.createDiv();
+    this.scrollWrapper.addClass("sr-scroll-wrapper");
+    this.content = this.scrollWrapper.createDiv();
+    this.content.addClass("sr-content");
+    this.treeHeaderRow = this.content.createDiv();
+    this.treeHeaderRow.addClass("sr-tree-row");
+    this.treeHeaderRow.addClass("sr-header-row");
+    this.treeHeaderRow.addClass("tree-item");
+    this.treeHeaderRow.addClass("sr-tree-item-container");
+    this.treeHeaderRowSelf = this.treeHeaderRow.createDiv();
+    this.treeHeaderRowSelf.addClass("tree-item-self");
+    this.treeHeaderRowSelf.addClass("sr-tree-item-row");
+    this.treeHeaderRowInner = this.treeHeaderRowSelf.createDiv("tree-item-inner");
+    this.treeHeaderRowText = this.treeHeaderRowInner.createDiv("tag-pane-tag-text");
+    this.treeHeaderRowTextSpan = this.treeHeaderRowText.createSpan("tag-pane-tag-self");
+    this.treeHeaderRowTextSpan.addClass("sr-tree-row-text");
+    this.treeHeaderRowTextSpan.setText("Title");
+    this.treeHeaderRowNumbersWrapper = this.treeHeaderRowSelf.createDiv();
+    this.treeHeaderRowNumbersWrapper.addClasses([
+      "tree-item-flair-outer",
+      "sr-tree-stats-container"
+    ]);
+    this.treeHeaderRowNumbersWrapper.addClass("sr-tree-row-numbers-wrapper");
+    this.treeHeaderRowNumbersWrapper.addClass("sr-tree-stats-container");
+    this.dueCardsText = this.treeHeaderRowNumbersWrapper.createDiv();
+    this.dueCardsText.addClass("sr-tree-numbers-text");
+    this.dueCardsText.addClasses([
+      "tag-pane-tag-count",
+      "tree-item-flair",
+      "sr-tree-stats-count",
+      "sr-fg-green"
+    ]);
+    this.dueCardsText.setText(t("DUE"));
+    this.newCardsText = this.treeHeaderRowNumbersWrapper.createDiv();
+    this.newCardsText.addClass("sr-tree-numbers-text");
+    this.newCardsText.addClasses([
+      "tag-pane-tag-count",
+      "tree-item-flair",
+      "sr-tree-stats-count",
+      "sr-fg-blue"
+    ]);
+    this.newCardsText.setText(t("NEW"));
+    this.reviewedCardsText = this.treeHeaderRowNumbersWrapper.createDiv();
+    this.reviewedCardsText.addClass("sr-tree-numbers-text");
+    this.reviewedCardsText.addClasses([
+      "tag-pane-tag-count",
+      "tree-item-flair",
+      "sr-tree-stats-count",
+      "sr-fg-yellow"
+    ]);
+    this.reviewedCardsText.setText(t("SEEN"));
+    this.totalCardsText = this.treeHeaderRowNumbersWrapper.createDiv();
+    this.totalCardsText.addClass("sr-tree-numbers-text");
+    this.totalCardsText.addClasses([
+      "tag-pane-tag-count",
+      "tree-item-flair",
+      "sr-tree-stats-count",
+      "sr-fg-red"
+    ]);
+    this.totalCardsText.setText(t("TOTAL"));
+    this.treeContainer = this.content.createDiv("sr-tree-container");
+  }
+  /**
+   * Redraws the deck list.
+   * @param startReviewOfDeck - Callback for starting the review of a deck.
+   * @param settings - The settings object.
+   * @param reviewSequencer - The review sequencer object.
+   */
+  redraw(reviewSequencer, settings) {
+    this.treeContainer.empty();
+    const originDeckStats = reviewSequencer.getDeckStats(
+      reviewSequencer.originalDeckTree.getTopicPath()
+    );
+    this._crateTreeRow(
+      "All Decks",
+      originDeckStats,
+      0,
+      this.treeContainer,
+      false,
+      reviewSequencer.originalDeckTree,
+      this.startReviewOfDeck
+    );
+    for (const subdeck of reviewSequencer.originalDeckTree.subdecks) {
+      this._createTree(
+        subdeck,
+        this.treeContainer,
+        reviewSequencer,
+        settings,
+        this.startReviewOfDeck
+      );
+    }
+  }
+  _createTree(deck, parentEl, reviewSequencer, settings, startReviewOfDeck) {
+    const deckStats = reviewSequencer.getDeckStats(deck.getTopicPath());
+    const treeRowChildren = this._crateTreeRow(
+      deck.deckName,
+      deckStats,
+      deck.subdecks.length,
+      parentEl,
+      settings.initiallyExpandAllSubdecksInTree,
+      deck,
+      startReviewOfDeck
+    );
+    for (const subdeck of deck.subdecks) {
+      this._createTree(
+        subdeck,
+        treeRowChildren,
+        reviewSequencer,
+        settings,
+        startReviewOfDeck
+      );
+    }
+  }
+  _crateTreeRow(deckName, deckStats, numOfSubdecks, parentEl, initiallyExpanded = false, deck = null, startReviewOfDeck = () => {
+  }) {
+    const disableInteraction = deck === null;
+    const treeRow = parentEl.createDiv();
+    treeRow.addClass("sr-tree-row");
+    treeRow.addClass("tree-item");
+    treeRow.addClass("sr-tree-item-container");
+    const treeRowSelf = treeRow.createDiv();
+    treeRowSelf.addClass("tree-item-self");
+    if (!disableInteraction) {
+      treeRowSelf.addClass("tag-pane-tag");
+    }
+    treeRowSelf.addClass("sr-tree-item-row");
+    let collapsed = !initiallyExpanded;
+    const collapseIconEl = treeRowSelf.createDiv("tree-item-icon collapse-icon");
+    collapseIconEl.innerHTML = COLLAPSE_ICON;
+    if (collapsed) collapseIconEl.addClass("is-collapsed");
+    if (numOfSubdecks === 0) collapseIconEl.style.display = "none";
+    const treeRowInner = treeRowSelf.createDiv("tree-item-inner");
+    const treeRowInnerText = treeRowInner.createDiv("tag-pane-tag-text");
+    const treeRowInnerTextSpan = treeRowInnerText.createSpan("tag-pane-tag-self");
+    treeRowInnerTextSpan.setText(deckName);
+    const treeRowOuter = treeRowSelf.createDiv();
+    treeRowOuter.addClasses(["tree-item-flair-outer", "sr-tree-stats-container"]);
+    const treeRowChildren = treeRow.createDiv("tree-item-children");
+    treeRowChildren.style.display = collapsed ? "none" : "block";
+    if (disableInteraction || deckStats.dueCount === 0 && deckStats.newCount === 0) {
+      if (!disableInteraction) {
+        treeRowSelf.addClass("is-disabled");
+      }
+    } else {
+      treeRowSelf.addClass("is-clickable");
+      collapseIconEl.addEventListener("click", (e2) => {
+        if (collapsed) {
+          collapseIconEl.removeClass("is-collapsed");
+          treeRowChildren.style.display = "block";
+        } else {
+          collapseIconEl.addClass("is-collapsed");
+          treeRowChildren.style.display = "none";
+        }
+        e2.stopPropagation();
+        collapsed = !collapsed;
+      });
+    }
+    if (!disableInteraction) {
+      treeRowSelf.addEventListener("click", () => {
+        startReviewOfDeck(deck);
+      });
+    }
+    this._createStatsInRow(treeRowOuter, deckStats);
+    return treeRowChildren;
+  }
+  _createStatsInRow(parentEl, deckStats) {
+    parentEl.empty();
+    this._createStatsContainer(t("DUE_CARDS"), deckStats.dueCount, "sr-bg-green", parentEl);
+    this._createStatsContainer(t("NEW_CARDS"), deckStats.newCount, "sr-bg-blue", parentEl);
+    const reviewedCards = deckStats.totalCount - deckStats.newCount - deckStats.dueCount;
+    this._createStatsContainer(t("SEEN_CARDS"), reviewedCards, "sr-bg-yellow", parentEl);
+    this._createStatsContainer(t("TOTAL_CARDS"), deckStats.totalCount, "sr-bg-red", parentEl);
+  }
+  _createStatsContainer(statsLable, statsNumber, statsClass, statsWrapper) {
+    const statsContainer = statsWrapper.createDiv();
+    statsContainer.ariaLabel = statsLable;
+    statsContainer.addClasses([
+      "tag-pane-tag-count",
+      "tree-item-flair",
+      "sr-tree-stats-count",
+      statsClass
+    ]);
+    statsContainer.setText(statsNumber.toString());
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/deck-container/deck-list-header.tsx
+var import_obsidian18 = require("obsidian");
+var DeckListHeaderComponent = class {
+  constructor(parentEl, changeReviewMode, closeModal) {
+    this.header = parentEl.createDiv();
+    this.header.addClass("sr-deck-list-header");
+    this.header.addClass("sr-header");
+    this.deckIcon = this.header.createDiv();
+    this.deckIcon.addClass("sr-deck-icon");
+    (0, import_obsidian18.setIcon)(this.deckIcon, "layers");
+    this.title = this.header.createDiv();
+    this.title.addClass("sr-title");
+    this.title.setText(t("DECKS"));
+    this.header.createDiv().addClass("sr-flex-spacer");
+    this.reviewModeDropdown = new import_obsidian18.DropdownComponent(this.header);
+    const reviewModeOptions = {
+      Review: t("REVIEW_MODE"),
+      Cram: t("CRAM_MODE")
+    };
+    this.reviewModeDropdown.addOptions(reviewModeOptions);
+    this.reviewModeDropdown.setValue("Review");
+    this.reviewModeDropdown.onChange(async (value) => {
+      if (value === void 0) return;
+      if (value === "Review") changeReviewMode(1 /* Review */);
+      if (value === "Cram") changeReviewMode(0 /* Cram */);
+    });
+    if (closeModal === void 0) return;
+    const closeButtonClasses = [
+      "sr-modal-close-button",
+      EmulatedPlatform().isPhone || import_obsidian18.Platform.isPhone ? "mod-raised" : "clickable-icon"
+    ];
+    if (EmulatedPlatform().isPhone || import_obsidian18.Platform.isPhone) {
+      closeButtonClasses.push("mod-raised");
+      closeButtonClasses.push("clickable-icon");
+    }
+    new ModalCloseButtonComponent(
+      this.header,
+      () => closeModal && closeModal(),
+      closeButtonClasses
+    );
+  }
+  updateReviewMode(reviewMode) {
+    this.reviewModeDropdown.setValue(
+      reviewMode === 1 /* Review */ ? "Review" : "Cram"
     );
   }
 };
 
+// src/ui/obsidian-ui-components/content-container/deck-container/deck-container.tsx
+var DeckContainer = class {
+  constructor(parentEl, changeReviewMode, startReviewOfDeck, closeModal) {
+    this.containerEl = parentEl.createDiv();
+    this.containerEl.addClasses(["sr-container", "sr-deck-container", "sr-is-hidden"]);
+    this.deckListHeader = new DeckListHeaderComponent(
+      this.containerEl,
+      changeReviewMode,
+      closeModal
+    );
+    this.deckList = new DeckListComponent(this.containerEl, startReviewOfDeck);
+  }
+  /**
+   * Shows the DeckListView & rerenders dynamic elements
+   */
+  showList(reviewSequencer, settings, reviewMode) {
+    this.deckListHeader.updateReviewMode(reviewMode);
+    this.deckList.redraw(reviewSequencer, settings);
+    if (this.containerEl.hasClass("sr-is-hidden")) {
+      this.containerEl.removeClass("sr-is-hidden");
+    }
+  }
+  /**
+   * Hides the DeckListView
+   */
+  closeList() {
+    if (!this.containerEl.hasClass("sr-is-hidden")) {
+      this.containerEl.addClass("sr-is-hidden");
+    }
+  }
+  redrawWithNewData(reviewSequencer, settings) {
+    this.deckList.redraw(reviewSequencer, settings);
+  }
+};
+
+// src/ui/obsidian-ui-components/modals/edit-modal.tsx
+var import_obsidian19 = require("obsidian");
+var FlashcardEditModal = class _FlashcardEditModal extends import_obsidian19.Modal {
+  constructor(app, settings, currentCard, existingText, textDirection) {
+    super(app);
+    this.resolvePromise = null;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    this.rejectPromise = null;
+    this.didSaveChanges = false;
+    this.textFront = "";
+    this.textBack = "";
+    // -> Functions & helpers
+    this.saveClickCallback = (_2) => this.save();
+    this.cancelClickCallback = (_2) => this.close();
+    this.keyListenerCallback = (evt) => {
+      if (evt.key === "Tab") {
+        evt.preventDefault();
+        const textarea = evt.target;
+        const currentCaretStartPosition = textarea.selectionStart;
+        const currentCaretEndPosition = textarea.selectionEnd;
+        const newEndPosition = currentCaretStartPosition + 1;
+        textarea.setRangeText("	", currentCaretStartPosition, currentCaretEndPosition);
+        textarea.setSelectionRange(newEndPosition, newEndPosition);
+      }
+      if ((evt.ctrlKey || evt.metaKey) && evt.key === "Enter") {
+        evt.preventDefault();
+        this.save();
+      }
+    };
+    this.modalText = existingText;
+    this.changedText = existingText;
+    this.textDirection = textDirection;
+    this.currentCard = currentCard;
+    this.cardType = this.currentCard.question.questionType;
+    this.separator = this.getSeparatorFromCardType(this.cardType, settings);
+    if (this.separator !== null) {
+      this.textFront = this.currentCard.front;
+      this.textBack = this.currentCard.back;
+      if (this.cardType === 2 /* MultiLineBasic */ || this.cardType === 3 /* MultiLineReversed */) {
+        this.textBack = this.textBack.trimStart();
+        this.textFront = this.textFront.trimEnd();
+      }
+    } else {
+      this.textFront = this.modalText;
+      this.textBack = "";
+    }
+    this.waitForClose = new Promise((resolve2, reject) => {
+      this.resolvePromise = resolve2;
+      this.rejectPromise = reject;
+    });
+    this.modalEl.addClasses(["sr-modal", "sr-edit-modal"]);
+    this.contentEl.empty();
+    this.contentEl.addClass("sr-edit-view");
+    const title = this.contentEl.createDiv();
+    title.setText(t("EDIT_CARD"));
+    title.addClass("sr-title");
+    this.textAreaFront = this.contentEl.createEl("textarea");
+    this.textAreaFront.addClass("sr-input");
+    this.textAreaFront.setText(this.textFront);
+    this.textAreaFront.addEventListener("keydown", this.keyListenerCallback);
+    if (this.textDirection === 2 /* Rtl */) {
+      this.textAreaFront.setAttribute("dir", "rtl");
+    }
+    this.textAreaBack = this.contentEl.createEl("textarea");
+    this.textAreaBack.addClass("sr-input");
+    if (this.separator === null) {
+      this.textAreaBack.addClass("sr-is-hidden");
+    } else {
+      this.textAreaBack.setText(this.textBack);
+      this.textAreaBack.addEventListener("keydown", this.keyListenerCallback);
+      if (this.textDirection === 2 /* Rtl */) {
+        this.textAreaBack.setAttribute("dir", "rtl");
+      }
+    }
+    const response = this.contentEl.createDiv();
+    response.addClass("sr-response");
+    const saveButton = new import_obsidian19.ButtonComponent(response);
+    saveButton.setClass("sr-response-button");
+    saveButton.setClass("sr-save-button");
+    saveButton.setClass("sr-bg-green");
+    saveButton.setButtonText(t("SAVE"));
+    saveButton.onClick((evt) => {
+      this.saveClickCallback(evt);
+    });
+    const button = response.createEl("button");
+    button.addClasses(["sr-response-button", "sr-dummy-button"]);
+    button.setText("");
+    const cancelButton = new import_obsidian19.ButtonComponent(response);
+    cancelButton.setClass("sr-response-button");
+    cancelButton.setClass("sr-cancel-button");
+    cancelButton.setClass("sr-bg-red");
+    cancelButton.setButtonText(t("CANCEL"));
+    cancelButton.onClick((evt) => {
+      this.cancelClickCallback(evt);
+    });
+    this.open();
+  }
+  static Prompt(app, settings, currentCard, placeholder, textDirection) {
+    const newPromptModal = new _FlashcardEditModal(
+      app,
+      settings,
+      currentCard,
+      placeholder,
+      textDirection
+    );
+    return newPromptModal.waitForClose;
+  }
+  /**
+   * Opens the EditModal
+   */
+  onOpen() {
+    super.onOpen();
+    if (this.textAreaFront !== null) {
+      this.textAreaFront.focus();
+    }
+  }
+  /**
+   * Closes the EditModal
+   */
+  onClose() {
+    super.onClose();
+    this.resolveInput();
+    this.removeInputListener();
+  }
+  save() {
+    this.didSaveChanges = true;
+    this.changedText = this.textAreaFront.value;
+    if (this.separator) {
+      if ((this.cardType === 2 /* MultiLineBasic */ || this.cardType === 3 /* MultiLineReversed */) && !this.textAreaFront.value.endsWith("\n")) {
+        this.changedText += "\n";
+      }
+      this.changedText += this.separator;
+      if ((this.cardType === 2 /* MultiLineBasic */ || this.cardType === 3 /* MultiLineReversed */) && !this.textAreaBack.value.startsWith("\n")) {
+        this.changedText += "\n";
+      }
+      this.changedText += this.textAreaBack.value;
+    }
+    this.close();
+  }
+  resolveInput() {
+    if (this.rejectPromise === null || this.resolvePromise === null) return;
+    if (!this.didSaveChanges) this.rejectPromise(t("NO_INPUT"));
+    else this.resolvePromise(this.changedText);
+  }
+  removeInputListener() {
+    if (this.textAreaFront !== null) {
+      this.textAreaFront.removeEventListener("keydown", this.keyListenerCallback);
+    }
+  }
+  getSeparatorFromCardType(cardType, settings) {
+    switch (cardType) {
+      case 0 /* SingleLineBasic */:
+        return settings.singleLineCardSeparator;
+      case 1 /* SingleLineReversed */:
+        return settings.singleLineReversedCardSeparator;
+      case 2 /* MultiLineBasic */:
+        return settings.multilineCardSeparator;
+      case 3 /* MultiLineReversed */:
+        return settings.multilineReversedCardSeparator;
+      case 4 /* Cloze */:
+        return null;
+    }
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/content-manager.tsx
+var ContentManager = class {
+  constructor(app, plugin, reviewQueueLoader, settings, parentEl, closeModal) {
+    this.reviewSequencer = null;
+    this.sessionData = null;
+    this.lastPressedOnProcessReview = 0;
+    this.pendingResumeTimeout = null;
+    this.app = app;
+    this.plugin = plugin;
+    this.reviewQueueLoader = reviewQueueLoader;
+    this.settings = settings;
+    this.reviewMode = reviewQueueLoader.getReviewMode();
+    this.deckContainer = new DeckContainer(
+      parentEl,
+      this._changeReviewMode.bind(this),
+      this._startReviewOfDeck.bind(this),
+      closeModal
+    );
+    this.cardContainer = new CardContainer(
+      this.app,
+      this.plugin,
+      this.settings,
+      parentEl,
+      this._deleteCurrentCard.bind(this),
+      this._showDecksList.bind(this),
+      this._doEditQuestionText.bind(this),
+      this._processReview.bind(this),
+      this._skipCurrentCard.bind(this),
+      this._showAnswer.bind(this),
+      this._jumpToCurrentCard.bind(this),
+      this._displayCurrentCardInfoNotice.bind(this),
+      closeModal
+    );
+  }
+  close() {
+    this._clearPendingResumeTimeout();
+    this.plugin.uiManager.setSRViewInFocus(false);
+    this.deckContainer.closeList();
+    this.cardContainer.closeSession();
+    this.plugin.uiManager.setUIState(0 /* Closed */);
+  }
+  async open() {
+    this.reviewSequencer = await this.reviewQueueLoader.loadReviewQueue();
+    const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
+      this.reviewSequencer.originalDeckTree
+    );
+    let openImmediately = false;
+    let deckWithCards = null;
+    for (const subdeck of subdecksWithCardsInQueue) {
+      const hasNewCards = subdeck.newFlashcards.length > 0;
+      const hasDueCards = subdeck.dueFlashcards.length > 0;
+      const hasDueCardsToday = hasDueCards && subdeck.dueFlashcards.some((card) => {
+        const dueDate = card.scheduleInfo.dueDateAsUnix;
+        const nowUnix = globalDateProvider.now.valueOf();
+        return dueDate <= nowUnix;
+      });
+      const hasCardsToday = hasNewCards || hasDueCardsToday;
+      if (openImmediately && (hasCardsToday || this.reviewMode === 0 /* Cram */)) {
+        openImmediately = false;
+        break;
+      }
+      if (hasCardsToday || this.reviewMode === 0 /* Cram */) {
+        openImmediately = true;
+        deckWithCards = subdeck;
+      }
+    }
+    if (openImmediately && deckWithCards !== null) {
+      this._reviewDeck(deckWithCards);
+    } else {
+      this._showDecksList();
+    }
+  }
+  // MARK: Content Manager
+  async _showDecksList(reloadReviewQueue = false) {
+    this._clearPendingResumeTimeout();
+    if (reloadReviewQueue) {
+      this.reviewSequencer = await this.reviewQueueLoader.loadReviewQueue();
+    }
+    if (this.reviewSequencer === null) return;
+    this.cardContainer.closeSession();
+    this.plugin.uiManager.setUIState(1 /* DeckList */);
+    this.deckContainer.showList(this.reviewSequencer, this.settings, this.reviewMode);
+  }
+  _reviewDeck(deck) {
+    this.deckContainer.closeList();
+    this.sessionData = this._getNewSessionData(deck);
+    if (this.sessionData === null) return;
+    this.plugin.uiManager.setUIState(2 /* CardFront */);
+    this.cardContainer.openSession(this.sessionData, this.settings);
+  }
+  async _showNextCard() {
+    if (this.sessionData === null || this.reviewSequencer === null) {
+      this._showDecksList(true);
+      return;
+    }
+    if (!this.reviewSequencer.hasCurrentCard) {
+      this._showDecksList(true);
+      return;
+    }
+    if (this.reviewSequencer.currentDeck === null) {
+      this._showDecksList(true);
+      return;
+    }
+    const chosenDeckStats = this.reviewSequencer.getDeckStats(
+      this.sessionData.deckData.chosenDeck.getTopicPath()
+    );
+    this.sessionData.deckData.chosenDeckStats = chosenDeckStats;
+    this.sessionData.deckData.previousDeck = this.sessionData.deckData.currentDeck;
+    this.sessionData.deckData.previousDeckStats = this.sessionData.deckData.currentDeckStats;
+    this.sessionData.deckData.currentDeck = this.reviewSequencer.currentDeck;
+    const currentDeckStats = this.reviewSequencer.getDeckStats(
+      this.reviewSequencer.currentDeck.getTopicPath()
+    );
+    this.sessionData.deckData.currentDeckStats = currentDeckStats;
+    if (this.sessionData.deckData.previousDeck !== this.sessionData.deckData.currentDeck) {
+      this.sessionData.deckData.currentDeckTotalCardsInQueue = currentDeckStats.cardsInQueueOfThisDeckCount;
+    }
+    this.sessionData.currentNote = this.reviewSequencer.currentNote;
+    this.sessionData.currentQuestion = this.reviewSequencer.currentQuestion;
+    this.sessionData.cardData.currentCard = this.reviewSequencer.currentCard;
+    this.plugin.uiManager.setUIState(2 /* CardFront */);
+    this.sessionData.cardData.currentCardState = 0 /* Front */;
+    if (this.sessionData.cardData.currentCard !== null && this.sessionData.cardData.currentCard !== void 0) {
+      await this.cardContainer.drawCardFront(this.sessionData, this.settings);
+    } else {
+      this._showDecksList(true);
+    }
+  }
+  _showPendingState() {
+    if (this.reviewSequencer === null) return;
+    this._clearPendingResumeTimeout();
+    const nextPendingDueUnix = this.reviewSequencer.nextPendingDueUnix;
+    if (nextPendingDueUnix === null) {
+      this._showDecksList(true);
+      return;
+    }
+    this.plugin.uiManager.setUIState(2 /* CardFront */);
+    this.cardContainer.drawPendingState(nextPendingDueUnix);
+    const delayMs = Math.max(0, nextPendingDueUnix - Date.now());
+    this.pendingResumeTimeout = window.setTimeout(async () => {
+      if (this.reviewSequencer === null) return;
+      this.reviewSequencer.refreshCurrentDeck();
+      await this._showNextCard();
+    }, delayMs + 50);
+  }
+  _getNewSessionData(deck) {
+    if (this.reviewSequencer === null) return null;
+    const deckStats = this.reviewSequencer.getDeckStats(deck.getTopicPath());
+    const totalCardsInSession = deckStats.cardsInQueueCount;
+    const totalDecksInSession = deckStats.decksInQueueOfThisDeckCount;
+    const currentCardState = 0 /* Front */;
+    const currentDeckStats = this.reviewSequencer.getDeckStats(
+      this.reviewSequencer.currentDeck.getTopicPath()
+    );
+    const chosenDeckStats = this.reviewSequencer.getDeckStats(deck.getTopicPath());
+    return {
+      cardData: {
+        currentCard: this.reviewSequencer.currentCard,
+        currentCardState
+      },
+      deckData: {
+        chosenDeck: deck,
+        currentDeck: this.reviewSequencer.currentDeck,
+        previousDeck: null,
+        currentDeckTotalCardsInQueue: currentDeckStats.cardsInQueueOfThisDeckCount,
+        currentDeckStats,
+        previousDeckStats: null,
+        chosenDeckStats
+      },
+      totalCardsInSession,
+      totalDecksInSession,
+      currentQuestion: this.reviewSequencer.currentQuestion,
+      currentNote: this.reviewSequencer.currentNote
+    };
+  }
+  // MARK: Card button handlers
+  async _deleteCurrentCard() {
+    if (this.sessionData === null || this.reviewSequencer === null) return;
+    const timeNow = (0, import_moment8.now)();
+    if (this.lastPressedOnProcessReview && timeNow - this.lastPressedOnProcessReview < this.plugin.data.settings.reviewButtonDelay) {
+      return;
+    }
+    this.lastPressedOnProcessReview = timeNow;
+    new ConfirmationModal(
+      this.app,
+      t("DELETE_CARD"),
+      t("DELETE_CARD_CONFIRMATION"),
+      t("CANCEL"),
+      async () => {
+        if (this.sessionData === null || this.reviewSequencer === null) return;
+        await this.reviewSequencer.deleteCurrentCardFromNote();
+        await this._showNextCard();
+      }
+    ).open();
+  }
+  _showAnswer() {
+    if (this.sessionData === null) return;
+    const timeNow = (0, import_moment8.now)();
+    if (this.lastPressedOnProcessReview && timeNow - this.lastPressedOnProcessReview < this.plugin.data.settings.reviewButtonDelay) {
+      return;
+    }
+    this.lastPressedOnProcessReview = timeNow;
+    this.plugin.uiManager.setUIState(3 /* CardBack */);
+    this.sessionData.cardData.currentCardState = 1 /* Back */;
+    this.cardContainer.drawBack(
+      this.sessionData,
+      this.reviewMode,
+      this.settings,
+      this._determineButtonSchedule.bind(this)
+    );
+  }
+  async _doEditQuestionText() {
+    if (this.reviewSequencer === null) return;
+    const currentCard = this.reviewSequencer.currentCard;
+    const currentQ = this.reviewSequencer.currentQuestion;
+    const textPrompt = currentQ.questionText.actualQuestion;
+    this.plugin.uiManager.setUIState(4 /* EditModal */);
+    const editModal = FlashcardEditModal.Prompt(
+      this.app,
+      this.settings,
+      currentCard,
+      textPrompt,
+      currentQ.questionText.textDirection
+    );
+    editModal.then(async (modifiedCardText) => {
+      if (this.reviewSequencer === null) return;
+      this.reviewSequencer.updateCurrentQuestionText(modifiedCardText);
+      this.plugin.uiManager.setUIState(3 /* CardBack */);
+    }).catch((reason) => console.log(reason));
+  }
+  async _jumpToCurrentCard() {
+    var _a2;
+    if (this.reviewSequencer === null) return;
+    const currentQuestion = this.reviewSequencer.currentQuestion;
+    if (!currentQuestion) return;
+    if (!this.settings.openViewInNewTab && !(import_obsidian20.Platform.isMobile || EmulatedPlatform().isMobile) || !this.settings.openViewInNewTabMobile && (import_obsidian20.Platform.isMobile || EmulatedPlatform().isMobile)) {
+      new import_obsidian20.Notice("Note was opened in new tab in the background");
+    }
+    const file = currentQuestion.note.file.tfile;
+    const blockId = currentQuestion.questionText.obsidianBlockId;
+    const line = Math.max(0, (_a2 = currentQuestion.lineNo) != null ? _a2 : 0);
+    if (blockId) {
+      await this.app.workspace.openLinkText(`${file.path}#${blockId}`, file.path, false);
+      return;
+    }
+    const existingLeaf = this.app.workspace.getLeavesOfType("markdown").find((leaf2) => {
+      var _a3;
+      const view = leaf2.view;
+      return ((_a3 = view.file) == null ? void 0 : _a3.path) === file.path;
+    });
+    if (existingLeaf) {
+      await existingLeaf.openFile(file, { eState: { line } });
+      this.app.workspace.setActiveLeaf(existingLeaf);
+      const markdownView2 = existingLeaf.view;
+      if (markdownView2 == null ? void 0 : markdownView2.editor) {
+        markdownView2.editor.setCursor({ line, ch: 0 });
+        markdownView2.editor.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } });
+      }
+      return;
+    }
+    const leaf = this.app.workspace.getLeaf("tab");
+    await leaf.openFile(file, { eState: { line } });
+    const markdownView = leaf.view;
+    if (markdownView == null ? void 0 : markdownView.editor) {
+      markdownView.editor.setCursor({ line, ch: 0 });
+      markdownView.editor.scrollIntoView({ from: { line, ch: 0 }, to: { line, ch: 0 } });
+    }
+  }
+  _skipCurrentCard() {
+    if (this.reviewSequencer === null) return;
+    this.reviewSequencer.skipCurrentCard();
+    this._showNextCard();
+  }
+  _displayCurrentCardInfoNotice() {
+    if (this.sessionData === null) return;
+    new CardInfoNotice(
+      this.sessionData.cardData.currentCard.scheduleInfo,
+      this.sessionData.currentNote.file.path
+    );
+  }
+  async _processReview(response) {
+    if (this.reviewSequencer === null) return;
+    const timeNow = (0, import_moment8.now)();
+    if (timeNow - this.lastPressedOnProcessReview < this.plugin.data.settings.reviewButtonDelay) {
+      return;
+    }
+    this.lastPressedOnProcessReview = timeNow;
+    await this.reviewSequencer.processReview(response);
+    await this._showNextCard();
+  }
+  // MARK: Deck button handlers
+  _startReviewOfDeck(deck) {
+    if (this.reviewSequencer === null) return;
+    this.reviewSequencer.setCurrentDeck(deck.getTopicPath());
+    if (this.reviewSequencer.hasCurrentCard) {
+      this._reviewDeck(deck);
+    } else {
+      this._showDecksList();
+    }
+  }
+  async _changeReviewMode(reviewMode) {
+    this.reviewQueueLoader.setReviewMode(reviewMode);
+    this.reviewMode = reviewMode;
+    this.reviewSequencer = await this.reviewQueueLoader.loadReviewQueue();
+    this.deckContainer.closeList();
+    this._showDecksList();
+  }
+  // MARK: Utils
+  _determineButtonSchedule(reviewResponse) {
+    if (this.sessionData === null) return null;
+    if (this.reviewSequencer === null) return null;
+    return this.reviewSequencer.determineCardSchedule(
+      reviewResponse,
+      this.sessionData.cardData.currentCard
+    );
+  }
+  _clearPendingResumeTimeout() {
+    if (this.pendingResumeTimeout !== null) {
+      window.clearTimeout(this.pendingResumeTimeout);
+      this.pendingResumeTimeout = null;
+    }
+  }
+};
+
 // src/ui/obsidian-ui-components/item-views/sr-tab-view.tsx
-var SRTabView = class extends import_obsidian18.ItemView {
-  constructor(leaf, plugin, loadReviewSequencerData) {
+var SRTabView = class extends import_obsidian21.ItemView {
+  constructor(leaf, plugin, reviewQueueLoader) {
     super(leaf);
-    this.openErrorCount = 0;
+    this.reviewQueueLoader = null;
+    this.contentManager = null;
+    this.viewContainerEl = null;
+    this.viewContentEl = null;
     this.plugin = plugin;
     this.navigation = false;
     this.settings = plugin.data.settings;
-    this.loadReviewSequencerData = loadReviewSequencerData;
+    this.reviewQueueLoader = reviewQueueLoader;
     const viewContent = this.containerEl.getElementsByClassName("view-content");
-    if (viewContent.length > 0) {
-      this.viewContainerEl = viewContent[0];
-      this.viewContainerEl.addClass("sr-tab-view");
-      this.viewContainerEl.addClass("sr-view");
-      this.viewContentEl = this.viewContainerEl.createDiv("sr-tab-view-content");
-      if (import_obsidian18.Platform.isMobile || EmulatedPlatform().isMobile) {
-        this.viewContentEl.style.height = this.settings.flashcardHeightPercentageMobile + "%";
-        this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentageMobile + "%";
-        this.viewContentEl.style.width = this.settings.flashcardWidthPercentageMobile + "%";
-        this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentageMobile + "%";
-      } else {
-        this.viewContentEl.style.height = this.settings.flashcardHeightPercentage + "%";
-        this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
-        this.viewContentEl.style.width = this.settings.flashcardWidthPercentage + "%";
-        this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
-      }
-      if (this.settings.flashcardHeightPercentage < 100 || this.settings.flashcardWidthPercentage < 100) {
-        this.viewContentEl.addClass("sr-center-view");
-      }
+    if (viewContent.length === 0) return;
+    this.viewContainerEl = viewContent[0];
+    this.viewContainerEl.addClass("sr-tab-view");
+    this.viewContainerEl.addClass("sr-view");
+    this.viewContentEl = this.viewContainerEl.createDiv("sr-tab-view-content");
+    if (import_obsidian21.Platform.isMobile || EmulatedPlatform().isMobile) {
+      this.viewContentEl.style.height = this.settings.flashcardHeightPercentageMobile + "%";
+      this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentageMobile + "%";
+      this.viewContentEl.style.width = this.settings.flashcardWidthPercentageMobile + "%";
+      this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentageMobile + "%";
+    } else {
+      this.viewContentEl.style.height = this.settings.flashcardHeightPercentage + "%";
+      this.viewContentEl.style.maxHeight = this.settings.flashcardHeightPercentage + "%";
+      this.viewContentEl.style.width = this.settings.flashcardWidthPercentage + "%";
+      this.viewContentEl.style.maxWidth = this.settings.flashcardWidthPercentage + "%";
+    }
+    if (this.settings.flashcardHeightPercentage < 100 || this.settings.flashcardWidthPercentage < 100) {
+      this.viewContentEl.addClass("sr-center-view");
     }
   }
   /**
@@ -15762,80 +18550,31 @@ var SRTabView = class extends import_obsidian18.ItemView {
   /**
    * Initializes the SRTabView when opened by loading the review sequencer data
    * and setting up the deck and flashcard views if they are not already initialized.
-   * Catches and logs errors that occur during the initial loading process.
    */
   async onOpen() {
-    try {
-      if (document.body.classList.contains("is-mobile")) {
-        const mobileNavbar = document.getElementsByClassName("mobile-navbar")[0];
-        if (mobileNavbar) {
-          mobileNavbar.style.position = "relative";
-        }
+    if (this.viewContainerEl === null || this.viewContentEl === null || this.reviewQueueLoader === null)
+      return;
+    if (document.body.classList.contains("is-mobile")) {
+      const mobileNavbar = document.getElementsByClassName("mobile-navbar")[0];
+      if (mobileNavbar) {
+        mobileNavbar.style.position = "relative";
       }
-      if (document.body.classList.contains("is-phone") && document.body.classList.contains("is-floating-nav")) {
-        document.body.style.setProperty(
-          "--view-bottom-fade-mask",
-          "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, #000000 calc(16px - 0px))"
-        );
-      }
-      const loadedData = await this.loadReviewSequencerData();
-      this.reviewSequencer = loadedData.reviewSequencer;
-      this.reviewMode = loadedData.mode;
-      if (this.deckContainer === void 0) {
-        this.deckContainer = new DeckContainer(
-          this.plugin,
-          this.settings,
-          this.reviewSequencer,
-          this.viewContentEl.createDiv(),
-          this._startReviewOfDeck.bind(this)
-        );
-      }
-      if (this.cardContainer === void 0) {
-        this.cardContainer = new CardContainer(
-          this.app,
-          this.plugin,
-          this.settings,
-          this.reviewSequencer,
-          this.reviewMode,
-          this.viewContentEl.createDiv(),
-          this._showDecksList.bind(this),
-          this._doEditQuestionText.bind(this)
-        );
-      }
-      const subdecksWithCardsInQueue = this.reviewSequencer.getSubDecksWithCardsInQueue(
-        this.reviewSequencer.originalDeckTree
-      );
-      let openImmediately = false;
-      let deckWithCards = null;
-      for (const subdeck of subdecksWithCardsInQueue) {
-        const hasNewCards = subdeck.newFlashcards.length > 0;
-        const hasDueCards = subdeck.dueFlashcards.length > 0;
-        const hasDueCardsToday = hasDueCards && subdeck.dueFlashcards.some((card) => {
-          const dueDate = card.scheduleInfo.dueDateAsUnix;
-          const today = globalDateProvider.today.valueOf();
-          return dueDate < today;
-        });
-        const hasCardsToday = hasNewCards || hasDueCardsToday;
-        if (openImmediately && (hasCardsToday || this.reviewMode === 0 /* Cram */)) {
-          openImmediately = false;
-          break;
-        }
-        if (hasCardsToday || this.reviewMode === 0 /* Cram */) {
-          openImmediately = true;
-          deckWithCards = subdeck;
-        }
-      }
-      if (openImmediately || this.reviewMode === 0 /* Cram */) {
-        this._showFlashcard(deckWithCards);
-      } else {
-        this._showDecksList();
-      }
-    } catch (e2) {
-      if (this.openErrorCount > 0 || DEBUG_MODE_ENABLED) {
-        console.error(e2);
-      }
-      this.openErrorCount++;
     }
+    if (document.body.classList.contains("is-phone") && document.body.classList.contains("is-floating-nav")) {
+      document.body.style.setProperty(
+        "--view-bottom-fade-mask",
+        "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, #000000 calc(16px - 0px))"
+      );
+    }
+    this.contentManager = new ContentManager(
+      this.app,
+      this.plugin,
+      this.reviewQueueLoader,
+      this.settings,
+      this.viewContentEl
+    );
+    this.plugin.uiManager.setContentManager(this.contentManager);
+    this.contentManager.open();
   }
   /**
    * Closes the SRTabView by shutting down any active deck or flashcard views.
@@ -15854,53 +18593,101 @@ var SRTabView = class extends import_obsidian18.ItemView {
         "linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, #000000 calc(34px - 0px + 12px))"
       );
     }
-    if (this.deckContainer) this.deckContainer.close();
-    if (this.cardContainer) this.cardContainer.close();
+    if (this.contentManager) this.contentManager.close();
   }
-  _showDecksList() {
-    this._hideFlashcard();
-    this.deckContainer.show();
-  }
-  _hideDecksList() {
-    this.deckContainer.hide();
-  }
-  _showFlashcard(deck) {
-    this._hideDecksList();
-    this.cardContainer.show(deck);
-  }
-  _hideFlashcard() {
-    this.cardContainer.hide();
-  }
-  _startReviewOfDeck(deck) {
-    this.reviewSequencer.setCurrentDeck(deck.getTopicPath());
-    if (this.reviewSequencer.hasCurrentCard) {
-      this._showFlashcard(deck);
+};
+
+// src/ui/obsidian-ui-components/modals/sr-modal-view.tsx
+var import_obsidian22 = require("obsidian");
+var SRModalView = class extends import_obsidian22.Modal {
+  constructor(app, plugin, settings, reviewQueueLoader) {
+    super(app);
+    this.resizeObserver = null;
+    this.plugin = plugin;
+    if (import_obsidian22.Platform.isMobile || EmulatedPlatform().isMobile) {
+      this.setModalSize(
+        settings.flashcardHeightPercentageMobile,
+        settings.flashcardWidthPercentageMobile
+      );
     } else {
-      this._showDecksList();
+      this.setModalSize(
+        settings.flashcardHeightPercentage,
+        settings.flashcardWidthPercentage
+      );
+      this.resizeObserver = new ResizeObserver(this.onResize.bind(this));
+      this.resizeObserver.observe(this.modalEl);
+    }
+    this.modalEl.setAttribute("id", "sr-modal-view");
+    this.modalEl.addClass("sr-view");
+    this.contentEl.addClass("sr-modal-content");
+    this.contentManager = new ContentManager(
+      app,
+      plugin,
+      reviewQueueLoader,
+      settings,
+      this.contentEl,
+      this.close.bind(this)
+    );
+    this.plugin.uiManager.setContentManager(this.contentManager);
+  }
+  onOpen() {
+    this.contentManager.open();
+  }
+  onClose() {
+    this.contentManager.close();
+  }
+  onResize(entries) {
+    const modalEl = entries[0].target;
+    const parent = modalEl.parentElement;
+    if (parent === null) return;
+    const elementHeight = modalEl.offsetHeight;
+    const parentHeight = parent.offsetHeight;
+    const heightPercent = elementHeight / parentHeight * 100;
+    const elementWidth = modalEl.offsetWidth;
+    const parentWidth = parent.offsetWidth;
+    const widthPercent = elementWidth / parentWidth * 100;
+    this.setRoundedModalCorners(!(heightPercent >= 100 || widthPercent >= 100));
+    this.saveSizeToSettings(
+      heightPercent,
+      widthPercent,
+      import_obsidian22.Platform.isMobile || EmulatedPlatform().isMobile
+    );
+  }
+  setRoundedModalCorners(rounded) {
+    if (rounded) {
+      this.modalEl.style.borderRadius = "var(--modal-radius)";
+    } else {
+      this.modalEl.style.borderRadius = "0";
     }
   }
-  async _doEditQuestionText() {
-    const currentQ = this.reviewSequencer.currentQuestion;
-    const textPrompt = currentQ.questionText.actualQuestion;
-    const editModal = FlashcardEditModal.Prompt(
-      this.app,
-      textPrompt,
-      currentQ.questionText.textDirection
+  setModalSize(heightPercent, widthPercent) {
+    this.modalEl.style.height = heightPercent + "%";
+    this.modalEl.style.width = widthPercent + "%";
+    this.setRoundedModalCorners(
+      !(parseInt(this.modalEl.style.height.split("%")[0]) >= 100 || parseInt(this.modalEl.style.width.split("%")[0]) >= 100)
     );
-    editModal.then(async (modifiedCardText) => {
-      this.reviewSequencer.updateCurrentQuestionText(modifiedCardText);
-    }).catch((reason) => console.log(reason));
+  }
+  async saveSizeToSettings(heightPercent, widthPercent, isMobile) {
+    if (isNaN(heightPercent) || isNaN(widthPercent)) return;
+    if (isMobile) {
+      this.plugin.data.settings.flashcardHeightPercentageMobile = heightPercent;
+      this.plugin.data.settings.flashcardWidthPercentageMobile = widthPercent;
+    } else {
+      this.plugin.data.settings.flashcardHeightPercentage = heightPercent;
+      this.plugin.data.settings.flashcardWidthPercentage = widthPercent;
+    }
+    await this.plugin.savePluginData();
   }
 };
 
 // src/ui/obsidian-ui-components/settings-tab.tsx
-var import_obsidian28 = require("obsidian");
+var import_obsidian32 = require("obsidian");
 
-// src/ui/obsidian-ui-components/content-container/settings-page/flashcards-page.tsx
-var import_obsidian20 = require("obsidian");
+// src/ui/obsidian-ui-components/content-container/settings-page/data-page.tsx
+var import_obsidian24 = require("obsidian");
 
 // src/ui/obsidian-ui-components/content-container/settings-page/settings-page.tsx
-var import_obsidian19 = require("obsidian");
+var import_obsidian23 = require("obsidian");
 var SettingsPage = class {
   constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
     this.plugin = plugin;
@@ -15918,7 +18705,7 @@ var SettingsPage = class {
       this.backToMainPage();
     });
     if (pageType === "main-page") this.pageHeaderEl.addClass("sr-is-hidden");
-    this.backButton = new import_obsidian19.ButtonComponent(this.pageHeaderEl);
+    this.backButton = new import_obsidian23.ButtonComponent(this.pageHeaderEl);
     this.backButton.setClass("sr-settings-page-back-button");
     this.backButton.setClass("clickable-icon");
     this.backButton.setIcon("chevron-left");
@@ -15929,7 +18716,7 @@ var SettingsPage = class {
     this.titleWrapperEl.addClass("sr-settings-page-title-wrapper");
     this.titleIconEl = this.titleWrapperEl.createDiv();
     this.titleIconEl.addClass("sr-settings-page-title-icon");
-    (0, import_obsidian19.setIcon)(this.titleIconEl, getPageIcon(pageType));
+    (0, import_obsidian23.setIcon)(this.titleIconEl, getPageIcon(pageType));
     this.titleEl = this.titleWrapperEl.createDiv();
     this.titleEl.addClass("sr-settings-page-title");
     this.titleEl.insertAdjacentHTML("beforeend", getPageName(pageType));
@@ -16002,8 +18789,8 @@ var SettingsPage = class {
   }
 };
 
-// src/ui/obsidian-ui-components/content-container/settings-page/flashcards-page.tsx
-var FlashcardsPage = class extends SettingsPage {
+// src/ui/obsidian-ui-components/content-container/settings-page/data-page.tsx
+var DataPage = class extends SettingsPage {
   constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
     super(
       pageContainerEl,
@@ -16014,7 +18801,117 @@ var FlashcardsPage = class extends SettingsPage {
       openPage,
       scrollListener
     );
-    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("GROUP_DATA_STORAGE")).addSetting((setting) => {
+      setting.setName(t("GROUP_DATA_STORAGE")).setDesc(t("GROUP_DATA_STORAGE_DESC")).addDropdown(
+        (dropdown) => dropdown.addOptions({
+          NOTES: t("STORE_IN_NOTES")
+        }).setValue(this.plugin.data.settings.dataStore).onChange(async (value) => {
+          this.plugin.data.settings.dataStore = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("INLINE_SCHEDULING_COMMENTS")).setDesc(t("INLINE_SCHEDULING_COMMENTS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.cardCommentOnSameLine).onChange(async (value) => {
+          this.plugin.data.settings.cardCommentOnSameLine = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    });
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("DELETE_SCHEDULING_DATA_ALL")).addSetting((setting) => {
+      setting.setName(t("DELETE_TAGS_WHEN_DELETING_SCHEDULING_DATA")).setDesc(t("DELETE_TAGS_WHEN_DELETING_SCHEDULING_DATA_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion).onChange(async (value) => {
+          this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_ALL")).setDesc(t("DELETE_SCHEDULING_DATA_ALL_DESC")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_ALL"),
+            t("CONFIRM_SCHEDULING_DATA_ALL_DELETION"),
+            t("SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS"),
+            () => {
+              deleteAllSchedulingData(
+                this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                this.plugin.data.settings.flashcardTags,
+                this.plugin.data.settings.tagsToReview
+              );
+            }
+          ).open();
+        });
+      });
+    }).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_IN_NOTES")).setDesc(t("DELETE_SCHEDULING_DATA_IN_NOTES_DESC")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_IN_NOTES"),
+            t("CONFIRM_SCHEDULING_DATA_IN_NOTES_DELETION"),
+            t("SCHEDULING_DATA_IN_NOTES_DELETION_IN_PROGRESS"),
+            () => {
+              deleteAllSchedulingDataInNotes(
+                this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                this.plugin.data.settings.tagsToReview
+              );
+            }
+          ).open();
+        });
+      });
+    }).addSetting((setting) => {
+      setting.setName(t("DELETE_SCHEDULING_DATA_IN_CARDS")).setDesc(t("DELETE_SCHEDULING_DATA_IN_CARDS_DESC")).addButton((button) => {
+        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_IN_CARDS"),
+            t("CONFIRM_SCHEDULING_DATA_IN_CARDS_DELETION"),
+            t("SCHEDULING_DATA_IN_CARDS_DELETION_IN_PROGRESS"),
+            () => {
+              deleteAllSchedulingDataInCards(
+                this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                this.plugin.data.settings.flashcardTags
+              );
+            }
+          ).open();
+        });
+      });
+    });
+    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("GROUP_RESET_SETTINGS")).addSetting((setting) => {
+      setting.setName(t("GROUP_RESET_SETTINGS")).setDesc(t("GROUP_RESET_SETTINGS_DESC")).addButton((button) => {
+        button.setButtonText(t("RESET_SETTINGS")).setClass("mod-warning").onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("RESET_SETTINGS"),
+            t("CONFIRM_RESET_SETTINGS"),
+            t("RESET_SETTINGS_CONFIRMATION"),
+            () => {
+              this.plugin.data.settings = DEFAULT_SETTINGS;
+              this.plugin.savePluginData();
+              this.display();
+            }
+          ).open();
+        });
+      });
+    });
+  }
+};
+
+// src/ui/obsidian-ui-components/content-container/settings-page/flashcards-page.tsx
+var import_obsidian25 = require("obsidian");
+var FlashcardsPage = class extends SettingsPage {
+  constructor(pageContainerEl, plugin, pageType, didReadMultilineEndMarkerWarning, applySettingsUpdate, display, openPage, scrollListener, changeMultilineEndMarkerWarningState) {
+    super(
+      pageContainerEl,
+      plugin,
+      pageType,
+      applySettingsUpdate,
+      display,
+      openPage,
+      scrollListener
+    );
+    new import_obsidian25.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
       setting.setName(t("FLASHCARD_TAGS")).setDesc(t("FLASHCARD_TAGS_DESC")).addTextArea(
         (text) => text.setValue(this.plugin.data.settings.flashcardTags.join(" ")).onChange((value) => {
           applySettingsUpdate(async () => {
@@ -16038,6 +18935,15 @@ var FlashcardsPage = class extends SettingsPage {
         })
       );
     }).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_TAGS_TO_IGNORE")).setDesc(t("FLASHCARD_TAGS_TO_IGNORE_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.flashcardTagsToIgnore.join(" ")).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardTagsToIgnore = value.split(/\s+/).filter((v2) => v2);
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
       setting.setName(t("FOLDERS_TO_IGNORE")).setDesc(t("FOLDERS_TO_IGNORE_DESC")).addTextArea(
         (text) => text.setValue(this.plugin.data.settings.noteFoldersToIgnore.join("\n")).onChange((value) => {
           this.applySettingsUpdate(async () => {
@@ -16047,7 +18953,7 @@ var FlashcardsPage = class extends SettingsPage {
         })
       );
     });
-    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_REVIEW")).addSetting((setting) => {
+    new import_obsidian25.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_REVIEW")).addSetting((setting) => {
       setting.setName(t("BURY_SIBLINGS_TILL_NEXT_DAY")).setDesc(t("BURY_SIBLINGS_TILL_NEXT_DAY_DESC")).addToggle(
         (toggle) => toggle.setValue(this.plugin.data.settings.burySiblingCards).onChange(async (value) => {
           this.plugin.data.settings.burySiblingCards = value;
@@ -16094,15 +19000,7 @@ var FlashcardsPage = class extends SettingsPage {
         })
       );
     });
-    new import_obsidian20.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_SEPARATORS")).addSetting((setting) => {
-      setting.setName(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS")).setDesc(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.convertClozePatternsToInputs).onChange(async (value) => {
-          this.plugin.data.settings.convertClozePatternsToInputs = value;
-          await this.plugin.savePluginData();
-          this.display();
-        })
-      );
-    }).addSetting((setting) => {
+    new import_obsidian25.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARD_SEPARATORS")).addSetting((setting) => {
       const convertHighlightsToClozesEl = setting.setName(
         t("CONVERT_HIGHLIGHTS_TO_CLOZES")
       );
@@ -16281,32 +19179,49 @@ var FlashcardsPage = class extends SettingsPage {
         })
       );
     }).addSetting((setting) => {
-      setting.setName(t("MULTILINE_CARDS_END_MARKER")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING")).addExtraButton((button) => {
-        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          this.plugin.data.settings.multilineCardEndMarker = DEFAULT_SETTINGS.multilineCardEndMarker;
-          await this.plugin.savePluginData();
-          this.display();
-        });
-      }).addText(
-        (text) => text.setValue(this.plugin.data.settings.multilineCardEndMarker).onChange((value) => {
-          applySettingsUpdate(async () => {
-            this.plugin.data.settings.multilineCardEndMarker = value;
+      setting.setName(t("MULTILINE_CARDS_END_MARKER")).setDesc(t("FIX_SEPARATORS_MANUALLY_WARNING"));
+      if (didReadMultilineEndMarkerWarning) {
+        setting.addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.multilineCardEndMarker = DEFAULT_SETTINGS.multilineCardEndMarker;
             await this.plugin.savePluginData();
+            this.display();
           });
-        })
-      );
+        }).addText(
+          (text) => text.setValue(this.plugin.data.settings.multilineCardEndMarker).onChange((value) => {
+            applySettingsUpdate(async () => {
+              this.plugin.data.settings.multilineCardEndMarker = value;
+              await this.plugin.savePluginData();
+            });
+          })
+        );
+      } else {
+        setting.addButton((button) => {
+          button.setButtonText("Unlock Setting").setClass("mod-warning").onClick(async () => {
+            new ConfirmationModal(
+              this.plugin.app,
+              "Please read!",
+              "Please only change this setting if you already added the characters denoting the end marker to all your multiline / cloze cards. Else you might loose your scheduling data!",
+              "Unlocking setting.",
+              () => {
+                changeMultilineEndMarkerWarningState(true);
+              }
+            ).open();
+          });
+        });
+      }
     });
   }
 };
 
 // src/ui/obsidian-ui-components/content-container/settings-page/main-page.tsx
-var import_obsidian21 = require("obsidian");
+var import_obsidian26 = require("obsidian");
 var MainPage = class extends SettingsPage {
   constructor(pageContainerEl, plugin, pageType, display, openPage, scrollListener) {
     super(pageContainerEl, plugin, pageType, () => {
     }, display, openPage, scrollListener);
     this.containerEl.addClass("sr-main-page");
-    const mainSettingsGroup = new import_obsidian21.SettingGroup(this.containerEl).setHeading(
+    const mainSettingsGroup = new import_obsidian26.SettingGroup(this.containerEl).setHeading(
       t("SETTINGS_TAB_HEADING")
     );
     SettingsPageTypesArray.forEach((pageType2) => {
@@ -16321,7 +19236,7 @@ var MainPage = class extends SettingsPage {
         });
         const iconEl = document.createElement("div");
         iconEl.addClass("sr-settings-page-title-icon");
-        (0, import_obsidian21.setIcon)(iconEl, getPageIcon(pageType2));
+        (0, import_obsidian26.setIcon)(iconEl, getPageIcon(pageType2));
         setting.nameEl.insertBefore(iconEl, setting.nameEl.firstChild);
         setting.nameEl.addClass("sr-settings-page-title");
         setting.settingEl.addClass("sr-settings-page-title-setting");
@@ -16330,7 +19245,7 @@ var MainPage = class extends SettingsPage {
         });
       });
     });
-    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("INFO")).addSetting((setting) => {
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("INFO")).addSetting((setting) => {
       setting.setName(getPageName("statistics-page")).addButton((button) => {
         button.setIcon("chevron-right").onClick(() => {
           this.openPage("statistics-page");
@@ -16339,7 +19254,7 @@ var MainPage = class extends SettingsPage {
       });
       const iconEl = document.createElement("div");
       iconEl.addClass("sr-settings-page-title-icon");
-      (0, import_obsidian21.setIcon)(iconEl, getPageIcon("statistics-page"));
+      (0, import_obsidian26.setIcon)(iconEl, getPageIcon("statistics-page"));
       setting.nameEl.insertBefore(iconEl, setting.nameEl.firstChild);
       setting.nameEl.addClass("sr-settings-page-title");
       setting.settingEl.addClass("sr-settings-page-title-setting");
@@ -16368,7 +19283,7 @@ var MainPage = class extends SettingsPage {
         })
       );
     });
-    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("HELP") + " & " + t("GROUP_CONTRIBUTING")).addSetting((setting) => {
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("HELP") + " & " + t("GROUP_CONTRIBUTING")).addSetting((setting) => {
       setting.infoEl.insertAdjacentHTML(
         "beforeend",
         t("GITHUB_DISCUSSIONS", {
@@ -16404,7 +19319,7 @@ var MainPage = class extends SettingsPage {
         })
       );
     });
-    new import_obsidian21.SettingGroup(this.containerEl).setHeading(t("LOGGING")).addSetting((setting) => {
+    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("LOGGING")).addSetting((setting) => {
       setting.setName(t("DISPLAY_SCHEDULING_DEBUG_INFO")).addToggle(
         (toggle) => toggle.setValue(this.plugin.data.settings.showSchedulingDebugMessages).onChange(async (value) => {
           this.plugin.data.settings.showSchedulingDebugMessages = value;
@@ -16424,7 +19339,7 @@ var MainPage = class extends SettingsPage {
 };
 
 // src/ui/obsidian-ui-components/content-container/settings-page/notes-page.tsx
-var import_obsidian22 = require("obsidian");
+var import_obsidian27 = require("obsidian");
 var NotesPage = class extends SettingsPage {
   constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
     super(
@@ -16436,11 +19351,20 @@ var NotesPage = class extends SettingsPage {
       openPage,
       scrollListener
     );
-    new import_obsidian22.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
+    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("GROUP_TAGS_FOLDERS")).addSetting((setting) => {
       setting.setName(t("TAGS_TO_REVIEW")).setDesc(t("TAGS_TO_REVIEW_DESC")).addTextArea(
         (text) => text.setValue(this.plugin.data.settings.tagsToReview.join(" ")).onChange((value) => {
           applySettingsUpdate(async () => {
             this.plugin.data.settings.tagsToReview = value.split(/\s+/);
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("NOTE_TAGS_TO_IGNORE")).setDesc(t("NOTE_TAGS_TO_IGNORE_DESC")).addTextArea(
+        (text) => text.setValue(this.plugin.data.settings.noteTagsToIgnore.join(" ")).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.noteTagsToIgnore = value.split(/\s+/).filter((v2) => v2);
             await this.plugin.savePluginData();
           });
         })
@@ -16451,12 +19375,34 @@ var NotesPage = class extends SettingsPage {
           this.applySettingsUpdate(async () => {
             this.plugin.data.settings.noteFoldersToIgnore = value.split(/\n+/).map((v2) => v2.trim()).filter((v2) => v2);
             await this.plugin.savePluginData();
-            this.display();
           });
         })
       );
     });
-    new import_obsidian22.SettingGroup(this.containerEl).setHeading(t("NOTES_REVIEW_QUEUE")).addSetting((setting) => {
+    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("NOTES_REVIEW_QUEUE")).addSetting((setting) => {
+      setting.setName(t("DATE_FORMAT_FOR_NOTE_REVIEW_QUEUE")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.preferredDateFormatForNoteReviewQueue = DEFAULT_SETTINGS.preferredDateFormatForNoteReviewQueue;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(
+          this.plugin.data.settings.preferredDateFormatForNoteReviewQueue
+        ).onChange((value) => {
+          this.applySettingsUpdate(async () => {
+            this.plugin.data.settings.preferredDateFormatForNoteReviewQueue = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+      setting.descEl.insertAdjacentHTML(
+        "beforeend",
+        t("DATE_FORMAT_FOR_NOTE_REVIEW_QUEUE_DESC", {
+          docsUrl: "https://momentjs.com/docs/#/displaying/format/"
+        })
+      );
+    }).addSetting((setting) => {
       setting.setName(t("AUTO_NEXT_NOTE")).addToggle(
         (toggle) => toggle.setValue(this.plugin.data.settings.autoNextNote).onChange(async (value) => {
           this.plugin.data.settings.autoNextNote = value;
@@ -16490,7 +19436,7 @@ var NotesPage = class extends SettingsPage {
             const numValue = Number.parseInt(value);
             if (!isNaN(numValue)) {
               if (numValue < 1) {
-                new import_obsidian22.Notice(t("MIN_ONE_DAY"));
+                new import_obsidian27.Notice(t("MIN_ONE_DAY"));
                 text.setValue(
                   this.plugin.data.settings.maxNDaysNotesReviewQueue.toString()
                 );
@@ -16499,7 +19445,7 @@ var NotesPage = class extends SettingsPage {
               this.plugin.data.settings.maxNDaysNotesReviewQueue = numValue;
               await this.plugin.savePluginData();
             } else {
-              new import_obsidian22.Notice(t("VALID_NUMBER_WARNING"));
+              new import_obsidian27.Notice(t("VALID_NUMBER_WARNING"));
             }
           });
         })
@@ -16509,55 +19455,14 @@ var NotesPage = class extends SettingsPage {
 };
 
 // src/ui/obsidian-ui-components/content-container/settings-page/scheduling-page.tsx
-var import_obsidian24 = require("obsidian");
-
-// src/delete-scheduling-data.ts
-var import_obsidian23 = require("obsidian");
-async function removeSchedulingInfoInNotes(vault, file) {
-  try {
-    await this.app.fileManager.processFrontMatter(file, (frontmatter) => {
-      delete frontmatter["sr-due"];
-      delete frontmatter["sr-interval"];
-      delete frontmatter["sr-ease"];
-    });
-  } catch (e2) {
-    console.log({ filePath: file.path, error: e2 });
-  }
-}
-async function removeSchedulingInfoInCards(vault, file) {
-  try {
-    await vault.process(file, (data) => {
-      return data.replace(FLASHCARD_SCHEDULE_INFO, "");
-    });
-  } catch (e2) {
-    console.log({ filePath: file.path, error: e2 });
-  }
-}
-async function deleteAllSchedulingData() {
-  const files = this.app.vault.getMarkdownFiles();
-  for (let i2 = 0; i2 < files.length; i2++) {
-    await removeSchedulingInfoInNotes(this.app.vault, files[i2]);
-    await removeSchedulingInfoInCards(this.app.vault, files[i2]);
-  }
-  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
-}
-async function deleteAllSchedulingDataInNotes() {
-  const files = this.app.vault.getMarkdownFiles();
-  for (let i2 = 0; i2 < files.length; i2++) {
-    await removeSchedulingInfoInNotes(this.app.vault, files[i2]);
-  }
-  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
-}
-async function deleteAllSchedulingDataInCards() {
-  const files = this.app.vault.getMarkdownFiles();
-  for (let i2 = 0; i2 < files.length; i2++) {
-    await removeSchedulingInfoInCards(this.app.vault, files[i2]);
-  }
-  new import_obsidian23.Notice(t("SCHEDULING_DATA_HAS_BEEN_DELETED"));
-}
-
-// src/ui/obsidian-ui-components/content-container/settings-page/scheduling-page.tsx
+var import_obsidian28 = require("obsidian");
 var SchedulingPage = class extends SettingsPage {
+  async setAlgorithm(algorithm) {
+    this.plugin.data.settings.algorithm = algorithm;
+    await this.plugin.savePluginData();
+    this.plugin.setupDataStoreAndAlgorithmInstances(this.plugin.data.settings);
+    this.display();
+  }
   constructor(pageContainerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
     super(
       pageContainerEl,
@@ -16568,13 +19473,32 @@ var SchedulingPage = class extends SettingsPage {
       openPage,
       scrollListener
     );
-    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("ALGORITHM")).addSetting((setting) => {
+    const algorithmGroup = new import_obsidian28.SettingGroup(this.containerEl).setHeading(t("ALGORITHM"));
+    algorithmGroup.addSetting((setting) => {
       const algoSettingEl = setting.setName(t("ALGORITHM")).setDesc("").addDropdown(
         (dropdown) => dropdown.addOptions({
           "SM-2-OSR": t("SM2_OSR_VARIANT")
+          // FSRS: "FSRS", // TODO: Re-enable when ready
         }).setValue(this.plugin.data.settings.algorithm).onChange(async (value) => {
-          this.plugin.data.settings.algorithm = value;
-          await this.plugin.savePluginData();
+          const selectedAlgorithm = value;
+          const currentAlgorithm = this.plugin.data.settings.algorithm;
+          if (selectedAlgorithm === currentAlgorithm) {
+            return;
+          }
+          if (currentAlgorithm === "SM-2-OSR" /* SM_2_OSR */ && selectedAlgorithm === "FSRS" /* FSRS */) {
+            dropdown.setValue(currentAlgorithm);
+            new ConfirmationModal(
+              this.plugin.app,
+              t("SWITCH_TO_FSRS_ALGORITHM"),
+              t("CONFIRM_FSRS_ALGORITHM_SWITCH"),
+              void 0,
+              async () => {
+                await this.setAlgorithm(selectedAlgorithm);
+              }
+            ).open();
+            return;
+          }
+          await this.setAlgorithm(selectedAlgorithm);
         })
       );
       algoSettingEl.descEl.insertAdjacentHTML(
@@ -16583,81 +19507,131 @@ var SchedulingPage = class extends SettingsPage {
           algoUrl: "https://stephenmwangi.com/obsidian-spaced-repetition/algorithms/"
         })
       );
-    }).addSetting((setting) => {
-      setting.setName(t("BASE_EASE")).setDesc(t("BASE_EASE_DESC")).addExtraButton((button) => {
-        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          this.plugin.data.settings.baseEase = DEFAULT_SETTINGS.baseEase;
-          await this.plugin.savePluginData();
-          this.display();
-        });
-      }).addText(
-        (text) => text.setValue(this.plugin.data.settings.baseEase.toString()).onChange((value) => {
-          applySettingsUpdate(async () => {
-            const numValue = Number.parseInt(value);
-            if (!isNaN(numValue)) {
-              if (numValue < 130) {
-                new import_obsidian24.Notice(t("BASE_EASE_MIN_WARNING"));
+    });
+    algorithmGroup.addSetting((setting) => {
+      setting.setName("Flashcard algorithm scope").setDesc(
+        "The selected algorithm applies to flashcards and clozes only. Whole-note review continues to use the existing OSR scheduler."
+      );
+    });
+    if (this.plugin.data.settings.algorithm === "FSRS" /* FSRS */) {
+      algorithmGroup.addSetting((setting) => {
+        setting.setName("FSRS desired retention").setDesc("Target recall probability used by FSRS for flashcard scheduling.").addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.fsrsDesiredRetention = DEFAULT_SETTINGS.fsrsDesiredRetention;
+            await this.plugin.savePluginData();
+            this.display();
+          });
+        }).addText(
+          (text) => text.setValue(this.plugin.data.settings.fsrsDesiredRetention.toString()).onChange((value) => {
+            applySettingsUpdate(async () => {
+              const numValue = Number.parseFloat(value);
+              if (Number.isNaN(numValue) || numValue <= 0 || numValue > 1) {
+                new import_obsidian28.Notice(
+                  "FSRS desired retention must be between 0 and 1."
+                );
                 text.setValue(
-                  this.plugin.data.settings.baseEase.toString()
+                  this.plugin.data.settings.fsrsDesiredRetention.toString()
                 );
                 return;
               }
-              this.plugin.data.settings.baseEase = numValue;
+              this.plugin.data.settings.fsrsDesiredRetention = numValue;
               await this.plugin.savePluginData();
-            } else {
-              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
-            }
+            });
+          })
+        );
+      });
+    }
+    if (this.plugin.data.settings.algorithm === "SM-2-OSR" /* SM_2_OSR */) {
+      algorithmGroup.addSetting((setting) => {
+        setting.setName(t("BASE_EASE")).setDesc(t("BASE_EASE_DESC")).addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.baseEase = DEFAULT_SETTINGS.baseEase;
+            await this.plugin.savePluginData();
+            this.display();
           });
-        })
-      );
-    }).addSetting((setting) => {
-      setting.setName(t("LAPSE_INTERVAL_CHANGE")).setDesc(t("LAPSE_INTERVAL_CHANGE_DESC")).addExtraButton((button) => {
-        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          this.plugin.data.settings.lapsesIntervalChange = DEFAULT_SETTINGS.lapsesIntervalChange;
-          await this.plugin.savePluginData();
-          this.display();
-        });
-      }).addSlider(
-        (slider) => slider.setLimits(1, 99, 1).setValue(this.plugin.data.settings.lapsesIntervalChange * 100).setDynamicTooltip().onChange(async (value) => {
-          this.plugin.data.settings.lapsesIntervalChange = value / 100;
-          await this.plugin.savePluginData();
-        })
-      );
-    }).addSetting((setting) => {
-      setting.setName(t("EASY_BONUS")).setDesc(t("EASY_BONUS_DESC")).addExtraButton((button) => {
-        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          this.plugin.data.settings.easyBonus = DEFAULT_SETTINGS.easyBonus;
-          await this.plugin.savePluginData();
-          this.display();
-        });
-      }).addText(
-        (text) => text.setValue((this.plugin.data.settings.easyBonus * 100).toString()).onChange((value) => {
-          applySettingsUpdate(async () => {
-            const numValue = Number.parseInt(value) / 100;
-            if (!isNaN(numValue)) {
-              if (numValue < 1) {
-                new import_obsidian24.Notice(t("EASY_BONUS_MIN_WARNING"));
-                text.setValue(
-                  (this.plugin.data.settings.easyBonus * 100).toString()
-                );
-                return;
+        }).addText(
+          (text) => text.setValue(this.plugin.data.settings.baseEase.toString()).onChange((value) => {
+            applySettingsUpdate(async () => {
+              const numValue = Number.parseInt(value);
+              if (!isNaN(numValue)) {
+                if (numValue < 130) {
+                  new import_obsidian28.Notice(t("BASE_EASE_MIN_WARNING"));
+                  text.setValue(
+                    this.plugin.data.settings.baseEase.toString()
+                  );
+                  return;
+                }
+                this.plugin.data.settings.baseEase = numValue;
+                await this.plugin.savePluginData();
+              } else {
+                new import_obsidian28.Notice(t("VALID_NUMBER_WARNING"));
               }
-              this.plugin.data.settings.easyBonus = numValue;
-              await this.plugin.savePluginData();
-            } else {
-              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
-            }
+            });
+          })
+        );
+      }).addSetting((setting) => {
+        setting.setName(t("MAX_LINK_CONTRIB")).setDesc(t("MAX_LINK_CONTRIB_DESC")).addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.maxLinkFactor = DEFAULT_SETTINGS.maxLinkFactor;
+            await this.plugin.savePluginData();
+            this.display();
           });
-        })
-      );
-    }).addSetting((setting) => {
-      setting.setName(t("LOAD_BALANCE")).setDesc(t("LOAD_BALANCE_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.loadBalance).onChange(async (value) => {
-          this.plugin.data.settings.loadBalance = value;
-          await this.plugin.savePluginData();
-        })
-      );
-    }).addSetting((setting) => {
+        }).addSlider(
+          (slider) => slider.setLimits(0, 100, 1).setValue(this.plugin.data.settings.maxLinkFactor * 100).setDynamicTooltip().onChange(async (value) => {
+            this.plugin.data.settings.maxLinkFactor = value / 100;
+            await this.plugin.savePluginData();
+          })
+        );
+      }).addSetting((setting) => {
+        setting.setName(t("LAPSE_INTERVAL_CHANGE")).setDesc(t("LAPSE_INTERVAL_CHANGE_DESC")).addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.lapsesIntervalChange = DEFAULT_SETTINGS.lapsesIntervalChange;
+            await this.plugin.savePluginData();
+            this.display();
+          });
+        }).addSlider(
+          (slider) => slider.setLimits(1, 99, 1).setValue(this.plugin.data.settings.lapsesIntervalChange * 100).setDynamicTooltip().onChange(async (value) => {
+            this.plugin.data.settings.lapsesIntervalChange = value / 100;
+            await this.plugin.savePluginData();
+          })
+        );
+      }).addSetting((setting) => {
+        setting.setName(t("EASY_BONUS")).setDesc(t("EASY_BONUS_DESC")).addExtraButton((button) => {
+          button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+            this.plugin.data.settings.easyBonus = DEFAULT_SETTINGS.easyBonus;
+            await this.plugin.savePluginData();
+            this.display();
+          });
+        }).addText(
+          (text) => text.setValue((this.plugin.data.settings.easyBonus * 100).toString()).onChange((value) => {
+            applySettingsUpdate(async () => {
+              const numValue = Number.parseInt(value) / 100;
+              if (!isNaN(numValue)) {
+                if (numValue < 1) {
+                  new import_obsidian28.Notice(t("EASY_BONUS_MIN_WARNING"));
+                  text.setValue(
+                    (this.plugin.data.settings.easyBonus * 100).toString()
+                  );
+                  return;
+                }
+                this.plugin.data.settings.easyBonus = numValue;
+                await this.plugin.savePluginData();
+              } else {
+                new import_obsidian28.Notice(t("VALID_NUMBER_WARNING"));
+              }
+            });
+          })
+        );
+      }).addSetting((setting) => {
+        setting.setName(t("LOAD_BALANCE")).setDesc(t("LOAD_BALANCE_DESC")).addToggle(
+          (toggle) => toggle.setValue(this.plugin.data.settings.loadBalance).onChange(async (value) => {
+            this.plugin.data.settings.loadBalance = value;
+            await this.plugin.savePluginData();
+          })
+        );
+      });
+    }
+    algorithmGroup.addSetting((setting) => {
       setting.setName(t("MAX_INTERVAL")).setDesc(t("MAX_INTERVAL_DESC")).addExtraButton((button) => {
         button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
           this.plugin.data.settings.maximumInterval = DEFAULT_SETTINGS.maximumInterval;
@@ -16670,7 +19644,7 @@ var SchedulingPage = class extends SettingsPage {
             const numValue = Number.parseInt(value);
             if (!isNaN(numValue)) {
               if (numValue < 1) {
-                new import_obsidian24.Notice(t("MAX_INTERVAL_MIN_WARNING"));
+                new import_obsidian28.Notice(t("MAX_INTERVAL_MIN_WARNING"));
                 text.setValue(
                   this.plugin.data.settings.maximumInterval.toString()
                 );
@@ -16679,7 +19653,7 @@ var SchedulingPage = class extends SettingsPage {
               this.plugin.data.settings.maximumInterval = numValue;
               await this.plugin.savePluginData();
             } else {
-              new import_obsidian24.Notice(t("VALID_NUMBER_WARNING"));
+              new import_obsidian28.Notice(t("VALID_NUMBER_WARNING"));
             }
           });
         })
@@ -16696,84 +19670,16 @@ var SchedulingPage = class extends SettingsPage {
           applySettingsUpdate(async () => {
             const dayBoundary = DateUtil.strToDayBoundary(value);
             if (dayBoundary === null) {
-              new import_obsidian24.Notice(t("INVALID_START_OF_DAY_WARNING"));
+              new import_obsidian28.Notice(t("INVALID_START_OF_DAY_WARNING"));
               return;
             } else {
               this.plugin.data.settings.startOfDay = value;
               await this.plugin.savePluginData();
               globalDateProvider.setDayBoundary(dayBoundary);
-              console.log("Day boundary set to", dayBoundary);
             }
           });
         })
       );
-    }).addSetting((setting) => {
-      setting.setName(t("MAX_LINK_CONTRIB")).setDesc(t("MAX_LINK_CONTRIB_DESC")).addExtraButton((button) => {
-        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          this.plugin.data.settings.maxLinkFactor = DEFAULT_SETTINGS.maxLinkFactor;
-          await this.plugin.savePluginData();
-          this.display();
-        });
-      }).addSlider(
-        (slider) => slider.setLimits(0, 100, 1).setValue(this.plugin.data.settings.maxLinkFactor * 100).setDynamicTooltip().onChange(async (value) => {
-          this.plugin.data.settings.maxLinkFactor = value / 100;
-          await this.plugin.savePluginData();
-        })
-      );
-    });
-    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("GROUP_DATA_STORAGE")).addSetting((setting) => {
-      setting.setName(t("GROUP_DATA_STORAGE")).setDesc(t("GROUP_DATA_STORAGE_DESC")).addDropdown(
-        (dropdown) => dropdown.addOptions({
-          NOTES: t("STORE_IN_NOTES")
-        }).setValue(this.plugin.data.settings.dataStore).onChange(async (value) => {
-          this.plugin.data.settings.dataStore = value;
-          await this.plugin.savePluginData();
-        })
-      );
-    }).addSetting((setting) => {
-      setting.setName(t("INLINE_SCHEDULING_COMMENTS")).setDesc(t("INLINE_SCHEDULING_COMMENTS_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.cardCommentOnSameLine).onChange(async (value) => {
-          this.plugin.data.settings.cardCommentOnSameLine = value;
-          await this.plugin.savePluginData();
-        })
-      );
-    });
-    new import_obsidian24.SettingGroup(this.containerEl).setHeading(t("DELETE_SCHEDULING_DATA_ALL")).addSetting((setting) => {
-      setting.setName(t("DELETE_SCHEDULING_DATA_ALL")).setDesc(t("DELETE_SCHEDULING_DATA_ALL_DESC")).addButton((button) => {
-        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
-          new ConfirmationModal(
-            this.plugin.app,
-            t("DELETE_SCHEDULING_DATA_ALL"),
-            t("CONFIRM_SCHEDULING_DATA_ALL_DELETION"),
-            t("SCHEDULING_DATA_ALL_DELETION_IN_PROGRESS"),
-            deleteAllSchedulingData
-          ).open();
-        });
-      });
-    }).addSetting((setting) => {
-      setting.setName(t("DELETE_SCHEDULING_DATA_IN_NOTES")).setDesc(t("DELETE_SCHEDULING_DATA_IN_NOTES_DESC")).addButton((button) => {
-        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
-          new ConfirmationModal(
-            this.plugin.app,
-            t("DELETE_SCHEDULING_DATA_IN_NOTES"),
-            t("CONFIRM_SCHEDULING_DATA_IN_NOTES_DELETION"),
-            t("SCHEDULING_DATA_IN_NOTES_DELETION_IN_PROGRESS"),
-            deleteAllSchedulingDataInNotes
-          ).open();
-        });
-      });
-    }).addSetting((setting) => {
-      setting.setName(t("DELETE_SCHEDULING_DATA_IN_CARDS")).setDesc(t("DELETE_SCHEDULING_DATA_IN_CARDS_DESC")).addButton((button) => {
-        button.setButtonText(t("DELETE")).setClass("mod-warning").onClick(async () => {
-          new ConfirmationModal(
-            this.plugin.app,
-            t("DELETE_SCHEDULING_DATA_IN_CARDS"),
-            t("CONFIRM_SCHEDULING_DATA_IN_CARDS_DELETION"),
-            t("SCHEDULING_DATA_IN_CARDS_DELETION_IN_PROGRESS"),
-            deleteAllSchedulingDataInCards
-          ).open();
-        });
-      });
     });
   }
 };
@@ -16782,7 +19688,7 @@ var SchedulingPage = class extends SettingsPage {
 function round(v2) {
   return v2 + 0.5 | 0;
 }
-var lim = (v2, l2, h4) => Math.max(Math.min(v2, h4), l2);
+var lim = (v2, l2, h3) => Math.max(Math.min(v2, h3), l2);
 function p2b(v2) {
   return lim(round(v2 * 2.55), 0, 255);
 }
@@ -16829,17 +19735,17 @@ function hexString(v2) {
   return v2 ? "#" + f2(v2.r) + f2(v2.g) + f2(v2.b) + alpha(v2.a, f2) : void 0;
 }
 var HUE_RE = /^(hsla?|hwb|hsv)\(\s*([-+.e\d]+)(?:deg)?[\s,]+([-+.e\d]+)%[\s,]+([-+.e\d]+)%(?:[\s,]+([-+.e\d]+)(%)?)?\s*\)$/;
-function hsl2rgbn(h4, s2, l2) {
+function hsl2rgbn(h3, s2, l2) {
   const a2 = s2 * Math.min(l2, 1 - l2);
-  const f2 = (n2, k = (n2 + h4 / 30) % 12) => l2 - a2 * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+  const f2 = (n2, k = (n2 + h3 / 30) % 12) => l2 - a2 * Math.max(Math.min(k - 3, 9 - k, 1), -1);
   return [f2(0), f2(8), f2(4)];
 }
-function hsv2rgbn(h4, s2, v2) {
-  const f2 = (n2, k = (n2 + h4 / 60) % 6) => v2 - v2 * s2 * Math.max(Math.min(k, 4 - k, 1), 0);
+function hsv2rgbn(h3, s2, v2) {
+  const f2 = (n2, k = (n2 + h3 / 60) % 6) => v2 - v2 * s2 * Math.max(Math.min(k, 4 - k, 1), 0);
   return [f2(5), f2(3), f2(1)];
 }
-function hwb2rgbn(h4, w2, b2) {
-  const rgb = hsl2rgbn(h4, 1, 0.5);
+function hwb2rgbn(h3, w2, b2) {
+  const rgb = hsl2rgbn(h3, 1, 0.5);
   let i2;
   if (w2 + b2 > 1) {
     i2 = 1 / (w2 + b2);
@@ -16869,29 +19775,29 @@ function rgb2hsl(v2) {
   const max = Math.max(r2, g2, b2);
   const min = Math.min(r2, g2, b2);
   const l2 = (max + min) / 2;
-  let h4, s2, d2;
+  let h3, s2, d2;
   if (max !== min) {
     d2 = max - min;
     s2 = l2 > 0.5 ? d2 / (2 - max - min) : d2 / (max + min);
-    h4 = hueValue(r2, g2, b2, d2, max);
-    h4 = h4 * 60 + 0.5;
+    h3 = hueValue(r2, g2, b2, d2, max);
+    h3 = h3 * 60 + 0.5;
   }
-  return [h4 | 0, s2 || 0, l2];
+  return [h3 | 0, s2 || 0, l2];
 }
 function calln(f2, a2, b2, c2) {
   return (Array.isArray(a2) ? f2(a2[0], a2[1], a2[2]) : f2(a2, b2, c2)).map(n2b);
 }
-function hsl2rgb(h4, s2, l2) {
-  return calln(hsl2rgbn, h4, s2, l2);
+function hsl2rgb(h3, s2, l2) {
+  return calln(hsl2rgbn, h3, s2, l2);
 }
-function hwb2rgb(h4, w2, b2) {
-  return calln(hwb2rgbn, h4, w2, b2);
+function hwb2rgb(h3, w2, b2) {
+  return calln(hwb2rgbn, h3, w2, b2);
 }
-function hsv2rgb(h4, s2, v2) {
-  return calln(hsv2rgbn, h4, s2, v2);
+function hsv2rgb(h3, s2, v2) {
+  return calln(hsv2rgbn, h3, s2, v2);
 }
-function hue(h4) {
-  return (h4 % 360 + 360) % 360;
+function hue(h3) {
+  return (h3 % 360 + 360) % 360;
 }
 function hueParse(str) {
   const m2 = HUE_RE.exec(str);
@@ -16903,15 +19809,15 @@ function hueParse(str) {
   if (m2[5] !== v2) {
     a2 = m2[6] ? p2b(+m2[5]) : n2b(+m2[5]);
   }
-  const h4 = hue(+m2[2]);
+  const h3 = hue(+m2[2]);
   const p1 = +m2[3] / 100;
   const p2 = +m2[4] / 100;
   if (m2[1] === "hwb") {
-    v2 = hwb2rgb(h4, p1, p2);
+    v2 = hwb2rgb(h3, p1, p2);
   } else if (m2[1] === "hsv") {
-    v2 = hsv2rgb(h4, p1, p2);
+    v2 = hsv2rgb(h3, p1, p2);
   } else {
-    v2 = hsl2rgb(h4, p1, p2);
+    v2 = hsl2rgb(h3, p1, p2);
   }
   return {
     r: v2[0],
@@ -16921,22 +19827,22 @@ function hueParse(str) {
   };
 }
 function rotate(v2, deg) {
-  var h4 = rgb2hsl(v2);
-  h4[0] = hue(h4[0] + deg);
-  h4 = hsl2rgb(h4);
-  v2.r = h4[0];
-  v2.g = h4[1];
-  v2.b = h4[2];
+  var h3 = rgb2hsl(v2);
+  h3[0] = hue(h3[0] + deg);
+  h3 = hsl2rgb(h3);
+  v2.r = h3[0];
+  v2.g = h3[1];
+  v2.b = h3[2];
 }
 function hslString(v2) {
   if (!v2) {
     return;
   }
   const a2 = rgb2hsl(v2);
-  const h4 = a2[0];
+  const h3 = a2[0];
   const s2 = n2p(a2[1]);
   const l2 = n2p(a2[2]);
-  return v2.a < 255 ? `hsla(${h4}, ${s2}%, ${l2}%, ${b2n(v2.a)})` : `hsl(${h4}, ${s2}%, ${l2}%)`;
+  return v2.a < 255 ? `hsla(${h3}, ${s2}%, ${l2}%, ${b2n(v2.a)})` : `hsl(${h3}, ${s2}%, ${l2}%)`;
 }
 var map = {
   x: "dark",
@@ -18498,12 +21404,12 @@ function renderText(ctx, text, x2, y2, font, opts = {}) {
   ctx.restore();
 }
 function addRoundedRectPath(ctx, rect) {
-  const { x: x2, y: y2, w: w2, h: h4, radius } = rect;
+  const { x: x2, y: y2, w: w2, h: h3, radius } = rect;
   ctx.arc(x2 + radius.topLeft, y2 + radius.topLeft, radius.topLeft, 1.5 * PI, PI, true);
-  ctx.lineTo(x2, y2 + h4 - radius.bottomLeft);
-  ctx.arc(x2 + radius.bottomLeft, y2 + h4 - radius.bottomLeft, radius.bottomLeft, PI, HALF_PI, true);
-  ctx.lineTo(x2 + w2 - radius.bottomRight, y2 + h4);
-  ctx.arc(x2 + w2 - radius.bottomRight, y2 + h4 - radius.bottomRight, radius.bottomRight, HALF_PI, 0, true);
+  ctx.lineTo(x2, y2 + h3 - radius.bottomLeft);
+  ctx.arc(x2 + radius.bottomLeft, y2 + h3 - radius.bottomLeft, radius.bottomLeft, PI, HALF_PI, true);
+  ctx.lineTo(x2 + w2 - radius.bottomRight, y2 + h3);
+  ctx.arc(x2 + w2 - radius.bottomRight, y2 + h3 - radius.bottomRight, radius.bottomRight, HALF_PI, 0, true);
   ctx.lineTo(x2 + w2, y2 + radius.topRight);
   ctx.arc(x2 + w2 - radius.topRight, y2 + radius.topRight, radius.topRight, 0, -HALF_PI, true);
   ctx.lineTo(x2 + radius.topLeft, y2);
@@ -22860,8 +25766,8 @@ var Scale = class _Scale extends Element {
     const labelSizes = this._getLabelSizes();
     const padding = optionTicks.autoSkipPadding || 0;
     const w2 = labelSizes ? labelSizes.widest.width + padding : 0;
-    const h4 = labelSizes ? labelSizes.highest.height + padding : 0;
-    return this.isHorizontal() ? h4 * cos > w2 * sin ? w2 / cos : h4 / sin : h4 * sin < w2 * cos ? h4 / cos : w2 / sin;
+    const h3 = labelSizes ? labelSizes.highest.height + padding : 0;
+    return this.isHorizontal() ? h3 * cos > w2 * sin ? w2 / cos : h3 / sin : h3 * sin < w2 * cos ? h3 / cos : w2 / sin;
   }
   _isVisible() {
     const display = this.options.display;
@@ -24104,7 +27010,7 @@ function needContext(proxy, names2) {
   }
   return false;
 }
-var version = "4.5.1";
+var version2 = "4.5.1";
 var KNOWN_POSITIONS = [
   "top",
   "bottom",
@@ -24991,7 +27897,7 @@ __publicField(Chart, "defaults", defaults2);
 __publicField(Chart, "instances", instances);
 __publicField(Chart, "overrides", overrides);
 __publicField(Chart, "registry", registry);
-__publicField(Chart, "version", version);
+__publicField(Chart, "version", version2);
 __publicField(Chart, "getChart", getChart);
 function invalidatePlugins() {
   return each(Chart.instances, (chart) => chart._plugins.invalidate());
@@ -25398,12 +28304,12 @@ function inflateRect(rect, amount, refRect = {}) {
   const x2 = rect.x !== refRect.x ? -amount : 0;
   const y2 = rect.y !== refRect.y ? -amount : 0;
   const w2 = (rect.x + rect.w !== refRect.x + refRect.w ? amount : 0) - x2;
-  const h4 = (rect.y + rect.h !== refRect.y + refRect.h ? amount : 0) - y2;
+  const h3 = (rect.y + rect.h !== refRect.y + refRect.h ? amount : 0) - y2;
   return {
     x: rect.x + x2,
     y: rect.y + y2,
     w: rect.w + w2,
-    h: rect.h + h4,
+    h: rect.h + h3,
     radius: rect.radius
   };
 }
@@ -27887,11 +30793,11 @@ function leftForTextAlign(x2, w2, align) {
   }
   return x2;
 }
-function yForAngle(y2, h4, angle) {
+function yForAngle(y2, h3, angle) {
   if (angle === 90 || angle === 270) {
-    y2 -= h4 / 2;
+    y2 -= h3 / 2;
   } else if (angle > 270 || angle < 90) {
-    y2 -= h4;
+    y2 -= h3;
   }
   return y2;
 }
@@ -27989,10 +30895,10 @@ var RadialLinearScale = class extends LinearScaleBase {
   setDimensions() {
     const padding = this._padding = toPadding(getTickBackdropHeight(this.options) / 2);
     const w2 = this.width = this.maxWidth - padding.width;
-    const h4 = this.height = this.maxHeight - padding.height;
+    const h3 = this.height = this.maxHeight - padding.height;
     this.xCenter = Math.floor(this.left + w2 / 2 + padding.left);
-    this.yCenter = Math.floor(this.top + h4 / 2 + padding.top);
-    this.drawingArea = Math.floor(Math.min(w2, h4) / 2);
+    this.yCenter = Math.floor(this.top + h3 / 2 + padding.top);
+    this.drawingArea = Math.floor(Math.min(w2, h3) / 2);
   }
   determineDataLimits() {
     const { min, max } = this.getMinMax(false);
@@ -28749,11 +31655,11 @@ __publicField(TimeSeriesScale, "id", "timeseries");
 __publicField(TimeSeriesScale, "defaults", TimeScale.defaults);
 
 // src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/statistics-page.tsx
-var import_obsidian26 = require("obsidian");
+var import_obsidian30 = require("obsidian");
 
 // src/ui/obsidian-ui-components/content-container/settings-page/statistics-page/settings-item-override-component.tsx
-var import_obsidian25 = require("obsidian");
-var SettingsItemOverrideComponent = class extends import_obsidian25.BaseComponent {
+var import_obsidian29 = require("obsidian");
+var SettingsItemOverrideComponent = class extends import_obsidian29.BaseComponent {
   constructor(parentContainerEl) {
     super();
     parentContainerEl.addClass("sr-setting-override");
@@ -28959,7 +31865,7 @@ var c;
 var f;
 var p;
 var d;
-var h3;
+var h;
 var _;
 var m = {};
 var v = [];
@@ -29004,7 +31910,7 @@ function C(t3) {
   }
 }
 function E(t3) {
-  (!t3.__d && (t3.__d = true) && d.push(t3) && !I.__r++ || h3 !== c.debounceRendering) && ((h3 = c.debounceRendering) || setTimeout)(I);
+  (!t3.__d && (t3.__d = true) && d.push(t3) && !I.__r++ || h !== c.debounceRendering) && ((h = c.debounceRendering) || setTimeout)(I);
 }
 function I() {
   for (var t3; I.__r = d.length; ) t3 = d.sort(function(t4, n2) {
@@ -29015,7 +31921,7 @@ function I() {
   });
 }
 function T(t3, n2, e2, r2, o2, i2, u2, s2, a2, l2) {
-  var c2, f2, p2, d2, h4, _2, y2, g2 = r2 && r2.__k || v, b2 = g2.length;
+  var c2, f2, p2, d2, h3, _2, y2, g2 = r2 && r2.__k || v, b2 = g2.length;
   for (e2.__k = [], c2 = 0; c2 < n2.length; c2++) if (null != (d2 = e2.__k[c2] = null == (d2 = n2[c2]) || "boolean" == typeof d2 ? null : "string" == typeof d2 || "number" == typeof d2 || "bigint" == typeof d2 ? x(null, d2, null, null, d2) : Array.isArray(d2) ? x(S, { children: d2 }, null, null, null) : d2.__b > 0 ? x(d2.type, d2.props, d2.key, d2.ref ? d2.ref : null, d2.__v) : d2)) {
     if (d2.__ = e2, d2.__b = e2.__b + 1, null === (p2 = g2[c2]) || p2 && d2.key == p2.key && d2.type === p2.type) g2[c2] = void 0;
     else for (f2 = 0; f2 < b2; f2++) {
@@ -29025,7 +31931,7 @@ function T(t3, n2, e2, r2, o2, i2, u2, s2, a2, l2) {
       }
       p2 = null;
     }
-    M(t3, d2, p2 = p2 || m, o2, i2, u2, s2, a2, l2), h4 = d2.__e, (f2 = d2.ref) && p2.ref != f2 && (y2 || (y2 = []), p2.ref && y2.push(p2.ref, null, d2), y2.push(f2, d2.__c || h4, d2)), null != h4 ? (null == _2 && (_2 = h4), "function" == typeof d2.type && d2.__k === p2.__k ? d2.__d = a2 = L(d2, a2, t3) : a2 = A(t3, d2, p2, g2, h4, a2), "function" == typeof e2.type && (e2.__d = a2)) : a2 && p2.__e == a2 && a2.parentNode != t3 && (a2 = P(p2));
+    M(t3, d2, p2 = p2 || m, o2, i2, u2, s2, a2, l2), h3 = d2.__e, (f2 = d2.ref) && p2.ref != f2 && (y2 || (y2 = []), p2.ref && y2.push(p2.ref, null, d2), y2.push(f2, d2.__c || h3, d2)), null != h3 ? (null == _2 && (_2 = h3), "function" == typeof d2.type && d2.__k === p2.__k ? d2.__d = a2 = L(d2, a2, t3) : a2 = A(t3, d2, p2, g2, h3, a2), "function" == typeof e2.type && (e2.__d = a2)) : a2 && p2.__e == a2 && a2.parentNode != t3 && (a2 = P(p2));
   }
   for (e2.__e = _2, c2 = b2; c2--; ) null != g2[c2] && W(g2[c2], g2[c2]);
   if (y2) for (c2 = 0; c2 < y2.length; c2++) U(y2[c2], y2[++c2], y2[++c2]);
@@ -29072,12 +31978,12 @@ function D(t3) {
   this.l[t3.type + true](c.event ? c.event(t3) : t3);
 }
 function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
-  var l2, f2, p2, d2, h4, _2, m2, v2, y2, b2, w2, x2, k, P2, C2, E2 = n2.type;
+  var l2, f2, p2, d2, h3, _2, m2, v2, y2, b2, w2, x2, k, P2, C2, E2 = n2.type;
   if (void 0 !== n2.constructor) return null;
   null != e2.__h && (a2 = e2.__h, s2 = n2.__e = e2.__e, n2.__h = null, i2 = [s2]), (l2 = c.__b) && l2(n2);
   try {
     t: if ("function" == typeof E2) {
-      if (v2 = n2.props, y2 = (l2 = E2.contextType) && r2[l2.__c], b2 = l2 ? y2 ? y2.props.value : l2.__ : r2, e2.__c ? m2 = (f2 = n2.__c = e2.__c).__ = f2.__E : ("prototype" in E2 && E2.prototype.render ? n2.__c = f2 = new E2(v2, b2) : (n2.__c = f2 = new N(v2, b2), f2.constructor = E2, f2.render = B), y2 && y2.sub(f2), f2.props = v2, f2.state || (f2.state = {}), f2.context = b2, f2.__n = r2, p2 = f2.__d = true, f2.__h = [], f2._sb = []), null == f2.__s && (f2.__s = f2.state), null != E2.getDerivedStateFromProps && (f2.__s == f2.state && (f2.__s = g({}, f2.__s)), g(f2.__s, E2.getDerivedStateFromProps(v2, f2.__s))), d2 = f2.props, h4 = f2.state, p2) null == E2.getDerivedStateFromProps && null != f2.componentWillMount && f2.componentWillMount(), null != f2.componentDidMount && f2.__h.push(f2.componentDidMount);
+      if (v2 = n2.props, y2 = (l2 = E2.contextType) && r2[l2.__c], b2 = l2 ? y2 ? y2.props.value : l2.__ : r2, e2.__c ? m2 = (f2 = n2.__c = e2.__c).__ = f2.__E : ("prototype" in E2 && E2.prototype.render ? n2.__c = f2 = new E2(v2, b2) : (n2.__c = f2 = new N(v2, b2), f2.constructor = E2, f2.render = B), y2 && y2.sub(f2), f2.props = v2, f2.state || (f2.state = {}), f2.context = b2, f2.__n = r2, p2 = f2.__d = true, f2.__h = [], f2._sb = []), null == f2.__s && (f2.__s = f2.state), null != E2.getDerivedStateFromProps && (f2.__s == f2.state && (f2.__s = g({}, f2.__s)), g(f2.__s, E2.getDerivedStateFromProps(v2, f2.__s))), d2 = f2.props, h3 = f2.state, p2) null == E2.getDerivedStateFromProps && null != f2.componentWillMount && f2.componentWillMount(), null != f2.componentDidMount && f2.__h.push(f2.componentDidMount);
       else {
         if (null == E2.getDerivedStateFromProps && v2 !== d2 && null != f2.componentWillReceiveProps && f2.componentWillReceiveProps(v2, b2), !f2.__e && null != f2.shouldComponentUpdate && false === f2.shouldComponentUpdate(v2, f2.__s, b2) || n2.__v === e2.__v) {
           for (f2.props = v2, f2.state = f2.__s, n2.__v !== e2.__v && (f2.__d = false), f2.__v = n2, n2.__e = e2.__e, n2.__k = e2.__k, n2.__k.forEach(function(t4) {
@@ -29087,7 +31993,7 @@ function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
           break t;
         }
         null != f2.componentWillUpdate && f2.componentWillUpdate(v2, f2.__s, b2), null != f2.componentDidUpdate && f2.__h.push(function() {
-          f2.componentDidUpdate(d2, h4, _2);
+          f2.componentDidUpdate(d2, h3, _2);
         });
       }
       if (f2.context = b2, f2.props = v2, f2.__v = n2, f2.__P = t3, x2 = c.__r, k = 0, "prototype" in E2 && E2.prototype.render) {
@@ -29096,7 +32002,7 @@ function M(t3, n2, e2, r2, o2, i2, u2, s2, a2) {
       } else do {
         f2.__d = false, x2 && x2(n2), l2 = f2.render(f2.props, f2.state, f2.context), f2.state = f2.__s;
       } while (f2.__d && ++k < 25);
-      f2.state = f2.__s, null != f2.getChildContext && (r2 = g(g({}, r2), f2.getChildContext())), p2 || null == f2.getSnapshotBeforeUpdate || (_2 = f2.getSnapshotBeforeUpdate(d2, h4)), C2 = null != l2 && l2.type === S && null == l2.key ? l2.props.children : l2, T(t3, Array.isArray(C2) ? C2 : [C2], n2, e2, r2, o2, i2, u2, s2, a2), f2.base = n2.__e, n2.__h = null, f2.__h.length && u2.push(f2), m2 && (f2.__E = f2.__ = null), f2.__e = false;
+      f2.state = f2.__s, null != f2.getChildContext && (r2 = g(g({}, r2), f2.getChildContext())), p2 || null == f2.getSnapshotBeforeUpdate || (_2 = f2.getSnapshotBeforeUpdate(d2, h3)), C2 = null != l2 && l2.type === S && null == l2.key ? l2.props.children : l2, T(t3, Array.isArray(C2) ? C2 : [C2], n2, e2, r2, o2, i2, u2, s2, a2), f2.base = n2.__e, n2.__h = null, f2.__h.length && u2.push(f2), m2 && (f2.__E = f2.__ = null), f2.__e = false;
     } else null == i2 && n2.__v === e2.__v ? (n2.__k = e2.__k, n2.__e = e2.__e) : n2.__e = R(e2.__e, n2, e2, r2, o2, i2, u2, a2);
     (l2 = c.diffed) && l2(n2);
   } catch (t4) {
@@ -29115,18 +32021,18 @@ function F(t3, n2) {
   });
 }
 function R(t3, n2, e2, r2, o2, i2, u2, s2) {
-  var a2, c2, f2, p2 = e2.props, d2 = n2.props, h4 = n2.type, _2 = 0;
-  if ("svg" === h4 && (o2 = true), null != i2) {
-    for (; _2 < i2.length; _2++) if ((a2 = i2[_2]) && "setAttribute" in a2 == !!h4 && (h4 ? a2.localName === h4 : 3 === a2.nodeType)) {
+  var a2, c2, f2, p2 = e2.props, d2 = n2.props, h3 = n2.type, _2 = 0;
+  if ("svg" === h3 && (o2 = true), null != i2) {
+    for (; _2 < i2.length; _2++) if ((a2 = i2[_2]) && "setAttribute" in a2 == !!h3 && (h3 ? a2.localName === h3 : 3 === a2.nodeType)) {
       t3 = a2, i2[_2] = null;
       break;
     }
   }
   if (null == t3) {
-    if (null === h4) return document.createTextNode(d2);
-    t3 = o2 ? document.createElementNS("http://www.w3.org/2000/svg", h4) : document.createElement(h4, d2.is && d2), i2 = null, s2 = false;
+    if (null === h3) return document.createTextNode(d2);
+    t3 = o2 ? document.createElementNS("http://www.w3.org/2000/svg", h3) : document.createElement(h3, d2.is && d2), i2 = null, s2 = false;
   }
-  if (null === h4) p2 === d2 || s2 && t3.data === d2 || (t3.data = d2);
+  if (null === h3) p2 === d2 || s2 && t3.data === d2 || (t3.data = d2);
   else {
     if (i2 = i2 && l.call(t3.childNodes), c2 = (p2 = e2.props || m).dangerouslySetInnerHTML, f2 = d2.dangerouslySetInnerHTML, !s2) {
       if (null != i2) for (p2 = {}, _2 = 0; _2 < t3.attributes.length; _2++) p2[t3.attributes[_2].name] = t3.attributes[_2].value;
@@ -29137,8 +32043,8 @@ function R(t3, n2, e2, r2, o2, i2, u2, s2) {
       for (i3 in e3) "children" === i3 || "key" === i3 || i3 in n3 || H(t4, i3, null, e3[i3], r3);
       for (i3 in n3) o3 && "function" != typeof n3[i3] || "children" === i3 || "key" === i3 || "value" === i3 || "checked" === i3 || e3[i3] === n3[i3] || H(t4, i3, n3[i3], e3[i3], r3);
     })(t3, d2, p2, o2, s2), f2) n2.__k = [];
-    else if (_2 = n2.props.children, T(t3, Array.isArray(_2) ? _2 : [_2], n2, e2, r2, o2 && "foreignObject" !== h4, i2, u2, i2 ? i2[0] : e2.__k && P(e2, 0), s2), null != i2) for (_2 = i2.length; _2--; ) null != i2[_2] && b(i2[_2]);
-    s2 || ("value" in d2 && void 0 !== (_2 = d2.value) && (_2 !== t3.value || "progress" === h4 && !_2 || "option" === h4 && _2 !== p2.value) && H(t3, "value", _2, p2.value, false), "checked" in d2 && void 0 !== (_2 = d2.checked) && _2 !== t3.checked && H(t3, "checked", _2, p2.checked, false));
+    else if (_2 = n2.props.children, T(t3, Array.isArray(_2) ? _2 : [_2], n2, e2, r2, o2 && "foreignObject" !== h3, i2, u2, i2 ? i2[0] : e2.__k && P(e2, 0), s2), null != i2) for (_2 = i2.length; _2--; ) null != i2[_2] && b(i2[_2]);
+    s2 || ("value" in d2 && void 0 !== (_2 = d2.value) && (_2 !== t3.value || "progress" === h3 && !_2 || "option" === h3 && _2 !== p2.value) && H(t3, "value", _2, p2.value, false), "checked" in d2 && void 0 !== (_2 = d2.checked) && _2 !== t3.checked && H(t3, "checked", _2, p2.checked, false));
   }
   return t3;
 }
@@ -29624,7 +32530,7 @@ var Ft = /* @__PURE__ */ (function(t3) {
   } }]), o2;
 })(tt);
 function Rt() {
-  var t3 = It(), n2 = t3.pagination, e2 = n2.server, r2 = n2.summary, o2 = void 0 === r2 || r2, i2 = n2.nextButton, u2 = void 0 === i2 || i2, s2 = n2.prevButton, a2 = void 0 === s2 || s2, l2 = n2.buttonsCount, c2 = void 0 === l2 ? 3 : l2, f2 = n2.limit, p2 = void 0 === f2 ? 10 : f2, d2 = n2.page, h4 = void 0 === d2 ? 0 : d2, _2 = n2.resetPageOnUpdate, m2 = void 0 === _2 || _2, v2 = bt(null), y2 = yt(h4), g2 = y2[0], b2 = y2[1], x2 = yt(0), k = x2[0], N2 = x2[1], P2 = At();
+  var t3 = It(), n2 = t3.pagination, e2 = n2.server, r2 = n2.summary, o2 = void 0 === r2 || r2, i2 = n2.nextButton, u2 = void 0 === i2 || i2, s2 = n2.prevButton, a2 = void 0 === s2 || s2, l2 = n2.buttonsCount, c2 = void 0 === l2 ? 3 : l2, f2 = n2.limit, p2 = void 0 === f2 ? 10 : f2, d2 = n2.page, h3 = void 0 === d2 ? 0 : d2, _2 = n2.resetPageOnUpdate, m2 = void 0 === _2 || _2, v2 = bt(null), y2 = yt(h3), g2 = y2[0], b2 = y2[1], x2 = yt(0), k = x2[0], N2 = x2[1], P2 = At();
   gt(function() {
     return e2 ? (v2.current = new Ft({ limit: p2, page: g2, url: e2.url, body: e2.body }), t3.pipeline.register(v2.current)) : (v2.current = new Mt({ limit: p2, page: g2 }), t3.pipeline.register(v2.current)), v2.current instanceof Ft ? t3.pipeline.on("afterProcess", function(t4) {
       return N2(t4.length);
@@ -30299,8 +33205,8 @@ var yn = function(t3, n2, r2, o2) {
     }), c2 = false, f2 = false, p2 = false, d2 = false;
     if (void 0 !== l2 ? r2 ? -1 === l2.direction ? p2 = true : d2 = true : 1 === a2 ? d2 = true : a2 > 1 && (f2 = true, c2 = true) : 0 === a2 ? c2 = true : a2 > 0 && !r2 ? (c2 = true, f2 = true) : a2 > 0 && r2 && (c2 = true), f2 && (s2 = []), c2) s2.push({ index: t3, direction: n2, compare: o2 });
     else if (d2) {
-      var h4 = s2.indexOf(l2);
-      s2[h4].direction = n2;
+      var h3 = s2.indexOf(l2);
+      s2[h3].direction = n2;
     } else if (p2) {
       var _2 = s2.indexOf(l2);
       s2.splice(_2, 1);
@@ -30592,7 +33498,7 @@ var StatisticsPage = class extends SettingsPage {
     );
     this.containerEl.addClass("sr-statistics-page");
     this.plugin = plugin;
-    new import_obsidian26.Setting(this.containerEl).setName(t("PERIOD_TITLE")).setDesc(t("PERIOD_DESC")).addDropdown((el) => {
+    new import_obsidian30.Setting(this.containerEl).setName(t("PERIOD_TITLE")).setDesc(t("PERIOD_DESC")).addDropdown((el) => {
       el.addOption("month", t("MONTH")).addOption("quarter", t("QUARTER")).addOption("year", t("YEAR")).addOption("lifetime", t("LIFETIME")).setValue("month");
       el.selectEl.setAttr("id", "sr-chart-period");
     });
@@ -30631,7 +33537,7 @@ var StatisticsPage = class extends SettingsPage {
     }
     const scheduledCount = cardStats.youngCount + cardStats.matureCount;
     maxN = Math.max(maxN, 1);
-    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("FORECAST")).addSetting((setting) => {
+    new import_obsidian30.SettingGroup(this.containerEl).setHeading(t("FORECAST")).addSetting((setting) => {
       this.forecastChart = new ChartComponent(
         setting.settingEl,
         "forecastChart",
@@ -30656,7 +33562,7 @@ var StatisticsPage = class extends SettingsPage {
       false
     );
     const longestInterval = textInterval(cardStats.intervals.getMaxValue(), false);
-    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("INTERVALS")).addSetting((setting) => {
+    new import_obsidian30.SettingGroup(this.containerEl).setHeading(t("INTERVALS")).addSetting((setting) => {
       this.intervalsChart = new ChartComponent(
         setting.settingEl,
         "intervalsChart",
@@ -30678,7 +33584,7 @@ var StatisticsPage = class extends SettingsPage {
       cardStats.eases.clearCountIfMissing(ease);
     }
     const averageEase = Math.round(cardStats.eases.getTotalOfValueMultiplyCount() / scheduledCount) || 0;
-    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("EASES")).addSetting((setting) => {
+    new import_obsidian30.SettingGroup(this.containerEl).setHeading(t("EASES")).addSetting((setting) => {
       this.easesChart = new ChartComponent(
         setting.settingEl,
         "easesChart",
@@ -30699,7 +33605,7 @@ var StatisticsPage = class extends SettingsPage {
       2 /* All */,
       true
     );
-    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("CARD_TYPES")).addSetting((setting) => {
+    new import_obsidian30.SettingGroup(this.containerEl).setHeading(t("CARD_TYPES")).addSetting((setting) => {
       this.cardTypesChart = new ChartComponent(
         setting.settingEl,
         "cardTypesChart",
@@ -30727,7 +33633,7 @@ var StatisticsPage = class extends SettingsPage {
         return [key.split(".")[0], Math.round(value)];
       }
     );
-    new import_obsidian26.SettingGroup(this.containerEl).setHeading(t("NOTES")).addSetting((setting) => {
+    new import_obsidian30.SettingGroup(this.containerEl).setHeading(t("NOTES")).addSetting((setting) => {
       this.noteStatsGrid = new NoteStatsComponent(setting.settingEl, noteEases);
       return this.noteStatsGrid;
     });
@@ -30735,7 +33641,7 @@ var StatisticsPage = class extends SettingsPage {
 };
 
 // src/ui/obsidian-ui-components/content-container/settings-page/ui-preferences-page.tsx
-var import_obsidian27 = require("obsidian");
+var import_obsidian31 = require("obsidian");
 var UIPreferencesPage = class extends SettingsPage {
   constructor(containerEl, plugin, pageType, applySettingsUpdate, display, openPage, scrollListener) {
     super(
@@ -30747,9 +33653,9 @@ var UIPreferencesPage = class extends SettingsPage {
       openPage,
       scrollListener
     );
-    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("OBSIDIAN_INTEGRATION")).addSetting((setting) => {
+    new import_obsidian31.SettingGroup(this.containerEl).setHeading(t("OBSIDIAN_INTEGRATION")).addSetting((setting) => {
       setting.setName(t("OPEN_IN_TAB")).setDesc(t("OPEN_IN_TAB_DESC")).addToggle((toggle) => {
-        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
         toggle.setValue(
           isMobile ? this.plugin.data.settings.openViewInNewTabMobile : this.plugin.data.settings.openViewInNewTab
         ).onChange(async (value) => {
@@ -30766,11 +33672,29 @@ var UIPreferencesPage = class extends SettingsPage {
             this.plugin.uiManager.registerSRFocusListener();
           } else {
             this.plugin.uiManager.tabViewManager.closeAllTabViews();
+            this.plugin.data.settings.useCustomHotkeys = false;
             this.plugin.uiManager.removeSRFocusListener();
           }
           await this.plugin.savePluginData();
+          this.display();
         });
       });
+    }).addSetting((setting) => {
+      const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
+      setting.setName(t("USE_CUSTOM_HOTKEYS")).setDesc(t("USE_CUSTOM_HOTKEYS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.useCustomHotkeys).setDisabled(
+          isMobile && !this.plugin.data.settings.openViewInNewTabMobile || !isMobile && !this.plugin.data.settings.openViewInNewTab
+        ).onChange(async (value) => {
+          this.plugin.data.settings.useCustomHotkeys = value;
+          if (this.plugin.data.settings.useCustomHotkeys) {
+            this.plugin.addCustomHotkeys();
+          } else {
+            this.plugin.removeCustomHotkeys();
+          }
+          this.plugin.addCustomHotkeys();
+          await this.plugin.savePluginData();
+        })
+      );
     }).addSetting((setting) => {
       setting.setName(t("SHOW_RIBBON_ICON")).setDesc(t("SHOW_RIBBON_ICON_DESC")).addToggle(
         (toggle) => toggle.setValue(this.plugin.data.settings.showRibbonIcon).onChange(async (value) => {
@@ -30780,47 +33704,30 @@ var UIPreferencesPage = class extends SettingsPage {
         })
       );
     }).addSetting((setting) => {
-      setting.setName(t("SHOW_STATUS_BAR")).setDesc(t("SHOW_STATUS_BAR_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.showStatusBar).onChange(async (value) => {
-          this.plugin.data.settings.showStatusBar = value;
-          await this.plugin.savePluginData();
-          this.plugin.uiManager.updateStatusBar();
-        })
-      );
-    }).addSetting((setting) => {
       setting.setName(t("ENABLE_FILE_MENU_REVIEW_OPTIONS")).setDesc(t("ENABLE_FILE_MENU_REVIEW_OPTIONS_DESC")).addToggle(
-        (toggle) => toggle.setValue(!this.plugin.data.settings.disableFileMenuReviewOptions).onChange(async (value) => {
-          this.plugin.data.settings.disableFileMenuReviewOptions = !value;
-          await this.plugin.savePluginData();
-          this.plugin.uiManager.showFileMenuItems(value);
-        })
-      );
-    });
-    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("FLASHCARDS")).addSetting((setting) => {
-      setting.setName(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE")).setDesc(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.initiallyExpandAllSubdecksInTree).onChange(async (value) => {
-          this.plugin.data.settings.initiallyExpandAllSubdecksInTree = value;
+        (toggle) => toggle.setValue(this.plugin.data.settings.showFileMenuReviewOptions).onChange(async (value) => {
+          this.plugin.data.settings.showFileMenuReviewOptions = value;
           await this.plugin.savePluginData();
         })
       );
     }).addSetting((setting) => {
-      setting.setName(t("SHOW_CARD_CONTEXT")).setDesc(t("SHOW_CARD_CONTEXT_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.showContextInCards).onChange(async (value) => {
-          this.plugin.data.settings.showContextInCards = value;
+      setting.setName(t("ENABLE_FILE_MENU_DELETE_BUTTON")).setDesc(t("ENABLE_FILE_MENU_DELETE_BUTTON_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showDeleteButtonInFileMenu).onChange(async (value) => {
+          this.plugin.data.settings.showDeleteButtonInFileMenu = value;
           await this.plugin.savePluginData();
         })
       );
     }).addSetting((setting) => {
-      setting.setName(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS")).setDesc(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC")).addToggle(
-        (toggle) => toggle.setValue(this.plugin.data.settings.showIntervalInReviewButtons).onChange(async (value) => {
-          this.plugin.data.settings.showIntervalInReviewButtons = value;
+      setting.setName(t("SHOW_DELETE_BUTTON")).setDesc(t("SHOW_DELETE_BUTTON_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showDeleteButtonInCardView).onChange(async (value) => {
+          this.plugin.data.settings.showDeleteButtonInCardView = value;
           await this.plugin.savePluginData();
         })
       );
     }).addSetting((setting) => {
       setting.setName(t("CARD_MODAL_HEIGHT_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addExtraButton((button) => {
         button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+          const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
           if (isMobile) {
             this.plugin.data.settings.flashcardHeightPercentageMobile = DEFAULT_SETTINGS.flashcardHeightPercentageMobile;
           } else {
@@ -30830,7 +33737,7 @@ var UIPreferencesPage = class extends SettingsPage {
           this.display();
         });
       }).addSlider((slider) => {
-        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
         slider.setLimits(10, 100, 5).setValue(
           isMobile ? this.plugin.data.settings.flashcardHeightPercentageMobile : this.plugin.data.settings.flashcardHeightPercentage
         ).setDynamicTooltip().onChange(async (value) => {
@@ -30845,7 +33752,7 @@ var UIPreferencesPage = class extends SettingsPage {
     }).addSetting((setting) => {
       setting.setName(t("CARD_MODAL_WIDTH_PERCENT")).setDesc(t("CARD_MODAL_SIZE_PERCENT_DESC")).addExtraButton((button) => {
         button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
-          const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+          const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
           if (isMobile) {
             this.plugin.data.settings.flashcardWidthPercentageMobile = DEFAULT_SETTINGS.flashcardWidthPercentageMobile;
           } else {
@@ -30855,7 +33762,7 @@ var UIPreferencesPage = class extends SettingsPage {
           this.display();
         });
       }).addSlider((slider) => {
-        const isMobile = import_obsidian27.Platform.isMobile || EmulatedPlatform().isMobile;
+        const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
         slider.setLimits(10, 100, 5).setValue(
           isMobile ? this.plugin.data.settings.flashcardWidthPercentageMobile : this.plugin.data.settings.flashcardWidthPercentage
         ).setDynamicTooltip().onChange(async (value) => {
@@ -30868,7 +33775,70 @@ var UIPreferencesPage = class extends SettingsPage {
         });
       });
     });
-    new import_obsidian27.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARDS_NOTES")).addSetting((setting) => {
+    new import_obsidian31.SettingGroup(this.containerEl).setHeading(t("STATUS_BAR_SETTINGS")).addSetting((setting) => {
+      setting.setName(t("SHOW_STATUS_BAR")).setDesc(t("SHOW_STATUS_BAR_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showStatusBar).onChange(async (value) => {
+          this.plugin.data.settings.showStatusBar = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.updateStatusBar();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_CARD_STATUS_BAR_ITEM")).setDesc(t("SHOW_CARD_STATUS_BAR_ITEM_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showCardStatusBarItem).onChange(async (value) => {
+          this.plugin.data.settings.showCardStatusBarItem = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.updateStatusBar();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_NOTE_STATUS_BAR_ITEM")).setDesc(t("SHOW_NOTE_STATUS_BAR_ITEM_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showNoteStatusBarItem).onChange(async (value) => {
+          this.plugin.data.settings.showNoteStatusBarItem = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.updateStatusBar();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_UPDATE_AVAILABLE_STATUS_BAR_ITEM")).setDesc(t("SHOW_UPDATE_AVAILABLE_STATUS_BAR_ITEM_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showUpdateAvailableStatusBarItem).onChange(async (value) => {
+          this.plugin.data.settings.showUpdateAvailableStatusBarItem = value;
+          await this.plugin.savePluginData();
+          this.plugin.uiManager.updateStatusBar();
+        })
+      );
+    });
+    new import_obsidian31.SettingGroup(this.containerEl).setHeading(t("FLASHCARDS")).addSetting((setting) => {
+      setting.setName(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE")).setDesc(t("INITIALLY_EXPAND_SUBDECKS_IN_TREE_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.initiallyExpandAllSubdecksInTree).onChange(async (value) => {
+          this.plugin.data.settings.initiallyExpandAllSubdecksInTree = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_CARD_CONTEXT")).setDesc(t("SHOW_CARD_CONTEXT_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showContextInCards).onChange(async (value) => {
+          this.plugin.data.settings.showContextInCards = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS")).setDesc(t("CONVERT_CLOZE_PATTERNS_TO_INPUTS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.convertClozePatternsToInputs).onChange(async (value) => {
+          this.plugin.data.settings.convertClozePatternsToInputs = value;
+          await this.plugin.savePluginData();
+          this.display();
+        })
+      );
+    }).addSetting((setting) => {
+      setting.setName(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS")).setDesc(t("SHOW_INTERVAL_IN_REVIEW_BUTTONS_DESC")).addToggle(
+        (toggle) => toggle.setValue(this.plugin.data.settings.showIntervalInReviewButtons).onChange(async (value) => {
+          this.plugin.data.settings.showIntervalInReviewButtons = value;
+          await this.plugin.savePluginData();
+        })
+      );
+    });
+    new import_obsidian31.SettingGroup(this.containerEl).setHeading(t("GROUP_FLASHCARDS_NOTES")).addSetting((setting) => {
       setting.setName(t("FLASHCARD_EASY_LABEL")).setDesc(t("FLASHCARD_EASY_DESC")).addExtraButton((button) => {
         button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
           this.plugin.data.settings.flashcardEasyText = DEFAULT_SETTINGS.flashcardEasyText;
@@ -30914,6 +33884,21 @@ var UIPreferencesPage = class extends SettingsPage {
         })
       );
     }).addSetting((setting) => {
+      setting.setName(t("FLASHCARD_AGAIN_LABEL")).setDesc(t("FLASHCARD_AGAIN_DESC")).addExtraButton((button) => {
+        button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
+          this.plugin.data.settings.flashcardAgainText = DEFAULT_SETTINGS.flashcardAgainText;
+          await this.plugin.savePluginData();
+          this.display();
+        });
+      }).addText(
+        (text) => text.setValue(this.plugin.data.settings.flashcardAgainText).onChange((value) => {
+          applySettingsUpdate(async () => {
+            this.plugin.data.settings.flashcardAgainText = value;
+            await this.plugin.savePluginData();
+          });
+        })
+      );
+    }).addSetting((setting) => {
       setting.setName(t("REVIEW_BUTTON_DELAY")).setDesc(t("REVIEW_BUTTON_DELAY_DESC")).addExtraButton((button) => {
         button.setIcon("reset").setTooltip(t("RESET_DEFAULT")).onClick(async () => {
           this.plugin.data.settings.reviewButtonDelay = DEFAULT_SETTINGS.reviewButtonDelay;
@@ -30937,6 +33922,7 @@ var SettingsPageTypesArray = [
   "notes-page",
   "scheduling-page",
   "ui-preferences-page",
+  "data-page",
   "statistics-page"
 ];
 function getPageName(pageType) {
@@ -30951,6 +33937,8 @@ function getPageName(pageType) {
       return t("SCHEDULING");
     case "ui-preferences-page":
       return t("UI");
+    case "data-page":
+      return t("DATA_PAGE_NAME");
     case "statistics-page":
       return t("STATS_TITLE");
   }
@@ -30967,16 +33955,20 @@ function getPageIcon(pageType) {
       return "calendar";
     case "ui-preferences-page":
       return "presentation";
+    case "data-page":
+      return "hard-drive";
     case "statistics-page":
       return "bar-chart-3";
   }
 }
 var SettingsPageManager = class {
-  constructor(containerEl, plugin, lastPage, lastScrollPosition, updateLastPageState, display) {
+  constructor(containerEl, plugin, lastPage, lastScrollPosition, didReadMultilineEndMarkerWarning, updateLastPageState, display, changeMultilineEndMarkerWarningState) {
     this.pages = [];
     this.applyDebounceTimer = 0;
     this.containerEl = containerEl;
     this.plugin = plugin;
+    this.didReadMultilineEndMarkerWarning = didReadMultilineEndMarkerWarning;
+    this.changeMultilineEndMarkerWarningState = changeMultilineEndMarkerWarningState;
     this.updateLastPageState = updateLastPageState;
     this.display = display;
     this.createPages();
@@ -31024,10 +34016,12 @@ var SettingsPageManager = class {
               newPageContainerEl,
               this.plugin,
               pageType,
+              this.didReadMultilineEndMarkerWarning,
               this.applySettingsUpdate.bind(this),
               this.display,
               this.openPage.bind(this),
-              this.scrollListener.bind(this)
+              this.scrollListener.bind(this),
+              this.changeMultilineEndMarkerWarningState.bind(this)
             )
           );
           break;
@@ -31070,6 +34064,19 @@ var SettingsPageManager = class {
             )
           );
           break;
+        case "data-page":
+          this.pages.push(
+            new DataPage(
+              newPageContainerEl,
+              this.plugin,
+              pageType,
+              this.applySettingsUpdate.bind(this),
+              this.display,
+              this.openPage.bind(this),
+              this.scrollListener.bind(this)
+            )
+          );
+          break;
         case "statistics-page":
           this.pages.push(
             new StatisticsPage(
@@ -31100,11 +34107,13 @@ var SettingsPageManager = class {
 };
 
 // src/ui/obsidian-ui-components/settings-tab.tsx
-var SRSettingTab = class extends import_obsidian28.PluginSettingTab {
+var SRSettingTab = class extends import_obsidian32.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
+    this.settingsPageManager = null;
     this.lastPage = "main-page";
     this.lastScrollPosition = 0;
+    this.didReadMultilineEndMarkerWarning = false;
     this.plugin = plugin;
     this.icon = "SpacedRepIcon";
     this.containerEl.addClass("sr-settings-tab");
@@ -31115,16 +34124,65 @@ var SRSettingTab = class extends import_obsidian28.PluginSettingTab {
       this.plugin,
       this.lastPage,
       this.lastScrollPosition,
+      this.didReadMultilineEndMarkerWarning,
       (lastPage, lastScrollPosition) => {
         this.lastPage = lastPage;
         this.lastScrollPosition = lastScrollPosition;
       },
-      this.display.bind(this)
+      this.display.bind(this),
+      (state) => {
+        this.didReadMultilineEndMarkerWarning = state;
+        this.display();
+      }
     );
   }
   hide() {
     if (this.settingsPageManager) this.settingsPageManager.destroy();
     this.containerEl.empty();
+  }
+};
+
+// src/ui/review-queue-loader.ts
+var ReviewQueueLoader = class {
+  constructor(plugin, osrAppCore, singleNote, reviewMode) {
+    this.singleNote = null;
+    this.osrAppCore = osrAppCore;
+    this.singleNote = singleNote;
+    this.reviewMode = reviewMode;
+    this.plugin = plugin;
+  }
+  getSingleNote() {
+    return this.singleNote;
+  }
+  getReviewMode() {
+    return this.reviewMode;
+  }
+  setReviewMode(reviewMode) {
+    this.reviewMode = reviewMode;
+  }
+  async loadReviewQueue() {
+    if (!this.plugin.osrAppCore.syncLock) {
+      await this.plugin.sync();
+    }
+    let deckTree;
+    let remainingDeckTree;
+    if (this.singleNote) {
+      const singleNoteDeckData = await this.plugin.getPreparedDecksForSingleNoteReview(
+        this.singleNote,
+        this.reviewMode
+      );
+      deckTree = singleNoteDeckData.deckTree;
+      remainingDeckTree = singleNoteDeckData.remainingDeckTree;
+    } else {
+      deckTree = this.osrAppCore.reviewableDeckTree;
+      remainingDeckTree = this.reviewMode === 0 /* Cram */ ? this.osrAppCore.reviewableDeckTree : this.osrAppCore.remainingDeckTree;
+    }
+    const reviewSequencerData = this.plugin.getPreparedReviewSequencer(
+      deckTree,
+      remainingDeckTree,
+      this.reviewMode
+    );
+    return reviewSequencerData.reviewSequencer;
   }
 };
 
@@ -31173,26 +34231,28 @@ var SidebarManager = class {
 };
 
 // src/ui/status-bar-manager.tsx
-var import_obsidian30 = require("obsidian");
+var import_obsidian34 = require("obsidian");
 
-// src/ui/obsidian-ui-components/statusbar-items/icon-text-statusbar-item.tsx
-var import_obsidian29 = require("obsidian");
+// src/ui/obsidian-ui-components/statusbar-items/icon-statusbar-item.tsx
+var import_obsidian33 = require("obsidian");
 
 // src/ui/obsidian-ui-components/statusbar-items/statusbar-item.tsx
 var StatusBarItem = class {
   constructor(plugin, type, props) {
     var _a2;
-    this.plugin = plugin;
     this.type = type;
-    this.statusBarItem = this.plugin.addStatusBarItem();
+    this.statusBarItem = plugin.addStatusBarItem();
     this.statusBarItem.addClass("status-bar-item");
+    this.statusBarItem.addClass(type);
     this.statusBarItem.addClass("sr-status-bar-item");
+    this.segments = [];
     if (props.show === void 0 || props.show === false) {
       this.statusBarItem.addClass("sr-is-hidden");
     }
     if (props.onClick !== void 0) {
       this.statusBarItem.addClass("mod-clickable");
       this.statusBarItem.addEventListener("click", async () => {
+        if (props.onClick === void 0) return;
         await props.onClick();
       });
     }
@@ -31205,6 +34265,9 @@ var StatusBarItem = class {
         this.addSegment(segment);
       }
     }
+  }
+  getItem() {
+    return this.statusBarItem;
   }
   show() {
     if (this.statusBarItem.hasClass("sr-is-hidden")) {
@@ -31227,19 +34290,72 @@ var StatusBarItem = class {
   }
 };
 
-// src/ui/obsidian-ui-components/statusbar-items/text-statusbar-item.tsx
-var TextStatusBarItem = class extends StatusBarItem {
+// src/ui/obsidian-ui-components/statusbar-items/icon-statusbar-item.tsx
+var IconStatusBarItem = class extends StatusBarItem {
   constructor(plugin, type, props) {
     super(plugin, type, props);
-    this.setText(props.text);
+    this.icon = "";
+    this.iconEl = null;
+    this.hideIcon = false;
+    this.icon = props.icon;
+    this.hideIcon = props.hideIcon !== void 0 ? props.hideIcon : false;
+    this.setStatusBarItemIcon(props.icon);
   }
-  setText(text) {
-    this.segments = [];
-    this.statusBarItem.empty();
-    if (text !== void 0 && typeof text === "string") {
+  setStatusBarItemIcon(icon) {
+    this.icon = icon;
+    if (this.iconEl === null || !this.statusBarItem.hasChildNodes()) {
+      this.iconEl = document.createElement("span");
+      this.iconEl.addClass("status-bar-item-icon");
+      this.addSegment(this.iconEl);
+    } else {
+      if (this.iconEl !== null) {
+        this.iconEl.empty();
+      }
+    }
+    (0, import_obsidian33.setIcon)(this.iconEl, this.icon);
+    if (!this.iconEl.hasClass("status-bar-item-icon")) {
+      this.iconEl.addClass("status-bar-item-icon");
+    }
+    this.setHideIcon(this.hideIcon);
+  }
+  setHideIcon(hideIcon) {
+    this.hideIcon = hideIcon;
+    if (this.iconEl === null) return;
+    if (hideIcon) {
+      if (this.iconEl.hasClass("sr-is-hidden")) return;
+      this.iconEl.addClass("sr-is-hidden");
+    } else {
+      if (!this.iconEl.hasClass("sr-is-hidden")) return;
+      this.iconEl.removeClass("sr-is-hidden");
+    }
+  }
+};
+
+// src/ui/obsidian-ui-components/statusbar-items/text-statusbar-item.tsx
+var TextStatusBarItem = class extends IconStatusBarItem {
+  constructor(plugin, type, props) {
+    super(plugin, type, {
+      icon: props.icon ? props.icon : "",
+      hideIcon: props.hideIcon,
+      show: props.show,
+      tooltip: props.tooltip,
+      tooltipPosition: props.tooltipPosition,
+      onClick: props.onClick
+    });
+    this.text = "";
+    this.setText(props.text, false);
+  }
+  setText(text, cleanSegments = true) {
+    if (cleanSegments) {
+      this.segments = [];
+      this.statusBarItem.empty();
+      this.iconEl = null;
+      this.setStatusBarItemIcon(this.icon);
+    }
+    if (typeof text === "string") {
       this.text = text;
       this.createTextSegment(text);
-    } else if (text !== void 0 && Array.isArray(text)) {
+    } else if (Array.isArray(text)) {
       this.text = text;
       for (const textSegment of text) {
         this.createTextSegment(textSegment);
@@ -31256,40 +34372,26 @@ var TextStatusBarItem = class extends StatusBarItem {
   }
 };
 
-// src/ui/obsidian-ui-components/statusbar-items/icon-text-statusbar-item.tsx
-var IconTextStatusBarItem = class extends TextStatusBarItem {
+// src/ui/obsidian-ui-components/statusbar-items/counter-statusbar-item.tsx
+var CounterStatusBarItem = class extends TextStatusBarItem {
   constructor(plugin, type, props) {
-    super(plugin, type, props);
-    this.setText(props.text ? props.text : "", props.icon);
+    super(plugin, type, {
+      ...props,
+      text: `${props.count} ${props.text}`
+    });
+    this.count = 0;
+    this.count = props.count;
   }
-  setText(text, icon) {
-    this.segments = [];
-    this.statusBarItem.empty();
-    if (this.icon !== void 0 || icon !== void 0)
-      this.setStatusBarItemIcon(icon ? icon : this.icon);
-    if (text !== void 0 && typeof text === "string") {
-      this.text = text;
-      this.createTextSegment(text);
-    } else if (text !== void 0 && Array.isArray(text)) {
-      this.text = text;
-      for (const textSegment of text) {
-        this.createTextSegment(textSegment);
-      }
+  setCounter(count) {
+    const oldCount = this.count;
+    this.count = count;
+    if (typeof this.text === "string") {
+      const textWithoutCount = this.text.replace(oldCount.toString(), "");
+      this.setText(`${this.count}${textWithoutCount}`);
     }
   }
-  setStatusBarItemIcon(icon) {
-    this.icon = icon;
-    if (this.iconEl === void 0 || !this.statusBarItem.hasChildNodes()) {
-      this.iconEl = document.createElement("span");
-      this.iconEl.addClass("status-bar-item-icon");
-      this.addSegment(this.iconEl);
-    } else {
-      this.iconEl.empty();
-    }
-    (0, import_obsidian29.setIcon)(this.iconEl, this.icon);
-    if (!this.iconEl.hasClass("status-bar-item-icon")) {
-      this.iconEl.addClass("status-bar-item-icon");
-    }
+  getCount() {
+    return this.count;
   }
 };
 
@@ -31305,64 +34407,72 @@ var StatusBarManager = class {
     this.statusBarItems = [];
     this.createStatusBarItems();
   }
-  setText(text, showItems, statusBarItemType) {
+  setCount(count, showItems, statusBarItemType) {
     const statusBarItem = this.statusBarItems.find(
       (statusBarItem2) => statusBarItem2.getStatusBarItemType() === statusBarItemType
     );
-    if (statusBarItem !== void 0) {
-      statusBarItem.setText(text);
-      if (showItems) {
-        statusBarItem.show();
-      } else {
-        statusBarItem.hide();
-      }
-    }
-  }
-  showStatusBarItems(state) {
-    if (state === true && this.statusBarItems.length === 0) {
-      this.createStatusBarItems();
-      this.statusBarItems.forEach((statusBarItem) => {
-        statusBarItem.show();
-      });
-    } else if (state === true && this.statusBarItems.length > 0) {
-      this.statusBarItems.forEach((statusBarItem) => {
-        if (statusBarItem.getStatusBarItemType() !== "update-available")
-          statusBarItem.show();
-      });
+    if (statusBarItem === void 0) return;
+    statusBarItem.setCounter(count);
+    if (showItems && count > 0) {
+      statusBarItem.show();
     } else {
-      this.statusBarItems.forEach((statusBarItem) => {
-        statusBarItem.hide();
-      });
+      statusBarItem.hide();
     }
   }
-  showStatusBarItem(state, statusBarItemType) {
-    const statusBarItem = this.statusBarItems.find(
-      (statusBarItem2) => statusBarItem2.getStatusBarItemType() === statusBarItemType
-    );
-    if (statusBarItem !== void 0) {
-      if (state) {
-        statusBarItem.show();
+  showStatusBarItems(showItems, showCardStatusBarItem, showNoteStatusBarItem, showUpdateAvailableStatusBarItem) {
+    if (this.statusBarItems.length === 0) {
+      this.createStatusBarItems();
+    }
+    const showCardItem = showCardStatusBarItem === void 0 ? showItems : showCardStatusBarItem;
+    const showNoteItem = showNoteStatusBarItem === void 0 ? showItems : showNoteStatusBarItem;
+    const showUpdateAvailableItem = showUpdateAvailableStatusBarItem === void 0 ? showItems : showUpdateAvailableStatusBarItem;
+    this.statusBarItems.forEach((statusBarItem) => {
+      if (showItems) {
+        if (statusBarItem.getStatusBarItemType() === "update-available" && statusBarItem.getText() === "") {
+          statusBarItem.hide();
+          return;
+        }
+        switch (statusBarItem.getStatusBarItemType()) {
+          case "card-review":
+            if (showItems && showCardItem) {
+              statusBarItem.show();
+            } else {
+              statusBarItem.hide();
+            }
+            break;
+          case "note-review":
+            if (showItems && showNoteItem) {
+              statusBarItem.show();
+            } else {
+              statusBarItem.hide();
+            }
+            break;
+          case "update-available":
+            if (showItems && showUpdateAvailableItem) {
+              statusBarItem.show();
+            } else {
+              statusBarItem.hide();
+            }
+            break;
+          default:
+            statusBarItem.show();
+        }
       } else {
         statusBarItem.hide();
       }
-    }
-  }
-  showUpdateAvailableItemIfAvailable() {
-    const updateItem = this.statusBarItems.find(
-      (statusBarItem) => statusBarItem.getStatusBarItemType() === "update-available"
-    );
-    if (updateItem !== void 0 && updateItem.getText() !== void 0 && updateItem.getText() !== "") {
-      updateItem.show();
-    }
+    });
   }
   async createStatusBarItems() {
     StatusBarItemTypesArray.forEach((statusBarItemType) => {
       let statusBarItem = void 0;
       switch (statusBarItemType) {
         case "card-review":
-          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+          statusBarItem = new CounterStatusBarItem(this.plugin, statusBarItemType, {
             icon: "SpacedRepIcon",
             show: false,
+            count: 0,
+            hideIcon: false,
+            text: " card(s) due",
             tooltip: t("OPEN_DECK_FOR_REVIEW"),
             tooltipPosition: "top",
             onClick: async () => {
@@ -31373,9 +34483,12 @@ var StatusBarManager = class {
           });
           break;
         case "note-review":
-          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+          statusBarItem = new CounterStatusBarItem(this.plugin, statusBarItemType, {
             icon: "lucide-file-clock",
             show: false,
+            text: " note(s) due",
+            count: 0,
+            hideIcon: false,
             tooltip: t("OPEN_NOTE_FOR_REVIEW"),
             tooltipPosition: "top",
             onClick: async () => {
@@ -31387,9 +34500,11 @@ var StatusBarManager = class {
           });
           break;
         case "update-available":
-          statusBarItem = new IconTextStatusBarItem(this.plugin, statusBarItemType, {
+          statusBarItem = new TextStatusBarItem(this.plugin, statusBarItemType, {
             icon: "lucide-circle-arrow-up",
             show: false,
+            hideIcon: false,
+            text: "",
             tooltip: t("UPDATE_AVAILABLE"),
             tooltipPosition: "top"
           });
@@ -31401,14 +34516,16 @@ var StatusBarManager = class {
       const updateItem = this.statusBarItems.find(
         (statusBarItem) => statusBarItem.getStatusBarItemType() === "update-available"
       );
-      updateItem.setText("Spaced Repetition: new Update!");
+      if (updateItem !== void 0) {
+        updateItem.setText("Spaced Repetition: new Update!");
+      }
     }
   }
   async getNewestVersion() {
     try {
       const gitAPIrequest = async () => {
         return JSON.parse(
-          await (0, import_obsidian30.request)({
+          await (0, import_obsidian34.request)({
             url: "https://api.github.com/repos/st3v3nmw/obsidian-spaced-repetition/releases?per_page=15&page=1"
           })
         );
@@ -31431,34 +34548,17 @@ var StatusBarManager = class {
 var TabViewManager = class {
   // Add any needed resourced
   constructor(plugin) {
+    this.reviewQueueLoader = null;
     // Add any new other tab view types to this, then they'll be automatically registered
     this.tabViewTypes = [
       {
         type: SR_TAB_VIEW,
-        viewCreator: (leaf) => new SRTabView(leaf, this.plugin, async () => {
-          if (this.shouldOpenSingeNoteTabView) {
-            const singleNoteDeckData = await this.plugin.getPreparedDecksForSingleNoteReview(
-              this.chosenSingleNoteForTabbedView,
-              this.chosenReviewModeForTabbedView
-            );
-            return this.plugin.getPreparedReviewSequencer(
-              singleNoteDeckData.deckTree,
-              singleNoteDeckData.remainingDeckTree,
-              singleNoteDeckData.mode
-            );
-          }
-          const fullDeckTree = this.osrAppCore.reviewableDeckTree;
-          const remainingDeckTree = this.chosenReviewModeForTabbedView === 0 /* Cram */ ? this.osrAppCore.reviewableDeckTree : this.osrAppCore.remainingDeckTree;
-          return this.plugin.getPreparedReviewSequencer(
-            fullDeckTree,
-            remainingDeckTree,
-            this.chosenReviewModeForTabbedView
-          );
-        })
+        viewCreator: (leaf) => {
+          return new SRTabView(leaf, this.plugin, this.reviewQueueLoader);
+        }
       }
     ];
     this.plugin = plugin;
-    this.shouldOpenSingeNoteTabView = false;
     this.registerAllTabViews();
   }
   /**
@@ -31474,11 +34574,8 @@ var TabViewManager = class {
    *
    * @returns {Promise<void>} - A promise that resolves when the tab view is opened.
    */
-  async openSRTabView(osrAppCore, reviewMode, singleNote) {
-    this.osrAppCore = osrAppCore;
-    this.chosenReviewModeForTabbedView = reviewMode;
-    this.shouldOpenSingeNoteTabView = singleNote !== void 0;
-    if (singleNote) this.chosenSingleNoteForTabbedView = singleNote;
+  async openSRTabView(reviewQueueLoader) {
+    this.reviewQueueLoader = reviewQueueLoader;
     await this.openTabView(SR_TAB_VIEW, true);
   }
   /**
@@ -31521,9 +34618,12 @@ var TabViewManager = class {
 // src/ui/ui-manager.tsx
 var UIManager = class {
   constructor(plugin) {
-    this.statusBarManager = null;
-    this.ribbonIcon = null;
+    this.uiState = 0 /* Closed */;
     this.isSRInFocus = false;
+    this.contentManager = null;
+    this.ribbonIcon = null;
+    this.externalModalObserver = null;
+    this.areFileMenuItemsShown = false;
     this.plugin = plugin;
     appIcon();
     this.tabViewManager = new TabViewManager(this.plugin);
@@ -31546,33 +34646,36 @@ var UIManager = class {
     });
     this.statusBarManager = new StatusBarManager(this.plugin);
     this.showRibbonIcon(this.plugin.data.settings.showRibbonIcon);
-    this.showFileMenuItems(this.plugin.data.settings.disableFileMenuReviewOptions);
+    this.plugin.registerEvent(
+      this.plugin.app.workspace.on("file-menu", this.fileMenuHandler.bind(this))
+    );
     this.plugin.addSettingTab(new SRSettingTab(this.plugin.app, this.plugin));
     this.registerSRFocusListener();
   }
   destroy() {
     this.removeSRFocusListener();
-    this.plugin.app.workspace.off("file-menu", this.fileMenuHandler);
+    this.plugin.app.workspace.off("file-menu", this.fileMenuHandler.bind(this));
     this.tabViewManager.closeAllTabViews();
   }
   updateStatusBar() {
+    this.statusBarManager.showStatusBarItems(
+      this.plugin.data.settings.showStatusBar,
+      this.plugin.data.settings.showCardStatusBarItem,
+      this.plugin.data.settings.showNoteStatusBarItem,
+      this.plugin.data.settings.showUpdateAvailableStatusBarItem
+    );
     if (this.plugin.data.settings.showStatusBar) {
-      this.statusBarManager.setText(
-        `${this.plugin.osrAppCore.remainingDeckTree.getCardCount(
-          2 /* All */,
-          true
-        )} card(s) due`,
-        this.plugin.data.settings.showStatusBar,
+      this.statusBarManager.setCount(
+        this.plugin.osrAppCore.remainingDeckTree.getCardCount(2 /* All */, true),
+        this.plugin.data.settings.showStatusBar && this.plugin.data.settings.showCardStatusBarItem,
         "card-review"
       );
-      this.statusBarManager.setText(
-        `${this.plugin.osrAppCore.noteReviewQueue.dueNotesCount} note(s) due`,
-        this.plugin.data.settings.showStatusBar,
+      this.statusBarManager.setCount(
+        this.plugin.osrAppCore.noteReviewQueue.dueNotesCount,
+        this.plugin.data.settings.showStatusBar && this.plugin.data.settings.showNoteStatusBarItem,
         "note-review"
       );
-      this.statusBarManager.showUpdateAvailableItemIfAvailable();
     }
-    this.statusBarManager.showStatusBarItems(this.plugin.data.settings.showStatusBar);
   }
   registerSRFocusListener() {
     this.plugin.registerEvent(
@@ -31604,45 +34707,38 @@ var UIManager = class {
       );
     }
   }
+  setUIState(state) {
+    this.uiState = state;
+  }
+  setContentManager(contentManager) {
+    this.contentManager = contentManager;
+  }
   async openDeckContainer(mode, singleNote) {
     if (this.plugin.osrAppCore.syncLock) {
       return;
     }
     await this.plugin.sync();
-    const isMobile = import_obsidian31.Platform.isMobile || EmulatedPlatform().isMobile;
+    const isMobile = import_obsidian35.Platform.isMobile || EmulatedPlatform().isMobile;
     const openInNewTab = !isMobile && this.plugin.data.settings.openViewInNewTab || isMobile && this.plugin.data.settings.openViewInNewTabMobile;
+    const reviewQueueLoader = new ReviewQueueLoader(
+      this.plugin,
+      this.plugin.osrAppCore,
+      singleNote != null ? singleNote : null,
+      mode
+    );
     if (openInNewTab) {
-      this.tabViewManager.openSRTabView(this.plugin.osrAppCore, mode, singleNote);
+      this.tabViewManager.openSRTabView(reviewQueueLoader);
     } else {
-      this.openFlashcardModal(this.plugin.osrAppCore, mode, singleNote);
+      this.openFlashcardModal(reviewQueueLoader);
     }
   }
-  async openFlashcardModal(osrAppCore, reviewMode, singleNote) {
-    let deckTree;
-    let remainingDeckTree;
-    if (singleNote) {
-      const singleNoteDeckData = await this.plugin.getPreparedDecksForSingleNoteReview(
-        singleNote,
-        reviewMode
-      );
-      deckTree = singleNoteDeckData.deckTree;
-      remainingDeckTree = singleNoteDeckData.remainingDeckTree;
-    } else {
-      deckTree = osrAppCore.reviewableDeckTree;
-      remainingDeckTree = reviewMode === 0 /* Cram */ ? osrAppCore.reviewableDeckTree : osrAppCore.remainingDeckTree;
-    }
-    const reviewSequencerData = this.plugin.getPreparedReviewSequencer(
-      deckTree,
-      remainingDeckTree,
-      reviewMode
-    );
+  async openFlashcardModal(reviewQueueLoader) {
     this.setSRViewInFocus(true);
     new SRModalView(
       this.plugin.app,
       this.plugin,
       this.plugin.data.settings,
-      reviewSequencerData.reviewSequencer,
-      reviewSequencerData.mode
+      reviewQueueLoader
     ).open();
   }
   setSRViewInFocus(value) {
@@ -31667,52 +34763,81 @@ var UIManager = class {
       this.ribbonIcon.style.display = "none";
     }
   }
-  showFileMenuItems(status) {
-    if (this.fileMenuHandler === void 0) {
-      this.fileMenuHandler = (menu, fileish) => {
-        if (fileish instanceof import_obsidian31.TFile && fileish.extension === "md") {
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.plugin.data.settings.flashcardEasyText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.plugin.saveNoteReviewResponse(fileish, 0 /* Easy */);
-            });
-          });
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.plugin.data.settings.flashcardGoodText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.plugin.saveNoteReviewResponse(fileish, 1 /* Good */);
-            });
-          });
-          menu.addItem((item) => {
-            item.setTitle(
-              t("REVIEW_DIFFICULTY_FILE_MENU", {
-                difficulty: this.plugin.data.settings.flashcardHardText
-              })
-            ).setIcon("SpacedRepIcon").onClick(() => {
-              this.plugin.saveNoteReviewResponse(fileish, 2 /* Hard */);
-            });
-          });
-        }
-      };
+  fileMenuHandler(menu, file) {
+    if (!(file instanceof import_obsidian35.TFile && file.extension === "md")) return;
+    if (this.plugin.data.settings.showFileMenuReviewOptions) {
+      menu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardEasyText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 0 /* Easy */);
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardGoodText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 1 /* Good */);
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle(
+          t("REVIEW_DIFFICULTY_FILE_MENU", {
+            difficulty: this.plugin.data.settings.flashcardHardText
+          })
+        ).setIcon("SpacedRepIcon").onClick(() => {
+          this.plugin.saveNoteReviewResponse(file, 2 /* Hard */);
+        });
+      });
     }
-    if (status) {
-      this.plugin.registerEvent(
-        this.plugin.app.workspace.on("file-menu", this.fileMenuHandler)
-      );
-    } else {
-      this.plugin.app.workspace.off("file-menu", this.fileMenuHandler);
+    if (this.plugin.data.settings.showFileMenuReviewOptions && this.plugin.data.settings.showDeleteButtonInFileMenu) {
+      menu.addSeparator();
+    }
+    if (this.plugin.data.settings.showDeleteButtonInFileMenu) {
+      menu.addItem((item) => {
+        item.setTitle(t("DELETE_NOTE_SCHEDULING_DATA_IN_NOTE")).setIcon("trash").setWarning(true).onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_NOTE_SCHEDULING_DATA_IN_NOTE"),
+            t("CONFIRM_NOTE_SCHEDULING_DATA_IN_NOTE_DELETION"),
+            t("NOTE_SCHEDULING_DATA_IN_NOTE_DELETION_IN_PROGRESS"),
+            () => {
+              deleteNoteSchedulingDataInNote(
+                file,
+                this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                this.plugin.data.settings.tagsToReview
+              );
+            }
+          ).open();
+        });
+      });
+      menu.addItem((item) => {
+        item.setTitle(t("DELETE_SCHEDULING_DATA_OF_CARDS_IN_NOTE")).setIcon("trash").setWarning(true).onClick(async () => {
+          new ConfirmationModal(
+            this.plugin.app,
+            t("DELETE_SCHEDULING_DATA_OF_CARDS_IN_NOTE"),
+            t("CONFIRM_SCHEDULING_DATA_OF_CARDS_IN_NOTE_DELETION"),
+            t("SCHEDULING_DATA_OF_CARDS_IN_NOTE_DELETION_IN_PROGRESS"),
+            () => {
+              deleteAllSchedulingDataOfCardsInNote(
+                file,
+                this.plugin.data.settings.deleteTagsOnSchedulingDataDeletion,
+                this.plugin.data.settings.flashcardTags
+              );
+            }
+          ).open();
+        });
+      });
     }
   }
 };
 
 // src/main.ts
-var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
+var SRPlugin = class _SRPlugin extends import_obsidian36.Plugin {
   async onload() {
     await this.loadPluginData();
     const noteReviewQueue = new NoteReviewQueue();
@@ -31726,6 +34851,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
       this.data.settings,
       this.data.buryList
     );
+    await questionPostponementList.clearIfNewDay(this.data);
     const osrNoteLinkInfoFinder = new ObsidianVaultNoteLinkInfoFinder(this.app.metadataCache);
     this.osrAppCore = new OsrAppCore(this.app);
     this.osrAppCore.init(
@@ -31738,7 +34864,133 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
     this.uiManager = new UIManager(this);
     this.addPluginCommands();
   }
+  removeCustomHotkeys() {
+    this.removeCommand("srs-card-review-again");
+    this.removeCommand("srs-card-review-hard");
+    this.removeCommand("srs-card-review-good");
+    this.removeCommand("srs-card-review-easy");
+    this.removeCommand("srs-card-review-show-answer");
+    this.removeCommand("srs-card-review-reset");
+    this.removeCommand("srs-card-review-skip");
+  }
+  addCustomHotkeys() {
+    this.addCommand({
+      id: "srs-card-review-again",
+      name: t("REVIEW_CARD_DIFFICULTY_CMD", {
+        difficulty: this.data.settings.flashcardAgainText
+      }),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 3 /* CardBack */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._processReview(3 /* Again */);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-hard",
+      name: t("REVIEW_CARD_DIFFICULTY_CMD", {
+        difficulty: this.data.settings.flashcardHardText
+      }),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 3 /* CardBack */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._processReview(2 /* Hard */);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-good",
+      name: t("REVIEW_CARD_DIFFICULTY_CMD", {
+        difficulty: this.data.settings.flashcardGoodText
+      }),
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 3 /* CardBack */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._processReview(1 /* Good */);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-easy",
+      name: t("REVIEW_CARD_DIFFICULTY_CMD", {
+        difficulty: this.data.settings.flashcardEasyText
+      }),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 3 /* CardBack */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._processReview(0 /* Easy */);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-show-answer",
+      name: t("SHOW_ANSWER"),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 2 /* CardFront */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._showAnswer();
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-skip",
+      name: t("SKIP"),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if ((this.uiManager.uiState === 3 /* CardBack */ || this.uiManager.uiState === 2 /* CardFront */) && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._skipCurrentCard();
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+    this.addCommand({
+      id: "srs-card-review-reset",
+      name: t("RESET_CARD_PROGRESS"),
+      repeatable: false,
+      checkCallback: (checking) => {
+        if (this.uiManager.uiState === 3 /* CardBack */ && this.uiManager.isSRInFocus && this.uiManager.contentManager !== null && !(import_obsidian36.Platform.isMobile || // No keyboard events on mobile
+        EmulatedPlatform().isMobile) && !(document.activeElement !== null && (document.activeElement.nodeName === "TEXTAREA" || document.activeElement.nodeName === "INPUT"))) {
+          if (!checking) {
+            this.uiManager.contentManager._processReview(4 /* Reset */);
+          }
+          return true;
+        }
+        return false;
+      }
+    });
+  }
   addPluginCommands() {
+    if (this.data.settings.useCustomHotkeys) {
+      this.addCustomHotkeys();
+    }
     this.addCommand({
       id: "srs-note-review-open-note",
       name: t("OPEN_NOTE_FOR_REVIEW"),
@@ -31754,11 +35006,14 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
       name: t("REVIEW_NOTE_DIFFICULTY_CMD", {
         difficulty: this.data.settings.flashcardEasyText
       }),
-      callback: () => {
+      repeatable: false,
+      checkCallback: (checking) => {
         const openFile = this.app.workspace.getActiveFile();
-        if (openFile && openFile.extension === "md") {
+        if (openFile === null || openFile.extension !== "md") return false;
+        if (!checking) {
           this.saveNoteReviewResponse(openFile, 0 /* Easy */);
         }
+        return true;
       }
     });
     this.addCommand({
@@ -31766,11 +35021,14 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
       name: t("REVIEW_NOTE_DIFFICULTY_CMD", {
         difficulty: this.data.settings.flashcardGoodText
       }),
-      callback: () => {
+      repeatable: false,
+      checkCallback: (checking) => {
         const openFile = this.app.workspace.getActiveFile();
-        if (openFile && openFile.extension === "md") {
+        if (openFile === null || openFile.extension !== "md") return false;
+        if (!checking) {
           this.saveNoteReviewResponse(openFile, 1 /* Good */);
         }
+        return true;
       }
     });
     this.addCommand({
@@ -31778,11 +35036,14 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
       name: t("REVIEW_NOTE_DIFFICULTY_CMD", {
         difficulty: this.data.settings.flashcardHardText
       }),
-      callback: () => {
+      repeatable: false,
+      checkCallback: (checking) => {
         const openFile = this.app.workspace.getActiveFile();
-        if (openFile && openFile.extension === "md") {
+        if (openFile === null || openFile.extension !== "md") return false;
+        if (!checking) {
           this.saveNoteReviewResponse(openFile, 2 /* Hard */);
         }
+        return true;
       }
     });
     this.addCommand({
@@ -31802,23 +35063,27 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
     this.addCommand({
       id: "srs-review-flashcards-in-note",
       name: t("REVIEW_CARDS_IN_NOTE"),
-      callback: async () => {
+      repeatable: false,
+      checkCallback: (checking) => {
         const openFile = this.app.workspace.getActiveFile();
-        if (!openFile || openFile.extension !== "md") {
-          return;
+        if (openFile === null || openFile.extension !== "md") return false;
+        if (!checking) {
+          this.uiManager.openDeckContainer(1 /* Review */, openFile);
         }
-        await this.uiManager.openDeckContainer(1 /* Review */, openFile);
+        return true;
       }
     });
     this.addCommand({
       id: "srs-cram-flashcards-in-note",
       name: t("CRAM_CARDS_IN_NOTE"),
-      callback: async () => {
+      repeatable: false,
+      checkCallback: (checking) => {
         const openFile = this.app.workspace.getActiveFile();
-        if (!openFile || openFile.extension !== "md") {
-          return;
+        if (openFile === null || openFile.extension !== "md") return false;
+        if (!checking) {
+          this.uiManager.openDeckContainer(0 /* Cram */, openFile);
         }
-        await this.uiManager.openDeckContainer(0 /* Cram */, openFile);
+        return true;
       }
     });
     this.addCommand({
@@ -31913,16 +35178,16 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
   async saveNoteReviewResponse(note, response) {
     const noteSrTFile = this.createSrTFile(note);
     if (SettingsUtil.isPathInNoteIgnoreFolder(this.data.settings, note.path)) {
-      new import_obsidian32.Notice(t("NOTE_IN_IGNORED_FOLDER"));
+      new import_obsidian36.Notice(t("NOTE_IN_IGNORED_FOLDER"));
       return;
     }
     const tags = noteSrTFile.getAllTagsFromCache();
     if (!SettingsUtil.isAnyTagANoteReviewTag(this.data.settings, tags)) {
-      new import_obsidian32.Notice(t("PLEASE_TAG_NOTE"));
+      new import_obsidian36.Notice(t("PLEASE_TAG_NOTE"));
       return;
     }
     await this.osrAppCore.saveNoteReviewResponse(noteSrTFile, response, this.data.settings);
-    new import_obsidian32.Notice(t("RESPONSE_RECEIVED"));
+    new import_obsidian36.Notice(t("RESPONSE_RECEIVED"));
     if (this.data.settings.autoNextNote) {
       this.nextNoteReviewHandler.autoReviewNextNote();
     }
@@ -31940,7 +35205,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian32.Plugin {
   }
   setupDataStoreAndAlgorithmInstances(settings) {
     DataStore.instance = new StoreInNotes(settings);
-    SrsAlgorithm.instance = new SrsAlgorithmOsr(settings);
+    SrsAlgorithm.instance = settings.algorithm === "FSRS" /* FSRS */ ? new SrsAlgorithmFsrs(settings) : new SrsAlgorithmOsr(settings);
     DataStoreAlgorithm.instance = new DataStoreInNoteAlgorithmOsr(settings);
   }
   async savePluginData() {
@@ -31955,6 +35220,11 @@ moment/moment.js:
   (*! authors : Tim Wood, Iskren Chernev, Moment.js contributors *)
   (*! license : MIT *)
   (*! momentjs.com *)
+
+ts-fsrs/dist/index.mjs:
+ts-fsrs/dist/index.mjs:
+ts-fsrs/dist/index.mjs:
+  (* istanbul ignore next -- @preserve *)
 
 @kurkle/color/dist/color.esm.js:
   (*!

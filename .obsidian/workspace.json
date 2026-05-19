@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "开通服务"
             }
-          },
-          {
-            "id": "2d4a79eb158d6bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/ncreate/ncreate优化-提示词html.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ncreate优化-提示词html"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,22 +132,12 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "311f0a0fcc4ca413",
-            "type": "leaf",
-            "state": {
-              "type": "zotflow-tree-view",
-              "state": {},
-              "icon": "library",
-              "title": "Zotero Library"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 284.5
   },
   "right": {
     "id": "8690fabddddba01a",
@@ -252,16 +218,6 @@
             }
           },
           {
-            "id": "ebd43352eee3ad24",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "笔记复习序列"
-            }
-          },
-          {
             "id": "1f9b885c91a55350",
             "type": "leaf",
             "state": {
@@ -281,8 +237,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -304,14 +260,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "7920278c2dd84fcc",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "笔记复习序列"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 806.4000000000001,
-    "collapsed": true
+    "width": 806.4000000000001
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -334,35 +299,37 @@
       "zotflow:ZotFlow: Search Zotero": false
     }
   },
-  "active": "2d4a79eb158d6bac",
+  "active": "37f8f40eef564c7f",
   "lastOpenFiles": [
-    "清单/任务清单.md",
-    "wiki/synthesis/raw-incremental-ingest-2026-05-18.md",
-    "wiki/synthesis/raw-batch-synthesis-2026-05-06.md",
-    "wiki/synthesis/_index.md",
-    "wiki/themes/_index.md",
-    "wiki/Ar9av-obsidian-wiki.md",
-    "wiki/ballred-obsidian-claude-pkm.md",
-    "wiki/claude-obsidian-ecosystem.md",
-    "wiki/Claudian-YishenTu.md",
-    "wiki/getting-started.md",
-    "wiki/hot.md",
-    "wiki/index.md",
-    "wiki/kepano-obsidian-skills.md",
-    "wiki/log.md",
-    "wiki/Nexus-claudesidian-mcp.md",
-    "wiki/overview.md",
-    "wiki/rvk7895-llm-knowledge-bases.md",
-    "wiki/Wiki Map.md",
+    "Source/My Library/@Promoter engineering with programmable upstream activating sequences in Aspergillus Niger cell factory.md",
+    "Source/My Library/@Profiler Black-box AI-generated Text Origin Detection via Context-aware Inference Pattern Analysis.md",
+    "Source/My Library/@Prospects of microbial cell factories developed through systems metabolic engineering.md",
+    "Source/My Library/@Protein Engineering for Nicotinamide Coenzyme Specificity in Oxidoreductases Attempts and Challenges.md",
+    "Source/My Library/@A Survey on LLM-Generated Text Detection Necessity, Methods, and Future Directions.md",
+    "Source/My Library/@A cell-free self-replenishing CO2-fixing system.md",
+    "Source/My Library/@Your Agent Is Mine Measuring Malicious Intermediary Attacks on the LLM Supply Chain.md",
+    "Source/My Library/@Systems-Level Modeling for CRISPR-Based Metabolic Engineering.md",
+    "Source/My Library/@Inferring fungal cis-regulatory networks from genome sequences via unsupervised and interpretable representation learning.md",
+    "Source/My Library/@A genetic redox sensor for mammalian cells.md",
+    "Source/My Library/@A computational strategy for altering an enzyme in its cofactor preference to NAD(H) andor NADP(H).md",
+    "项目/ncreate/ncreate优化-提示词html.md",
+    "Source/My Library/@Engineering microorganisms for enhanced tolerance to toxic end-products and intermediates.md",
+    "Source/My Library/@Metabolic engineering of carbon and redox flow in the production of small organic acids.md",
+    "Source/My Library/@Redox cofactor engineering in industrial microorganisms strategies, recent applications and future directions.md",
+    "Source/My Library/@Hybrid physics-informed metabolic cybergenetics process rates augmented with machine-learning surrogates informed by flux balance analysis.md",
+    "Source/My Library/@REDOX ENZYMES From Basics to Free Radical Scavenging.md",
+    "Source/My Library/@General approach to reversing ketol-acid reductoisomerase cofactor dependence from NADPH to NADH.md",
+    "Source/My Library/@Layered dynamic regulation for improving metabolic pathway productivity in Escherichia coli.md",
+    "Source/My Library/@A novel downstream process for 1,3-propanediol from glycerol-based fermentation.md",
+    "Source/My Library/@Enhancing Vitamin Bsub12sub Production in Engineered iEscherichia colii through Cofactor Engineering and Fermentation Media Optimization.md",
+    "Source/My Library/@Synthetic Cofactor-Linked Metabolic Circuits for Selective Energy Transfer.md",
+    "Source/My Library/@Tuning Primary Metabolism for Heterologous Pathway Productivity.md",
+    "Source/My Library/@Negative Feedback Regulation of Fatty Acid Production Based on a Malonyl-CoA Sensor–Actuator.md",
+    "Source/My Library/@Multi-dimensional gene target search for improving lycopene biosynthesis in Escherichia coli.md",
+    "Source/My Library/@The cellular symphony of redox cofactor management by yeasts in wine fermentation.md",
+    "Source/My Library",
+    "Source",
     "wiki/Wiki Map.canvas",
-    "清单/开通服务.md",
-    "CLAUDE.md",
-    "wiki/domains/个人认知与学习.md",
-    "wiki/domains/AI Agent 系统.md",
-    "wiki/domains/_index.md",
-    "wiki/courses/_index.md",
-    "wiki/concepts/网络身份与出海基础设施.md",
-    "wiki/concepts/Knowledge MEMO.md",
     "image/d2c840347312d20208d2ba109c607fad_MD5.jpg",
     "image/00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
     "raw/1/skill building/source.pdf",
@@ -373,8 +340,6 @@
     "raw/1/skill building/manifest.json",
     "raw/1/skill building/page-preview.txt",
     "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p33-right.txt",
-    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p33-left.txt",
-    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p32-right.txt",
     "image/7999ce2a25bab151fdac57ab04ed7eae_MD5.jpg",
     "image/edb8eb033664312cbe8ae3706b9b1030_MD5.jpg",
     "image/6778a160a2865fb26d7a8cd811d46973_MD5.jpg",
