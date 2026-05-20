@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "编排层"
             }
+          },
+          {
+            "id": "aaad68bf6c1c55f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nskill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nskill"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -349,8 +373,10 @@
       "zotflow:ZotFlow: Search Zotero": false
     }
   },
-  "active": "041541948a8e5da8",
+  "active": "aaad68bf6c1c55f3",
   "lastOpenFiles": [
+    "nskill.md",
+    "项目/Paseo/编排层.md",
     "清单/任务清单.md",
     "Source/My Library/@Promoter engineering with programmable upstream activating sequences in Aspergillus Niger cell factory.md",
     "Source/My Library/@Profiler Black-box AI-generated Text Origin Detection via Context-aware Inference Pattern Analysis.md",
@@ -375,8 +401,6 @@
     "Source/My Library/@Enhancing Vitamin Bsub12sub Production in Engineered iEscherichia colii through Cofactor Engineering and Fermentation Media Optimization.md",
     "Source/My Library/@Synthetic Cofactor-Linked Metabolic Circuits for Selective Energy Transfer.md",
     "Source/My Library/@Tuning Primary Metabolism for Heterologous Pathway Productivity.md",
-    "Source/My Library/@Negative Feedback Regulation of Fatty Acid Production Based on a Malonyl-CoA Sensor–Actuator.md",
-    "Source/My Library/@Multi-dimensional gene target search for improving lycopene biosynthesis in Escherichia coli.md",
     "Source/My Library",
     "Source",
     "wiki/Wiki Map.canvas",
