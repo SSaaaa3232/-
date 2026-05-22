@@ -128,12 +128,12 @@
             }
           },
           {
-            "id": "aaad68bf6c1c55f3",
+            "id": "39334c1426ae4971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nskill.md",
+                "file": "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "nskill"
+              "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致"
             }
           }
         ],
@@ -272,22 +272,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "b0c8a769ceabf72e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致 的大纲"
             }
           },
           {
@@ -343,21 +334,31 @@
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
+          },
+          {
+            "id": "aaad68bf6c1c55f3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 806.4000000000001,
+    "width": 419.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:查看关系图谱": false,
       "terminal:Open terminal": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
@@ -373,9 +374,15 @@
       "zotflow:ZotFlow: Search Zotero": false
     }
   },
-  "active": "aaad68bf6c1c55f3",
+  "active": "39334c1426ae4971",
   "lastOpenFiles": [
+    "9f6ce771be07cebb2c1a32fc087911ef_MD5.jpg",
+    "ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg",
+    "002226de03574da558cd343316a400a2_MD5.jpg",
+    "基因工程.md",
+    "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
     "nskill.md",
+    "worenbudaoni.md",
     "项目/Paseo/编排层.md",
     "清单/任务清单.md",
     "Source/My Library/@Promoter engineering with programmable upstream activating sequences in Aspergillus Niger cell factory.md",
@@ -397,10 +404,6 @@
     "Source/My Library/@REDOX ENZYMES From Basics to Free Radical Scavenging.md",
     "Source/My Library/@General approach to reversing ketol-acid reductoisomerase cofactor dependence from NADPH to NADH.md",
     "Source/My Library/@Layered dynamic regulation for improving metabolic pathway productivity in Escherichia coli.md",
-    "Source/My Library/@A novel downstream process for 1,3-propanediol from glycerol-based fermentation.md",
-    "Source/My Library/@Enhancing Vitamin Bsub12sub Production in Engineered iEscherichia colii through Cofactor Engineering and Fermentation Media Optimization.md",
-    "Source/My Library/@Synthetic Cofactor-Linked Metabolic Circuits for Selective Energy Transfer.md",
-    "Source/My Library/@Tuning Primary Metabolism for Heterologous Pathway Productivity.md",
     "Source/My Library",
     "Source",
     "wiki/Wiki Map.canvas",
@@ -420,8 +423,6 @@
     "image/ffc8374a92959682da81d4b4d36b095a_MD5.jpg",
     "image/86a00044401acae7be073be1846aef7a_MD5.jpg",
     "image/69612263c70f46149c24326d2180aed2_MD5.jpg",
-    "image/624f7ea980629d221ec666ed811d3d0c_MD5.jpg",
-    "image/ede11641b0f7b26ea0acf19f3c957247_MD5.jpg",
     "wiki/canvases/youtube-explainer.canvas",
     "wiki/canvases/main.canvas",
     "wiki/canvases/welcome.canvas",
