@@ -1,172 +1,37 @@
 {
   "main": {
-    "id": "470f6f3a5e6f88e0",
+    "id": "aff535e7dfda4267",
     "type": "split",
     "children": [
       {
-        "id": "c90d636eae0a71e8",
+        "id": "ec56f6e11023fdce",
         "type": "tabs",
         "children": [
           {
-            "id": "ee06c983cd7f1d79",
+            "id": "2eed951a8b2020b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/MCP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MCP"
-            }
-          },
-          {
-            "id": "db7f887b5e2b4c89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/VPS/VPS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "VPS"
-            }
-          },
-          {
-            "id": "058b787b180cc6d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/开通服务.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "开通服务"
-            }
-          },
-          {
-            "id": "db5bbd172fb7cdd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/任务清单.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "任务清单"
-            }
-          },
-          {
-            "id": "041541948a8e5da8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/Paseo/编排层.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "编排层"
-            }
-          },
-          {
-            "id": "39334c1426ae4971",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6bc1d4b98e6672f6",
+    "id": "07683d82822a7e70",
     "type": "split",
     "children": [
       {
-        "id": "fbfde94020db7715",
+        "id": "92ed8fb8e419e1d5",
         "type": "tabs",
         "children": [
           {
-            "id": "37f8f40eef564c7f",
+            "id": "7ce0b23782dc2947",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -179,7 +44,7 @@
             }
           },
           {
-            "id": "a2dcea77f1a87c3a",
+            "id": "01a005201871442b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -196,7 +61,7 @@
             }
           },
           {
-            "id": "eb396b5a5e008fb4",
+            "id": "fe74282f30283014",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -209,47 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "8690fabddddba01a",
+    "id": "b207f00579403524",
     "type": "split",
     "children": [
       {
-        "id": "e8b3594a3a04ef2f",
+        "id": "1f4e1beee3ad536e",
         "type": "tabs",
         "children": [
           {
-            "id": "c38f5f8c18c63b25",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "a33e821cf1c6aab8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "出链"
-            }
-          },
-          {
-            "id": "43db2db0c476903a",
+            "id": "0cd3bb8750ef080e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -267,22 +103,35 @@
             }
           },
           {
-            "id": "3ba1c15db41d0f4c",
+            "id": "41e64f3d60860959",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
-                "followCursor": false,
-                "showSearch": true,
-                "searchQuery": ""
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-list",
-              "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致 的大纲"
+              "icon": "links-going-out",
+              "title": "出链"
             }
           },
           {
-            "id": "1f9b885c91a55350",
+            "id": "9cc18b9b917380f4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b74a03182ade911d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -296,27 +145,21 @@
             }
           },
           {
-            "id": "8dfd4b9de87379f2",
+            "id": "adb9e6d6d972644c",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
-            "id": "1ca978258884b172",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "483186501f92793f",
+            "id": "57ec2ffefb2b9de0",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -326,7 +169,7 @@
             }
           },
           {
-            "id": "7920278c2dd84fcc",
+            "id": "5064f377bc1bbd9d",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -334,98 +177,34 @@
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
-          },
-          {
-            "id": "aaad68bf6c1c55f3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 419.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:查看关系图谱": false,
-      "terminal:Open terminal": false,
-      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-spaced-repetition:复习卡片": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
-      "claudian:Open Claudian": false,
-      "zotflow:ZotFlow: Activity Center": false,
-      "zotflow:ZotFlow: Search Zotero": false
+      "terminal:Open terminal": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "39334c1426ae4971",
-  "lastOpenFiles": [
-    "9f6ce771be07cebb2c1a32fc087911ef_MD5.jpg",
-    "ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg",
-    "002226de03574da558cd343316a400a2_MD5.jpg",
-    "基因工程.md",
-    "raw/articles/来自 Codex 官方团队的分享：如何把 Codex 用到极致.md",
-    "nskill.md",
-    "worenbudaoni.md",
-    "项目/Paseo/编排层.md",
-    "清单/任务清单.md",
-    "Source/My Library/@Promoter engineering with programmable upstream activating sequences in Aspergillus Niger cell factory.md",
-    "Source/My Library/@Profiler Black-box AI-generated Text Origin Detection via Context-aware Inference Pattern Analysis.md",
-    "Source/My Library/@Prospects of microbial cell factories developed through systems metabolic engineering.md",
-    "Source/My Library/@Protein Engineering for Nicotinamide Coenzyme Specificity in Oxidoreductases Attempts and Challenges.md",
-    "Source/My Library/@A Survey on LLM-Generated Text Detection Necessity, Methods, and Future Directions.md",
-    "Source/My Library/@A cell-free self-replenishing CO2-fixing system.md",
-    "Source/My Library/@Your Agent Is Mine Measuring Malicious Intermediary Attacks on the LLM Supply Chain.md",
-    "Source/My Library/@Systems-Level Modeling for CRISPR-Based Metabolic Engineering.md",
-    "Source/My Library/@Inferring fungal cis-regulatory networks from genome sequences via unsupervised and interpretable representation learning.md",
-    "Source/My Library/@A genetic redox sensor for mammalian cells.md",
-    "Source/My Library/@A computational strategy for altering an enzyme in its cofactor preference to NAD(H) andor NADP(H).md",
-    "项目/ncreate/ncreate优化-提示词html.md",
-    "Source/My Library/@Engineering microorganisms for enhanced tolerance to toxic end-products and intermediates.md",
-    "Source/My Library/@Metabolic engineering of carbon and redox flow in the production of small organic acids.md",
-    "Source/My Library/@Redox cofactor engineering in industrial microorganisms strategies, recent applications and future directions.md",
-    "Source/My Library/@Hybrid physics-informed metabolic cybergenetics process rates augmented with machine-learning surrogates informed by flux balance analysis.md",
-    "Source/My Library/@REDOX ENZYMES From Basics to Free Radical Scavenging.md",
-    "Source/My Library/@General approach to reversing ketol-acid reductoisomerase cofactor dependence from NADPH to NADH.md",
-    "Source/My Library/@Layered dynamic regulation for improving metabolic pathway productivity in Escherichia coli.md",
-    "Source/My Library",
-    "Source",
-    "wiki/Wiki Map.canvas",
-    "image/d2c840347312d20208d2ba109c607fad_MD5.jpg",
-    "image/00b5cdabbd129741f866343be60fbdc2_MD5.jpg",
-    "raw/1/skill building/source.pdf",
-    "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
-    "Excalidraw/claude-skills-building-guide/manifest.json",
-    "Excalidraw/claude-skills-building-guide/mindmap.json",
-    "Excalidraw/claude-skills-building-guide",
-    "raw/1/skill building/manifest.json",
-    "raw/1/skill building/page-preview.txt",
-    "raw/1/google-drive-pdf-1QR-Pq-KB/cols-all/p33-right.txt",
-    "image/7999ce2a25bab151fdac57ab04ed7eae_MD5.jpg",
-    "image/edb8eb033664312cbe8ae3706b9b1030_MD5.jpg",
-    "image/6778a160a2865fb26d7a8cd811d46973_MD5.jpg",
-    "image/ffc8374a92959682da81d4b4d36b095a_MD5.jpg",
-    "image/86a00044401acae7be073be1846aef7a_MD5.jpg",
-    "image/69612263c70f46149c24326d2180aed2_MD5.jpg",
-    "wiki/canvases/youtube-explainer.canvas",
-    "wiki/canvases/main.canvas",
-    "wiki/canvases/welcome.canvas",
-    "wiki/canvases/claude-obsidian-presentation.canvas"
-  ]
+  "active": "5064f377bc1bbd9d",
+  "lastOpenFiles": []
 }
