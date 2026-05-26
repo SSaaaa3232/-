@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec56f6e11023fdce",
+        "id": "effc35234db8f4c2",
         "type": "tabs",
         "children": [
           {
-            "id": "2eed951a8b2020b1",
+            "id": "bf4c923f07a59819",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -183,14 +183,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 630.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
       "canvas:新建白板": false,
+      "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -205,6 +204,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
-  "lastOpenFiles": []
+  "active": "bf4c923f07a59819",
+  "lastOpenFiles": [
+    "WIKI.md",
+    "基因工程.md",
+    "nskill.md",
+    "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg",
+    "清单/任务清单.md"
+  ]
 }
