@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b207f00579403524",
@@ -211,8 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 630.5,
-    "collapsed": true
+    "width": 764
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,7 +231,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf4c923f07a59819",
+  "active": "f3147ae46d3337ef",
   "lastOpenFiles": [
     "raw/paper/skillOpt.md",
     "WIKI.md",
