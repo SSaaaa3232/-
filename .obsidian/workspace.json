@@ -11,10 +11,24 @@
             "id": "bf4c923f07a59819",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "raw/paper/skillOpt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "skillOpt"
             }
           }
         ]
@@ -74,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -90,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "raw/paper/skillOpt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "skillOpt 的反向链接列表"
             }
           },
           {
@@ -108,11 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "raw/paper/skillOpt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "skillOpt 的出链列表"
             }
           },
           {
@@ -150,12 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/paper/skillOpt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "skillOpt 的大纲"
             }
           },
           {
@@ -177,13 +195,24 @@
               "icon": "SpacedRepIcon",
               "title": "笔记复习序列"
             }
+          },
+          {
+            "id": "f3147ae46d3337ef",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 630.5
+    "width": 630.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,6 +235,7 @@
   },
   "active": "bf4c923f07a59819",
   "lastOpenFiles": [
+    "raw/paper/skillOpt.md",
     "WIKI.md",
     "基因工程.md",
     "nskill.md",
