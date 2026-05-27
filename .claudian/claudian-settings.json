@@ -1,9 +1,9 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "opus",
-  "thinkingBudget": "medium",
-  "effortLevel": "max",
+  "model": "deepseek-v4-pro[1m]",
+  "thinkingBudget": "low",
+  "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -24,16 +24,18 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "sadeMacBook-Air.local": "/Users/saaaaa/.local/bin/claude"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "",
-      "lastModel": "opus",
-      "environmentVariables": "ANTHROPIC_API_KEY=sk-of-OoNcQINHAtjvVTHLcRuPXiuWLbdIQymsXTfsIpcRPrjiXsvcJpXoIvUMxVsHTufa\nANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic\n",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://api.ofox.ai/anthropic"
+      "lastModel": "sonnet",
+      "environmentVariables": "export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nexport ANTHROPIC_AUTH_TOKEN=sk-c5d12dbd3e8348239808d021f0aa6548\nexport ANTHROPIC_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nexport CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\nexport CLAUDE_CODE_EFFORT_LEVEL=max",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_MODEL=deepseek-v4-pro[1m]"
     },
     "codex": {
       "enabled": true,
@@ -54,25 +56,25 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus",
+    "claude": "deepseek-v4-pro[1m]",
     "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
-    "claude": "max",
+    "claude": "high",
     "codex": "xhigh"
   },
   "savedProviderServiceTier": {
     "codex": "default"
   },
   "savedProviderThinkingBudget": {
-    "claude": "medium",
+    "claude": "low",
     "codex": "low"
   },
   "savedProviderPermissionMode": {
     "codex": "yolo",
     "claude": "yolo"
   },
-  "lastCustomModel": "MiniMax-M2.7",
+  "lastCustomModel": "deepseek-v4-pro[1m]",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

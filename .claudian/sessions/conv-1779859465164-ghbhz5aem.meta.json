@@ -1,0 +1,16 @@
+{
+  "id": "conv-1779859465164-ghbhz5aem",
+  "providerId": "claude",
+  "title": "hi",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1779859465164,
+  "updatedAt": 1779860347408,
+  "lastResponseAt": 1779860344407,
+  "sessionId": "7811d155-5824-4939-b2d5-b6a0bf7e94ce",
+  "providerState": {
+    "providerSessionId": "7811d155-5824-4939-b2d5-b6a0bf7e94ce",
+    "previousProviderSessionIds": [
+      "ee43c379-3196-4529-ab5c-973635ceec3b"
+    ]
+  }
+}

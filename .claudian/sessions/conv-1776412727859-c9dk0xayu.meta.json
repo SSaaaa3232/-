@@ -6,20 +6,9 @@
   "createdAt": 1776412727859,
   "updatedAt": 1776414474591,
   "lastResponseAt": 1776414435309,
-  "sessionId": "13b2cdf3-9d56-44cc-93e6-b50dcb62bd26",
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "13b2cdf3-9d56-44cc-93e6-b50dcb62bd26",
-    "subagentData": {
-      "toolu_bdrk_01K16xW2u2Lj976SQ11EHkxb": {
-        "id": "toolu_bdrk_01K16xW2u2Lj976SQ11EHkxb",
-        "description": "Find capy-mac-bridge file",
-        "prompt": "Search for a file or directory called \"capy-mac-bridge\" on this Mac. Look in common locations:\n- /usr/local/bin/\n- /usr/local/lib/\n- ~/Library/\n- /Applications/\n- /opt/\n- ~/\n\nAlso try: glob pattern **/*capy*mac*bridge* and **/*capy-mac*\n\nReport all matches with their full absolute paths. If you find source code files, read the main entry point and summarize what it does in under 200 words.",
-        "status": "completed",
-        "toolCalls": [],
-        "isExpanded": false,
-        "result": "There's an issue with the selected model (claude-haiku-4-6). It may not exist or you may not have access to it. Run --model to pick a different model."
-      }
-    }
+    "providerSessionId": "13b2cdf3-9d56-44cc-93e6-b50dcb62bd26"
   },
   "usage": {
     "model": "sonnet",

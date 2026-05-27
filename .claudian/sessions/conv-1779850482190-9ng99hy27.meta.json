@@ -4,11 +4,14 @@
   "title": "Begin session",
   "titleGenerationStatus": "success",
   "createdAt": 1779850482190,
-  "updatedAt": 1779859235559,
-  "lastResponseAt": 1779859235559,
-  "sessionId": "cca67397-3f36-4ed6-a187-6833853d2210",
+  "updatedAt": 1779859361055,
+  "lastResponseAt": 1779859361054,
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "cca67397-3f36-4ed6-a187-6833853d2210"
+    "providerSessionId": "f98dde3c-2f50-4162-845a-f7d47eb04589",
+    "previousProviderSessionIds": [
+      "cca67397-3f36-4ed6-a187-6833853d2210"
+    ]
   },
   "usage": {
     "model": "opus",
