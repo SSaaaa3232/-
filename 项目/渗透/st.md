@@ -77,4 +77,8 @@ how to find bugs in web
 - static and dynamic analysis tools
 - fuzzing techniques
 - manual code reviews
+
+DDoS
+
+- botnet
 - 
