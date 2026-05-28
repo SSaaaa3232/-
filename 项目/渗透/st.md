@@ -71,3 +71,7 @@ tools in infosec
 - Metasploit: Exploitation framework
 - Burp Suite: Web application security testing
 - John the Ripper: Password cracking
+
+how to find bugs in web
+
+- sta
