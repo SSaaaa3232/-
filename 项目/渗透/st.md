@@ -74,4 +74,7 @@ tools in infosec
 
 how to find bugs in web
 
-- sta
+- static and dynamic analysis tools
+- fuzzing techniques
+- manual code reviews
+- 
