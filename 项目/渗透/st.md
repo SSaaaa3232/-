@@ -3,7 +3,9 @@ aliases:
   - https://linux.do/t/topic/334063
 relations: https://linux.do/t/topic/335796
 list: https://linux.do/t/topic/427896
+something:
 ---
+- _`The secret to success lies in the quantity and quality of attention you bring to it.`_
 ## 教程
 
 1. [进攻性网络安全相关证书考证经验分享](https://linux.do/t/topic/334063)
