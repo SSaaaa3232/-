@@ -2,6 +2,12 @@
 x: false
 created: 2026-05-20
 ---
+
+|     |                                  |
+| --- | -------------------------------- |
+|     | https://arxiv.org/pdf/2605.23899 |
+|     | https://arxiv.org/pdf/2605.23904 |
+
 记录创建的第一个skill，感谢灵感来源：来自 Andrej 的推文，darwen
 
 来自 Andrej 的推文：

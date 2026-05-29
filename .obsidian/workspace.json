@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "st"
             }
+          },
+          {
+            "id": "d623d4c7a79f137e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/nskill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "nskill"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目/渗透/st.md",
+                "file": "项目/nskill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "st 的反向链接列表"
+              "title": "nskill 的反向链接列表"
             }
           },
           {
@@ -258,7 +282,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "d623d4c7a79f137e",
   "lastOpenFiles": [
     "清单/任务清单.md",
     "项目/渗透/st.md",
@@ -268,7 +292,7 @@
     "raw/paper/skillOpt.md",
     "WIKI.md",
     "基因工程.md",
-    "nskill.md",
+    "项目/nskill.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
