@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "未命名1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "未命名1"
             }
           }
         ],
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b207f00579403524",
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "未命名1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "任务清单 的反向链接列表"
+              "title": "未命名1 的反向链接列表"
             }
           },
           {
@@ -308,10 +307,10 @@
   },
   "active": "90641325bd31eb1e",
   "lastOpenFiles": [
+    "清单/任务清单.md",
     "未命名1.md",
     "清单/开通服务.md",
     "项目/nskill.md",
-    "清单/任务清单.md",
     "项目/渗透/st.md",
     "项目/渗透/OSCP攀登计划-渗透测试报告.md",
     "项目/渗透/HTB Bashed 渗透测试详细记录.md",
