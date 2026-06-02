@@ -80,31 +80,19 @@
             }
           },
           {
-            "id": "90641325bd31eb1e",
+            "id": "f08cf74e265812af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "未命名1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw"
               },
-              "icon": "lucide-file",
-              "title": "未命名1"
+              "icon": "excalidraw-icon",
+              "title": "ssda调控黑曲霉形态发育与l-苹果酸合成技术路线"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -161,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b207f00579403524",
@@ -178,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目/渗透/st.md",
+                "file": "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "st 的反向链接列表"
+              "title": "ssda调控黑曲霉形态发育与l-苹果酸合成技术路线 的反向链接列表"
             }
           },
           {
@@ -306,13 +293,19 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "f08cf74e265812af",
   "lastOpenFiles": [
-    "未命名1.md",
-    "清单/任务清单.md",
+    "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
+    "到手刀.md",
     "清单/开通服务.md",
-    "项目/nskill.md",
     "项目/渗透/st.md",
+    "Excalidraw/ssda-l-malic-acid-research/manifest.json",
+    "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw.md",
+    "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
+    "Excalidraw/ssda-l-malic-acid-research/mindmap.json",
+    "Excalidraw/ssda-l-malic-acid-research",
+    "清单/任务清单.md",
+    "项目/nskill.md",
     "项目/渗透/OSCP攀登计划-渗透测试报告.md",
     "项目/渗透/HTB Bashed 渗透测试详细记录.md",
     "raw/paper/skillOpt.md",

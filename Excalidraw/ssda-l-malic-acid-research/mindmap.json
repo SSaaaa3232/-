@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "title": "SsdA调控黑曲霉形态发育与L-苹果酸合成技术路线",
+  "source": {
+    "type": "conversation",
+    "path": null,
+    "created_at": "2026-06-02T00:00:00+08:00"
+  },
+  "layout": "horizontal",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "SsdA调控黑曲霉研究",
+      "type": "topic",
+      "summary": "三位一体框架：表型机制解析 → 代谢机理挖掘 → 耦合靶点筛选",
+      "note": "围绕SsdA调控黑曲霉形态发育与L-苹果酸合成的核心功能开展系统性研究",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-strain",
+      "label": "出发菌株",
+      "type": "context",
+      "summary": "黑曲霉WB18（对照）vs SsdA敲除菌株",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-phenotype",
+      "label": "一、表型机制解析",
+      "type": "concept",
+      "summary": "SsdA介导的黑曲霉形态与细胞壁调控特征",
+      "note": "从宏观→微观→结构→分子四个层面逐级深入",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-pheno-macro",
+      "label": "宏观：菌落形态观察",
+      "type": "concept",
+      "summary": "观察菌落大小、颜色、质地、孢子",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-pheno-micro",
+      "label": "微观：菌丝显微观测",
+      "type": "concept",
+      "summary": "观察菌丝分枝、直径、隔膜",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-pheno-struct",
+      "label": "结构：细胞壁组分定量",
+      "type": "concept",
+      "summary": "检测几丁质、葡聚糖、蛋白含量",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-pheno-molecular",
+      "label": "分子：关键基因表达分析",
+      "type": "concept",
+      "summary": "细胞壁合成 & 菌丝发育基因 qRT-PCR",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-pheno-conclusion",
+      "label": "结论：明确形态建成调控机制",
+      "type": "conclusion",
+      "summary": "从表型、结构及分子层面解析SsdA调控黑曲霉菌体形态建成与细胞壁稳态的作用机制",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-metabolism",
+      "label": "二、代谢机理挖掘",
+      "type": "concept",
+      "summary": "SsdA调控L-苹果酸高效合成的代谢基础",
+      "note": "从发酵性能→酶活→代谢物→辅因子四维解析",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-meta-ferment",
+      "label": "发酵：摇瓶发酵试验",
+      "type": "concept",
+      "summary": "对比菌株生长、糖耗、L-苹果酸合成性能",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-meta-enzyme",
+      "label": "酶活：中心碳代谢关键酶",
+      "type": "concept",
+      "summary": "检测 HK/PFK/PK/CS/MDH 等酶活性",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-meta-metabolite",
+      "label": "代谢物：中间代谢物定量",
+      "type": "concept",
+      "summary": "检测 G6P/PEP/Pyr/Cit/Mal 等水平",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-meta-cofactor",
+      "label": "辅因子：胞内还原力检测",
+      "type": "concept",
+      "summary": "检测 NADH/NAD⁺、ATP/ADP 比值",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-meta-conclusion",
+      "label": "结论：阐明代谢重编程规律",
+      "type": "conclusion",
+      "summary": "阐明糖酵解、TCA循环及丙酮酸分流通量重编程规律",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-target",
+      "label": "三、耦合靶点筛选",
+      "type": "concept",
+      "summary": "解析形态-产酸关联规律并挖掘新型育种靶点",
+      "note": "整合前三部分数据，关联分析→差异筛选→功能验证",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-target-integrate",
+      "label": "多维度数据整合",
+      "type": "concept",
+      "summary": "整合形态表型 + 细胞壁结构 + 发酵性能 + 碳代谢数据",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-target-correlate",
+      "label": "关联分析",
+      "type": "concept",
+      "summary": "菌体形态性状 ↔ L-苹果酸合成与分泌的耦合关系",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-target-gene",
+      "label": "差异基因筛选",
+      "type": "concept",
+      "summary": "筛选同时参与形态发育 & 有机酸代谢调控的基因",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-target-validate",
+      "label": "功能注释与验证",
+      "type": "concept",
+      "summary": "GO/KEGG富集分析 + 候选基因敲除/过表达",
+      "priority": "medium",
+      "status": "understood"
+    },
+    {
+      "id": "n-target-conclusion",
+      "label": "结论：挖掘育种新靶点",
+      "type": "conclusion",
+      "summary": "筛选适用于L-苹果酸高产育种的新型基因靶点",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-goal",
+      "label": "最终目标：工业菌株改造",
+      "type": "conclusion",
+      "summary": "为工业菌株改造提供理论支撑与新基因资源",
+      "priority": "high",
+      "status": "understood"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-strain",
+      "label": "实验材料"
+    },
+    {
+      "from": "n-root",
+      "to": "n-phenotype",
+      "label": "第一部分"
+    },
+    {
+      "from": "n-root",
+      "to": "n-metabolism",
+      "label": "第二部分"
+    },
+    {
+      "from": "n-root",
+      "to": "n-target",
+      "label": "第三部分"
+    },
+    {
+      "from": "n-root",
+      "to": "n-goal",
+      "label": "目标导向"
+    },
+    {
+      "from": "n-phenotype",
+      "to": "n-pheno-macro",
+      "label": "层面一"
+    },
+    {
+      "from": "n-phenotype",
+      "to": "n-pheno-micro",
+      "label": "层面二"
+    },
+    {
+      "from": "n-phenotype",
+      "to": "n-pheno-struct",
+      "label": "层面三"
+    },
+    {
+      "from": "n-phenotype",
+      "to": "n-pheno-molecular",
+      "label": "层面四"
+    },
+    {
+      "from": "n-pheno-macro",
+      "to": "n-pheno-micro",
+      "label": "递进"
+    },
+    {
+      "from": "n-pheno-micro",
+      "to": "n-pheno-struct",
+      "label": "递进"
+    },
+    {
+      "from": "n-pheno-struct",
+      "to": "n-pheno-molecular",
+      "label": "递进"
+    },
+    {
+      "from": "n-pheno-molecular",
+      "to": "n-pheno-conclusion",
+      "label": "归纳"
+    },
+    {
+      "from": "n-metabolism",
+      "to": "n-meta-ferment",
+      "label": "层面一"
+    },
+    {
+      "from": "n-metabolism",
+      "to": "n-meta-enzyme",
+      "label": "层面二"
+    },
+    {
+      "from": "n-metabolism",
+      "to": "n-meta-metabolite",
+      "label": "层面三"
+    },
+    {
+      "from": "n-metabolism",
+      "to": "n-meta-cofactor",
+      "label": "层面四"
+    },
+    {
+      "from": "n-meta-ferment",
+      "to": "n-meta-enzyme",
+      "label": "递进"
+    },
+    {
+      "from": "n-meta-enzyme",
+      "to": "n-meta-metabolite",
+      "label": "递进"
+    },
+    {
+      "from": "n-meta-metabolite",
+      "to": "n-meta-cofactor",
+      "label": "递进"
+    },
+    {
+      "from": "n-meta-cofactor",
+      "to": "n-meta-conclusion",
+      "label": "归纳"
+    },
+    {
+      "from": "n-target",
+      "to": "n-target-integrate",
+      "label": "步骤一"
+    },
+    {
+      "from": "n-target",
+      "to": "n-target-correlate",
+      "label": "步骤二"
+    },
+    {
+      "from": "n-target",
+      "to": "n-target-gene",
+      "label": "步骤三"
+    },
+    {
+      "from": "n-target",
+      "to": "n-target-validate",
+      "label": "步骤四"
+    },
+    {
+      "from": "n-target-integrate",
+      "to": "n-target-correlate",
+      "label": "递进"
+    },
+    {
+      "from": "n-target-correlate",
+      "to": "n-target-gene",
+      "label": "递进"
+    },
+    {
+      "from": "n-target-gene",
+      "to": "n-target-validate",
+      "label": "递进"
+    },
+    {
+      "from": "n-target-validate",
+      "to": "n-target-conclusion",
+      "label": "归纳"
+    },
+    {
+      "from": "n-pheno-conclusion",
+      "to": "n-target-integrate",
+      "label": "数据输入"
+    },
+    {
+      "from": "n-meta-conclusion",
+      "to": "n-target-integrate",
+      "label": "数据输入"
+    },
+    {
+      "from": "n-target-conclusion",
+      "to": "n-goal",
+      "label": "验证支撑"
+    }
+  ]
+}
