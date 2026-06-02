@@ -84,3 +84,44 @@ DDoS
 
 - botnet
 
+before perement
+
+### ifconfig
+
+configure network interfaces and display their current status
+
+(using the `-a` flag will display all interfaces, including those that are currently down)
+
+```
+ifconfig -a
+```
+
+### loopback
+
+loopback address
+
+- It's often used for testing, as a way to make sure an application is working as intended before going live on the network. 
+
+- It is also used by servers to keep certain services hidden from outside users.
+
+- Port forwarding
+
+see if target machine use loopback address
+
+```
+netstat -tulnp4
+```
+
+### netstat
+
+displays network connections, routing tables, and interface statistics
+
+```
+netstat -tulnp4
+
+#IP:PORT
+
+netstat -tulp4
+
+#hostname:service
+```
