@@ -98,7 +98,7 @@ ifconfig -a
 
 ### loopback
 
-loopback address
+loopback address:always associated to the IPv4 address `127.0.0.1`
 
 - It's often used for testing, as a way to make sure an application is working as intended before going live on the network. 
 
@@ -124,4 +124,41 @@ netstat -tulnp4
 netstat -tulp4
 
 #hostname:service
+```
+
+### tun0
+
+```
+ip route get <target ip>
+```
+display the route taken for any traffic sent from the Pwnbox to reach the target
+
+### ping
+
+```
+ping -c 4 <target ip>
+```
+
+### nmap
+
+determine the open ports on a remote machine
+
+```
+nmap <target IP>
+```
+
+focus
+
+```
+nmap -p21,80 -sC -sV <target ip>
+
+#21 and 80 port
+```
+
+### netcat
+
+look at the FTP service running on port 21
+
+```
+
 ```
