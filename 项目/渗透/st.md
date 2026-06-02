@@ -160,5 +160,87 @@ nmap -p21,80 -sC -sV <target ip>
 look at the FTP service running on port 21
 
 ```
+nc <target ip> 21
+```
+
+### channel(FTP)
+
+- Control Channel
+
+Port 21
+
+- Data Channel
+
+Dynamic Port (Varies by mode: Active or Passive)
+
+(USER, PASS, LIST, RETR, etc.)
+
+#### First terminal(CC)
+```
+USER anonymous[Ctrl+V][Enter][Enter] 
+PASS anything[Ctrl+V][Enter][Enter] 
+PASV[Ctrl+V][Enter][Enter]
+```
+
+#### Sec terminal(DC)
+
+the last 2 numbers in the above output'. Then the real port is calculated 
+
+as 'p1*256 + p2'.
 
 ```
+nc -v <target ip> <dynamic port>
+```
+
+#### First terminal(CC)
+
+list the available files in the FTP share
+
+```
+LIST[Ctrl+V][Enter][Enter]
+```
+
+#### Sec terminal(DC)
+ 
+will see a list of the files available in the share!
+
+#### First terminal(CC)
+
+```
+PASV[Ctrl + V][Enter][Enter]
+```
+
+#### Sec terminal(DC)
+re-calculate
+
+```
+nc -v 10.129.233.197 49714(new dymatic)
+```
+
+#### First terminal(CC)
+
+```
+RETR Note-From-IT.txt[Ctrl+V][Enter][Enter]
+
+#list in DC
+```
+
+#### Sec terminal(DC)
+
+check the note
+
+### HTTP
+
+[HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
+
+```
+nc -v <target ip> 80
+```
+
+```
+GET / HTTP/1.1[enter] 
+Host: <target ip>[enter] 
+User-Agent: Server Administrator[enter][enter]
+```
+If there were a login page we wanted to access, our request might look like `GET /login.php`
+
