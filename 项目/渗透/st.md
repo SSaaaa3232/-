@@ -235,6 +235,8 @@ check the note
 
 ```
 nc -v <target ip> 80
+
+nc -v 10.129.233.197 80/ 
 ```
 
 ```
