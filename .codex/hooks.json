@@ -1,0 +1,134 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Obsidian-Template/.codex/hooks/auto-allow.sh'"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Obsidian-Template/.codex/hooks/auto-allow.sh'"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Obsidian-Template/.codex/hooks/auto-allow.sh'"
+          }
+        ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Obsidian-Template/.codex/hooks/auto-allow.sh'"
+          }
+        ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude",
+            "timeout": 86400
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'/Users/saaaaa/Library/Application Support/OpenIsland/bin/OpenIslandHooks' --source claude"
+          }
+        ]
+      }
+    ]
+  }
+}
