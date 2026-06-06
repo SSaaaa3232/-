@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RWA.md",
+                "file": "Nezikk.com/okx/RWA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -32,24 +32,12 @@
             }
           },
           {
-            "id": "98f4fdb027ea6f81",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "RWA 2026-06-06 15.56.14.excalidraw"
-            }
-          },
-          {
             "id": "616d8c759eeb1c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/渗透/st.md",
+                "file": "Nezikk.com/HTB/st.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -90,8 +78,33 @@
               "icon": "lucide-file",
               "title": "开通服务"
             }
+          },
+          {
+            "id": "f7b5aafe690b6b6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2026/06/2026-06-06.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-06"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -164,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RWA.md",
+                "file": "Nezikk.com/HTB/st.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "RWA 的反向链接列表"
+              "title": "st 的反向链接列表"
             }
           },
           {
@@ -292,10 +306,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "bf4c923f07a59819",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Nezikk.com/okx/RWA.md",
+    "Nezikk.com/HTB/st.md",
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
-    "RWA.md",
     "Daily Notes/2026/06/2026-06-06.md",
     "Nezikk.com/okx",
     "Nezikk.com",
@@ -306,14 +321,13 @@
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
     "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
     "到手刀.md",
-    "项目/渗透/st.md",
     "Excalidraw/ssda-l-malic-acid-research/manifest.json",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw.md",
     "Excalidraw/ssda-l-malic-acid-research/mindmap.json",
     "Excalidraw/ssda-l-malic-acid-research",
     "项目/nskill.md",
-    "项目/渗透/OSCP攀登计划-渗透测试报告.md",
-    "项目/渗透/HTB Bashed 渗透测试详细记录.md",
+    "Nezikk.com/HTB/OSCP攀登计划-渗透测试报告.md",
+    "Nezikk.com/HTB/HTB Bashed 渗透测试详细记录.md",
     "raw/paper/skillOpt.md",
     "WIKI.md",
     "基因工程.md",

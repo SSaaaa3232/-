@@ -2,7 +2,6 @@
 sourse: https://www.okx.com/en-us/learn/rwa-financing-institutions-tokenized-assets
 excalidraw:
 ---
-![[RWA 2026-06-06 15.56.14.excalidraw]]
 
 ## RWA
 
@@ -31,6 +30,6 @@ why i look long in crypto especially RWA
 
 - bridging the gap between TradFi and DeFi.
 
-## some questions:
+## question:
 
 Why are more people interested in US stocks than RWA because of AI?
