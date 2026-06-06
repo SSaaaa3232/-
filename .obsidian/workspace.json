@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "RWA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,19 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "RWA"
+            }
+          },
+          {
+            "id": "98f4fdb027ea6f81",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "RWA 2026-06-06 15.56.14.excalidraw"
             }
           },
           {
@@ -152,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "RWA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "任务清单 的反向链接列表"
+              "title": "RWA 的反向链接列表"
             }
           },
           {
@@ -254,11 +266,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 642.4000000000001,
+    "width": 319.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -282,8 +294,14 @@
   },
   "active": "bf4c923f07a59819",
   "lastOpenFiles": [
-    "清单/开通服务.md",
+    "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
+    "RWA.md",
+    "Daily Notes/2026/06/2026-06-06.md",
+    "Nezikk.com/okx",
+    "Nezikk.com",
     "清单/任务清单.md",
+    "Daily Notes/2026/06",
+    "清单/开通服务.md",
     "AGENTS.md",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
     "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
