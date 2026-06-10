@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "项目/auto-video/useful in cutting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "任务清单"
+              "title": "useful in cutting"
             }
           }
         ],
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "清单/任务清单.md",
+                "file": "项目/auto-video/useful in cutting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "任务清单 的反向链接列表"
+              "title": "useful in cutting 的反向链接列表"
             }
           },
           {
@@ -307,6 +307,8 @@
   },
   "active": "e8ff66a476c0d72c",
   "lastOpenFiles": [
+    "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
+    "清单/任务清单.md",
     "清单/开通服务.md",
     "Nezikk.com/okx/RWA.md",
     "Nezikk.com/HTB/st.md",
@@ -316,7 +318,6 @@
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
     "Nezikk.com/okx",
     "Nezikk.com",
-    "清单/任务清单.md",
     "Daily Notes/2026/06",
     "AGENTS.md",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
