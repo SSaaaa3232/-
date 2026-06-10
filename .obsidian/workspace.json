@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "8b990a181ebde7a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "useful in cutting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "useful in cutting"
+            }
+          },
+          {
             "id": "616d8c759eeb1c7e",
             "type": "leaf",
             "state": {
@@ -77,30 +101,6 @@
               },
               "icon": "lucide-file",
               "title": "开通服务"
-            }
-          },
-          {
-            "id": "f7b5aafe690b6b6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026/06/2026-06-06.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-06"
             }
           }
         ],
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b207f00579403524",
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nezikk.com/HTB/st.md",
+                "file": "useful in cutting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "st 的反向链接列表"
+              "title": "useful in cutting 的反向链接列表"
             }
           },
           {
@@ -306,17 +305,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "8b990a181ebde7a3",
   "lastOpenFiles": [
     "Nezikk.com/okx/RWA.md",
+    "useful in cutting.md",
     "Nezikk.com/HTB/st.md",
-    "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
+    "清单/开通服务.md",
     "Daily Notes/2026/06/2026-06-06.md",
+    "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
     "Nezikk.com/okx",
     "Nezikk.com",
     "清单/任务清单.md",
     "Daily Notes/2026/06",
-    "清单/开通服务.md",
     "AGENTS.md",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
     "Excalidraw/claude-skills-building-guide/claude-skills-building-guide.excalidraw",
