@@ -11,29 +11,28 @@ TTS：Voxtts
 
 主要是 Codex 和 Hyperframes
 
-## iamge：
+## article：
 
+### content：
 
-### khazix-skills：
+khazix-skills：ideal for AI trend analysis, long-form breakdowns, and deep insight output
 
-Suited for WeChat long articles and 10,000-word research reports. The workflows inside are robust, ideal for AI trend analysis, long-form breakdowns, and deep insight output.
+humanizer-zh：de-ai
 
-里面的写作流比较重，适合做 AI 热点分析、长文拆解、深度观点输出。
+### image prompt：
 
-### ian-xiaohei-illustrations 
+GPT-image2 Skill
 
-封面
-A magic tool for inline images in Chinese articles. Not just random image generation—it turns article points, processes, emotions, and metaphors into "little black" style illustrations.
+baoyu-skill
 
-### baoyu-skill
+ian-xiaohei-illustrations：it turns article points, processes, emotions, and metaphors into "little black" style illustrations.
 
-content
+不同风格抽卡
 
-### humanizer-zh：
+nskill
 
-去ai
+ncreate
 
-image prompt：GPT-image2 Skill
 
 
 
