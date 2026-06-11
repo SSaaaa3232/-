@@ -82,10 +82,63 @@ ncreate
 
 ## tips：
 
-1:plastic feel
+1:
+plastic feel
 
 specify the HEX color value directly in the prompt text
 
+```
+[Structural Constraint] - Preserve all components and connections from Image - Do not add or remove any elements [Style & Color Enforcement] - Visual Style: CVPR / NeurIPS academic schematic - Rendering: 2D flat vector, clean and minimal - Background: Pure White (#FFFFFF) - Color Scheme: * Inputs and Linear layers: Light Grey (#E0E0E0) * Attention core: Pastel Purple (#D1C4E9) * Concat layer: Pastel Yellow (#FFF59D)
+```
 
+2:
+image to image---complexity，style transfer
 
+structural framework of spatial topology
 
+- use excalidraw to draw a skeleton（draft）or draw by yourself
+
+the target style that defines visual features
+
+```
+[Layout Constraints] 
+* Type: Vertical Stack (Bottom-up Flow) 
+* Background: Pure White, No Shadow 
+
+[Zone 1: Inputs (Bottom)] 
+
+- Objects: Three labels "V", "K", "Q" arranged horizontally 
+- Connection: Arrows pointing upward to Zone 2 
+
+[Zone 2: Linear Projections] 
+
+- Shape: 3 small rounded rectangles arranged horizontally 
+- Label: "Linear" inside each box 
+- Outline: 2px solid outline 
+
+[Zone 3: The Multi-Head Core (Middle)] 
+
+- Main Object: A wide rectangle labeled "Scaled Dot-Product Attention" 
+- Visual Effect: Stacked layers to represent multiple heads 
+- Connection: Receiving arrows from Zone 2 
+
+[Zone 4: Output Processing (Top)] 
+
+- Object A: A rectangle labeled "Concat" 
+- Object B: A rectangle labeled "Linear" 
+- Layout: Object B is placed above Object A 
+
+[Rendering Notes] 
+
+- Use the provided reference image for visual language only 
+- Layout and structure must strictly follow the constraints above
+```
+
+## edit：
+
+de-watermark：https://github.com/GargantuaX/gemini-watermark-remover/tree/main
+
+High-definition magnification：https://github.com/xinntao/Real-ESRGAN
+
+[[3f13dbf0de433f676da7388019ef26f4_MD5.jpg|Open: Screenshot 2026-06-11 at 2.53.20 PM.png]]
+![[3f13dbf0de433f676da7388019ef26f4_MD5.jpg]]
