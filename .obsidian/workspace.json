@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "任务清单"
             }
+          },
+          {
+            "id": "32d028eacd958c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/okx/day-trading.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "day-trading"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -305,17 +330,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e8ff66a476c0d72c",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
-    "项目/auto-video/useful in cutting.md",
+    "cac566a58d965a644a59ae2a0e6d0a3e_MD5.jpg",
+    "Screenshot 2026-06-13 at 3.14.06 PM.png",
+    "清单/任务清单.md",
+    "Nezikk.com/okx/day-trading.md",
+    "项目/trading",
+    "Nezikk.com/auto/useful in cutting.md",
     "3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
-    "清单/任务清单.md",
     "清单/开通服务.md",
     "Nezikk.com/okx/RWA.md",
     "Nezikk.com/HTB/st.md",
-    "项目/auto-video",
+    "Nezikk.com/auto",
     "Daily Notes/2026/06/2026-06-06.md",
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
     "Nezikk.com/okx",
@@ -329,7 +358,7 @@
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw.md",
     "Excalidraw/ssda-l-malic-acid-research/mindmap.json",
     "Excalidraw/ssda-l-malic-acid-research",
-    "项目/nskill.md",
+    "Nezikk.com/auto/nskill.md",
     "Nezikk.com/HTB/OSCP攀登计划-渗透测试报告.md",
     "Nezikk.com/HTB/HTB Bashed 渗透测试详细记录.md",
     "raw/paper/skillOpt.md",
