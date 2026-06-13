@@ -126,9 +126,21 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
+          },
+          {
+            "id": "ad4ec95b7a609e5e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-13 19.57.16.excalidraw"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -330,12 +342,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "ad4ec95b7a609e5e",
   "lastOpenFiles": [
+    "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "cac566a58d965a644a59ae2a0e6d0a3e_MD5.jpg",
     "Screenshot 2026-06-13 at 3.14.06 PM.png",
     "清单/任务清单.md",
-    "Nezikk.com/okx/day-trading.md",
     "项目/trading",
     "Nezikk.com/auto/useful in cutting.md",
     "3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
