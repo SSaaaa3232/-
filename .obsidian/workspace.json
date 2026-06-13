@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/auto-video/useful in cutting.md",
+                "file": "清单/任务清单.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "useful in cutting"
+              "title": "任务清单"
             }
           }
         ],
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b207f00579403524",
@@ -306,8 +305,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
+  "active": "e8ff66a476c0d72c",
   "lastOpenFiles": [
+    "项目/auto-video/useful in cutting.md",
     "3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
@@ -315,7 +315,6 @@
     "清单/开通服务.md",
     "Nezikk.com/okx/RWA.md",
     "Nezikk.com/HTB/st.md",
-    "项目/auto-video/useful in cutting.md",
     "项目/auto-video",
     "Daily Notes/2026/06/2026-06-06.md",
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
