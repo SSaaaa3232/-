@@ -128,18 +128,6 @@
             }
           },
           {
-            "id": "a64bcc06344789b2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-14 18.49.37.excalidraw"
-            }
-          },
-          {
             "id": "3a02ab5508960a33",
             "type": "leaf",
             "state": {
@@ -164,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -366,7 +354,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "3a02ab5508960a33",
   "lastOpenFiles": [
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
