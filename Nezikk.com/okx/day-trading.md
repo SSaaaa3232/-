@@ -24,4 +24,6 @@ aliases:
 
 ![[day-trading 2026-06-13 19.57.16.excalidraw]]
 
-## 02-
+## 02-盈亏比
+
+![[day-trading 2026-06-14 18.49.37.excalidraw]]
