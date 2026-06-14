@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -304,12 +303,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -332,11 +330,14 @@
   },
   "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Daily Notes/2026/06/2026-06-14.md",
+    "清单/开通服务.md",
+    "_templates/daily-note.md",
+    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/maestro-openfr-harness-runtime/harness-runtime-补强-maestro-openfr.excalidraw",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
     "cac566a58d965a644a59ae2a0e6d0a3e_MD5.jpg",
     "Screenshot 2026-06-13 at 3.14.06 PM.png",
     "清单/任务清单.md",
@@ -345,7 +346,6 @@
     "3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
-    "清单/开通服务.md",
     "Nezikk.com/okx/RWA.md",
     "Nezikk.com/HTB/st.md",
     "Nezikk.com/auto",
