@@ -152,7 +152,25 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
+      },
+      {
+        "id": "ffeeb9041dc862a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92477dd0d06a1124",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-15 13.37.44.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -354,9 +372,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "92477dd0d06a1124",
   "lastOpenFiles": [
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
     "media/transcripts/bOJISeBNjxw.large-v3-faster.zh.md",
     "media/transcripts/bOJISeBNjxw.macwhisper-audio.zh.raw.txt",
     "media/transcripts/bOJISeBNjxw.m4a",
@@ -364,7 +385,6 @@
     "media/transcripts/bOJISeBNjxw.webm.part",
     "media/transcripts/bOJISeBNjxw.macwhisper-url.zh.raw.txt",
     "Nezikk.com/auto/useful in cutting.md",
-    "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md",
     "Screenshot 2026-06-15 at 11.08.19 AM.png",
     "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
     "清单/任务清单.md",
@@ -394,10 +414,8 @@
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
     "Nezikk.com/okx/RWA.md",
-    "Nezikk.com/HTB/st.md",
     "Daily Notes/2026/06/2026-06-06.md",
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
-    "项目/到手刀.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
