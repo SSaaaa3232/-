@@ -155,19 +155,19 @@
         "currentTab": 4
       },
       {
-        "id": "7a0ac0c1bec4b8bb",
+        "id": "9609b31ea9f30193",
         "type": "tabs",
         "children": [
           {
-            "id": "e80ccf030e59021f",
+            "id": "8787c02f9cd3bc25",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 10.24.46.excalidraw"
+              "title": "day-trading 2026-06-15 10.47.15.excalidraw"
             }
           }
         ]
@@ -372,10 +372,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e80ccf030e59021f",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
+    "清单/任务清单.md",
     "media/transcripts/ou7udXA1eaw.large-v3-faster.zh.md",
     "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
@@ -405,7 +407,6 @@
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "cac566a58d965a644a59ae2a0e6d0a3e_MD5.jpg",
     "Screenshot 2026-06-13 at 3.14.06 PM.png",
-    "清单/任务清单.md",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
     "Nezikk.com/okx/RWA.md",
@@ -414,7 +415,6 @@
     "Excalidraw/RWA 2026-06-06 15.56.14.excalidraw.md",
     "项目/到手刀.md",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw.md",
-    "Nezikk.com/HTB/OSCP攀登计划-渗透测试报告.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
