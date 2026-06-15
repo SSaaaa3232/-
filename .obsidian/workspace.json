@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 45.23141654978962,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -154,25 +153,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "3f6c550dec63b3b6",
-        "type": "tabs",
-        "dimension": 54.768583450210386,
-        "children": [
-          {
-            "id": "4578036837038201",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 18.45.23.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -374,10 +354,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4578036837038201",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
-    "Nezikk.com/okx/day-trading.md",
+    "media/transcripts/qEWxLbCB3mU.large-v3-faster.zh.md",
+    "media/transcripts/qEWxLbCB3mU.macwhisper-audio.zh.raw.txt",
+    "media/transcripts/qEWxLbCB3mU.m4a",
+    "media/transcripts/qEWxLbCB3mU.webm",
+    "media/transcripts/qEWxLbCB3mU.webm.part",
+    "media/transcripts/qEWxLbCB3mU.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
     "media/transcripts/n2yJWILiObw.large-v3-faster.zh.md",
     "media/transcripts/n2yJWILiObw.macwhisper-audio.zh.raw.txt",
     "media/transcripts/n2yJWILiObw.m4a",
@@ -385,11 +371,6 @@
     "media/transcripts/n2yJWILiObw.webm.part",
     "media/transcripts/n2yJWILiObw.macwhisper-url.zh.raw.txt",
     "media/transcripts/oU_X0awFgZM.large-v3-faster.zh.md",
-    "media/transcripts/oU_X0awFgZM.macwhisper-audio.zh.raw.txt",
-    "media/transcripts/oU_X0awFgZM.m4a",
-    "media/transcripts/oU_X0awFgZM.webm",
-    "media/transcripts/oU_X0awFgZM.webm.part",
-    "media/transcripts/oU_X0awFgZM.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Screenshot 2026-06-15 at 4.29.20 PM.png",
     "Screenshot 2026-06-15 at 4.26.18 PM.png",
@@ -417,7 +398,6 @@
     "AGENTS.md",
     "3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "Nezikk.com/auto/nskill.md",
-    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "cac566a58d965a644a59ae2a0e6d0a3e_MD5.jpg",
     "Screenshot 2026-06-13 at 3.14.06 PM.png",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
