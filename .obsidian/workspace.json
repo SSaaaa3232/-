@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 53.014354066985646,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -153,6 +154,25 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "cdaf41000365f577",
+        "type": "tabs",
+        "dimension": 46.985645933014354,
+        "children": [
+          {
+            "id": "996a51dc03a20fec",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-15 15.16.28.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -354,8 +374,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "996a51dc03a20fec",
   "lastOpenFiles": [
+    "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
+    "Screenshot 2026-06-15 at 3.22.58 PM.png",
     "media/transcripts/UyTznXBQZEk.large-v3-faster.zh.md",
     "media/transcripts/UyTznXBQZEk.macwhisper-audio.zh.raw.txt",
     "media/transcripts/UyTznXBQZEk.m4a",
@@ -364,7 +387,6 @@
     "media/transcripts/UyTznXBQZEk.macwhisper-url.zh.raw.txt",
     "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md",
     "Nezikk.com/HTB/st.md",
     "media/transcripts/bOJISeBNjxw.large-v3-faster.zh.md",
@@ -396,8 +418,6 @@
     "Screenshot 2026-06-13 at 3.14.06 PM.png",
     "Screenshot 2026-06-11 at 2.53.20 PM.png",
     "27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
-    "Nezikk.com/okx/RWA.md",
-    "Daily Notes/2026/06/2026-06-06.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
