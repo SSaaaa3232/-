@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 51.96353436185134,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -154,25 +153,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "72a2aced514c2631",
-        "type": "tabs",
-        "dimension": 48.03646563814867,
-        "children": [
-          {
-            "id": "5bd78bac0c905345",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 16.04.24.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
