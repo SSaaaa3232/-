@@ -152,7 +152,25 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "9822711e40918d53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4720af956a6b12b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-15 09.33.09.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -354,9 +372,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "3a02ab5508960a33",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Nezikk.com/auto/useful in cutting.md",
     "media/transcripts/BV13A41137WB.large-v3-faster.zh.md",
     "media/transcripts/BV13A41137WB.large-v3-faster.zh.txt",
     "media/transcripts/BV13A41137WB.m4a",
@@ -370,7 +390,6 @@
     "media/transcripts",
     "media",
     "subtitles",
-    "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-14 22.02.02.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "AGENTS.md",
@@ -396,7 +415,6 @@
     "Nezikk.com/HTB/HTB Bashed 渗透测试详细记录.md",
     "raw/paper/skillOpt.md",
     "WIKI.md",
-    "基因工程.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
