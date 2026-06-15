@@ -155,19 +155,19 @@
         "currentTab": 4
       },
       {
-        "id": "9822711e40918d53",
+        "id": "7a0ac0c1bec4b8bb",
         "type": "tabs",
         "children": [
           {
-            "id": "d4720af956a6b12b",
+            "id": "e80ccf030e59021f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 09.33.09.excalidraw"
+              "title": "day-trading 2026-06-15 10.24.46.excalidraw"
             }
           }
         ]
@@ -346,11 +346,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
+    "width": 752.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -372,11 +372,20 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "e80ccf030e59021f",
   "lastOpenFiles": [
-    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
+    "media/transcripts/ou7udXA1eaw.large-v3-faster.zh.md",
     "Nezikk.com/auto/useful in cutting.md",
+    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
+    "media/transcripts/ou7udXA1eaw.macwhisper-audio.zh.raw.txt",
+    "media/transcripts/ou7udXA1eaw.m4a",
+    "media/transcripts/ou7udXA1eaw.webm",
+    "media/transcripts/ou7udXA1eaw.webm.part",
+    "media/transcripts/ou7udXA1eaw.macwhisper-url.zh.raw.txt",
+    "media/transcripts/BV1c4xQeqEqE.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1c4xQeqEqE.ai-zh.srt",
     "media/transcripts/BV13A41137WB.large-v3-faster.zh.md",
     "media/transcripts/BV13A41137WB.large-v3-faster.zh.txt",
     "media/transcripts/BV13A41137WB.m4a",
@@ -384,12 +393,6 @@
     "media/transcripts/BV1a5411u7Zb.large-v3-faster.zh.md",
     "media/transcripts/BV1a5411u7Zb.large-v3-faster.zh.txt",
     "media/transcripts/BV1a5411u7Zb.large-v3-faster.translation.md",
-    "media/transcripts/BV1a5411u7Zb.large-v3-faster.translation.txt",
-    "media/transcripts/BV1a5411u7Zb.m4a",
-    "media/transcripts/BV1a5411u7Zb.m4a.part",
-    "media/transcripts",
-    "media",
-    "subtitles",
     "Excalidraw/day-trading 2026-06-14 22.02.02.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "AGENTS.md",
@@ -412,9 +415,6 @@
     "项目/到手刀.md",
     "Excalidraw/ssda-l-malic-acid-research/ssda调控黑曲霉形态发育与l-苹果酸合成技术路线.excalidraw.md",
     "Nezikk.com/HTB/OSCP攀登计划-渗透测试报告.md",
-    "Nezikk.com/HTB/HTB Bashed 渗透测试详细记录.md",
-    "raw/paper/skillOpt.md",
-    "WIKI.md",
     "image/ac7e351eebdd159fed5f17c581a62e5e_MD5.jpg"
   ]
 }
