@@ -150,19 +150,9 @@
               "icon": "lucide-file",
               "title": "useful in cutting"
             }
-          },
-          {
-            "id": "65cd018f40e364ce",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -364,12 +354,30 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "65cd018f40e364ce",
+  "active": "5cf8abfd89b1791b",
   "lastOpenFiles": [
+    "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
+    "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template-analysis.md",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw.md",
+    "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
+    "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
+    "image/3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
+    "image/Screenshot 2026-06-16 at 7.07.53 PM.png",
+    "image/Screenshot 2026-06-15 at 9.43.50 PM.png",
+    "image/Screenshot 2026-06-15 at 10.50.14 PM.png",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/manifest.json",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
+    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059",
+    "Excalidraw/git-ana",
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "Nezikk.com/auto/useful in cutting.md",
     "清单/任务清单.md",
     "Nezikk.com/okx/day-trading.md",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Nezikk.com/HTB/st.md",
@@ -379,38 +387,20 @@
     "media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
     "清单/开通服务.md",
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
-    "Screenshot 2026-06-16 at 8.14.29 PM.png",
-    "Screenshot 2026-06-16 at 8.12.44 PM.png",
-    "Screenshot 2026-06-16 at 8.12.29 PM.png",
-    "Screenshot 2026-06-16 at 8.07.16 PM.png",
-    "Screenshot 2026-06-16 at 8.06.43 PM.png",
-    "Screenshot 2026-06-16 at 7.45.37 PM.png",
-    "Screenshot 2026-06-16 at 7.43.51 PM.png",
-    "Screenshot 2026-06-16 at 7.43.26 PM.png",
-    "Screenshot 2026-06-16 at 7.43.05 PM.png",
+    "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
+    "image/Screenshot 2026-06-16 at 8.12.44 PM.png",
+    "image/Screenshot 2026-06-16 at 8.12.29 PM.png",
+    "image/Screenshot 2026-06-16 at 8.07.16 PM.png",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
-    "Screenshot 2026-06-16 at 7.18.43 PM.png",
     "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
     "media/transcripts/mPWYF3AvrEs.zh-TW.one-paragraph.md",
     "media/transcripts/mPWYF3AvrEs.zh-TW.srt",
     "media/transcripts/mPWYF3AvrEs.macwhisper-url.zh.raw.txt",
     "media/transcripts/eHVuH5-4wjw.large-v3-faster.zh.md",
-    "media/transcripts/eHVuH5-4wjw.macwhisper-audio.zh.raw.txt",
-    "media/transcripts/eHVuH5-4wjw.m4a",
-    "media/transcripts/eHVuH5-4wjw.webm",
-    "media/transcripts/eHVuH5-4wjw.webm.part",
-    "media/transcripts/eHVuH5-4wjw.macwhisper-url.zh.raw.txt",
     "media/transcripts/02Pe8kGeySg.large-v3-faster.zh.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
     "media/transcripts/qEWxLbCB3mU.large-v3-faster.zh.md",
     "media/transcripts/n2yJWILiObw.large-v3-faster.zh.md",
-    "media/transcripts/oU_X0awFgZM.large-v3-faster.zh.md",
-    "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
-    "media/transcripts/BV1ix23YUEoU.ai-zh.one-paragraph.md",
-    "media/transcripts/UyTznXBQZEk.large-v3-faster.zh.md",
-    "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 10.47.15.excalidraw.md",
-    "media/transcripts/bOJISeBNjxw.large-v3-faster.zh.md"
+    "media/transcripts/oU_X0awFgZM.large-v3-faster.zh.md"
   ]
 }

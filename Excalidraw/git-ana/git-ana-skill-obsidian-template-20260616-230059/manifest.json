@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "analysis",
+    "path": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md",
+    "created_at": "2026-06-16T23:00:59+08:00"
+  },
+  "title": "git-ana skill in Obsidian-Template",
+  "layout": "git-ana-path",
+  "node_count": 12,
+  "edge_count": 11,
+  "artifacts": [
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
+      "kind": "mindmap-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw",
+      "kind": "excalidraw-json"
+    },
+    {
+      "path": "/Users/saaaaa/Obsidian-Template/Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw.md",
+      "kind": "obsidian-excalidraw"
+    }
+  ],
+  "generated_at": "2026-06-16T15:02:16.803511+00:00"
+}

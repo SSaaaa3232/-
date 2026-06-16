@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "title": "git-ana skill in Obsidian-Template",
+  "source": {
+    "type": "analysis",
+    "path": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md",
+    "created_at": "2026-06-16T23:00:59+08:00"
+  },
+  "layout": "git-ana-path",
+  "nodes": [
+    {
+      "id": "n-root",
+      "label": "git-ana in Obsidian",
+      "type": "topic",
+      "summary": "A Codex chat request becomes an evidence-backed analysis and an editable Excalidraw path diagram inside Obsidian-Template.",
+      "note": "Scope: local skill workflow, not a remote GitHub repository analysis.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md:10",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-call",
+      "label": "User invokes git-ana",
+      "type": "source",
+      "summary": "The skill triggers from /git-ana, a GitHub URL, repo reverse-engineering, or path-diagram discussion requests.",
+      "note": "Evidence: git-ana/SKILL.md:2-10 defines the skill, tools, and output promise; git-ana/SKILL.md:62-68 adds the visual path diagram task.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md:2",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-read",
+      "label": "Read workflow contract",
+      "type": "concept",
+      "summary": "The skill reads its workflow reference, current SKILL.md, and transplant audit rules before deep analysis.",
+      "note": "Evidence: git-ana/SKILL.md:56-60 lists Always Read files; this keeps the report grounded in current skill rules.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md:56",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-evidence-report",
+      "label": "Build evidence report",
+      "type": "concept",
+      "summary": "Phases 0-7 separate intent, origin, decisions, timeline, implementation patterns, evidence, facts, inferences, unknowns, and reproduction path.",
+      "note": "Evidence: git-ana/SKILL.md:75-85 defines the phase list; git-ana/SKILL.md:131-138 defines verification gates.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/SKILL.md:75",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-visual-brief",
+      "label": "Extract visual brief",
+      "type": "concept",
+      "summary": "Phase 8 compresses the text report into root thesis, main path, side-lane uncertainty, and evidence notes.",
+      "note": "Evidence: git-ana/references/workflow.md:113-121 describes the visual brief and says evidence belongs in summary or note, not labels.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/references/workflow.md:113",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-vault-folder",
+      "label": "Write vault folder",
+      "type": "action",
+      "summary": "The diagram source is written under /Users/saaaaa/Obsidian-Template/Excalidraw/git-ana/<slug>-<timestamp>/.",
+      "note": "Evidence: git-ana/references/workflow.md:122-126 specifies the fresh folder convention; Obsidian vault rules keep Excalidraw artifacts outside raw/ and .obsidian.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/references/workflow.md:122",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-mindmap-json",
+      "label": "mindmap.json source",
+      "type": "concept",
+      "summary": "mindmap.json is the source of truth; Excalidraw is a generated editable view that can be regenerated.",
+      "note": "Evidence: mindmap/references/schema.md:1-17 defines required shape and git-ana-path as a valid layout.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/mindmap/references/schema.md:1",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-render",
+      "label": "Render Excalidraw",
+      "type": "action",
+      "summary": "render_excalidraw.py converts mindmap.json into raw .excalidraw, Obsidian .excalidraw.md, and manifest.json.",
+      "note": "Evidence: git-ana/references/workflow.md:127-138 gives the render command and expected artifacts; mindmap/scripts/render_excalidraw.py:575-590 implements the CLI.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/mindmap/scripts/render_excalidraw.py:575",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-discuss",
+      "label": "Discuss in Obsidian",
+      "type": "conclusion",
+      "summary": "The user opens the .excalidraw.md in Obsidian Excalidraw view, then refines the diagram with Codex through JSON-first updates.",
+      "note": "Evidence: mindmap/SKILL.md:41-43 says delivery reports paths and updates modify mindmap.json before rerendering.",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/mindmap/SKILL.md:41",
+      "priority": "high",
+      "status": "understood"
+    },
+    {
+      "id": "n-no-invention",
+      "label": "No invented claims",
+      "type": "question",
+      "summary": "A visual node must trace back to report evidence; otherwise it should become a question or be omitted.",
+      "note": "Evidence: git-ana/references/workflow.md:141 sets the no-invention rule for visual briefs.",
+      "discussion_prompt": "Which future diagram nodes should be promoted from question to main path after more evidence exists?",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/git-ana/references/workflow.md:141",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": "n-template-risk",
+      "label": "Template fit",
+      "type": "dispute",
+      "summary": "git-ana-path is good for route diagrams, but very dense repo reports may still need pruning before rendering.",
+      "note": "Evidence: mindmap/references/layouts.md:32-48 defines framed lanes, route cards, and right-side discussion lane constraints.",
+      "discussion_prompt": "Should the next iteration add multiple lanes for tech stack, architecture, and transplant separately?",
+      "source": "/Users/saaaaa/Desktop/Nezikk-s-skills/mindmap/references/layouts.md:32",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": "n-vault-boundary",
+      "label": "Vault boundary",
+      "type": "question",
+      "summary": "The workflow writes under Excalidraw/ and should not modify raw/ source material or .obsidian configuration.",
+      "note": "Evidence: AGENTS.md:54 marks .raw as legacy, AGENTS.md:80-83 lists Excalidraw-adjacent vault areas, and AGENTS.md:92-94 says raw/ content is not rewritten except ingest frontmatter.",
+      "discussion_prompt": "Should git-ana diagrams later be linked from wiki/index.md or remain standalone Excalidraw artifacts?",
+      "source": "/Users/saaaaa/Obsidian-Template/AGENTS.md:88",
+      "priority": "medium",
+      "status": "open"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n-root",
+      "to": "n-call",
+      "label": "starts"
+    },
+    {
+      "from": "n-call",
+      "to": "n-read",
+      "label": "loads"
+    },
+    {
+      "from": "n-read",
+      "to": "n-evidence-report",
+      "label": "guides"
+    },
+    {
+      "from": "n-evidence-report",
+      "to": "n-visual-brief",
+      "label": "summarizes"
+    },
+    {
+      "from": "n-visual-brief",
+      "to": "n-vault-folder",
+      "label": "writes"
+    },
+    {
+      "from": "n-vault-folder",
+      "to": "n-mindmap-json",
+      "label": "stores"
+    },
+    {
+      "from": "n-mindmap-json",
+      "to": "n-render",
+      "label": "renders"
+    },
+    {
+      "from": "n-render",
+      "to": "n-discuss",
+      "label": "opens"
+    },
+    {
+      "from": "n-root",
+      "to": "n-no-invention",
+      "label": "constraint"
+    },
+    {
+      "from": "n-root",
+      "to": "n-template-risk",
+      "label": "risk"
+    },
+    {
+      "from": "n-root",
+      "to": "n-vault-boundary",
+      "label": "boundary"
+    }
+  ]
+}
