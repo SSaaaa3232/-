@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 38.330871491875925,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -151,28 +150,19 @@
               "icon": "lucide-file",
               "title": "useful in cutting"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "9fbad0d58972227e",
-        "type": "tabs",
-        "dimension": 61.669128508124075,
-        "children": [
+          },
           {
-            "id": "d5951b7f19cd23ae",
+            "id": "65cd018f40e364ce",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "useful in cutting 2026-06-16 21.56.09.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -374,26 +364,26 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5cf8abfd89b1791b",
+  "active": "65cd018f40e364ce",
   "lastOpenFiles": [
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "Nezikk.com/auto/useful in cutting.md",
-    "Nezikk.com/HTB/st.md",
+    "清单/任务清单.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
     "media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
     "media/transcripts/BV1cMdrBsEsR.ai-zh.srt",
     "media/transcripts/BV1cMdrBsEsR.macwhisper-url-retry.zh.raw.txt",
     "media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
-    "清单/任务清单.md",
     "清单/开通服务.md",
-    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "Screenshot 2026-06-16 at 8.14.29 PM.png",
     "Screenshot 2026-06-16 at 8.12.44 PM.png",
     "Screenshot 2026-06-16 at 8.12.29 PM.png",
     "Screenshot 2026-06-16 at 8.07.16 PM.png",
     "Screenshot 2026-06-16 at 8.06.43 PM.png",
-    "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
     "Screenshot 2026-06-16 at 7.45.37 PM.png",
     "Screenshot 2026-06-16 at 7.43.51 PM.png",
     "Screenshot 2026-06-16 at 7.43.26 PM.png",
