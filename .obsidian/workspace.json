@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 39.44043321299639,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -127,49 +126,24 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          },
-          {
-            "id": "3a02ab5508960a33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/auto/useful in cutting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "useful in cutting"
-            }
           }
         ],
         "currentTab": 4
       },
       {
-        "id": "329b51753e930669",
+        "id": "7a73640741387a73",
         "type": "tabs",
-        "dimension": 60.559566787003604,
         "children": [
           {
-            "id": "172875711c70553a",
+            "id": "851980ca7b177d4f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 23.08.12.excalidraw"
+              "title": "day-trading 2026-06-16 19.36.49.excalidraw"
             }
           }
         ]
@@ -374,9 +348,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "172875711c70553a",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Screenshot 2026-06-16 at 7.45.37 PM.png",
+    "Screenshot 2026-06-16 at 7.43.51 PM.png",
+    "Screenshot 2026-06-16 at 7.43.26 PM.png",
+    "Screenshot 2026-06-16 at 7.43.05 PM.png",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Screenshot 2026-06-16 at 7.18.43 PM.png",
     "Screenshot 2026-06-16 at 7.07.53 PM.png",
@@ -389,9 +368,7 @@
     "Screenshot 2026-06-15 at 10.57.14 PM.png",
     "Screenshot 2026-06-15 at 10.50.14 PM.png",
     "Screenshot 2026-06-15 at 10.46.04 PM.png",
-    "Screenshot 2026-06-15 at 10.39.35 PM.png",
     "media/transcripts/eHVuH5-4wjw.large-v3-faster.zh.md",
-    "Screenshot 2026-06-15 at 10.20.59 PM.png",
     "media/transcripts/eHVuH5-4wjw.macwhisper-audio.zh.raw.txt",
     "media/transcripts/eHVuH5-4wjw.m4a",
     "media/transcripts/eHVuH5-4wjw.webm",
@@ -402,8 +379,6 @@
     "media/transcripts/02Pe8kGeySg.m4a",
     "media/transcripts/02Pe8kGeySg.webm",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "Screenshot 2026-06-15 at 9.43.50 PM.png",
-    "Screenshot 2026-06-15 at 9.41.19 PM.png",
     "media/transcripts/qEWxLbCB3mU.large-v3-faster.zh.md",
     "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
     "media/transcripts/n2yJWILiObw.large-v3-faster.zh.md",
@@ -419,7 +394,6 @@
     "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
     "清单/任务清单.md",
     "media/transcripts/ou7udXA1eaw.large-v3-faster.zh.md",
-    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
-    "media/transcripts/BV1c4xQeqEqE.ai-zh.one-paragraph.md"
+    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md"
   ]
 }
