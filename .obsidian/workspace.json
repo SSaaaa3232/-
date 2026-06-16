@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 39.44043321299639,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -128,18 +129,6 @@
             }
           },
           {
-            "id": "8839758837bd9a7b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 22.16.55.excalidraw"
-            }
-          },
-          {
             "id": "3a02ab5508960a33",
             "type": "leaf",
             "state": {
@@ -164,11 +153,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "329b51753e930669",
         "type": "tabs",
+        "dimension": 60.559566787003604,
         "children": [
           {
             "id": "172875711c70553a",
@@ -384,14 +374,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8839758837bd9a7b",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Nezikk.com/auto/useful in cutting.md",
+    "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
     "media/transcripts/mPWYF3AvrEs.zh-TW.one-paragraph.md",
     "media/transcripts/mPWYF3AvrEs.zh-TW.srt",
-    "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "media/transcripts/mPWYF3AvrEs.macwhisper-url.zh.raw.txt",
-    "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
     "Screenshot 2026-06-15 at 10.57.14 PM.png",
     "Screenshot 2026-06-15 at 10.50.14 PM.png",
     "Screenshot 2026-06-15 at 10.46.04 PM.png",
@@ -418,7 +409,6 @@
     "media/transcripts/n2yJWILiObw.large-v3-faster.zh.md",
     "media/transcripts/oU_X0awFgZM.large-v3-faster.zh.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
-    "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
     "media/transcripts/BV1ix23YUEoU.ai-zh.one-paragraph.md",
     "media/transcripts/UyTznXBQZEk.large-v3-faster.zh.md",
