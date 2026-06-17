@@ -177,24 +177,6 @@
           }
         ],
         "currentTab": 6
-      },
-      {
-        "id": "1d3833a599e2797f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ca8b5c78ed71004f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-17 19.46.51.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -396,9 +378,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ca8b5c78ed71004f",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-17 20.02.20.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "media/transcripts/BV1qXUDBfESk.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1qXUDBfESk.ai-zh.srt",
+    "media/transcripts/BV1qXUDBfESk.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
     "media/transcripts/BV1MtyGBZEqn.ai-zh.srt",
@@ -427,8 +413,6 @@
     "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
-    "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
@@ -439,8 +423,6 @@
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/manifest.json",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059",
-    "Excalidraw/git-ana",
-    "image/media/transcripts/BV1cMdrBsEsR.ai-zh.srt",
     "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
     "image/Screenshot 2026-06-16 at 8.12.44 PM.png",
     "image/Screenshot 2026-06-16 at 8.12.29 PM.png"
