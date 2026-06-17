@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 51.93567599761762,
+        "dimension": 38.91377379619261,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -175,40 +175,53 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          },
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "987e903651ce7bd5",
+        "type": "tabs",
+        "dimension": 61.08622620380739,
+        "children": [
           {
-            "id": "31cf473db1d287e1",
+            "id": "59890e6b65ca14e9",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-16 19.36.49.excalidraw"
+              "title": "day-trading 2026-06-15 16.04.24.excalidraw"
+            }
+          },
+          {
+            "id": "b528c19672aac813",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-14 18.49.37.excalidraw"
+            }
+          },
+          {
+            "id": "f255e648a01d21fa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "useful in cutting 2026-06-16 21.56.09.excalidraw"
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "ffeb0344d1f8e712",
-        "type": "tabs",
-        "dimension": 48.06432400238237,
-        "children": [
-          {
-            "id": "55e2d8106a1c8282",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 23.08.12.excalidraw"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -410,14 +423,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "31cf473db1d287e1",
+  "active": "209e2e4d96c59c56",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
+    "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
-    "Nezikk.com/auto/useful in cutting.md",
-    "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Nezikk.com/auto/PROMPT.md",
@@ -429,7 +443,6 @@
     "raw/articles/宝玉 on X \"Codex 操控电脑的三种方式。Codex 团队成员 Jason 今天写了一篇详细指南，把三者的区别和适用场景理清楚了，这里做个精简版。【1】Computer Use：最广，也最慢Computer Use 让 Codex 像人一样看屏幕、点鼠标、敲键盘，操作你电脑上的任何图形界面应用。Spotify、Xcode、系统设置、iOS 模拟器，甚至 httpst.coXXgRkV4KW6\".md",
     "清单/任务清单.md",
     "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
