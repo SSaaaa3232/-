@@ -50,7 +50,7 @@ LLM spatial reasoning and native text rendering capabilitie
 
 
 ## article：
-
+![[useful in cutting 2026-06-17 13.14.15.excalidraw]]
 ### content：
 
 khazix-skills：ideal for AI trend analysis, long-form breakdowns, and deep insight output
@@ -68,10 +68,6 @@ ian-xiaohei-illustrations
 it turns article points, processes, emotions, and metaphors into "little black" style illustrations.
 
 不同风格抽卡
-
-nskill
-
-ncreate
 
 ## tips：
 

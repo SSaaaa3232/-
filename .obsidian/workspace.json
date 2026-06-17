@@ -152,19 +152,55 @@
             }
           },
           {
-            "id": "31896c01cd9a1ada",
+            "id": "82fe7c285e4ebc96",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
+                "file": "Nezikk.com/auto/ncreate/PPT/PPT视觉优化方案.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "useful in cutting 2026-06-16 21.56.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "PPT视觉优化方案"
+            }
+          },
+          {
+            "id": "209e2e4d96c59c56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/auto/PROMPT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PROMPT"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -221,8 +257,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -366,11 +401,20 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "31896c01cd9a1ada",
+  "active": "209e2e4d96c59c56",
   "lastOpenFiles": [
+    "WIKI.md",
+    "Nezikk.com/auto/PROMPT.md",
+    "Nezikk.com/auto/ncreate/PPT/PPT视觉优化方案.md",
+    "Nezikk.com/auto/ncreate/image/diagram/markdown to diagram skill.md",
+    "Nezikk.com/auto/ncreate/image/diagram/diagram（tech-graph）fireworks.md",
+    "image/media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
     "Nezikk.com/auto/useful in cutting.md",
+    "raw/articles/宝玉 on X \"Codex 操控电脑的三种方式。Codex 团队成员 Jason 今天写了一篇详细指南，把三者的区别和适用场景理清楚了，这里做个精简版。【1】Computer Use：最广，也最慢Computer Use 让 Codex 像人一样看屏幕、点鼠标、敲键盘，操作你电脑上的任何图形界面应用。Spotify、Xcode、系统设置、iOS 模拟器，甚至 httpst.coXXgRkV4KW6\".md",
+    "清单/任务清单.md",
+    "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
     "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
-    "Screenshot 2026-06-17 at 12.35.41 PM.png",
+    "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
@@ -390,14 +434,12 @@
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059",
     "Excalidraw/git-ana",
-    "清单/任务清单.md",
     "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Nezikk.com/HTB/st.md",
-    "media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
-    "media/transcripts/BV1cMdrBsEsR.ai-zh.srt",
-    "media/transcripts/BV1cMdrBsEsR.macwhisper-url-retry.zh.raw.txt",
-    "media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
+    "image/media/transcripts/BV1cMdrBsEsR.ai-zh.srt",
+    "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url-retry.zh.raw.txt",
+    "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
     "清单/开通服务.md",
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
@@ -405,13 +447,7 @@
     "image/Screenshot 2026-06-16 at 8.12.29 PM.png",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
-    "media/transcripts/mPWYF3AvrEs.zh-TW.one-paragraph.md",
     "media/transcripts/mPWYF3AvrEs.zh-TW.srt",
-    "media/transcripts/mPWYF3AvrEs.macwhisper-url.zh.raw.txt",
-    "media/transcripts/eHVuH5-4wjw.large-v3-faster.zh.md",
-    "media/transcripts/02Pe8kGeySg.large-v3-faster.zh.md",
-    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "media/transcripts/qEWxLbCB3mU.large-v3-faster.zh.md",
-    "media/transcripts/n2yJWILiObw.large-v3-faster.zh.md"
+    "media/transcripts/mPWYF3AvrEs.macwhisper-url.zh.raw.txt"
   ]
 }
