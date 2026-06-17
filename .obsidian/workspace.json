@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 50.266524520255864,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -175,37 +174,24 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          },
-          {
-            "id": "8107ba3b3a16306f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-14 18.49.37.excalidraw"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
-        "id": "987e903651ce7bd5",
+        "id": "1d3833a599e2797f",
         "type": "tabs",
-        "dimension": 49.733475479744136,
         "children": [
           {
-            "id": "51eb37ca1498c68e",
+            "id": "ca8b5c78ed71004f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-13 19.57.16.excalidraw"
+              "title": "day-trading 2026-06-17 19.46.51.excalidraw"
             }
           }
         ]
@@ -410,12 +396,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8107ba3b3a16306f",
+  "active": "ca8b5c78ed71004f",
   "lastOpenFiles": [
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
+    "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1MtyGBZEqn.ai-zh.srt",
+    "media/transcripts/BV1MtyGBZEqn.macwhisper-url.zh.raw.txt",
+    "media/transcripts",
+    "media",
+    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "Nezikk.com/auto/PROMPT.md",
     "Nezikk.com/auto/useful in cutting.md",
@@ -433,11 +428,8 @@
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 10.24.46.excalidraw.md",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw",
-    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template-analysis.md",
-    "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/git-ana-skill-in-obsidian-template.excalidraw.md",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
     "image/3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
@@ -448,15 +440,9 @@
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059",
     "Excalidraw/git-ana",
-    "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
-    "Nezikk.com/HTB/st.md",
     "image/media/transcripts/BV1cMdrBsEsR.ai-zh.srt",
-    "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url-retry.zh.raw.txt",
-    "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
     "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
     "image/Screenshot 2026-06-16 at 8.12.44 PM.png",
-    "image/Screenshot 2026-06-16 at 8.12.29 PM.png",
-    "media/transcripts/mPWYF3AvrEs.zh-TW.srt",
-    "media/transcripts/mPWYF3AvrEs.macwhisper-url.zh.raw.txt"
+    "image/Screenshot 2026-06-16 at 8.12.29 PM.png"
   ]
 }
