@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 38.91377379619261,
+        "dimension": 50.266524520255864,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -175,29 +175,9 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "987e903651ce7bd5",
-        "type": "tabs",
-        "dimension": 61.08622620380739,
-        "children": [
-          {
-            "id": "59890e6b65ca14e9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 16.04.24.excalidraw"
-            }
           },
           {
-            "id": "b528c19672aac813",
+            "id": "8107ba3b3a16306f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -207,21 +187,28 @@
               "icon": "excalidraw-icon",
               "title": "day-trading 2026-06-14 18.49.37.excalidraw"
             }
-          },
+          }
+        ],
+        "currentTab": 7
+      },
+      {
+        "id": "987e903651ce7bd5",
+        "type": "tabs",
+        "dimension": 49.733475479744136,
+        "children": [
           {
-            "id": "f255e648a01d21fa",
+            "id": "51eb37ca1498c68e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "useful in cutting 2026-06-16 21.56.09.excalidraw"
+              "title": "day-trading 2026-06-13 19.57.16.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -423,18 +410,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "209e2e4d96c59c56",
+  "active": "8107ba3b3a16306f",
   "lastOpenFiles": [
-    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
+    "Nezikk.com/auto/PROMPT.md",
     "Nezikk.com/auto/useful in cutting.md",
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
-    "Nezikk.com/auto/PROMPT.md",
     "Nezikk.com/auto/ncreate/PPT/PPT视觉优化方案.md",
     "WIKI.md",
     "Nezikk.com/auto/ncreate/image/diagram/markdown to diagram skill.md",
