@@ -150,9 +150,21 @@
               "icon": "lucide-file",
               "title": "useful in cutting"
             }
+          },
+          {
+            "id": "31896c01cd9a1ada",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "useful in cutting 2026-06-16 21.56.09.excalidraw"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -354,8 +366,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5cf8abfd89b1791b",
+  "active": "31896c01cd9a1ada",
   "lastOpenFiles": [
+    "Nezikk.com/auto/useful in cutting.md",
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 14.07.16.excalidraw.md",
     "Excalidraw/第一性原理/第一性原理 2026-03-22 13.28.41.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
@@ -374,10 +389,7 @@
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059/mindmap.json",
     "Excalidraw/git-ana/git-ana-skill-obsidian-template-20260616-230059",
     "Excalidraw/git-ana",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
-    "Nezikk.com/auto/useful in cutting.md",
     "清单/任务清单.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 18.45.23.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Nezikk.com/HTB/st.md",
