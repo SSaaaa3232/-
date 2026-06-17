@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 43.93939393939394,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -189,26 +188,7 @@
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "e086fbe5174ec849",
-        "type": "tabs",
-        "dimension": 56.060606060606055,
-        "children": [
-          {
-            "id": "7e231037a22e1754",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-13 19.57.16.excalidraw"
-            }
-          }
-        ]
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -409,8 +389,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "55e2d8106a1c8282",
+  "active": "5cf8abfd89b1791b",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
@@ -451,7 +432,6 @@
     "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url-retry.zh.raw.txt",
     "image/media/transcripts/BV1cMdrBsEsR.macwhisper-url.zh.raw.txt",
     "清单/开通服务.md",
-    "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
     "image/Screenshot 2026-06-16 at 8.12.44 PM.png",
     "image/Screenshot 2026-06-16 at 8.12.29 PM.png",
