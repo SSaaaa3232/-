@@ -48,15 +48,6 @@ They emphasize the richness of microscopic details, often using rendering techni
 
 LLM spatial reasoning and native text rendering capabilitie
 
-## video：
-
-HyperFrames、Remotion Skills、video-use、ffmpeg-skill、Manim Skill、OpenMontage
-
-TTS：Voxtts
-
-这个是专门做了个网站，用的 three.js 之类的，然后录屏
-
-主要是 Codex 和 Hyperframes
 
 ## article：
 
@@ -72,7 +63,9 @@ GPT-image2 Skill
 
 baoyu-skill
 
-ian-xiaohei-illustrations：it turns article points, processes, emotions, and metaphors into "little black" style illustrations.
+ian-xiaohei-illustrations
+
+it turns article points, processes, emotions, and metaphors into "little black" style illustrations.
 
 不同风格抽卡
 
