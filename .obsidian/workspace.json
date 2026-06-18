@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 69.31818181818183,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -224,22 +225,23 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       },
       {
-        "id": "7e51d3e07d0d25eb",
+        "id": "260967957586b80d",
         "type": "tabs",
+        "dimension": 30.681818181818183,
         "children": [
           {
-            "id": "c45af9f2a4f6fd36",
+            "id": "8d6c76c95aaa6ea8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-18 13.31.59.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-18 15.49.40.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-18 13.31.59.excalidraw"
+              "title": "day-trading 2026-06-18 15.49.40.excalidraw"
             }
           }
         ]
@@ -299,7 +301,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -443,11 +446,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4f2133d21d0359ed",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-18 15.49.40.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
-    "从学习交易为例映射如果学习并且精通一项技能.md",
+    "Screenshot 2026-06-18 at 3.53.45 PM.png",
+    "Screenshot 2026-06-18 at 3.53.10 PM.png",
     "Excalidraw/day-trading 2026-06-18 13.31.59.excalidraw.md",
+    "从学习交易为例映射如果学习并且精通一项技能.md",
     "media/transcripts/BV1DaRqBtEZy.ai-zh.one-paragraph.md",
     "Nezikk.com/okx/16期作业.md",
     "media/transcripts/BV1DaRqBtEZy.ai-zh.srt",
@@ -479,8 +485,6 @@
     "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
     "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 13.37.44.excalidraw.md",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
@@ -488,8 +492,6 @@
     "image/Screenshot 2026-06-16 at 7.07.53 PM.png",
     "image/Screenshot 2026-06-15 at 9.43.50 PM.png",
     "image/Screenshot 2026-06-15 at 10.50.14 PM.png",
-    "image/Screenshot 2026-06-16 at 8.14.29 PM.png",
-    "image/Screenshot 2026-06-16 at 8.12.44 PM.png",
-    "image/Screenshot 2026-06-16 at 8.12.29 PM.png"
+    "image/Screenshot 2026-06-16 at 8.14.29 PM.png"
   ]
 }
