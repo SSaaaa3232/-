@@ -174,45 +174,9 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          },
-          {
-            "id": "115e03ccbeeba08c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/bs/bs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "bs"
-            }
-          },
-          {
-            "id": "0134468e339e32b8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "bs 2026-06-17 21.06.20.excalidraw"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -414,15 +378,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0134468e339e32b8",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
-    "Nezikk.com/bs/bs.md",
+    "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md",
+    "Nezikk.com/bs/bs.md",
     "Nezikk.com/bs",
     "Nezikk.com/auto/PROMPT.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.one-paragraph.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.srt",
     "media/transcripts/BV18VxXzyEnz.macwhisper-url.zh.raw.txt",
