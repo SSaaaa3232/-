@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 20.080321285140563,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -225,23 +225,23 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
-        "id": "6f9297470f4cd731",
+        "id": "5bc7d61c57d38030",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 79.91967871485943,
         "children": [
           {
-            "id": "59daee1459fee01b",
+            "id": "95136ac040aa2437",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md"
+                "file": "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-17 20.49.10.excalidraw"
+              "title": "st 2026-06-18 23.14.47.excalidraw"
             }
           }
         ]
@@ -446,8 +446,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "59daee1459fee01b",
+  "active": "95136ac040aa2437",
   "lastOpenFiles": [
+    "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
@@ -478,14 +481,11 @@
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
     "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md",
     "Nezikk.com/bs/bs.md",
     "Nezikk.com/bs",
     "Nezikk.com/auto/PROMPT.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.one-paragraph.md",
-    "media/transcripts/BV1BG1CBAER1.ai-zh.one-paragraph.md",
-    "Excalidraw/day-trading 2026-06-17 20.02.20.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",

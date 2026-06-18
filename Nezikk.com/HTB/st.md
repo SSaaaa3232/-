@@ -246,3 +246,6 @@ User-Agent: Server Administrator[enter][enter]
 ```
 If there were a login page we wanted to access, our request might look like `GET /login.php`
 
+### MAC
+https://academy.hackthebox.com/app/module/34/section/307
+![[st 2026-06-18 23.14.47.excalidraw]]
