@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 41.23134328358209,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -226,25 +225,6 @@
           }
         ],
         "currentTab": 7
-      },
-      {
-        "id": "260967957586b80d",
-        "type": "tabs",
-        "dimension": 58.76865671641791,
-        "children": [
-          {
-            "id": "8d6c76c95aaa6ea8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/day-trading 2026-06-18 15.49.40.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-18 15.49.40.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -446,10 +426,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8d6c76c95aaa6ea8",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
-    "Nezikk.com/okx/day-trading.md",
+    "media/transcripts/BV1ZHVr6jExn.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1ZHVr6jExn.ai-zh.srt",
+    "media/transcripts/BV1ZHVr6jExn.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-18 15.49.40.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
     "Screenshot 2026-06-18 at 3.53.45 PM.png",
     "Screenshot 2026-06-18 at 3.53.10 PM.png",
     "Excalidraw/day-trading 2026-06-18 13.31.59.excalidraw.md",
@@ -479,8 +462,6 @@
     "media/transcripts/BV1BG1CBAER1.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-17 20.02.20.excalidraw.md",
     "media/transcripts/BV1qXUDBfESk.ai-zh.one-paragraph.md",
-    "media/transcripts/BV1qXUDBfESk.ai-zh.srt",
-    "media/transcripts/BV1qXUDBfESk.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
     "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
