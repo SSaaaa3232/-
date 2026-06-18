@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 35.82375478927203,
+        "dimension": 50,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -228,30 +228,20 @@
         "currentTab": 8
       },
       {
-        "id": "3385ab93ff54647e",
+        "id": "6f9297470f4cd731",
         "type": "tabs",
-        "dimension": 64.17624521072797,
+        "dimension": 50,
         "children": [
           {
-            "id": "4ec0ddc16f5f3d54",
+            "id": "59daee1459fee01b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-17 19.46.51.excalidraw"
-            }
-          },
-          {
-            "id": "4fad3c921fd5daff",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "day-trading 2026-06-17 20.49.10.excalidraw"
             }
           }
         ]
@@ -456,10 +446,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "59daee1459fee01b",
   "lastOpenFiles": [
-    "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1geJG6TES6.ai-zh.one-paragraph.md",
     "media/transcripts/BV1geJG6TES6.ai-zh.srt",
     "media/transcripts/BV1geJG6TES6.macwhisper-url.zh.raw.txt",
@@ -485,7 +476,6 @@
     "清单/开通服务.md",
     "记录.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
