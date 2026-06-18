@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 45.45454545454545,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -175,28 +174,33 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
-          }
-        ],
-        "currentTab": 6
-      },
-      {
-        "id": "5045f4cd66b8c354",
-        "type": "tabs",
-        "dimension": 54.54545454545454,
-        "children": [
+          },
           {
-            "id": "e4b81235c51f15aa",
+            "id": "0710e2dc67323fdb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md"
+                "file": "记录.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-15 09.33.09.excalidraw"
+              "icon": "lucide-file",
+              "title": "记录"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -397,10 +401,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "0710e2dc67323fdb",
   "lastOpenFiles": [
-    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
+    "记录.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
@@ -434,7 +439,6 @@
     "Excalidraw/day-trading 2026-06-16 19.36.49.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 23.08.12.excalidraw.md",
     "Nezikk.com/auto/ncreate/PPT/PPT视觉优化方案.md",
-    "WIKI.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
