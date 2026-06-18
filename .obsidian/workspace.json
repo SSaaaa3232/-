@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 35.82375478927203,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -227,19 +228,30 @@
         "currentTab": 8
       },
       {
-        "id": "0c3f01015ed0998a",
+        "id": "3385ab93ff54647e",
         "type": "tabs",
+        "dimension": 64.17624521072797,
         "children": [
           {
-            "id": "c1edae7cd605b1b6",
+            "id": "4ec0ddc16f5f3d54",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md"
+                "file": "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "day-trading 2026-06-17 20.26.31.excalidraw"
+              "title": "day-trading 2026-06-17 19.46.51.excalidraw"
+            }
+          },
+          {
+            "id": "4fad3c921fd5daff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -444,10 +456,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c1edae7cd605b1b6",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
+    "media/transcripts/BV1geJG6TES6.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1geJG6TES6.ai-zh.srt",
+    "media/transcripts/BV1geJG6TES6.macwhisper-url.zh.raw.txt",
+    "Excalidraw/day-trading 2026-06-18 18.40.19.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md",
+    "media/transcripts/BV1mvEm6bE7U.ai-zh.one-paragraph.md",
+    "media/transcripts/BV1mvEm6bE7U.ai-zh.srt",
     "media/transcripts/BV1mvEm6bE7U.macwhisper-url.zh.raw.txt",
     "Nezikk.com/auto/useful in cutting.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.one-paragraph.md",
@@ -475,14 +494,8 @@
     "Nezikk.com/bs",
     "Nezikk.com/auto/PROMPT.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.one-paragraph.md",
-    "media/transcripts/BV18VxXzyEnz.ai-zh.srt",
-    "media/transcripts/BV18VxXzyEnz.macwhisper-url.zh.raw.txt",
     "media/transcripts/BV1BG1CBAER1.ai-zh.one-paragraph.md",
-    "media/transcripts/BV1BG1CBAER1.ai-zh.srt",
     "Excalidraw/day-trading 2026-06-17 20.02.20.excalidraw.md",
-    "media/transcripts/BV1qXUDBfESk.ai-zh.one-paragraph.md",
-    "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
-    "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
