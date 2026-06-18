@@ -176,30 +176,6 @@
             }
           },
           {
-            "id": "32d028eacd958c18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/okx/day-trading.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "day-trading"
-            }
-          },
-          {
             "id": "4f2133d21d0359ed",
             "type": "leaf",
             "state": {
@@ -222,9 +198,33 @@
               "icon": "lucide-file",
               "title": "从学习交易为例映射如果学习并且精通一项技能"
             }
+          },
+          {
+            "id": "32d028eacd958c18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/okx/day-trading.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "day-trading"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -428,11 +428,12 @@
   },
   "active": "32d028eacd958c18",
   "lastOpenFiles": [
+    "Nezikk.com/auto/useful in cutting.md",
+    "Nezikk.com/okx/day-trading.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.one-paragraph.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.srt",
     "media/transcripts/BV1ZHVr6jExn.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-18 15.49.40.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
     "Screenshot 2026-06-18 at 3.53.45 PM.png",
     "Screenshot 2026-06-18 at 3.53.10 PM.png",
     "Excalidraw/day-trading 2026-06-18 13.31.59.excalidraw.md",
@@ -465,7 +466,6 @@
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
     "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
