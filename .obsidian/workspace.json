@@ -225,6 +225,24 @@
           }
         ],
         "currentTab": 8
+      },
+      {
+        "id": "0c3f01015ed0998a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1edae7cd605b1b6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-17 20.26.31.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -426,10 +444,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "c1edae7cd605b1b6",
   "lastOpenFiles": [
-    "Nezikk.com/auto/useful in cutting.md",
     "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md",
+    "media/transcripts/BV1mvEm6bE7U.macwhisper-url.zh.raw.txt",
+    "Nezikk.com/auto/useful in cutting.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.one-paragraph.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.srt",
     "media/transcripts/BV1ZHVr6jExn.macwhisper-url.zh.raw.txt",
@@ -454,18 +474,15 @@
     "Nezikk.com/bs/bs.md",
     "Nezikk.com/bs",
     "Nezikk.com/auto/PROMPT.md",
-    "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.one-paragraph.md",
     "media/transcripts/BV18VxXzyEnz.ai-zh.srt",
     "media/transcripts/BV18VxXzyEnz.macwhisper-url.zh.raw.txt",
     "media/transcripts/BV1BG1CBAER1.ai-zh.one-paragraph.md",
     "media/transcripts/BV1BG1CBAER1.ai-zh.srt",
-    "media/transcripts/BV1BG1CBAER1.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-17 20.02.20.excalidraw.md",
     "media/transcripts/BV1qXUDBfESk.ai-zh.one-paragraph.md",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1MtyGBZEqn.ai-zh.one-paragraph.md",
-    "Excalidraw/day-trading 2026-06-15 15.16.28.excalidraw.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
