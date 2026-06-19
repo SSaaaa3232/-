@@ -351,3 +351,5 @@ If there were a login page we wanted to access, our request might look like `GE
 ### Wireless Networks
 #### WEP/WPA
 ![[st 2026-06-19 15.47.52.excalidraw]]
+#### attack/defence
+![[st 2026-06-19 16.19.32.excalidraw]]
