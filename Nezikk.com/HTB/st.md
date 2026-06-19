@@ -314,3 +314,5 @@ If there were a login page we wanted to access, our request might look like `GE
 ![[st 2026-06-19 16.19.32.excalidraw]]
 ### VPN
 ![[st 2026-06-19 16.56.38.excalidraw]]
+### VLAN
+![[st 2026-06-19 21.16.39.excalidraw]]
