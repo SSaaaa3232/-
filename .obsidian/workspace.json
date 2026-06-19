@@ -6,32 +6,8 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 70.4812834224599,
+        "dimension": 59.476223294279805,
         "children": [
-          {
-            "id": "bf4c923f07a59819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/okx/RWA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "RWA"
-            }
-          },
           {
             "id": "d623d4c7a79f137e",
             "type": "leaf",
@@ -81,102 +57,6 @@
             }
           },
           {
-            "id": "5cf8abfd89b1791b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/auto/useful in cutting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "useful in cutting"
-            }
-          },
-          {
-            "id": "209e2e4d96c59c56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/auto/PROMPT.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PROMPT"
-            }
-          },
-          {
-            "id": "0710e2dc67323fdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "记录.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "记录"
-            }
-          },
-          {
-            "id": "4f2133d21d0359ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "从学习交易为例映射如果学习并且精通一项技能.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "从学习交易为例映射如果学习并且精通一项技能"
-            }
-          },
-          {
             "id": "32d028eacd958c18",
             "type": "leaf",
             "state": {
@@ -223,14 +103,24 @@
               "icon": "lucide-file",
               "title": "st"
             }
+          },
+          {
+            "id": "d7daba0922ba6dce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       },
       {
         "id": "bdd7c685c3590f3f",
         "type": "tabs",
-        "dimension": 29.518716577540104,
+        "dimension": 40.523776705720195,
         "children": [
           {
             "id": "f44d35401452f00d",
@@ -424,8 +314,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 752.5,
-    "collapsed": true
+    "width": 425.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -446,15 +335,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "f44d35401452f00d",
   "lastOpenFiles": [
-    "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
     "Nezikk.com/HTB/st.md",
+    "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
+    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
+    "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
     "Excalidraw/st 2026-06-19 13.10.21.excalidraw.md",
     "Screenshot 2026-06-19 at 1.11.00 PM.png",
     "Excalidraw/st 2026-06-19 12.52.33.excalidraw.md",
     "Screenshot 2026-06-19 at 12.57.39 PM.png",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
@@ -485,7 +376,6 @@
     "清单/开通服务.md",
     "记录.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Nezikk.com/bs",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
