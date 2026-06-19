@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 70.4812834224599,
         "children": [
           {
             "id": "bf4c923f07a59819",
@@ -225,6 +226,25 @@
           }
         ],
         "currentTab": 8
+      },
+      {
+        "id": "bdd7c685c3590f3f",
+        "type": "tabs",
+        "dimension": 29.518716577540104,
+        "children": [
+          {
+            "id": "f44d35401452f00d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "st 2026-06-19 12.38.28.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -428,10 +448,12 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-19 13.10.21.excalidraw.md",
+    "Screenshot 2026-06-19 at 1.11.00 PM.png",
     "Excalidraw/st 2026-06-19 12.52.33.excalidraw.md",
     "Screenshot 2026-06-19 at 12.57.39 PM.png",
-    "Nezikk.com/HTB/st.md",
-    "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
@@ -464,14 +486,12 @@
     "记录.md",
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Nezikk.com/bs",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
     "image/3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "image/Screenshot 2026-06-16 at 7.07.53 PM.png",
-    "image/Screenshot 2026-06-15 at 9.43.50 PM.png",
-    "image/Screenshot 2026-06-15 at 10.50.14 PM.png"
+    "image/Screenshot 2026-06-15 at 9.43.50 PM.png"
   ]
 }
