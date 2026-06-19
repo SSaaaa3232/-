@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 41.51724137931034,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -106,25 +105,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "b9c4f0a7474d3c82",
-        "type": "tabs",
-        "dimension": 58.48275862068966,
-        "children": [
-          {
-            "id": "9d3678e1e2b91672",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-19 16.56.38.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -325,10 +305,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "9d3678e1e2b91672",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
+    "Screenshot 2026-06-19 at 5.04.04 PM.png",
+    "Nezikk.com/HTB/st.md",
     "清单/任务清单.md",
     "Excalidraw/st 2026-06-19 16.19.32.excalidraw.md",
     "Excalidraw/st 2026-06-19 15.47.52.excalidraw.md",
@@ -365,13 +346,11 @@
     "Screenshot 2026-06-18 at 3.53.10 PM.png",
     "Excalidraw/day-trading 2026-06-18 13.31.59.excalidraw.md",
     "从学习交易为例映射如果学习并且精通一项技能.md",
-    "media/transcripts/BV1DaRqBtEZy.ai-zh.one-paragraph.md",
     "media/transcripts/BV1DaRqBtEZy.ai-zh.srt",
     "media/transcripts/BV1DaRqBtEZy.macwhisper-url.zh.raw.txt",
     "未命名",
     "Nezikk.com/bs",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
-    "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
-    "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg"
+    "image/Screenshot 2026-06-15 at 3.22.58 PM.png"
   ]
 }
