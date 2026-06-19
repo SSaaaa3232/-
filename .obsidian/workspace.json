@@ -138,27 +138,33 @@
               "icon": "excalidraw-icon",
               "title": "st 2026-06-19 21.16.39.excalidraw"
             }
+          },
+          {
+            "id": "7383de48176b0c96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/x/有感.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "有感"
+            }
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "7c43af813095c445",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "76f3e5ee7a99f12a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "loop enginering 2026-06-19 22.03.46.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -215,8 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -362,9 +367,14 @@
   },
   "active": "2f630bc79cc6fafa",
   "lastOpenFiles": [
-    "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md",
+    "Nezikk.com/x/有感.md",
+    "Nezikk.com/x/Top100-KOL-华语-AI-2026.md",
+    "Nezikk.com/x/各领域X账号推荐.md",
+    "Nezikk.com/x/灵感.md",
     "Nezikk.com/ai/loop enginering.md",
+    "image/Screenshot 2026-06-19 at 12.57.39 PM.png",
     "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
+    "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md",
     "Nezikk.com/ai",
     "media/transcripts/WuMlsfKeWHc.zh.one-paragraph.md",
     "media/transcripts/WuMlsfKeWHc.zh.srt",
@@ -373,20 +383,19 @@
     "Nezikk.com/HTB/st.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
-    "Screenshot 2026-06-19 at 5.04.04 PM.png",
+    "image/Screenshot 2026-06-19 at 5.04.04 PM.png",
     "清单/任务清单.md",
     "Excalidraw/st 2026-06-19 16.19.32.excalidraw.md",
     "Excalidraw/st 2026-06-19 15.47.52.excalidraw.md",
-    "Screenshot 2026-06-19 at 4.17.41 PM.png",
-    "Screenshot 2026-06-19 at 3.58.41 PM.png",
-    "Screenshot 2026-06-19 at 3.50.01 PM.png",
+    "image/Screenshot 2026-06-19 at 4.17.41 PM.png",
+    "image/Screenshot 2026-06-19 at 3.58.41 PM.png",
+    "image/Screenshot 2026-06-19 at 3.50.01 PM.png",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/st 2026-06-19 13.10.21.excalidraw.md",
-    "Screenshot 2026-06-19 at 1.11.00 PM.png",
+    "image/Screenshot 2026-06-19 at 1.11.00 PM.png",
     "Excalidraw/st 2026-06-19 12.52.33.excalidraw.md",
-    "Screenshot 2026-06-19 at 12.57.39 PM.png",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
@@ -396,16 +405,12 @@
     "media/transcripts/BV1geJG6TES6.ai-zh.srt",
     "media/transcripts/BV1geJG6TES6.macwhisper-url.zh.raw.txt",
     "Excalidraw/day-trading 2026-06-18 18.40.19.excalidraw.md",
-    "Excalidraw/day-trading 2026-06-17 20.26.31.excalidraw.md",
-    "media/transcripts/BV1mvEm6bE7U.ai-zh.one-paragraph.md",
     "media/transcripts/BV1mvEm6bE7U.ai-zh.srt",
     "media/transcripts/BV1mvEm6bE7U.macwhisper-url.zh.raw.txt",
-    "Nezikk.com/auto/useful in cutting.md",
-    "media/transcripts/BV1ZHVr6jExn.ai-zh.one-paragraph.md",
     "media/transcripts/BV1ZHVr6jExn.ai-zh.srt",
     "media/transcripts/BV1ZHVr6jExn.macwhisper-url.zh.raw.txt",
-    "Screenshot 2026-06-18 at 3.53.45 PM.png",
-    "Screenshot 2026-06-18 at 3.53.10 PM.png",
+    "image/Screenshot 2026-06-18 at 3.53.45 PM.png",
+    "image/Screenshot 2026-06-18 at 3.53.10 PM.png",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png"
   ]
