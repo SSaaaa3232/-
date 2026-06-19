@@ -294,7 +294,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 425.5
+    "width": 425.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,6 +318,7 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
     "Screenshot 2026-06-19 at 5.04.04 PM.png",
@@ -327,7 +329,6 @@
     "Screenshot 2026-06-19 at 3.58.41 PM.png",
     "Screenshot 2026-06-19 at 3.50.01 PM.png",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/st 2026-06-19 13.10.21.excalidraw.md",

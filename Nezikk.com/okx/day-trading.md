@@ -306,3 +306,4 @@ https://www.bilibili.com/video/BV1DaRqBtEZy/?spm_id_from=333.1387.homepage.video
 
 ![[day-trading 2026-06-18 15.49.40.excalidraw]]
 
+ 
