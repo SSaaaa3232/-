@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "616d8c759eeb1c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/HTB/st.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "st"
-            }
-          },
-          {
             "id": "d623d4c7a79f137e",
             "type": "leaf",
             "state": {
@@ -224,17 +200,31 @@
             }
           },
           {
-            "id": "9028b5e9296cc0e8",
+            "id": "616d8c759eeb1c7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/HTB/st.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "st"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -438,11 +428,14 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Excalidraw/st 2026-06-19 12.52.33.excalidraw.md",
+    "Screenshot 2026-06-19 at 12.57.39 PM.png",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
     "media/transcripts/BV1geJG6TES6.ai-zh.one-paragraph.md",
@@ -472,17 +465,13 @@
     "Excalidraw/day-trading 2026-06-15 09.33.09.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 16.04.24.excalidraw.md",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
-    "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md",
-    "Nezikk.com/bs/bs.md",
     "Nezikk.com/bs",
-    "Nezikk.com/auto/PROMPT.md",
     "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
     "image/Screenshot 2026-06-15 at 3.22.58 PM.png",
     "image/27998fefbd5cfa03df45c0c397b7d310_MD5.svg",
     "image/3f13dbf0de433f676da7388019ef26f4_MD5.jpg",
     "image/Screenshot 2026-06-16 at 7.07.53 PM.png",
     "image/Screenshot 2026-06-15 at 9.43.50 PM.png",
-    "image/Screenshot 2026-06-15 at 10.50.14 PM.png",
-    "image/Screenshot 2026-06-16 at 8.14.29 PM.png"
+    "image/Screenshot 2026-06-15 at 10.50.14 PM.png"
   ]
 }
