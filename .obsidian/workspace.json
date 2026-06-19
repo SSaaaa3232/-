@@ -102,6 +102,16 @@
               "icon": "lucide-file",
               "title": "st"
             }
+          },
+          {
+            "id": "a0d0259af4af7275",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
         "currentTab": 3
@@ -307,9 +317,9 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
     "Screenshot 2026-06-19 at 5.04.04 PM.png",
-    "Nezikk.com/HTB/st.md",
     "清单/任务清单.md",
     "Excalidraw/st 2026-06-19 16.19.32.excalidraw.md",
     "Excalidraw/st 2026-06-19 15.47.52.excalidraw.md",
