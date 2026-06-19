@@ -348,3 +348,6 @@ If there were a login page we wanted to access, our request might look like `GE
 
 ### ICMP(TTL)
 ![[st 2026-06-19 13.10.21.excalidraw]]
+### Wireless Networks
+#### WEP/WPA
+![[st 2026-06-19 15.47.52.excalidraw]]
