@@ -338,11 +338,39 @@ ip a
 ##find the name of the physical `Ethernet` interface that we will create the `VLAN` interface on top of, which is `eth0`
 
 sudo vconfig add eth0 20
+sudo ip link add link eth0 name eth0.20 type vlan id 20
 
 ##use `vconfig` to create a new interface that is a member of the desired `VLAN`, `20`, for example, on top of `eth0`
 
+##Either of these commands will make a new interface called `eth0.20@eth0`
+
+ip a
+
+sudo ip addr add 192.168.1.1/24 dev eth0.20、
+
+sudo ip link set up eth0.20
+
+##based on the `subnet` assigned to the addresses with `VLAN 20` within the local network, we need to assign the interface an IP address and then start it
+
+ip a | grep eth0.20
+
+##check whether the interface has changed states to up
 
 ```
 
+#### Assigning NICs a VLAN in Windows
 
+Device Manager
+
+- GUI
+PowerShell
+
+```
+Get-NetAdapter | Format-Table -AutoSize
+
+Get-NetAdapterAdvancedProperty -DisplayName "vlan id"
+
+Set-NetAdapter -Name "Ethernet 2" -VlanID 10
+```
+- this powerful Cmdlet can also be used to customize other properties of interfaces such as [MAC addresses]
 
