@@ -316,3 +316,33 @@ If there were a login page we wanted to access, our request might look like `GE
 ![[st 2026-06-19 16.56.38.excalidraw]]
 ### VLAN
 ![[st 2026-06-19 21.16.39.excalidraw]]
+
+#### Assigning NICs a VLAN in Linux
+creating a `VLAN` is done by creating an interface on top of another, called a `parent` interface
+
+tools：
+
+ip，nmcli，vconfig（deprecated）
+
+```
+sudo modprobe 8021q
+
+##nsure that the Kernel has the [802.1Q] module loaded
+
+lsmod | grep 8021
+
+## use `lsmod` to make sure `8021q` was loaded successfully
+
+ip a
+
+##find the name of the physical `Ethernet` interface that we will create the `VLAN` interface on top of, which is `eth0`
+
+sudo vconfig add eth0 20
+
+##use `vconfig` to create a new interface that is a member of the desired `VLAN`, `20`, for example, on top of `eth0`
+
+
+```
+
+
+

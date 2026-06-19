@@ -6,6 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
+        "dimension": 49.45175438596491,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -80,66 +81,6 @@
             }
           },
           {
-            "id": "616d8c759eeb1c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/HTB/st.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "st"
-            }
-          },
-          {
-            "id": "2f630bc79cc6fafa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/ai/loop enginering.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "loop enginering"
-            }
-          },
-          {
-            "id": "151a413dce46d881",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-19 21.16.39.excalidraw"
-            }
-          },
-          {
             "id": "7383de48176b0c96",
             "type": "leaf",
             "state": {
@@ -162,9 +103,52 @@
               "icon": "lucide-file",
               "title": "有感"
             }
+          },
+          {
+            "id": "616d8c759eeb1c7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/HTB/st.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "st"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
+      },
+      {
+        "id": "90a29b18c69691cc",
+        "type": "tabs",
+        "dimension": 50.54824561403509,
+        "children": [
+          {
+            "id": "151a413dce46d881",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "st 2026-06-19 21.16.39.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -365,22 +350,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "151a413dce46d881",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Nezikk.com/ai/loop enginering.md",
+    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
     "Nezikk.com/x/有感.md",
+    "Nezikk.com/ai/loop enginering.md",
+    "Nezikk.com/HTB/st.md",
     "Nezikk.com/x/Top100-KOL-华语-AI-2026.md",
     "Nezikk.com/x/各领域X账号推荐.md",
     "Nezikk.com/x/灵感.md",
     "image/Screenshot 2026-06-19 at 12.57.39 PM.png",
-    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
     "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md",
     "Nezikk.com/ai",
     "media/transcripts/WuMlsfKeWHc.zh.one-paragraph.md",
     "media/transcripts/WuMlsfKeWHc.zh.srt",
     "media/transcripts/WuMlsfKeWHc.zh.srt.part",
     "media/transcripts/WuMlsfKeWHc.macwhisper-url.zh.raw.txt",
-    "Nezikk.com/HTB/st.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
     "image/Screenshot 2026-06-19 at 5.04.04 PM.png",
