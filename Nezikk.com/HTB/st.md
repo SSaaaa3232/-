@@ -360,7 +360,7 @@ ip a | grep eth0.20
 
 #### Assigning NICs a VLAN in Windows
 
-Device Manager
+Device Manager## Security Implications and VLAN Attacks
 
 - GUI
 PowerShell
