@@ -1,0 +1,5912 @@
+1
+00:00:00,000 --> 00:00:04,480
+Hello, I'm Andrew Mayne and welcome to
+
+2
+00:00:01,760 --> 00:00:06,080
+the Open AI podcast. On today's episode,
+
+3
+00:00:04,480 --> 00:00:07,880
+we're talking to the research lead Tej
+
+4
+00:00:06,080 --> 00:00:10,160
+Jal Patwardhan about the need to build
+
+5
+00:00:07,880 --> 00:00:11,240
+crunchier evals as old benchmarks get
+
+6
+00:00:10,160 --> 00:00:13,280
+saturated.
+
+7
+00:00:11,240 --> 00:00:14,720
+>> Generally bad. Benchmarking is bad. How
+
+8
+00:00:13,280 --> 00:00:16,240
+can we make these models useful for
+
+9
+00:00:14,720 --> 00:00:17,840
+people in their real work? We were
+
+10
+00:00:16,240 --> 00:00:19,320
+really nervous because we were like this
+
+11
+00:00:17,840 --> 00:00:20,800
+human baseline is kind of hard. We don't
+
+12
+00:00:19,320 --> 00:00:22,000
+know if the model is going to beat it.
+
+13
+00:00:20,800 --> 00:00:24,320
+But we should never underestimate the
+
+14
+00:00:22,000 --> 00:00:26,080
+model.
+
+15
+00:00:24,320 --> 00:00:27,520
+>> Tej Jal, I have a question.
+
+16
+00:00:26,080 --> 00:00:28,960
+How did you end up where you were? What
+
+17
+00:00:27,520 --> 00:00:30,040
+brought you into Open AI?
+
+18
+00:00:28,960 --> 00:00:31,080
+>> Oh, I thought we weren't going to start
+
+19
+00:00:30,040 --> 00:00:32,640
+with that.
+
+20
+00:00:31,080 --> 00:00:33,800
+>> Tej Jal, I have a question for you. What
+
+21
+00:00:32,640 --> 00:00:35,280
+would you like to start with?
+
+22
+00:00:33,800 --> 00:00:37,080
+>> Um, can we start with like tell us like
+
+23
+00:00:35,280 --> 00:00:38,920
+what you did when you started at Open AI
+
+24
+00:00:37,080 --> 00:00:40,120
+and you can like work work backwards?
+
+25
+00:00:38,920 --> 00:00:40,280
+>> you want to talk about your early days
+
+26
+00:00:40,120 --> 00:00:42,920
+now?
+
+27
+00:00:40,280 --> 00:00:43,120
+>> No. I I grew up at Open AI. This is like
+
+28
+00:00:42,920 --> 00:00:45,000
+the natural
+
+29
+00:00:43,120 --> 00:00:47,400
+>> Okay. [laughter]
+
+30
+00:00:45,000 --> 00:00:49,160
+Um, tell me a bit about your journey
+
+31
+00:00:47,400 --> 00:00:50,680
+here working inside artificial
+
+32
+00:00:49,160 --> 00:00:53,800
+intelligence, inside Open AI.
+
+33
+00:00:50,680 --> 00:00:55,800
+>> So, I joined Open AI in fall 2023 and it
+
+34
+00:00:53,800 --> 00:00:58,720
+was right after ChatGPT had come out.
+
+35
+00:00:55,800 --> 00:01:01,160
+GPT-4 was out and Open AI had started
+
+36
+00:00:58,720 --> 00:01:02,640
+its superalignment team and I uh joined
+
+37
+00:01:01,160 --> 00:01:03,880
+for the preparedness team that was
+
+38
+00:01:02,640 --> 00:01:05,840
+getting started as we were starting to
+
+39
+00:01:03,880 --> 00:01:07,560
+get look at how capable these models
+
+40
+00:01:05,840 --> 00:01:09,000
+were becoming and think about, you know,
+
+41
+00:01:07,560 --> 00:01:10,760
+what would the next generation of models
+
+42
+00:01:09,000 --> 00:01:13,120
+look like. And at the time it was
+
+43
+00:01:10,760 --> 00:01:14,920
+extremely exciting because um right
+
+44
+00:01:13,120 --> 00:01:16,520
+after I joined was when some of the
+
+45
+00:01:14,920 --> 00:01:18,720
+early results for the reasoning models
+
+46
+00:01:16,520 --> 00:01:21,040
+had started to pick up and we were
+
+47
+00:01:18,720 --> 00:01:23,080
+thinking about you know, if these models
+
+48
+00:01:21,040 --> 00:01:25,680
+really take off, what will the future of
+
+49
+00:01:23,080 --> 00:01:26,920
+capabilities look like and how can we be
+
+50
+00:01:25,680 --> 00:01:29,000
+prepared um
+
+51
+00:01:26,920 --> 00:01:30,800
+for that future? And so, we did a whole
+
+52
+00:01:29,000 --> 00:01:32,000
+bunch of work on like threat modeling
+
+53
+00:01:30,800 --> 00:01:33,440
+and like what evals should we be
+
+54
+00:01:32,000 --> 00:01:35,240
+running? How do we think about releasing
+
+55
+00:01:33,440 --> 00:01:36,440
+a model like this? It's a very exciting
+
+56
+00:01:35,240 --> 00:01:38,360
+time to join.
+
+57
+00:01:36,440 --> 00:01:40,240
+>> What got you interested in this area?
+
+58
+00:01:38,360 --> 00:01:41,640
+>> Yeah, well to me evals are really
+
+59
+00:01:40,240 --> 00:01:43,000
+exciting because they're a way to sort
+
+60
+00:01:41,640 --> 00:01:45,720
+of measure and understand what our
+
+61
+00:01:43,000 --> 00:01:47,880
+models can do and see progress, you
+
+62
+00:01:45,720 --> 00:01:50,040
+know, sort of before it tends to happen.
+
+63
+00:01:47,880 --> 00:01:51,920
+Like there's this term called capability
+
+64
+00:01:50,040 --> 00:01:54,200
+overhang, which is this idea that the
+
+65
+00:01:51,920 --> 00:01:55,760
+models will be capable of things long
+
+66
+00:01:54,200 --> 00:01:57,200
+before people actually adopt them and
+
+67
+00:01:55,760 --> 00:01:58,440
+use them for those capabilities. Like
+
+68
+00:01:57,200 --> 00:02:00,560
+they're, you know, there might be
+
+69
+00:01:58,440 --> 00:02:03,040
+cultural or legal or regulatory barriers
+
+70
+00:02:00,560 --> 00:02:05,280
+towards using a capability even before
+
+71
+00:02:03,040 --> 00:02:07,160
+it's ready. And so being someone who can
+
+72
+00:02:05,280 --> 00:02:09,080
+like help develop and measure
+
+73
+00:02:07,160 --> 00:02:11,000
+our models by Evals, it helps you really
+
+74
+00:02:09,080 --> 00:02:12,720
+understand what this technology can do
+
+75
+00:02:11,000 --> 00:02:14,520
+and sort of see the future before it
+
+76
+00:02:12,720 --> 00:02:15,880
+happens, which is very
+
+77
+00:02:14,520 --> 00:02:17,920
+um interesting. And I also think it's
+
+78
+00:02:15,880 --> 00:02:19,600
+important because it can help sort of
+
+79
+00:02:17,920 --> 00:02:21,640
+ready the world for what's happening.
+
+80
+00:02:19,600 --> 00:02:23,120
+Like part of um when I originally
+
+81
+00:02:21,640 --> 00:02:24,360
+started here, part of why I was really
+
+82
+00:02:23,120 --> 00:02:27,040
+excited to work on some of the
+
+83
+00:02:24,360 --> 00:02:28,800
+preparedness Evals was because I thought
+
+84
+00:02:27,040 --> 00:02:30,760
+these models were getting very capable
+
+85
+00:02:28,800 --> 00:02:32,560
+and it felt like a lot of my friends
+
+86
+00:02:30,760 --> 00:02:34,640
+like in my real life didn't really
+
+87
+00:02:32,560 --> 00:02:36,680
+understand how powerful these models
+
+88
+00:02:34,640 --> 00:02:38,400
+would soon become because they'd look at
+
+89
+00:02:36,680 --> 00:02:40,360
+you know, a chat GPT output and be like,
+
+90
+00:02:38,400 --> 00:02:41,959
+"Yeah, it's hallucinating and like it's
+
+91
+00:02:40,360 --> 00:02:43,760
+kind of not that smart and kind of reads
+
+92
+00:02:41,959 --> 00:02:45,320
+like AI slop." And it's like, "Well,
+
+93
+00:02:43,760 --> 00:02:47,480
+that's now, but like the question is the
+
+94
+00:02:45,320 --> 00:02:49,480
+slope. Like if the slope is very high,
+
+95
+00:02:47,480 --> 00:02:51,680
+then you know, change might be happening
+
+96
+00:02:49,480 --> 00:02:53,520
+much faster than one would expect." And
+
+97
+00:02:51,680 --> 00:02:55,160
+so I think one of the greatest services
+
+98
+00:02:53,520 --> 00:02:57,360
+that we can do is sort of measure and
+
+99
+00:02:55,160 --> 00:02:59,360
+share with the world what progress looks
+
+100
+00:02:57,360 --> 00:03:01,440
+like um especially because there's often
+
+101
+00:02:59,360 --> 00:03:04,360
+this capability overhang before people
+
+102
+00:03:01,440 --> 00:03:06,680
+really understand and feel that. Um
+
+103
+00:03:04,360 --> 00:03:08,680
+And the models themselves. Um
+
+104
+00:03:06,680 --> 00:03:09,959
+So that's part of why I think all of
+
+105
+00:03:08,680 --> 00:03:11,920
+this is very important.
+
+106
+00:03:09,959 --> 00:03:13,920
+>> Reasoning was such an exciting moment
+
+107
+00:03:11,920 --> 00:03:15,640
+and for most of the world that didn't
+
+108
+00:03:13,920 --> 00:03:17,239
+happen until, you know, a year later
+
+109
+00:03:15,640 --> 00:03:18,680
+that they found out about this. But what
+
+110
+00:03:17,239 --> 00:03:20,320
+was that like for you to all of a sudden
+
+111
+00:03:18,680 --> 00:03:22,000
+understand that if you gave the models a
+
+112
+00:03:20,320 --> 00:03:24,120
+longer time to think about things, you
+
+113
+00:03:22,000 --> 00:03:25,200
+got better results even though the size
+
+114
+00:03:24,120 --> 00:03:27,880
+hadn't gotten bigger.
+
+115
+00:03:25,200 --> 00:03:29,640
+>> That was a really fun time. I mean, um
+
+116
+00:03:27,880 --> 00:03:31,120
+so in some of the early experiments,
+
+117
+00:03:29,640 --> 00:03:32,959
+which I we've talked about now, it's
+
+118
+00:03:31,120 --> 00:03:35,680
+like the model is trained really just on
+
+119
+00:03:32,959 --> 00:03:37,640
+math. And I remember there was this set
+
+120
+00:03:35,680 --> 00:03:39,239
+of experiments where Nat McClees was
+
+121
+00:03:37,640 --> 00:03:42,200
+like, "Hey, the model is trained on
+
+122
+00:03:39,239 --> 00:03:44,000
+math, but if you eval it on GPQA, which
+
+123
+00:03:42,200 --> 00:03:46,160
+was this benchmark with like biology and
+
+124
+00:03:44,000 --> 00:03:47,519
+chemistry and physics problems, the
+
+125
+00:03:46,160 --> 00:03:48,800
+model is doing really well. Like huh,
+
+126
+00:03:47,519 --> 00:03:50,560
+this is very interesting and smarter
+
+127
+00:03:48,800 --> 00:03:53,280
+models are much smarter." And he had put
+
+128
+00:03:50,560 --> 00:03:55,400
+together this forecast that at the time
+
+129
+00:03:53,280 --> 00:03:57,040
+it it said that if, you know, Congress
+
+130
+00:03:55,400 --> 00:03:58,840
+kept going within 6 months we'd have
+
+131
+00:03:57,040 --> 00:04:00,480
+human-level performance on science from
+
+132
+00:03:58,840 --> 00:04:02,720
+just training on math. And we were like,
+
+133
+00:04:00,480 --> 00:04:04,520
+"Oh my gosh, that's crazy." And at the
+
+134
+00:04:02,720 --> 00:04:05,920
+time this was extremely locked down. It
+
+135
+00:04:04,520 --> 00:04:07,240
+was like we kind of found our way to
+
+136
+00:04:05,920 --> 00:04:09,280
+like curl up and be able to see some
+
+137
+00:04:07,240 --> 00:04:10,840
+model outputs and we were like, "Wow,
+
+138
+00:04:09,280 --> 00:04:12,120
+this is like one of the smartest things
+
+139
+00:04:10,840 --> 00:04:14,640
+like I've ever seen. Like I've never
+
+140
+00:04:12,120 --> 00:04:16,680
+seen a model reason like this before."
+
+141
+00:04:14,640 --> 00:04:18,480
+It was just like if this if this becomes
+
+142
+00:04:16,680 --> 00:04:19,519
+a paradigm that continues to scale. But
+
+143
+00:04:18,480 --> 00:04:22,040
+then we just looked back and we were
+
+144
+00:04:19,519 --> 00:04:24,160
+like, you know, um GPQA was like, you
+
+145
+00:04:22,040 --> 00:04:25,440
+know, PhD level biology, chemistry, and
+
+146
+00:04:24,160 --> 00:04:26,400
+physics. And we were like, "Ah, that's
+
+147
+00:04:25,440 --> 00:04:27,800
+What is that? We really need
+
+148
+00:04:26,400 --> 00:04:29,840
+professional level." And we just like
+
+149
+00:04:27,800 --> 00:04:32,160
+keep kept changing the stakes of what
+
+150
+00:04:29,840 --> 00:04:35,840
+counted. But yeah, it was very cool.
+
+151
+00:04:32,160 --> 00:04:37,520
+>> I remember early on when AP Bio was just
+
+152
+00:04:35,840 --> 00:04:39,480
+that was the benchmark to try to see if
+
+153
+00:04:37,520 --> 00:04:41,000
+the model could do that. But what's
+
+154
+00:04:39,480 --> 00:04:42,840
+interesting as you brought this up is
+
+155
+00:04:41,000 --> 00:04:44,120
+that a lot of stuff that comes out from
+
+156
+00:04:42,840 --> 00:04:45,520
+OpenAI is math-focused.
+
+157
+00:04:44,120 --> 00:04:47,240
+>> Math has been useful because it's more
+
+158
+00:04:45,520 --> 00:04:48,760
+objectively verifiable in some way. So
+
+159
+00:04:47,240 --> 00:04:51,240
+some of the earlier problems that we
+
+160
+00:04:48,760 --> 00:04:52,800
+trained on it was just easier to do RL
+
+161
+00:04:51,240 --> 00:04:55,360
+and scale up the reasoning paradigm on
+
+162
+00:04:52,800 --> 00:04:56,800
+math. Um and and so and math is also
+
+163
+00:04:55,360 --> 00:04:58,960
+useful in various ways, you know, it's
+
+164
+00:04:56,800 --> 00:05:01,520
+like one of the core, you know, types of
+
+165
+00:04:58,960 --> 00:05:03,600
+science. But also in many ways it's just
+
+166
+00:05:01,520 --> 00:05:04,919
+happened by coincidence to be a thing
+
+167
+00:05:03,600 --> 00:05:06,480
+that we focused on, but it's not
+
+168
+00:05:04,919 --> 00:05:08,560
+necessarily the end product of what we
+
+169
+00:05:06,480 --> 00:05:10,080
+even want to focus on in research. Like
+
+170
+00:05:08,560 --> 00:05:11,560
+we're now realizing, "Okay, if we can do
+
+171
+00:05:10,080 --> 00:05:13,560
+this for math, can we scale this up for
+
+172
+00:05:11,560 --> 00:05:15,520
+other types of science, for professional
+
+173
+00:05:13,560 --> 00:05:17,120
+work, for you know, for capabilities
+
+174
+00:05:15,520 --> 00:05:19,640
+that are useful to humans on a personal
+
+175
+00:05:17,120 --> 00:05:21,320
+level?" Um and so I think math is more
+
+176
+00:05:19,640 --> 00:05:21,760
+like the proof point versus like the end
+
+177
+00:05:21,320 --> 00:05:23,160
+goal.
+
+178
+00:05:21,760 --> 00:05:25,120
+>> But it does seem like you said though
+
+179
+00:05:23,160 --> 00:05:26,600
+that if something is able to think for a
+
+180
+00:05:25,120 --> 00:05:27,919
+long time, break something down into
+
+181
+00:05:26,600 --> 00:05:29,120
+steps, and think through them as you
+
+182
+00:05:27,919 --> 00:05:30,560
+have to do for really complex
+
+183
+00:05:29,120 --> 00:05:31,280
+mathematical problems, it does just
+
+184
+00:05:30,560 --> 00:05:32,760
+carry over.
+
+185
+00:05:31,280 --> 00:05:33,520
+>> Well, this is a big debate.
+
+186
+00:05:32,760 --> 00:05:35,600
+>> Mhm.
+
+187
+00:05:33,520 --> 00:05:38,040
+>> So like some of it definitely carries
+
+188
+00:05:35,600 --> 00:05:39,520
+over. Like the general idea of reasoning
+
+189
+00:05:38,040 --> 00:05:41,720
+can be useful. But then also there could
+
+190
+00:05:39,520 --> 00:05:43,240
+be some domain-specific skills or tools
+
+191
+00:05:41,720 --> 00:05:45,040
+or types of reasoning that you would
+
+192
+00:05:43,240 --> 00:05:47,000
+need in different domains. Like for
+
+193
+00:05:45,040 --> 00:05:48,560
+example, for coding you need to be able
+
+194
+00:05:47,000 --> 00:05:50,000
+to actually write and execute code and
+
+195
+00:05:48,560 --> 00:05:51,800
+test code if you want to scale up a
+
+196
+00:05:50,000 --> 00:05:53,440
+coding agent. And so, something we've
+
+197
+00:05:51,800 --> 00:05:55,560
+thought about a lot in terms of both
+
+198
+00:05:53,440 --> 00:05:57,600
+evals and then also training is how do
+
+199
+00:05:55,560 --> 00:05:59,800
+we make sure we also give the model the
+
+200
+00:05:57,600 --> 00:06:01,520
+skills and tools and affordances that it
+
+201
+00:05:59,800 --> 00:06:03,280
+would need to reason in that particular
+
+202
+00:06:01,520 --> 00:06:04,560
+domain. And some of the benefits of math
+
+203
+00:06:03,280 --> 00:06:06,320
+will translate, and then also you might
+
+204
+00:06:04,560 --> 00:06:08,320
+need some domain-specific scaffolding to
+
+205
+00:06:06,320 --> 00:06:10,200
+really pull out its full abilities. Like
+
+206
+00:06:08,320 --> 00:06:11,800
+kind of, you know, like a general high
+
+207
+00:06:10,200 --> 00:06:14,720
+school or liberal arts education and
+
+208
+00:06:11,800 --> 00:06:16,440
+then like a specialized education.
+
+209
+00:06:14,720 --> 00:06:17,960
+>> Reasoning models were just a very
+
+210
+00:06:16,440 --> 00:06:19,200
+interesting moment because I think it
+
+211
+00:06:17,960 --> 00:06:20,919
+changed a lot of the ways we thought
+
+212
+00:06:19,200 --> 00:06:22,280
+about what was possible even with just a
+
+213
+00:06:20,919 --> 00:06:24,160
+certain amount of compute if you let a
+
+214
+00:06:22,280 --> 00:06:26,000
+model think a longer and you gave the
+
+215
+00:06:24,160 --> 00:06:28,560
+model the opportunity to just come up
+
+216
+00:06:26,000 --> 00:06:30,000
+with more complex answers to this. Were
+
+217
+00:06:28,560 --> 00:06:31,919
+there any interesting things that
+
+218
+00:06:30,000 --> 00:06:34,320
+happened with O1 that surprised you?
+
+219
+00:06:31,919 --> 00:06:36,400
+>> So, the O1 release process was very
+
+220
+00:06:34,320 --> 00:06:38,120
+exciting for we were sort of thinking
+
+221
+00:06:36,400 --> 00:06:41,520
+about the reasoning paradigm for a very
+
+222
+00:06:38,120 --> 00:06:42,919
+long time, and um there were people that
+
+223
+00:06:41,520 --> 00:06:45,120
+were worried about making sure we we
+
+224
+00:06:42,919 --> 00:06:47,160
+didn't release it too soon just because
+
+225
+00:06:45,120 --> 00:06:48,919
+it felt like a paradigm shift. Like
+
+226
+00:06:47,160 --> 00:06:50,360
+possibly the thing that got us to AGI
+
+227
+00:06:48,919 --> 00:06:52,240
+like I I said at the beginning we
+
+228
+00:06:50,360 --> 00:06:54,520
+thought we had AGI in 6 months when like
+
+229
+00:06:52,240 --> 00:06:56,840
+some of the early runs were happening.
+
+230
+00:06:54,520 --> 00:06:57,960
+Um and so, there was this question of,
+
+231
+00:06:56,840 --> 00:06:59,800
+"Okay, how do we put this out
+
+232
+00:06:57,960 --> 00:07:02,880
+responsibly? How do we test this
+
+233
+00:06:59,800 --> 00:07:05,280
+technology?" And um during the initial
+
+234
+00:07:02,880 --> 00:07:07,320
+launch review for O1, we during some of
+
+235
+00:07:05,280 --> 00:07:08,600
+our cybersecurity tests, the model it
+
+236
+00:07:07,320 --> 00:07:09,840
+was like one of the first examples of
+
+237
+00:07:08,600 --> 00:07:11,880
+the model like breaking out of the
+
+238
+00:07:09,840 --> 00:07:13,320
+sandbox. We published about this. Um
+
+239
+00:07:11,880 --> 00:07:14,520
+where it was supposed to be in this
+
+240
+00:07:13,320 --> 00:07:16,320
+Docker container during this
+
+241
+00:07:14,520 --> 00:07:18,520
+capture-the-flag and the model found
+
+242
+00:07:16,320 --> 00:07:21,320
+this like vulnerability in like how we
+
+243
+00:07:18,520 --> 00:07:23,000
+had implemented um the capture-the-flag
+
+244
+00:07:21,320 --> 00:07:24,095
+scenario and it broke out. And we were
+
+245
+00:07:23,000 --> 00:07:24,280
+all like, "Oh, no.
+
+246
+00:07:24,095 --> 00:07:25,720
+>> [laughter]
+
+247
+00:07:24,280 --> 00:07:27,640
+>> What else has the model done if it did
+
+248
+00:07:25,720 --> 00:07:29,760
+this?" Um and it was kind of a
+
+249
+00:07:27,640 --> 00:07:31,040
+feel-the-AGI moment. One of many. I feel
+
+250
+00:07:29,760 --> 00:07:32,919
+like ever since then there have been
+
+251
+00:07:31,040 --> 00:07:34,880
+many other such moments where the model
+
+252
+00:07:32,919 --> 00:07:36,919
+has done something really surprising or
+
+253
+00:07:34,880 --> 00:07:38,240
+intelligent or novel that we wouldn't we
+
+254
+00:07:36,919 --> 00:07:39,760
+didn't even think of when we were doing
+
+255
+00:07:38,240 --> 00:07:41,720
+the tests. And then you would come back
+
+256
+00:07:39,760 --> 00:07:43,400
+and look at the transcripts and results
+
+257
+00:07:41,720 --> 00:07:44,880
+and be like, "Wow, these guys are
+
+258
+00:07:43,400 --> 00:07:46,440
+they're clever. They're clever." And
+
+259
+00:07:44,880 --> 00:07:48,560
+then it was just very important that we
+
+260
+00:07:46,440 --> 00:07:50,040
+published um and made sure the world
+
+261
+00:07:48,560 --> 00:07:51,200
+knew like the models can do this sort of
+
+262
+00:07:50,040 --> 00:07:51,800
+thing.
+
+263
+00:07:51,200 --> 00:07:54,640
+Yeah.
+
+264
+00:07:51,800 --> 00:07:55,960
+>> There was this period right before 01 it
+
+265
+00:07:54,640 --> 00:07:57,480
+was announced. A lot of people are like,
+
+266
+00:07:55,960 --> 00:07:58,920
+"Well, it looks like we've hit the wall.
+
+267
+00:07:57,480 --> 00:08:00,360
+It's been a few months since anything's
+
+268
+00:07:58,920 --> 00:08:02,240
+happened." Then 01 came out and they're
+
+269
+00:08:00,360 --> 00:08:04,040
+like, "What's a wall?"
+
+270
+00:08:02,240 --> 00:08:05,960
+>> Hitting the wall is just so not the
+
+271
+00:08:04,040 --> 00:08:07,520
+right way to think about Yeah, I I get
+
+272
+00:08:05,960 --> 00:08:09,560
+very frustrated when I see posts like
+
+273
+00:08:07,520 --> 00:08:10,600
+that because I'm like, "Man, if you look
+
+274
+00:08:09,560 --> 00:08:12,720
+at
+
+275
+00:08:10,600 --> 00:08:14,240
+I feel like this model improvement and
+
+276
+00:08:12,720 --> 00:08:15,720
+this progress for a long time and it
+
+277
+00:08:14,240 --> 00:08:18,480
+just keeps getting better. Like it just
+
+278
+00:08:15,720 --> 00:08:21,280
+keeps getting better. And if I look at
+
+279
+00:08:18,480 --> 00:08:22,680
+our research roadmap now, I see no signs
+
+280
+00:08:21,280 --> 00:08:23,840
+of stopping. Like things are just going
+
+281
+00:08:22,680 --> 00:08:25,480
+to keep getting better. This is going to
+
+282
+00:08:23,840 --> 00:08:27,440
+be a really crazy year. A lot of really
+
+283
+00:08:25,480 --> 00:08:29,320
+cool um research is going to come out.
+
+284
+00:08:27,440 --> 00:08:31,560
+And I think this is probably true across
+
+285
+00:08:29,320 --> 00:08:34,159
+the whole industry. So, yeah, if
+
+286
+00:08:31,560 --> 00:08:36,360
+anything people are really under
+
+287
+00:08:34,159 --> 00:08:36,880
+they really under expect from the
+
+288
+00:08:36,360 --> 00:08:38,360
+models.
+
+289
+00:08:36,880 --> 00:08:40,719
+>> It seems like sometimes though that
+
+290
+00:08:38,360 --> 00:08:41,880
+they're OpenAI releases a lot that they
+
+291
+00:08:40,719 --> 00:08:43,159
+tell people about things we're headed
+
+292
+00:08:41,880 --> 00:08:44,880
+and say that this looks interesting.
+
+293
+00:08:43,159 --> 00:08:47,560
+Sometimes people forget this or you get
+
+294
+00:08:44,880 --> 00:08:50,480
+rumors of stuff like Q*
+
+295
+00:08:47,560 --> 00:08:52,360
+>> Q* man.
+
+296
+00:08:50,480 --> 00:08:54,280
+You're very interesting. But no, people
+
+297
+00:08:52,360 --> 00:08:55,760
+people don't realize. Like I don't know.
+
+298
+00:08:54,280 --> 00:08:57,120
+I feel like we try to be very open and
+
+299
+00:08:55,760 --> 00:08:59,040
+say like, "Hey guys, here are some
+
+300
+00:08:57,120 --> 00:09:00,440
+plots. Like the lines are going up.
+
+301
+00:08:59,040 --> 00:09:03,120
+Things are really capable." I think
+
+302
+00:09:00,440 --> 00:09:05,600
+maybe there's this there's like this um
+
+303
+00:09:03,120 --> 00:09:07,200
+like meme that oh, the researchers they
+
+304
+00:09:05,600 --> 00:09:08,600
+they don't understand. They like the
+
+305
+00:09:07,200 --> 00:09:10,000
+models are only good at math and
+
+306
+00:09:08,600 --> 00:09:11,720
+research but not good at things in the
+
+307
+00:09:10,000 --> 00:09:14,000
+real world. When I just don't think
+
+308
+00:09:11,720 --> 00:09:15,520
+that's true. I think um people from even
+
+309
+00:09:14,000 --> 00:09:17,240
+other occupations that have transitioned
+
+310
+00:09:15,520 --> 00:09:19,200
+into OpenAI like are starting to see our
+
+311
+00:09:17,240 --> 00:09:22,120
+models are picking up at all sorts of
+
+312
+00:09:19,200 --> 00:09:23,440
+things. And uh I know it's like it might
+
+313
+00:09:22,120 --> 00:09:25,120
+seem like the researchers are trying to
+
+314
+00:09:23,440 --> 00:09:27,440
+over hype the model or something. But if
+
+315
+00:09:25,120 --> 00:09:28,520
+anything, I think we're under hyping the
+
+316
+00:09:27,440 --> 00:09:31,720
+power of them.
+
+317
+00:09:28,520 --> 00:09:33,480
+>> You you brought up AGI. If if I brought
+
+318
+00:09:31,720 --> 00:09:37,120
+GPT-4
+
+319
+00:09:33,480 --> 00:09:40,560
+back from, you know, March 2023 back
+
+320
+00:09:37,120 --> 00:09:42,080
+into, let's say, you know, 2020. I think
+
+321
+00:09:40,560 --> 00:09:43,680
+people would have called it that. And
+
+322
+00:09:42,080 --> 00:09:45,680
+now we have this much more different
+
+323
+00:09:43,680 --> 00:09:47,640
+idea of this. People talk to AI every
+
+324
+00:09:45,680 --> 00:09:48,840
+day. They have long conversations with
+
+325
+00:09:47,640 --> 00:09:50,240
+things like nobody talks about the
+
+326
+00:09:48,840 --> 00:09:51,200
+Turing test anymore. It's one nobody
+
+327
+00:09:50,240 --> 00:09:54,120
+really understood what he was trying to
+
+328
+00:09:51,200 --> 00:09:56,480
+explain, you know, but now we're we're
+
+329
+00:09:54,120 --> 00:09:58,520
+well past that period.
+
+330
+00:09:56,480 --> 00:10:01,040
+Is there the eval for AGI?
+
+331
+00:09:58,520 --> 00:10:02,320
+>> Yeah, the models passed the Turing test
+
+332
+00:10:01,040 --> 00:10:03,400
+and no one talked about it. It's kind of
+
+333
+00:10:02,320 --> 00:10:05,160
+crazy.
+
+334
+00:10:03,400 --> 00:10:07,440
+Yeah, like I think models can are pretty
+
+335
+00:10:05,160 --> 00:10:09,960
+much indistinguishable
+
+336
+00:10:07,440 --> 00:10:12,200
+from humans in in many many situations.
+
+337
+00:10:09,960 --> 00:10:14,320
+Um in terms of the test for AGI, I mean,
+
+338
+00:10:12,200 --> 00:10:16,520
+I think if a model can do like there's
+
+339
+00:10:14,320 --> 00:10:18,920
+the classic most economically valuable
+
+340
+00:10:16,520 --> 00:10:20,480
+work and I think people are increasingly
+
+341
+00:10:18,920 --> 00:10:21,960
+using the model for large parts of their
+
+342
+00:10:20,480 --> 00:10:23,440
+work and
+
+343
+00:10:21,960 --> 00:10:24,920
+I think there'll be like a big spectrum
+
+344
+00:10:23,440 --> 00:10:26,760
+and debate of like when exactly this
+
+345
+00:10:24,920 --> 00:10:29,440
+happened, but gosh, I certainly feel
+
+346
+00:10:26,760 --> 00:10:30,720
+like Codex does a lot of work for me.
+
+347
+00:10:29,440 --> 00:10:33,000
+And I feel very lucky to have it
+
+348
+00:10:30,720 --> 00:10:34,702
+unlimited tokens, you know, so that's
+
+349
+00:10:33,000 --> 00:10:35,360
+>> No other reason to come work here.
+
+350
+00:10:34,702 --> 00:10:36,160
+>> [laughter]
+
+351
+00:10:35,360 --> 00:10:36,640
+>> Please join.
+
+352
+00:10:36,160 --> 00:10:38,840
+>> Yeah.
+
+353
+00:10:36,640 --> 00:10:40,360
+>> But yeah, I think there'll just be a
+
+354
+00:10:38,840 --> 00:10:42,720
+moment where people are realizing that
+
+355
+00:10:40,360 --> 00:10:44,360
+they're using the models for so much of
+
+356
+00:10:42,720 --> 00:10:46,560
+their work and also the scientific
+
+357
+00:10:44,360 --> 00:10:47,880
+breakthroughs that we're going to see or
+
+358
+00:10:46,560 --> 00:10:49,640
+I think they'll be at some point it'll
+
+359
+00:10:47,880 --> 00:10:50,839
+be incontrovertible like these models
+
+360
+00:10:49,640 --> 00:10:52,720
+are really really powerful.
+
+361
+00:10:50,839 --> 00:10:54,040
+>> We're getting mathematics experts
+
+362
+00:10:52,720 --> 00:10:55,160
+talking about how good the models are
+
+363
+00:10:54,040 --> 00:10:56,720
+getting at that and we're getting
+
+364
+00:10:55,160 --> 00:10:58,839
+physicists talking about doing that and
+
+365
+00:10:56,720 --> 00:11:00,520
+I think that we're starting to see some
+
+366
+00:10:58,839 --> 00:11:01,360
+real work come out of it which is just
+
+367
+00:11:00,520 --> 00:11:01,760
+exciting.
+
+368
+00:11:01,360 --> 00:11:03,280
+>> Yeah.
+
+369
+00:11:01,760 --> 00:11:04,800
+>> So you brought up part of the problem
+
+370
+00:11:03,280 --> 00:11:07,080
+with some of the earlier evals. Like a
+
+371
+00:11:04,800 --> 00:11:09,000
+lot of them were inherited from older
+
+372
+00:11:07,080 --> 00:11:10,200
+natural language processing methods and
+
+373
+00:11:09,000 --> 00:11:11,360
+stuff and then sort of when you're
+
+374
+00:11:10,200 --> 00:11:14,000
+looking for ways how do we measure the
+
+375
+00:11:11,360 --> 00:11:16,200
+success of this, literally some of these
+
+376
+00:11:14,000 --> 00:11:18,320
+were just so simplistic that pretty much
+
+377
+00:11:16,200 --> 00:11:19,839
+those benchmarks got passed and then you
+
+378
+00:11:18,320 --> 00:11:22,320
+had to figure out new categories of
+
+379
+00:11:19,839 --> 00:11:23,880
+stuff. How have these been evolving?
+
+380
+00:11:22,320 --> 00:11:25,640
+>> It used to be that, you know, even the
+
+381
+00:11:23,880 --> 00:11:27,200
+academic benchmarks so to speak our
+
+382
+00:11:25,640 --> 00:11:28,839
+models couldn't pass. Like, you know,
+
+383
+00:11:27,200 --> 00:11:31,360
+classic tests that someone would take in
+
+384
+00:11:28,839 --> 00:11:33,560
+high school or college or sort of more
+
+385
+00:11:31,360 --> 00:11:35,120
+multiple choice types of questions. And
+
+386
+00:11:33,560 --> 00:11:37,160
+as the models got smarter, we had to
+
+387
+00:11:35,120 --> 00:11:39,120
+make things more and more realistic. So,
+
+388
+00:11:37,160 --> 00:11:40,480
+one of the first benchmarks that we put
+
+389
+00:11:39,120 --> 00:11:41,920
+out more publicly was this benchmark
+
+390
+00:11:40,480 --> 00:11:44,000
+called Sweep Bench Verified, which was
+
+391
+00:11:41,920 --> 00:11:45,880
+like testing how well the model could,
+
+392
+00:11:44,000 --> 00:11:48,200
+you know, interact in real code bases in
+
+393
+00:11:45,880 --> 00:11:50,560
+Python, like Django, and like, you know,
+
+394
+00:11:48,200 --> 00:11:52,280
+complete PRs and that sort of thing.
+
+395
+00:11:50,560 --> 00:11:53,800
+And like pass unit tests. And then those
+
+396
+00:11:52,280 --> 00:11:55,880
+became even more advanced where we were
+
+397
+00:11:53,800 --> 00:11:57,960
+like, okay, can the model take, you
+
+398
+00:11:55,880 --> 00:12:00,000
+know, multi-step actions on like some
+
+399
+00:11:57,960 --> 00:12:02,200
+complex environment, take actions on the
+
+400
+00:12:00,000 --> 00:12:03,680
+computer, like take actions that link up
+
+401
+00:12:02,200 --> 00:12:06,240
+to the real world with like some of our
+
+402
+00:12:03,680 --> 00:12:07,920
+wet labs and biology work. So, I think
+
+403
+00:12:06,240 --> 00:12:10,000
+over time, as the models keep getting
+
+404
+00:12:07,920 --> 00:12:12,080
+better, we have to be more ambitious
+
+405
+00:12:10,000 --> 00:12:14,640
+with like how long horizon and how
+
+406
+00:12:12,080 --> 00:12:15,880
+realistic our measurements are. And
+
+407
+00:12:14,640 --> 00:12:17,440
+doing that is very fun cuz you have to
+
+408
+00:12:15,880 --> 00:12:18,160
+like sort of stay ahead of the pace of
+
+409
+00:12:17,440 --> 00:12:20,520
+progress.
+
+410
+00:12:18,160 --> 00:12:22,360
+>> So, two terms I want you to unpack
+
+411
+00:12:20,520 --> 00:12:23,360
+when we talk about benchmarks, you often
+
+412
+00:12:22,360 --> 00:12:24,400
+hear
+
+413
+00:12:23,360 --> 00:12:26,040
+benchmarking.
+
+414
+00:12:24,400 --> 00:12:28,200
+>> Yeah, [clears throat] benchmarking is, I
+
+415
+00:12:26,040 --> 00:12:30,040
+would say, this idea that you
+
+416
+00:12:28,200 --> 00:12:32,120
+if if a someone training a model was
+
+417
+00:12:30,040 --> 00:12:34,000
+just trying to look good on some
+
+418
+00:12:32,120 --> 00:12:35,960
+evaluation or benchmark and not actually
+
+419
+00:12:34,000 --> 00:12:37,400
+making the model generally useful. And I
+
+420
+00:12:35,960 --> 00:12:38,760
+would say that's generally not super
+
+421
+00:12:37,400 --> 00:12:40,040
+helpful because you want the model to be
+
+422
+00:12:38,760 --> 00:12:41,760
+good at the real thing that the user
+
+423
+00:12:40,040 --> 00:12:43,640
+might want to do. And you don't just
+
+424
+00:12:41,760 --> 00:12:45,520
+care about it looking good in some like
+
+425
+00:12:43,640 --> 00:12:46,920
+marketing copy because like when a user
+
+426
+00:12:45,520 --> 00:12:49,800
+uses it, they'll be like, hey, this is
+
+427
+00:12:46,920 --> 00:12:51,440
+like not quite what I signed up for.
+
+428
+00:12:49,800 --> 00:12:51,960
+And so, generally bad. Benchmarking is
+
+429
+00:12:51,440 --> 00:12:53,320
+bad.
+
+430
+00:12:51,960 --> 00:12:54,400
+>> Yeah, and I think the the way that I've
+
+431
+00:12:53,320 --> 00:12:56,160
+heard it explained kind of makes sense
+
+432
+00:12:54,400 --> 00:12:57,440
+is that you have X amount of compute
+
+433
+00:12:56,160 --> 00:12:59,080
+budget, time, how much you're going to
+
+434
+00:12:57,440 --> 00:13:00,320
+spend on it. And you can spend a large
+
+435
+00:12:59,080 --> 00:13:01,960
+part of that making the model just
+
+436
+00:13:00,320 --> 00:13:04,680
+overall very good or I can say I'm going
+
+437
+00:13:01,960 --> 00:13:06,280
+to spend 90% of it. So, my eval is going
+
+438
+00:13:04,680 --> 00:13:08,680
+to look really good when I release it.
+
+439
+00:13:06,280 --> 00:13:10,280
+And sometimes we've seen people just go
+
+440
+00:13:08,680 --> 00:13:11,000
+literally use those evals for it. It
+
+441
+00:13:10,280 --> 00:13:12,240
+comes out and you're like, oh, that
+
+442
+00:13:11,000 --> 00:13:13,400
+looks like a great model. And then you
+
+443
+00:13:12,240 --> 00:13:15,760
+find out
+
+444
+00:13:13,400 --> 00:13:17,320
+oh, it's only good at that.
+
+445
+00:13:15,760 --> 00:13:18,600
+>> Yeah, that's not a great experience for
+
+446
+00:13:17,320 --> 00:13:20,080
+the user. So, we
+
+447
+00:13:18,600 --> 00:13:21,640
+I think something that the OpenAI
+
+448
+00:13:20,080 --> 00:13:23,760
+research program has done quite well is
+
+449
+00:13:21,640 --> 00:13:25,880
+try to be very disciplined about making
+
+450
+00:13:23,760 --> 00:13:27,600
+sure we are investing in general model
+
+451
+00:13:25,880 --> 00:13:29,280
+improvements on the areas that really
+
+452
+00:13:27,600 --> 00:13:31,960
+matter and then, you know, you'll run
+
+453
+00:13:29,280 --> 00:13:33,960
+some evals at the end for comparison.
+
+454
+00:13:31,960 --> 00:13:35,360
+Um, but the goal should not be, "Oh, we
+
+455
+00:13:33,960 --> 00:13:36,800
+just want to look good on an eval." We
+
+456
+00:13:35,360 --> 00:13:38,360
+want to make a model that's useful to
+
+457
+00:13:36,800 --> 00:13:40,800
+push forward the frontier of science or
+
+458
+00:13:38,360 --> 00:13:42,320
+push forward the frontier of work or
+
+459
+00:13:40,800 --> 00:13:43,800
+something like this. Um, and I think
+
+460
+00:13:42,320 --> 00:13:45,280
+Yakov has done a really good job also
+
+461
+00:13:43,800 --> 00:13:47,240
+like enforcing throughout the research
+
+462
+00:13:45,280 --> 00:13:49,480
+org like we should be really scientific
+
+463
+00:13:47,240 --> 00:13:50,840
+and honest. And that's included, you
+
+464
+00:13:49,480 --> 00:13:52,520
+know, we've published results where our
+
+465
+00:13:50,840 --> 00:13:53,880
+models were not the best before. We just
+
+466
+00:13:52,520 --> 00:13:55,840
+want to publish
+
+467
+00:13:53,880 --> 00:13:57,520
+the reality and make sure that we are
+
+468
+00:13:55,840 --> 00:13:58,960
+painting a very accurate picture of what
+
+469
+00:13:57,520 --> 00:13:59,960
+our models can do and then aim to make
+
+470
+00:13:58,960 --> 00:14:01,440
+them
+
+471
+00:13:59,960 --> 00:14:01,920
+useful in the real world as much as we
+
+472
+00:14:01,440 --> 00:14:03,480
+can.
+
+473
+00:14:01,920 --> 00:14:06,040
+>> You mentioned the software engineering
+
+474
+00:14:03,480 --> 00:14:08,000
+bench as a one of the metrics that's
+
+475
+00:14:06,040 --> 00:14:10,040
+maybe not as useful now and we hear the
+
+476
+00:14:08,000 --> 00:14:11,280
+term saturated. Explain what it means in
+
+477
+00:14:10,040 --> 00:14:13,920
+a benchmark saturated.
+
+478
+00:14:11,280 --> 00:14:15,320
+>> Saturated is when um a model is close to
+
+479
+00:14:13,920 --> 00:14:17,600
+passing all of the questions correctly,
+
+480
+00:14:15,320 --> 00:14:20,400
+like getting close to 100% on the test.
+
+481
+00:14:17,600 --> 00:14:21,960
+Um, and once a benchmark is saturated,
+
+482
+00:14:20,400 --> 00:14:24,320
+it's not super useful because you can't
+
+483
+00:14:21,960 --> 00:14:26,080
+really tell models apart with that test.
+
+484
+00:14:24,320 --> 00:14:28,000
+It's like comparing two geniuses on like
+
+485
+00:14:26,080 --> 00:14:30,160
+a high school math exam. Like they might
+
+486
+00:14:28,000 --> 00:14:31,839
+just both pass, but that's not very
+
+487
+00:14:30,160 --> 00:14:33,839
+useful as you're trying to separate
+
+488
+00:14:31,839 --> 00:14:35,640
+really, really smart um, pieces of
+
+489
+00:14:33,839 --> 00:14:37,480
+intelligence. So, the challenge is
+
+490
+00:14:35,640 --> 00:14:40,040
+always to make more and more difficult,
+
+491
+00:14:37,480 --> 00:14:41,760
+realistic, unsaturated benchmarks that
+
+492
+00:14:40,040 --> 00:14:44,320
+you can then measure models against over
+
+493
+00:14:41,760 --> 00:14:45,080
+time and forecast sort of where progress
+
+494
+00:14:44,320 --> 00:14:46,160
+is going.
+
+495
+00:14:45,080 --> 00:14:47,520
+>> How do you do that now? How do you
+
+496
+00:14:46,160 --> 00:14:48,120
+figure out what a good benchmark's going
+
+497
+00:14:47,520 --> 00:14:49,520
+to be?
+
+498
+00:14:48,120 --> 00:14:51,240
+>> Yeah, I mean, the best benchmarks I
+
+499
+00:14:49,520 --> 00:14:52,680
+think are really realistic and measure
+
+500
+00:14:51,240 --> 00:14:55,320
+something people actually care about.
+
+501
+00:14:52,680 --> 00:14:56,760
+So, one of our first forays towards
+
+502
+00:14:55,320 --> 00:14:58,800
+doing this, which, you know, it's been a
+
+503
+00:14:56,760 --> 00:15:00,440
+while now, but um that we published was
+
+504
+00:14:58,800 --> 00:15:02,920
+called GDP eval. Like I was really
+
+505
+00:15:00,440 --> 00:15:04,440
+excited that about the idea of having a
+
+506
+00:15:02,920 --> 00:15:06,400
+measurement for how the models could
+
+507
+00:15:04,440 --> 00:15:08,080
+interact with the real world and we were
+
+508
+00:15:06,400 --> 00:15:10,080
+really having this crisis of evals where
+
+509
+00:15:08,080 --> 00:15:11,560
+we kept training successively better
+
+510
+00:15:10,080 --> 00:15:12,760
+models and on SweepBench they looked
+
+511
+00:15:11,560 --> 00:15:14,720
+about the same because they were just
+
+512
+00:15:12,760 --> 00:15:16,360
+doing really well and like we were
+
+513
+00:15:14,720 --> 00:15:17,920
+reaching the top of what that benchmark
+
+514
+00:15:16,360 --> 00:15:19,760
+could measure. And we were like, "Man,
+
+515
+00:15:17,920 --> 00:15:21,440
+we have no idea how to measure what
+
+516
+00:15:19,760 --> 00:15:23,320
+people actually want to use our models
+
+517
+00:15:21,440 --> 00:15:25,120
+for." And so there was very much a hey
+
+518
+00:15:23,320 --> 00:15:26,800
+like the Bureau of Labor Statistics has
+
+519
+00:15:25,120 --> 00:15:28,440
+a list of all the top jobs and like all
+
+520
+00:15:26,800 --> 00:15:30,280
+the top tasks per job. And if you're a
+
+521
+00:15:28,440 --> 00:15:32,160
+financial analyst like doing an
+
+522
+00:15:30,280 --> 00:15:35,200
+investment diligence or writing a legal
+
+523
+00:15:32,160 --> 00:15:37,320
+memo or um you know
+
+524
+00:15:35,200 --> 00:15:38,880
+writing a a paper based on a piece of
+
+525
+00:15:37,320 --> 00:15:41,120
+research or something like this. And the
+
+526
+00:15:38,880 --> 00:15:42,640
+idea was can we actually ask the model
+
+527
+00:15:41,120 --> 00:15:44,160
+those tasks that someone would want in
+
+528
+00:15:42,640 --> 00:15:45,880
+real life with the context they would
+
+529
+00:15:44,160 --> 00:15:48,040
+have at the time and then see how the
+
+530
+00:15:45,880 --> 00:15:50,120
+model could solve those tasks. And at
+
+531
+00:15:48,040 --> 00:15:51,800
+the time when we tested one of the
+
+532
+00:15:50,120 --> 00:15:54,480
+earliest models on this benchmark, it
+
+533
+00:15:51,800 --> 00:15:56,560
+got like you know less than 20% like if
+
+534
+00:15:54,480 --> 00:15:58,280
+you compare how well a model would do on
+
+535
+00:15:56,560 --> 00:16:00,320
+this well-specified work task compared
+
+536
+00:15:58,280 --> 00:16:01,800
+to a human like the model was way worse.
+
+537
+00:16:00,320 --> 00:16:02,960
+But I'm like really proud of the org for
+
+538
+00:16:01,800 --> 00:16:05,160
+being like actually you know what we
+
+539
+00:16:02,960 --> 00:16:06,840
+should publish this new way to sort of
+
+540
+00:16:05,160 --> 00:16:09,280
+measure and forecast progress on real
+
+541
+00:16:06,840 --> 00:16:11,120
+world economic impacts. And it's been
+
+542
+00:16:09,280 --> 00:16:13,800
+like very useful to a lot of economists
+
+543
+00:16:11,120 --> 00:16:15,360
+and also our models now are the best. Um
+
+544
+00:16:13,800 --> 00:16:17,000
+and it's like very cool because I think
+
+545
+00:16:15,360 --> 00:16:20,080
+at the time um
+
+546
+00:16:17,000 --> 00:16:21,760
+we were like not really investing in
+
+547
+00:16:20,080 --> 00:16:24,160
+real world work in some of our training
+
+548
+00:16:21,760 --> 00:16:25,680
+programs um and weren't even measuring
+
+549
+00:16:24,160 --> 00:16:27,800
+or tracking it. And I think now there's
+
+550
+00:16:25,680 --> 00:16:29,560
+a lot more focus on how can we make
+
+551
+00:16:27,800 --> 00:16:32,000
+these models useful for people in their
+
+552
+00:16:29,560 --> 00:16:33,520
+real work like for real scientists. And
+
+553
+00:16:32,000 --> 00:16:35,800
+this kind of helped catalyze a wake-up
+
+554
+00:16:33,520 --> 00:16:37,640
+call that hey maybe we should also think
+
+555
+00:16:35,800 --> 00:16:39,480
+about how to measure how stuff is used
+
+556
+00:16:37,640 --> 00:16:40,760
+in the real world. So that was pretty
+
+557
+00:16:39,480 --> 00:16:42,200
+cool. But now we're like okay this
+
+558
+00:16:40,760 --> 00:16:43,960
+benchmark probably too easy cuz it's
+
+559
+00:16:42,200 --> 00:16:46,000
+extremely well-specified like each of
+
+560
+00:16:43,960 --> 00:16:47,880
+the prompts is you know hundreds of
+
+561
+00:16:46,000 --> 00:16:49,640
+words of I want you to go to this
+
+562
+00:16:47,880 --> 00:16:50,640
+spreadsheet and make this change and do
+
+563
+00:16:49,640 --> 00:16:52,080
+this thing and then take that
+
+564
+00:16:50,640 --> 00:16:53,960
+calculation and put it in a memo. It's
+
+565
+00:16:52,080 --> 00:16:56,000
+like very detailed. And I think the next
+
+566
+00:16:53,960 --> 00:16:58,120
+step is how do we give the model as much
+
+567
+00:16:56,000 --> 00:16:59,560
+ambiguity as you would give a report in
+
+568
+00:16:58,120 --> 00:17:01,520
+the real world like you know if a
+
+569
+00:16:59,560 --> 00:17:02,920
+manager asked like hey can you run this
+
+570
+00:17:01,520 --> 00:17:04,839
+analysis for me they should go figure
+
+571
+00:17:02,920 --> 00:17:07,160
+out what to do put that together run the
+
+572
+00:17:04,839 --> 00:17:09,600
+analysis and give you an output. And so
+
+573
+00:17:07,160 --> 00:17:11,880
+I think um we've been working a lot on
+
+574
+00:17:09,600 --> 00:17:13,240
+like more realistic ways to measure real
+
+575
+00:17:11,880 --> 00:17:15,560
+work in the real world whether that's in
+
+576
+00:17:13,240 --> 00:17:16,839
+like science for personal use or even
+
+577
+00:17:15,560 --> 00:17:18,160
+for enterprise.
+
+578
+00:17:16,839 --> 00:17:20,240
+>> There is seems to be something to the
+
+579
+00:17:18,160 --> 00:17:21,720
+idea of instead of hiding a benchmark,
+
+580
+00:17:20,240 --> 00:17:23,560
+putting it out there because internally
+
+581
+00:17:21,720 --> 00:17:24,160
+as an org you go like, "Okay, this can't
+
+582
+00:17:23,560 --> 00:17:26,240
+stand."
+
+583
+00:17:24,160 --> 00:17:28,199
+>> Yeah, it's it really motivates research
+
+584
+00:17:26,240 --> 00:17:29,560
+also. I think people want to know the
+
+585
+00:17:28,199 --> 00:17:31,440
+truth and they want to know where we can
+
+586
+00:17:29,560 --> 00:17:33,360
+be better and
+
+587
+00:17:31,440 --> 00:17:35,600
+deliver better model for our users. And
+
+588
+00:17:33,360 --> 00:17:36,440
+so, knowing the gaps is quite useful.
+
+589
+00:17:35,600 --> 00:17:38,280
+>> What do you think the current
+
+590
+00:17:36,440 --> 00:17:39,560
+limitations are right now with the ways
+
+591
+00:17:38,280 --> 00:17:41,520
+that we're doing the evals?
+
+592
+00:17:39,560 --> 00:17:44,560
+>> I think the types of work that we're
+
+593
+00:17:41,520 --> 00:17:46,960
+doing now with with Codex and with our
+
+594
+00:17:44,560 --> 00:17:49,720
+latest reasoning models like 55, it's
+
+595
+00:17:46,960 --> 00:17:51,480
+just such a different level of
+
+596
+00:17:49,720 --> 00:17:53,080
+capability than what we had even 6
+
+597
+00:17:51,480 --> 00:17:55,520
+months ago where
+
+598
+00:17:53,080 --> 00:17:57,960
+a static benchmark just doesn't measure
+
+599
+00:17:55,520 --> 00:17:59,160
+the long like the the nature of how long
+
+600
+00:17:57,960 --> 00:18:00,240
+you can get work out of these things.
+
+601
+00:17:59,160 --> 00:18:02,200
+Like
+
+602
+00:18:00,240 --> 00:18:04,000
+these models can work for days or weeks
+
+603
+00:18:02,200 --> 00:18:05,400
+for you. And like internally in
+
+604
+00:18:04,000 --> 00:18:07,040
+research, we've had the models just like
+
+605
+00:18:05,400 --> 00:18:09,400
+run for really long periods of time to
+
+606
+00:18:07,040 --> 00:18:11,160
+do work. And one of the problems with an
+
+607
+00:18:09,400 --> 00:18:12,960
+automated eval is you kind of need it to
+
+608
+00:18:11,160 --> 00:18:15,600
+run within some amount of time and get
+
+609
+00:18:12,960 --> 00:18:17,200
+results to be able to look at them. And
+
+610
+00:18:15,600 --> 00:18:19,080
+a lot of the ways that we're measuring
+
+611
+00:18:17,200 --> 00:18:20,520
+models now also just include looking at
+
+612
+00:18:19,080 --> 00:18:22,600
+production usage and looking at
+
+613
+00:18:20,520 --> 00:18:25,240
+real-world use by people and seeing what
+
+614
+00:18:22,600 --> 00:18:26,760
+they're using it for and what types of
+
+615
+00:18:25,240 --> 00:18:29,000
+tasks they're able to get done because
+
+616
+00:18:26,760 --> 00:18:30,520
+the time horizon of how much work is
+
+617
+00:18:29,000 --> 00:18:31,400
+done by the model is just getting so
+
+618
+00:18:30,520 --> 00:18:33,440
+much longer.
+
+619
+00:18:31,400 --> 00:18:35,800
+>> It was interesting watching for instance
+
+620
+00:18:33,440 --> 00:18:37,840
+long context. There was kind of this
+
+621
+00:18:35,800 --> 00:18:39,720
+early race for companies to say that,
+
+622
+00:18:37,840 --> 00:18:41,560
+"Hey, our models can take, you know,
+
+623
+00:18:39,720 --> 00:18:44,200
+100,000 tokens, a million tokens,
+
+624
+00:18:41,560 --> 00:18:46,240
+whatever." But there wasn't a lot of
+
+625
+00:18:44,200 --> 00:18:47,760
+evaluation on how well that was. And
+
+626
+00:18:46,240 --> 00:18:48,920
+then we got needle in the haystack,
+
+627
+00:18:47,760 --> 00:18:51,160
+which was a method of saying if it could
+
+628
+00:18:48,920 --> 00:18:52,800
+find a word or whatever. And I think
+
+629
+00:18:51,160 --> 00:18:54,680
+that people sort of
+
+630
+00:18:52,800 --> 00:18:55,920
+assumed that that was a solved problem,
+
+631
+00:18:54,680 --> 00:18:58,280
+but it wasn't. It was just the
+
+632
+00:18:55,920 --> 00:18:59,800
+benchmarks weren't really good. And then
+
+633
+00:18:58,280 --> 00:19:01,240
+we had to have better benchmarks. And is
+
+634
+00:18:59,800 --> 00:19:03,440
+that what kind of made it better was
+
+635
+00:19:01,240 --> 00:19:05,000
+finally people could one spend more
+
+636
+00:19:03,440 --> 00:19:06,520
+attention solving that problem when they
+
+637
+00:19:05,000 --> 00:19:07,720
+understood where it was failing?
+
+638
+00:19:06,520 --> 00:19:09,440
+>> Yeah, we definitely have better
+
+639
+00:19:07,720 --> 00:19:11,320
+benchmarks for this sort of thing now.
+
+640
+00:19:09,440 --> 00:19:13,000
+And then also sometimes these problems
+
+641
+00:19:11,320 --> 00:19:15,600
+reveal gaps in how we're thinking about
+
+642
+00:19:13,000 --> 00:19:17,600
+training. So, one example is we used to
+
+643
+00:19:15,600 --> 00:19:19,080
+think, "Oh, what matters is just how
+
+644
+00:19:17,600 --> 00:19:21,160
+much context you can stuff into the
+
+645
+00:19:19,080 --> 00:19:22,640
+model at test time." Well, now it seems
+
+646
+00:19:21,160 --> 00:19:24,240
+that you can just dump a bunch of files
+
+647
+00:19:22,640 --> 00:19:26,160
+in a container and the model can kind of
+
+648
+00:19:24,240 --> 00:19:28,160
+grep around and search for what it needs
+
+649
+00:19:26,160 --> 00:19:30,160
+and when. And like this ability to have
+
+650
+00:19:28,160 --> 00:19:31,960
+search or tools to figure out what
+
+651
+00:19:30,160 --> 00:19:33,920
+context you should use can be more
+
+652
+00:19:31,960 --> 00:19:35,480
+efficient than just stuffing everything
+
+653
+00:19:33,920 --> 00:19:36,960
+in the context. And we wouldn't have
+
+654
+00:19:35,480 --> 00:19:38,480
+really realized that without trying that
+
+655
+00:19:36,960 --> 00:19:40,920
+out and then seeing how that performed
+
+656
+00:19:38,480 --> 00:19:43,000
+on various benchmarks. So, um I think
+
+657
+00:19:40,920 --> 00:19:45,040
+that makes it this like makes the model
+
+658
+00:19:43,000 --> 00:19:46,480
+a lot more useful because, for example,
+
+659
+00:19:45,040 --> 00:19:48,320
+now the model can like search over a
+
+660
+00:19:46,480 --> 00:19:50,000
+whole repo and like find the files that
+
+661
+00:19:48,320 --> 00:19:51,640
+you need and like understand the context
+
+662
+00:19:50,000 --> 00:19:53,760
+of where you're making changes. And the
+
+663
+00:19:51,640 --> 00:19:55,600
+same is true for many work contexts
+
+664
+00:19:53,760 --> 00:19:58,000
+where, you know, folks in Codex can now
+
+665
+00:19:55,600 --> 00:19:59,120
+like upload their local file system and
+
+666
+00:19:58,000 --> 00:20:01,040
+like, you know, you might have made
+
+667
+00:19:59,120 --> 00:20:03,400
+PowerPoints before or sent slacks that
+
+668
+00:20:01,040 --> 00:20:04,920
+are um relevant to the work that you're
+
+669
+00:20:03,400 --> 00:20:06,800
+doing now and the model can sort of
+
+670
+00:20:04,920 --> 00:20:09,000
+search over that context with tool
+
+671
+00:20:06,800 --> 00:20:10,480
+calls. Um and so we're not as limited by
+
+672
+00:20:09,000 --> 00:20:12,120
+how much you can literally stuff into
+
+673
+00:20:10,480 --> 00:20:13,520
+context cuz the model can search.
+
+674
+00:20:12,120 --> 00:20:16,240
+>> Do you have any favorite evals?
+
+675
+00:20:13,520 --> 00:20:17,600
+>> My favorite eval? I mean, GDP eval is my
+
+676
+00:20:16,240 --> 00:20:18,000
+favorite public eval.
+
+677
+00:20:17,600 --> 00:20:20,320
+>> Okay.
+
+678
+00:20:18,000 --> 00:20:21,480
+>> But I I have many internal evals. But I
+
+679
+00:20:20,320 --> 00:20:22,880
+will say the name of one of them. It's
+
+680
+00:20:21,480 --> 00:20:23,800
+called Houdini bench and I cannot
+
+681
+00:20:22,880 --> 00:20:25,440
+explain further.
+
+682
+00:20:23,800 --> 00:20:26,920
+>> Oh my god, you know I'm
+
+683
+00:20:25,440 --> 00:20:27,440
+was a magician, right? So,
+
+684
+00:20:26,920 --> 00:20:28,720
+>> No.
+
+685
+00:20:27,440 --> 00:20:30,720
+>> Yeah, I am. Yeah, I know.
+
+686
+00:20:28,720 --> 00:20:31,360
+>> Maybe I don't know if you'd pass Houdini
+
+687
+00:20:30,720 --> 00:20:32,480
+bench.
+
+688
+00:20:31,360 --> 00:20:33,880
+>> No, [snorts] I probably not pass Houdini
+
+689
+00:20:32,480 --> 00:20:35,120
+bench. That was actually one of the
+
+690
+00:20:33,880 --> 00:20:36,840
+things that I was played around with
+
+691
+00:20:35,120 --> 00:20:38,840
+some of the early vision models and
+
+692
+00:20:36,840 --> 00:20:40,320
+stuff was was using stuff photographs
+
+693
+00:20:38,840 --> 00:20:41,040
+and stuff of magic tricks and stuff and
+
+694
+00:20:40,320 --> 00:20:42,200
+seeing this.
+
+695
+00:20:41,040 --> 00:20:44,480
+>> That's very cool. Yeah, multimodal
+
+696
+00:20:42,200 --> 00:20:47,800
+brings a whole new element. Um
+
+697
+00:20:44,480 --> 00:20:49,280
+like uh I remember when 4.0 had first
+
+698
+00:20:47,800 --> 00:20:50,560
+come out, there was a group of there was
+
+699
+00:20:49,280 --> 00:20:52,400
+a group of us that was was sitting on
+
+700
+00:20:50,560 --> 00:20:54,000
+the roof of this building that our minds
+
+701
+00:20:52,400 --> 00:20:55,840
+were just so blown by the idea of a
+
+702
+00:20:54,000 --> 00:20:58,680
+real-time voice model. And then we were
+
+703
+00:20:55,840 --> 00:21:00,160
+like, "How do we even eval this thing?"
+
+704
+00:20:58,680 --> 00:21:01,720
+Right? Because the whole paradigm of
+
+705
+00:21:00,160 --> 00:21:03,720
+doing things in text and code and on
+
+706
+00:21:01,720 --> 00:21:05,360
+your computer is just completely blown
+
+707
+00:21:03,720 --> 00:21:07,600
+away if there's like a
+
+708
+00:21:05,360 --> 00:21:08,760
+voice interaction in real time.
+
+709
+00:21:07,600 --> 00:21:10,400
+Something that was really interesting
+
+710
+00:21:08,760 --> 00:21:11,680
+about that launch is And we said this
+
+711
+00:21:10,400 --> 00:21:14,400
+publicly at the time is we actually
+
+712
+00:21:11,680 --> 00:21:15,560
+delayed the public launch by 6 weeks as
+
+713
+00:21:14,400 --> 00:21:16,480
+we were figuring out how to make sure
+
+714
+00:21:15,560 --> 00:21:17,200
+the model was safe.
+
+715
+00:21:16,480 --> 00:21:18,960
+>> 4.0?
+
+716
+00:21:17,200 --> 00:21:21,160
+>> Yeah, because this was before the the
+
+717
+00:21:18,960 --> 00:21:22,880
+elections actually. And so there was
+
+718
+00:21:21,160 --> 00:21:26,240
+like a lot of worry of Oh, if the model
+
+719
+00:21:22,880 --> 00:21:27,960
+can in real time talk to you with
+
+720
+00:21:26,240 --> 00:21:30,360
+realistic sounding voice, could this be
+
+721
+00:21:27,960 --> 00:21:32,600
+used for persuasive propaganda or this
+
+722
+00:21:30,360 --> 00:21:34,120
+sort of thing? And it was very cool the
+
+723
+00:21:32,600 --> 00:21:35,760
+company delayed the launch to make sure
+
+724
+00:21:34,120 --> 00:21:38,000
+we could build out all these tests and
+
+725
+00:21:35,760 --> 00:21:39,560
+build build in mitigations to make sure
+
+726
+00:21:38,000 --> 00:21:40,480
+the models couldn't be used for this
+
+727
+00:21:39,560 --> 00:21:42,480
+sort of thing.
+
+728
+00:21:40,480 --> 00:21:44,200
+>> Well, it it seemed like that's a very
+
+729
+00:21:42,480 --> 00:21:46,080
+complicating factor as these models
+
+730
+00:21:44,200 --> 00:21:49,680
+became multimodal. I remember early on
+
+731
+00:21:46,080 --> 00:21:53,040
+with GPT-4 with it being on GPT-4 vision
+
+732
+00:21:49,680 --> 00:21:54,400
+back when it was that was that you could
+
+733
+00:21:53,040 --> 00:21:55,960
+you could I could Yeah, I had terrible
+
+734
+00:21:54,400 --> 00:21:57,480
+handwriting. I could write a prompt and
+
+735
+00:21:55,960 --> 00:22:00,000
+all of a sudden would solve for this.
+
+736
+00:21:57,480 --> 00:22:01,840
+And you realize, oh, it's not a text in
+
+737
+00:22:00,000 --> 00:22:03,800
+prompt, it's a visual prompt. And then
+
+738
+00:22:01,840 --> 00:22:06,720
+with the audio models when you're doing
+
+739
+00:22:03,800 --> 00:22:08,520
+audio in, audio out, the model could
+
+740
+00:22:06,720 --> 00:22:10,960
+emulate things and could do stuff in
+
+741
+00:22:08,520 --> 00:22:12,920
+such different ways. And so it seems
+
+742
+00:22:10,960 --> 00:22:14,000
+like that's really Where do you even
+
+743
+00:22:12,920 --> 00:22:15,000
+begin trying to figure out how you're
+
+744
+00:22:14,000 --> 00:22:17,920
+going to measure that?
+
+745
+00:22:15,000 --> 00:22:19,480
+>> Yeah, I mean, it's just a lot of work.
+
+746
+00:22:17,920 --> 00:22:21,160
+Usually for for any of these we start
+
+747
+00:22:19,480 --> 00:22:23,360
+with what would humans do in this case?
+
+748
+00:22:21,160 --> 00:22:24,760
+So like, you know, you would like have a
+
+749
+00:22:23,360 --> 00:22:26,000
+set of inputs that you put into the
+
+750
+00:22:24,760 --> 00:22:27,440
+model and a set of outputs you would
+
+751
+00:22:26,000 --> 00:22:29,280
+evaluate. And then you can like build
+
+752
+00:22:27,440 --> 00:22:30,760
+up, okay, can we like automate some of
+
+753
+00:22:29,280 --> 00:22:32,760
+these? Can we build a new platform to
+
+754
+00:22:30,760 --> 00:22:34,840
+measure this sort of thing at scale? And
+
+755
+00:22:32,760 --> 00:22:37,240
+sort of move from there. But for some of
+
+756
+00:22:34,840 --> 00:22:38,560
+the natively multimodal, it's just like
+
+757
+00:22:37,240 --> 00:22:40,120
+you have to like rip apart a bunch of
+
+758
+00:22:38,560 --> 00:22:42,240
+your infra and make make stuff work.
+
+759
+00:22:40,120 --> 00:22:43,640
+Like this was also true with Sora for
+
+760
+00:22:42,240 --> 00:22:45,840
+you know, we were interested in making
+
+761
+00:22:43,640 --> 00:22:47,080
+sure the videos weren't overly realistic
+
+762
+00:22:45,840 --> 00:22:48,760
+or could be used for the wrong thing.
+
+763
+00:22:47,080 --> 00:22:51,000
+And that required like especially from
+
+764
+00:22:48,760 --> 00:22:53,360
+safety building up a whole new stack of
+
+765
+00:22:51,000 --> 00:22:56,720
+evals and mitigations like including
+
+766
+00:22:53,360 --> 00:22:59,120
+refusals at the model level, monitoring
+
+767
+00:22:56,720 --> 00:23:01,600
+when this was being used in prod.
+
+768
+00:22:59,120 --> 00:23:02,280
+And yeah, it requires a whole new stack
+
+769
+00:23:01,600 --> 00:23:04,000
+of thinking.
+
+770
+00:23:02,280 --> 00:23:06,480
+>> Yeah, well that that's the thing too is
+
+771
+00:23:04,000 --> 00:23:08,960
+that when you start to think about,
+
+772
+00:23:06,480 --> 00:23:11,000
+okay, how do you prioritize one eval
+
+773
+00:23:08,960 --> 00:23:12,240
+over another? When do you decide that
+
+774
+00:23:11,000 --> 00:23:14,400
+this isn't it or do you just sort of go
+
+775
+00:23:12,240 --> 00:23:16,360
+like this one's saturated, we move on?
+
+776
+00:23:14,400 --> 00:23:18,800
+And cuz there is even though you may not
+
+777
+00:23:16,360 --> 00:23:20,360
+be trying to optimize towards certain
+
+778
+00:23:18,800 --> 00:23:21,960
+public benchmarks, you still have to
+
+779
+00:23:20,360 --> 00:23:24,320
+figure out like what were what what's
+
+780
+00:23:21,960 --> 00:23:26,880
+important to us now like
+
+781
+00:23:24,320 --> 00:23:29,120
+there was a time when
+
+782
+00:23:26,880 --> 00:23:30,800
+OpenAI was leading in code and then
+
+783
+00:23:29,120 --> 00:23:32,600
+there was a time when it wasn't. Now
+
+784
+00:23:30,800 --> 00:23:35,360
+there is a time that it is, but there
+
+785
+00:23:32,600 --> 00:23:36,440
+was a dark period where that happened
+
+786
+00:23:35,360 --> 00:23:38,200
+and
+
+787
+00:23:36,440 --> 00:23:39,800
+>> Yeah, we try not to be get distracted by
+
+788
+00:23:38,200 --> 00:23:42,520
+public benchmarks too much because it
+
+789
+00:23:39,800 --> 00:23:44,600
+can be kind of noisy. I think the
+
+790
+00:23:42,520 --> 00:23:47,000
+internally we have this thing called AGI
+
+791
+00:23:44,600 --> 00:23:48,840
+index which is inspired by the idea of
+
+792
+00:23:47,000 --> 00:23:51,040
+like CPI or inflation where you have
+
+793
+00:23:48,840 --> 00:23:52,120
+like some weighted basket of goods and
+
+794
+00:23:51,040 --> 00:23:53,600
+you're tracking the price of those
+
+795
+00:23:52,120 --> 00:23:54,840
+goods.
+
+796
+00:23:53,600 --> 00:23:57,000
+For the same thing for us it's we have
+
+797
+00:23:54,840 --> 00:23:58,400
+like this basket of evals that include
+
+798
+00:23:57,000 --> 00:24:00,040
+measurements across all of the core
+
+799
+00:23:58,400 --> 00:24:01,200
+areas we're interested in like they can
+
+800
+00:24:00,040 --> 00:24:02,880
+include alignment, it can include
+
+801
+00:24:01,200 --> 00:24:04,080
+safety, it can include capabilities.
+
+802
+00:24:02,880 --> 00:24:06,480
+It's just sort of what you want from
+
+803
+00:24:04,080 --> 00:24:08,400
+your model and we just iterate we like
+
+804
+00:24:06,480 --> 00:24:10,280
+keep updating that index to represent
+
+805
+00:24:08,400 --> 00:24:12,440
+more and more sort of the difficult
+
+806
+00:24:10,280 --> 00:24:13,840
+version of what we want our models to do
+
+807
+00:24:12,440 --> 00:24:15,440
+and we sort of track that index
+
+808
+00:24:13,840 --> 00:24:16,520
+internally and try not to be distracted
+
+809
+00:24:15,440 --> 00:24:17,680
+by
+
+810
+00:24:16,520 --> 00:24:19,280
+you know trying to
+
+811
+00:24:17,680 --> 00:24:21,040
+benchmark some public benchmark or
+
+812
+00:24:19,280 --> 00:24:23,160
+something like that. It's more having a
+
+813
+00:24:21,040 --> 00:24:24,720
+blend of evals across different domains
+
+814
+00:24:23,160 --> 00:24:26,680
+that we care about across science or
+
+815
+00:24:24,720 --> 00:24:28,480
+work and then also safety and alignment
+
+816
+00:24:26,680 --> 00:24:31,400
+and making sure we keep making progress
+
+817
+00:24:28,480 --> 00:24:32,360
+on that sort of weighted basket. Um try
+
+818
+00:24:31,400 --> 00:24:34,680
+to stay focused.
+
+819
+00:24:32,360 --> 00:24:36,280
+>> You We've watched this evolution of
+
+820
+00:24:34,680 --> 00:24:38,800
+these evals. We've watched the evolution
+
+821
+00:24:36,280 --> 00:24:41,760
+of the models and I've talked to people
+
+822
+00:24:38,800 --> 00:24:43,560
+here working in the sciences like people
+
+823
+00:24:41,760 --> 00:24:45,360
+who are active in the science not just
+
+824
+00:24:43,560 --> 00:24:46,600
+researchers who like science or like
+
+825
+00:24:45,360 --> 00:24:49,200
+computer science but people who are in
+
+826
+00:24:46,600 --> 00:24:51,160
+biology, mathematics. Can you tell me
+
+827
+00:24:49,200 --> 00:24:52,400
+what's going on with the evals in the
+
+828
+00:24:51,160 --> 00:24:53,520
+scientific frontier because we're at
+
+829
+00:24:52,400 --> 00:24:55,200
+this point now it seems like we're going
+
+830
+00:24:53,520 --> 00:24:57,320
+to see meaningful results.
+
+831
+00:24:55,200 --> 00:24:58,720
+>> Yeah, I think the the work in some of
+
+832
+00:24:57,320 --> 00:25:00,480
+our science evals is some of our most
+
+833
+00:24:58,720 --> 00:25:02,000
+exciting. So, in the past few months,
+
+834
+00:25:00,480 --> 00:25:04,440
+there's a few tiers of evals that we've
+
+835
+00:25:02,000 --> 00:25:06,160
+made public. So, the first tier was this
+
+836
+00:25:04,440 --> 00:25:07,840
+eval called Frontier Science Olympiad,
+
+837
+00:25:06,160 --> 00:25:09,760
+which was kind of
+
+838
+00:25:07,840 --> 00:25:11,720
+the equivalent to the math Olympiad
+
+839
+00:25:09,760 --> 00:25:13,200
+style evals that we had before where we
+
+840
+00:25:11,720 --> 00:25:15,600
+were measuring how well the models could
+
+841
+00:25:13,200 --> 00:25:17,160
+do on like high school Olympiad style
+
+842
+00:25:15,600 --> 00:25:18,880
+problems in biology, chemistry, and
+
+843
+00:25:17,160 --> 00:25:20,200
+physics. And they were sort of shorter
+
+844
+00:25:18,880 --> 00:25:22,000
+answer, but still quite hard, and the
+
+845
+00:25:20,200 --> 00:25:23,360
+models weren't very good yet.
+
+846
+00:25:22,000 --> 00:25:24,840
+And then the next phase we did was
+
+847
+00:25:23,360 --> 00:25:26,720
+Frontier Science Research, which is also
+
+848
+00:25:24,840 --> 00:25:28,840
+public and people can run this,
+
+849
+00:25:26,720 --> 00:25:30,800
+which measured how well models could
+
+850
+00:25:28,840 --> 00:25:33,400
+help complete sort of unfinished
+
+851
+00:25:30,800 --> 00:25:36,000
+biology, chemistry, and physics theses.
+
+852
+00:25:33,400 --> 00:25:38,160
+So, we had people who were PhDs or
+
+853
+00:25:36,000 --> 00:25:39,922
+professors in these fields that had some
+
+854
+00:25:38,160 --> 00:25:41,960
+text that was not published, like maybe
+
+855
+00:25:39,922 --> 00:25:44,200
+[clears throat] part of their thesis,
+
+856
+00:25:41,960 --> 00:25:45,480
+and just turned that into an evaluation
+
+857
+00:25:44,200 --> 00:25:47,880
+where the model was given maybe some
+
+858
+00:25:45,480 --> 00:25:49,160
+input data or some initial starting
+
+859
+00:25:47,880 --> 00:25:51,080
+point, and it had to sort of see how
+
+860
+00:25:49,160 --> 00:25:53,040
+it'd fill out the rest of that paper and
+
+861
+00:25:51,080 --> 00:25:54,680
+judge against a rubric for how well it
+
+862
+00:25:53,040 --> 00:25:56,240
+did. And you know, that's starting to
+
+863
+00:25:54,680 --> 00:25:57,720
+measure really, okay, are the models
+
+864
+00:25:56,240 --> 00:25:59,680
+starting to do research? Like, are they
+
+865
+00:25:57,720 --> 00:26:01,360
+using tools? This sort of thing. And
+
+866
+00:25:59,680 --> 00:26:02,960
+then, one of the final iterations of
+
+867
+00:26:01,360 --> 00:26:05,280
+this was to see how well the model could
+
+868
+00:26:02,960 --> 00:26:06,800
+do in the real world in a wet lab. And
+
+869
+00:26:05,280 --> 00:26:08,840
+so, we worked with this company called
+
+870
+00:26:06,800 --> 00:26:10,680
+Ginkgo Bioworks that has a bunch of
+
+871
+00:26:08,840 --> 00:26:12,600
+really cool automated wet lab robots
+
+872
+00:26:10,680 --> 00:26:14,800
+where the model had to optimize this
+
+873
+00:26:12,600 --> 00:26:17,280
+protocol for protein synthesis. And the
+
+874
+00:26:14,800 --> 00:26:19,320
+idea was the model would generate a
+
+875
+00:26:17,280 --> 00:26:20,920
+protocol, and then they would actually
+
+876
+00:26:19,320 --> 00:26:21,800
+automatically test it in the wet lab
+
+877
+00:26:20,920 --> 00:26:23,920
+where they would like put in the
+
+878
+00:26:21,800 --> 00:26:26,600
+reagents the model suggested and then
+
+879
+00:26:23,920 --> 00:26:28,680
+see what protein yield they got. Um, and
+
+880
+00:26:26,600 --> 00:26:30,880
+this was for a protein that's like sort
+
+881
+00:26:28,680 --> 00:26:32,480
+of related to this ovarian cancer drug
+
+882
+00:26:30,880 --> 00:26:34,600
+or it's like it's sort of a toy scenario
+
+883
+00:26:32,480 --> 00:26:36,240
+for that. And the model like, we were
+
+884
+00:26:34,600 --> 00:26:37,600
+really nervous at first because we were
+
+885
+00:26:36,240 --> 00:26:38,840
+like, this human baseline's kind of
+
+886
+00:26:37,600 --> 00:26:40,160
+hard. We don't know if the model's going
+
+887
+00:26:38,840 --> 00:26:42,160
+to beat it. But we should never
+
+888
+00:26:40,160 --> 00:26:44,080
+underestimate the models because, you
+
+889
+00:26:42,160 --> 00:26:45,680
+know, it's just like the curve is pretty
+
+890
+00:26:44,080 --> 00:26:47,120
+pretty clear. Just every cycle got
+
+891
+00:26:45,680 --> 00:26:48,920
+better and better, beat the human
+
+892
+00:26:47,120 --> 00:26:52,320
+baseline, and then set the state of the
+
+893
+00:26:48,920 --> 00:26:54,440
+art on how um the model could cost per
+
+894
+00:26:52,320 --> 00:26:55,840
+yield generate this protein. And I think
+
+895
+00:26:54,440 --> 00:26:57,680
+that's just the start of how if we give
+
+896
+00:26:55,840 --> 00:26:59,720
+these models optimization problems like
+
+897
+00:26:57,680 --> 00:27:01,840
+you know, go try to figure out how
+
+898
+00:26:59,720 --> 00:27:03,800
+inexpensive you can make this vaccine or
+
+899
+00:27:01,840 --> 00:27:06,000
+you know, generate synthesize this
+
+900
+00:27:03,800 --> 00:27:07,840
+protein that's important for a drug, the
+
+901
+00:27:06,000 --> 00:27:09,800
+model can just go and keep optimizing
+
+902
+00:27:07,840 --> 00:27:11,440
+these protocols with real-world inputs.
+
+903
+00:27:09,800 --> 00:27:13,480
+And it was one of our first time
+
+904
+00:27:11,440 --> 00:27:15,553
+de-risking an eval that's actually
+
+905
+00:27:13,480 --> 00:27:15,680
+connected to the real world like
+
+906
+00:27:15,553 --> 00:27:17,040
+>> [snorts]
+
+907
+00:27:15,680 --> 00:27:18,480
+>> we weren't waiting for a piece of code
+
+908
+00:27:17,040 --> 00:27:20,880
+to run. We were waiting for the robot to
+
+909
+00:27:18,480 --> 00:27:23,320
+finish the experiment so we could record
+
+910
+00:27:20,880 --> 00:27:24,680
+um how much protein was synthesized. And
+
+911
+00:27:23,320 --> 00:27:26,000
+yeah, I just think the models are going
+
+912
+00:27:24,680 --> 00:27:27,600
+to do so much science for us. It's going
+
+913
+00:27:26,000 --> 00:27:28,680
+to be really interesting.
+
+914
+00:27:27,600 --> 00:27:30,880
+>> Well, that was exciting cuz that was
+
+915
+00:27:28,680 --> 00:27:32,600
+just like I think GPT-5 and it hadn't
+
+916
+00:27:30,880 --> 00:27:34,840
+gone through any sort of here's how to
+
+917
+00:27:32,600 --> 00:27:36,160
+be a scientist. And now these models
+
+918
+00:27:34,840 --> 00:27:37,520
+have progressed a lot since then you
+
+919
+00:27:36,160 --> 00:27:38,000
+have a lot more real-world experience
+
+920
+00:27:37,520 --> 00:27:39,080
+with this.
+
+921
+00:27:38,000 --> 00:27:40,640
+>> Yeah, that wasn't even with one of our
+
+922
+00:27:39,080 --> 00:27:44,280
+best models. It was like just an early
+
+923
+00:27:40,640 --> 00:27:45,480
+reasoning model. Um and so I think yeah
+
+924
+00:27:44,280 --> 00:27:47,040
+all of these things stack like we'll
+
+925
+00:27:45,480 --> 00:27:49,200
+have better pre-training, we have better
+
+926
+00:27:47,040 --> 00:27:50,880
+RL and post-training and we're going to
+
+927
+00:27:49,200 --> 00:27:52,280
+get a lot better at using these models
+
+928
+00:27:50,880 --> 00:27:54,800
+at test time to really elicit their
+
+929
+00:27:52,280 --> 00:27:56,720
+capabilities. And I think the next
+
+930
+00:27:54,800 --> 00:27:58,720
+generation of evals is really about how
+
+931
+00:27:56,720 --> 00:28:00,200
+can we have these models take actions in
+
+932
+00:27:58,720 --> 00:28:02,760
+the real world and solve sort of
+
+933
+00:28:00,200 --> 00:28:04,240
+unsolved problems for us that would take
+
+934
+00:28:02,760 --> 00:28:06,000
+humans a long time, you know, some of
+
+935
+00:28:04,240 --> 00:28:07,440
+these scientific problems that we
+
+936
+00:28:06,000 --> 00:28:09,760
+haven't been able to put enough effort
+
+937
+00:28:07,440 --> 00:28:11,280
+against. It's like well, now we have all
+
+938
+00:28:09,760 --> 00:28:13,200
+of these agents that can spend compute
+
+939
+00:28:11,280 --> 00:28:15,280
+to solve problems for us and try to
+
+940
+00:28:13,200 --> 00:28:16,840
+steer them towards what would be useful.
+
+941
+00:28:15,280 --> 00:28:18,840
+>> It It does seem like that brings in a
+
+942
+00:28:16,840 --> 00:28:20,920
+new challenge though. Do you think that
+
+943
+00:28:18,840 --> 00:28:21,800
+evals are going to get a bit a lot more
+
+944
+00:28:20,920 --> 00:28:23,560
+complex?
+
+945
+00:28:21,800 --> 00:28:25,320
+>> Yeah, I mean we have the saying on our
+
+946
+00:28:23,560 --> 00:28:27,440
+team that pain is the moat. I really
+
+947
+00:28:25,320 --> 00:28:29,440
+think a lot of [laughter] operations in
+
+948
+00:28:27,440 --> 00:28:30,880
+the physical world will become part of
+
+949
+00:28:29,440 --> 00:28:33,040
+the bottlenecks in being able to measure
+
+950
+00:28:30,880 --> 00:28:35,480
+what the models can do because
+
+951
+00:28:33,040 --> 00:28:36,880
+even just starting with digital, there's
+
+952
+00:28:35,480 --> 00:28:38,960
+so much more scaffolding and
+
+953
+00:28:36,880 --> 00:28:40,960
+infrastructure work we need to do to run
+
+954
+00:28:38,960 --> 00:28:42,640
+these like now if you want to test how
+
+955
+00:28:40,960 --> 00:28:44,840
+well Codex does, it's like well the
+
+956
+00:28:42,640 --> 00:28:46,480
+model is calling APIs. It's like taking
+
+957
+00:28:44,840 --> 00:28:48,920
+actions on your computer and in your
+
+958
+00:28:46,480 --> 00:28:50,680
+browser. It's making artifacts for you.
+
+959
+00:28:48,920 --> 00:28:52,840
+It's writing and running and executing
+
+960
+00:28:50,680 --> 00:28:54,360
+that code. Um it's just so much more
+
+961
+00:28:52,840 --> 00:28:55,960
+complex to measure that model and that's
+
+962
+00:28:54,360 --> 00:28:57,240
+only digital. Now, if you want them to
+
+963
+00:28:55,960 --> 00:28:58,760
+measure how the model could interact
+
+964
+00:28:57,240 --> 00:29:00,760
+with the physical world, there's all
+
+965
+00:28:58,760 --> 00:29:02,760
+sorts of ops and logistics that you need
+
+966
+00:29:00,760 --> 00:29:04,240
+to have a really smooth process for to
+
+967
+00:29:02,760 --> 00:29:07,200
+see how you can deploy these things at
+
+968
+00:29:04,240 --> 00:29:08,720
+scale and um yeah, I think a lot of the
+
+969
+00:29:07,200 --> 00:29:11,760
+work is actually shifting from being
+
+970
+00:29:08,720 --> 00:29:13,000
+like theory or math or even programming.
+
+971
+00:29:11,760 --> 00:29:15,240
+Like I feel like people don't program
+
+972
+00:29:13,000 --> 00:29:17,640
+that much. They just ask Codex and more
+
+973
+00:29:15,240 --> 00:29:20,440
+shifting towards like planning,
+
+974
+00:29:17,640 --> 00:29:22,560
+operations, physical stuff or at least
+
+975
+00:29:20,440 --> 00:29:23,720
+at least my job has shifted a lot that
+
+976
+00:29:22,560 --> 00:29:25,920
+way. Um
+
+977
+00:29:23,720 --> 00:29:27,280
+and those things are very hard. It's
+
+978
+00:29:25,920 --> 00:29:29,800
+actually kind of easy to just like write
+
+979
+00:29:27,280 --> 00:29:31,280
+something like in a corner. Um it's a
+
+980
+00:29:29,800 --> 00:29:33,160
+lot harder when you have to manage all
+
+981
+00:29:31,280 --> 00:29:34,720
+of these operations and logistics.
+
+982
+00:29:33,160 --> 00:29:35,960
+>> It's exciting, but it seems like part of
+
+983
+00:29:34,720 --> 00:29:37,760
+the challenge is these aren't just
+
+984
+00:29:35,960 --> 00:29:39,320
+simple evals anymore. They take more
+
+985
+00:29:37,760 --> 00:29:41,600
+compute, they take more time. When
+
+986
+00:29:39,320 --> 00:29:43,240
+you're trying to do a long horizon eval,
+
+987
+00:29:41,600 --> 00:29:45,040
+you know, it's long. You have to wait a
+
+988
+00:29:43,240 --> 00:29:46,360
+long time to get the outcome on that.
+
+989
+00:29:45,040 --> 00:29:48,080
+>> Yeah, definitely. So, it's both a lot
+
+990
+00:29:46,360 --> 00:29:50,400
+more work to come up with the evals and
+
+991
+00:29:48,080 --> 00:29:52,000
+run them at scale and also if the you
+
+992
+00:29:50,400 --> 00:29:53,600
+know, the work takes a longer amount of
+
+993
+00:29:52,000 --> 00:29:55,840
+time, we don't get the signal as fast.
+
+994
+00:29:53,600 --> 00:29:57,840
+So, we have to invest more in scaling
+
+995
+00:29:55,840 --> 00:30:00,040
+laws where we can predict, okay, well,
+
+996
+00:29:57,840 --> 00:30:02,240
+if by one day the model looks like this,
+
+997
+00:30:00,040 --> 00:30:03,560
+then we can forecast that at 7 days it
+
+998
+00:30:02,240 --> 00:30:05,440
+would look like this and sort of come up
+
+999
+00:30:03,560 --> 00:30:07,000
+with trends that we can so that we can
+
+1000
+00:30:05,440 --> 00:30:08,480
+get signal faster. Otherwise, we're just
+
+1001
+00:30:07,000 --> 00:30:10,360
+like stuck there waiting for a week to
+
+1002
+00:30:08,480 --> 00:30:11,880
+get an update, which is not the most
+
+1003
+00:30:10,360 --> 00:30:14,200
+productive way to spend time.
+
+1004
+00:30:11,880 --> 00:30:15,640
+>> I have certain benchmarks and things I
+
+1005
+00:30:14,200 --> 00:30:16,520
+used to test every time a new model
+
+1006
+00:30:15,640 --> 00:30:18,440
+comes out to find out how it's
+
+1007
+00:30:16,520 --> 00:30:19,600
+personally useful to me. And it's one of
+
+1008
+00:30:18,440 --> 00:30:21,040
+the things I tell people who run
+
+1009
+00:30:19,600 --> 00:30:22,600
+businesses or other things is think
+
+1010
+00:30:21,040 --> 00:30:23,680
+about your own evals, things that will
+
+1011
+00:30:22,600 --> 00:30:26,600
+tell you where something is because
+
+1012
+00:30:23,680 --> 00:30:28,680
+sometimes people might try something
+
+1013
+00:30:26,600 --> 00:30:29,760
+like they might try chat GPT 6 months
+
+1014
+00:30:28,680 --> 00:30:30,800
+ago and go like,
+
+1015
+00:30:29,760 --> 00:30:33,480
+"Ah, it wasn't good. It didn't do this."
+
+1016
+00:30:30,800 --> 00:30:35,080
+They don't realize how fast things move.
+
+1017
+00:30:33,480 --> 00:30:36,200
+Do you have any advice for people on how
+
+1018
+00:30:35,080 --> 00:30:37,000
+to figure out how to come up with a
+
+1019
+00:30:36,200 --> 00:30:38,560
+benchmark?
+
+1020
+00:30:37,000 --> 00:30:40,440
+>> Yeah, I mean, if things move really
+
+1021
+00:30:38,560 --> 00:30:42,240
+fast, things change every couple of
+
+1022
+00:30:40,440 --> 00:30:44,680
+weeks and I feel like people are not as
+
+1023
+00:30:42,240 --> 00:30:46,160
+awake about In my job, I'm one of the
+
+1024
+00:30:44,680 --> 00:30:47,360
+first people in the world to see some of
+
+1025
+00:30:46,160 --> 00:30:49,400
+the most powerful models, so I'm
+
+1026
+00:30:47,360 --> 00:30:51,680
+extremely AGI filled and I think
+
+1027
+00:30:49,400 --> 00:30:53,016
+progress is happening a lot faster.
+
+1028
+00:30:51,680 --> 00:30:54,120
+>> What have I seen?
+
+1029
+00:30:53,016 --> 00:30:56,600
+>> [laughter]
+
+1030
+00:30:54,120 --> 00:30:57,840
+>> I've seen good models, man.
+
+1031
+00:30:56,600 --> 00:31:00,080
+Yeah, but progress is happening a lot
+
+1032
+00:30:57,840 --> 00:31:02,600
+faster than people would think. And I
+
+1033
+00:31:00,080 --> 00:31:04,480
+think the best eval, honestly, is just
+
+1034
+00:31:02,600 --> 00:31:05,920
+to dog food or use the model. Like
+
+1035
+00:31:04,480 --> 00:31:08,200
+people should just try to use the models
+
+1036
+00:31:05,920 --> 00:31:09,240
+as much as they can. And even if there
+
+1037
+00:31:08,200 --> 00:31:10,400
+are things that they think the model
+
+1038
+00:31:09,240 --> 00:31:11,680
+didn't do well on one week, they should
+
+1039
+00:31:10,400 --> 00:31:12,640
+just try it again the next week. It'll
+
+1040
+00:31:11,680 --> 00:31:14,320
+probably work.
+
+1041
+00:31:12,640 --> 00:31:16,120
+>> I think that's one of the things that
+
+1042
+00:31:14,320 --> 00:31:18,120
+should be obvious to people kind of
+
+1043
+00:31:16,120 --> 00:31:20,000
+outside of AI is how really good
+
+1044
+00:31:18,120 --> 00:31:22,360
+frontier AI companies are using these
+
+1045
+00:31:20,000 --> 00:31:24,520
+tools internally, and that's why things
+
+1046
+00:31:22,360 --> 00:31:25,200
+are speeding up and getting more
+
+1047
+00:31:24,520 --> 00:31:26,920
+capable.
+
+1048
+00:31:25,200 --> 00:31:28,760
+>> Yeah, I basically try to have the model
+
+1049
+00:31:26,920 --> 00:31:29,040
+take a first pass of everything
+
+1050
+00:31:28,760 --> 00:31:30,720
+>> Mhm.
+
+1051
+00:31:29,040 --> 00:31:32,120
+>> that I do. Like whether it's, you know,
+
+1052
+00:31:30,720 --> 00:31:33,600
+sending a Slack message, like
+
+1053
+00:31:32,120 --> 00:31:36,080
+understanding what experiment to perform
+
+1054
+00:31:33,600 --> 00:31:38,360
+next, like any management stuff, ops,
+
+1055
+00:31:36,080 --> 00:31:39,840
+logistics, like you have the model take
+
+1056
+00:31:38,360 --> 00:31:41,520
+a first pass. And then if the model's
+
+1057
+00:31:39,840 --> 00:31:42,400
+not good, we like figure out how to put
+
+1058
+00:31:41,520 --> 00:31:44,160
+that in the eval.
+
+1059
+00:31:42,400 --> 00:31:45,800
+>> I'm excited about the computer using
+
+1060
+00:31:44,160 --> 00:31:47,360
+evals. Like just watching the
+
+1061
+00:31:45,800 --> 00:31:49,360
+performance of Codex with computer use
+
+1062
+00:31:47,360 --> 00:31:52,080
+is just light-years over where it was
+
+1063
+00:31:49,360 --> 00:31:53,240
+just, you know, maybe eight months ago.
+
+1064
+00:31:52,080 --> 00:31:54,640
+And it seems like those things are just
+
+1065
+00:31:53,240 --> 00:31:55,840
+going to get faster and better. My my
+
+1066
+00:31:54,640 --> 00:31:57,280
+prediction's like probably by the end of
+
+1067
+00:31:55,840 --> 00:31:58,640
+the year it'll use my computer better
+
+1068
+00:31:57,280 --> 00:32:01,760
+and faster than I do.
+
+1069
+00:31:58,640 --> 00:32:03,040
+>> Yeah. Yes, I think so. The models have
+
+1070
+00:32:01,760 --> 00:32:04,280
+some advantages over you, right? Like
+
+1071
+00:32:03,040 --> 00:32:06,160
+they can call a
+
+1072
+00:32:04,280 --> 00:32:07,840
+connector or plug-in, which is a much
+
+1073
+00:32:06,160 --> 00:32:09,360
+faster mode of communication than you on
+
+1074
+00:32:07,840 --> 00:32:11,600
+your computer having to like go click
+
+1075
+00:32:09,360 --> 00:32:13,840
+into a service and like understand every
+
+1076
+00:32:11,600 --> 00:32:15,640
+page and then copy some data back and
+
+1077
+00:32:13,840 --> 00:32:17,960
+forth. Or even writing writing some
+
+1078
+00:32:15,640 --> 00:32:19,840
+service to call that API or MCP or
+
+1079
+00:32:17,960 --> 00:32:21,040
+whatever. It's like more work for the
+
+1080
+00:32:19,840 --> 00:32:22,880
+human than it for the model. So the
+
+1081
+00:32:21,040 --> 00:32:25,560
+model has that advantage. And the models
+
+1082
+00:32:22,880 --> 00:32:28,120
+can just be faster and if it's trained
+
+1083
+00:32:25,560 --> 00:32:30,240
+to navigate a browser or
+
+1084
+00:32:28,120 --> 00:32:32,280
+or a desktop through whether it's
+
+1085
+00:32:30,240 --> 00:32:33,880
+through accessibility tree or through
+
+1086
+00:32:32,280 --> 00:32:35,800
+code.
+
+1087
+00:32:33,880 --> 00:32:38,080
+So the models have an advantage over us.
+
+1088
+00:32:35,800 --> 00:32:40,800
+And I think um a long time there was
+
+1089
+00:32:38,080 --> 00:32:43,200
+really no product deployment that was
+
+1090
+00:32:40,800 --> 00:32:45,440
+very effective. Yet like we launched
+
+1091
+00:32:43,200 --> 00:32:46,920
+operator and ChatGPT agent a while ago,
+
+1092
+00:32:45,440 --> 00:32:48,480
+and those were really useful for showing
+
+1093
+00:32:46,920 --> 00:32:50,680
+like this could be possible, but the
+
+1094
+00:32:48,480 --> 00:32:52,600
+latency on those models was just too
+
+1095
+00:32:50,680 --> 00:32:55,120
+high. Like they were just super slow.
+
+1096
+00:32:52,600 --> 00:32:57,080
+And I don't think people use them
+
+1097
+00:32:55,120 --> 00:32:58,440
+at super high scale yet, but we've now
+
+1098
+00:32:57,080 --> 00:33:00,080
+reached sort of a tipping point where
+
+1099
+00:32:58,440 --> 00:33:02,720
+doing things like asking the model to
+
+1100
+00:33:00,080 --> 00:33:04,000
+read my Slack for me or like go schedule
+
+1101
+00:33:02,720 --> 00:33:06,160
+a bunch of calendar invites and like
+
+1102
+00:33:04,000 --> 00:33:08,920
+optimize the rooms is faster for me than
+
+1103
+00:33:06,160 --> 00:33:11,360
+it it would have been um to do it
+
+1104
+00:33:08,920 --> 00:33:12,520
+myself. And I think yeah, people are not
+
+1105
+00:33:11,360 --> 00:33:13,680
+ready. Also, a lot of people haven't
+
+1106
+00:33:12,520 --> 00:33:15,080
+tried this stuff out cuz it's all
+
+1107
+00:33:13,680 --> 00:33:17,760
+launched so recently, but everyone
+
+1108
+00:33:15,080 --> 00:33:19,520
+should go get the computer use plugins
+
+1109
+00:33:17,760 --> 00:33:21,160
+and like use those and like install all
+
+1110
+00:33:19,520 --> 00:33:23,120
+of the plugins and all the good
+
+1111
+00:33:21,160 --> 00:33:24,240
+connectors that will make things faster.
+
+1112
+00:33:23,120 --> 00:33:26,600
+Then you'll be mind-blown.
+
+1113
+00:33:24,240 --> 00:33:28,360
+>> Let's talk about uh frontier evals.
+
+1114
+00:33:26,600 --> 00:33:29,840
+>> Yeah. So, the goal of the frontier evals
+
+1115
+00:33:28,360 --> 00:33:31,920
+team is really to measure and forecast
+
+1116
+00:33:29,840 --> 00:33:34,360
+progress of the frontier models at
+
+1117
+00:33:31,920 --> 00:33:36,000
+OpenAI to better understand where we
+
+1118
+00:33:34,360 --> 00:33:37,920
+are, where we're going, and sort of try
+
+1119
+00:33:36,000 --> 00:33:39,760
+to share that with the world. And one of
+
+1120
+00:33:37,920 --> 00:33:42,720
+the things I think the team has tried to
+
+1121
+00:33:39,760 --> 00:33:45,800
+do is to help publish and open source as
+
+1122
+00:33:42,720 --> 00:33:47,200
+much that we can. So, you know, some
+
+1123
+00:33:45,800 --> 00:33:49,400
+evals that we've helped open source
+
+1124
+00:33:47,200 --> 00:33:51,600
+include like SweetBench Verified, which
+
+1125
+00:33:49,400 --> 00:33:53,360
+helped measure progress on coding, MLE
+
+1126
+00:33:51,600 --> 00:33:54,960
+Bench, which was a way to measure how
+
+1127
+00:33:53,360 --> 00:33:57,120
+well models could train other models and
+
+1128
+00:33:54,960 --> 00:33:58,640
+sort of track the progress of machine
+
+1129
+00:33:57,120 --> 00:34:01,600
+learning engineering skills in our
+
+1130
+00:33:58,640 --> 00:34:02,960
+models, um PaperBench, which was a way
+
+1131
+00:34:01,600 --> 00:34:05,040
+to measure how well models could
+
+1132
+00:34:02,960 --> 00:34:08,600
+replicate real top machine learning
+
+1133
+00:34:05,040 --> 00:34:10,320
+papers um from like ICML or ICLR, um
+
+1134
+00:34:08,600 --> 00:34:12,120
+and GDP eval, which you know, helped
+
+1135
+00:34:10,320 --> 00:34:14,440
+measure how well models could perform on
+
+1136
+00:34:12,120 --> 00:34:16,560
+real-world tasks across, you know, over
+
+1137
+00:34:14,440 --> 00:34:17,879
+40 occupations. And the goal for all of
+
+1138
+00:34:16,560 --> 00:34:19,679
+these has been
+
+1139
+00:34:17,879 --> 00:34:21,520
+you know, the models might not seem good
+
+1140
+00:34:19,679 --> 00:34:23,240
+now, but if you just plot how they
+
+1141
+00:34:21,520 --> 00:34:24,679
+increase with each, you know, the the
+
+1142
+00:34:23,240 --> 00:34:26,879
+results that improve with each model
+
+1143
+00:34:24,679 --> 00:34:28,320
+generation, often when people say like,
+
+1144
+00:34:26,879 --> 00:34:30,360
+"Oh, well, I expect this will take like
+
+1145
+00:34:28,320 --> 00:34:30,840
+a year or whatever." They like over
+
+1146
+00:34:30,360 --> 00:34:32,520
+>> Mhm.
+
+1147
+00:34:30,840 --> 00:34:34,240
+>> they over um
+
+1148
+00:34:32,520 --> 00:34:36,159
+ex- expect in terms of how much time it
+
+1149
+00:34:34,240 --> 00:34:38,560
+will take to saturate a benchmark. And
+
+1150
+00:34:36,159 --> 00:34:41,720
+like even my own or people on my team's
+
+1151
+00:34:38,560 --> 00:34:44,280
+predictions are often like not ambitious
+
+1152
+00:34:41,720 --> 00:34:45,639
+enough for how fast things will change.
+
+1153
+00:34:44,280 --> 00:34:47,720
+And so I just think we're trying to do
+
+1154
+00:34:45,639 --> 00:34:50,440
+our service in helping inform the world
+
+1155
+00:34:47,720 --> 00:34:52,120
+about um what is possible. I think some
+
+1156
+00:34:50,440 --> 00:34:54,600
+of these research acceleration evals in
+
+1157
+00:34:52,120 --> 00:34:56,560
+particular are quite um interesting.
+
+1158
+00:34:54,600 --> 00:34:58,080
+Like when we first started, we had this
+
+1159
+00:34:56,560 --> 00:35:00,520
+eval called the OpenAI research
+
+1160
+00:34:58,080 --> 00:35:02,440
+interview eval, which was just taking
+
+1161
+00:35:00,520 --> 00:35:04,600
+the researcher questions that we asked
+
+1162
+00:35:02,440 --> 00:35:06,880
+people applying to OpenAI and putting
+
+1163
+00:35:04,600 --> 00:35:08,880
+those in an eval. And the model blasted
+
+1164
+00:35:06,880 --> 00:35:09,880
+through that like pretty pretty quickly.
+
+1165
+00:35:08,880 --> 00:35:12,000
+It's like definitely can pass our
+
+1166
+00:35:09,880 --> 00:35:14,120
+interviews right now. Um which I think
+
+1167
+00:35:12,000 --> 00:35:15,760
+has caused a whole other slew of
+
+1168
+00:35:14,120 --> 00:35:16,840
+downstream questions on like how do we
+
+1169
+00:35:15,760 --> 00:35:18,920
+make sure people don't cheat on the
+
+1170
+00:35:16,840 --> 00:35:21,480
+interviews and like how do we actually
+
+1171
+00:35:18,920 --> 00:35:23,360
+measure research talent? Um
+
+1172
+00:35:21,480 --> 00:35:26,160
+But I think all of this is very useful
+
+1173
+00:35:23,360 --> 00:35:27,920
+because um measuring internal progress
+
+1174
+00:35:26,160 --> 00:35:29,760
+is it's like kind of a way to measure
+
+1175
+00:35:27,920 --> 00:35:32,160
+the lever by which the models will keep
+
+1176
+00:35:29,760 --> 00:35:34,080
+getting better faster. Like sort of the
+
+1177
+00:35:32,160 --> 00:35:37,360
+acceleration of the slope of
+
+1178
+00:35:34,080 --> 00:35:39,520
+improvement, so to speak. And um yeah, I
+
+1179
+00:35:37,360 --> 00:35:41,280
+think having ways to measure model
+
+1180
+00:35:39,520 --> 00:35:42,880
+progress is
+
+1181
+00:35:41,280 --> 00:35:45,560
+is just good information.
+
+1182
+00:35:42,880 --> 00:35:47,680
+>> I've heard that in some of the evals
+
+1183
+00:35:45,560 --> 00:35:48,720
+that were out there for a while, that it
+
+1184
+00:35:47,680 --> 00:35:50,440
+turned out that there were actually
+
+1185
+00:35:48,720 --> 00:35:52,080
+errors in the questions. That that was
+
+1186
+00:35:50,440 --> 00:35:53,440
+an issue with some of the evals. That
+
+1187
+00:35:52,080 --> 00:35:54,560
+that was some of the publicly available
+
+1188
+00:35:53,440 --> 00:35:55,800
+ones were
+
+1189
+00:35:54,560 --> 00:35:56,920
+actually you couldn't score above a
+
+1190
+00:35:55,800 --> 00:35:58,120
+certain level. And if you did, it was
+
+1191
+00:35:56,920 --> 00:35:59,360
+actually because you were training on
+
+1192
+00:35:58,120 --> 00:36:00,800
+the data. And people looked at that and
+
+1193
+00:35:59,360 --> 00:36:02,200
+found out like, "Oh, there's actually
+
+1194
+00:36:00,800 --> 00:36:04,200
+this is not the right answer."
+
+1195
+00:36:02,200 --> 00:36:06,560
+>> Yeah, this is a problem with a lot of
+
+1196
+00:36:04,200 --> 00:36:08,360
+public benchmarks, I think. Like so the
+
+1197
+00:36:06,560 --> 00:36:10,360
+original reason for SWE bench verified
+
+1198
+00:36:08,360 --> 00:36:11,880
+was because we wanted to run SWE bench
+
+1199
+00:36:10,360 --> 00:36:14,280
+and it was half the problems were like
+
+1200
+00:36:11,880 --> 00:36:15,440
+either broken or under specified. And
+
+1201
+00:36:14,280 --> 00:36:16,880
+you know, people in the industry were
+
+1202
+00:36:15,440 --> 00:36:18,480
+publishing results on this as some
+
+1203
+00:36:16,880 --> 00:36:19,640
+metric of how well you did. And we were
+
+1204
+00:36:18,480 --> 00:36:21,360
+like, "Well, we should at least try to
+
+1205
+00:36:19,640 --> 00:36:24,280
+fix it." And then like share that so we
+
+1206
+00:36:21,360 --> 00:36:26,600
+can have a better yardstick. Um but I
+
+1207
+00:36:24,280 --> 00:36:29,360
+think one of the reasons that public
+
+1208
+00:36:26,600 --> 00:36:30,640
+benchmarks maybe aren't always as you
+
+1209
+00:36:29,360 --> 00:36:32,920
+know
+
+1210
+00:36:30,640 --> 00:36:34,200
+battle tested as we'd like is that not
+
+1211
+00:36:32,920 --> 00:36:36,680
+they they tend to be like you know
+
+1212
+00:36:34,200 --> 00:36:38,640
+someone in in a lab like an academic lab
+
+1213
+00:36:36,680 --> 00:36:40,240
+like had a good idea and like wanted to
+
+1214
+00:36:38,640 --> 00:36:42,720
+write a paper but they never had to run
+
+1215
+00:36:40,240 --> 00:36:45,160
+that eval at scale and like production
+
+1216
+00:36:42,720 --> 00:36:47,200
+training run or production like level
+
+1217
+00:36:45,160 --> 00:36:48,560
+eval sweep for a launch and just when
+
+1218
+00:36:47,200 --> 00:36:50,240
+you run some of this stuff at scale it
+
+1219
+00:36:48,560 --> 00:36:52,360
+like breaks or falls over and you like
+
+1220
+00:36:50,240 --> 00:36:54,160
+catch all of these bugs
+
+1221
+00:36:52,360 --> 00:36:55,840
+and so I kind of think sitting in a lab
+
+1222
+00:36:54,160 --> 00:36:58,080
+and being closer to product is a forcing
+
+1223
+00:36:55,840 --> 00:37:01,080
+function for making sure the quality of
+
+1224
+00:36:58,080 --> 00:37:02,400
+your measurements is really high because
+
+1225
+00:37:01,080 --> 00:37:04,000
+like we're not doing this like look good
+
+1226
+00:37:02,400 --> 00:37:05,520
+in a paper we're like doing this like it
+
+1227
+00:37:04,000 --> 00:37:07,920
+has to work because it has to work for
+
+1228
+00:37:05,520 --> 00:37:09,760
+our systems at scale so it kind of
+
+1229
+00:37:07,920 --> 00:37:11,960
+forces the quality to be high.
+
+1230
+00:37:09,760 --> 00:37:13,280
+>> And it it seems like kind of one of the
+
+1231
+00:37:11,960 --> 00:37:15,480
+things that can happen is these models
+
+1232
+00:37:13,280 --> 00:37:17,200
+become incredibly capable sometimes
+
+1233
+00:37:15,480 --> 00:37:18,840
+they're very good at
+
+1234
+00:37:17,200 --> 00:37:20,120
+sometimes they can solve a problem but
+
+1235
+00:37:18,840 --> 00:37:21,360
+they'll take sort of the laziest path
+
+1236
+00:37:20,120 --> 00:37:22,800
+and kind of they can they can give you
+
+1237
+00:37:21,360 --> 00:37:24,840
+the memorized answer instead of solving
+
+1238
+00:37:22,800 --> 00:37:26,200
+it and we saw that with like counting in
+
+1239
+00:37:24,840 --> 00:37:27,520
+like how many words are in a how many
+
+1240
+00:37:26,200 --> 00:37:29,440
+letters in a character or a word or
+
+1241
+00:37:27,520 --> 00:37:30,440
+whatever and it was often the model if
+
+1242
+00:37:29,440 --> 00:37:32,080
+you prompt it right it would get the
+
+1243
+00:37:30,440 --> 00:37:33,200
+answer right but if you didn't prompt it
+
+1244
+00:37:32,080 --> 00:37:34,520
+the right way it would just sort of
+
+1245
+00:37:33,200 --> 00:37:35,800
+throw you an answer.
+
+1246
+00:37:34,520 --> 00:37:37,120
+>> Yeah that brings up all sorts of
+
+1247
+00:37:35,800 --> 00:37:38,480
+interesting
+
+1248
+00:37:37,120 --> 00:37:40,000
+concepts I mean so there's this one
+
+1249
+00:37:38,480 --> 00:37:41,640
+concept of memorization which is the
+
+1250
+00:37:40,000 --> 00:37:43,480
+idea that the model literally knows the
+
+1251
+00:37:41,640 --> 00:37:44,760
+answer and doesn't have to really think
+
+1252
+00:37:43,480 --> 00:37:47,120
+or reason to solve it's just like
+
+1253
+00:37:44,760 --> 00:37:48,520
+regurgitating something it already knows
+
+1254
+00:37:47,120 --> 00:37:49,720
+and that makes the measurement not super
+
+1255
+00:37:48,520 --> 00:37:51,560
+useful because you're just measuring
+
+1256
+00:37:49,720 --> 00:37:53,400
+whether you happen to have trained on
+
+1257
+00:37:51,560 --> 00:37:54,920
+trained on that data a ton versus
+
+1258
+00:37:53,400 --> 00:37:56,800
+whether the model learned the skill that
+
+1259
+00:37:54,920 --> 00:37:58,720
+you or tool or capability you were
+
+1260
+00:37:56,800 --> 00:38:00,600
+trying to measure so that's one way to
+
+1261
+00:37:58,720 --> 00:38:01,960
+avoid that is to try to be really clean
+
+1262
+00:38:00,600 --> 00:38:04,080
+and disciplined about your data not
+
+1263
+00:38:01,960 --> 00:38:05,760
+including any benchmarks or any evals
+
+1264
+00:38:04,080 --> 00:38:07,880
+that you want to measure and that helps
+
+1265
+00:38:05,760 --> 00:38:09,400
+solve sort of the first problem that you
+
+1266
+00:38:07,880 --> 00:38:10,960
+laid out
+
+1267
+00:38:09,400 --> 00:38:12,120
+so so that that that's one thing and
+
+1268
+00:38:10,960 --> 00:38:13,760
+then there's there's this other thing
+
+1269
+00:38:12,120 --> 00:38:16,000
+where like the model can kind of like
+
+1270
+00:38:13,760 --> 00:38:17,600
+reward hack or sometimes like cheat to
+
+1271
+00:38:16,000 --> 00:38:20,080
+solve any eval and that's very much a
+
+1272
+00:38:17,600 --> 00:38:22,040
+question of having clean eval design
+
+1273
+00:38:20,080 --> 00:38:23,880
+where you like sort of test these at
+
+1274
+00:38:22,040 --> 00:38:25,320
+scale see if there's any hacks, make
+
+1275
+00:38:23,880 --> 00:38:27,280
+sure those environments that you're
+
+1276
+00:38:25,320 --> 00:38:28,920
+testing don't have the hacks as
+
+1277
+00:38:27,280 --> 00:38:30,560
+something that's possible for the model
+
+1278
+00:38:28,920 --> 00:38:32,080
+to do. And that just requires a lot of
+
+1279
+00:38:30,560 --> 00:38:34,360
+quality control to make sure like the
+
+1280
+00:38:32,080 --> 00:38:35,200
+eval is not overly hackable.
+
+1281
+00:38:34,360 --> 00:38:36,240
+Uh yeah.
+
+1282
+00:38:35,200 --> 00:38:37,560
+>> Yeah, cuz it seems like there were some
+
+1283
+00:38:36,240 --> 00:38:38,920
+very simple ones like grade school math
+
+1284
+00:38:37,560 --> 00:38:40,040
+and whatnot that models if you just
+
+1285
+00:38:38,920 --> 00:38:41,640
+change it a little bit, some of the
+
+1286
+00:38:40,040 --> 00:38:42,640
+early models would get confused and give
+
+1287
+00:38:41,640 --> 00:38:44,640
+you the wrong answer that it was
+
+1288
+00:38:42,640 --> 00:38:46,240
+actually capable of solving it. But it
+
+1289
+00:38:44,640 --> 00:38:47,880
+just goes, "Oh, I this one I got it."
+
+1290
+00:38:46,240 --> 00:38:49,760
+And then, you know, that's happened to
+
+1291
+00:38:47,880 --> 00:38:51,880
+like you know, should I drive my car to
+
+1292
+00:38:49,760 --> 00:38:53,160
+the car wash? You have a problem.
+
+1293
+00:38:51,880 --> 00:38:54,440
+>> Yeah, yeah, yeah. So like the models can
+
+1294
+00:38:53,160 --> 00:38:55,840
+get tricked. To me like the model
+
+1295
+00:38:54,440 --> 00:38:57,400
+doesn't like if it didn't get a good do
+
+1296
+00:38:55,840 --> 00:38:59,360
+well on that like it it should have been
+
+1297
+00:38:57,400 --> 00:39:01,000
+smarter. Like we we should also like
+
+1298
+00:38:59,360 --> 00:39:03,520
+have the models be a bit more robust to
+
+1299
+00:39:01,000 --> 00:39:05,680
+being tricked. But this also um relates
+
+1300
+00:39:03,520 --> 00:39:08,440
+to this idea of capability elicitation
+
+1301
+00:39:05,680 --> 00:39:09,880
+or like trying to measure the models in
+
+1302
+00:39:08,440 --> 00:39:11,960
+the best way, which is especially
+
+1303
+00:39:09,880 --> 00:39:13,800
+important for our safety testing. Like
+
+1304
+00:39:11,960 --> 00:39:15,280
+for example, if you want to measure how
+
+1305
+00:39:13,800 --> 00:39:17,280
+well the model can, you know, find
+
+1306
+00:39:15,280 --> 00:39:18,840
+vulnerabilities or um
+
+1307
+00:39:17,280 --> 00:39:20,480
+you know, do some of the cybersecurity
+
+1308
+00:39:18,840 --> 00:39:21,960
+stuff. You want to make sure the model's
+
+1309
+00:39:20,480 --> 00:39:23,880
+not just getting tricked by the problem.
+
+1310
+00:39:21,960 --> 00:39:26,160
+Like that you really measured the true
+
+1311
+00:39:23,880 --> 00:39:27,640
+capability. And so there's a lot of like
+
+1312
+00:39:26,160 --> 00:39:29,280
+prompt tuning and like changing the
+
+1313
+00:39:27,640 --> 00:39:31,120
+harness and sometimes like even doing
+
+1314
+00:39:29,280 --> 00:39:33,680
+like a fine-tune to get the model
+
+1315
+00:39:31,120 --> 00:39:35,600
+maximally ready to solve that challenge
+
+1316
+00:39:33,680 --> 00:39:37,160
+that we do to make sure
+
+1317
+00:39:35,600 --> 00:39:38,960
+um if we say, "Oh, the model's not good
+
+1318
+00:39:37,160 --> 00:39:40,520
+at some like very risky capability." We
+
+1319
+00:39:38,960 --> 00:39:40,960
+can be a bit more sure before we say
+
+1320
+00:39:40,520 --> 00:39:42,680
+that.
+
+1321
+00:39:40,960 --> 00:39:44,280
+>> When I was a kid, I loved uh reading
+
+1322
+00:39:42,680 --> 00:39:45,480
+these Encyclopedia Brown stories, these
+
+1323
+00:39:44,280 --> 00:39:47,800
+little mysteries and you had to solve
+
+1324
+00:39:45,480 --> 00:39:50,160
+them. And with GPT-4, I would write
+
+1325
+00:39:47,800 --> 00:39:51,680
+custom ones for it just in case somebody
+
+1326
+00:39:50,160 --> 00:39:53,560
+had like tipped all these answers to it
+
+1327
+00:39:51,680 --> 00:39:55,240
+out there. But that was a pain to kind
+
+1328
+00:39:53,560 --> 00:39:57,120
+of do that. And it's exciting to think
+
+1329
+00:39:55,240 --> 00:39:59,240
+now I can have a model write something
+
+1330
+00:39:57,120 --> 00:40:01,640
+or come up with some new eval. So how
+
+1331
+00:39:59,240 --> 00:40:02,840
+helpful have the models been now for
+
+1332
+00:40:01,640 --> 00:40:04,080
+>> Yeah, um
+
+1333
+00:40:02,840 --> 00:40:05,600
+they're semi-useful.
+
+1334
+00:40:04,080 --> 00:40:08,440
+>> Yeah, okay.
+
+1335
+00:40:05,600 --> 00:40:10,640
+>> Um I think we're in this like phase of
+
+1336
+00:40:08,440 --> 00:40:12,400
+model development where um
+
+1337
+00:40:10,640 --> 00:40:14,120
+sometimes
+
+1338
+00:40:12,400 --> 00:40:14,720
+the outputs are still kind of sloppy.
+
+1339
+00:40:14,120 --> 00:40:17,080
+>> Yeah.
+
+1340
+00:40:14,720 --> 00:40:18,680
+>> They require like um human QC or like
+
+1341
+00:40:17,080 --> 00:40:19,800
+oversight to make sure the quality is
+
+1342
+00:40:18,680 --> 00:40:22,000
+still high and like we're not getting
+
+1343
+00:40:19,800 --> 00:40:23,480
+tricked. So, I would say people
+
+1344
+00:40:22,000 --> 00:40:26,080
+sometimes are surprised that we still
+
+1345
+00:40:23,480 --> 00:40:27,680
+have a lot of human in intervention and
+
+1346
+00:40:26,080 --> 00:40:29,440
+involvement in the evals just because
+
+1347
+00:40:27,680 --> 00:40:31,200
+that's something, you know, evals can be
+
+1348
+00:40:29,440 --> 00:40:32,600
+a lower end than training data and you
+
+1349
+00:40:31,200 --> 00:40:34,520
+want to make sure every single point
+
+1350
+00:40:32,600 --> 00:40:36,480
+that you're testing, every data point,
+
+1351
+00:40:34,520 --> 00:40:38,080
+is very high quality. Um
+
+1352
+00:40:36,480 --> 00:40:40,120
+and so, this is one of the areas where
+
+1353
+00:40:38,080 --> 00:40:41,800
+like a human touch can be quite nice.
+
+1354
+00:40:40,120 --> 00:40:44,760
+>> We're seeing some interesting trends
+
+1355
+00:40:41,800 --> 00:40:46,200
+where jobs that actually touch AI seem
+
+1356
+00:40:44,760 --> 00:40:48,000
+to be more in demand because it's made
+
+1357
+00:40:46,200 --> 00:40:50,200
+people more productive. How are you
+
+1358
+00:40:48,000 --> 00:40:51,240
+tracking this? How do you look for areas
+
+1359
+00:40:50,200 --> 00:40:52,120
+where you think this is going to have an
+
+1360
+00:40:51,240 --> 00:40:53,560
+impact?
+
+1361
+00:40:52,120 --> 00:40:55,760
+>> Yeah, these are very difficult
+
+1362
+00:40:53,560 --> 00:40:57,600
+questions. Um
+
+1363
+00:40:55,760 --> 00:40:59,560
+I think that
+
+1364
+00:40:57,600 --> 00:41:01,680
+uh our I think people are not calibrated
+
+1365
+00:40:59,560 --> 00:41:02,760
+to how much work our models will be able
+
+1366
+00:41:01,680 --> 00:41:05,160
+to do
+
+1367
+00:41:02,760 --> 00:41:07,960
+um and how quickly like across a a wide
+
+1368
+00:41:05,160 --> 00:41:09,440
+variety of jobs. And um
+
+1369
+00:41:07,960 --> 00:41:11,160
+right now the models are still mostly
+
+1370
+00:41:09,440 --> 00:41:13,280
+just good at tasks versus a job. Like
+
+1371
+00:41:11,160 --> 00:41:15,040
+there's a lot to a job than a task.
+
+1372
+00:41:13,280 --> 00:41:16,760
+Right? Like you have to figure out what
+
+1373
+00:41:15,040 --> 00:41:18,320
+you want to work on, navigate like
+
+1374
+00:41:16,760 --> 00:41:19,720
+ambiguity, like you might have
+
+1375
+00:41:18,320 --> 00:41:21,560
+co-workers that you're collaborating
+
+1376
+00:41:19,720 --> 00:41:23,160
+with and like communicating with. And
+
+1377
+00:41:21,560 --> 00:41:24,440
+then you might like figure out what task
+
+1378
+00:41:23,160 --> 00:41:26,120
+you want to do and then give that to a
+
+1379
+00:41:24,440 --> 00:41:28,360
+model. And that's kind of the phase
+
+1380
+00:41:26,120 --> 00:41:30,120
+we're at now where it's a lot of I mean,
+
+1381
+00:41:28,360 --> 00:41:31,680
+even in my job, the the model is like
+
+1382
+00:41:30,120 --> 00:41:33,080
+doing individual tasks for me, but I'm
+
+1383
+00:41:31,680 --> 00:41:36,000
+still doing a lot of the thinking and
+
+1384
+00:41:33,080 --> 00:41:37,400
+planning um and that sort of thing. And
+
+1385
+00:41:36,000 --> 00:41:38,600
+I think people aren't even calibrated to
+
+1386
+00:41:37,400 --> 00:41:41,240
+that. Like I feel like people in
+
+1387
+00:41:38,600 --> 00:41:44,160
+software and research are a lot more
+
+1388
+00:41:41,240 --> 00:41:46,600
+calibrated or by calibrated I mean like
+
+1389
+00:41:44,160 --> 00:41:48,720
+realize how capable the models are um
+
+1390
+00:41:46,600 --> 00:41:51,080
+compared to some of my friends in other
+
+1391
+00:41:48,720 --> 00:41:52,720
+industries. And I like wish people just
+
+1392
+00:41:51,080 --> 00:41:54,320
+tried the models more and saw because
+
+1393
+00:41:52,720 --> 00:41:56,560
+the people who try and see first, like
+
+1394
+00:41:54,320 --> 00:41:58,120
+they'll start to really get it. Um but I
+
+1395
+00:41:56,560 --> 00:42:00,440
+also think the models are going to start
+
+1396
+00:41:58,120 --> 00:42:02,880
+to be able to do the stuff like the
+
+1397
+00:42:00,440 --> 00:42:05,440
+delegating part at some point, too. Um
+
+1398
+00:42:02,880 --> 00:42:07,520
+maybe not too far from now. The um
+
+1399
+00:42:05,440 --> 00:42:09,120
+figuring out what to work on, navigating
+
+1400
+00:42:07,520 --> 00:42:11,160
+ambiguity, like writing the spec that
+
+1401
+00:42:09,120 --> 00:42:12,680
+the model then executes on. And people
+
+1402
+00:42:11,160 --> 00:42:14,720
+should really start to think about okay,
+
+1403
+00:42:12,680 --> 00:42:16,880
+what is what happened in the maximally
+
+1404
+00:42:14,720 --> 00:42:18,120
+AGI built world where even just for
+
+1405
+00:42:16,880 --> 00:42:19,760
+digital
+
+1406
+00:42:18,120 --> 00:42:21,920
+work, the model can come up with what to
+
+1407
+00:42:19,760 --> 00:42:23,280
+do, do it, execute it on it, like
+
+1408
+00:42:21,920 --> 00:42:25,320
+interact with the real world, like you
+
+1409
+00:42:23,280 --> 00:42:27,040
+know, if it's, you know, there's entire
+
+1410
+00:42:25,320 --> 00:42:29,120
+businesses that now like you see like
+
+1411
+00:42:27,040 --> 00:42:31,720
+stories of like unicorns that where it
+
+1412
+00:42:29,120 --> 00:42:33,240
+was like mostly AI and a few employees
+
+1413
+00:42:31,720 --> 00:42:34,360
+that were like able to drive all of this
+
+1414
+00:42:33,240 --> 00:42:34,920
+value.
+
+1415
+00:42:34,360 --> 00:42:36,520
+Um,
+
+1416
+00:42:34,920 --> 00:42:39,600
+and so I do think there's this question
+
+1417
+00:42:36,520 --> 00:42:40,480
+of, you know, are we realizing how big
+
+1418
+00:42:39,600 --> 00:42:41,480
+this will be?
+
+1419
+00:42:40,480 --> 00:42:42,920
+>> Personally, I think the opportunity
+
+1420
+00:42:41,480 --> 00:42:44,760
+space is getting bigger. Everybody I
+
+1421
+00:42:42,920 --> 00:42:45,840
+know, the most the most AGI built people
+
+1422
+00:42:44,760 --> 00:42:47,440
+I know, the people who are using tools
+
+1423
+00:42:45,840 --> 00:42:49,680
+like Codex all the time are doing way
+
+1424
+00:42:47,440 --> 00:42:52,200
+more now. They're more productive now
+
+1425
+00:42:49,680 --> 00:42:53,840
+because they don't have to do the tasks
+
+1426
+00:42:52,200 --> 00:42:55,640
+and the jobs as the AI gets better to
+
+1427
+00:42:53,840 --> 00:42:57,720
+handle certain jobs, like cool, there
+
+1428
+00:42:55,640 --> 00:42:59,040
+are five jobs I need done now cuz I can
+
+1429
+00:42:57,720 --> 00:43:00,480
+do more. And I think that we just think
+
+1430
+00:42:59,040 --> 00:43:02,720
+about the the the light cone of the
+
+1431
+00:43:00,480 --> 00:43:04,520
+potential where we can be is bigger than
+
+1432
+00:43:02,720 --> 00:43:06,080
+we can imagine. And I think these tools
+
+1433
+00:43:04,520 --> 00:43:07,000
+just help us get there faster, not
+
+1434
+00:43:06,080 --> 00:43:08,480
+narrow it.
+
+1435
+00:43:07,000 --> 00:43:09,040
+>> I think there is probably some mix of
+
+1436
+00:43:08,480 --> 00:43:09,280
+things.
+
+1437
+00:43:09,040 --> 00:43:10,840
+>> Yeah.
+
+1438
+00:43:09,280 --> 00:43:12,200
+>> Even if you have models that can speed
+
+1439
+00:43:10,840 --> 00:43:14,320
+up paperwork, like think about it like
+
+1440
+00:43:12,200 --> 00:43:16,520
+like a clinical trial for a drug, right?
+
+1441
+00:43:14,320 --> 00:43:17,760
+It's like you people spend months
+
+1442
+00:43:16,520 --> 00:43:19,880
+putting together gather all this
+
+1443
+00:43:17,760 --> 00:43:21,080
+paperwork, like hundreds of pages of
+
+1444
+00:43:19,880 --> 00:43:22,720
+like why they should be able to do the
+
+1445
+00:43:21,080 --> 00:43:25,240
+trial. And they like submit it to the
+
+1446
+00:43:22,720 --> 00:43:26,640
+FDA. And then there's like a 35% chance
+
+1447
+00:43:25,240 --> 00:43:28,480
+it got rejected because they like made a
+
+1448
+00:43:26,640 --> 00:43:30,240
+mistake or forgot something. They
+
+1449
+00:43:28,480 --> 00:43:32,200
+revise. Then finally you can do the
+
+1450
+00:43:30,240 --> 00:43:34,000
+trial. And you know, these processes are
+
+1451
+00:43:32,200 --> 00:43:35,600
+are good, but it just takes a long time.
+
+1452
+00:43:34,000 --> 00:43:37,200
+And then the trial is, you know, you
+
+1453
+00:43:35,600 --> 00:43:39,760
+have a case and a control or whatever
+
+1454
+00:43:37,200 --> 00:43:40,920
+and you're like documenting symptoms um
+
+1455
+00:43:39,760 --> 00:43:42,560
+and tracking these for like just
+
+1456
+00:43:40,920 --> 00:43:44,400
+documenting what happens for a long time
+
+1457
+00:43:42,560 --> 00:43:46,240
+and then doing a bunch of data analysis.
+
+1458
+00:43:44,400 --> 00:43:48,880
+Like a lot of this is just documentation
+
+1459
+00:43:46,240 --> 00:43:51,360
+or data analysis or sort of like very
+
+1460
+00:43:48,880 --> 00:43:53,440
+classically digital work. And I think if
+
+1461
+00:43:51,360 --> 00:43:55,720
+models can help accelerate all parts of
+
+1462
+00:43:53,440 --> 00:43:57,320
+this, you know, for health, for energy,
+
+1463
+00:43:55,720 --> 00:43:58,840
+manufacturing, policy research,
+
+1464
+00:43:57,320 --> 00:44:01,680
+education, like this will be very
+
+1465
+00:43:58,840 --> 00:44:04,160
+accelerative. We will have, hopefully,
+
+1466
+00:44:01,680 --> 00:44:06,000
+you know, faster, cheaper, better goods.
+
+1467
+00:44:04,160 --> 00:44:07,280
+And that's really good for people. It's
+
+1468
+00:44:06,000 --> 00:44:09,800
+like very good for the individual
+
+1469
+00:44:07,280 --> 00:44:11,000
+consumer. So, I think that is like
+
+1470
+00:44:09,800 --> 00:44:12,120
+something people should be excited
+
+1471
+00:44:11,000 --> 00:44:14,200
+about. But, we should be very thoughtful
+
+1472
+00:44:12,120 --> 00:44:16,000
+about how to navigate the transition to
+
+1473
+00:44:14,200 --> 00:44:18,080
+that world um
+
+1474
+00:44:16,000 --> 00:44:19,160
+in a way that's thoughtful and like um
+
+1475
+00:44:18,080 --> 00:44:20,320
+responsible.
+
+1476
+00:44:19,160 --> 00:44:21,360
+>> Excellent.
+
+1477
+00:44:20,320 --> 00:44:24,200
+Thank you, Chiejina.
+
+1478
+00:44:21,360 --> 00:44:24,200
+>> Thank you for having me.
+
