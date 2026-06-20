@@ -380,3 +380,8 @@ Set-NetAdapter -Name "Ethernet 2" -VlanID 10
 
 #### IKE
 ![[st 2026-06-20 19.01.20.excalidraw]]
+
+# Linux
+
+### structure
+![[st 2026-06-20 20.55.08.excalidraw]]

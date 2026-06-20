@@ -156,20 +156,20 @@
         "currentTab": 4
       },
       {
-        "id": "624bfed8da59c27a",
+        "id": "6d914ec7f0a0ee49",
         "type": "tabs",
         "dimension": 78.11816192560175,
         "children": [
           {
-            "id": "546f16be683ec531",
+            "id": "e55ce32df3409a0d",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md"
+                "file": "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "st 2026-06-20 20.25.21.excalidraw"
+              "title": "st 2026-06-20 20.55.08.excalidraw"
             }
           }
         ]
@@ -374,11 +374,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "546f16be683ec531",
+  "active": "e55ce32df3409a0d",
   "lastOpenFiles": [
-    "Screenshot 2026-06-20 at 8.31.59 PM.png",
+    "Screenshot 2026-06-20 at 9.04.50 PM.png",
+    "Screenshot 2026-06-20 at 9.03.51 PM.png",
+    "Screenshot 2026-06-20 at 9.03.22 PM.png",
+    "Screenshot 2026-06-20 at 8.58.21 PM.png",
+    "Screenshot 2026-06-20 at 8.58.09 PM.png",
+    "Screenshot 2026-06-20 at 8.56.25 PM.png",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
     "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md",
+    "Screenshot 2026-06-20 at 8.31.59 PM.png",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
     "Screenshot 2026-06-20 at 8.19.17 PM.png",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
@@ -413,14 +420,7 @@
     "Nezikk.com/x/Top100-KOL-华语-AI-2026.md",
     "Nezikk.com/x/各领域X账号推荐.md",
     "Nezikk.com/x/灵感.md",
-    "image/Screenshot 2026-06-19 at 12.57.39 PM.png",
     "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md",
-    "media/transcripts/WuMlsfKeWHc.zh.one-paragraph.md",
-    "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
-    "image/Screenshot 2026-06-19 at 5.04.04 PM.png",
-    "image/Screenshot 2026-06-19 at 4.17.41 PM.png",
-    "image/Screenshot 2026-06-19 at 3.58.41 PM.png",
-    "image/Screenshot 2026-06-19 at 3.50.01 PM.png",
-    "image/Screenshot 2026-06-19 at 1.11.00 PM.png"
+    "media/transcripts/WuMlsfKeWHc.zh.one-paragraph.md"
   ]
 }
