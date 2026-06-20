@@ -424,7 +424,7 @@ help gather system parameters
 
 | **Command** | **Description**                                                                                                                    |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| whoami      | Displays current username                                                                                                          |
+| whoami      | Displays current usernameid                                                                                                        |
 | id          | Returns users identity                                                                                                             |
 | hostname    | Sets or prints the name of current host system.                                                                                    |
 | uname       | Prints basic information about the operating system name and system hardware.                                                      |
@@ -434,7 +434,7 @@ help gather system parameters
 | netstat     | Shows network status                                                                                                               |
 | ss          | Shows process status.                                                                                                              |
 | who         | Displays who is logged in.                                                                                                         |
-| env         | Prints environment or sets and executes command.                                                                                   |
+| env         | Prints environment or sets and executes comwhomand.                                                                                |
 | lsblk       | Lists block devices.                                                                                                               |
 | lsusb       | Lists USB devices                                                                                                                  |
 | lsof        | Lists opened files.                                                                                                                |
