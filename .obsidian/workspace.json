@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 50.32822757111597,
+        "dimension": 21.88183807439825,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -156,20 +156,20 @@
         "currentTab": 4
       },
       {
-        "id": "90a29b18c69691cc",
+        "id": "d848e4d4ee52e7b6",
         "type": "tabs",
-        "dimension": 49.671772428884026,
+        "dimension": 78.11816192560175,
         "children": [
           {
-            "id": "151a413dce46d881",
+            "id": "6a107b286b36d0a4",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md"
+                "file": "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "st 2026-06-19 21.16.39.excalidraw"
+              "title": "st 2026-06-20 17.04.12.excalidraw"
             }
           }
         ]
@@ -374,11 +374,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "6a107b286b36d0a4",
   "lastOpenFiles": [
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md",
     "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/okx/day-trading.md",
     "0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
     "Screenshot 2026-06-20 at 4.17.49 PM.png",
