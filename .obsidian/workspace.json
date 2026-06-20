@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 83.04761904761905,
+        "dimension": 50.32822757111597,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -129,7 +129,7 @@
             }
           },
           {
-            "id": "e842bfa3e251508a",
+            "id": "05867df40d8df757",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -153,12 +153,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "90a29b18c69691cc",
         "type": "tabs",
-        "dimension": 16.952380952380953,
+        "dimension": 49.671772428884026,
         "children": [
           {
             "id": "151a413dce46d881",
@@ -374,11 +374,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "e842bfa3e251508a",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
+    "0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
+    "Screenshot 2026-06-20 at 4.17.49 PM.png",
     "Nezikk.com/x/有感.md",
     "Nezikk.com/ai/loop enginering.md",
     "Nezikk.com/x/Top100-KOL-华语-AI-2026.md",
@@ -391,7 +394,6 @@
     "media/transcripts/WuMlsfKeWHc.zh.srt",
     "media/transcripts/WuMlsfKeWHc.zh.srt.part",
     "media/transcripts/WuMlsfKeWHc.macwhisper-url.zh.raw.txt",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
     "image/Screenshot 2026-06-19 at 5.04.04 PM.png",
     "清单/任务清单.md",
@@ -411,7 +413,6 @@
     "Excalidraw/day-trading 2026-06-17 20.49.10.excalidraw.md",
     "Excalidraw/day-trading 2026-06-14 18.49.37.excalidraw.md",
     "Excalidraw/day-trading 2026-06-17 19.46.51.excalidraw.md",
-    "media/transcripts/BV1geJG6TES6.ai-zh.one-paragraph.md",
     "media/transcripts/BV1geJG6TES6.ai-zh.srt",
     "media/transcripts/BV1geJG6TES6.macwhisper-url.zh.raw.txt",
     "media/transcripts/BV1mvEm6bE7U.ai-zh.srt",
@@ -419,8 +420,6 @@
     "media/transcripts/BV1ZHVr6jExn.ai-zh.srt",
     "media/transcripts/BV1ZHVr6jExn.macwhisper-url.zh.raw.txt",
     "image/Screenshot 2026-06-18 at 3.53.45 PM.png",
-    "image/Screenshot 2026-06-18 at 3.53.10 PM.png",
-    "image/Screenshot 2026-06-17 at 12.35.41 PM.png",
-    "image/Screenshot 2026-06-15 at 3.22.58 PM.png"
+    "image/Screenshot 2026-06-18 at 3.53.10 PM.png"
   ]
 }

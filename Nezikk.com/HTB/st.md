@@ -360,7 +360,7 @@ ip a | grep eth0.20
 
 #### Assigning NICs a VLAN in Windows
 
-Device Manager## Security Implications and VLAN Attacks
+Device Manager## Security Implications and VLAN Attacksthis attack only works if the adversary is connected to a port residing in the same `VLAN` as the `native VLAN` of the trunk port
 
 - GUI
 PowerShell
