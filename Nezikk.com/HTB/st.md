@@ -385,3 +385,57 @@ Set-NetAdapter -Name "Ethernet 2" -VlanID 10
 
 ### structure
 ![[st 2026-06-20 20.55.08.excalidraw]]
+
+
+### Getting Help
+
+```
+ls
+
+##list the files and directories within the current folder or any specified directory
+```
+
+```
+man <tool>
+
+##displays the manual pages for commands and provides detailed information about their usage
+```
+
+```
+<tool> --help
+
+##quickly look
+
+<tool> -h
+
+##short version of help
+```
+
+```
+apropos <keyword>
+
+##Each manual page has a short description available within it. This tool searches the descriptions for instances of a given keyword.
+```
+
+https://explainshell.com/
+
+### System Information
+help gather system parameters
+
+| **Command** | **Description**                                                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| whoami      | Displays current username                                                                                                          |
+| id          | Returns users identity                                                                                                             |
+| hostname    | Sets or prints the name of current host system.                                                                                    |
+| uname       | Prints basic information about the operating system name and system hardware.                                                      |
+| pwd         | Returns working directory name                                                                                                     |
+| ifconfig    | The ifconfig utility is used to assign or to view an address to a network interface and/or configure network interface parameters. |
+| ip          | Ip is a utility to show or manipulate routing, network devices, interfaces and tunnels.                                            |
+| netstat     | Shows network status                                                                                                               |
+| ss          | Shows process status.                                                                                                              |
+| who         | Displays who is logged in.                                                                                                         |
+| env         | Prints environment or sets and executes command.                                                                                   |
+| lsblk       | Lists block devices.                                                                                                               |
+| lsusb       | Lists USB devices                                                                                                                  |
+| lsof        | Lists opened files.                                                                                                                |
+| lspci       | Lists PCI devices.                                                                                                                 |

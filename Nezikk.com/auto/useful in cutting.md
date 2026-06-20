@@ -138,3 +138,14 @@ High-definition magnification：https://github.com/xinntao/Real-ESRGAN
 This video showcases an extremely cutting-edge and hardcore video production method: the video was created without using any traditional non-linear editing software (such as Premiere or Final Cut). Instead, it was "edited" entirely through fully automated code writing and command-line tool invocation by Claude Code in collaboration with Fable 5. The entire workflow is abstracted into a software engineering project, primarily encompassing the following key steps: 1. Full Speech Transcription and Timestamping (Whisper): The 25GB of raw footage captured (17 takes, 4 scenes) is handed over to a locally running Whisper model. The model not only outputs the text but also generates a word-level timestamp JSON file with millisecond precision. 2. AI Intelligent Selection of Best Shots (Subagents): Multiple Subagents (sub-intelligences) automatically analyze and cull filler footage containing filler words like "um" or "ah" based on the generated JSON file, selecting the clearest expressions with the cleanest endings as candidate clips. 3. FFmpeg Automatic Rough Cut: A decision JSON file is generated for the final clips selected by the AI, then ffmpeg is directly invoked via code to seamlessly stitch these clips together, completing the first rough cut. 4. Pure Code Custom Color Grading: The AI handwrites LUTs (Look-Up Table) code from scratch, and to facilitate human intervention, it also automatically generates an HTML webpage with sliders, allowing humans to intuitively adjust color temperature, brightness, and contrast by dragging sliders—the refined parameters are then directly fed back into the code. 5. React Component-Based Animation Production (Remotion): After Effects is not used at all. The AI transcribes originally static graphic files into Remotion animation components based on React. Leveraging the word timestamps from the first step, the AI achieves extremely precise "on-beat" timing—when the author utters a specific word (like "right"), the UI animation automatically triggers, eliminating any need for manual timeline alignment. 6. Figma MCP Collaborative Polishing: The AI exports the generated visuals to Figma for the human design team to handle layout and visual optimization. Once human modifications are complete, the AI uses MCP (Model Context Protocol) to automatically "pull" the latest Figma design back into the code, ultimately rendering a 4K 24fps final cut.
 
 source:https://x.com/trq212/status/2064826394589442448
+
+## image
+skill：告诉 Codex 怎么使用 Cowart，比如“打开画布、读取选区、填充图片、根据标注修改”。 
+
+plugin / MCP tool：提供可调用能力，比如启动本地服务、读取画布数据、写入图片 shape。
+
+本地 Web 程序：Cowart Canvas，也就是右边的无限画布 UI。
+
+开源画布库：很可能是 tldraw。（我瞎猜的）
+
+Codex：负责理解用户需求、调用工具、生成 prompt、串联 imagegen 和 Cowart。
