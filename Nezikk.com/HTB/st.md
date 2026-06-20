@@ -373,7 +373,8 @@ Get-NetAdapterAdvancedProperty -DisplayName "vlan id"
 Set-NetAdapter -Name "Ethernet 2" -VlanID 10
 ```
 - this powerful Cmdlet can also be used to customize other properties of interfaces such as [MAC addresses]
-
+## Cryptography
+![[st 2026-06-20 20.25.21.excalidraw]]
 ### Key Exchange Mechanisms
 ![[st 2026-06-20 17.04.12.excalidraw]]
 

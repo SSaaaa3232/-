@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 21.99124726477024,
+        "dimension": 21.88183807439825,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -156,20 +156,20 @@
         "currentTab": 4
       },
       {
-        "id": "8202a2f457c3e26e",
+        "id": "624bfed8da59c27a",
         "type": "tabs",
-        "dimension": 78.00875273522976,
+        "dimension": 78.11816192560175,
         "children": [
           {
-            "id": "7a6ac4f1ce4e4b78",
+            "id": "546f16be683ec531",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md"
+                "file": "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "st 2026-06-19 12.38.28.excalidraw"
+              "title": "st 2026-06-20 20.25.21.excalidraw"
             }
           }
         ]
@@ -374,10 +374,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7a6ac4f1ce4e4b78",
+  "active": "546f16be683ec531",
   "lastOpenFiles": [
+    "Screenshot 2026-06-20 at 8.31.59 PM.png",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
+    "Screenshot 2026-06-20 at 8.19.17 PM.png",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/ai/11.md",
     "media/transcripts/CFqjjKp9Y-Q.bilingual.md",
@@ -415,12 +418,9 @@
     "media/transcripts/WuMlsfKeWHc.zh.one-paragraph.md",
     "Excalidraw/st 2026-06-19 16.56.38.excalidraw.md",
     "image/Screenshot 2026-06-19 at 5.04.04 PM.png",
-    "清单/任务清单.md",
-    "Excalidraw/st 2026-06-19 16.19.32.excalidraw.md",
     "image/Screenshot 2026-06-19 at 4.17.41 PM.png",
     "image/Screenshot 2026-06-19 at 3.58.41 PM.png",
     "image/Screenshot 2026-06-19 at 3.50.01 PM.png",
-    "image/Screenshot 2026-06-19 at 1.11.00 PM.png",
-    "image/Screenshot 2026-06-18 at 3.53.45 PM.png"
+    "image/Screenshot 2026-06-19 at 1.11.00 PM.png"
   ]
 }
