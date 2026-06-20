@@ -439,3 +439,7 @@ help gather system parameters
 | lsusb       | Lists USB devices                                                                                                                  |
 | lsof        | Lists opened files.                                                                                                                |
 | lspci       | Lists PCI devices.                                                                                                                 |
+### login
+```
+ssh htb-student@[IP address]
+```
