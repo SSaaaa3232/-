@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 78.11816192560175,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -151,52 +150,9 @@
               "icon": "lucide-file",
               "title": "100_Live_Trades_Record_Form"
             }
-          },
-          {
-            "id": "5505f32e040aa1d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/ai/111.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "111"
-            }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "d848e4d4ee52e7b6",
-        "type": "tabs",
-        "dimension": 21.88183807439825,
-        "children": [
-          {
-            "id": "6a107b286b36d0a4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-20 17.04.12.excalidraw"
-            }
-          }
-        ]
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -398,17 +354,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5505f32e040aa1d7",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Excalidraw/st 2026-06-20 19.01.20.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/ai/111.md",
     "media/transcripts/WuMlsfKeWHc.interview.bilingual.md",
     "media/transcripts/WuMlsfKeWHc.interview.source.md",
     "media/transcripts/WuMlsfKeWHc.interview.zh.md",
     "Screenshot 2026-06-20 at 5.25.24 PM.png",
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/okx/day-trading.md",
     "0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
     "Screenshot 2026-06-20 at 4.17.49 PM.png",
@@ -438,7 +395,6 @@
     "Excalidraw/st 2026-06-19 13.10.21.excalidraw.md",
     "image/Screenshot 2026-06-19 at 1.11.00 PM.png",
     "Excalidraw/st 2026-06-19 12.52.33.excalidraw.md",
-    "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "media/transcripts/BV1geJG6TES6.ai-zh.srt",
     "media/transcripts/BV1geJG6TES6.macwhisper-url.zh.raw.txt",
     "media/transcripts/BV1mvEm6bE7U.ai-zh.srt",
