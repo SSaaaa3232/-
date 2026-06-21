@@ -209,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -354,10 +353,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Excalidraw/st 2026-06-21 19.28.12.excalidraw.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-21 19.28.12.excalidraw.md",
     "Excalidraw/st 2026-06-21 17.46.37.excalidraw.md",
     "Screenshot 2026-06-21 at 6.05.16 PM.png",
     "Excalidraw/st 2026-06-21 17.57.46.excalidraw.md",
@@ -396,7 +396,6 @@
     "image/media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
     "Excalidraw/_ncreate/runs/cozy-crochet-character-2026-06-21/manifest.json",
     "清单/开通服务.md",
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/auto/useful in cutting.md",
     "Nezikk.com/auto/PROMPT.md",
     "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
