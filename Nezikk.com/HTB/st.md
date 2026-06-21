@@ -767,3 +767,11 @@ ps aux | grep proftpd | grep -v grep
 
 ## Determine what user the ProFTPd server is running under. Submit the username as the answer. 
 ```
+
+```
+curl -s https://www.inlanefreight.com \
+| grep -oE '(https://www\.inlanefreight\.com)?/[A-Za-z0-9._~/%-]+' \
+| sed 's#https://www.inlanefreight.com##' \
+| sort -u \
+| wc -l
+```
