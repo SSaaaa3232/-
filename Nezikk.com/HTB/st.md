@@ -615,6 +615,9 @@ However, this tool does not have as many filter options that we can use.
 ```
 
 #### File Descriptors and Redirections
+
+how to use redirection to send the output of one program into another for further processing.
+
 ```
 character (`>`)
 
@@ -663,4 +666,56 @@ find /etc/ -name *.conf 2>/dev/null | grep systemd | wc -l
 dpkg -l | grep '^ii' | wc -l
 
 ## How many total packages are installed on the target system?
+```
+
+### Filter Contents
+
+reading files directly from the command line, without needing to open a text editor
+
+```
+cat /etc/passwd | more
+
+less /etc/passwd
+
+##The presentation is almost the same as with `more`
+
+When closing `less` with the `[Q]` key, we will notice that the output we have seen, unlike `more`, does not remain in the terminal.
+```
+
+```
+head /etc/passwd
+
+tail /etc/passwd
+
+##By default, `head` prints the first ten lines of the given file or input, if not specified otherwise.
+
+If we only want to see the last parts of a file or results, we can use the counterpart of `head` called `tail`, which returns the `last` ten lines.
+```
+
+```
+cat /etc/passwd | sort
+
+##Depending on which results and files are dealt with, they are rarely sorted.
+```
+
+```
+cat /etc/passwd | grep "/bin/bash"
+
+##earch for specific results that match patterns we define
+
+cat /etc/passwd | grep -v "false\|nologin"
+
+##to exclude specific results.
+```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | cut -d":" -f1
+
+##Therefore we use the option "`-d`" and set the delimiter to the colon character (`:`) and define with the option "`-f`" the position in the line we want to output.
+```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " "
+
+##replace certain characters from a line with characters defined by us is the tool `tr`
 ```
