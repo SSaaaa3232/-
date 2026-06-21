@@ -769,9 +769,9 @@ ps aux | grep proftpd | grep -v grep
 ```
 
 ```
-curl -s https://www.inlanefreight.com \
-| grep -oE '(https://www\.inlanefreight\.com)?/[A-Za-z0-9._~/%-]+' \
-| sed 's#https://www.inlanefreight.com##' \
+curl -s https://www.inlanefreight.com/ \
+| grep -Eo "https://www\.inlanefreight\.com[^\"']*" \
 | sort -u \
 | wc -l
+
 ```
