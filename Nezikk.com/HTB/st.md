@@ -797,3 +797,39 @@ grep -E "my" /etc/passwd | grep -E "false"
 #### practice
 [[bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg|Open: Screenshot 2026-06-21 at 5.35.57 PM.png]]
 ![[bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg]]
+
+### Permission Management
+![[st 2026-06-21 17.46.37.excalidraw]]
+
+[[ccd1dc624484fa52eee818d4fc5d4820_MD5.jpg|Open: Screenshot 2026-06-21 at 5.49.45 PM.png]]
+![[ccd1dc624484fa52eee818d4fc5d4820_MD5.jpg]]
+
+#### Change Permissions
+
+| chmod |           |
+| ----- | --------- |
+| u     | owner     |
+| g     | group     |
+| o     | others    |
+| a     | all users |
+```
+chmod a+r shell && ls -l shell
+
+##apply `read` permissions for all users
+
+chmod 754 shell && ls -l shell
+
+##set the permissions for all other users to `read` only using the octal value assignment
+```
+
+[[385859a274ac0c2f519eae68ee20b918_MD5.jpg|Open: Screenshot 2026-06-21 at 5.54.34 PM.png]]
+![[385859a274ac0c2f519eae68ee20b918_MD5.jpg]]
+
+### Change Owner
+
+To change the owner and/or the group assignments of a file or directory, we can use the `chown` command. 
+
+```
+chown <user>:<group> <file/directory>
+```
+
