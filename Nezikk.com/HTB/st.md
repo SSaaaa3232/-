@@ -443,3 +443,58 @@ help gather system parameters
 ```
 ssh htb-student@[IP address]
 ```
+
+SSH to with user "htb-student" and password "HTB_@cademy_stdnt!"
+### navigation
+#### pwd
+```
+pwd
+
+##find out in which directory we are. We can find out where we are with the command `pwd`
+```
+#### ls
+```
+
+ls
+
+ls -l
+
+##display more information on those directories and files
+
+ls -la
+
+##`list all` files of a directory
+(e.g., `.bashrc` or `.bash_history`).
+
+ls -l /var/
+
+##do not necessarily need to navigate there first.
+```
+
+#### cd
+```
+cd /dev/shm
+
+##navigate to the directory
+
+cd -
+
+## quickly jump back to the directory we were last in
+
+cd /dev/s [TAB 2x]
+
+##will get all entries starting with the letter “`s`” in the directory of `/dev/`
+
+cd ..
+
+The first entry with a single dot (`.`) indicates the current directory we are currently in. The second entry with two dots (`..`) represents the parent directory `/dev`
+
+clear
+
+cry0l1t3@htb[/dev]$ cd shm && clear
+
+##clean the shell
+[Ctrl] + [L]：clean up our terminal
+
+[Ctrl] + [R]：search through the command history and type some of the text that we are looking for
+```
