@@ -6,7 +6,6 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 56.48745519713262,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -154,25 +153,6 @@
           }
         ],
         "currentTab": 5
-      },
-      {
-        "id": "6d914ec7f0a0ee49",
-        "type": "tabs",
-        "dimension": 43.51254480286738,
-        "children": [
-          {
-            "id": "e55ce32df3409a0d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-20 20.55.08.excalidraw"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
