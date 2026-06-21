@@ -719,3 +719,51 @@ cat /etc/passwd | grep -v "false\|nologin" | tr ":" " "
 
 ##replace certain characters from a line with characters defined by us is the tool `tr`
 ```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " " | column -t
+
+##`column` is well suited to display such results in tabular form using the "`-t`."
+```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " " | awk '{print $1, $NF}'
+
+##which allows us to display the first (`$1`) and last (`$NF`) result of the line.
+```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " " | awk '{print $1, $NF}' | sed 's/bin/HTB/g'
+
+##The "`s`" flag at the beginning stands for the substitute command. Then we specify the pattern we want to replace. After the slash (`/`), we enter the pattern we want to use as a replacement in the third position. Finally, we use the "`g`" flag, which stands for replacing all matches.
+```
+
+```
+cat /etc/passwd | grep -v "false\|nologin" | tr ":" " " | awk '{print $1, $NF}' | wc -l
+
+##With the "`-l`" option, we specify that only the lines are counted.
+```
+
+
+| practice |                                                                                                                                                                |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1        | A line with the username `cry0l1t3`                                                                                                                            |
+| 2        | The usernames.                                                                                                                                                 |
+| 3        | The username `cry0l1t3` and his UID.                                                                                                                           |
+| 4        | The username `cry0l1t3` and his UID separated by a comma (`,`)                                                                                                 |
+| 5        | The username `cry0l1t3`, his UID, and the set shell separated by a comma (`,`)                                                                                 |
+| 6        | All usernames with their UID and set shells separated by a comma (`,`)                                                                                         |
+| 7        | All usernames with their UID and set shells separated by a comma (`,`) and exclude the ones that contain `nologin` or `false`.                                 |
+| 8        | All usernames with their UID and set shells separated by a comma (`,`) and exclude the ones that contain `nologin` and count all lines of the filtered output. |
+```
+ss -tulnH | awk '$5 ~ /^0\.0\.0\.0:/ {print}'
+
+## How many services are listening on the target system on all interfaces? (Not on localhost and IPv4 only)
+
+```
+
+```
+ps aux | grep proftpd | grep -v grep
+
+## Determine what user the ProFTPd server is running under. Submit the username as the answer. 
+```
