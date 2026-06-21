@@ -797,7 +797,7 @@ grep -E "my" /etc/passwd | grep -E "false"
 #### practice
 [[bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg|Open: Screenshot 2026-06-21 at 5.35.57 PM.png]]
 ![[bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg]]
-
+## Management
 ### Permission Management
 ![[st 2026-06-21 17.46.37.excalidraw]]
 
@@ -858,5 +858,122 @@ chown <user>:<group> <file/directory>
 | gem      | Gem is the front-end to RubyGems, the standard package manager for Ruby.                                                                                                                                                                                                                                                                                |
 | pip      | Pip is a Python package installer recommended for installing Python packages that are not available in the Debian archive. It can work with version control repositories (currently only Git, Mercurial, and Bazaar repositories), logs output extensively, and prevents partial installs by downloading all requirements before starting installation. |
 | git      | Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals.                                                                                                                                                                                  |
+|          |                                                                                                                                                                                                                                                                                                                                                         |
+#### APT
+
+package manager
+
+A package is an archive file containing multiple ".deb" files.
+
+dpkg
+
+the `dpkg` utility is used to install programs from the associated ".deb" file.
+
+`APT` makes this easier and more efficient by packaging together all of the dependencies needed to install a program.
+
+```
+cat /etc/apt/sources.list.d/parrot.list
+```
+
+database
+
+-  APT cache
+
+provide information about packages installed on our system offline.
+
+```
+apt-cache search impacket
+
+apt-cache show impacket-scripts
+
+## view additional information about a package.
+
+apt list --installed
+
+##list all installed packages.
+
+sudo apt install impacket-scripts -y
+
+##If we are missing some packages, we can search for it and install it using the following command.
+```
+
+#### Git
+
+```
+mkdir ~/nishang/ && git clone https://github.com/samratashok/nishang.git ~/nishang
+```
+
+#### DPKG
+
+```
+sudo dpkg -i strace_4.21-1ubuntu1_amd64.deb
+
+strace -h
+
+## test if it works properly
+```
+
+### Service and Process Management 
+
+![[st 2026-06-21 19.28.12.excalidraw]]
+
+#### Systemctl
+
+After installing `OpenSSH` on our VM
+
+```
+systemctl start ssh
+
+##start the service
+
+systemctl status ssh
+
+##check if it runs without errors\
+
+systemctl enable ssh
+
+##To add OpenSSH to the SysV script to tell the system to run this service after startup
+
+systemctl list-units --type=service
+
+##list all services
+```
+
+```
+ps -aux | grep ssh
+
+##Once we reboot the system, the OpenSSH server will automatically run. We can check this with a tool called `ps`
+```
+
+```
+journalctl -u ssh.service --no-pager
+
+##It is quite possible that the services do not start due to an error. To see the problem, we can use the tool `journalctl` to view the logs.
+```
+
+#### Kill a Process
 
 
+|     |         |
+| --- | ------- |
+| 1   | kill    |
+| 2   | pkill   |
+| 3   | pgrep   |
+| 4   | killall |
+
+```
+kill -l
+
+##can view all signals
+```
+
+
+| common use | **Description**                                                                                              | **Signal** |
+| ---------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
+| SIGHUP     |                                                                                                              | 1          |
+| SIGINT     |                                                                                                              | 2          |
+| SIGQUIT    |                                                                                                              | 3          |
+| SIGKILL    |                                                                                                              | 9          |
+| SIGTERM    | Program termination.                                                                                         | 15         |
+| SIGSTOP    | Stop the program. It cannot be handled anymore.                                                              | 19         |
+| SIGTSTP    | Sent when a user presses `[Ctrl] + Z` to request for a service to suspend. The user can handle it afterward. | 20         |
