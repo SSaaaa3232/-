@@ -613,3 +613,54 @@ locate *.conf
 
 However, this tool does not have as many filter options that we can use.
 ```
+
+#### File Descriptors and Redirections
+```
+character (`>`)
+
+
+
+sign (`<`)
+
+FD 0 - STDIN
+```
+
+|                |                                                            |
+| -------------- | ---------------------------------------------------------- |
+| - `STDIN – 0`  | Data Stream for Input                                      |
+| - `STDOUT – 1` | Data Stream for Output                                     |
+| - `STDERR – 2` | Data Stream for Output that relates to an error occurring. |
+
+```
+find /etc/ -name passwd >> stdout.txt 2>/dev/null
+
+##If this file exists, it will be overwritten without asking for confirmation. If we want to append `STDOUT` to our existing file, we can use the double greater-than sign (`>>`)
+```
+
+```
+cat << EOF > stream.txt
+
+##characters (`<<`) to add our standard input through a stream.、
+
+`End-Of-File` (`EOF`) function of a Linux system file, which defines the input's end.
+```
+
+```
+find /etc/ -name *.conf 2>/dev/null | grep systemd
+
+##Another way to redirect `STDOUT` is to use pipes (`|`).
+
+Using `grep`, we filter out the results and specify that only the lines containing the pattern "`systemd`" should be displayed.
+```
+
+```
+find /etc/ -name *.conf 2>/dev/null | grep systemd | wc -l
+
+##we will use the tool called `wc`, which should count the total number of obtained results.
+```
+
+```
+dpkg -l | grep '^ii' | wc -l
+
+## How many total packages are installed on the target system?
+```
