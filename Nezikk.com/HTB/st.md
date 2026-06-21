@@ -506,9 +506,48 @@ touch <name>
 
 ## Create an Empty File
 
+touch ./Storage/local/user/userinfo.txt
+
+```
+
+```
 mkdir <name>
 
 ## Create a Directory
 
+mkdir -p Storage/local/user/documents
 
+##which allows you to create parent directories automatically
+
+```
+
+```
+tree
+
+tree .
+
+##look at the whole structure after creating the parent directories with the tool
+
+use the single dot (`.`) to indicate that you want to start from the current directory
+```
+
+```
+mv <file/directory> <renamed file/directory>
+
+##move and also rename files and directories
+
+mv info.txt information.txt
+
+## Rename File
+
+mv information.txt readme.txt Storage/
+
+## Move Files to Specific Directory
+
+```
+
+```
+cp Storage/readme.txt Storage/local/
+
+## Copy readme.txt
 ```
