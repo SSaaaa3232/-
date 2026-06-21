@@ -970,10 +970,46 @@ kill -l
 
 | common use | **Description**                                                                                              | **Signal** |
 | ---------- | ------------------------------------------------------------------------------------------------------------ | ---------- |
-| SIGHUP     |                                                                                                              | 1          |
-| SIGINT     |                                                                                                              | 2          |
-| SIGQUIT    |                                                                                                              | 3          |
-| SIGKILL    |                                                                                                              | 9          |
+| SIGHUP     | This is sent to a process when the terminal that controls it is closed.                                      | 1          |
+| SIGINT     | Sent when a user presses `[Ctrl] + C` in the controlling terminal to interrupt a process.                    | 2          |
+| SIGQUIT    | Sent when a user presses `[Ctrl] + D` to quit.                                                               | 3          |
+| SIGKILL    | Immediately kill a process with no clean-up operations.                                                      | 9          |
 | SIGTERM    | Program termination.                                                                                         | 15         |
 | SIGSTOP    | Stop the program. It cannot be handled anymore.                                                              | 19         |
 | SIGTSTP    | Sent when a user presses `[Ctrl] + Z` to request for a service to suspend. The user can handle it afterward. | 20         |
+```
+kill 9 <PID>
+```
+
+```
+jobs
+
+## all background processes can be displayed
+```
+
+```
+bg
+
+##put the process in the background
+
+ping -c 10 www.hackthebox.eu &
+
+##Another option
+```
+
+```
+fg 1
+
+##If we want to get the background process into the foreground and interact with it again, we can use the `fg <ID>` command
+```
+
+#### Execute Multiple Commands
+
+
+|     |     |                                                                                                                                                                                                                         |
+| --- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | ;   | if we execute the same command but replace it in second place, the command `ls` with a file that does not exist, we get an error, and the third command will be executed nevertheless.                                  |
+| 2   | &&  | if we use the double AND characters (`&&`) to run the commands one after the other. If there is an error in one of the commands, the following ones will not be executed anymore, and the whole process will be stopped |
+| 3   | \|  | Pipes (`\|`) depend not only on the correct and error-free operation of the previous processes but also on the previous processes' results.                                                                             |
+The difference between them lies in the previous processes' treatment and depends on whether the previous process was completed successfully or with errors.
+
