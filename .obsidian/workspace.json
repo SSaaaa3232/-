@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 47.003154574132495,
+        "dimension": 56.48745519713262,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -105,30 +105,6 @@
             }
           },
           {
-            "id": "616d8c759eeb1c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/HTB/st.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "st"
-            }
-          },
-          {
             "id": "05867df40d8df757",
             "type": "leaf",
             "state": {
@@ -153,12 +129,12 @@
             }
           },
           {
-            "id": "cdb6bd5d5d9e6900",
+            "id": "616d8c759eeb1c7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nezikk.com/auto/useful in cutting.md",
+                "file": "Nezikk.com/HTB/st.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -173,16 +149,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "useful in cutting"
+              "title": "st"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "6d914ec7f0a0ee49",
         "type": "tabs",
-        "dimension": 52.99684542586751,
+        "dimension": 43.51254480286738,
         "children": [
           {
             "id": "e55ce32df3409a0d",
@@ -253,8 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -400,50 +375,51 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
+    "Excalidraw/ncreate-cozy-crochet-review.excalidraw",
+    "Excalidraw/image/cozy-crochet-character/cozy-crochet-character.excalidraw",
+    "Excalidraw/image/cozy-crochet-character/cozy-crochet-character.png",
+    "Excalidraw/image/cozy-crochet-character",
+    "Nezikk.com/HTB/st.md",
+    "Excalidraw/image/ncreate-2026-06-21-cozy-crochet-character.png",
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
+    "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
+    "Excalidraw/_ncreate/prompts/2026-06-21-cozy-crochet-character.md",
+    "Excalidraw/image",
+    "image/welcome-canvas.gif",
+    "image/wiki-graph-grow.gif",
+    "image/workflow-loop.gif",
+    "image/media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
+    "image/ncreate-2026-06-21-cozy-crochet-character.png",
+    "Excalidraw/_ncreate/runs/cozy-crochet-character-2026-06-21/manifest.json",
+    "Excalidraw/_ncreate/runs/cozy-crochet-character-2026-06-21",
+    "Excalidraw/_ncreate/runs",
+    "Excalidraw/_ncreate/prompts",
+    "Excalidraw/_ncreate",
+    "清单/开通服务.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/auto/useful in cutting.md",
+    "Nezikk.com/auto/PROMPT.md",
+    "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
     "image/Screenshot 2026-06-20 at 5.25.24 PM.png",
     "image/0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
     "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
     "清洗/input/raw/2026-05-10_reverse-workflow/index.md",
     "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
     "Nezikk.com/auto/nskill.md",
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/useful in cutting 2026-06-20 21.57.01.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/x/有感.md",
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "image/Screenshot 2026-06-20 at 9.04.50 PM.png",
     "image/Screenshot 2026-06-20 at 9.03.51 PM.png",
-    "image/Screenshot 2026-06-20 at 9.03.22 PM.png",
-    "image/Screenshot 2026-06-20 at 8.58.21 PM.png",
-    "image/Screenshot 2026-06-20 at 8.58.09 PM.png",
-    "image/Screenshot 2026-06-20 at 8.56.25 PM.png",
     "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md",
-    "image/Screenshot 2026-06-20 at 8.31.59 PM.png",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
-    "image/Screenshot 2026-06-20 at 8.19.17 PM.png",
     "Nezikk.com/ai/11.md",
     "media/transcripts/CFqjjKp9Y-Q.bilingual.md",
     "media/transcripts/CFqjjKp9Y-Q.en-orig.srt",
     "media/transcripts/CFqjjKp9Y-Q.en-orig.srt.part",
-    "media/transcripts/CFqjjKp9Y-Q.en.srt",
-    "media/transcripts/CFqjjKp9Y-Q.en.srt.part",
     "media/transcripts/CFqjjKp9Y-Q.zh-Hans.one-paragraph.md",
-    "media/transcripts/CFqjjKp9Y-Q.zh-Hans.srt",
-    "media/transcripts/CFqjjKp9Y-Q.zh-Hans.srt.part",
-    "Nezikk.com/auto/PROMPT.md",
     "media/transcripts/CFqjjKp9Y-Q.jina-reader.md",
-    "media/transcripts/CFqjjKp9Y-Q.zh-Hans.json3",
-    "media/transcripts/CFqjjKp9Y-Q.zh-Hans.json3.url.txt",
-    "media/transcripts/CFqjjKp9Y-Q.macwhisper-url.zh.raw.txt",
-    "tools/codex-canvas/assets",
     "Excalidraw/st 2026-06-20 19.01.20.excalidraw.md",
-    "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md",
-    "Nezikk.com/ai/111.md",
-    "media/transcripts/WuMlsfKeWHc.interview.bilingual.md",
-    "media/transcripts/WuMlsfKeWHc.interview.source.md",
-    "media/transcripts/WuMlsfKeWHc.interview.zh.md",
-    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md"
+    "Excalidraw/st 2026-06-20 17.04.12.excalidraw.md"
   ]
 }
