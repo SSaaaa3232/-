@@ -6,7 +6,7 @@
       {
         "id": "effc35234db8f4c2",
         "type": "tabs",
-        "dimension": 42.34135667396061,
+        "dimension": 47.003154574132495,
         "children": [
           {
             "id": "d623d4c7a79f137e",
@@ -182,7 +182,7 @@
       {
         "id": "6d914ec7f0a0ee49",
         "type": "tabs",
-        "dimension": 57.65864332603938,
+        "dimension": 52.99684542586751,
         "children": [
           {
             "id": "e55ce32df3409a0d",
@@ -400,23 +400,29 @@
   },
   "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
     "Nezikk.com/auto/useful in cutting.md",
+    "image/Screenshot 2026-06-20 at 5.25.24 PM.png",
+    "image/0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
+    "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
+    "清洗/input/raw/2026-05-10_reverse-workflow/index.md",
+    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md",
+    "Nezikk.com/auto/nskill.md",
+    "Nezikk.com/HTB/st.md",
     "Excalidraw/useful in cutting 2026-06-20 21.57.01.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/x/有感.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
-    "Nezikk.com/HTB/st.md",
-    "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
-    "Screenshot 2026-06-20 at 9.04.50 PM.png",
-    "Screenshot 2026-06-20 at 9.03.51 PM.png",
-    "Screenshot 2026-06-20 at 9.03.22 PM.png",
-    "Screenshot 2026-06-20 at 8.58.21 PM.png",
-    "Screenshot 2026-06-20 at 8.58.09 PM.png",
-    "Screenshot 2026-06-20 at 8.56.25 PM.png",
+    "image/Screenshot 2026-06-20 at 9.04.50 PM.png",
+    "image/Screenshot 2026-06-20 at 9.03.51 PM.png",
+    "image/Screenshot 2026-06-20 at 9.03.22 PM.png",
+    "image/Screenshot 2026-06-20 at 8.58.21 PM.png",
+    "image/Screenshot 2026-06-20 at 8.58.09 PM.png",
+    "image/Screenshot 2026-06-20 at 8.56.25 PM.png",
     "Excalidraw/st 2026-06-20 20.25.21.excalidraw.md",
-    "Screenshot 2026-06-20 at 8.31.59 PM.png",
+    "image/Screenshot 2026-06-20 at 8.31.59 PM.png",
     "Excalidraw/st 2026-06-19 12.38.28.excalidraw.md",
-    "Screenshot 2026-06-20 at 8.19.17 PM.png",
+    "image/Screenshot 2026-06-20 at 8.19.17 PM.png",
     "Nezikk.com/ai/11.md",
     "media/transcripts/CFqjjKp9Y-Q.bilingual.md",
     "media/transcripts/CFqjjKp9Y-Q.en-orig.srt",
@@ -438,13 +444,6 @@
     "media/transcripts/WuMlsfKeWHc.interview.bilingual.md",
     "media/transcripts/WuMlsfKeWHc.interview.source.md",
     "media/transcripts/WuMlsfKeWHc.interview.zh.md",
-    "Screenshot 2026-06-20 at 5.25.24 PM.png",
-    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md",
-    "0117c3b10eb6a0577c10a125ea5556df_MD5.jpg",
-    "Nezikk.com/ai/loop enginering.md",
-    "Nezikk.com/x/Top100-KOL-华语-AI-2026.md",
-    "Nezikk.com/x/各领域X账号推荐.md",
-    "Nezikk.com/x/灵感.md",
-    "Excalidraw/loop enginering 2026-06-19 22.03.46.excalidraw.md"
+    "Excalidraw/st 2026-06-19 21.16.39.excalidraw.md"
   ]
 }

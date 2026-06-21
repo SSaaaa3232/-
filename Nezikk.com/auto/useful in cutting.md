@@ -140,12 +140,3 @@ This video showcases an extremely cutting-edge and hardcore video production met
 source:https://x.com/trq212/status/2064826394589442448
 
 ## image
-skill：告诉 Codex 怎么使用 Cowart，比如“打开画布、读取选区、填充图片、根据标注修改”。 
-
-plugin / MCP tool：提供可调用能力，比如启动本地服务、读取画布数据、写入图片 shape。
-
-本地 Web 程序：Cowart Canvas，也就是右边的无限画布 UI。
-
-开源画布库：很可能是 tldraw。（我瞎猜的）
-
-Codex：负责理解用户需求、调用工具、生成 prompt、串联 imagegen 和 Cowart。
