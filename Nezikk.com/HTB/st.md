@@ -498,3 +498,17 @@ cry0l1t3@htb[/dev]$ cd shm && clear
 
 [Ctrl] + [R]：search through the command history and type some of the text that we are looking for
 ```
+### Syntax
+#### Create, Move, and Copy
+
+```
+touch <name>
+
+## Create an Empty File
+
+mkdir <name>
+
+## Create a Directory
+
+
+```
