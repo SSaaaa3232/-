@@ -313,7 +313,19 @@ If there were a login page we wanted to access, our request might look like `GE
 #### attack/defence
 ![[st 2026-06-19 16.19.32.excalidraw]]
 ### VPN
+
 ![[st 2026-06-19 16.56.38.excalidraw]]
+
+```
+sudo apt install openvpn -y
+
+##OpenVPN can be customized and configured by editing the configuration file `/etc/openvpn/server.conf`. This file contains the settings for the OpenVPN server. We can change the settings to configure certain features such as encryption, tunneling, traffic shaping, etc.
+```
+
+```
+sudo openvpn --config internal.ovpn
+```
+
 ### VLAN
 ![[st 2026-06-19 21.16.39.excalidraw]]
 
@@ -1159,4 +1171,38 @@ echo '/home/cry0l1t3/nfs_sharing hostname(rw,sync,no_root_squash)' >> /etc/expor
 
 /home/cry0l1t3/nfs_sharing hostname(rw,sync,no_root_squash)
 
+```
+
+#### Mount NFS Share
+
+```
+mkdir ~/target_nfs
+
+mount 10.129.12.17:/home/john/dev_scripts ~/target_nfs
+
+tree ~/target_nfs
+
+##If we have created an NFS share and want to work with it on the target system, we have to mount it first.
+```
+
+### Web Server
+
+Among the most widely used web servers on Linux platforms are Apache, Nginx, Lighttpd, and Caddy, with Apache being particularly popular due to its broad compatibility with operating systems including Ubuntu, Solaris, and Red Hat Linux.
+
+#### Apache Web Server
+
+```
+sudo apt install apache2 -y
+```
+
+For Apache2, to specify which folders can be accessed, we can edit the file `/etc/apache2/apache2.conf` with a text editor. This file contains the global settings. We can change the settings to specify which directories can be accessed and what actions can be performed on those directories.
+
+using the `.htaccess` file, which we can create in the directory in question
+
+#### Python & Web Server
+
+```
+sudo apt install python3 -y
+
+python3 -m http.server
 ```
