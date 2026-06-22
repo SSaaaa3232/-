@@ -1611,11 +1611,11 @@ common reason
 
 ### Hardening
 
-|     |             |
-| --- | ----------- |
-| 1   | SELinux     |
-| 2   | AppArmor    |
-| 3   | TCP Wrapper |
+|     |             |                                                                                                                                                   |
+| --- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | SELinux     |                                                                                                                                                   |
+| 2   | AppArmor    |                                                                                                                                                   |
+| 3   | TCP Wrapper | TCP wrappers are not a replacement for a firewall, as they are limited by the fact that they can only control access to services and not to ports |
 ![[st 2026-06-22 17.50.43.excalidraw]]
 
 ### Remote Desktop Protocols in LinuxLinux
@@ -1705,4 +1705,14 @@ most important security measures
 
 ```
 apt update && apt dist-upgrade
+```
+
+If SSH is open on the server, the configuration should be set up to disallow password login and disallow the root user from logging in via SSH. It is also important to avoid logging into and administering the system as the root user whenever possible and adequately managing access control. Users' access should be determined based on the principle of least privilege. For example, if a user needs to run a command as root, then that command should be specified in the `sudoers` configuration instead of giving them full sudo rights. Another common protection mechanism that can be used is `fail2ban`. This tool counts the number of failed login attempts, and if a user has reached the maximum number, the host that tried to connect will be handled as configured.
+
+```
+cat /etc/hosts.allow
+
+cat /etc/hosts.deny
+
+##TCPWrapper
 ```

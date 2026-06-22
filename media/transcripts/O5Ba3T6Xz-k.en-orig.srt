@@ -1,0 +1,7900 @@
+1
+00:00:00,240 --> 00:00:03,840
+Let's go now to our guest CZ, the
+
+2
+00:00:02,159 --> 00:00:05,239
+founder of Binance. CZ, thank you so
+
+3
+00:00:03,840 --> 00:00:06,400
+much for coming on Galaxy Brands. I want
+
+4
+00:00:05,239 --> 00:00:07,759
+[music] to ask about Hyperlid.
+
+5
+00:00:06,400 --> 00:00:09,840
+>> So, we have some interesting history
+
+6
+00:00:07,759 --> 00:00:11,759
+with Hyperlid that I didn't know about.
+
+7
+00:00:09,840 --> 00:00:13,519
+We force everyone to use Bitcoin. That
+
+8
+00:00:11,759 --> 00:00:14,559
+itself is actually not decentralization.
+
+9
+00:00:13,519 --> 00:00:16,160
+>> That's authoritarianism.
+
+10
+00:00:14,559 --> 00:00:18,400
+>> Crypto, no matter what it does, it
+
+11
+00:00:16,160 --> 00:00:19,840
+doesn't have the power to extinguish our
+
+12
+00:00:18,400 --> 00:00:20,800
+civilization. But AI has [music] the
+
+13
+00:00:19,840 --> 00:00:22,480
+power to extinguish.
+
+14
+00:00:20,800 --> 00:00:23,439
+>> Are you worried about quantum as a
+
+15
+00:00:22,480 --> 00:00:24,880
+threat to Bitcoin?
+
+16
+00:00:23,439 --> 00:00:26,480
+>> No, I'm actually not worried about it at
+
+17
+00:00:24,880 --> 00:00:28,000
+all. I mean, crypto is not going away.
+
+18
+00:00:26,480 --> 00:00:29,359
+Crypto is going to be a big industry.
+
+19
+00:00:28,000 --> 00:00:30,480
+Okay. Well, yeah, we can regulate the
+
+20
+00:00:29,359 --> 00:00:30,880
+industry by killing it,
+
+21
+00:00:30,480 --> 00:00:32,480
+>> right?
+
+22
+00:00:30,880 --> 00:00:33,360
+>> Um, that's not regulating. That's just
+
+23
+00:00:32,480 --> 00:00:35,200
+killing.
+
+24
+00:00:33,360 --> 00:00:37,600
+>> Welcome to Galaxy Brains.
+
+25
+00:00:35,200 --> 00:00:39,600
+>> An infinite amount of cash cash. I'm
+
+26
+00:00:37,600 --> 00:00:42,480
+your host, Alex. The US banking system
+
+27
+00:00:39,600 --> 00:00:44,160
+is sound and resilient. Bitcoin made a
+
+28
+00:00:42,480 --> 00:00:45,760
+new alltime high.
+
+29
+00:00:44,160 --> 00:00:46,960
+>> If you're not long, if you're not long,
+
+30
+00:00:45,760 --> 00:00:48,879
+you're short.
+
+31
+00:00:46,960 --> 00:00:51,360
+>> Satashi is going to come on there, laugh
+
+32
+00:00:48,879 --> 00:00:53,840
+hysterically, go quiet. Oh, Bitcoin's
+
+33
+00:00:51,360 --> 00:00:56,879
+going to be erased. Bitcoin. Bitcoin is
+
+34
+00:00:53,840 --> 00:00:58,879
+the best crypto ever. Bitcoin is going
+
+35
+00:00:56,879 --> 00:01:00,719
+to zero.
+
+36
+00:00:58,879 --> 00:01:02,239
+Welcome back to Galaxy Brains. As
+
+37
+00:01:00,719 --> 00:01:04,000
+always, I'm your host, Alex Thorne, head
+
+38
+00:01:02,239 --> 00:01:06,080
+of firmwide research at Galaxy.
+
+39
+00:01:04,000 --> 00:01:08,400
+Bitcoin's not zero. We have a great
+
+40
+00:01:06,080 --> 00:01:10,640
+episode for you this week. CZ, the
+
+41
+00:01:08,400 --> 00:01:12,799
+founder of Binance, is our guest. He
+
+42
+00:01:10,640 --> 00:01:14,960
+joins me in the studio here in New York
+
+43
+00:01:12,799 --> 00:01:17,040
+to talk about a range of topics with his
+
+44
+00:01:14,960 --> 00:01:19,119
+vast experience in crypto. What does he
+
+45
+00:01:17,040 --> 00:01:20,880
+think about the current market cycle?
+
+46
+00:01:19,119 --> 00:01:23,520
+What is the draw down? How long will it
+
+47
+00:01:20,880 --> 00:01:25,520
+last? And has Bitcoin bottomed? And a
+
+48
+00:01:23,520 --> 00:01:27,680
+range of other fascinating topics. We'll
+
+49
+00:01:25,520 --> 00:01:29,840
+get CZ's thoughts on AI, what he's
+
+50
+00:01:27,680 --> 00:01:31,680
+investing in personally today in which
+
+51
+00:01:29,840 --> 00:01:33,520
+space is, what the future of the great
+
+52
+00:01:31,680 --> 00:01:35,759
+convergence between Tradfi and crypto
+
+53
+00:01:33,520 --> 00:01:37,040
+is, and much more. BIM Net is off this
+
+54
+00:01:35,759 --> 00:01:38,720
+week, and before we get to the interview
+
+55
+00:01:37,040 --> 00:01:40,079
+with CZ, I need to remind you to please
+
+56
+00:01:38,720 --> 00:01:41,680
+refer to the link to disclaimer in the
+
+57
+00:01:40,079 --> 00:01:43,759
+podcast notes. And note that none of the
+
+58
+00:01:41,680 --> 00:01:45,439
+information in this podcast constitutes
+
+59
+00:01:43,759 --> 00:01:47,040
+investment advice or an offer,
+
+60
+00:01:45,439 --> 00:01:48,880
+recommendation, or solicitation by
+
+61
+00:01:47,040 --> 00:01:51,280
+Galaxy or any of its affiliates to buy
+
+62
+00:01:48,880 --> 00:01:54,000
+or sell any securities. Let's hop into
+
+63
+00:01:51,280 --> 00:01:56,240
+it with CZ. Let's go now to our guest,
+
+64
+00:01:54,000 --> 00:01:57,840
+CZ, the founder of Binance. CZ, thank
+
+65
+00:01:56,240 --> 00:01:59,600
+you so much for coming on Galaxy Brands.
+
+66
+00:01:57,840 --> 00:02:01,040
+>> Well, thank you for having me, Alex.
+
+67
+00:01:59,600 --> 00:02:03,600
+>> Um, and thank you for coming to our
+
+68
+00:02:01,040 --> 00:02:05,600
+office here in New York. Um, I want to
+
+69
+00:02:03,600 --> 00:02:08,560
+start by asking you about this current
+
+70
+00:02:05,600 --> 00:02:09,759
+market cycle. Um, I had done some math
+
+71
+00:02:08,560 --> 00:02:11,680
+and it turns out it really is the
+
+72
+00:02:09,759 --> 00:02:12,080
+four-year cycle, like almost to the day.
+
+73
+00:02:11,680 --> 00:02:13,440
+Yep.
+
+74
+00:02:12,080 --> 00:02:16,160
+>> Which is crazy.
+
+75
+00:02:13,440 --> 00:02:17,440
+>> Um, you know, we're a long way off, got
+
+76
+00:02:16,160 --> 00:02:22,080
+the block here, we're a long way off the
+
+77
+00:02:17,440 --> 00:02:25,120
+all-time high of 125K or so. Um, is this
+
+78
+00:02:22,080 --> 00:02:26,640
+a normal like cycle? Do you think it'll
+
+79
+00:02:25,120 --> 00:02:28,640
+look different? What's your sense of
+
+80
+00:02:26,640 --> 00:02:29,360
+where we are in the Bitcoin wave of
+
+81
+00:02:28,640 --> 00:02:30,959
+price?
+
+82
+00:02:29,360 --> 00:02:33,680
+>> So, yeah, I think the four-year cycle is
+
+83
+00:02:30,959 --> 00:02:35,599
+actually pretty accurate. Um, so, um, I
+
+84
+00:02:33,680 --> 00:02:39,040
+think it's a pretty normal cycle. Um,
+
+85
+00:02:35,599 --> 00:02:40,959
+you know, you retraced about 50%. Um, I
+
+86
+00:02:39,040 --> 00:02:42,720
+think like we've seen worse. We've seen
+
+87
+00:02:40,959 --> 00:02:43,280
+like 80% retracements in previous
+
+88
+00:02:42,720 --> 00:02:45,280
+cycles.
+
+89
+00:02:43,280 --> 00:02:47,360
+>> Yeah. And if you look at the current low
+
+90
+00:02:45,280 --> 00:02:50,640
+um four years ago u I was just talking
+
+91
+00:02:47,360 --> 00:02:53,280
+with somebody else earlier today 2022
+
+92
+00:02:50,640 --> 00:02:54,879
+around this time was probably the uh US
+
+93
+00:02:53,280 --> 00:02:57,280
+Luna crash
+
+94
+00:02:54,879 --> 00:02:58,879
+>> um that didn't hit the bottom the um FTX
+
+95
+00:02:57,280 --> 00:03:00,640
+crash later on in November hit the
+
+96
+00:02:58,879 --> 00:03:02,879
+bottom was like 16k
+
+97
+00:03:00,640 --> 00:03:05,519
+>> so we're still like what four five times
+
+98
+00:03:02,879 --> 00:03:07,840
+higher yeah so if you compare the lows
+
+99
+00:03:05,519 --> 00:03:10,640
+there still 5x increase u in the four
+
+100
+00:03:07,840 --> 00:03:12,640
+years so um u yeah so I think it's it's
+
+101
+00:03:10,640 --> 00:03:14,560
+a normal cycle but every cycle is higher
+
+102
+00:03:12,640 --> 00:03:16,080
+so over a long term. No, I'm a very
+
+103
+00:03:14,560 --> 00:03:18,000
+long-term. I'm not going to exit.
+
+104
+00:03:16,080 --> 00:03:20,959
+There's no exit in crypto for [laughter]
+
+105
+00:03:18,000 --> 00:03:23,040
+me. So, uh um yeah. So, you know, I
+
+106
+00:03:20,959 --> 00:03:25,680
+think it's a just a normal cycle. Yeah.
+
+107
+00:03:23,040 --> 00:03:27,360
+>> Do you think that um what looks about
+
+108
+00:03:25,680 --> 00:03:29,840
+the cycle, not necessarily the shape and
+
+109
+00:03:27,360 --> 00:03:32,159
+pattern, but what is true now that
+
+110
+00:03:29,840 --> 00:03:34,959
+stands out to you in this Bitcoin market
+
+111
+00:03:32,159 --> 00:03:36,239
+that wasn't true in 22 or 2018
+
+112
+00:03:34,959 --> 00:03:37,440
+>> in your mind? I mean, I know there's a
+
+113
+00:03:36,239 --> 00:03:39,360
+lot, but like what's you know?
+
+114
+00:03:37,440 --> 00:03:42,400
+>> Oh, yeah. the there's so much more de
+
+115
+00:03:39,360 --> 00:03:44,159
+positive devel development now um today
+
+116
+00:03:42,400 --> 00:03:46,319
+versus four years ago today you have the
+
+117
+00:03:44,159 --> 00:03:48,799
+world's most powerful country supporting
+
+118
+00:03:46,319 --> 00:03:51,200
+crypto uh whereas four years ago that
+
+119
+00:03:48,799 --> 00:03:53,519
+was the total opposite uh there were war
+
+120
+00:03:51,200 --> 00:03:57,040
+on crypto by the by the US government uh
+
+121
+00:03:53,519 --> 00:03:59,280
+here so um where we sit now um so and
+
+122
+00:03:57,040 --> 00:04:01,040
+also because of the US stance on cryptos
+
+123
+00:03:59,280 --> 00:04:03,439
+changed 180 degrees every other country
+
+124
+00:04:01,040 --> 00:04:06,239
+is following right so now US leads in
+
+125
+00:04:03,439 --> 00:04:09,280
+the crypto regulatory uh frameworks and
+
+126
+00:04:06,239 --> 00:04:11,439
+also the discussions etc. Um just that
+
+127
+00:04:09,280 --> 00:04:12,959
+just that alone is hugely different and
+
+128
+00:04:11,439 --> 00:04:15,680
+we're seeing like you know very strong
+
+129
+00:04:12,959 --> 00:04:18,320
+institutional adoption. Black Rockck um
+
+130
+00:04:15,680 --> 00:04:22,639
+um all the ETFs BNB ETF got list got
+
+131
+00:04:18,320 --> 00:04:24,320
+listed um last week and then um um just
+
+132
+00:04:22,639 --> 00:04:27,360
+so much more institutional participation
+
+133
+00:04:24,320 --> 00:04:29,919
+that wasn't there um um four years ago.
+
+134
+00:04:27,360 --> 00:04:32,160
+Um and the life cycle was mostly like
+
+135
+00:04:29,919 --> 00:04:34,400
+you know because the the previous SEC
+
+136
+00:04:32,160 --> 00:04:36,400
+was suing everybody in crypto right so
+
+137
+00:04:34,400 --> 00:04:38,160
+there was no utility uh tokens being
+
+138
+00:04:36,400 --> 00:04:40,320
+developed everyone went to the memecoin
+
+139
+00:04:38,160 --> 00:04:42,720
+space but now we're seeing actually a
+
+140
+00:04:40,320 --> 00:04:44,720
+lot more uh real development so now
+
+141
+00:04:42,720 --> 00:04:46,639
+there's more developers coming back to
+
+142
+00:04:44,720 --> 00:04:47,919
+the US many of them left the US during
+
+143
+00:04:46,639 --> 00:04:49,280
+the during the during the last
+
+144
+00:04:47,919 --> 00:04:49,759
+administration because they were just so
+
+145
+00:04:49,280 --> 00:04:50,080
+hostile.
+
+146
+00:04:49,759 --> 00:04:51,680
+>> Yeah.
+
+147
+00:04:50,080 --> 00:04:53,680
+>> Um and now we're seeing we're seeing a
+
+148
+00:04:51,680 --> 00:04:55,440
+lot more development now. So um there's
+
+149
+00:04:53,680 --> 00:04:58,160
+more stable coins being issued in every
+
+150
+00:04:55,440 --> 00:05:00,240
+country. Um there's more um what we call
+
+151
+00:04:58,160 --> 00:05:05,120
+real world assets. There's now you can
+
+152
+00:05:00,240 --> 00:05:06,000
+buy SPEX uh preIPO uh token tokens on I
+
+153
+00:05:05,120 --> 00:05:06,320
+guess on Binance.
+
+154
+00:05:06,000 --> 00:05:08,880
+>> Yeah.
+
+155
+00:05:06,320 --> 00:05:10,880
+>> Um so and many other exchanges too. So
+
+156
+00:05:08,880 --> 00:05:12,880
+um yeah, so a lot more is happening. Um
+
+157
+00:05:10,880 --> 00:05:14,160
+and I'm really excited. So even though
+
+158
+00:05:12,880 --> 00:05:16,000
+we're talking about the cycles, the
+
+159
+00:05:14,160 --> 00:05:17,840
+cycles don't end at the same place. Each
+
+160
+00:05:16,000 --> 00:05:18,320
+cycle so much higher than the than the
+
+161
+00:05:17,840 --> 00:05:20,160
+last one.
+
+162
+00:05:18,320 --> 00:05:21,840
+>> Yeah. Is that I I tend to think of that
+
+163
+00:05:20,160 --> 00:05:23,759
+you you mentioned the like yearly low or
+
+164
+00:05:21,840 --> 00:05:25,919
+the cycle low as a floor that's been
+
+165
+00:05:23,759 --> 00:05:27,759
+rising. I tend to think of that when
+
+166
+00:05:25,919 --> 00:05:29,280
+people say, "Oh, no. Bitcoin hasn't
+
+167
+00:05:27,759 --> 00:05:30,960
+acted as a digital gold." And I'm sort
+
+168
+00:05:29,280 --> 00:05:33,039
+of like, "No, no, it that's that is the
+
+169
+00:05:30,960 --> 00:05:34,320
+digital gold growing on below and it's
+
+170
+00:05:33,039 --> 00:05:35,680
+growing and then, you know, the
+
+171
+00:05:34,320 --> 00:05:37,360
+speculators come in and move it all
+
+172
+00:05:35,680 --> 00:05:37,919
+around on top." And it does seem like
+
+173
+00:05:37,360 --> 00:05:40,160
+that,
+
+174
+00:05:37,919 --> 00:05:42,800
+>> you know, we're at 60K. Um, that that
+
+175
+00:05:40,160 --> 00:05:44,560
+floor rising is the long-term people
+
+176
+00:05:42,800 --> 00:05:44,880
+using it as a as a digital gold-like
+
+177
+00:05:44,560 --> 00:05:46,880
+asset.
+
+178
+00:05:44,880 --> 00:05:48,960
+>> I think Bitcoin only reached 60k what,
+
+179
+00:05:46,880 --> 00:05:51,280
+two years ago? Uh so like you know if we
+
+180
+00:05:48,960 --> 00:05:52,240
+say like two four years ago if we say we
+
+181
+00:05:51,280 --> 00:05:53,600
+said Bitcoin can hit 50.
+
+182
+00:05:52,240 --> 00:05:55,199
+>> Well in 21 I think it reached.
+
+183
+00:05:53,600 --> 00:05:55,600
+>> Oh actually that's true. In 21 it
+
+184
+00:05:55,199 --> 00:05:56,240
+reached that
+
+185
+00:05:55,600 --> 00:05:57,520
+>> but I mean that
+
+186
+00:05:56,240 --> 00:05:59,120
+>> but that's alltime high
+
+187
+00:05:57,520 --> 00:06:00,800
+>> right. That's right now it's like we've
+
+188
+00:05:59,120 --> 00:06:02,080
+we're we're [laughter] bottom. Well are
+
+189
+00:06:00,800 --> 00:06:03,680
+we bottoming? Do you think where would
+
+190
+00:06:02,080 --> 00:06:05,520
+you have to guess the bottom would be
+
+191
+00:06:03,680 --> 00:06:08,000
+here in this cycle?
+
+192
+00:06:05,520 --> 00:06:10,080
+>> I'm never accurate on this and I I hate
+
+193
+00:06:08,000 --> 00:06:12,479
+to make predictions but uh the previous
+
+194
+00:06:10,080 --> 00:06:15,199
+high are usually the future support. So
+
+195
+00:06:12,479 --> 00:06:17,280
+like where 60,000 was like the previous
+
+196
+00:06:15,199 --> 00:06:20,080
+all-time high uh in like four or five
+
+197
+00:06:17,280 --> 00:06:23,360
+years ago u now we feel it's very low.
+
+198
+00:06:20,080 --> 00:06:26,240
+Uh so typically uh those support uh psy
+
+199
+00:06:23,360 --> 00:06:28,880
+and there's there psychological and also
+
+200
+00:06:26,240 --> 00:06:31,680
+um technical uh reasons for it. People
+
+201
+00:06:28,880 --> 00:06:33,520
+who bought uh at 60,000 when it when the
+
+202
+00:06:31,680 --> 00:06:35,840
+price come back to 60,000 they may they
+
+203
+00:06:33,520 --> 00:06:37,600
+might cash out. The people who uh but
+
+204
+00:06:35,840 --> 00:06:39,919
+but now people who bought at 60,000 they
+
+205
+00:06:37,600 --> 00:06:41,919
+will not sell now right. So uh you went
+
+206
+00:06:39,919 --> 00:06:42,560
+to 120k they come down. So they will
+
+207
+00:06:41,919 --> 00:06:44,319
+just buy more.
+
+208
+00:06:42,560 --> 00:06:46,560
+>> Yeah. It's like a stepped up cost basis.
+
+209
+00:06:44,319 --> 00:06:48,400
+>> Yeah. Yeah. So the in technical analysis
+
+210
+00:06:46,560 --> 00:06:51,520
+the previous highs always becomes the
+
+211
+00:06:48,400 --> 00:06:53,919
+next low support. So u uh there's quite
+
+212
+00:06:51,520 --> 00:06:56,160
+a lot of uh disc um well there's quite a
+
+213
+00:06:53,919 --> 00:06:57,919
+lot of um theories behind that. I don't
+
+214
+00:06:56,160 --> 00:07:00,240
+know if they're true or not. Uh I'm not
+
+215
+00:06:57,919 --> 00:07:02,240
+a great technical analyst u but I think
+
+216
+00:07:00,240 --> 00:07:04,000
+you know uh it feels like that. Yeah.
+
+217
+00:07:02,240 --> 00:07:07,199
+>> All right. And and we'll move on beyond
+
+218
+00:07:04,000 --> 00:07:10,160
+the cycle talk. One more I think that's
+
+219
+00:07:07,199 --> 00:07:11,840
+so different looking between this
+
+220
+00:07:10,160 --> 00:07:14,240
+all-time high to current draw down and
+
+221
+00:07:11,840 --> 00:07:18,000
+this cycle versus certainly 2022 one and
+
+222
+00:07:14,240 --> 00:07:20,240
+two those prior you know blowoff tops
+
+223
+00:07:18,000 --> 00:07:22,400
+and then bare markets were either
+
+224
+00:07:20,240 --> 00:07:25,360
+characterized by or even perhaps caused
+
+225
+00:07:22,400 --> 00:07:28,880
+by sort of major marquee blowups in the
+
+226
+00:07:25,360 --> 00:07:30,800
+crypto industry um often about the you
+
+227
+00:07:28,880 --> 00:07:33,280
+know an unhealthy search for yield or
+
+228
+00:07:30,800 --> 00:07:36,080
+yield often at the core of that story.
+
+229
+00:07:33,280 --> 00:07:37,280
+Um, are there dead bodies that you think
+
+230
+00:07:36,080 --> 00:07:38,160
+still that haven't floated to the
+
+231
+00:07:37,280 --> 00:07:40,800
+because we haven't really heard about
+
+232
+00:07:38,160 --> 00:07:42,479
+this really yet since the October of
+
+233
+00:07:40,800 --> 00:07:43,680
+last year. Are there dead bodies we
+
+234
+00:07:42,479 --> 00:07:45,520
+don't know about you think in your mind
+
+235
+00:07:43,680 --> 00:07:46,880
+that haven't floated to the surface?
+
+236
+00:07:45,520 --> 00:07:48,960
+That's a very interesting question
+
+237
+00:07:46,880 --> 00:07:52,720
+actually. I was curious about that. Um,
+
+238
+00:07:48,960 --> 00:07:54,319
+even like maybe 6 months ago uh but
+
+239
+00:07:52,720 --> 00:07:56,479
+during the last 6 months there hasn't
+
+240
+00:07:54,319 --> 00:07:58,560
+been anybody saying like they're going
+
+241
+00:07:56,479 --> 00:08:01,440
+bankrupt etc. So I think the industry
+
+242
+00:07:58,560 --> 00:08:04,080
+got better at uh at controlling um uh
+
+243
+00:08:01,440 --> 00:08:05,440
+leverage or boring. Uh so um I think
+
+244
+00:08:04,080 --> 00:08:08,240
+there were there was there were a few
+
+245
+00:08:05,440 --> 00:08:10,400
+shocks uh in the in the system and um
+
+246
+00:08:08,240 --> 00:08:13,440
+but no one no one went no one went
+
+247
+00:08:10,400 --> 00:08:15,120
+bankrupt etc. So knock on wood I
+
+248
+00:08:13,440 --> 00:08:17,360
+>> yeah none of the platforms really that I
+
+249
+00:08:15,120 --> 00:08:19,520
+that I've seen not like the you know the
+
+250
+00:08:17,360 --> 00:08:22,240
+lending companies and exchanges like
+
+251
+00:08:19,520 --> 00:08:23,840
+FTX. Um, is there dangerous leverage in
+
+252
+00:08:22,240 --> 00:08:26,160
+the system now this time that's unique
+
+253
+00:08:23,840 --> 00:08:28,319
+say from treasury companies or onchain
+
+254
+00:08:26,160 --> 00:08:30,639
+per something that you worry about
+
+255
+00:08:28,319 --> 00:08:32,080
+>> based on my exposure to the industry
+
+256
+00:08:30,639 --> 00:08:33,839
+like based on what I know which is a
+
+257
+00:08:32,080 --> 00:08:35,039
+small subset of the of what what the
+
+258
+00:08:33,839 --> 00:08:36,719
+industry maybe people think I know
+
+259
+00:08:35,039 --> 00:08:40,479
+everything but I only know a very small
+
+260
+00:08:36,719 --> 00:08:42,399
+subset um and uh I don't I actually
+
+261
+00:08:40,479 --> 00:08:45,200
+don't see a lot of hugely leveraged uh
+
+262
+00:08:42,399 --> 00:08:46,720
+products right now um so I think there
+
+263
+00:08:45,200 --> 00:08:48,000
+were some stable coins which were giving
+
+264
+00:08:46,720 --> 00:08:51,279
+high yields they were like they were
+
+265
+00:08:48,000 --> 00:08:53,360
+loop uh borrowing etc But overall those
+
+266
+00:08:51,279 --> 00:08:55,839
+the size of those things are relatively
+
+267
+00:08:53,360 --> 00:08:57,440
+small to the industry size now. So uh I
+
+268
+00:08:55,839 --> 00:08:59,600
+don't see any huge things with with a
+
+269
+00:08:57,440 --> 00:09:01,680
+lot of leverage today. Yeah. So
+
+270
+00:08:59,600 --> 00:09:03,040
+hopefully that should be good that that
+
+271
+00:09:01,680 --> 00:09:04,480
+that's a very good thing actually.
+
+272
+00:09:03,040 --> 00:09:05,920
+>> Uh all right let's move on a little bit.
+
+273
+00:09:04,480 --> 00:09:07,600
+Let's talk about Wall Street and the
+
+274
+00:09:05,920 --> 00:09:09,760
+what we call the great convergence
+
+275
+00:09:07,600 --> 00:09:11,360
+between tradi and crypto.
+
+276
+00:09:09,760 --> 00:09:13,839
+>> It's definitely happening right. Crypto
+
+277
+00:09:11,360 --> 00:09:16,160
+is building tokenized securities real
+
+278
+00:09:13,839 --> 00:09:18,240
+world assets things like that. Tradfi is
+
+279
+00:09:16,160 --> 00:09:19,760
+integrating cryptos or building on new
+
+280
+00:09:18,240 --> 00:09:23,120
+blockchains. Absolutely.
+
+281
+00:09:19,760 --> 00:09:25,760
+>> Um assuming they do eventually reach a
+
+282
+00:09:23,120 --> 00:09:27,600
+stasis of integration. Um where do you
+
+283
+00:09:25,760 --> 00:09:29,440
+think the line between decentralization
+
+284
+00:09:27,600 --> 00:09:31,440
+and centralization will have landed?
+
+285
+00:09:29,440 --> 00:09:33,360
+Will they will Treadfi make crypto more
+
+286
+00:09:31,440 --> 00:09:34,480
+centralized or will crypto make TRDFI
+
+287
+00:09:33,360 --> 00:09:37,279
+more decentralized?
+
+288
+00:09:34,480 --> 00:09:38,800
+>> Uh I think both will happen. U as you
+
+289
+00:09:37,279 --> 00:09:40,880
+said we're seeing that convergence
+
+290
+00:09:38,800 --> 00:09:42,959
+already. And also in theory there
+
+291
+00:09:40,880 --> 00:09:44,959
+shouldn't be a convergence like crypto
+
+292
+00:09:42,959 --> 00:09:46,800
+is not a separate industry. Crypto is
+
+293
+00:09:44,959 --> 00:09:49,680
+just a new technology, new tool that
+
+294
+00:09:46,800 --> 00:09:51,839
+makes uh financial transactions uh that
+
+295
+00:09:49,680 --> 00:09:53,600
+facilitates financial transactions in a
+
+296
+00:09:51,839 --> 00:09:55,760
+higher speed, lower cost, more
+
+297
+00:09:53,600 --> 00:09:59,360
+transparent way, etc. So, it's just a
+
+298
+00:09:55,760 --> 00:10:02,480
+new tool. Um this is like you know um uh
+
+299
+00:09:59,360 --> 00:10:03,920
+there's no internet company, right? So
+
+300
+00:10:02,480 --> 00:10:05,680
+there are like internet infrastructure
+
+301
+00:10:03,920 --> 00:10:08,320
+companies like Cisco whatever, right?
+
+302
+00:10:05,680 --> 00:10:10,720
+right? Uh you don't make like um for
+
+303
+00:10:08,320 --> 00:10:12,240
+like know for bookstore you can you can
+
+304
+00:10:10,720 --> 00:10:14,480
+you can create an online version of it
+
+305
+00:10:12,240 --> 00:10:16,720
+and know you can grow big it doesn't
+
+306
+00:10:14,480 --> 00:10:19,600
+have to be a pure e-commerce company per
+
+307
+00:10:16,720 --> 00:10:21,040
+se right so um now traditional what we
+
+308
+00:10:19,600 --> 00:10:23,760
+call traditional financial companies
+
+309
+00:10:21,040 --> 00:10:25,440
+they can use blockchains it's open to
+
+310
+00:10:23,760 --> 00:10:27,519
+anyone they can use this new technology
+
+311
+00:10:25,440 --> 00:10:28,959
+they can use the bitcoin blockchain they
+
+312
+00:10:27,519 --> 00:10:30,160
+can develop their own blockchains they
+
+313
+00:10:28,959 --> 00:10:32,160
+can there's a variety of different
+
+314
+00:10:30,160 --> 00:10:34,240
+technologies all of most of all of them
+
+315
+00:10:32,160 --> 00:10:36,160
+are like most of them are open source
+
+316
+00:10:34,240 --> 00:10:38,480
+>> so anybody can adopt adopt this
+
+317
+00:10:36,160 --> 00:10:41,839
+technology. And then for the crypto uh
+
+318
+00:10:38,480 --> 00:10:43,680
+companies, crypto guys um they can offer
+
+319
+00:10:41,839 --> 00:10:45,279
+services very similar to traditional
+
+320
+00:10:43,680 --> 00:10:49,200
+financial services. Now they can provide
+
+321
+00:10:45,279 --> 00:10:52,399
+loans, savings, um trade stocks now. So
+
+322
+00:10:49,200 --> 00:10:54,800
+um um uh remittances, payments, all of
+
+323
+00:10:52,399 --> 00:10:56,000
+those things uh crypto can do. And they
+
+324
+00:10:54,800 --> 00:10:57,519
+don't have to be limited to crypto.
+
+325
+00:10:56,000 --> 00:10:59,120
+They're now integrating stable coins.
+
+326
+00:10:57,519 --> 00:11:01,440
+They have fiat fiat channels. They
+
+327
+00:10:59,120 --> 00:11:03,760
+handle like sort of fiat currencies as
+
+328
+00:11:01,440 --> 00:11:05,519
+well. So um they shouldn't be this
+
+329
+00:11:03,760 --> 00:11:06,800
+division. there should just be one. This
+
+330
+00:11:05,519 --> 00:11:08,560
+should just be the it's it's just the
+
+331
+00:11:06,800 --> 00:11:10,959
+financial industry. It's the fintech
+
+332
+00:11:08,560 --> 00:11:12,800
+industry. Um and now it's just more
+
+333
+00:11:10,959 --> 00:11:15,440
+global. Um it's just with this new
+
+334
+00:11:12,800 --> 00:11:17,920
+blockchain is faster, cheaper. U many of
+
+335
+00:11:15,440 --> 00:11:19,839
+the crypto guys don't do a lot of the
+
+336
+00:11:17,920 --> 00:11:22,720
+traditional what the trai the structure
+
+337
+00:11:19,839 --> 00:11:24,000
+is different. So um so I think we're
+
+338
+00:11:22,720 --> 00:11:25,279
+definitely going to see that well we're
+
+339
+00:11:24,000 --> 00:11:27,279
+definitely going to see that convergence
+
+340
+00:11:25,279 --> 00:11:30,000
+and um there shouldn't be a convergence
+
+341
+00:11:27,279 --> 00:11:31,920
+per se. It just be one industry. Uh so I
+
+342
+00:11:30,000 --> 00:11:34,160
+think that's good to see on the
+
+343
+00:11:31,920 --> 00:11:37,839
+decentralization versus centralization
+
+344
+00:11:34,160 --> 00:11:40,560
+part. Yes. Any any platform any company
+
+345
+00:11:37,839 --> 00:11:42,640
+in in in the industry is part is a part
+
+346
+00:11:40,560 --> 00:11:45,040
+is part of a centralization. Even any
+
+347
+00:11:42,640 --> 00:11:47,120
+team any any project that has more than
+
+348
+00:11:45,040 --> 00:11:49,120
+one person is centralization. Yeah.
+
+349
+00:11:47,120 --> 00:11:50,880
+>> Right. So the more but you know humans
+
+350
+00:11:49,120 --> 00:11:53,040
+we have network effects. We like to we
+
+351
+00:11:50,880 --> 00:11:55,519
+have we we we usually work in a team. um
+
+352
+00:11:53,040 --> 00:11:58,079
+very few guys can work solo with AI that
+
+353
+00:11:55,519 --> 00:12:01,200
+might change um to some extent but no we
+
+354
+00:11:58,079 --> 00:12:04,000
+we need a team of people usually uh so
+
+355
+00:12:01,200 --> 00:12:05,200
+um and then but the technology is always
+
+356
+00:12:04,000 --> 00:12:07,760
+evolving to be more or more
+
+357
+00:12:05,200 --> 00:12:10,160
+decentralized so I think um both will
+
+358
+00:12:07,760 --> 00:12:12,240
+happen the centralization aspects of it
+
+359
+00:12:10,160 --> 00:12:15,120
+um and the decentraliz decentralization
+
+360
+00:12:12,240 --> 00:12:17,680
+of it so I think also many people sort
+
+361
+00:12:15,120 --> 00:12:19,680
+of have a binary view of centralization
+
+362
+00:12:17,680 --> 00:12:22,480
+versus decentralization in a
+
+363
+00:12:19,680 --> 00:12:24,560
+decentralized world anybody can work
+
+364
+00:12:22,480 --> 00:12:26,079
+together, right? So, you should
+
+365
+00:12:24,560 --> 00:12:27,360
+decentralized world should accommodate
+
+366
+00:12:26,079 --> 00:12:29,680
+centralized players.
+
+367
+00:12:27,360 --> 00:12:32,160
+>> Um the centralized players if they offer
+
+368
+00:12:29,680 --> 00:12:34,240
+really good services at a at a low cost,
+
+369
+00:12:32,160 --> 00:12:36,079
+very secure, then they will gather more
+
+370
+00:12:34,240 --> 00:12:38,560
+and more users. There's network effects.
+
+371
+00:12:36,079 --> 00:12:41,200
+Um and uh that causes small groups of
+
+372
+00:12:38,560 --> 00:12:43,120
+centralization. Of course, if um
+
+373
+00:12:41,200 --> 00:12:44,959
+monopolies have advantages and
+
+374
+00:12:43,120 --> 00:12:48,880
+disadvantages, we've seen that many in
+
+375
+00:12:44,959 --> 00:12:50,880
+history. Um so, uh yeah. So but
+
+376
+00:12:48,880 --> 00:12:54,079
+companies who abuse the monopoly power
+
+377
+00:12:50,880 --> 00:12:56,480
+usually uh lose their market u monopoly
+
+378
+00:12:54,079 --> 00:12:58,240
+over time. It may take a while but that
+
+379
+00:12:56,480 --> 00:13:01,040
+will happen and they just give new
+
+380
+00:12:58,240 --> 00:13:03,279
+entrance opportunities. So um so I think
+
+381
+00:13:01,040 --> 00:13:06,079
+yeah the the it's it's going to be
+
+382
+00:13:03,279 --> 00:13:07,760
+always coexist uh to some extent u but
+
+383
+00:13:06,079 --> 00:13:09,760
+I'm a strong proponent for
+
+384
+00:13:07,760 --> 00:13:11,200
+decentralization. Um so I think the
+
+385
+00:13:09,760 --> 00:13:13,920
+technology will continue to push forward
+
+386
+00:13:11,200 --> 00:13:15,519
+in the dec uh more and more tools will
+
+387
+00:13:13,920 --> 00:13:17,519
+become more and more decentralized. some
+
+388
+00:13:15,519 --> 00:13:20,240
+of the banks and card networks are now
+
+389
+00:13:17,519 --> 00:13:21,839
+building their own blockchains because I
+
+390
+00:13:20,240 --> 00:13:23,200
+think and you're totally right you know
+
+391
+00:13:21,839 --> 00:13:25,040
+you can build a business on top of a
+
+392
+00:13:23,200 --> 00:13:28,240
+decentralized platform but I think
+
+393
+00:13:25,040 --> 00:13:30,320
+they've been resistant to allowing their
+
+394
+00:13:28,240 --> 00:13:31,519
+assets to go on the decentralized
+
+395
+00:13:30,320 --> 00:13:33,120
+platforms
+
+396
+00:13:31,519 --> 00:13:35,600
+>> um so even some of them are building
+
+397
+00:13:33,120 --> 00:13:37,440
+semi-entralized blockchains
+
+398
+00:13:35,600 --> 00:13:40,480
+>> um some examples there was Mastercard
+
+399
+00:13:37,440 --> 00:13:42,399
+announced the new one MTN right circle
+
+400
+00:13:40,480 --> 00:13:43,440
+>> and you know without passing any like
+
+401
+00:13:42,399 --> 00:13:44,880
+some of these are more or less
+
+402
+00:13:43,440 --> 00:13:46,720
+decentralized than others but tether
+
+403
+00:13:44,880 --> 00:13:49,519
+Circle, Stripe are all building stable
+
+404
+00:13:46,720 --> 00:13:51,360
+coin focused blockchains. Got Canton now
+
+405
+00:13:49,519 --> 00:13:52,320
+which is from digital assets. So it's
+
+406
+00:13:51,360 --> 00:13:55,040
+like the
+
+407
+00:13:52,320 --> 00:13:57,040
+>> you know the next iteration of the sort
+
+408
+00:13:55,040 --> 00:14:00,320
+of classic permission blockchain.
+
+409
+00:13:57,040 --> 00:14:02,880
+>> Um you know is that
+
+410
+00:14:00,320 --> 00:14:06,320
+why aren't they building on BNB,
+
+411
+00:14:02,880 --> 00:14:08,480
+Ethereum, Solana and also should they?
+
+412
+00:14:06,320 --> 00:14:10,160
+Ah okay I think well in a decentralized
+
+413
+00:14:08,480 --> 00:14:11,680
+world if if you force everyone to build
+
+414
+00:14:10,160 --> 00:14:13,120
+on specific blockchain or everyone
+
+415
+00:14:11,680 --> 00:14:15,519
+anyone can build their own blockchain
+
+416
+00:14:13,120 --> 00:14:17,120
+that's what the decentralized ethos is
+
+417
+00:14:15,519 --> 00:14:18,639
+and then I think the more different
+
+418
+00:14:17,120 --> 00:14:20,399
+blockchains they are the better it is
+
+419
+00:14:18,639 --> 00:14:22,959
+actually for the consumers to to an
+
+420
+00:14:20,399 --> 00:14:25,519
+extent right sometimes cause consumer uh
+
+421
+00:14:22,959 --> 00:14:27,920
+confusion and uh liquidity segmentation
+
+422
+00:14:25,519 --> 00:14:30,720
+etc but by and large the more choices we
+
+423
+00:14:27,920 --> 00:14:32,480
+have the better um and and over time
+
+424
+00:14:30,720 --> 00:14:34,880
+like the consumers it will be clear
+
+425
+00:14:32,480 --> 00:14:35,839
+which which will uh which ones will have
+
+426
+00:14:34,880 --> 00:14:40,320
+usage
+
+427
+00:14:35,839 --> 00:14:41,839
+Um and uh uh it's also not clear that um
+
+428
+00:14:40,320 --> 00:14:42,800
+the majority of people just care about
+
+429
+00:14:41,839 --> 00:14:44,720
+only care about central
+
+430
+00:14:42,800 --> 00:14:46,800
+decentralization. I think most people
+
+431
+00:14:44,720 --> 00:14:50,000
+care about low cost, secure, easy to
+
+432
+00:14:46,800 --> 00:14:51,920
+ease of use um and those basic things.
+
+433
+00:14:50,000 --> 00:14:54,399
+Um and most people
+
+434
+00:14:51,920 --> 00:14:55,519
+>> like we're hardcore uh Bitcoiners and or
+
+435
+00:14:54,399 --> 00:14:57,519
+crypto guys. Yeah.
+
+436
+00:14:55,519 --> 00:14:59,440
+>> And um we talk about decentralization.
+
+437
+00:14:57,519 --> 00:15:00,800
+We understand the implications of that,
+
+438
+00:14:59,440 --> 00:15:02,320
+but most people just look at the
+
+439
+00:15:00,800 --> 00:15:04,160
+results, right? So they they just want
+
+440
+00:15:02,320 --> 00:15:07,040
+low cost, easy e ease of use and
+
+441
+00:15:04,160 --> 00:15:09,680
+security um and freedom. Um so if those
+
+442
+00:15:07,040 --> 00:15:11,920
+guys uh you know traditional uh large
+
+443
+00:15:09,680 --> 00:15:13,920
+financial players um if they de they
+
+444
+00:15:11,920 --> 00:15:16,880
+want to develop their own their own
+
+445
+00:15:13,920 --> 00:15:18,639
+proprietary blockchains um and they
+
+446
+00:15:16,880 --> 00:15:20,800
+somehow get people to use them then
+
+447
+00:15:18,639 --> 00:15:22,720
+kudos to them. But I think more and more
+
+448
+00:15:20,800 --> 00:15:24,480
+people is going to demand more freedom
+
+449
+00:15:22,720 --> 00:15:26,880
+because now there's this side with uh
+
+450
+00:15:24,480 --> 00:15:29,360
+the true sort of decentralized uh crypto
+
+451
+00:15:26,880 --> 00:15:32,000
+world that have uh much higher degree of
+
+452
+00:15:29,360 --> 00:15:34,399
+freedom and much lower cost etc. So it
+
+453
+00:15:32,000 --> 00:15:37,040
+this puts the pressure on them to become
+
+454
+00:15:34,399 --> 00:15:39,040
+that. Let's say look um if a few large
+
+455
+00:15:37,040 --> 00:15:40,959
+companies develop a sta uh their own
+
+456
+00:15:39,040 --> 00:15:42,160
+stable coin that's on the blockchain on
+
+457
+00:15:40,959 --> 00:15:45,199
+their own blockchain but you can't
+
+458
+00:15:42,160 --> 00:15:48,079
+transfer to to a guy across the world um
+
+459
+00:15:45,199 --> 00:15:49,839
+then they will limit the usage right so
+
+460
+00:15:48,079 --> 00:15:51,279
+I think people the the demand is there
+
+461
+00:15:49,839 --> 00:15:53,839
+we want we want we want to be able to
+
+462
+00:15:51,279 --> 00:15:57,040
+trans transact with anyone in the world
+
+463
+00:15:53,839 --> 00:15:59,040
+instantaneously at low cost um without
+
+464
+00:15:57,040 --> 00:16:00,639
+worrying about borders um all all of
+
+465
+00:15:59,040 --> 00:16:04,399
+this stuff of of course compliance is
+
+466
+00:16:00,639 --> 00:16:06,800
+important um so um yeah so uh it dep at
+
+467
+00:16:04,399 --> 00:16:08,560
+the end of the day it dep it's what the
+
+468
+00:16:06,800 --> 00:16:09,839
+consumers choose to use. Yeah,
+
+469
+00:16:08,560 --> 00:16:11,759
+>> I think that's a fair way of looking at
+
+470
+00:16:09,839 --> 00:16:14,800
+it. I I also personally think that like
+
+471
+00:16:11,759 --> 00:16:16,560
+a private permission blockchain, not
+
+472
+00:16:14,800 --> 00:16:18,240
+passing judgment on which what label
+
+473
+00:16:16,560 --> 00:16:19,120
+which of the specific ones I would label
+
+474
+00:16:18,240 --> 00:16:21,120
+that
+
+475
+00:16:19,120 --> 00:16:22,880
+>> um it feels a little bit like a like a
+
+476
+00:16:21,120 --> 00:16:24,720
+corporate internet
+
+477
+00:16:22,880 --> 00:16:26,240
+>> and like the public permissionless
+
+478
+00:16:24,720 --> 00:16:27,920
+general purpose blockchains are more
+
+479
+00:16:26,240 --> 00:16:30,320
+like the open internet. Yeah.
+
+480
+00:16:27,920 --> 00:16:32,800
+>> And so maybe there's a hub and spoke if
+
+481
+00:16:30,320 --> 00:16:34,399
+they still okay for some reason inside
+
+482
+00:16:32,800 --> 00:16:36,639
+their four walls they want it to be on
+
+483
+00:16:34,399 --> 00:16:38,880
+their chain but if they can bridge and
+
+484
+00:16:36,639 --> 00:16:40,800
+that's a knock on wood bridging is risky
+
+485
+00:16:38,880 --> 00:16:42,320
+these days but like if they can somehow
+
+486
+00:16:40,800 --> 00:16:45,519
+interconnect to the broader it's kind of
+
+487
+00:16:42,320 --> 00:16:47,199
+like the cosmos thesis yet again.
+
+488
+00:16:45,519 --> 00:16:49,839
+>> Yes. So you you have many you have many
+
+489
+00:16:47,199 --> 00:16:51,759
+like what do we call it like hubs and
+
+490
+00:16:49,839 --> 00:16:53,680
+>> spokes and hubs. Spokes and hubs right.
+
+491
+00:16:51,759 --> 00:16:55,680
+So it's totally possible like look look
+
+492
+00:16:53,680 --> 00:16:56,800
+and many countries they're not com
+
+493
+00:16:55,680 --> 00:16:58,399
+they're not they're not totally
+
+494
+00:16:56,800 --> 00:17:00,079
+comfortable with like a purely open
+
+495
+00:16:58,399 --> 00:17:01,600
+blockchain they they all they all want
+
+496
+00:17:00,079 --> 00:17:02,320
+their own national blockchain
+
+497
+00:17:01,600 --> 00:17:04,640
+>> is that true
+
+498
+00:17:02,320 --> 00:17:06,400
+>> yeah so like with many of my discussions
+
+499
+00:17:04,640 --> 00:17:08,000
+with different country leaders they all
+
+500
+00:17:06,400 --> 00:17:08,720
+want like a national blockchain right
+
+501
+00:17:08,000 --> 00:17:10,880
+>> so interesting
+
+502
+00:17:08,720 --> 00:17:12,480
+>> u but it's just the human psychology
+
+503
+00:17:10,880 --> 00:17:13,919
+takes them time to say look we're going
+
+504
+00:17:12,480 --> 00:17:15,520
+to let go control of money or we're
+
+505
+00:17:13,919 --> 00:17:18,480
+going to let go control of um the
+
+506
+00:17:15,520 --> 00:17:19,679
+financial sector in our country um so um
+
+507
+00:17:18,480 --> 00:17:22,079
+you know so that might be a stepping
+
+508
+00:17:19,679 --> 00:17:23,600
+stone u and over time you will evolve of
+
+509
+00:17:22,079 --> 00:17:25,839
+and also it's like for a large country
+
+510
+00:17:23,600 --> 00:17:27,600
+like say for the USA if all of Wall
+
+511
+00:17:25,839 --> 00:17:28,799
+Street somehow uses one or two
+
+512
+00:17:27,600 --> 00:17:31,360
+blockchains and that's kind of
+
+513
+00:17:28,799 --> 00:17:32,880
+proprietary all the big players that's
+
+514
+00:17:31,360 --> 00:17:34,640
+that's this you still see trillions of
+
+515
+00:17:32,880 --> 00:17:37,120
+dollars moving through those networks
+
+516
+00:17:34,640 --> 00:17:39,200
+and know that's fine um the retail guys
+
+517
+00:17:37,120 --> 00:17:41,760
+may not use may be cut out from that
+
+518
+00:17:39,200 --> 00:17:44,080
+even but that's fine as long as you know
+
+519
+00:17:41,760 --> 00:17:46,240
+a corporate internet
+
+520
+00:17:44,080 --> 00:17:48,000
+>> as long as know there's enough activity
+
+521
+00:17:46,240 --> 00:17:49,600
+on there you know that's fine like that
+
+522
+00:17:48,000 --> 00:17:51,520
+that's that that serves it purpose
+
+523
+00:17:49,600 --> 00:17:52,640
+>> so to each their own basically and we'll
+
+524
+00:17:51,520 --> 00:17:55,039
+see how it shakes out I guess.
+
+525
+00:17:52,640 --> 00:17:56,640
+>> Yeah. Yeah. So I guess especially for
+
+526
+00:17:55,039 --> 00:17:58,160
+when we when we advocating
+
+527
+00:17:56,640 --> 00:18:00,000
+decentralization
+
+528
+00:17:58,160 --> 00:18:01,840
+um decentralization is different from
+
+529
+00:18:00,000 --> 00:18:03,520
+like everyone have to use a open-source
+
+530
+00:18:01,840 --> 00:18:05,679
+single blockchain that's every if we
+
+531
+00:18:03,520 --> 00:18:07,280
+force everyone to use Bitcoin that
+
+532
+00:18:05,679 --> 00:18:08,480
+itself is actually not decentralization.
+
+533
+00:18:07,280 --> 00:18:09,760
+>> Yeah, that's authoritarianism [laughter]
+
+534
+00:18:08,480 --> 00:18:11,520
+basically. Yeah, that's right.
+
+535
+00:18:09,760 --> 00:18:13,280
+>> So it's a bit counterintuitive. Yeah,
+
+536
+00:18:11,520 --> 00:18:15,360
+>> that's that's a good point. Um let's
+
+537
+00:18:13,280 --> 00:18:19,200
+move on to some other topics. Uh Binance
+
+538
+00:18:15,360 --> 00:18:22,240
+built the modern perpetual swap. Um now
+
+539
+00:18:19,200 --> 00:18:24,559
+of course PERPS are and not then too but
+
+540
+00:18:22,240 --> 00:18:26,880
+even more so now they're sort of key
+
+541
+00:18:24,559 --> 00:18:28,960
+financial instrument today in crypto and
+
+542
+00:18:26,880 --> 00:18:30,880
+have been um you know even before
+
+543
+00:18:28,960 --> 00:18:33,280
+Binance obviously BitMEX had sort of the
+
+544
+00:18:30,880 --> 00:18:35,440
+one of the first per exchange I saying
+
+545
+00:18:33,280 --> 00:18:37,440
+like the per that Binance offers now are
+
+546
+00:18:35,440 --> 00:18:39,200
+the pers that people use
+
+547
+00:18:37,440 --> 00:18:40,799
+>> today so they modernized it but
+
+548
+00:18:39,200 --> 00:18:44,400
+separately though as long as you know
+
+549
+00:18:40,799 --> 00:18:48,320
+back into 201617 when Arthur Hayes had
+
+550
+00:18:44,400 --> 00:18:50,000
+pers on BIMx and later um these have and
+
+551
+00:18:48,320 --> 00:18:51,840
+a very important and highly efficient
+
+552
+00:18:50,000 --> 00:18:54,000
+and and for those who know how to use
+
+553
+00:18:51,840 --> 00:18:55,760
+them well, a great financial instrument.
+
+554
+00:18:54,000 --> 00:18:59,039
+Now, it looks like we're going to get
+
+555
+00:18:55,760 --> 00:19:00,160
+per so legalization of crypto pers in
+
+556
+00:18:59,039 --> 00:19:02,880
+the US. So, you're going to see maybe
+
+557
+00:19:00,160 --> 00:19:05,840
+the big futures, you know, CME and SIBO
+
+558
+00:19:02,880 --> 00:19:08,080
+probably and whatever else CFTC licensed
+
+559
+00:19:05,840 --> 00:19:09,919
+entities trading cryptos, but also
+
+560
+00:19:08,080 --> 00:19:10,720
+perhaps stocks, per stocks.
+
+561
+00:19:09,919 --> 00:19:14,160
+>> Yeah. Y
+
+562
+00:19:10,720 --> 00:19:16,240
+>> um when they arrive officially in the US
+
+563
+00:19:14,160 --> 00:19:19,360
+or any major market, what happens to
+
+564
+00:19:16,240 --> 00:19:22,160
+like the um like you know quote unquote
+
+565
+00:19:19,360 --> 00:19:23,679
+offshore crypto exchange leading the per
+
+566
+00:19:22,160 --> 00:19:25,520
+world because that's been the case even
+
+567
+00:19:23,679 --> 00:19:25,760
+today. Hyperlid also as an example of
+
+568
+00:19:25,520 --> 00:19:28,160
+that.
+
+569
+00:19:25,760 --> 00:19:29,679
+>> Yeah. Yeah. Oh yeah. So there's quite a
+
+570
+00:19:28,160 --> 00:19:31,679
+lot of interesting implications there.
+
+571
+00:19:29,679 --> 00:19:32,160
+Um just Yeah. I think you you a long
+
+572
+00:19:31,679 --> 00:19:33,440
+question.
+
+573
+00:19:32,160 --> 00:19:34,960
+>> Yeah. Sure. Sure. Sure. That's quite
+
+574
+00:19:33,440 --> 00:19:38,559
+there's quite a few things there. I
+
+575
+00:19:34,960 --> 00:19:40,640
+think um um uh well first of all per
+
+576
+00:19:38,559 --> 00:19:42,960
+perpetual futures was not invented in
+
+577
+00:19:40,640 --> 00:19:43,760
+crypto right uh it was exist exists in
+
+578
+00:19:42,960 --> 00:19:44,640
+traditional finance
+
+579
+00:19:43,760 --> 00:19:46,160
+>> I think was was [clears throat] it the
+
+580
+00:19:44,640 --> 00:19:48,160
+first implementation though
+
+581
+00:19:46,160 --> 00:19:51,120
+>> a haste did the first implementation in
+
+582
+00:19:48,160 --> 00:19:53,600
+2014 uh in crypto at BitMax right and
+
+583
+00:19:51,120 --> 00:19:56,960
+then Binance was late Binance like only
+
+584
+00:19:53,600 --> 00:19:59,120
+started offering them in 2019 uh so five
+
+585
+00:19:56,960 --> 00:20:01,520
+years later um and there was a few
+
+586
+00:19:59,120 --> 00:20:04,320
+others offering different v varieties of
+
+587
+00:20:01,520 --> 00:20:06,160
+u uh not maybe not per futures but
+
+588
+00:20:04,320 --> 00:20:07,840
+delivery futures every Friday you have
+
+589
+00:20:06,160 --> 00:20:09,760
+to like you know um do a settlement a
+
+590
+00:20:07,840 --> 00:20:11,360
+rollover um so there was different
+
+591
+00:20:09,760 --> 00:20:13,440
+variations Binance started offering them
+
+592
+00:20:11,360 --> 00:20:15,760
+but Binance had the largest user base so
+
+593
+00:20:13,440 --> 00:20:17,120
+now know it's got the by far the best
+
+594
+00:20:15,760 --> 00:20:19,120
+liquidity and and the and the best
+
+595
+00:20:17,120 --> 00:20:23,600
+volume and also the best prices lowest
+
+596
+00:20:19,120 --> 00:20:25,840
+slippage etc um and now with u CME uh
+
+597
+00:20:23,600 --> 00:20:28,960
+this trai like traditional giant uh
+
+598
+00:20:25,840 --> 00:20:31,039
+futures exchanges um listing futures now
+
+599
+00:20:28,960 --> 00:20:33,440
+um I think it's it's good because um
+
+600
+00:20:31,039 --> 00:20:35,280
+they serve a market that we never serve
+
+601
+00:20:33,440 --> 00:20:38,080
+well that Binance never served, right?
+
+602
+00:20:35,280 --> 00:20:40,000
+So, um, uh, Binance never served those
+
+603
+00:20:38,080 --> 00:20:42,400
+instit in institutions in the US. Uh,
+
+604
+00:20:40,000 --> 00:20:44,720
+well, Binance doesn't Binance Global
+
+605
+00:20:42,400 --> 00:20:48,159
+doesn't serve any US.
+
+606
+00:20:44,720 --> 00:20:50,159
+Um, and, um, uh, and which one will get
+
+607
+00:20:48,159 --> 00:20:51,520
+bigger? That's actually le a less
+
+608
+00:20:50,159 --> 00:20:53,520
+important question, at least to me
+
+609
+00:20:51,520 --> 00:20:55,200
+personally. As long as we have more
+
+610
+00:20:53,520 --> 00:20:58,400
+people trading crypto, it is better.
+
+611
+00:20:55,200 --> 00:21:01,440
+most likely if uh CME or Seabbot or
+
+612
+00:20:58,400 --> 00:21:04,000
+whoever else in in the US the uh they
+
+613
+00:21:01,440 --> 00:21:06,240
+can get all the institutions trading um
+
+614
+00:21:04,000 --> 00:21:08,159
+crypto futures uh and that's more
+
+615
+00:21:06,240 --> 00:21:09,440
+liquidity that there will be guys who
+
+616
+00:21:08,159 --> 00:21:10,640
+can trade on both platforms that will
+
+617
+00:21:09,440 --> 00:21:12,320
+bridge liquidity there will be more
+
+618
+00:21:10,640 --> 00:21:14,159
+liquidity for crypto trading and that
+
+619
+00:21:12,320 --> 00:21:16,480
+and I think that's really really good.
+
+620
+00:21:14,159 --> 00:21:18,400
+So uh I'm less concerned about like know
+
+621
+00:21:16,480 --> 00:21:20,960
+who has to be bigger than the other. Uh
+
+622
+00:21:18,400 --> 00:21:23,200
+I think uh the more people uh have
+
+623
+00:21:20,960 --> 00:21:25,600
+access to crypto uh per trading the
+
+624
+00:21:23,200 --> 00:21:27,280
+better liquidity is and the the liquid
+
+625
+00:21:25,600 --> 00:21:29,280
+liquid better liquidity is actually the
+
+626
+00:21:27,280 --> 00:21:30,799
+best protection for consumers. When when
+
+627
+00:21:29,280 --> 00:21:33,039
+there's good liquidity you see much less
+
+628
+00:21:30,799 --> 00:21:35,760
+crashes etc. Yeah. And much less
+
+629
+00:21:33,039 --> 00:21:38,799
+liquidations et um so just better
+
+630
+00:21:35,760 --> 00:21:41,280
+protection. And then um you throw the
+
+631
+00:21:38,799 --> 00:21:43,520
+last part which is well now the crypto
+
+632
+00:21:41,280 --> 00:21:45,679
+exchanges are trading like stock futures
+
+633
+00:21:43,520 --> 00:21:48,799
+um and there's many other things that we
+
+634
+00:21:45,679 --> 00:21:50,559
+they're not trading yet. uh even the the
+
+635
+00:21:48,799 --> 00:21:52,240
+unstructured products that's not traded
+
+636
+00:21:50,559 --> 00:21:54,159
+today could potentially be structured
+
+637
+00:21:52,240 --> 00:21:57,039
+and enough to be traded on the
+
+638
+00:21:54,159 --> 00:21:58,240
+blockchain and FX can trading I I
+
+639
+00:21:57,039 --> 00:21:58,799
+predict will will move to the
+
+640
+00:21:58,240 --> 00:21:59,120
+blockchain.
+
+641
+00:21:58,799 --> 00:22:00,960
+>> Yeah.
+
+642
+00:21:59,120 --> 00:22:03,600
+>> Um every country will eventually have
+
+643
+00:22:00,960 --> 00:22:05,440
+their own stable coins and then uh those
+
+644
+00:22:03,600 --> 00:22:08,400
+will be available to be trading onchain
+
+645
+00:22:05,440 --> 00:22:10,320
+247. Um and I think the FX price
+
+646
+00:22:08,400 --> 00:22:11,679
+discovery might actually happen on
+
+647
+00:22:10,320 --> 00:22:13,760
+onchain because it's much more
+
+648
+00:22:11,679 --> 00:22:15,919
+transparent, much easier to see and much
+
+649
+00:22:13,760 --> 00:22:17,600
+more continuous. So I think all of those
+
+650
+00:22:15,919 --> 00:22:19,360
+things will happen. Will that have a
+
+651
+00:22:17,600 --> 00:22:22,320
+negative impact in traditional like you
+
+652
+00:22:19,360 --> 00:22:24,240
+know stocks stock markets? I think so.
+
+653
+00:22:22,320 --> 00:22:27,360
+But again the the the at least for
+
+654
+00:22:24,240 --> 00:22:29,760
+Binance uh ecosystem for what I can see
+
+655
+00:22:27,360 --> 00:22:32,799
+the uh the the the users are very
+
+656
+00:22:29,760 --> 00:22:35,440
+separate right. So uh today like you
+
+657
+00:22:32,799 --> 00:22:37,280
+know you live the guys in who live in
+
+658
+00:22:35,440 --> 00:22:39,919
+New York and in this country have well
+
+659
+00:22:37,280 --> 00:22:42,159
+we can buy stock whatever you want but
+
+660
+00:22:39,919 --> 00:22:43,679
+most other people outside of the country
+
+661
+00:22:42,159 --> 00:22:45,440
+uh cannot buy it's not that easy for
+
+662
+00:22:43,679 --> 00:22:46,720
+them to buy US stocks. Some of them,
+
+663
+00:22:45,440 --> 00:22:48,400
+some of them can, but it's actually a
+
+664
+00:22:46,720 --> 00:22:50,880
+very small number percentage- wise in
+
+665
+00:22:48,400 --> 00:22:52,559
+the population. Which country don't want
+
+666
+00:22:50,880 --> 00:22:54,159
+the stocks to be available to everyone
+
+667
+00:22:52,559 --> 00:22:56,559
+in the world, right? So like look, if
+
+668
+00:22:54,159 --> 00:22:58,159
+you list SpaceX, why don't you want
+
+669
+00:22:56,559 --> 00:22:59,600
+everyone in the world to buy the stock,
+
+670
+00:22:58,159 --> 00:23:01,520
+right? Which company wouldn't want that?
+
+671
+00:22:59,600 --> 00:23:03,440
+Which stock exchange wouldn't want that?
+
+672
+00:23:01,520 --> 00:23:05,200
+Which country wouldn't want everybody in
+
+673
+00:23:03,440 --> 00:23:06,480
+the world to buy your government bond,
+
+674
+00:23:05,200 --> 00:23:08,240
+right? Why would you prevent other
+
+675
+00:23:06,480 --> 00:23:11,679
+people from buying your government bond?
+
+676
+00:23:08,240 --> 00:23:13,120
+Uh so um and look if one country buys a
+
+677
+00:23:11,679 --> 00:23:14,640
+lot of your government bond that's
+
+678
+00:23:13,120 --> 00:23:16,480
+actually the easiest reason for you guys
+
+679
+00:23:14,640 --> 00:23:18,080
+not to have a conflict [laughter] right
+
+680
+00:23:16,480 --> 00:23:21,200
+so so you guys have to negotiate on
+
+681
+00:23:18,080 --> 00:23:23,280
+trade and not attack each other so um uh
+
+682
+00:23:21,200 --> 00:23:25,120
+so uh so I think the world is becoming a
+
+683
+00:23:23,280 --> 00:23:27,120
+smaller place uh even though even with
+
+684
+00:23:25,120 --> 00:23:29,200
+all the geopolitical tension etc I think
+
+685
+00:23:27,120 --> 00:23:31,520
+the world is becoming a small place um
+
+686
+00:23:29,200 --> 00:23:33,200
+and also I think uh crypto exchanges uh
+
+687
+00:23:31,520 --> 00:23:35,280
+providing access for people who are not
+
+688
+00:23:33,200 --> 00:23:37,760
+in that country to buy your stock it
+
+689
+00:23:35,280 --> 00:23:40,159
+doesn't hurt the current stock exchanges
+
+690
+00:23:37,760 --> 00:23:41,760
+is in the country. Um it actually helps
+
+691
+00:23:40,159 --> 00:23:44,559
+it uh it's better liquidity, better
+
+692
+00:23:41,760 --> 00:23:46,400
+demand, etc. So yeah, that's my view.
+
+693
+00:23:44,559 --> 00:23:48,640
+>> Okay. I I like your point about uh
+
+694
+00:23:46,400 --> 00:23:51,840
+increasing access to stocks being one of
+
+695
+00:23:48,640 --> 00:23:54,000
+the key benefits to tokenizing stocks.
+
+696
+00:23:51,840 --> 00:23:55,679
+>> Um and I did look into this also. I was
+
+697
+00:23:54,000 --> 00:23:57,039
+surprised to find it. It's actually cost
+
+698
+00:23:55,679 --> 00:23:59,200
+prohibitive for many people to buy
+
+699
+00:23:57,039 --> 00:24:00,400
+stocks. Here we can, you know, can buy
+
+700
+00:23:59,200 --> 00:24:04,000
+them on I think you can buy them right
+
+701
+00:24:00,400 --> 00:24:05,520
+in Cash App or like in Venmo. Uh but I
+
+702
+00:24:04,000 --> 00:24:07,120
+mean it's really quite easy. But, you
+
+703
+00:24:05,520 --> 00:24:09,600
+know, in some countries I've heard, uh,
+
+704
+00:24:07,120 --> 00:24:12,559
+you know, to even be able to open an
+
+705
+00:24:09,600 --> 00:24:14,400
+account that can trade a US ADR there or
+
+706
+00:24:12,559 --> 00:24:15,919
+has access to a, I don't know,
+
+707
+00:24:14,400 --> 00:24:17,600
+corresponding broker that can place the
+
+708
+00:24:15,919 --> 00:24:20,159
+trade here has like really high
+
+709
+00:24:17,600 --> 00:24:21,919
+minimums, for example. You know, $5,000,
+
+710
+00:24:20,159 --> 00:24:23,679
+which, you know, most of the world can't
+
+711
+00:24:21,919 --> 00:24:24,480
+actually put up as a minimum. Yeah.
+
+712
+00:24:23,679 --> 00:24:26,640
+>> Um, yeah.
+
+713
+00:24:24,480 --> 00:24:26,960
+>> And each trade is like two to 5%.
+
+714
+00:24:26,640 --> 00:24:28,799
+>> Right.
+
+715
+00:24:26,960 --> 00:24:31,520
+>> Right. So, how many times can you trade?
+
+716
+00:24:28,799 --> 00:24:33,120
+So, um, uh, and also like and also just
+
+717
+00:24:31,520 --> 00:24:34,559
+many parts you just don't have access.
+
+718
+00:24:33,120 --> 00:24:34,880
+Doesn't matter how much premium you want
+
+719
+00:24:34,559 --> 00:24:35,760
+to pay.
+
+720
+00:24:34,880 --> 00:24:37,679
+>> Just can't get it in at all.
+
+721
+00:24:35,760 --> 00:24:40,640
+>> Just just you just kind of get access.
+
+722
+00:24:37,679 --> 00:24:43,440
+>> Um I want to ask about Hyperlid. It's
+
+723
+00:24:40,640 --> 00:24:45,840
+one of the few actually positive coins
+
+724
+00:24:43,440 --> 00:24:48,400
+in return this year here to date. Um but
+
+725
+00:24:45,840 --> 00:24:51,200
+also obviously a big and growing uh
+
+726
+00:24:48,400 --> 00:24:53,760
+platform. It sits somewhere I would say
+
+727
+00:24:51,200 --> 00:24:56,000
+more decentralized than Binance although
+
+728
+00:24:53,760 --> 00:24:58,080
+less decentralized than like unis swap
+
+729
+00:24:56,000 --> 00:24:59,840
+as an example. Somewhere in the middle.
+
+730
+00:24:58,080 --> 00:25:01,760
+Um have you met Jeff? What are your
+
+731
+00:24:59,840 --> 00:25:02,240
+thoughts on hyperlquid you know just
+
+732
+00:25:01,760 --> 00:25:04,080
+generally?
+
+733
+00:25:02,240 --> 00:25:06,000
+>> Sure. Sure. Um, so we have some
+
+734
+00:25:04,080 --> 00:25:07,360
+interesting history with Hyperlid that
+
+735
+00:25:06,000 --> 00:25:09,200
+that I didn't know about with Jeff
+
+736
+00:25:07,360 --> 00:25:11,440
+specifically. Uh, I never met him in
+
+737
+00:25:09,200 --> 00:25:14,400
+person. Um, he was actually in one of
+
+738
+00:25:11,440 --> 00:25:15,039
+the earliest u, uh, easy labs incubation
+
+739
+00:25:14,400 --> 00:25:15,279
+seasons,
+
+740
+00:25:15,039 --> 00:25:17,279
+>> right?
+
+741
+00:25:15,279 --> 00:25:19,840
+>> Uh, so I assume he's a very smart young
+
+742
+00:25:17,279 --> 00:25:22,480
+kid. Um, and he obviously very capable.
+
+743
+00:25:19,840 --> 00:25:24,080
+>> Um, so uh, so this, you know, some long
+
+744
+00:25:22,480 --> 00:25:25,840
+history there and also I think the
+
+745
+00:25:24,080 --> 00:25:29,679
+hyperlquid invention is actually
+
+746
+00:25:25,840 --> 00:25:31,760
+awesome. Um, he proved a new uh, market
+
+747
+00:25:29,679 --> 00:25:33,520
+niche um, that wasn't there. Well, that
+
+748
+00:25:31,760 --> 00:25:35,760
+was not proven by other people before.
+
+749
+00:25:33,520 --> 00:25:38,159
+So, he created something new. Uh, which
+
+750
+00:25:35,760 --> 00:25:40,080
+is which is very interesting. Um, and
+
+751
+00:25:38,159 --> 00:25:43,279
+apparently he has a very small team. Um,
+
+752
+00:25:40,080 --> 00:25:45,600
+and um uh I'm sure you know uh uh those
+
+753
+00:25:43,279 --> 00:25:48,240
+that team is very capable. Um they
+
+754
+00:25:45,600 --> 00:25:51,039
+occupy a niche that Binance the exchange
+
+755
+00:25:48,240 --> 00:25:53,360
+cannot compete. Um they you know they
+
+756
+00:25:51,039 --> 00:25:55,600
+they don't have KYC. Um they claim
+
+757
+00:25:53,360 --> 00:25:58,559
+they're decentralized. Um again I'm not
+
+758
+00:25:55,600 --> 00:26:00,480
+going to comment on another project. um
+
+759
+00:25:58,559 --> 00:26:02,320
+uh based on the technology we see there
+
+760
+00:26:00,480 --> 00:26:04,640
+they have a lot of control um it's a
+
+761
+00:26:02,320 --> 00:26:07,039
+small team that controls the platform um
+
+762
+00:26:04,640 --> 00:26:08,480
+so whether that's decent well they they
+
+763
+00:26:07,039 --> 00:26:10,159
+use a smart contract for deposit
+
+764
+00:26:08,480 --> 00:26:12,640
+withdrawals that that claim that's
+
+765
+00:26:10,159 --> 00:26:14,080
+that's decentralized um I'm not going to
+
+766
+00:26:12,640 --> 00:26:16,320
+get into the definition of it that's not
+
+767
+00:26:14,080 --> 00:26:18,880
+my place so but they serve a niche where
+
+768
+00:26:16,320 --> 00:26:20,880
+look in the in the US if you have a VPN
+
+769
+00:26:18,880 --> 00:26:25,600
+you can use it right so everybody knows
+
+770
+00:26:20,880 --> 00:26:28,000
+that um so yeah uh but they they they no
+
+771
+00:26:25,600 --> 00:26:29,840
+they have pretty decent volumes Um and
+
+772
+00:26:28,000 --> 00:26:32,320
+they are able to service many users that
+
+773
+00:26:29,840 --> 00:26:33,919
+Binance cannot serve. Uh which I again
+
+774
+00:26:32,320 --> 00:26:36,720
+it's not in my my place to comment
+
+775
+00:26:33,919 --> 00:26:38,240
+whether that's good or not. Um so uh but
+
+776
+00:26:36,720 --> 00:26:39,840
+they they they have some technology
+
+777
+00:26:38,240 --> 00:26:40,480
+innovation that I think is is quite
+
+778
+00:26:39,840 --> 00:26:42,720
+good. Yeah.
+
+779
+00:26:40,480 --> 00:26:44,799
+>> Yeah. Um and well I mean just since you
+
+780
+00:26:42,720 --> 00:26:49,200
+raised it too the you know the history
+
+781
+00:26:44,799 --> 00:26:50,720
+of no KYC crypto exchange is filled with
+
+782
+00:26:49,200 --> 00:26:52,320
+people getting in trouble for that. Like
+
+783
+00:26:50,720 --> 00:26:53,919
+should they be Yeah. Should they be
+
+784
+00:26:52,320 --> 00:26:56,080
+worried?
+
+785
+00:26:53,919 --> 00:26:58,320
+>> I would never do what they do. uh given
+
+786
+00:26:56,080 --> 00:27:00,320
+what I've experienced in my life. Um but
+
+787
+00:26:58,320 --> 00:27:03,840
+I'm not a legal person. I cannot give
+
+788
+00:27:00,320 --> 00:27:05,840
+other people people advice. Um I no um
+
+789
+00:27:03,840 --> 00:27:07,360
+again I think I assume they have good
+
+790
+00:27:05,840 --> 00:27:10,880
+lawyers. Um they're making a lot of
+
+791
+00:27:07,360 --> 00:27:12,320
+money. Um so I assume they're they check
+
+792
+00:27:10,880 --> 00:27:13,520
+they handle they're big boys. They
+
+793
+00:27:12,320 --> 00:27:16,720
+handle themselves.
+
+794
+00:27:13,520 --> 00:27:19,279
+>> That's a fair answer. Um so not per
+
+795
+00:27:16,720 --> 00:27:21,679
+markets. I think one of the breakout
+
+796
+00:27:19,279 --> 00:27:23,440
+sort of new segments of it's not
+
+797
+00:27:21,679 --> 00:27:25,520
+necessar it's not really crypto although
+
+798
+00:27:23,440 --> 00:27:27,120
+poly market the I think the I think
+
+799
+00:27:25,520 --> 00:27:28,880
+they're the largest
+
+800
+00:27:27,120 --> 00:27:29,679
+>> um or at least the largest independent
+
+801
+00:27:28,880 --> 00:27:32,960
+one
+
+802
+00:27:29,679 --> 00:27:34,480
+>> um is built on crypto um
+
+803
+00:27:32,960 --> 00:27:35,679
+>> what are your thoughts on prediction
+
+804
+00:27:34,480 --> 00:27:38,480
+market you know a lot of jurisdictions
+
+805
+00:27:35,679 --> 00:27:40,880
+are both inside the US certain US states
+
+806
+00:27:38,480 --> 00:27:43,120
+are mad then different countries are
+
+807
+00:27:40,880 --> 00:27:45,520
+either grappling with them or trying to
+
+808
+00:27:43,120 --> 00:27:48,159
+regulate them or mad about them
+
+809
+00:27:45,520 --> 00:27:51,039
+>> um but also just they appear to have a
+
+810
+00:27:48,159 --> 00:27:52,799
+fair amount of utility uh especially in
+
+811
+00:27:51,039 --> 00:27:54,720
+certain circumstances where you would
+
+812
+00:27:52,799 --> 00:27:56,320
+have to trade a proxy to an event rather
+
+813
+00:27:54,720 --> 00:27:58,000
+than the event itself
+
+814
+00:27:56,320 --> 00:27:59,360
+>> um either on the regulation or just on
+
+815
+00:27:58,000 --> 00:28:00,399
+the product the concept how do you think
+
+816
+00:27:59,360 --> 00:28:02,559
+about prediction markets now
+
+817
+00:28:00,399 --> 00:28:04,640
+>> I also think that's a very clever or
+
+818
+00:28:02,559 --> 00:28:06,000
+good invention well that's not a new
+
+819
+00:28:04,640 --> 00:28:07,760
+invention prediction markets have been
+
+820
+00:28:06,000 --> 00:28:08,720
+around for a while event futures
+
+821
+00:28:07,760 --> 00:28:10,320
+prediction markets
+
+822
+00:28:08,720 --> 00:28:11,760
+>> I remember trading on one called in
+
+823
+00:28:10,320 --> 00:28:13,600
+trade I think that was based out of the
+
+824
+00:28:11,760 --> 00:28:15,200
+UK one time presidential elections like
+
+825
+00:28:13,600 --> 00:28:16,799
+in 2008 I could trade there
+
+826
+00:28:15,200 --> 00:28:20,159
+>> yeah they they come and goal, right? So,
+
+827
+00:28:16,799 --> 00:28:21,120
+as as you said, they they that feels a
+
+828
+00:28:20,159 --> 00:28:22,880
+little bit like betting, right? You're
+
+829
+00:28:21,120 --> 00:28:24,559
+betting on you're like going to kind of
+
+830
+00:28:22,880 --> 00:28:26,960
+predict an outcome of an event.
+
+831
+00:28:24,559 --> 00:28:29,200
+>> Uh so, uh again, I'm not a lawyer. Uh
+
+832
+00:28:26,960 --> 00:28:31,520
+there's many I I assume there's many
+
+833
+00:28:29,200 --> 00:28:33,840
+different reg uh different regulations
+
+834
+00:28:31,520 --> 00:28:37,520
+different places about this particular
+
+835
+00:28:33,840 --> 00:28:40,080
+uh u uh industry. Um but it does feel
+
+836
+00:28:37,520 --> 00:28:41,600
+like um at least in um in my when I
+
+837
+00:28:40,080 --> 00:28:44,399
+listen to talks by like for example the
+
+838
+00:28:41,600 --> 00:28:46,559
+CFTC chairman Michael Silic he's no in
+
+839
+00:28:44,399 --> 00:28:48,720
+multiple talk he's he's quite he's quite
+
+840
+00:28:46,559 --> 00:28:49,600
+supportive of it at least in tone I I
+
+841
+00:28:48,720 --> 00:28:51,440
+don't know I don't know the legal
+
+842
+00:28:49,600 --> 00:28:53,279
+definitions how they define it but at
+
+843
+00:28:51,440 --> 00:28:55,200
+least in tone he know he's very
+
+844
+00:28:53,279 --> 00:28:56,720
+supportive uh multiple people are
+
+845
+00:28:55,200 --> 00:28:58,320
+multiple important people in the US
+
+846
+00:28:56,720 --> 00:29:00,399
+agencies are supportive
+
+847
+00:28:58,320 --> 00:29:02,960
+>> I personally think it's is a great thing
+
+848
+00:29:00,399 --> 00:29:05,760
+um I think anything that uh allows
+
+849
+00:29:02,960 --> 00:29:09,360
+people to uh discover discover price
+
+850
+00:29:05,760 --> 00:29:10,880
+price discovery liquidity uh is good um
+
+851
+00:29:09,360 --> 00:29:13,520
+uh there are many implications for this
+
+852
+00:29:10,880 --> 00:29:15,520
+in real world implications whether it's
+
+853
+00:29:13,520 --> 00:29:18,240
+uh uh funding to predict the weather
+
+854
+00:29:15,520 --> 00:29:19,919
+better um to uh you know predictions are
+
+855
+00:29:18,240 --> 00:29:22,320
+important in our lives yeah we want to
+
+856
+00:29:19,919 --> 00:29:24,080
+be able to predict things better um so
+
+857
+00:29:22,320 --> 00:29:27,279
+uh where there's real money on on the
+
+858
+00:29:24,080 --> 00:29:28,640
+line um you know uh I think the money
+
+859
+00:29:27,279 --> 00:29:30,720
+the prediction markets are much more
+
+860
+00:29:28,640 --> 00:29:32,159
+accurate than any every other prediction
+
+861
+00:29:30,720 --> 00:29:34,399
+because any anybody who have good
+
+862
+00:29:32,159 --> 00:29:36,720
+predictions will be in in those markets
+
+863
+00:29:34,399 --> 00:29:38,240
+>> so Um there's some real real really
+
+864
+00:29:36,720 --> 00:29:41,840
+really interesting implications for it.
+
+865
+00:29:38,240 --> 00:29:44,080
+Um so I am a you know I I founded one of
+
+866
+00:29:41,840 --> 00:29:45,840
+the exchanges. Uh so I like to see any
+
+867
+00:29:44,080 --> 00:29:48,000
+tool that provides price discovery and
+
+868
+00:29:45,840 --> 00:29:50,799
+liquidity. So I think it's great. Um and
+
+869
+00:29:48,000 --> 00:29:52,799
+also it's also great that u uh I believe
+
+870
+00:29:50,799 --> 00:29:55,840
+poly market koshi they all have licenses
+
+871
+00:29:52,799 --> 00:29:57,279
+in the US and so this no this means that
+
+872
+00:29:55,840 --> 00:29:58,799
+I didn't know that you you mentioned
+
+873
+00:29:57,279 --> 00:30:00,240
+that states may some states may not like
+
+874
+00:29:58,799 --> 00:30:01,679
+it etc. Yeah, because uh the reason
+
+875
+00:30:00,240 --> 00:30:03,200
+though is because they have prediction
+
+876
+00:30:01,679 --> 00:30:04,640
+market one the sort of the hook for them
+
+877
+00:30:03,200 --> 00:30:06,080
+is that they have prediction markets on
+
+878
+00:30:04,640 --> 00:30:08,799
+sports outcomes
+
+879
+00:30:06,080 --> 00:30:11,200
+>> which is historically considered sports
+
+880
+00:30:08,799 --> 00:30:12,960
+gambling which is a highly regulated
+
+881
+00:30:11,200 --> 00:30:15,120
+state-by-state level activity
+
+882
+00:30:12,960 --> 00:30:16,240
+historically in the US that's why
+
+883
+00:30:15,120 --> 00:30:18,000
+they're upset.
+
+884
+00:30:16,240 --> 00:30:19,039
+>> Okay. So that's just the state versus
+
+885
+00:30:18,000 --> 00:30:20,320
+federal
+
+886
+00:30:19,039 --> 00:30:21,760
+>> because you're right you are right the
+
+887
+00:30:20,320 --> 00:30:24,159
+CFTC is
+
+888
+00:30:21,760 --> 00:30:27,840
+>> has taken a strong stance legally as
+
+889
+00:30:24,159 --> 00:30:29,679
+well. They've joined cases to defend
+
+890
+00:30:27,840 --> 00:30:31,200
+cryp uh prediction market firms against
+
+891
+00:30:29,679 --> 00:30:33,279
+state. They've joined them or they
+
+892
+00:30:31,200 --> 00:30:34,720
+submitted amicus briefs in support of
+
+893
+00:30:33,279 --> 00:30:36,799
+the prediction markets
+
+894
+00:30:34,720 --> 00:30:39,200
+>> and they're uh they they're releasing
+
+895
+00:30:36,799 --> 00:30:40,960
+new a new rulemaking framework okay for
+
+896
+00:30:39,200 --> 00:30:42,320
+prediction markets which the existence
+
+897
+00:30:40,960 --> 00:30:44,399
+of alone is
+
+898
+00:30:42,320 --> 00:30:47,279
+>> um supportive. So it is yeah they are
+
+899
+00:30:44,399 --> 00:30:49,279
+supportive and and also um the CFTC is
+
+900
+00:30:47,279 --> 00:30:51,120
+very clearly asserting its federal
+
+901
+00:30:49,279 --> 00:30:52,559
+primacy over the states as it relates to
+
+902
+00:30:51,120 --> 00:30:54,480
+prediction markets. So there is an
+
+903
+00:30:52,559 --> 00:30:56,240
+interesting intergovernmental okay sort
+
+904
+00:30:54,480 --> 00:30:57,679
+of thing here but but yes you were right
+
+905
+00:30:56,240 --> 00:30:59,600
+they are supportive. Okay, I actually
+
+906
+00:30:57,679 --> 00:31:01,200
+didn't know those details. Yeah, like I
+
+907
+00:30:59,600 --> 00:31:03,360
+always stay away from politics, right?
+
+908
+00:31:01,200 --> 00:31:05,120
+So any any sort of jurisdiction fights,
+
+909
+00:31:03,360 --> 00:31:07,360
+I stay away. But I think uh for
+
+910
+00:31:05,120 --> 00:31:11,360
+consumers uh as an industry globally for
+
+911
+00:31:07,360 --> 00:31:14,240
+crypto um it's a good thing. Uh and u uh
+
+912
+00:31:11,360 --> 00:31:16,399
+uh but as with any new technology, new
+
+913
+00:31:14,240 --> 00:31:18,080
+platform, uh as long as they do it well,
+
+914
+00:31:16,399 --> 00:31:19,919
+you'll be really good. Um there are
+
+915
+00:31:18,080 --> 00:31:21,679
+always ways to do badly. But I think the
+
+916
+00:31:19,919 --> 00:31:23,120
+larger players today do really well. And
+
+917
+00:31:21,679 --> 00:31:25,440
+I think there's quite a lot of new
+
+918
+00:31:23,120 --> 00:31:27,840
+upcoming u prediction markets as well.
+
+919
+00:31:25,440 --> 00:31:29,440
+like that's probably like [laughter] 100
+
+920
+00:31:27,840 --> 00:31:31,840
+a thousand plus prediction market
+
+921
+00:31:29,440 --> 00:31:33,919
+projects in the crypto space. So I hope
+
+922
+00:31:31,840 --> 00:31:34,880
+all of them will will execute it
+
+923
+00:31:33,919 --> 00:31:37,039
+responsibly. Yeah.
+
+924
+00:31:34,880 --> 00:31:39,519
+>> Yeah. Um let's talk about something you
+
+925
+00:31:37,039 --> 00:31:41,120
+mentioned earlier um about you know many
+
+926
+00:31:39,519 --> 00:31:43,679
+more blockchains, many more consumer
+
+927
+00:31:41,120 --> 00:31:45,279
+choice being you know good and and of
+
+928
+00:31:43,679 --> 00:31:48,799
+course there are many and there probably
+
+929
+00:31:45,279 --> 00:31:50,880
+will be more. most activity is like in
+
+930
+00:31:48,799 --> 00:31:52,960
+crypto today is probably I don't want to
+
+931
+00:31:50,880 --> 00:31:57,039
+say centralized it's sort of um coalesed
+
+932
+00:31:52,960 --> 00:31:58,880
+around like Ethereum Solana BNB Tron
+
+933
+00:31:57,039 --> 00:32:01,200
+>> that's maybe you know probably falls off
+
+934
+00:31:58,880 --> 00:32:01,840
+after that but you know a few others
+
+935
+00:32:01,200 --> 00:32:03,600
+>> um
+
+936
+00:32:01,840 --> 00:32:05,840
+>> BNB has definitely consolidated itself
+
+937
+00:32:03,600 --> 00:32:07,039
+into a top tier chain it's also a top
+
+938
+00:32:05,840 --> 00:32:08,960
+asset
+
+939
+00:32:07,039 --> 00:32:10,960
+>> um you know what's exciting about BNB
+
+940
+00:32:08,960 --> 00:32:12,080
+right now that we should be focusing on
+
+941
+00:32:10,960 --> 00:32:14,080
+or looking at
+
+942
+00:32:12,080 --> 00:32:14,640
+>> Sure as researchers but also just the
+
+943
+00:32:14,080 --> 00:32:16,640
+public.
+
+944
+00:32:14,640 --> 00:32:17,919
+>> Sure. Sure. So now I don't like I don't
+
+945
+00:32:16,640 --> 00:32:19,360
+run the exchange. I actually have a lot
+
+946
+00:32:17,919 --> 00:32:21,200
+more time to talk with developers in the
+
+947
+00:32:19,360 --> 00:32:22,559
+in the community. I'm actually really
+
+948
+00:32:21,200 --> 00:32:25,600
+excited about some of the new features
+
+949
+00:32:22,559 --> 00:32:28,799
+they're building uh on B&B chain. Um uh
+
+950
+00:32:25,600 --> 00:32:30,960
+they so uh one of my recommendations to
+
+951
+00:32:28,799 --> 00:32:33,279
+the developers is like no don't do big
+
+952
+00:32:30,960 --> 00:32:35,519
+upgrades during bull markets but in bare
+
+953
+00:32:33,279 --> 00:32:37,519
+markets market is quieter you you you
+
+954
+00:32:35,519 --> 00:32:39,200
+make a big upgrade. So I I actually
+
+955
+00:32:37,519 --> 00:32:41,360
+advise this to every blockchain not not
+
+956
+00:32:39,200 --> 00:32:44,000
+just the B&B uh blockchain developers.
+
+957
+00:32:41,360 --> 00:32:46,399
+Um so now they're working on a next
+
+958
+00:32:44,000 --> 00:32:49,440
+version uh which is uh much faster which
+
+959
+00:32:46,399 --> 00:32:52,399
+is much cheaper uh more uh privacy
+
+960
+00:32:49,440 --> 00:32:54,399
+controls for for users. Um there's quite
+
+961
+00:32:52,399 --> 00:32:56,480
+a long list of features that when I saw
+
+962
+00:32:54,399 --> 00:32:58,880
+it I was like so I'm not a very
+
+963
+00:32:56,480 --> 00:33:00,559
+imaginative guy actually. I don't I
+
+964
+00:32:58,880 --> 00:33:02,240
+don't I don't drive this things. U but
+
+965
+00:33:00,559 --> 00:33:03,440
+when I saw their like when I talked to
+
+966
+00:33:02,240 --> 00:33:04,799
+them when I saw the list of features
+
+967
+00:33:03,440 --> 00:33:05,919
+that they're building I was like wow
+
+968
+00:33:04,799 --> 00:33:06,640
+you're going to get all of this in one
+
+969
+00:33:05,919 --> 00:33:08,159
+version.
+
+970
+00:33:06,640 --> 00:33:09,760
+>> Uh so so they're building it. Do they
+
+971
+00:33:08,159 --> 00:33:10,399
+have a name for this forthcoming upgrade
+
+972
+00:33:09,760 --> 00:33:11,519
+yet that we should
+
+973
+00:33:10,399 --> 00:33:12,799
+>> I don't know the name actually. I think
+
+974
+00:33:11,519 --> 00:33:14,000
+they have a code name but I forgot.
+
+975
+00:33:12,799 --> 00:33:14,720
+>> Well, we'll check it and I'll throw it
+
+976
+00:33:14,000 --> 00:33:16,720
+in the show notes.
+
+977
+00:33:14,720 --> 00:33:18,159
+>> Sure. Sure. No, I I forgot. Um, but I
+
+978
+00:33:16,720 --> 00:33:19,840
+talked to the developers like, you know,
+
+979
+00:33:18,159 --> 00:33:21,919
+but I don't run it, right? So, this is
+
+980
+00:33:19,840 --> 00:33:22,399
+this is this is their drive. Um, yeah.
+
+981
+00:33:21,919 --> 00:33:23,600
+So, uh,
+
+982
+00:33:22,399 --> 00:33:25,440
+>> is that is that to compete a little bit
+
+983
+00:33:23,600 --> 00:33:27,760
+like Solana, you know, broke onto the
+
+984
+00:33:25,440 --> 00:33:29,679
+scene, I guess, years ago at this point
+
+985
+00:33:27,760 --> 00:33:32,159
+by being faster and cheaper than
+
+986
+00:33:29,679 --> 00:33:34,320
+Ethereum? You know, you've got like and
+
+987
+00:33:32,159 --> 00:33:35,919
+other differentiations. Um, privacy has
+
+988
+00:33:34,320 --> 00:33:36,720
+been a big topic these days as well.
+
+989
+00:33:35,919 --> 00:33:38,559
+like is that
+
+990
+00:33:36,720 --> 00:33:40,399
+>> is that for one just to make it better
+
+991
+00:33:38,559 --> 00:33:43,279
+or is it is there competi I don't know
+
+992
+00:33:40,399 --> 00:33:45,039
+how sort of semi or decentralized L1
+
+993
+00:33:43,279 --> 00:33:45,519
+developer teams think about big upgrades
+
+994
+00:33:45,039 --> 00:33:48,320
+like this?
+
+995
+00:33:45,519 --> 00:33:49,919
+>> Sure. Sure. Um I think um well no I I
+
+996
+00:33:48,320 --> 00:33:51,679
+think there's not a competition with a
+
+997
+00:33:49,919 --> 00:33:54,080
+specific chain. I think Salona came
+
+998
+00:33:51,679 --> 00:33:56,880
+around you know um four or five years
+
+999
+00:33:54,080 --> 00:34:00,000
+ago I guess maybe maybe even bit longer.
+
+1000
+00:33:56,880 --> 00:34:02,960
+>> Um and then uh uh initially it was going
+
+1001
+00:34:00,000 --> 00:34:04,240
+to be supported by FTX like know
+
+1002
+00:34:02,960 --> 00:34:06,320
+SPF was all over it.
+
+1003
+00:34:04,240 --> 00:34:07,919
+>> Yeah. Uh and then they suffered quite a
+
+1004
+00:34:06,320 --> 00:34:09,520
+bit because of the FTF's crash, but it
+
+1005
+00:34:07,919 --> 00:34:11,359
+was great to see their recovery. Yeah.
+
+1006
+00:34:09,520 --> 00:34:14,079
+Uh so it shows the resilience of a
+
+1007
+00:34:11,359 --> 00:34:16,240
+decentralized blockchain. Um Salona um
+
+1008
+00:34:14,079 --> 00:34:17,760
+when B&B chain was first started, um
+
+1009
+00:34:16,240 --> 00:34:19,280
+there was quite a lot of accusations on
+
+1010
+00:34:17,760 --> 00:34:20,639
+B&B chain being overly centralized
+
+1011
+00:34:19,280 --> 00:34:22,639
+because they have less nodes than
+
+1012
+00:34:20,639 --> 00:34:24,480
+Ethereum, but Salona has much less
+
+1013
+00:34:22,639 --> 00:34:26,879
+nodes. So there's a there's always a
+
+1014
+00:34:24,480 --> 00:34:28,639
+balance of nodes versus performance,
+
+1015
+00:34:26,879 --> 00:34:30,399
+right? The lesser nodes, the faster you
+
+1016
+00:34:28,639 --> 00:34:32,560
+can the less time you need to
+
+1017
+00:34:30,399 --> 00:34:34,320
+synchronize. I think Ethereum is still
+
+1018
+00:34:32,560 --> 00:34:35,919
+like the holy what they want to be the
+
+1019
+00:34:34,320 --> 00:34:37,359
+fully decentralized. So every upgrade is
+
+1020
+00:34:35,919 --> 00:34:38,480
+really difficult for them. Yeah. So
+
+1021
+00:34:37,359 --> 00:34:41,520
+there's there's a balance there
+
+1022
+00:34:38,480 --> 00:34:43,440
+somewhere. Um I think uh B&B ch up to
+
+1023
+00:34:41,520 --> 00:34:44,879
+like a I don't know. I can't remember. I
+
+1024
+00:34:43,440 --> 00:34:46,480
+actually don't know. It's like 41 nodes
+
+1025
+00:34:44,879 --> 00:34:47,520
+or 100 nodes. I actually don't know.
+
+1026
+00:34:46,480 --> 00:34:48,480
+>> We'll look to and we'll throw that in
+
+1027
+00:34:47,520 --> 00:34:49,200
+the as well. [laughter] Don't worry.
+
+1028
+00:34:48,480 --> 00:34:50,480
+Don't worry.
+
+1029
+00:34:49,200 --> 00:34:51,919
+>> Like how on technical
+
+1030
+00:34:50,480 --> 00:34:52,159
+>> get a computer in here, Phineas. Look it
+
+1031
+00:34:51,919 --> 00:34:52,879
+up.
+
+1032
+00:34:52,159 --> 00:34:55,520
+>> Yeah.
+
+1033
+00:34:52,879 --> 00:34:58,000
+>> Yeah. So um uh and also but I think uh
+
+1034
+00:34:55,520 --> 00:35:00,880
+Salona's rise and recovery wasn't so
+
+1035
+00:34:58,000 --> 00:35:03,440
+much the decentralization versus non-
+
+1036
+00:35:00,880 --> 00:35:05,359
+decentralization aspect of it. Uh it's
+
+1037
+00:35:03,440 --> 00:35:07,200
+that they were very heavy into the meme
+
+1038
+00:35:05,359 --> 00:35:10,560
+space. Uh they also marketed themselves
+
+1039
+00:35:07,200 --> 00:35:12,160
+really well um in the in the US where
+
+1040
+00:35:10,560 --> 00:35:15,040
+B&B chain was not marketing themselves
+
+1041
+00:35:12,160 --> 00:35:16,880
+at all. Um they were also so they they
+
+1042
+00:35:15,040 --> 00:35:18,320
+got they got a lot more US developers on
+
+1043
+00:35:16,880 --> 00:35:20,079
+on the chain uh during the last
+
+1044
+00:35:18,320 --> 00:35:22,079
+administration where B&B chain was
+
+1045
+00:35:20,079 --> 00:35:24,240
+trying to stay out of the US or anything
+
+1046
+00:35:22,079 --> 00:35:26,000
+related to B&B chain, Binance, myself
+
+1047
+00:35:24,240 --> 00:35:29,119
+we're trying to just stay away as far
+
+1048
+00:35:26,000 --> 00:35:31,359
+away as possible and also um uh during
+
+1049
+00:35:29,119 --> 00:35:33,839
+the life cycle where you know the last
+
+1050
+00:35:31,359 --> 00:35:36,320
+administration the last SEC was suing
+
+1051
+00:35:33,839 --> 00:35:38,160
+every crypto project uh it's very hard
+
+1052
+00:35:36,320 --> 00:35:40,000
+to launch a crypto project that has
+
+1053
+00:35:38,160 --> 00:35:42,079
+utility and so that's why all the meme
+
+1054
+00:35:40,000 --> 00:35:45,119
+coins were were were were pro
+
+1055
+00:35:42,079 --> 00:35:46,640
+proliferating trading um and Salona
+
+1056
+00:35:45,119 --> 00:35:48,640
+didn't have exchange associated with
+
+1057
+00:35:46,640 --> 00:35:50,880
+them anymore after FDX went down. So
+
+1058
+00:35:48,640 --> 00:35:52,720
+they just went like um they just went
+
+1059
+00:35:50,880 --> 00:35:54,480
+they they they use the word pump and
+
+1060
+00:35:52,720 --> 00:35:56,720
+dump a lot, right? So there's a there's
+
+1061
+00:35:54,480 --> 00:35:59,040
+a platform called pump pump. Fun
+
+1062
+00:35:56,720 --> 00:36:01,359
+>> in the B&B chain ecosystem. If there's a
+
+1063
+00:35:59,040 --> 00:36:03,200
+if there's a platform called pump, uh
+
+1064
+00:36:01,359 --> 00:36:05,280
+there will be like a lot of regulatory
+
+1065
+00:36:03,200 --> 00:36:06,640
+increase, right? So like in the BMBB
+
+1066
+00:36:05,280 --> 00:36:09,119
+chain because there's a there's a
+
+1067
+00:36:06,640 --> 00:36:10,320
+Binance like a large exchange and B&B
+
+1068
+00:36:09,119 --> 00:36:11,680
+chain even though it's a completely
+
+1069
+00:36:10,320 --> 00:36:13,520
+separate blockchain is completely
+
+1070
+00:36:11,680 --> 00:36:15,839
+independent but you we're kind of still
+
+1071
+00:36:13,520 --> 00:36:17,359
+in the sort of closer ecosystem. And
+
+1072
+00:36:15,839 --> 00:36:19,760
+we're much more scrutinized by
+
+1073
+00:36:17,359 --> 00:36:22,000
+regulators. Anything that's called pump
+
+1074
+00:36:19,760 --> 00:36:23,680
+in our in our like on the BMBB ecosystem
+
+1075
+00:36:22,000 --> 00:36:25,200
+will get a lot more scrutiny. Yeah.
+
+1076
+00:36:23,680 --> 00:36:27,520
+>> So the the chance all grown
+
+1077
+00:36:25,200 --> 00:36:29,119
+indifferently um uh so but I think
+
+1078
+00:36:27,520 --> 00:36:30,400
+that's good right. So um I think that's
+
+1079
+00:36:29,119 --> 00:36:32,640
+actually that's actually very good for
+
+1080
+00:36:30,400 --> 00:36:34,560
+the space. If you only have one ch in
+
+1081
+00:36:32,640 --> 00:36:36,400
+the space um then regulator will
+
+1082
+00:36:34,560 --> 00:36:37,760
+probably be shut down by now. Uh the
+
+1083
+00:36:36,400 --> 00:36:40,000
+fact that we have multiple blockchains
+
+1084
+00:36:37,760 --> 00:36:41,760
+is actually a good thing and they prol
+
+1085
+00:36:40,000 --> 00:36:43,119
+they proliferate in different places at
+
+1086
+00:36:41,760 --> 00:36:45,359
+different times and that actually helps
+
+1087
+00:36:43,119 --> 00:36:46,400
+the entire industry to grow. So I think
+
+1088
+00:36:45,359 --> 00:36:48,560
+I think that's really good. I think
+
+1089
+00:36:46,400 --> 00:36:50,000
+Salona's recovery is fantastic is
+
+1090
+00:36:48,560 --> 00:36:52,800
+actually phenomenal. Yeah.
+
+1091
+00:36:50,000 --> 00:36:54,079
+>> Um Ethereum sort of community took a
+
+1092
+00:36:52,800 --> 00:36:56,000
+path they were taking this path before
+
+1093
+00:36:54,079 --> 00:36:57,920
+Salona but it sort of became urgent
+
+1094
+00:36:56,000 --> 00:36:59,839
+which their own hub and spoke model
+
+1095
+00:36:57,920 --> 00:37:01,599
+because that the layer 1 blockchain is
+
+1096
+00:36:59,839 --> 00:37:04,880
+highly decentralized. So they promoted
+
+1097
+00:37:01,599 --> 00:37:06,880
+this L2 thesis but then the L2s are
+
+1098
+00:37:04,880 --> 00:37:09,599
+predominantly optimistic single
+
+1099
+00:37:06,880 --> 00:37:11,520
+sequencer rollups today not
+
+1100
+00:37:09,599 --> 00:37:13,839
+decentralized really and I don't think
+
+1101
+00:37:11,520 --> 00:37:15,280
+any have reached whatever stage of I
+
+1102
+00:37:13,839 --> 00:37:17,520
+think it's stage two of of actually
+
+1103
+00:37:15,280 --> 00:37:18,800
+being decentralized. Um what do you
+
+1104
+00:37:17,520 --> 00:37:21,119
+think about that thesis and I know
+
+1105
+00:37:18,800 --> 00:37:22,400
+Vitalic has seemed to sort of say well
+
+1106
+00:37:21,119 --> 00:37:23,200
+maybe we should be working on the L1
+
+1107
+00:37:22,400 --> 00:37:24,320
+more again.
+
+1108
+00:37:23,200 --> 00:37:26,640
+>> Yeah. Yeah. you know,
+
+1109
+00:37:24,320 --> 00:37:30,160
+>> uh I did I did sense that shift in
+
+1110
+00:37:26,640 --> 00:37:31,760
+Vitalik's tone and also um uh also yeah
+
+1111
+00:37:30,160 --> 00:37:33,760
+I think was like also four or five years
+
+1112
+00:37:31,760 --> 00:37:34,640
+ago where the Ethereum community was all
+
+1113
+00:37:33,760 --> 00:37:34,960
+about L2s.
+
+1114
+00:37:34,640 --> 00:37:37,040
+>> Yeah.
+
+1115
+00:37:34,960 --> 00:37:38,560
+>> Uh and I think um in the last couple
+
+1116
+00:37:37,040 --> 00:37:39,680
+years they kind of uh they kind of
+
+1117
+00:37:38,560 --> 00:37:41,119
+reverse course and stopped
+
+1118
+00:37:39,680 --> 00:37:43,040
+>> because now the biggest one by far is
+
+1119
+00:37:41,119 --> 00:37:45,040
+base which is basically operated by one
+
+1120
+00:37:43,040 --> 00:37:47,040
+company. It's not I mean there there are
+
+1121
+00:37:45,040 --> 00:37:49,040
+some you know safety ways. It's not that
+
+1122
+00:37:47,040 --> 00:37:50,079
+you you have an unilateral exit
+
+1123
+00:37:49,040 --> 00:37:51,680
+capability. Yeah.
+
+1124
+00:37:50,079 --> 00:37:53,599
+>> But you know the sequencer can order
+
+1125
+00:37:51,680 --> 00:37:54,160
+transactions, charge arbitrary fees,
+
+1126
+00:37:53,599 --> 00:37:57,119
+whatever.
+
+1127
+00:37:54,160 --> 00:37:59,200
+>> Exactly. Exactly. So the L2s are not
+
+1128
+00:37:57,119 --> 00:38:02,000
+very centralized, extremely centralized.
+
+1129
+00:37:59,200 --> 00:38:04,000
+So now uh with the extreme community,
+
+1130
+00:38:02,000 --> 00:38:05,760
+they want uh you want to promote fully
+
+1131
+00:38:04,000 --> 00:38:08,800
+decentralization, but all the L2s are
+
+1132
+00:38:05,760 --> 00:38:11,599
+super super centralized. And then um um
+
+1133
+00:38:08,800 --> 00:38:12,960
+so uh and also the L2s don't but I don't
+
+1134
+00:38:11,599 --> 00:38:14,880
+think that's the main reason. The I
+
+1135
+00:38:12,960 --> 00:38:17,040
+think I believe the main reason is L2s
+
+1136
+00:38:14,880 --> 00:38:19,359
+don't contribute to the L1's, right? So
+
+1137
+00:38:17,040 --> 00:38:21,920
+they they only no they the L2s only need
+
+1138
+00:38:19,359 --> 00:38:24,079
+to spend the Ethereum once like I don't
+
+1139
+00:38:21,920 --> 00:38:25,440
+know uh with a batch, right? So they
+
+1140
+00:38:24,079 --> 00:38:26,800
+they actually don't contribute to
+
+1141
+00:38:25,440 --> 00:38:29,119
+>> I think we did the math and we found
+
+1142
+00:38:26,800 --> 00:38:32,000
+that bass was paying more in licensing
+
+1143
+00:38:29,119 --> 00:38:33,599
+fees to opt the optimism foundation to
+
+1144
+00:38:32,000 --> 00:38:35,440
+use the tech than they are actually
+
+1145
+00:38:33,599 --> 00:38:37,520
+paying in Ethereum L1 fees.
+
+1146
+00:38:35,440 --> 00:38:40,160
+>> Oh, by far by far. It's probably by like
+
+1147
+00:38:37,520 --> 00:38:42,240
+two or three magnitudes, right? So uh so
+
+1148
+00:38:40,160 --> 00:38:43,760
+and then uh eventually they I think
+
+1149
+00:38:42,240 --> 00:38:45,520
+Vitalic figured out that [laughter] the
+
+1150
+00:38:43,760 --> 00:38:46,960
+L2s don't help the L1's and then
+
+1151
+00:38:45,520 --> 00:38:49,599
+Ethereum went through a period of where
+
+1152
+00:38:46,960 --> 00:38:51,200
+they had uh Vitalic has to deal with a
+
+1153
+00:38:49,599 --> 00:38:53,200
+lot of pressure due to the price uh
+
+1154
+00:38:51,200 --> 00:38:54,880
+performance of Ethereum and there was a
+
+1155
+00:38:53,200 --> 00:38:57,599
+lot of jokes online which is unfair to
+
+1156
+00:38:54,880 --> 00:38:59,760
+him to be honest. Um but I think that uh
+
+1157
+00:38:57,599 --> 00:39:01,040
+all of those things combined uh made him
+
+1158
+00:38:59,760 --> 00:39:03,599
+realize that well he still got to work
+
+1159
+00:39:01,040 --> 00:39:06,320
+on the L1. So now he's shifted his focus
+
+1160
+00:39:03,599 --> 00:39:07,760
+a bit which is no fairly normal for uh
+
+1161
+00:39:06,320 --> 00:39:09,599
+know you you experiment you try
+
+1162
+00:39:07,760 --> 00:39:11,520
+different things. Totally. Yeah. So, um,
+
+1163
+00:39:09,599 --> 00:39:13,359
+so there's still like no, as you said,
+
+1164
+00:39:11,520 --> 00:39:15,839
+like there's still pretty strong a few
+
+1165
+00:39:13,359 --> 00:39:18,400
+strong L2s, but I think in the future
+
+1166
+00:39:15,839 --> 00:39:20,320
+it's still L1. Like the it's to be
+
+1167
+00:39:18,400 --> 00:39:22,640
+honest, it might be like, uh, what do
+
+1168
+00:39:20,320 --> 00:39:24,560
+you call it? Um, a back and forth thing
+
+1169
+00:39:22,640 --> 00:39:26,000
+for a while like know L1's will get
+
+1170
+00:39:24,560 --> 00:39:28,160
+faster, but then the demand will will
+
+1171
+00:39:26,000 --> 00:39:29,440
+come and then the L1's can't scale that
+
+1172
+00:39:28,160 --> 00:39:32,000
+quickly and then there'll be they may
+
+1173
+00:39:29,440 --> 00:39:33,440
+still be other L2 type of solutions in
+
+1174
+00:39:32,000 --> 00:39:35,359
+the future. Again, they will be like
+
+1175
+00:39:33,440 --> 00:39:37,200
+they may they may be back and forth. I
+
+1176
+00:39:35,359 --> 00:39:38,720
+think this is a a decent option to
+
+1177
+00:39:37,200 --> 00:39:40,720
+instead of building a whole new chain if
+
+1178
+00:39:38,720 --> 00:39:43,599
+you're a big bank or something
+
+1179
+00:39:40,720 --> 00:39:45,520
+>> do some kind of L2 on an existing chain
+
+1180
+00:39:43,599 --> 00:39:47,359
+especially if the chain is natively
+
+1181
+00:39:45,520 --> 00:39:49,119
+built for like safe bridging the way the
+
+1182
+00:39:47,359 --> 00:39:50,960
+optimistic roll-ups are right they don't
+
+1183
+00:39:49,119 --> 00:39:52,320
+they're not bridging back to the L1 they
+
+1184
+00:39:50,960 --> 00:39:54,079
+integrate directly that could be an
+
+1185
+00:39:52,320 --> 00:39:55,520
+interesting way for the hub and spoke to
+
+1186
+00:39:54,079 --> 00:39:57,520
+which doesn't seem like what the
+
+1187
+00:39:55,520 --> 00:39:59,440
+decentralized main
+
+1188
+00:39:57,520 --> 00:40:02,160
+>> consumer base of Ethereum actually
+
+1189
+00:39:59,440 --> 00:40:06,560
+wanted today it may have a place though
+
+1190
+00:40:02,160 --> 00:40:08,560
+>> yeah but well L2's as as centralized as
+
+1191
+00:40:06,560 --> 00:40:11,280
+they are, if after a batch is still
+
+1192
+00:40:08,560 --> 00:40:12,000
+synchronized with the L1, um still
+
+1193
+00:40:11,280 --> 00:40:12,480
+immutable.
+
+1194
+00:40:12,000 --> 00:40:14,720
+>> That's right.
+
+1195
+00:40:12,480 --> 00:40:15,920
+>> Right. So, um it's still like no, they
+
+1196
+00:40:14,720 --> 00:40:18,400
+still like know it's still better than
+
+1197
+00:40:15,920 --> 00:40:19,359
+like what uh where today a bank can just
+
+1198
+00:40:18,400 --> 00:40:20,640
+change records.
+
+1199
+00:40:19,359 --> 00:40:21,040
+>> You can change records from 10 years
+
+1200
+00:40:20,640 --> 00:40:22,960
+ago.
+
+1201
+00:40:21,040 --> 00:40:25,359
+>> Right. Because if I ask the L2 to you
+
+1202
+00:40:22,960 --> 00:40:27,359
+know process a transfer from Alex to CZ
+
+1203
+00:40:25,359 --> 00:40:29,520
+and it the sequencer refuses, I can just
+
+1204
+00:40:27,359 --> 00:40:31,440
+replay that directly on the L1. So you
+
+1205
+00:40:29,520 --> 00:40:33,040
+can um but that does get to this one
+
+1206
+00:40:31,440 --> 00:40:34,800
+thing I you know this is what the L2
+
+1207
+00:40:33,040 --> 00:40:37,119
+maximalists always say is that that
+
+1208
+00:40:34,800 --> 00:40:39,040
+unilateral exit capability is like the
+
+1209
+00:40:37,119 --> 00:40:40,640
+stop gap and it is but if the
+
+1210
+00:40:39,040 --> 00:40:43,280
+transaction isn't a simple transfer and
+
+1211
+00:40:40,640 --> 00:40:44,560
+it's a top up of a loan collateral some
+
+1212
+00:40:43,280 --> 00:40:46,320
+kind of trade like that has real
+
+1213
+00:40:44,560 --> 00:40:47,119
+implications even if you could get out
+
+1214
+00:40:46,320 --> 00:40:48,240
+you know
+
+1215
+00:40:47,119 --> 00:40:50,560
+>> you know what I mean like if I need to
+
+1216
+00:40:48,240 --> 00:40:51,599
+top up liquidity or I need to
+
+1217
+00:40:50,560 --> 00:40:53,599
+>> that's where it starts to actually
+
+1218
+00:40:51,599 --> 00:40:55,680
+become problematic right like or
+
+1219
+00:40:53,599 --> 00:40:57,040
+honestly even if it's just a trade
+
+1220
+00:40:55,680 --> 00:40:59,119
+>> I actually didn't think that far
+
+1221
+00:40:57,040 --> 00:41:01,680
+>> but it needs to be like right now and
+
+1222
+00:40:59,119 --> 00:41:03,359
+even 1 minute late is like a problem
+
+1223
+00:41:01,680 --> 00:41:04,640
+>> then having to go through that like
+
+1224
+00:41:03,359 --> 00:41:06,480
+that's sort of what I
+
+1225
+00:41:04,640 --> 00:41:08,800
+>> you know if the again if the sequencer
+
+1226
+00:41:06,480 --> 00:41:10,240
+chooses to censor you on the L2
+
+1227
+00:41:08,800 --> 00:41:11,920
+>> it's one thing I think about I think
+
+1228
+00:41:10,240 --> 00:41:12,240
+about it a lot with tokenized securities
+
+1229
+00:41:11,920 --> 00:41:15,200
+>> okay
+
+1230
+00:41:12,240 --> 00:41:16,960
+>> we tokenize Galaxy stock on Solana
+
+1231
+00:41:15,200 --> 00:41:19,440
+>> I think we would do other general
+
+1232
+00:41:16,960 --> 00:41:22,079
+purposes too we just I started with one
+
+1233
+00:41:19,440 --> 00:41:23,599
+>> um as an issuer sponsored security but
+
+1234
+00:41:22,079 --> 00:41:25,359
+one thing I knew is that I just didn't
+
+1235
+00:41:23,599 --> 00:41:27,839
+think the L2s were decentralized enough
+
+1236
+00:41:25,359 --> 00:41:29,119
+to be the credibly neutral platform upon
+
+1237
+00:41:27,839 --> 00:41:30,319
+which we wanted to trade. So
+
+1238
+00:41:29,119 --> 00:41:31,839
+>> that's that's true. That's true. Yeah.
+
+1239
+00:41:30,319 --> 00:41:32,240
+So you actually delved this in much
+
+1240
+00:41:31,839 --> 00:41:33,613
+deeper than
+
+1241
+00:41:32,240 --> 00:41:34,240
+>> Yeah. Yeah. No, I went deep on this one.
+
+1242
+00:41:33,613 --> 00:41:34,960
+[laughter] Yeah.
+
+1243
+00:41:34,240 --> 00:41:36,800
+>> Than I have
+
+1244
+00:41:34,960 --> 00:41:38,319
+>> um let me ask you about YZI Labs used to
+
+1245
+00:41:36,800 --> 00:41:40,000
+be called Binance Labs. It's a core
+
+1246
+00:41:38,319 --> 00:41:42,160
+investment vehicle for you.
+
+1247
+00:41:40,000 --> 00:41:43,920
+>> Um what is the core thesis these days?
+
+1248
+00:41:42,160 --> 00:41:46,079
+Because I've seen that they've it used
+
+1249
+00:41:43,920 --> 00:41:48,400
+to be mostly crypto or all crypto.
+
+1250
+00:41:46,079 --> 00:41:49,280
+>> Now I'm seeing some AI some biotech
+
+1251
+00:41:48,400 --> 00:41:50,720
+stuff too.
+
+1252
+00:41:49,280 --> 00:41:51,200
+>> What are you guys doing there at YZI
+
+1253
+00:41:50,720 --> 00:41:53,520
+Labs?
+
+1254
+00:41:51,200 --> 00:41:56,480
+>> Yeah. So um yeah. Yeah. So I give a
+
+1255
+00:41:53,520 --> 00:41:59,520
+rough guideline say look 70% crypto 20%
+
+1256
+00:41:56,480 --> 00:42:02,160
+AI 10% biotech roughly. So I think all
+
+1257
+00:41:59,520 --> 00:42:04,480
+three are large um sectors that will
+
+1258
+00:42:02,160 --> 00:42:06,160
+continue to grow tremendously and all
+
+1259
+00:42:04,480 --> 00:42:08,079
+three have so so much more new
+
+1260
+00:42:06,160 --> 00:42:10,319
+innovations to be to be to be to be
+
+1261
+00:42:08,079 --> 00:42:12,319
+discovered to be done to be built uh
+
+1262
+00:42:10,319 --> 00:42:15,599
+that can have tremendous positive impact
+
+1263
+00:42:12,319 --> 00:42:18,880
+in uh on our civilization basically. So
+
+1264
+00:42:15,599 --> 00:42:21,359
+um uh easy labs uh uh philosophy I want
+
+1265
+00:42:18,880 --> 00:42:23,440
+them to invest for impact and not
+
+1266
+00:42:21,359 --> 00:42:25,200
+necessarily financial returns. Um they
+
+1267
+00:42:23,440 --> 00:42:27,119
+are sometimes sometimes they they may
+
+1268
+00:42:25,200 --> 00:42:28,720
+diverge. Um I'll give you an extreme
+
+1269
+00:42:27,119 --> 00:42:31,040
+example right let's say we invest a
+
+1270
+00:42:28,720 --> 00:42:33,280
+billion dollars into a uh drug research
+
+1271
+00:42:31,040 --> 00:42:34,480
+company that cures say common disease
+
+1272
+00:42:33,280 --> 00:42:36,960
+like cancer
+
+1273
+00:42:34,480 --> 00:42:39,040
+>> and the the cure is very cheap uh and
+
+1274
+00:42:36,960 --> 00:42:41,280
+the company may not make any money uh
+
+1275
+00:42:39,040 --> 00:42:43,680
+but it will cure like you know a million
+
+1276
+00:42:41,280 --> 00:42:45,520
+10 million 100 million people. I'll be
+
+1277
+00:42:43,680 --> 00:42:46,960
+very happy to lose that one billion a
+
+1278
+00:42:45,520 --> 00:42:48,960
+couple billion dollar investment. It
+
+1279
+00:42:46,960 --> 00:42:50,000
+will make me super happy, right? Because
+
+1280
+00:42:48,960 --> 00:42:51,280
+we we have the impact.
+
+1281
+00:42:50,000 --> 00:42:52,640
+>> Well, and it's also like a smaller
+
+1282
+00:42:51,280 --> 00:42:55,760
+principal investment. I guess it's more
+
+1283
+00:42:52,640 --> 00:42:56,640
+the loss of it being a $1 billion gain,
+
+1284
+00:42:55,760 --> 00:42:58,480
+right? Like
+
+1285
+00:42:56,640 --> 00:43:00,000
+>> so yeah, funding it at the low at the
+
+1286
+00:42:58,480 --> 00:43:00,160
+early stage is interesting for that
+
+1287
+00:43:00,000 --> 00:43:00,400
+reason.
+
+1288
+00:43:00,160 --> 00:43:02,800
+>> Yeah.
+
+1289
+00:43:00,400 --> 00:43:04,880
+>> Yeah. So yeah, so easy funds like look
+
+1290
+00:43:02,800 --> 00:43:06,880
+for very early stage uh projects like
+
+1291
+00:43:04,880 --> 00:43:08,720
+that that that are many of them are a
+
+1292
+00:43:06,880 --> 00:43:11,920
+bit crazy. So they're very high failure
+
+1293
+00:43:08,720 --> 00:43:14,160
+rates uh that we expect. But um we also
+
+1294
+00:43:11,920 --> 00:43:15,599
+have uh I think we invest in some really
+
+1295
+00:43:14,160 --> 00:43:17,040
+good projects. Um and
+
+1296
+00:43:15,599 --> 00:43:18,480
+>> are there any that stand out right now
+
+1297
+00:43:17,040 --> 00:43:19,839
+or I don't know recently in a new batch
+
+1298
+00:43:18,480 --> 00:43:21,040
+or something that's been around that
+
+1299
+00:43:19,839 --> 00:43:22,880
+like is really exciting you want to
+
+1300
+00:43:21,040 --> 00:43:23,839
+promote like a portfolio company?
+
+1301
+00:43:22,880 --> 00:43:25,119
+>> Well, there's a bunch of crypto
+
+1302
+00:43:23,839 --> 00:43:26,160
+companies which I would not actually
+
+1303
+00:43:25,119 --> 00:43:28,720
+talk about because I don't want to be
+
+1304
+00:43:26,160 --> 00:43:29,599
+seen as promoting them specifically many
+
+1305
+00:43:28,720 --> 00:43:30,000
+of them have tokens.
+
+1306
+00:43:29,599 --> 00:43:32,240
+>> Yeah.
+
+1307
+00:43:30,000 --> 00:43:33,760
+>> Um this there's artificial womb company
+
+1308
+00:43:32,240 --> 00:43:35,359
+that we invested in. So now you have a
+
+1309
+00:43:33,760 --> 00:43:37,760
+you can have a kid in your machine,
+
+1310
+00:43:35,359 --> 00:43:39,839
+>> right? So you uh this frees the ladies
+
+1311
+00:43:37,760 --> 00:43:41,440
+from the pregnancy process and then you
+
+1312
+00:43:39,839 --> 00:43:43,680
+actually frees the guys from like know
+
+1313
+00:43:41,440 --> 00:43:44,480
+getting attack well no [laughter]
+
+1314
+00:43:43,680 --> 00:43:46,000
+begging a woman
+
+1315
+00:43:44,480 --> 00:43:47,839
+>> an artificial womb.
+
+1316
+00:43:46,000 --> 00:43:50,800
+>> Yeah. So it's I think they actually went
+
+1317
+00:43:47,839 --> 00:43:53,040
+to the second trimester testing in rats.
+
+1318
+00:43:50,800 --> 00:43:53,760
+So I think they're probably 5 10 years
+
+1319
+00:43:53,040 --> 00:43:55,520
+away from humans.
+
+1320
+00:43:53,760 --> 00:43:57,040
+>> Is this like growing humans like for
+
+1321
+00:43:55,520 --> 00:43:58,640
+space travel for example?
+
+1322
+00:43:57,040 --> 00:44:00,079
+>> Potentially like the different use cases
+
+1323
+00:43:58,640 --> 00:44:01,280
+are huge right. So like well this is
+
+1324
+00:44:00,079 --> 00:44:01,920
+going to be like the metrics if humans
+
+1325
+00:44:01,280 --> 00:44:03,680
+are farmed.
+
+1326
+00:44:01,920 --> 00:44:05,119
+>> Yeah. Well, that's what I'm [laughter]
+
+1327
+00:44:03,680 --> 00:44:06,720
+I I gave more a charitable one. You
+
+1328
+00:44:05,119 --> 00:44:08,319
+know, we actually we got to set up a new
+
+1329
+00:44:06,720 --> 00:44:10,319
+civilization light years away and so we
+
+1330
+00:44:08,319 --> 00:44:11,839
+just send the ship for a thousand years
+
+1331
+00:44:10,319 --> 00:44:13,200
+and eventually it just births humans
+
+1332
+00:44:11,839 --> 00:44:14,720
+there. I don't know. I'm making that up.
+
+1333
+00:44:13,200 --> 00:44:14,960
+>> Pretty good sci-fi concept though. So
+
+1334
+00:44:14,720 --> 00:44:16,160
+make
+
+1335
+00:44:14,960 --> 00:44:17,599
+>> when you say when I say humans are
+
+1336
+00:44:16,160 --> 00:44:19,359
+farmed like people can understand both
+
+1337
+00:44:17,599 --> 00:44:21,599
+positive and negative impact of it which
+
+1338
+00:44:19,359 --> 00:44:24,160
+I understand the technology could have.
+
+1339
+00:44:21,599 --> 00:44:26,720
+U but but anyways it's a technology that
+
+1340
+00:44:24,160 --> 00:44:28,800
+can help many many people. Um, and then
+
+1341
+00:44:26,720 --> 00:44:31,599
+there's a recent another one that like
+
+1342
+00:44:28,800 --> 00:44:33,520
+uses like a uses a pla not a plastic
+
+1343
+00:44:31,599 --> 00:44:35,200
+like a 3D printed like a styrofoam that
+
+1344
+00:44:33,520 --> 00:44:37,680
+puts in your knee cartilage and your
+
+1345
+00:44:35,200 --> 00:44:39,280
+cartilage grow around it. So it causes
+
+1346
+00:44:37,680 --> 00:44:39,760
+more growth of your knee cartilage.
+
+1347
+00:44:39,280 --> 00:44:41,599
+>> Oh wow.
+
+1348
+00:44:39,760 --> 00:44:42,560
+>> Many old people have knee problems.
+
+1349
+00:44:41,599 --> 00:44:43,680
+Right. Uh so my
+
+1350
+00:44:42,560 --> 00:44:45,200
+>> you don't have to be that old to have a
+
+1351
+00:44:43,680 --> 00:44:47,359
+knee problem. I'm telling you right now.
+
+1352
+00:44:45,200 --> 00:44:49,599
+>> Exactly. So uh so like no stuff like
+
+1353
+00:44:47,359 --> 00:44:52,079
+that. Uh and uh this one is also quite
+
+1354
+00:44:49,599 --> 00:44:54,160
+early. They haven't quite started. U I
+
+1355
+00:44:52,079 --> 00:44:56,160
+I'm not I forgot the stage. they they
+
+1356
+00:44:54,160 --> 00:44:58,640
+might just be starting the next clinical
+
+1357
+00:44:56,160 --> 00:45:01,280
+trial on humans. Uh so stuff like that
+
+1358
+00:44:58,640 --> 00:45:04,000
+and we investing a bunch of AI robotics
+
+1359
+00:45:01,280 --> 00:45:05,359
+um as well. Um but you know um it's
+
+1360
+00:45:04,000 --> 00:45:08,079
+actually the biotech companies that gets
+
+1361
+00:45:05,359 --> 00:45:09,920
+me really excited. Um uh they just no
+
+1362
+00:45:08,079 --> 00:45:12,000
+they just it's just very tangible like
+
+1363
+00:45:09,920 --> 00:45:14,240
+one day you will help many many people
+
+1364
+00:45:12,000 --> 00:45:15,839
+right where AI robots
+
+1365
+00:45:14,240 --> 00:45:16,160
+>> we all know it's going to be big but
+
+1366
+00:45:15,839 --> 00:45:16,880
+it's
+
+1367
+00:45:16,160 --> 00:45:18,079
+>> it's cool. Yeah. But
+
+1368
+00:45:16,880 --> 00:45:19,839
+>> yeah it's not like you just solved you
+
+1369
+00:45:18,079 --> 00:45:21,040
+know everybody's knee problem. Exactly.
+
+1370
+00:45:19,839 --> 00:45:22,960
+That's much more tangible.
+
+1371
+00:45:21,040 --> 00:45:25,359
+>> Yeah. Yeah. So there's a psychological
+
+1372
+00:45:22,960 --> 00:45:27,280
+like reward for those biotech
+
+1373
+00:45:25,359 --> 00:45:29,760
+investments. Um yeah, so
+
+1374
+00:45:27,280 --> 00:45:31,839
+>> I love that. Um let's talk about AI. Um
+
+1375
+00:45:29,760 --> 00:45:33,359
+you guys are investing in AI. Um we're
+
+1376
+00:45:31,839 --> 00:45:34,800
+building we have a we're an AI data
+
+1377
+00:45:33,359 --> 00:45:35,680
+center company also in addition to
+
+1378
+00:45:34,800 --> 00:45:38,160
+crypto.
+
+1379
+00:45:35,680 --> 00:45:40,880
+>> Um everyone's using AI. I've got a bunch
+
+1380
+00:45:38,160 --> 00:45:43,280
+of I asked the employees of Galaxy to
+
+1381
+00:45:40,880 --> 00:45:44,800
+submit some questions. One that everyone
+
+1382
+00:45:43,280 --> 00:45:46,880
+wanted me to ask was what is your
+
+1383
+00:45:44,800 --> 00:45:48,480
+favorite LLM for you to use personally
+
+1384
+00:45:46,880 --> 00:45:49,920
+right now? Like you know and we I switch
+
+1385
+00:45:48,480 --> 00:45:51,520
+between them. You know, there's ups and
+
+1386
+00:45:49,920 --> 00:45:53,760
+down, but right now, what what do you
+
+1387
+00:45:51,520 --> 00:45:54,640
+like? Which phone app of AI are you
+
+1388
+00:45:53,760 --> 00:45:56,960
+super excited about?
+
+1389
+00:45:54,640 --> 00:46:00,240
+>> I have almost all of them installed. Um,
+
+1390
+00:45:56,960 --> 00:46:01,839
+I subscribe to all of them. Um, and u uh
+
+1391
+00:46:00,240 --> 00:46:04,160
+uh I use different ones for different
+
+1392
+00:46:01,839 --> 00:46:05,680
+things. Um, well, OpenAI is the first
+
+1393
+00:46:04,160 --> 00:46:09,520
+one you install, right? So, like they're
+
+1394
+00:46:05,680 --> 00:46:11,760
+the oldest cl uh open uh uh anthrop uh
+
+1395
+00:46:09,520 --> 00:46:13,040
+cloud is uh much better for coding, I
+
+1396
+00:46:11,760 --> 00:46:14,319
+find like so but I don't write much
+
+1397
+00:46:13,040 --> 00:46:16,480
+code, but it's still pretty good for
+
+1398
+00:46:14,319 --> 00:46:17,760
+answering questions. I also find like
+
+1399
+00:46:16,480 --> 00:46:18,880
+the different AI companies sometimes
+
+1400
+00:46:17,760 --> 00:46:20,319
+they're not available in different
+
+1401
+00:46:18,880 --> 00:46:22,640
+countries. I travel a lot. Is that true?
+
+1402
+00:46:20,319 --> 00:46:24,400
+Interesting. So I travel a lot. So you
+
+1403
+00:46:22,640 --> 00:46:25,839
+you travel you travel to some countries
+
+1404
+00:46:24,400 --> 00:46:27,040
+one AI company is not available.
+
+1405
+00:46:25,839 --> 00:46:28,319
+>> You just open the app and it's like
+
+1406
+00:46:27,040 --> 00:46:29,760
+sorry I can't
+
+1407
+00:46:28,319 --> 00:46:31,839
+>> servicing this country. I'm like I just
+
+1408
+00:46:29,760 --> 00:46:33,839
+I'm just wait here for three three days.
+
+1409
+00:46:31,839 --> 00:46:35,680
+But then you know you you go to the you
+
+1410
+00:46:33,839 --> 00:46:37,359
+go to the next one. Uh and there there's
+
+1411
+00:46:35,680 --> 00:46:38,800
+also some geopolitical tension as well.
+
+1412
+00:46:37,359 --> 00:46:39,440
+Like for example when I know travel to
+
+1413
+00:46:38,800 --> 00:46:39,839
+Hong Kong
+
+1414
+00:46:39,440 --> 00:46:43,440
+>> Yeah.
+
+1415
+00:46:39,839 --> 00:46:46,160
+>> Um none of the US AI companies work. So
+
+1416
+00:46:43,440 --> 00:46:47,280
+then you use Deep Seek, Kimi, a bunch of
+
+1417
+00:46:46,160 --> 00:46:49,359
+the Chinese guys. Yeah.
+
+1418
+00:46:47,280 --> 00:46:51,040
+>> Um I'm not political. I'm like look, I
+
+1419
+00:46:49,359 --> 00:46:52,240
+just use whatever is working on my
+
+1420
+00:46:51,040 --> 00:46:54,079
+>> have to ask this question real quick.
+
+1421
+00:46:52,240 --> 00:46:55,599
+Yeah. Can someone answer it, please?
+
+1422
+00:46:54,079 --> 00:46:59,280
+>> Yeah. But overall though, I do I
+
+1423
+00:46:55,599 --> 00:47:01,440
+generally find the US um uh uh um uh
+
+1424
+00:46:59,280 --> 00:47:02,720
+lang large large language models to be
+
+1425
+00:47:01,440 --> 00:47:04,800
+much more precise and much more
+
+1426
+00:47:02,720 --> 00:47:06,560
+accurate. Uh whereas the Chinese open
+
+1427
+00:47:04,800 --> 00:47:08,400
+source ones are very good as well, but
+
+1428
+00:47:06,560 --> 00:47:11,440
+they are not as comprehensive sometime.
+
+1429
+00:47:08,400 --> 00:47:13,520
+>> Yeah. Deep Seek um Kimmy I've used some
+
+1430
+00:47:11,440 --> 00:47:15,119
+of these at home myself. Um
+
+1431
+00:47:13,520 --> 00:47:16,720
+>> do you think well since you mentioned
+
+1432
+00:47:15,119 --> 00:47:17,920
+the geopolitical aspect I think this is
+
+1433
+00:47:16,720 --> 00:47:20,079
+very interesting. There's a great essay
+
+1434
+00:47:17,920 --> 00:47:21,200
+many people have theorized but AI 2027.
+
+1435
+00:47:20,079 --> 00:47:22,640
+Have you read that essay? It's really
+
+1436
+00:47:21,200 --> 00:47:23,359
+good. I'll I'll share it with you after.
+
+1437
+00:47:22,640 --> 00:47:25,119
+>> I got I got
+
+1438
+00:47:23,359 --> 00:47:28,160
+>> well it's sort of like a you know from
+
+1439
+00:47:25,119 --> 00:47:29,920
+from 25 to 207 what might happen and
+
+1440
+00:47:28,160 --> 00:47:31,680
+then eventually it becomes a choose your
+
+1441
+00:47:29,920 --> 00:47:34,160
+own adventure like accelerationist or
+
+1442
+00:47:31,680 --> 00:47:35,920
+safety. Yeah. Um and but I you know one
+
+1443
+00:47:34,160 --> 00:47:38,319
+of the big stories clearly of AI saw
+
+1444
+00:47:35,920 --> 00:47:40,240
+China's announced some 200 plus billion
+
+1445
+00:47:38,319 --> 00:47:42,319
+state investment in data center growth
+
+1446
+00:47:40,240 --> 00:47:43,760
+obviously we have enormous private
+
+1447
+00:47:42,319 --> 00:47:45,760
+mostly private but I think plenty of
+
+1448
+00:47:43,760 --> 00:47:48,319
+public like support of data center
+
+1449
+00:47:45,760 --> 00:47:50,400
+growth and capex spending here in the US
+
+1450
+00:47:48,319 --> 00:47:53,599
+like is this is it going to turn into
+
+1451
+00:47:50,400 --> 00:47:55,920
+like a you know cold war style AI arms
+
+1452
+00:47:53,599 --> 00:47:56,960
+race like should it is it is it already
+
+1453
+00:47:55,920 --> 00:47:59,200
+happening like
+
+1454
+00:47:56,960 --> 00:48:02,640
+>> I okay u again I'm not expert on this
+
+1455
+00:47:59,200 --> 00:48:04,240
+area um um but I actually do think that
+
+1456
+00:48:02,640 --> 00:48:08,079
+it's gonna it's definitely going to be a
+
+1457
+00:48:04,240 --> 00:48:10,640
+race uh every um um especially with
+
+1458
+00:48:08,079 --> 00:48:12,240
+what's happening recently um I mean I
+
+1459
+00:48:10,640 --> 00:48:13,520
+like it doesn't take two brand sales to
+
+1460
+00:48:12,240 --> 00:48:15,920
+figure out China's definitely working on
+
+1461
+00:48:13,520 --> 00:48:17,040
+their own chip right so um China
+
+1462
+00:48:15,920 --> 00:48:20,400
+definitely is working on their own data
+
+1463
+00:48:17,040 --> 00:48:22,000
+centers and both both countries right so
+
+1464
+00:48:20,400 --> 00:48:23,520
+um US definitely trying to work on it
+
+1465
+00:48:22,000 --> 00:48:27,920
+manufacturing
+
+1466
+00:48:23,520 --> 00:48:31,200
+um and uh so it's it's a it's a race um
+
+1467
+00:48:27,920 --> 00:48:33,599
+but racing competition is can be healthy
+
+1468
+00:48:31,200 --> 00:48:35,599
+uh you actually promotes uh actually
+
+1469
+00:48:33,599 --> 00:48:38,000
+increases the speed of growth but I
+
+1470
+00:48:35,599 --> 00:48:39,920
+think on on AI we got to be a little bit
+
+1471
+00:48:38,000 --> 00:48:42,640
+careful with the speed of growth um
+
+1472
+00:48:39,920 --> 00:48:43,920
+because um AI is so powerful um that it
+
+1473
+00:48:42,640 --> 00:48:46,960
+can be dangerous it can be very
+
+1474
+00:48:43,920 --> 00:48:48,720
+dangerous so um uh right now many people
+
+1475
+00:48:46,960 --> 00:48:50,880
+are looking at crypto regulations very
+
+1476
+00:48:48,720 --> 00:48:53,040
+few people talk about AI regulations uh
+
+1477
+00:48:50,880 --> 00:48:55,200
+what can you do not do with AI and
+
+1478
+00:48:53,040 --> 00:48:57,359
+crypto regulations actually much simpler
+
+1479
+00:48:55,200 --> 00:48:58,559
+u it's like it's just like a record
+
+1480
+00:48:57,359 --> 00:49:00,240
+>> right you're just dealing with money
+
+1481
+00:48:58,559 --> 00:49:02,079
+basically uh there's not a whole lot
+
+1482
+00:49:00,240 --> 00:49:03,359
+more well there's KYC AML,
+
+1483
+00:49:02,079 --> 00:49:05,200
+>> but it's all that same money stuff.
+
+1484
+00:49:03,359 --> 00:49:08,079
+Basically, it's just new technology.
+
+1485
+00:49:05,200 --> 00:49:10,559
+>> But AI can do so much more. AI can hack
+
+1486
+00:49:08,079 --> 00:49:13,280
+your computer. Uh can uh figure out how
+
+1487
+00:49:10,559 --> 00:49:14,960
+to build a nuclear bomb. Uh AI can do so
+
+1488
+00:49:13,280 --> 00:49:17,839
+many different things. You can you can
+
+1489
+00:49:14,960 --> 00:49:20,240
+program robots. Uh you can program nano
+
+1490
+00:49:17,839 --> 00:49:21,680
+nanobots. Uh you can fly like flying
+
+1491
+00:49:20,240 --> 00:49:24,240
+nanobots. Like what can you do and
+
+1492
+00:49:21,680 --> 00:49:26,800
+cannot do with that? Um they can well
+
+1493
+00:49:24,240 --> 00:49:28,720
+they obviously can can program drones um
+
+1494
+00:49:26,800 --> 00:49:30,480
+etc. So there's so much application for
+
+1495
+00:49:28,720 --> 00:49:32,400
+AI but I don't think anyone's really
+
+1496
+00:49:30,480 --> 00:49:33,760
+thinking about well in a in a deep way
+
+1497
+00:49:32,400 --> 00:49:36,400
+in a comprehensive way on how to
+
+1498
+00:49:33,760 --> 00:49:37,680
+regulate AI. I say that but when I
+
+1499
+00:49:36,400 --> 00:49:39,119
+actually think about that problem I
+
+1500
+00:49:37,680 --> 00:49:39,920
+don't know how to do it. Yeah. It's so
+
+1501
+00:49:39,119 --> 00:49:40,960
+it's such a hard problem
+
+1502
+00:49:39,920 --> 00:49:42,960
+>> because you want to promote the growth
+
+1503
+00:49:40,960 --> 00:49:44,559
+and innovation too. It's not just like
+
+1504
+00:49:42,960 --> 00:49:46,240
+because we we have seen some proposals I
+
+1505
+00:49:44,559 --> 00:49:48,400
+know in the US probably everywhere I
+
+1506
+00:49:46,240 --> 00:49:51,040
+would assume. you know, there's a small
+
+1507
+00:49:48,400 --> 00:49:53,440
+but rising populist backlash of like no
+
+1508
+00:49:51,040 --> 00:49:56,079
+more data centers even, not just make
+
+1509
+00:49:53,440 --> 00:49:57,359
+the AI safe, but like build less AI that
+
+1510
+00:49:56,079 --> 00:49:58,800
+they're not that's not winning out at
+
+1511
+00:49:57,359 --> 00:50:00,640
+the moment, but I haven't seen anything
+
+1512
+00:49:58,800 --> 00:50:01,200
+more nuanced than that yet to your
+
+1513
+00:50:00,640 --> 00:50:02,800
+point.
+
+1514
+00:50:01,200 --> 00:50:04,480
+>> Typically, the the first versions of
+
+1515
+00:50:02,800 --> 00:50:05,280
+regulations or what people say is like
+
+1516
+00:50:04,480 --> 00:50:05,680
+too binary.
+
+1517
+00:50:05,280 --> 00:50:07,359
+>> Yes.
+
+1518
+00:50:05,680 --> 00:50:08,240
+>> Okay. Yeah. We can regulate the industry
+
+1519
+00:50:07,359 --> 00:50:08,640
+by killing it,
+
+1520
+00:50:08,240 --> 00:50:10,160
+>> right?
+
+1521
+00:50:08,640 --> 00:50:12,880
+>> Um that's not regulating, that's just
+
+1522
+00:50:10,160 --> 00:50:14,559
+killing. Regula regulating the industry
+
+1523
+00:50:12,880 --> 00:50:15,680
+means that you want to promote use of
+
+1524
+00:50:14,559 --> 00:50:16,960
+it. Otherwise, you don't need to
+
+1525
+00:50:15,680 --> 00:50:18,480
+regulate it, just kill it. Yeah,
+
+1526
+00:50:16,960 --> 00:50:21,680
+>> that's that's that that's not
+
+1527
+00:50:18,480 --> 00:50:24,079
+regulating, right? So, um um yeah, so
+
+1528
+00:50:21,680 --> 00:50:26,240
+but it's just so hard to regulate AI. Uh
+
+1529
+00:50:24,079 --> 00:50:27,839
+and many people are not thinking or
+
+1530
+00:50:26,240 --> 00:50:29,040
+talking about it deeply. But when you
+
+1531
+00:50:27,839 --> 00:50:32,160
+think about this problem, it's actually
+
+1532
+00:50:29,040 --> 00:50:35,119
+very important for our civilization. Uh
+
+1533
+00:50:32,160 --> 00:50:37,280
+AI, crypto, no matter what it does, it
+
+1534
+00:50:35,119 --> 00:50:39,599
+doesn't have the power to extinguish our
+
+1535
+00:50:37,280 --> 00:50:40,720
+civilization. Um it's very powerful.
+
+1536
+00:50:39,599 --> 00:50:43,119
+It's like there's a lot of money
+
+1537
+00:50:40,720 --> 00:50:45,839
+involved like you know it's it's it's a
+
+1538
+00:50:43,119 --> 00:50:48,079
+great industry but um it helps global
+
+1539
+00:50:45,839 --> 00:50:49,839
+commerce it grows our economy etc but it
+
+1540
+00:50:48,079 --> 00:50:52,319
+it doesn't but AI has the power to
+
+1541
+00:50:49,839 --> 00:50:55,119
+extinguish our our civilization if we're
+
+1542
+00:50:52,319 --> 00:50:57,280
+not we don't use it carefully so u uh
+
+1543
+00:50:55,119 --> 00:50:57,839
+yeah so but anyway um that's just me
+
+1544
+00:50:57,280 --> 00:50:58,720
+ranting
+
+1545
+00:50:57,839 --> 00:51:00,000
+>> yeah no I [laughter] appreciate it
+
+1546
+00:50:58,720 --> 00:51:01,599
+that's what I wanted to hear you know we
+
+1547
+00:51:00,000 --> 00:51:03,359
+I think one of my favorite things to
+
+1548
+00:51:01,599 --> 00:51:05,520
+have you built anything personally at
+
+1549
+00:51:03,359 --> 00:51:06,880
+home with claw code or whatever that
+
+1550
+00:51:05,520 --> 00:51:07,760
+like you most people are tinkering with
+
+1551
+00:51:06,880 --> 00:51:09,520
+something it's one of our favorite
+
+1552
+00:51:07,760 --> 00:51:10,800
+questions to ask like over a Frank, what
+
+1553
+00:51:09,520 --> 00:51:12,720
+are you building with AI?
+
+1554
+00:51:10,800 --> 00:51:16,160
+>> Um, I tried to I but very
+
+1555
+00:51:12,720 --> 00:51:19,599
+unsuccessfully. I tried open claw. Um,
+
+1556
+00:51:16,160 --> 00:51:22,400
+>> uh, I installed it on my on one of my
+
+1557
+00:51:19,599 --> 00:51:24,480
+unused Macs. Uh, and then I tried to get
+
+1558
+00:51:22,400 --> 00:51:26,720
+it to uh, uh, to download my Gmail,
+
+1559
+00:51:24,480 --> 00:51:29,200
+which it very easily connected to. Um,
+
+1560
+00:51:26,720 --> 00:51:30,319
+and I try to get it to filter my email.
+
+1561
+00:51:29,200 --> 00:51:30,720
+I get so much junk mail.
+
+1562
+00:51:30,319 --> 00:51:32,160
+>> Yeah. Oh, yeah.
+
+1563
+00:51:30,720 --> 00:51:33,040
+>> Right. I get so much junk mail to the
+
+1564
+00:51:32,160 --> 00:51:34,400
+point I don't use email.
+
+1565
+00:51:33,040 --> 00:51:36,240
+>> No, me too. It's bad.
+
+1566
+00:51:34,400 --> 00:51:37,839
+>> I just don't use don't use email. And
+
+1567
+00:51:36,240 --> 00:51:40,000
+but I thought like he has this Gmail
+
+1568
+00:51:37,839 --> 00:51:43,599
+skill. So like download see what it can
+
+1569
+00:51:40,000 --> 00:51:46,160
+do plug that in got a Gmail API key put
+
+1570
+00:51:43,599 --> 00:51:48,960
+it in uh I but it was so careful it was
+
+1571
+00:51:46,160 --> 00:51:52,319
+so it was so it was so resistant to
+
+1572
+00:51:48,960 --> 00:51:54,720
+deleting emails for for me I'm like oh
+
+1573
+00:51:52,319 --> 00:51:56,400
+remove all the junk and only only show
+
+1574
+00:51:54,720 --> 00:51:59,119
+me like you know the the emails emails
+
+1575
+00:51:56,400 --> 00:52:01,760
+that are important but every like like I
+
+1576
+00:51:59,119 --> 00:52:03,440
+would say probably 30% 40% of my emails
+
+1577
+00:52:01,760 --> 00:52:04,240
+are requesting for some kind of uh
+
+1578
+00:52:03,440 --> 00:52:04,640
+meeting with me
+
+1579
+00:52:04,240 --> 00:52:05,920
+>> right
+
+1580
+00:52:04,640 --> 00:52:07,599
+>> they're like well this guy's requesting
+
+1581
+00:52:05,920 --> 00:52:09,280
+an email meeting with me like there's
+
+1582
+00:52:07,599 --> 00:52:09,760
+all this meeting request. He thinks it's
+
+1583
+00:52:09,280 --> 00:52:10,079
+important.
+
+1584
+00:52:09,760 --> 00:52:10,880
+>> Right.
+
+1585
+00:52:10,079 --> 00:52:12,160
+>> Right. I'm like
+
+1586
+00:52:10,880 --> 00:52:14,160
+>> a lot of that's junk as well in your
+
+1587
+00:52:12,160 --> 00:52:16,160
+mind. Yeah. It's just spam inbound.
+
+1588
+00:52:14,160 --> 00:52:17,839
+>> I'm like 99% of that is like just junk
+
+1589
+00:52:16,160 --> 00:52:19,119
+from people I don't know. Right. I'm not
+
+1590
+00:52:17,839 --> 00:52:21,040
+going to accept those meetings. But so
+
+1591
+00:52:19,119 --> 00:52:21,920
+like AI I tried it. It just doesn't do
+
+1592
+00:52:21,040 --> 00:52:24,559
+what I what I need to do.
+
+1593
+00:52:21,920 --> 00:52:27,200
+>> Interesting. Very interesting. Um let's
+
+1594
+00:52:24,559 --> 00:52:29,119
+talk about um quantum a little bit.
+
+1595
+00:52:27,200 --> 00:52:29,920
+Another thing I did a a presentation
+
+1596
+00:52:29,119 --> 00:52:31,760
+earlier
+
+1597
+00:52:29,920 --> 00:52:34,960
+>> to an investment bank about Bitcoin and
+
+1598
+00:52:31,760 --> 00:52:36,880
+quantum and the mitigation paths. Are
+
+1599
+00:52:34,960 --> 00:52:39,280
+you worried about quantum as a threat to
+
+1600
+00:52:36,880 --> 00:52:41,280
+Bitcoin? No. Um uh I'm actually not
+
+1601
+00:52:39,280 --> 00:52:43,119
+worried about it at all. Um I think
+
+1602
+00:52:41,280 --> 00:52:44,880
+number one is um the more compute power
+
+1603
+00:52:43,119 --> 00:52:46,880
+we have the better. Um they are already
+
+1604
+00:52:44,880 --> 00:52:49,200
+quantum resistant uh encryption
+
+1605
+00:52:46,880 --> 00:52:50,720
+algorithms. So all we need to do
+
+1606
+00:52:49,200 --> 00:52:52,800
+conceptually very simple all we need to
+
+1607
+00:52:50,720 --> 00:52:55,280
+do is upgrade the change the encryption
+
+1608
+00:52:52,800 --> 00:52:57,359
+algorithm. Um but for a decentralized
+
+1609
+00:52:55,280 --> 00:52:58,720
+know technology like Bitcoin and with so
+
+1610
+00:52:57,359 --> 00:53:01,280
+many users all around different parts of
+
+1611
+00:52:58,720 --> 00:53:03,280
+the world the coordination is difficult.
+
+1612
+00:53:01,280 --> 00:53:05,359
+Um and there's also the Satoshi bitcoins
+
+1613
+00:53:03,280 --> 00:53:07,520
+that you know uh that what do we need to
+
+1614
+00:53:05,359 --> 00:53:09,520
+do etc. But overall, I'm not I'm not
+
+1615
+00:53:07,520 --> 00:53:11,680
+worried about it. Um I also think that I
+
+1616
+00:53:09,520 --> 00:53:12,880
+have a sneaky suspicion that know Google
+
+1617
+00:53:11,680 --> 00:53:13,359
+says 2029.
+
+1618
+00:53:12,880 --> 00:53:15,599
+>> Yeah.
+
+1619
+00:53:13,359 --> 00:53:16,960
+>> Um it'd be very Yeah, I mean I'm I
+
+1620
+00:53:15,599 --> 00:53:17,280
+appreciate that. No, they give they give
+
+1621
+00:53:16,960 --> 00:53:18,000
+such
+
+1622
+00:53:17,280 --> 00:53:19,760
+>> some urgency.
+
+1623
+00:53:18,000 --> 00:53:21,599
+>> Some urgency and some some the early
+
+1624
+00:53:19,760 --> 00:53:23,839
+notice. Um I don't know what's going on
+
+1625
+00:53:21,599 --> 00:53:25,599
+in like what do they have? Maybe they
+
+1626
+00:53:23,839 --> 00:53:27,359
+can already crack Bitcoin. They they
+
+1627
+00:53:25,599 --> 00:53:29,119
+don't. And if that's the case, I'd be
+
+1628
+00:53:27,359 --> 00:53:29,520
+super appreciative that the fact that
+
+1629
+00:53:29,119 --> 00:53:30,480
+they don't
+
+1630
+00:53:29,520 --> 00:53:32,960
+>> they don't. Yeah.
+
+1631
+00:53:30,480 --> 00:53:35,280
+>> Um but more likely I think there might
+
+1632
+00:53:32,960 --> 00:53:36,720
+be a little bit of a PR angle to that.
+
+1633
+00:53:35,280 --> 00:53:38,400
+Like look, if you're a quantum
+
+1634
+00:53:36,720 --> 00:53:40,880
+researcher, you want more attention uh
+
+1635
+00:53:38,400 --> 00:53:43,440
+for for for quantum
+
+1636
+00:53:40,880 --> 00:53:46,400
+>> and you might not put out a estimate
+
+1637
+00:53:43,440 --> 00:53:48,240
+that's relatively aggressive like say 20
+
+1638
+00:53:46,400 --> 00:53:49,440
+like you said 2035. Nobody was going to
+
+1639
+00:53:48,240 --> 00:53:50,800
+read that article. Yeah.
+
+1640
+00:53:49,440 --> 00:53:52,559
+>> Yeah. You said that's true. Right.
+
+1641
+00:53:50,800 --> 00:53:55,359
+>> And I think actually under um testing
+
+1642
+00:53:52,559 --> 00:53:56,800
+the one of the main Google um authors of
+
+1643
+00:53:55,359 --> 00:53:58,720
+that paper, Craig Gibney, a longtime
+
+1644
+00:53:56,800 --> 00:54:01,280
+quantum researcher said really he thinks
+
+1645
+00:53:58,720 --> 00:54:03,440
+it's about a 10% chance by 2029.
+
+1646
+00:54:01,280 --> 00:54:05,760
+>> Yeah. So Right. But I appreciate like
+
+1647
+00:54:03,440 --> 00:54:06,640
+that that's an engineering est estimate.
+
+1648
+00:54:05,760 --> 00:54:08,559
+>> Right. Right. [laughter] Right. And
+
+1649
+00:54:06,640 --> 00:54:10,240
+honestly to be clear like I think
+
+1650
+00:54:08,559 --> 00:54:12,000
+they've been getting pulled forward like
+
+1651
+00:54:10,240 --> 00:54:14,240
+that that Google paper did describe a
+
+1652
+00:54:12,000 --> 00:54:15,920
+substantial improvement. Yes.
+
+1653
+00:54:14,240 --> 00:54:18,160
+>> In the math and therefore reduction in
+
+1654
+00:54:15,920 --> 00:54:19,680
+the number of cubits required. So
+
+1655
+00:54:18,160 --> 00:54:20,160
+>> so but regardless the day is going to
+
+1656
+00:54:19,680 --> 00:54:21,520
+come. Yeah.
+
+1657
+00:54:20,160 --> 00:54:22,160
+>> And then Bitcoin is going to have to
+
+1658
+00:54:21,520 --> 00:54:26,640
+upgrade.
+
+1659
+00:54:22,160 --> 00:54:27,520
+>> Um so um the ecliptical um encryption is
+
+1660
+00:54:26,640 --> 00:54:30,559
+going to have to upgrade.
+
+1661
+00:54:27,520 --> 00:54:32,800
+>> Yes. So uh but we and we as a community
+
+1662
+00:54:30,559 --> 00:54:34,880
+need to somehow coordinate it. Um so
+
+1663
+00:54:32,800 --> 00:54:36,640
+that's a task on us. Um
+
+1664
+00:54:34,880 --> 00:54:38,079
+>> there's some early work happening but I
+
+1665
+00:54:36,640 --> 00:54:39,680
+would say it's early and you know how
+
+1666
+00:54:38,079 --> 00:54:41,119
+decentralized Bitcoin is like you know
+
+1667
+00:54:39,680 --> 00:54:42,480
+Ethereum Foundation released a whole
+
+1668
+00:54:41,119 --> 00:54:44,207
+road map. Well great like there's no
+
+1669
+00:54:42,480 --> 00:54:44,640
+such group in Bitcoin to do that.
+
+1670
+00:54:44,207 --> 00:54:46,960
+[laughter]
+
+1671
+00:54:44,640 --> 00:54:48,240
+>> Um but I I'm seeing some green shoots of
+
+1672
+00:54:46,960 --> 00:54:49,760
+activity I would say.
+
+1673
+00:54:48,240 --> 00:54:53,040
+>> But I think when the urgency gets
+
+1674
+00:54:49,760 --> 00:54:54,559
+stronger a few a number of key groups
+
+1675
+00:54:53,040 --> 00:54:55,839
+will get together and there will still
+
+1676
+00:54:54,559 --> 00:54:58,160
+be a lot of debates. There may even be
+
+1677
+00:54:55,839 --> 00:54:59,599
+many forks of Bitcoin, but eventually
+
+1678
+00:54:58,160 --> 00:55:02,000
+we'll we'll get there.
+
+1679
+00:54:59,599 --> 00:55:03,359
+>> Yeah, I think about the risk of uh well,
+
+1680
+00:55:02,000 --> 00:55:04,800
+we've Bitcoiners have lived through many
+
+1681
+00:55:03,359 --> 00:55:06,720
+forks before, right?
+
+1682
+00:55:04,800 --> 00:55:08,960
+>> Bitcoin Gold, Bitcoin Diamond, Bitcoin
+
+1683
+00:55:06,720 --> 00:55:09,200
+Cash, Bitcoin, whatever. Tell me about
+
+1684
+00:55:08,960 --> 00:55:10,319
+it.
+
+1685
+00:55:09,200 --> 00:55:12,160
+>> It's funny that that doesn't happen as
+
+1686
+00:55:10,319 --> 00:55:14,319
+much anymore, but that used to be like a
+
+1687
+00:55:12,160 --> 00:55:15,920
+a major theme of Bitcoin for like
+
+1688
+00:55:14,319 --> 00:55:18,880
+probably like three years, maybe like
+
+1689
+00:55:15,920 --> 00:55:20,480
+2016 to like 2018. So many forks, right?
+
+1690
+00:55:18,880 --> 00:55:22,720
+No, it was more like um it was more like
+
+1691
+00:55:20,480 --> 00:55:25,839
+No, it was more like No, August 20
+
+1692
+00:55:22,720 --> 00:55:27,040
+August 2017 was the first BCH fork.
+
+1693
+00:55:25,839 --> 00:55:28,000
+>> BCH but there were there were some
+
+1694
+00:55:27,040 --> 00:55:29,359
+others before.
+
+1695
+00:55:28,000 --> 00:55:30,559
+>> So after the BCH fork
+
+1696
+00:55:29,359 --> 00:55:32,400
+>> then it was the
+
+1697
+00:55:30,559 --> 00:55:35,040
+>> uh Binance is the first exchange to say
+
+1698
+00:55:32,400 --> 00:55:37,040
+we're going to support both forks uh
+
+1699
+00:55:35,040 --> 00:55:38,559
+because otherwise the user have to
+
+1700
+00:55:37,040 --> 00:55:40,640
+download the Bitcoin from the exchange
+
+1701
+00:55:38,559 --> 00:55:42,960
+uh install both wallets and figure out
+
+1702
+00:55:40,640 --> 00:55:45,119
+which one's SIG which one's uh not which
+
+1703
+00:55:42,960 --> 00:55:46,880
+one's like you know this and to download
+
+1704
+00:55:45,119 --> 00:55:48,880
+the entire Bitcoin blockchain takes like
+
+1705
+00:55:46,880 --> 00:55:50,559
+three or four days back then. um they
+
+1706
+00:55:48,880 --> 00:55:52,160
+have to go through all that work. Um so
+
+1707
+00:55:50,559 --> 00:55:53,920
+Binance was the first exchange. I gave
+
+1708
+00:55:52,160 --> 00:55:56,079
+this idea say look why don't we handle
+
+1709
+00:55:53,920 --> 00:56:00,000
+this for users because we have a big
+
+1710
+00:55:56,079 --> 00:56:01,440
+wallet and u we just give users the BCH
+
+1711
+00:56:00,000 --> 00:56:03,200
+that they're supposed to get and then
+
+1712
+00:56:01,440 --> 00:56:03,839
+we're done and then we list BCH and
+
+1713
+00:56:03,200 --> 00:56:05,839
+people can trade.
+
+1714
+00:56:03,839 --> 00:56:08,000
+>> Very few people exchange I did a study
+
+1715
+00:56:05,839 --> 00:56:11,359
+back then um when I worked at Fidelity
+
+1716
+00:56:08,000 --> 00:56:15,119
+about um what how they all the exchanges
+
+1717
+00:56:11,359 --> 00:56:16,720
+handled the BCH fork. Many did nothing.
+
+1718
+00:56:15,119 --> 00:56:19,440
+They technically had the keys, but they
+
+1719
+00:56:16,720 --> 00:56:21,119
+didn't give you the BCH. Coinbase didn't
+
+1720
+00:56:19,440 --> 00:56:23,440
+give you the BCH or let it to trade, I
+
+1721
+00:56:21,119 --> 00:56:26,079
+think, until like December. Some I think
+
+1722
+00:56:23,440 --> 00:56:27,599
+um maybe it was Bitfinex, they had pers
+
+1723
+00:56:26,079 --> 00:56:28,559
+um also to to see where it would trade
+
+1724
+00:56:27,599 --> 00:56:30,319
+in the future, which is actually a
+
+1725
+00:56:28,559 --> 00:56:32,160
+really important thing if a forks had to
+
+1726
+00:56:30,319 --> 00:56:33,520
+happen. But yes, I remember Binance was
+
+1727
+00:56:32,160 --> 00:56:34,160
+one that said we'll just we're going to
+
+1728
+00:56:33,520 --> 00:56:34,640
+give it to you.
+
+1729
+00:56:34,160 --> 00:56:36,480
+>> Yeah.
+
+1730
+00:56:34,640 --> 00:56:37,920
+>> Some I think sold it and gave you the
+
+1731
+00:56:36,480 --> 00:56:38,720
+Bitcoin proceeds. Yeah.
+
+1732
+00:56:37,920 --> 00:56:40,640
+>> Very strange.
+
+1733
+00:56:38,720 --> 00:56:41,920
+>> But the but the counter effect was so
+
+1734
+00:56:40,640 --> 00:56:43,920
+that helped a lot of you that helped a
+
+1735
+00:56:41,920 --> 00:56:45,920
+lot of users. But the counter effect is
+
+1736
+00:56:43,920 --> 00:56:47,760
+now then after that people saw that
+
+1737
+00:56:45,920 --> 00:56:49,920
+Binance have Binance supports Bitcoin
+
+1738
+00:56:47,760 --> 00:56:52,559
+forks and because we want to give use of
+
+1739
+00:56:49,920 --> 00:56:54,640
+the benefits. So then there was like
+
+1740
+00:56:52,559 --> 00:56:57,119
+Bitcoin gold, Bitcoin diamond, Bitcoin
+
+1741
+00:56:54,640 --> 00:56:57,599
+and then most all of them are useless.
+
+1742
+00:56:57,119 --> 00:56:59,599
+>> Yeah. Yeah.
+
+1743
+00:56:57,599 --> 00:57:03,760
+>> Right. But uh but all of them have some
+
+1744
+00:56:59,599 --> 00:57:05,839
+value when they first fork uh and so um
+
+1745
+00:57:03,760 --> 00:57:07,440
+so we were the exchange was forced to
+
+1746
+00:57:05,839 --> 00:57:09,119
+support quite a number of them and then
+
+1747
+00:57:07,440 --> 00:57:10,880
+so and after a while we said okay we're
+
+1748
+00:57:09,119 --> 00:57:12,720
+going to have to stop. So like there was
+
+1749
+00:57:10,880 --> 00:57:14,000
+like a I would say probably a three six
+
+1750
+00:57:12,720 --> 00:57:15,760
+months period there was a lot of forks
+
+1751
+00:57:14,000 --> 00:57:16,640
+and we stopped supporting them.
+
+1752
+00:57:15,760 --> 00:57:18,559
+>> That was that was that
+
+1753
+00:57:16,640 --> 00:57:20,720
+>> that was the the Bitcoin forks era was
+
+1754
+00:57:18,559 --> 00:57:22,799
+exciting. Um so just back on the quantum
+
+1755
+00:57:20,720 --> 00:57:25,119
+thing you mentioned this. So assuming we
+
+1756
+00:57:22,799 --> 00:57:28,559
+get the tech to the the new cryptography
+
+1757
+00:57:25,119 --> 00:57:30,640
+and Bitcoiners decide to add it and all
+
+1758
+00:57:28,559 --> 00:57:32,799
+that part of it is solved. Should
+
+1759
+00:57:30,640 --> 00:57:35,280
+Bitcoiners or Bitcoin do something with
+
+1760
+00:57:32,799 --> 00:57:36,480
+Satoshi's coins or not? There's my
+
+1761
+00:57:35,280 --> 00:57:38,960
+understanding is there's there's kind of
+
+1762
+00:57:36,480 --> 00:57:41,680
+three options. you could do nothing and
+
+1763
+00:57:38,960 --> 00:57:43,839
+effectively it's a bounty and the
+
+1764
+00:57:41,680 --> 00:57:46,079
+downside obviously is that you likely
+
+1765
+00:57:43,839 --> 00:57:47,839
+get the coins one day swept by an indie
+
+1766
+00:57:46,079 --> 00:57:50,000
+that creates sell pressure
+
+1767
+00:57:47,839 --> 00:57:52,240
+>> but the sell pressure does redistribute
+
+1768
+00:57:50,000 --> 00:57:53,920
+them ultimately to the community so like
+
+1769
+00:57:52,240 --> 00:57:55,920
+there's there's a minor upside there I
+
+1770
+00:57:53,920 --> 00:57:57,520
+would say potentially long-term upside
+
+1771
+00:57:55,920 --> 00:57:58,799
+versus short-term downside there's one
+
+1772
+00:57:57,520 --> 00:58:01,440
+that says I don't know some version of
+
+1773
+00:57:58,799 --> 00:58:03,040
+freeze and seize either to one day give
+
+1774
+00:58:01,440 --> 00:58:05,440
+him back if he can you know show up with
+
+1775
+00:58:03,040 --> 00:58:06,960
+a passport that says Satoshi or whatever
+
+1776
+00:58:05,440 --> 00:58:08,160
+I know that's tricky since the only
+
+1777
+00:58:06,960 --> 00:58:09,920
+proof we actually would have would be
+
+1778
+00:58:08,160 --> 00:58:11,520
+cryptographic proof and that will have
+
+1779
+00:58:09,920 --> 00:58:13,359
+been broken and then there's some sort
+
+1780
+00:58:11,520 --> 00:58:15,520
+of middle ground idea which is like you
+
+1781
+00:58:13,359 --> 00:58:17,280
+know slow the spending or something
+
+1782
+00:58:15,520 --> 00:58:19,359
+should what do you think I mean and
+
+1783
+00:58:17,280 --> 00:58:20,640
+knowing that you you know I'm not sure
+
+1784
+00:58:19,359 --> 00:58:21,839
+where I stand on this but
+
+1785
+00:58:20,640 --> 00:58:24,319
+>> I think the first option is definitely
+
+1786
+00:58:21,839 --> 00:58:26,160
+bad uh we we should do something with it
+
+1787
+00:58:24,319 --> 00:58:28,640
+um but I I would actually propose a
+
+1788
+00:58:26,160 --> 00:58:31,359
+different solution um uh I think we
+
+1789
+00:58:28,640 --> 00:58:33,839
+should say look uh once we we know we're
+
+1790
+00:58:31,359 --> 00:58:35,440
+going to fork Bitcoin we should I would
+
+1791
+00:58:33,839 --> 00:58:37,040
+I would put a fourth option on the table
+
+1792
+00:58:35,440 --> 00:58:40,079
+say look as a community why don't we
+
+1793
+00:58:37,040 --> 00:58:42,799
+give the uh why don't we give a timeline
+
+1794
+00:58:40,079 --> 00:58:44,880
+say within 6 months or 12 months
+
+1795
+00:58:42,799 --> 00:58:45,839
+>> uh if those coins don't move then we're
+
+1796
+00:58:44,880 --> 00:58:47,839
+going to lock them
+
+1797
+00:58:45,839 --> 00:58:50,000
+>> right so the on the new protocol those
+
+1798
+00:58:47,839 --> 00:58:52,000
+those on the new protocol there will be
+
+1799
+00:58:50,000 --> 00:58:53,040
+like only 20 million coins because um
+
+1800
+00:58:52,000 --> 00:58:54,240
+we're just going to lock them
+
+1801
+00:58:53,040 --> 00:58:55,839
+>> take away a million coins
+
+1802
+00:58:54,240 --> 00:58:57,920
+>> just take away those million coins um
+
+1803
+00:58:55,839 --> 00:59:00,160
+those addresses will be frozen uh on the
+
+1804
+00:58:57,920 --> 00:59:02,400
+mirrored one those address will be
+
+1805
+00:59:00,160 --> 00:59:04,559
+frozen I I would say let's give him a
+
+1806
+00:59:02,400 --> 00:59:06,960
+year right if he uh if he doesn't do
+
+1807
+00:59:04,559 --> 00:59:09,119
+that in a year um I think um then you
+
+1808
+00:59:06,960 --> 00:59:10,960
+know we give him time um he may be alive
+
+1809
+00:59:09,119 --> 00:59:12,400
+may not be alive he may he may even not
+
+1810
+00:59:10,960 --> 00:59:15,599
+be a person who knows right
+
+1811
+00:59:12,400 --> 00:59:17,280
+>> all right so u u but if we uh uh but if
+
+1812
+00:59:15,599 --> 00:59:18,720
+we don't do anything with it then we we
+
+1813
+00:59:17,280 --> 00:59:20,559
+basically giving to somebody who's going
+
+1814
+00:59:18,720 --> 00:59:22,400
+to hack it the first guy who runs the e
+
+1815
+00:59:20,559 --> 00:59:24,720
+quantum to crack it eventually that will
+
+1816
+00:59:22,400 --> 00:59:28,480
+happen uh and that's not a good way to
+
+1817
+00:59:24,720 --> 00:59:31,359
+distribute uh in my opinion um and and
+
+1818
+00:59:28,480 --> 00:59:33,119
+it's slow so I that's what I would do uh
+
+1819
+00:59:31,359 --> 00:59:36,319
+that was that's what I would suggest I
+
+1820
+00:59:33,119 --> 00:59:39,200
+think at the end is what we do should up
+
+1821
+00:59:36,319 --> 00:59:40,480
+to a community vote. Um, and I don't
+
+1822
+00:59:39,200 --> 00:59:42,559
+know how like, you know, we probably
+
+1823
+00:59:40,480 --> 00:59:44,319
+have to signal with a Bitcoin flag.
+
+1824
+00:59:42,559 --> 00:59:45,520
+>> Yeah. In Bitcoin, the votes are usually
+
+1825
+00:59:44,319 --> 00:59:46,480
+like minor flagging.
+
+1826
+00:59:45,520 --> 00:59:48,880
+>> Yeah. The minor flag.
+
+1827
+00:59:46,480 --> 00:59:50,559
+>> You could run nodes that support UASF
+
+1828
+00:59:48,880 --> 00:59:51,359
+potentially, but that can be civil
+
+1829
+00:59:50,559 --> 00:59:51,839
+attack. But yeah.
+
+1830
+00:59:51,359 --> 00:59:54,319
+>> Yeah. Yeah.
+
+1831
+00:59:51,839 --> 00:59:55,920
+>> It's a tricky question. I I don't think
+
+1832
+00:59:54,319 --> 00:59:56,960
+there's frankly any good answer to the
+
+1833
+00:59:55,920 --> 00:59:59,040
+question, unfortunately.
+
+1834
+00:59:56,960 --> 01:00:01,760
+>> No. No. I do think that uh if he doesn't
+
+1835
+00:59:59,040 --> 01:00:03,440
+do anything with it uh we uh I my
+
+1836
+01:00:01,760 --> 01:00:04,720
+recommendation would be well the new
+
+1837
+01:00:03,440 --> 01:00:06,160
+protocol should be freezing like those
+
+1838
+01:00:04,720 --> 01:00:06,559
+will be taken out of circulation.
+
+1839
+01:00:06,160 --> 01:00:07,040
+>> Got it.
+
+1840
+01:00:06,559 --> 01:00:08,880
+>> Yeah.
+
+1841
+01:00:07,040 --> 01:00:10,400
+>> Um just two questions here to wrap up
+
+1842
+01:00:08,880 --> 01:00:11,520
+that are sort of really quite
+
+1843
+01:00:10,400 --> 01:00:13,440
+open-ended.
+
+1844
+01:00:11,520 --> 01:00:16,240
+>> What is something in the last year that
+
+1845
+01:00:13,440 --> 01:00:17,359
+you've changed your mind on
+
+1846
+01:00:16,240 --> 01:00:18,720
+>> you know last year or two?
+
+1847
+01:00:17,359 --> 01:00:18,960
+>> Oh that's this is a pretty simple one.
+
+1848
+01:00:18,720 --> 01:00:22,480
+Yeah.
+
+1849
+01:00:18,960 --> 01:00:24,240
+>> RWAS I was pretty skeptical like say a
+
+1850
+01:00:22,480 --> 01:00:26,000
+year or a year and a half ago. I thought
+
+1851
+01:00:24,240 --> 01:00:27,280
+like you know who's going to like I'm
+
+1852
+01:00:26,000 --> 01:00:28,319
+not sure if anyone's going to trade this
+
+1853
+01:00:27,280 --> 01:00:30,480
+stuff. I'm not sure if it's going to
+
+1854
+01:00:28,319 --> 01:00:32,480
+take off but the speed is taking off
+
+1855
+01:00:30,480 --> 01:00:35,680
+actually caught me by surprise.
+
+1856
+01:00:32,480 --> 01:00:40,720
+>> Um so I think um and like you know um
+
+1857
+01:00:35,680 --> 01:00:43,440
+stable coins, oil futures um AI stocks
+
+1858
+01:00:40,720 --> 01:00:45,680
+um so they have very good uptake in the
+
+1859
+01:00:43,440 --> 01:00:48,160
+crypto community. Um that means that the
+
+1860
+01:00:45,680 --> 01:00:50,160
+demand is there um so that means that
+
+1861
+01:00:48,160 --> 01:00:52,000
+many people in the world wanted to
+
+1862
+01:00:50,160 --> 01:00:55,440
+access those things and they didn't have
+
+1863
+01:00:52,000 --> 01:00:58,319
+access. So um um so that caught me by
+
+1864
+01:00:55,440 --> 01:00:59,920
+surprise. Uh so I was no 10 years ago it
+
+1865
+01:00:58,319 --> 01:01:01,200
+was stable coins but stable coins I got
+
+1866
+01:00:59,920 --> 01:01:02,319
+over that quite quite a bit earlier.
+
+1867
+01:01:01,200 --> 01:01:05,200
+>> Yeah. Yeah.
+
+1868
+01:01:02,319 --> 01:01:07,680
+>> Um last question CZ
+
+1869
+01:01:05,200 --> 01:01:09,839
+>> you founded Binance in 2017 right?
+
+1870
+01:01:07,680 --> 01:01:12,400
+What's something that's as obvious to
+
+1871
+01:01:09,839 --> 01:01:14,799
+you today or that you are convicted in
+
+1872
+01:01:12,400 --> 01:01:16,160
+today that you was obvious to you then
+
+1873
+01:01:14,799 --> 01:01:18,000
+and that you were convicted in then?
+
+1874
+01:01:16,160 --> 01:01:20,720
+Something that's held true to you
+
+1875
+01:01:18,000 --> 01:01:24,400
+>> the whole time? Um
+
+1876
+01:01:20,720 --> 01:01:26,000
+>> uh hold on. Let me ask uh
+
+1877
+01:01:24,400 --> 01:01:27,520
+you mean but from a business opportunity
+
+1878
+01:01:26,000 --> 01:01:27,760
+perspective or a belief perspective?
+
+1879
+01:01:27,520 --> 01:01:29,119
+>> Yeah,
+
+1880
+01:01:27,760 --> 01:01:30,960
+>> I would say a belief a belief
+
+1881
+01:01:29,119 --> 01:01:32,960
+perspective. When you founded Binance,
+
+1882
+01:01:30,960 --> 01:01:35,440
+you had great conviction in this thing
+
+1883
+01:01:32,960 --> 01:01:37,200
+and today you have the same or even
+
+1884
+01:01:35,440 --> 01:01:37,920
+stronger conviction. Can be an idea,
+
+1885
+01:01:37,200 --> 01:01:39,680
+concept.
+
+1886
+01:01:37,920 --> 01:01:41,280
+>> Okay. Okay. That's simple. I mean crypto
+
+1887
+01:01:39,680 --> 01:01:44,000
+is not going away. Crypto is going to be
+
+1888
+01:01:41,280 --> 01:01:47,839
+a big industry. Um so uh that hasn't
+
+1889
+01:01:44,000 --> 01:01:50,480
+changed. Um so that that belief has now
+
+1890
+01:01:47,839 --> 01:01:53,520
+like only got much much much stronger.
+
+1891
+01:01:50,480 --> 01:01:55,839
+Um so uh that's yeah it's I don't know
+
+1892
+01:01:53,520 --> 01:01:57,920
+how to explain it in simple terms. It's
+
+1893
+01:01:55,839 --> 01:02:00,480
+just gonna get bigger. Um there's no way
+
+1894
+01:01:57,920 --> 01:02:02,160
+for it to get smaller actually. Uh yeah
+
+1895
+01:02:00,480 --> 01:02:02,559
+so the prices will fluctuate.
+
+1896
+01:02:02,160 --> 01:02:05,040
+>> Yeah.
+
+1897
+01:02:02,559 --> 01:02:07,040
+>> Uh of individual coins but um the
+
+1898
+01:02:05,040 --> 01:02:08,720
+industry is going to grow. Um right now
+
+1899
+01:02:07,040 --> 01:02:10,240
+you know like quite a lot of hot money
+
+1900
+01:02:08,720 --> 01:02:12,559
+went to AI know they're chasing all the
+
+1901
+01:02:10,240 --> 01:02:13,920
+AI stocks. Fantastic. Well guess what
+
+1902
+01:02:12,559 --> 01:02:15,520
+people are trading AI stocks using
+
+1903
+01:02:13,920 --> 01:02:17,440
+crypto now. Um the AI is actually
+
+1904
+01:02:15,520 --> 01:02:19,280
+contributing to crypto's trading volume.
+
+1905
+01:02:17,440 --> 01:02:21,680
+Um that may or may not help crypto
+
+1906
+01:02:19,280 --> 01:02:23,680
+itself. some of the crypto itself but um
+
+1907
+01:02:21,680 --> 01:02:27,599
+it's now the people are using blockchain
+
+1908
+01:02:23,680 --> 01:02:29,920
+to access those things um and also uh AI
+
+1909
+01:02:27,599 --> 01:02:32,640
+today as hot as it is today they don't
+
+1910
+01:02:29,920 --> 01:02:34,000
+transact for us yet um so now they can
+
+1911
+01:02:32,640 --> 01:02:34,960
+find the cheapest ticket for us but we
+
+1912
+01:02:34,000 --> 01:02:35,359
+still have to pay for that ticket
+
+1913
+01:02:34,960 --> 01:02:37,040
+ourselves
+
+1914
+01:02:35,359 --> 01:02:37,440
+>> agentic trading and payments and stuff
+
+1915
+01:02:37,040 --> 01:02:38,640
+you're thinking
+
+1916
+01:02:37,440 --> 01:02:40,559
+>> they will come they will come in a
+
+1917
+01:02:38,640 --> 01:02:41,599
+matter of month uh not years I think
+
+1918
+01:02:40,559 --> 01:02:44,559
+>> and they use crypto
+
+1919
+01:02:41,599 --> 01:02:47,119
+>> they will use crypto um uh imagine like
+
+1920
+01:02:44,559 --> 01:02:48,799
+today if you launch that thing uh or you
+
+1921
+01:02:47,119 --> 01:02:51,599
+have you have an agent that can buy your
+
+1922
+01:02:48,799 --> 01:02:53,839
+tickets or trade for you or um um do
+
+1923
+01:02:51,599 --> 01:02:56,000
+whatever you can integrate payment
+
+1924
+01:02:53,839 --> 01:02:58,559
+system country by country or you can say
+
+1925
+01:02:56,000 --> 01:03:00,880
+we're going to turn on crypto um and uh
+
+1926
+01:02:58,559 --> 01:03:03,280
+and also for uh many of the current
+
+1927
+01:03:00,880 --> 01:03:05,040
+payment system don't work with AI um the
+
+1928
+01:03:03,280 --> 01:03:06,720
+AI can't swipe your visa card you can
+
+1929
+01:03:05,040 --> 01:03:08,960
+probably fill a form but whenever
+
+1930
+01:03:06,720 --> 01:03:11,200
+there's a 2FA whenever like how can the
+
+1931
+01:03:08,960 --> 01:03:13,440
+KYC show your passport you just can't do
+
+1932
+01:03:11,200 --> 01:03:17,280
+do those things whereas with blockchain
+
+1933
+01:03:13,440 --> 01:03:20,799
+it's it's it's it's API driven right so
+
+1934
+01:03:17,280 --> 01:03:22,720
+um it's much easier for AI to So, um,
+
+1935
+01:03:20,799 --> 01:03:24,400
+while AI is great, AI is a tool for you
+
+1936
+01:03:22,720 --> 01:03:26,480
+to get stuff done, AI still need to
+
+1937
+01:03:24,400 --> 01:03:27,520
+spend money. AI still need to transact.
+
+1938
+01:03:26,480 --> 01:03:28,640
+Guess what? They're going to use the
+
+1939
+01:03:27,520 --> 01:03:31,280
+blockchain. Well, they're going to use a
+
+1940
+01:03:28,640 --> 01:03:32,960
+better, uh, we still need a good, we
+
+1941
+01:03:31,280 --> 01:03:35,440
+still need to continually upgrade the
+
+1942
+01:03:32,960 --> 01:03:37,599
+the current financial system. So, um,
+
+1943
+01:03:35,440 --> 01:03:39,280
+the financial system not going away like
+
+1944
+01:03:37,599 --> 01:03:41,440
+know when we had blockchain, internet
+
+1945
+01:03:39,280 --> 01:03:43,039
+didn't go away. When we have AI,
+
+1946
+01:03:41,440 --> 01:03:45,839
+blockchain and internet is not going to
+
+1947
+01:03:43,039 --> 01:03:48,000
+go away. Um, so, uh, all three are big
+
+1948
+01:03:45,839 --> 01:03:49,359
+big technologies. Uh so I think people
+
+1949
+01:03:48,000 --> 01:03:50,480
+many people ask me like no are you
+
+1950
+01:03:49,359 --> 01:03:54,319
+worried that you know all the money is
+
+1951
+01:03:50,480 --> 01:03:56,480
+going to AI? No. Uh yes some money went
+
+1952
+01:03:54,319 --> 01:03:58,240
+uh but that's that's okay. Uh there's
+
+1953
+01:03:56,480 --> 01:04:00,000
+enough money around and we're dealing
+
+1954
+01:03:58,240 --> 01:04:01,039
+with money industry. Even the money that
+
+1955
+01:04:00,000 --> 01:04:01,599
+went there still flows on the
+
+1956
+01:04:01,039 --> 01:04:01,920
+blockchain.
+
+1957
+01:04:01,599 --> 01:04:02,720
+>> Yeah.
+
+1958
+01:04:01,920 --> 01:04:05,200
+>> Right. Yeah.
+
+1959
+01:04:02,720 --> 01:04:06,799
+>> Increasingly. Well thank you so much CZ
+
+1960
+01:04:05,200 --> 01:04:07,119
+founder of Binance for coming on Galaxy
+
+1961
+01:04:06,799 --> 01:04:09,119
+Brains.
+
+1962
+01:04:07,119 --> 01:04:10,559
+>> Oh thank you for having me. Yeah.
+
+1963
+01:04:09,119 --> 01:04:12,240
+>> Thank you for listening to Galaxy Brains
+
+1964
+01:04:10,559 --> 01:04:13,680
+the weekly podcast from Galaxy Research.
+
+1965
+01:04:12,240 --> 01:04:16,079
+I'm Alex Thorne head of firmwide
+
+1966
+01:04:13,680 --> 01:04:18,640
+research at Galaxy. Follow me on X at
+
+1967
+01:04:16,079 --> 01:04:20,640
+Intangible Coins. Follow Galaxy Research
+
+1968
+01:04:18,640 --> 01:04:22,640
+on Xgxy
+
+1969
+01:04:20,640 --> 01:04:24,400
+Research. Read our written reports at
+
+1970
+01:04:22,640 --> 01:04:26,319
+galaxy.com/ressearch.
+
+1971
+01:04:24,400 --> 01:04:28,000
+And don't forget if you like Galaxy
+
+1972
+01:04:26,319 --> 01:04:30,000
+brands to like and subscribe on your
+
+1973
+01:04:28,000 --> 01:04:32,319
+favorite podcast platforms like YouTube,
+
+1974
+01:04:30,000 --> 01:04:35,039
+Spotify, Apple Podcasts, and more. We'll
+
+1975
+01:04:32,319 --> 01:04:35,039
+see you next time.
+

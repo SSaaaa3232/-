@@ -174,9 +174,33 @@
               "icon": "lucide-file",
               "title": "binance life"
             }
+          },
+          {
+            "id": "c6ec53e1fb4262c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "111.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "111"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -378,11 +402,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "c6ec53e1fb4262c7",
   "lastOpenFiles": [
+    "111.md",
+    "Nezikk.com/okx/podcast",
+    "Nezikk.com/HTB/st.md",
+    "media/transcripts/O5Ba3T6Xz-k.bilingual.md",
+    "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt",
+    "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt.part",
+    "media/transcripts/O5Ba3T6Xz-k.en.srt",
+    "media/transcripts/O5Ba3T6Xz-k.en.srt.part",
+    "media/transcripts/O5Ba3T6Xz-k.en-orig.srt",
+    "media/transcripts/O5Ba3T6Xz-k.en-orig.srt.part",
+    "media/transcripts/O5Ba3T6Xz-k.macwhisper-url.source.raw.txt",
     "binance life.md",
     "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
     "Screenshot 2026-06-22 at 5.51.10 PM.png",
     "Screenshot 2026-06-22 at 5.51.02 PM.png",
@@ -413,18 +447,8 @@
     "Excalidraw/human-skill-mindmap.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
-    "Excalidraw/st",
-    "Excalidraw/day-trading",
-    "Excalidraw/others",
     "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
     "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md",
-    "Excalidraw/image/cozy-crochet-character/cozy-crochet-character-v2.excalidraw",
-    "Excalidraw/ncreate-cozy-crochet-review.excalidraw",
-    "Excalidraw/image/cozy-crochet-character",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
-    "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
-    "Excalidraw/_ncreate/prompts/2026-06-21-cozy-crochet-character.md",
-    "Excalidraw/image",
-    "Excalidraw/_ncreate/runs/cozy-crochet-character-2026-06-21/manifest.json"
+    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
   ]
 }
