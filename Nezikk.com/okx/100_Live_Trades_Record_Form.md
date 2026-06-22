@@ -40,7 +40,39 @@ related:
 判断价格会有概率回调
 忽视RSI背离没有给明确信号
 
+| date        | 6.21 |
+| ----------- | ---- |
+| w/l         | l    |
+| profit      | -15  |
+| buffs       | n    |
+| k           |      |
+| discription |      |
+| confuse     |      |
+| whole       | 970  |
 
+[[26eb399ddb911cd95fd30d88e361c6eb_MD5.jpg|Open: Screenshot 2026-06-22 at 9.14.01 AM.png]]
+![[26eb399ddb911cd95fd30d88e361c6eb_MD5.jpg]]
+
+第三个信号入场
+没有坚定自己一开始的想法
+相信了信号器，没什么话好说的
+
+| date        | 6.22 |
+| ----------- | ---- |
+| w/l         |      |
+| profit      |      |
+| buffs       | n    |
+| k           |      |
+| discription |      |
+| confuse     |      |
+| whole       |      |
+依旧看空
+对于RSI 牛背离不予理睬
+两次测试支撑压力位有阻力短时间判断上不了紫色区域
+如果后续多次拒绝那就看空
+属于左侧交易了
+
+ps：这个信号器已经连续错6次了也是逆天
 ## 填写规则
 
 - 日期：建议用 `YYYY-MM-DD HH:mm`，方便以后按时间复盘。

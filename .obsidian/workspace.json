@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -354,10 +353,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "32d028eacd958c18",
   "lastOpenFiles": [
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/HTB/st.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
+    "26eb399ddb911cd95fd30d88e361c6eb_MD5.jpg",
+    "Screenshot 2026-06-22 at 9.14.01 AM.png",
+    "513d29fd39c585927dee3b5f24fb5f58_MD5.jpg",
+    "Screenshot 2026-06-22 at 9.12.50 AM.png",
+    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-21 19.28.12.excalidraw.md",
     "Excalidraw/st 2026-06-21 17.46.37.excalidraw.md",
     "Screenshot 2026-06-21 at 6.05.16 PM.png",
@@ -367,10 +371,7 @@
     "ccd1dc624484fa52eee818d4fc5d4820_MD5.jpg",
     "Screenshot 2026-06-21 at 5.49.45 PM.png",
     "bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg",
-    "Screenshot 2026-06-21 at 5.35.57 PM.png",
     "Excalidraw/image/cozy-crochet-character/cozy-crochet-character.excalidraw",
-    "Excalidraw/image/cozy-crochet-character/cozy-crochet-character.png",
-    "Excalidraw/image/cozy-crochet-character/cozy-crochet-character-v2.png",
     "Excalidraw/day-trading 2026-06-13 19.57.16.excalidraw.md",
     "Excalidraw/\"多Agent协作\"模式 2026-04-15 11.11.36.excalidraw.md",
     "Excalidraw/st 2026-06-20 19.01.20.excalidraw.md",
@@ -389,7 +390,6 @@
     "Excalidraw/image/cozy-crochet-character/cozy-crochet-character-v2.excalidraw",
     "Excalidraw/ncreate-cozy-crochet-review.excalidraw",
     "Excalidraw/image/cozy-crochet-character",
-    "Excalidraw/image/ncreate-2026-06-21-cozy-crochet-character.png",
     "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md",
     "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
     "Excalidraw/_ncreate/prompts/2026-06-21-cozy-crochet-character.md",
@@ -399,8 +399,6 @@
     "清单/开通服务.md",
     "Nezikk.com/auto/useful in cutting.md",
     "Nezikk.com/auto/PROMPT.md",
-    "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md",
-    "清洗/input/raw/2026-05-10_reverse-workflow/index.md",
-    "清洗/input/file/2026-05-10_ncreate-skill-md/index.md"
+    "清洗/output/png/danger-test/prompts/00-danger-gemini-web-test.md"
   ]
 }
