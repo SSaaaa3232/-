@@ -1015,7 +1015,9 @@ The difference between them lies in the previous processes' treatment and depend
 
 ### Task Scheduling
 
-#### Create a Timer
+#### Systemd
+
+Create a Timer
 
 ```
 sudo mkdir /etc/systemd/system/mytimer.timer.d
@@ -1045,8 +1047,67 @@ script
 | OnBootSec       | if we want to run our script only once after the system boot, |
 | OnUnitActiveSec | want our script to run regularly,                             |
 
-#### Create a Service
+Create a Service
 
 ```
 sudo vim /etc/systemd/system/mytimer.service
+```
+
+```
+[Unit]
+Description=My Service
+
+[Service]
+ExecStart=/full/path/to/my/script.sh
+
+[Install]
+WantedBy=multi-user.target
+
+##Here we set a description and specify the full path to the script we want to run. The "multi-user.target" is the unit system that is activated when starting a normal multi-user mode. It defines the services that should be started on a normal system startup.
+```
+
+```
+sudo systemctl daemon-reload
+
+## Reload Systemd
+After that, we can use `systemctl` to `start` the service manually and `enable` the autostart.
+```
+
+```
+sudo systemctl start mytimer.timer
+sudo systemctl enable mytimer.timer
+
+## Start the Timer & Service
+```
+
+#### Cron
+[[ad6a4a6f0f67d83b476f49304fe6b236_MD5.jpg|Open: Screenshot 2026-06-22 at 12.28.24 PM.png]]
+![[ad6a4a6f0f67d83b476f49304fe6b236_MD5.jpg]]
+
+```
+# System Update
+0 */6 * * * /path/to/update_software.sh
+
+# Execute Scripts
+0 0 1 * * /path/to/scripts/run_scripts.sh
+
+# Cleanup DB
+0 0 * * 0 /path/to/scripts/clean_database.sh
+
+# Backups
+0 0 * * 7 /path/to/scripts/backup.sh
+```
+#### Systemd vs. Cron  Systemd
+
+Systemd and Cron are both tools that can be used in Linux systems to schedule and automate processes. The key difference between these two tools is how they are configured. With Systemd, you need to create a timer and services script that tells the operating system when to run the tasks. On the other hand, with Cron, you need to create a `crontab` file that tells the cron daemon when to run the tasks
+
+#### What is the Type of the service of the "dconf.service"?
+
+```
+find / -name "dconf.service" 2>/dev/null
+
+systemctl cat dconf.service
+
+##这个不行就试xia
+
 ```
