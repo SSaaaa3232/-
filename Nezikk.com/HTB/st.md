@@ -1014,3 +1014,39 @@ fg 1
 The difference between them lies in the previous processes' treatment and depends on whether the previous process was completed successfully or with errors.
 
 ### Task Scheduling
+
+#### Create a Timer
+
+```
+sudo mkdir /etc/systemd/system/mytimer.timer.d
+
+sudo vim /etc/systemd/system/mytimer.timer
+
+##create a directory where the timer script will be stored
+
+```
+
+script
+
+|         |                                                           |
+| ------- | --------------------------------------------------------- |
+| Unit    | specifies a description for the timer.                    |
+| Timer   | specifies when to start the timer and when to activate it |
+| Install | specifies where to install the timer                      |
+
+```
+[Unit] Description=My Timer 
+[Timer] OnBootSec=3min OnUnitActiveSec=1hour 
+[Install] WantedBy=timers.target
+```
+
+|                 |                                                               |
+| --------------- | ------------------------------------------------------------- |
+| OnBootSec       | if we want to run our script only once after the system boot, |
+| OnUnitActiveSec | want our script to run regularly,                             |
+
+#### Create a Service
+
+```
+sudo vim /etc/systemd/system/mytimer.service
+```
