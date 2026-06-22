@@ -895,6 +895,12 @@ apt list --installed
 sudo apt install impacket-scripts -y
 
 ##If we are missing some packages, we can search for it and install it using the following command.
+
+sudo apt install nfs-kernel-server -y
+systemctl status nfs-kernel-server
+
+sudo apt install openssh-server -y
+systemctl status ssh
 ```
 
 #### Git
@@ -1108,6 +1114,49 @@ find / -name "dconf.service" 2>/dev/null
 
 systemctl cat dconf.service
 
-##这个不行就试xia
+##system service
+
+cat /usr/lib/systemd/user/dconf.service | grep Type
+
+##another
+
+systemctl --user cat dconf.service
+
+##user service
+```
+
+### NSF
+
+
+| access         |                                                                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| rw             | Gives users and systems read and write permissions to the shared directory.                                                                                |
+| ro             | Gives users and systems read-only access to the shared directory.                                                                                          |
+| no_root_squash | Prevents the root user on the client from being restricted to the rights of a normal user.                                                                 |
+| root_squash    | Restricts the rights of the root user on the client to the rights of a normal user.                                                                        |
+| sync           | Synchronizes the transfer of data to ensure that changes are only transferred after they have been saved on the file system.                               |
+| async          | Transfers data asynchronously, which makes the transfer faster, but may cause inconsistencies in the file system if changes have not been fully committed. |
+|                |                                                                                                                                                            |
+
+```
+sudo apt install nfs-kernel-server -y
+
+systemctl status nfs-kernel-server
+```
+
+We can configure NFS via the configuration file `/etc/exports`
+
+This file specifies which directories should be shared and the access rights for users and systems. It is also possible to configure settings such as the transfer speed and the use of encryption. NFS access rights determine which users and systems can access the shared directories and what actions they can perform.
+
+#### Create NFS Share
+
+```
+mkdir nfs_sharing
+
+echo '/home/cry0l1t3/nfs_sharing hostname(rw,sync,no_root_squash)' >> /etc/exports
+
+##cat /etc/exports | grep -v "#"
+
+/home/cry0l1t3/nfs_sharing hostname(rw,sync,no_root_squash)
 
 ```
