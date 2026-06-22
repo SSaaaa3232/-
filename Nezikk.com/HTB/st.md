@@ -1248,3 +1248,6 @@ wget http://localhost
 ##download manager
 ```
 
+### Backup and Restore
+
+![[st 2026-06-22 14.32.28.excalidraw]]
