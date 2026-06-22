@@ -1013,3 +1013,4 @@ fg 1
 | 3   | \|  | Pipes (`\|`) depend not only on the correct and error-free operation of the previous processes but also on the previous processes' results.                                                                             |
 The difference between them lies in the previous processes' treatment and depends on whether the previous process was completed successfully or with errors.
 
+### Task Scheduling
