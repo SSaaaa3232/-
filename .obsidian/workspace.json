@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -353,15 +354,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "32d028eacd958c18",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Nezikk.com/HTB/st.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
+    "Nezikk.com/x/有感.md",
+    "Nezikk.com/okx/day-trading.md",
+    "Nezikk.com/HTB/st.md",
     "26eb399ddb911cd95fd30d88e361c6eb_MD5.jpg",
     "Screenshot 2026-06-22 at 9.14.01 AM.png",
     "513d29fd39c585927dee3b5f24fb5f58_MD5.jpg",
     "Screenshot 2026-06-22 at 9.12.50 AM.png",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-21 19.28.12.excalidraw.md",
     "Excalidraw/st 2026-06-21 17.46.37.excalidraw.md",
     "Screenshot 2026-06-21 at 6.05.16 PM.png",
