@@ -1589,3 +1589,35 @@ netstat -a
 
 ##used to display active network connections and their associated ports. It can be used to identify network traffic and troubleshoot connectivity issues
 ```
+
+
+|     | common network issues                         |
+| --- | --------------------------------------------- |
+| 1   | Network connectivity issues                   |
+| 2   | DNS resolution issues (it's always about DNS) |
+| 3   | Loss of data packets                          |
+| 4   | Network performance issues                    |
+common reason
+
+- Incorrectly configured firewalls or routers,
+- damaged network cables or connections,
+- incorrect network settings,
+- hardware failures,
+- incorrect DNS server settings or DNS server failures
+- incorrectly configured DNS entries,
+- network congestion,
+- outdated network hardware or incorrectly configured network settings,
+- unpatched software or firmware and missing security controls.
+
+### Hardening
+
+|     |             |
+| --- | ----------- |
+| 1   | SELinux     |
+| 2   | AppArmor    |
+| 3   | TCP Wrapper |
+![[st 2026-06-22 17.50.43.excalidraw]]
+
+### Remote Desktop Protocols in LinuxLinux
+
+![[st 2026-06-22 17.51.54.excalidraw]]

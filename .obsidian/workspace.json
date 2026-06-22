@@ -152,6 +152,18 @@
             }
           },
           {
+            "id": "faa26cfb18f82e04",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "st 2026-06-22 17.51.54.excalidraw"
+            }
+          },
+          {
             "id": "8032d2fb3e29e049",
             "type": "leaf",
             "state": {
@@ -176,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -378,8 +390,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "faa26cfb18f82e04",
   "lastOpenFiles": [
+    "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
+    "binance life.md",
+    "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
+    "Screenshot 2026-06-22 at 5.51.10 PM.png",
+    "Screenshot 2026-06-22 at 5.51.02 PM.png",
+    "Screenshot 2026-06-22 at 5.50.51 PM.png",
     "858dc7e66dac9279cd3f4eb9aaf928d6_MD5.jpg",
     "Screenshot 2026-06-22 at 5.34.54 PM.png",
     "06721c3456b550785b0ff8c0134468d0_MD5.jpg",
@@ -387,14 +406,8 @@
     "f458328ce6119c349b713474fa67d172_MD5.jpg",
     "Screenshot 2026-06-22 at 4.01.33 PM.png",
     "8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg",
-    "Screenshot 2026-06-22 at 3.45.32 PM.png",
-    "binance life.md",
     "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
-    "Screenshot 2026-06-22 at 3.07.21 PM.png",
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
-    "ad6a4a6f0f67d83b476f49304fe6b236_MD5.jpg",
-    "Screenshot 2026-06-22 at 12.28.24 PM.png",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/x/有感.md",
     "Nezikk.com/okx/day-trading.md",
@@ -424,7 +437,6 @@
     "Excalidraw/useful in cutting 2026-06-17 13.14.15.excalidraw.md",
     "Excalidraw/_ncreate/prompts/2026-06-21-cozy-crochet-character.md",
     "Excalidraw/image",
-    "image/media/transcripts/BV1cMdrBsEsR.ai-zh.one-paragraph.md",
     "Excalidraw/_ncreate/runs/cozy-crochet-character-2026-06-21/manifest.json"
   ]
 }
