@@ -152,18 +152,6 @@
             }
           },
           {
-            "id": "faa26cfb18f82e04",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-22 17.51.54.excalidraw"
-            }
-          },
-          {
             "id": "8032d2fb3e29e049",
             "type": "leaf",
             "state": {
@@ -188,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -390,11 +378,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "faa26cfb18f82e04",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Nezikk.com/HTB/st.md",
-    "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
     "binance life.md",
+    "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
     "Screenshot 2026-06-22 at 5.51.10 PM.png",
     "Screenshot 2026-06-22 at 5.51.02 PM.png",

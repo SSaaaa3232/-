@@ -1620,4 +1620,89 @@ common reason
 
 ### Remote Desktop Protocols in LinuxLinux
 
-![[st 2026-06-22 17.51.54.excalidraw]]
+RDP:windows
+
+VNC:Linux
+
+#### XServer
+
+```
+cat /etc/ssh/sshd_config | grep X11Forwarding
+
+## X11Forwarding
+```
+
+```
+ssh -X htb-student@10.129.23.11 /usr/bin/firefox
+```
+
+X11 is not a secure protocol by default
+
+An attacker could potentially intercept sensitive information, such as passwords or personal data, by simply using standard X11 tools like `xwd` (which captures screenshots of X windows) and `xgrabsc`
+
+#### XDMCP
+
+potential
+
+be exploited is through a man-in-the-middle attack.
+
+The attacker could then use the server to run arbitrary commands, access sensitive data, or perform other actions that could compromise the security of the system.
+
+#### VNC
+
+```
+sudo apt install xfce4 xfce4-goodies tigervnc-standalone-server -y
+```
+
+During installation, a hidden folder is created in the home directory called `.vnc`. Then, we have to create two additional files, `xstartup` and `config`. The `xstartup` determines how the VNC session is created in connection with the display manager, and the `config` determines its settings.
+
+```
+touch ~/.vnc/xstartup ~/.vnc/config
+
+cat <<EOT >> ~/.vnc/xstartup
+
+cat <<EOT >> ~/.vnc/config
+
+## Configuration
+```
+
+```
+chmod +x ~/.vnc/xstartup
+
+##Additionally, the `xstartup` executable needs rights to be started by the service
+
+```
+
+```
+vncserver
+
+## Start the VNC server
+```
+
+```
+vncserver -list
+
+##display the entire sessions with the associated ports and the process ID
+```
+
+```
+ssh -L 5901:127.0.0.1:5901 -N -f -l htb-student 10.129.14.130
+
+## Setting Up an SSH Tunnel
+```
+
+```
+xtightvncviewer localhost:590
+
+## Connecting to the VNC Server
+```
+
+### Linux Security
+
+most important security measures
+
+ keeping the OS and installed packages up to date
+
+```
+apt update && apt dist-upgrade
+```
