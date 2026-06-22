@@ -947,6 +947,53 @@ Each partition can then be formatted with a specific file system, such as ext4, 
 ```
 sudo fdisk -l
 ```
+
+```
+cat /etc/fstab
+
+## Mounted File systems at Boot
+```
+
+```
+mount
+
+## List Mounted Drives
+
+To view the currently mounted file systems, we can use the `mount` command without any arguments. The output will show a list of all the currently mounted file systems, including the device name, file system type, mount point, and options.
+```
+
+```
+sudo mount /dev/sdb1 /mnt/usb
+cd /mnt/usb && ls -l
+
+## Mount a USB drive
+mount a USB drive with the device name `/dev/sdb1` to the directory `/mnt/usb`
+
+```
+
+```
+sudo umount /mnt/usb
+
+## Unmount
+```
+
+It is important to note that we must have sufficient permissions to unmount a file system. We also cannot unmount a file system that is in use by a running process. To ensure that there are no running processes that are using the file system, we can use the `lsof` command to list the open files on the file system.
+
+```
+lsof | grep cry0l1t3
+```
+
+f we want to prevent a filesystem from mounting automatically at boot, we need to add the `noauto` option to its entry in the `/etc/fstab` file.
+
+#### SWAP
+
+Swap space is an essential part of memory management in Linux and plays a critical role in ensuring smooth system performance, especially when the available physical memory (RAM) is fully utilized. When the system runs out of physical memory, the kernel moves inactive pages of memory (data not immediately in use) to the swap space, freeing up RAM for active processes. This process is known as swapping.
+
+- mkswap
+used to prepare a device or file to be used as swap space by creating a Linux swap area
+- swapon
+activates the swap space, allowing the system to use it
+
 ### Service and Process Management 
 
 ![[st 2026-06-21 19.28.12.excalidraw]]
@@ -1344,3 +1391,4 @@ ssh-copy-id user@backup_server
 
 ##copy our public key to the remote server.
 ```
+
