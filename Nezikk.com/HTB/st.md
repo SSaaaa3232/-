@@ -930,7 +930,23 @@ strace -h
 
 ## test if it works properly
 ```
+### File System Management
+![[st 2026-06-22 15.02.44.excalidraw]]
 
+#### Disks & Drives
+
+fdisk
+
+Each partition can then be formatted with a specific file system, such as ext4, NTFS, or FAT32, and can be mounted as a separate file system
+
+
+|       | common tools |         |
+| ----- | ------------ | ------- |
+| fdisk | gpart        | GParted |
+
+```
+sudo fdisk -l
+```
 ### Service and Process Management 
 
 ![[st 2026-06-21 19.28.12.excalidraw]]
@@ -1251,3 +1267,80 @@ wget http://localhost
 ### Backup and Restore
 
 ![[st 2026-06-22 14.32.28.excalidraw]]
+
+```
+sudo apt install rsync -y
+
+rsync -av /path/to/mydirectory user@backup_server:/path/to/backup/directory
+```
+
+
+|          |             |                                                                                      |
+| -------- | ----------- | ------------------------------------------------------------------------------------ |
+| -a       | archive     | used to preserve the original file attributes, such as permissions, timestamps, etc. |
+| -v       | verbose     | provides a detailed output of the progress of the `rsync` operation.                 |
+| -z       | compression | for faster transfers.                                                                |
+| --backup |             | creates incremental backups in the directory                                         |
+| --delete |             | emoves files from the remote host that is no longer present in the source directory. |
+
+```
+rsync -avz --backup --backup-dir=/path/to/backup/folder --delete /path/to/mydirectory user@backup_server:/path/to/backup/directory
+```
+
+#### Restore our Backup
+```
+rsync -av user@remote_host:/path/to/backup/directory /path/to/mydirectory
+
+## Restore our Backup
+```
+
+#### Encrypted Rsync
+
+```
+rsync -avz -e ssh /path/to/mydirectory user@backup_server:/path/to/backup/directory
+```
+
+#### Auto-Synchronization
+
+cron
+
+```
+crontab -e
+```
+
+crontab needs the following content:
+
+```
+0 * * * * /path/to/RSYNC_Backup.sh
+```
+
+rsync
+script
+
+RSYNC_Backup.sh
+
+```
+rsync -avz -e ssh /path/to/mydirectory user@backup_server:/path/to/backup/directory
+```
+
+access
+
+```
+chmod +x RSYNC_Backup.sh
+```
+
+ssh
+
+generate a key pair for our user
+
+```
+ssh-keygen -t rsa -b 2048
+
+##specify the location (default is `~/.ssh/id_rsa`) and optionally provide a passphrase (leave it empty for no passphrase).
+```
+
+```
+ssh-copy-id user@backup_server
+
+##copy our public key to the remote server.
+```
