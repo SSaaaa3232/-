@@ -174,33 +174,9 @@
               "icon": "lucide-file",
               "title": "binance life"
             }
-          },
-          {
-            "id": "c6ec53e1fb4262c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "111.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "111"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -402,11 +378,17 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c6ec53e1fb4262c7",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "binance life.md",
     "111.md",
-    "Nezikk.com/okx/podcast",
     "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-22 19.12.26.excalidraw.md",
+    "Screenshot 2026-06-22 at 7.14.23 PM.png",
+    "Screenshot 2026-06-22 at 7.14.08 PM.png",
+    "Screenshot 2026-06-22 at 7.13.28 PM.png",
+    "Screenshot 2026-06-22 at 7.12.42 PM.png",
+    "Nezikk.com/okx/podcast",
     "media/transcripts/O5Ba3T6Xz-k.bilingual.md",
     "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt",
     "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt.part",
@@ -415,7 +397,6 @@
     "media/transcripts/O5Ba3T6Xz-k.en-orig.srt",
     "media/transcripts/O5Ba3T6Xz-k.en-orig.srt.part",
     "media/transcripts/O5Ba3T6Xz-k.macwhisper-url.source.raw.txt",
-    "binance life.md",
     "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
     "Screenshot 2026-06-22 at 5.51.10 PM.png",
@@ -424,10 +405,6 @@
     "858dc7e66dac9279cd3f4eb9aaf928d6_MD5.jpg",
     "Screenshot 2026-06-22 at 5.34.54 PM.png",
     "06721c3456b550785b0ff8c0134468d0_MD5.jpg",
-    "Screenshot 2026-06-22 at 5.32.27 PM.png",
-    "f458328ce6119c349b713474fa67d172_MD5.jpg",
-    "Screenshot 2026-06-22 at 4.01.33 PM.png",
-    "8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg",
     "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
     "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
@@ -447,8 +424,6 @@
     "Excalidraw/human-skill-mindmap.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
     "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
-    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md",
-    "Excalidraw/bs 2026-06-17 21.06.20.excalidraw.md",
-    "Excalidraw/useful in cutting 2026-06-16 21.56.09.excalidraw.md"
+    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md"
   ]
 }

@@ -1716,3 +1716,7 @@ cat /etc/hosts.deny
 
 ##TCPWrapper
 ```
+
+## shortcuts
+
+![[st 2026-06-22 19.12.26.excalidraw]]
