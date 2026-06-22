@@ -1392,3 +1392,110 @@ ssh-copy-id user@backup_server
 ##copy our public key to the remote server.
 ```
 
+### Containerization
+
+#### Dockers
+
+```
+sudo apt update -y 
+sudo apt install ca-certificates curl gnupg lsb-release -y 
+sudo mkdir -m 0755 -p /etc/apt/keyrings 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg 
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+
+# Install Docker Engine 
+
+sudo apt update -y 
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y 
+
+# Add user htb-student to the Docker group 
+
+sudo usermod -aG docker htb-student 
+echo '[!] You need to log out and log back in for the group changes to take effect.' 
+
+# Test Docker installation 
+
+docker run hello-world
+```
+
+#### Dockerfile
+[[8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg|Open: Screenshot 2026-06-22 at 3.45.32 PM.png]]
+![[8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg]]
+
+With the option `-t`, we give our container a tag, so it is easier to identify and work with later.
+
+```
+docker build -t FS_docker .
+```
+
+#### Docker Run - Syntax
+
+```
+docker run -p <host port>:<docker port> -d <docker container name>
+
+docker run -p 8022:22 -p 8080:80 -d FS_docker
+```
+
+Docker Compose/Kubernetes
+
+enabling you to manage, scale, and link multiple containers efficiently.
+
+|                |                              |
+| -------------- | ---------------------------- |
+| docker ps      | List all running containers  |
+| docker stop    | Stop a running container.    |
+| docker start   | Start a stopped container.   |
+| docker restart | Restart a running container  |
+| docker rm      | Remove a container           |
+| docker rmi     | Remove a Docker image.       |
+| docker logs    | View the logs of a container |
+#### Linux Containers
+
+LXC
+
+```
+sudo apt install lxc -y
+
+sudo lxc-create -n linuxcontainer -t ubuntu
+
+```
+
+manage
+
+[[f458328ce6119c349b713474fa67d172_MD5.jpg|Open: Screenshot 2026-06-22 at 4.01.33 PM.png]]
+![[f458328ce6119c349b713474fa67d172_MD5.jpg]]
+
+Securing LXC
+
+ limit the resources to the container.
+ 
+```
+sudo vim /usr/share/lxc/config/linuxcontainer.conf
+
+lxc.cgroup.cpu.shares = 512
+lxc.cgroup.memory.limit_in_bytes = 512M
+
+##In this configuration file, we can add the following lines to limit the CPU and memory the container can use.
+```
+
+```
+sudo systemctl restart lxc.service
+
+
+##To apply these changes, we must restart the LXC service.
+```
+
+practice
+
+
+|     |                                                                                                        |
+| --- | ------------------------------------------------------------------------------------------------------ |
+| 1   | Install LXC on your machine and create your first container.                                           |
+| 2   | Configure the network settings for your LXC container.                                                 |
+| 3   | Create a custom LXC image and use it to launch a new container.                                        |
+| 4   | Configure resource limits for your LXC containers (CPU, memory, disk space).                           |
+| 5   | Explore the `lxc-*` commands for managing containers.                                                  |
+| 6   | Use LXC to create a container running a specific version of a web server (e.g., Apache, Nginx).        |
+| 7   | Configure SSH access to your LXC containers and connect to them remotely.                              |
+| 8   | Create a container with persistence, so changes made to the container are saved and can be reused.     |
+| 9   | Use LXC to test software in a controlled environment, such as a vulnerable web application or malware. |
