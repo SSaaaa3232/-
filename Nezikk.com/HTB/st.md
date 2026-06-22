@@ -1193,6 +1193,12 @@ Among the most widely used web servers on Linux platforms are Apache, Nginx, Lig
 
 ```
 sudo apt install apache2 -y
+
+sudo systemctl start apache2
+
+curl -I http://localhost:8080
+
+##verify
 ```
 
 For Apache2, to specify which folders can be accessed, we can edit the file `/etc/apache2/apache2.conf` with a text editor. This file contains the global settings. We can change the settings to specify which directories can be accessed and what actions can be performed on those directories.
@@ -1206,3 +1212,39 @@ sudo apt install python3 -y
 
 python3 -m http.server
 ```
+
+host another folder
+
+```
+python3 -m http.server --directory /home/cry0l1t3/target_files
+
+```
+
+host our Python web server on a port other than the default port
+
+```
+python3 -m http.server 443
+
+##This will host our Python web server on port 443 instead of the default `TCP/8000` port. We can access this web server by typing the link in our browser.
+```
+
+#### CURL
+
+`cURL` is a tool that allows us to transfer files from the shell over protocols like `HTTP`, `HTTPS`, `FTP`, `SFTP`, `FTPS`, or `SCP`, and in general, gives us the possibility to control and test websites remotely via command line. Besides the remote servers' content, we can also view individual requests to look at the client's and server's communication.
+
+```
+curl http://localhost
+
+##`curl` returns the website’s page source as STDOUT
+```
+
+#### Wget
+
+An alternative to curl is the tool `wget`. With this tool, we can download files from FTP or HTTP servers directly from the terminal, and it serves as a solid download manager. If we use wget in the same way, the difference to curl is that the website content is downloaded and stored locally
+
+```
+wget http://localhost
+
+##download manager
+```
+
