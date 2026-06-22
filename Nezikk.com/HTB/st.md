@@ -1499,3 +1499,93 @@ practice
 | 7   | Configure SSH access to your LXC containers and connect to them remotely.                              |
 | 8   | Create a container with persistence, so changes made to the container are saved and can be reused.     |
 | 9   | Use LXC to test software in a controlled environment, such as a vulnerable web application or malware. |
+### Network Configuration
+
+#### NAC
+
+|      |                                                                                                                           |
+| ---- | ------------------------------------------------------------------------------------------------------------------------- |
+| DAC  | This model allows the owner of the resource to set permissions for who can access it.                                     |
+| MAC  | Permissions are enforced by the operating system, not the owner of the resource, making it more secure but less flexible. |
+| RBAC | Permissions are assigned based on roles within an organization, making it easier to manage user privileges.               |
+One way to obtain information regarding network interfaces, such as IP addresses, netmasks, and status, is by using the `ifconfig` command.
+
+```
+ifconfig
+
+ip addr
+```
+
+`fconfig` and `ip` commands are two commonly used tools. These commands allow users to modify and activate settings for a specific interface, such as `eth0`
+
+```
+sudo ifconfig eth0 up
+
+sudo ip link set eth0 up
+
+## Activate Network Interface
+```
+
+```
+sudo ifconfig eth0 192.168.1.2
+
+## Assign IP Address to an Interface
+```
+
+```
+sudo ifconfig eth0 netmask 255.255.255.0
+
+##set the netmask for a network interface
+```
+
+set the default gateway for a network interface, we can use the `route` command with the `add` option.
+```
+sudo route add default gw 192.168.1.1 eth0
+
+## Assign the Route to an Interface
+```
+
+```
+sudo vim /etc/resolv.conf
+
+## Editing DNS Settings
+```
+[[06721c3456b550785b0ff8c0134468d0_MD5.jpg|Open: Screenshot 2026-06-22 at 5.32.27 PM.png]]
+![[06721c3456b550785b0ff8c0134468d0_MD5.jpg]]
+
+it is essential to ensure that these changes are saved to persist across reboots.
+
+```
+sudo vim /etc/network/interfaces
+```
+
+
+[[858dc7e66dac9279cd3f4eb9aaf928d6_MD5.jpg|Open: Screenshot 2026-06-22 at 5.34.54 PM.png]]
+![[858dc7e66dac9279cd3f4eb9aaf928d6_MD5.jpg]]
+
+By setting the `eth0` network interface to use a static IP address of `192.168.1.2`, with a netmask of `255.255.255.0` and a default gateway of `192.168.1.1`, we can ensure that your network connection remains stable and reliable. Additionally, by specifying DNS servers of `8.8.8.8` and `8.8.4.4`, we can ensure that our computer can easily access the internet and resolve domain names. Once we have made these changes to the configuration file, saving the file and exiting the editor is important. After that, we must restart the networking service to apply the changes.
+
+```
+sudo systemctl restart networking
+```
+
+#### Ping
+```
+ping <remote_host>
+
+##For example, pinging the Google DNS server will send ICMP packets to the Google DNS server and display the response times
+```
+#### traceroute
+```
+traceroute www.inlanefreight.com
+
+##TTL
+```
+
+#### Netstat
+
+```
+netstat -a
+
+##used to display active network connections and their associated ports. It can be used to identify network traffic and troubleshoot connectivity issues
+```
