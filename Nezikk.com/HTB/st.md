@@ -1720,3 +1720,29 @@ cat /etc/hosts.deny
 ## shortcuts
 
 ![[st 2026-06-22 19.12.26.excalidraw]]
+
+## bash script
+
+### Script Execution
+
+```
+bash script.sh <optional arguments>
+
+sh script.sh <optional arguments>
+
+./script.sh <optional arguments>
+```
+
+#### CIDR.sh
+
+![[st 2026-06-23 22.15.52.excalidraw]]
+
+
+|     |                                                         |                                                                                                                                                                                                      |
+| --- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | check for given arguments                               | In the first part of the script, we have an if-else statement that checks if we have specified a domain representing the target company.                                                             |
+| 2   | Identify network range for the specified IP address(es) | Here we have created a function that makes a "whois" query for each IP address and displays the line for the reserved network range, and stores it in the CIDR.txt.                                  |
+| 3   | Ping discovered IP address(es)                          | This additional function is used to check if the found hosts are reachable with the respective IP addresses. With the For-Loop, we ping every IP address in the network range and count the results. |
+| 4   | Identify IP address(es) of the specified domain         | As the first step in this script, we identify the IPv4 address of the domain returned to us.                                                                                                         |
+| 5   | Available Options                                       | Then we decide which functions we want to use to find out more information about the infrastructure.                                                                                                 |
+
