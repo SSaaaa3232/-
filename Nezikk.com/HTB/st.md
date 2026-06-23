@@ -1746,3 +1746,34 @@ sh script.sh <optional arguments>
 | 4   | Identify IP address(es) of the specified domain         | As the first step in this script, we identify the IPv4 address of the domain returned to us.                                                                                                         |
 | 5   | Available Options                                       | Then we decide which functions we want to use to find out more information about the infrastructure.                                                                                                 |
 
+```
+mkdir -p ~/bash-practice
+cd ~/bash-practice
+vim exercise.sh
+
+##
+i      进入编辑
+Esc    退出编辑
+:wq    保存退出
+:q!    不保存退出
+
+chmod +x exercise.sh
+./exercise.sh
+```
+
+```
+#!/bin/bash
+
+var="nef892na9s1p9asn2ajs71nIsm"
+
+for counter in {1..40}
+do
+    var=$(echo $var | base64)
+
+    if [ "$counter" -eq 35 ]; then
+        echo $var | wc -m
+    else
+        continue
+    fi
+done
+```
