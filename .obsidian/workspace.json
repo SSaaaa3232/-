@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -378,10 +378,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "040d96873470d88d",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
-    "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "Screenshot 2026-06-23 at 10.16.46 PM.png",
