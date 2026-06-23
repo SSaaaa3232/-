@@ -152,12 +152,24 @@
             }
           },
           {
-            "id": "8032d2fb3e29e049",
+            "id": "4ee19f75ee89a63d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "考试 2026-06-23 12.34.02.excalidraw"
+            }
+          },
+          {
+            "id": "16cbd23a0999aa98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "binance life.md",
+                "file": "考试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +184,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "binance life"
+              "title": "考试"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -378,16 +390,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "4ee19f75ee89a63d",
   "lastOpenFiles": [
-    "binance life.md",
-    "111.md",
+    "考试.md",
+    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
+    "image/bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg",
+    "考试",
+    "image/8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg",
+    "image/f458328ce6119c349b713474fa67d172_MD5.jpg",
     "Nezikk.com/HTB/st.md",
+    "Nezikk.com/okx/binance life.md",
+    "111.md",
     "Excalidraw/st 2026-06-22 19.12.26.excalidraw.md",
-    "Screenshot 2026-06-22 at 7.14.23 PM.png",
-    "Screenshot 2026-06-22 at 7.14.08 PM.png",
-    "Screenshot 2026-06-22 at 7.13.28 PM.png",
-    "Screenshot 2026-06-22 at 7.12.42 PM.png",
+    "image/Screenshot 2026-06-22 at 7.14.23 PM.png",
+    "image/Screenshot 2026-06-22 at 7.14.08 PM.png",
+    "image/Screenshot 2026-06-22 at 7.13.28 PM.png",
+    "image/Screenshot 2026-06-22 at 7.12.42 PM.png",
     "Nezikk.com/okx/podcast",
     "media/transcripts/O5Ba3T6Xz-k.bilingual.md",
     "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt",
@@ -399,12 +417,9 @@
     "media/transcripts/O5Ba3T6Xz-k.macwhisper-url.source.raw.txt",
     "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
-    "Screenshot 2026-06-22 at 5.51.10 PM.png",
-    "Screenshot 2026-06-22 at 5.51.02 PM.png",
-    "Screenshot 2026-06-22 at 5.50.51 PM.png",
-    "858dc7e66dac9279cd3f4eb9aaf928d6_MD5.jpg",
-    "Screenshot 2026-06-22 at 5.34.54 PM.png",
-    "06721c3456b550785b0ff8c0134468d0_MD5.jpg",
+    "image/Screenshot 2026-06-22 at 5.51.10 PM.png",
+    "image/Screenshot 2026-06-22 at 5.51.02 PM.png",
+    "image/Screenshot 2026-06-22 at 5.50.51 PM.png",
     "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
     "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
@@ -420,10 +435,8 @@
     "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
     "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
-    "Excalidraw/human-skill-mindmap.excalidraw",
     "Excalidraw/human-skill-mindmap.md",
     "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
-    "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md",
-    "Excalidraw/anki 2026-03-29 19.47.24.excalidraw.md"
+    "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md"
   ]
 }
