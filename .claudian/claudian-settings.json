@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "deepseek-v4-pro[1m]",
+  "model": "claude-code/deepseek-v4-pro[1m]",
   "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -14,18 +14,20 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "sadeMacBook-Air.local": "/Users/saaaaa/.local/bin/claude"
+        "device:66464f62-7974-4665-b20a-c01444ae7bce": "/Users/saaaaa/.local/bin/claude"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -42,21 +44,45 @@
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {
-        "sadeMacBook-Air.local": "/Users/saaaaa/.npm-global/bin/codex"
+        "device:66464f62-7974-4665-b20a-c01444ae7bce": "/Users/saaaaa/.npm-global/bin/codex"
       },
       "customModels": "",
       "reasoningSummary": "auto",
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "sadeMacBook-Air.local": "native-windows"
+        "device:66464f62-7974-4665-b20a-c01444ae7bce": "native-windows"
       },
       "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-v4-pro[1m]",
+    "claude": "claude-code/deepseek-v4-pro[1m]",
     "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
@@ -67,17 +93,18 @@
     "codex": "default"
   },
   "savedProviderThinkingBudget": {
-    "claude": "low",
     "codex": "low"
   },
   "savedProviderPermissionMode": {
     "codex": "yolo",
     "claude": "yolo"
   },
-  "lastCustomModel": "deepseek-v4-pro[1m]",
+  "lastCustomModel": "claude-code/deepseek-v4-pro[1m]",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
-  "openInMainTab": false,
-  "hiddenProviderCommands": {}
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }
