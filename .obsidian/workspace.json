@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -390,10 +390,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "16cbd23a0999aa98",
+  "active": "4ee19f75ee89a63d",
   "lastOpenFiles": [
-    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
+    "Screenshot 2026-06-23 at 1.42.11 PM.png",
+    "Screenshot 2026-06-23 at 1.42.00 PM.png",
+    "Screenshot 2026-06-23 at 1.41.07 PM.png",
+    "Screenshot 2026-06-23 at 1.36.05 PM.png",
+    "Screenshot 2026-06-23 at 1.35.49 PM.png",
     "考试.md",
+    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "image/bdf946ef56f9406ff6cbb9ed39bc59c6_MD5.jpg",
     "考试",
     "image/8a5746c6eecd0b0e85396e8dd3247cb1_MD5.jpg",
@@ -405,7 +410,6 @@
     "image/Screenshot 2026-06-22 at 7.14.23 PM.png",
     "image/Screenshot 2026-06-22 at 7.14.08 PM.png",
     "image/Screenshot 2026-06-22 at 7.13.28 PM.png",
-    "image/Screenshot 2026-06-22 at 7.12.42 PM.png",
     "Nezikk.com/okx/podcast",
     "media/transcripts/O5Ba3T6Xz-k.bilingual.md",
     "media/transcripts/O5Ba3T6Xz-k.zh-Hans.srt",
@@ -417,9 +421,6 @@
     "media/transcripts/O5Ba3T6Xz-k.macwhisper-url.source.raw.txt",
     "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
-    "image/Screenshot 2026-06-22 at 5.51.10 PM.png",
-    "image/Screenshot 2026-06-22 at 5.51.02 PM.png",
-    "image/Screenshot 2026-06-22 at 5.50.51 PM.png",
     "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
     "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
@@ -436,7 +437,6 @@
     "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
     "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
     "Excalidraw/human-skill-mindmap.md",
-    "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md",
-    "Excalidraw/st 2026-06-18 23.14.47.excalidraw.md"
+    "Excalidraw/Drawing 2026-06-18 23.39.08.excalidraw.md"
   ]
 }
