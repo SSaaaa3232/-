@@ -1738,6 +1738,16 @@ sh script.sh <optional arguments>
 ![[st 2026-06-23 22.15.52.excalidraw]]
 
 
+|     |                                                                                                                                                                         |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $#  | This variable holds the number of arguments passed to the script.                                                                                                       |
+| $@  | This variable can be used to retrieve the list of command-line arguments.                                                                                               |
+| $n  | Each command-line argument can be selectively retrieved using its position. For example, the first argument is found at `$1`.                                           |
+| $$  | The process ID of the currently executing process.                                                                                                                      |
+| $?  | The exit status of the script. This variable is useful to determine a command's success. The value 0 represents successful execution, while 1 is a result of a failure. |
+| $0  | This special variable is assigned the name of the executed script, which is then shown in the "`Usage:`" example.                                                       |
+| $1  | Separated by a space, the first argument is assigned to that special variable.                                                                                          |
+
 |     |                                                         |                                                                                                                                                                                                      |
 | --- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | check for given arguments                               | In the first part of the script, we have an if-else statement that checks if we have specified a domain representing the target company.                                                             |

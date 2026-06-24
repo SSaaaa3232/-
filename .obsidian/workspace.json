@@ -144,7 +144,7 @@
                   "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
+                  "unlinkedCollapsed": false
                 }
               },
               "icon": "lucide-file",
