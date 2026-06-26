@@ -80,6 +80,30 @@
             }
           },
           {
+            "id": "b27b9d87ceefb2f8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-15 22.16.55.excalidraw"
+            }
+          },
+          {
+            "id": "da129fd4345ef77d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "day-trading 2026-06-15 21.19.53.excalidraw"
+            }
+          },
+          {
             "id": "7383de48176b0c96",
             "type": "leaf",
             "state": {
@@ -176,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -380,6 +404,11 @@
   },
   "active": "4ee19f75ee89a63d",
   "lastOpenFiles": [
+    "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
+    "Nezikk.com/okx/day-trading.md",
+    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
+    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
+    "Screenshot 2026-06-26 at 3.10.49 PM.png",
     "Screenshot 2026-06-26 at 3.07.07 PM.png",
     "Screenshot 2026-06-26 at 3.04.12 PM.png",
     "Screenshot 2026-06-26 at 3.03.54 PM.png",
@@ -389,10 +418,7 @@
     "Screenshot 2026-06-26 at 2.03.12 PM.png",
     "Screenshot 2026-06-26 at 2.02.43 PM.png",
     "Screenshot 2026-06-26 at 2.02.34 PM.png",
-    "Screenshot 2026-06-26 at 2.02.13 PM.png",
-    "Screenshot 2026-06-26 at 1.59.38 PM.png",
     "Nezikk.com/HTB/st.md",
-    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "考试.md",
@@ -414,7 +440,6 @@
     "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
     "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
     "Nezikk.com/x/有感.md",
-    "Nezikk.com/okx/day-trading.md",
     "Excalidraw/st 2026-06-21 19.28.12.excalidraw.md",
     "Excalidraw/st 2026-06-21 17.46.37.excalidraw.md",
     "Excalidraw/st 2026-06-21 17.57.46.excalidraw.md",
@@ -424,7 +449,6 @@
     "Excalidraw/st 2026-06-20 19.01.20.excalidraw.md",
     "Excalidraw/st 2026-06-20 20.55.08.excalidraw.md",
     "Excalidraw/Drawing 2026-04-02 07.29.01.excalidraw.md",
-    "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md",
-    "Excalidraw/human-skill-mindmap.md"
+    "Excalidraw/GudaStudio Commands 2026-03-23 17.56.29.excalidraw.md"
   ]
 }
