@@ -176,31 +176,17 @@
             }
           },
           {
-            "id": "040d96873470d88d",
+            "id": "4ca7ba8a5568a8ef",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "st 2026-06-23 22.15.52.excalidraw"
-            }
-          },
-          {
-            "id": "4ee19f75ee89a63d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "考试 2026-06-23 12.34.02.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -257,8 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -402,8 +387,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4ee19f75ee89a63d",
+  "active": "4ca7ba8a5568a8ef",
   "lastOpenFiles": [
+    "Nezikk.com/HTB/st.md",
+    "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
+    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "Screenshot 2026-06-27 at 9.13.54 AM.png",
     "Screenshot 2026-06-27 at 9.06.50 AM.png",
     "Screenshot 2026-06-27 at 9.06.36 AM.png",
@@ -414,13 +402,9 @@
     "Screenshot 2026-06-26 at 7.36.49 PM.png",
     "Screenshot 2026-06-26 at 7.34.57 PM.png",
     "Screenshot 2026-06-26 at 7.34.43 PM.png",
-    "Screenshot 2026-06-26 at 7.34.22 PM.png",
     "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
-    "Nezikk.com/HTB/st.md",
-    "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "考试.md",
     "考试",
