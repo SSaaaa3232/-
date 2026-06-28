@@ -185,8 +185,7 @@
               "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,8 +242,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
-    "collapsed": true
+    "width": 226.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -388,7 +386,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4ca7ba8a5568a8ef",
+  "active": "d623d4c7a79f137e",
   "lastOpenFiles": [
     "Nezikk.com/HTB/st.md",
     "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
