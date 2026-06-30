@@ -1,0 +1,14 @@
+{
+  "id": "conv-1782795865848-j0z9uhcu6",
+  "providerId": "claude",
+  "title": "hi",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1782795865849,
+  "updatedAt": 1782796045961,
+  "lastResponseAt": 1782795889903,
+  "sessionId": "8957e28e-139f-4110-8f5c-e4aa6b8943c4",
+  "providerState": {
+    "providerSessionId": "8957e28e-139f-4110-8f5c-e4aa6b8943c4"
+  },
+  "currentNote": "考试.md"
+}
