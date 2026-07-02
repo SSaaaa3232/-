@@ -90,69 +90,9 @@
               "icon": "lucide-file",
               "title": "st"
             }
-          },
-          {
-            "id": "cfa4b129ff6e8265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "化工原理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "化工原理"
-            }
-          },
-          {
-            "id": "194798ac21ef277f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "化工原理1-4章重点.zh.cleaned.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "化工原理1-4章重点.zh.cleaned"
-            }
-          },
-          {
-            "id": "121b3f45a89d74f5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -354,8 +294,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "121b3f45a89d74f5",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "化工原理.md",
+    "化工原理1-4章重点.zh.cleaned.md",
+    "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md",
     "Screenshot 2026-07-02 at 9.14.26 AM.png",
     "Screenshot 2026-07-02 at 9.14.12 AM.png",
     "Screenshot 2026-07-02 at 9.14.05 AM.png",
@@ -366,10 +309,6 @@
     "Screenshot 2026-07-02 at 7.39.38 AM.png",
     "Screenshot 2026-07-02 at 7.39.26 AM.png",
     "Screenshot 2026-07-02 at 7.38.53 AM.png",
-    "Screenshot 2026-07-02 at 7.21.36 AM.png",
-    "化工原理1-4章重点.zh.cleaned.md",
-    "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md",
-    "化工原理.md",
     "清单/开通服务.md",
     "考试.md",
     "media/transcripts/化工原理1-4章重点.zh.one-paragraph.md",
