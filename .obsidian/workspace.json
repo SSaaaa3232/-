@@ -20,54 +20,6 @@
             }
           },
           {
-            "id": "7383de48176b0c96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/x/有感.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "有感"
-            }
-          },
-          {
-            "id": "05867df40d8df757",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "100_Live_Trades_Record_Form"
-            }
-          },
-          {
             "id": "616d8c759eeb1c7e",
             "type": "leaf",
             "state": {
@@ -113,6 +65,40 @@
               },
               "icon": "lucide-file",
               "title": "开通服务"
+            }
+          },
+          {
+            "id": "edb588376ffe5c89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "清单/task list.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "task list"
+            }
+          },
+          {
+            "id": "27d3c9e5ddee07ff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ],
@@ -317,9 +303,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7383de48176b0c96",
+  "active": "616d8c759eeb1c7e",
   "lastOpenFiles": [
+    "清单/task list.md",
     "清单/开通服务.md",
+    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
+    "Nezikk.com/HTB/st.md",
+    "image/Screenshot 2026-07-02 at 7.18.36 AM.png",
+    "image/Screenshot 2026-07-01 at 8.37.39 PM.png",
+    "image/Screenshot 2026-07-01 at 4.24.50 PM.png",
+    "Nezikk.com/x/有感.md",
     "未命名.md",
     "docs/superpowers/plans/2026-07-03-sixtynet-vless-443-migration.md",
     "docs/superpowers/plans",
@@ -327,26 +320,20 @@
     "docs/superpowers/specs",
     "docs/superpowers",
     "docs",
-    "Nezikk.com/HTB/st.md",
     "化工原理.md",
     "化工原理1-4章重点.zh.cleaned.md",
     "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md",
-    "Screenshot 2026-07-02 at 9.14.26 AM.png",
-    "Screenshot 2026-07-02 at 9.14.12 AM.png",
-    "Screenshot 2026-07-02 at 9.14.05 AM.png",
-    "Screenshot 2026-07-02 at 7.41.39 AM.png",
-    "Screenshot 2026-07-02 at 7.41.24 AM.png",
-    "Screenshot 2026-07-02 at 7.40.22 AM.png",
-    "Screenshot 2026-07-02 at 7.39.54 AM.png",
-    "Screenshot 2026-07-02 at 7.39.38 AM.png",
-    "Screenshot 2026-07-02 at 7.39.26 AM.png",
-    "Screenshot 2026-07-02 at 7.38.53 AM.png",
+    "image/Screenshot 2026-07-02 at 9.14.26 AM.png",
+    "image/Screenshot 2026-07-02 at 9.14.12 AM.png",
+    "image/Screenshot 2026-07-02 at 9.14.05 AM.png",
+    "image/Screenshot 2026-07-02 at 7.41.39 AM.png",
+    "image/Screenshot 2026-07-02 at 7.41.24 AM.png",
+    "image/Screenshot 2026-07-02 at 7.40.22 AM.png",
+    "image/Screenshot 2026-07-02 at 7.39.54 AM.png",
     "考试.md",
     "media/transcripts/化工原理1-4章重点.zh.one-paragraph.md",
-    "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
     "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
     "Nezikk.com/okx/day-trading.md",
-    "清单/任务清单.md",
     "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
     "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
@@ -362,8 +349,6 @@
     "media/transcripts/O5Ba3T6Xz-k.en.srt.part",
     "Excalidraw/st 2026-06-22 17.51.54.excalidraw.md",
     "Excalidraw/st 2026-06-22 17.50.43.excalidraw.md",
-    "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md",
-    "Excalidraw/st 2026-06-22 14.32.28.excalidraw.md",
-    "Nezikk.com/x/有感.md"
+    "Excalidraw/st 2026-06-22 15.02.44.excalidraw.md"
   ]
 }
