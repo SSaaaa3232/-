@@ -95,14 +95,28 @@
             "id": "27d3c9e5ddee07ff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/x/有感.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "有感"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -159,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -303,12 +318,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "616d8c759eeb1c7e",
+  "active": "27d3c9e5ddee07ff",
   "lastOpenFiles": [
     "清单/task list.md",
+    "Nezikk.com/HTB/st.md",
     "清单/开通服务.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "Nezikk.com/HTB/st.md",
     "image/Screenshot 2026-07-02 at 7.18.36 AM.png",
     "image/Screenshot 2026-07-01 at 8.37.39 PM.png",
     "image/Screenshot 2026-07-01 at 4.24.50 PM.png",
