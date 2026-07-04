@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "raw",
+    "original": "conversation + /Users/saaaaa/Obsidian-Template/wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
+    "title": "AI × 合成生物学论文清单（2024–2026，共100篇）",
+    "fetched_at": "2026-07-04T20:30:00+08:00"
+  },
+  "kind": "clean-markdown",
+  "intake_chain": [
+    "manual-merge",
+    "topic-classification",
+    "markdown-formatter"
+  ],
+  "capabilities_used": [
+    "raw Markdown merger",
+    "topic classifier",
+    "markdown formatter"
+  ],
+  "artifacts": [
+    {
+      "path": "input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
+      "kind": "markdown"
+    }
+  ],
+  "danger_use": null
+}
