@@ -90,9 +90,33 @@
               "icon": "lucide-file",
               "title": "task list"
             }
+          },
+          {
+            "id": "19330713d81e9775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/x/有感.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "有感"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -293,11 +317,28 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "edb588376ffe5c89",
+  "active": "19330713d81e9775",
   "lastOpenFiles": [
+    "outputs/20260706_gene_pdf_xls_merge/merged_preview.png",
+    "outputs/20260706_gene_pdf_xls_merge/merged_roundtrip_preview.png",
+    "tmp/gene_merge/verify_workbook.mjs",
+    "outputs/20260706_gene_pdf_xls_merge/PDF基因与S575差异表达合并结果.xlsx.inspect.ndjson",
+    "outputs/20260706_gene_pdf_xls_merge/PDF基因与S575差异表达合并结果.xlsx",
+    "清单/task list.md",
+    "tmp/gene_merge/build_workbook.mjs",
+    "tmp/gene_merge/node_modules/@viz-js",
+    "tmp/gene_merge/node_modules/@oai",
+    "tmp/gene_merge/node_modules/@napi-rs",
+    "tmp/gene_merge/node_modules",
+    "outputs/20260706_gene_pdf_xls_merge",
+    "outputs",
+    "tmp/pdfs/page-5.png",
+    "tmp/pdfs/page-4.png",
+    "tmp/pdfs/page-3.png",
+    "tmp/pdfs/page-2.png",
+    "tmp/pdfs/page-1.png",
     "docs/superpowers/specs/2026-07-06-hello-world-design.md",
     "未命名.md",
-    "清单/task list.md",
     "2821ba757ac084ca19fb53098f115147_MD5.jpg",
     "化工原理1-4章重点.zh.cleaned.md",
     "Nezikk.com/x/有感.md",
@@ -306,23 +347,7 @@
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-06.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-05.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-04.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-03.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-02.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-01.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-137.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-136.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-135.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/verify_pdf.py",
-    "output/pdf/新人教部编版高中物理必修（第三册）高清电子课本.pdf",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/pages",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/build_pdf.py",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy/share-data.blob",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy/ShareData",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy/History",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md",
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
     "Nezikk.com/HTB/st.md",
@@ -339,7 +364,6 @@
     "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md",
     "Excalidraw/考试 2026-06-23 12.34.02.excalidraw.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
-    "Nezikk.com/okx/binance life.md",
-    "111.md"
+    "Nezikk.com/okx/binance life.md"
   ]
 }
