@@ -116,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -289,9 +289,19 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "87d4251c0ae4becd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -317,8 +327,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "19330713d81e9775",
+  "active": "edb588376ffe5c89",
   "lastOpenFiles": [
+    "Nezikk.com/x/有感.md",
     "outputs/20260706_gene_pdf_xls_merge/merged_preview.png",
     "outputs/20260706_gene_pdf_xls_merge/merged_roundtrip_preview.png",
     "tmp/gene_merge/verify_workbook.mjs",
@@ -341,12 +352,10 @@
     "未命名.md",
     "2821ba757ac084ca19fb53098f115147_MD5.jpg",
     "化工原理1-4章重点.zh.cleaned.md",
-    "Nezikk.com/x/有感.md",
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
     "未命名 1.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-06.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-05.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-04.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md",
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
