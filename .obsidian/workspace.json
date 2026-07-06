@@ -90,81 +90,9 @@
               "icon": "lucide-file",
               "title": "task list"
             }
-          },
-          {
-            "id": "27d3c9e5ddee07ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/x/有感.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "有感"
-            }
-          },
-          {
-            "id": "c67f4b701d176e8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AI and Synthetic Biology Papers 2024-2026 - Additional 80"
-            }
-          },
-          {
-            "id": "fd5d5a5e6815e3e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名 1"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -365,8 +293,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "fd5d5a5e6815e3e9",
+  "active": "edb588376ffe5c89",
   "lastOpenFiles": [
+    "化工原理1-4章重点.zh.cleaned.md",
+    "Nezikk.com/x/有感.md",
+    "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
+    "未命名 1.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-06.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-05.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-04.jpg",
@@ -378,7 +310,6 @@
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-136.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-135.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-134.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered/preview-133.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/rendered",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/verify_pdf.py",
     "output/pdf/新人教部编版高中物理必修（第三册）高清电子课本.pdf",
@@ -390,10 +321,7 @@
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy/History",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/cache-copy",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md",
-    "未命名 1.md",
-    "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
-    "Nezikk.com/x/有感.md",
     "清单/task list.md",
     "Nezikk.com/HTB/st.md",
     "清单/开通服务.md",
@@ -402,7 +330,6 @@
     "docs/superpowers/plans/2026-07-03-sixtynet-vless-443-migration.md",
     "docs/superpowers/specs/2026-07-03-sixtynet-vless-443-migration-design.md",
     "化工原理.md",
-    "化工原理1-4章重点.zh.cleaned.md",
     "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md",
     "考试.md",
     "media/transcripts/化工原理1-4章重点.zh.one-paragraph.md",
