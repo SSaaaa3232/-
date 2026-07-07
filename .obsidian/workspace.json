@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "清单/task list.md",
+                "file": "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,7 +88,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "task list"
+              "title": "上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。"
             }
           },
           {
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 224.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -329,20 +329,22 @@
   },
   "active": "edb588376ffe5c89",
   "lastOpenFiles": [
+    "raw/articles/宝玉 on X \"Codex 操控电脑的三种方式。Codex 团队成员 Jason 今天写了一篇详细指南，把三者的区别和适用场景理清楚了，这里做个精简版。【1】Computer Use：最广，也最慢Computer Use 让 Codex 像人一样看屏幕、点鼠标、敲键盘，操作你电脑上的任何图形界面应用。Spotify、Xcode、系统设置、iOS 模拟器，甚至 httpst.coXXgRkV4KW6\".md",
+    "Nezikk.com/x/有感.md",
+    "清单/task list.md",
+    "tmp/annotation_merge/verify_annotation_merge.mjs",
+    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx.inspect.ndjson",
+    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx",
+    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx.inspect.ndjson",
+    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx",
+    "outputs/20260707_annotation_merge/annotation_merge_preview.png",
+    "tmp/annotation_merge/build_annotation_merge.mjs",
+    "tmp/annotation_merge/inspect_workbooks.mjs",
+    "outputs/20260707_annotation_merge",
+    "outputs",
+    "tmp/annotation_merge",
     "outputs/20260706_gene_pdf_xls_merge/merged_roundtrip_preview.png",
     "outputs/20260706_gene_pdf_xls_merge/merged_preview.png",
-    "清单/task list.md",
-    "Nezikk.com/x/有感.md",
-    "tmp/gene_merge/verify_workbook.mjs",
-    "outputs/20260706_gene_pdf_xls_merge/PDF基因与S575差异表达合并结果.xlsx.inspect.ndjson",
-    "outputs/20260706_gene_pdf_xls_merge/PDF基因与S575差异表达合并结果.xlsx",
-    "tmp/gene_merge/build_workbook.mjs",
-    "tmp/gene_merge/node_modules/@viz-js",
-    "tmp/gene_merge/node_modules/@oai",
-    "tmp/gene_merge/node_modules/@napi-rs",
-    "tmp/gene_merge/node_modules",
-    "outputs/20260706_gene_pdf_xls_merge",
-    "outputs",
     "tmp/pdfs/page-5.png",
     "tmp/pdfs/page-4.png",
     "tmp/pdfs/page-3.png",
@@ -355,7 +357,6 @@
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
     "未命名 1.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-06.jpg",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/contact-sheets/contact-05.jpg",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md",
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
