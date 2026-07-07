@@ -138,9 +138,33 @@
               "icon": "lucide-file",
               "title": "task list"
             }
+          },
+          {
+            "id": "f366ca0db771ea98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mask.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mask"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -197,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -351,8 +376,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "23c11e7b1962c14a",
+  "active": "f366ca0db771ea98",
   "lastOpenFiles": [
+    "mask.md",
+    "清单/task list.md",
     "清单/开通服务.md",
     "raw/articles/从零开始玩转循环 (Getting started with loops)【译】.md",
     "9bdd0fdce4d6db6f514ab2589722d57e_MD5.jpg",
@@ -363,7 +390,6 @@
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果 copy.xlsx",
     "raw/articles/宝玉 on X \"Codex 操控电脑的三种方式。Codex 团队成员 Jason 今天写了一篇详细指南，把三者的区别和适用场景理清楚了，这里做个精简版。【1】Computer Use：最广，也最慢Computer Use 让 Codex 像人一样看屏幕、点鼠标、敲键盘，操作你电脑上的任何图形界面应用。Spotify、Xcode、系统设置、iOS 模拟器，甚至 httpst.coXXgRkV4KW6\".md",
     "Nezikk.com/x/有感.md",
-    "清单/task list.md",
     "tmp/annotation_merge/verify_annotation_merge.mjs",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx.inspect.ndjson",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx",
@@ -383,7 +409,6 @@
     "未命名.md",
     "化工原理1-4章重点.zh.cleaned.md",
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
-    "未命名 1.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md",
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
