@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -388,13 +388,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "52bff1130192a620",
+  "active": "61661c00913a2434",
   "lastOpenFiles": [
-    "Excalidraw/xdf 2026-07-08 11.57.41.excalidraw.md",
+    "Screenshot 2026-07-08 at 2.15.22 PM.png",
     "xdf.md",
+    "Excalidraw/xdf 2026-07-08 11.57.41.excalidraw.md",
+    "Screenshot 2026-07-08 at 2.04.21 PM.png",
+    "清单/开通服务.md",
     "清单/mask.md",
     "清单/task list.md",
-    "清单/开通服务.md",
     "raw/articles/从零开始玩转循环 (Getting started with loops)【译】.md",
     "9bdd0fdce4d6db6f514ab2589722d57e_MD5.jpg",
     "02e23802f19109a8ee2a3cea705dd5e9_MD5.jpg",
@@ -418,7 +420,6 @@
     "outputs/20260706_gene_pdf_xls_merge/merged_preview.png",
     "tmp/pdfs/page-5.png",
     "tmp/pdfs/page-4.png",
-    "tmp/pdfs/page-3.png",
     "docs/superpowers/specs/2026-07-06-hello-world-design.md",
     "化工原理1-4章重点.zh.cleaned.md",
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
@@ -434,7 +435,6 @@
     "考试.md",
     "media/transcripts/化工原理1-4章重点.zh.one-paragraph.md",
     "Excalidraw/day-trading 2026-06-15 22.16.55.excalidraw.md",
-    "Nezikk.com/okx/day-trading.md",
-    "Excalidraw/st 2026-06-23 22.15.52.excalidraw.md"
+    "Nezikk.com/okx/day-trading.md"
   ]
 }
