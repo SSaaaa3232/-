@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mask.md",
+                "file": "xdf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,11 +160,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mask"
+              "title": "xdf"
+            }
+          },
+          {
+            "id": "61661c00913a2434",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/xdf 2026-07-08 11.57.41.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "xdf 2026-07-08 11.57.41.excalidraw"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -376,9 +388,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
+  "active": "52bff1130192a620",
   "lastOpenFiles": [
-    "mask.md",
+    "Excalidraw/xdf 2026-07-08 11.57.41.excalidraw.md",
+    "xdf.md",
+    "清单/mask.md",
     "清单/task list.md",
     "清单/开通服务.md",
     "raw/articles/从零开始玩转循环 (Getting started with loops)【译】.md",
@@ -406,7 +420,6 @@
     "tmp/pdfs/page-4.png",
     "tmp/pdfs/page-3.png",
     "docs/superpowers/specs/2026-07-06-hello-world-design.md",
-    "未命名.md",
     "化工原理1-4章重点.zh.cleaned.md",
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
     "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",

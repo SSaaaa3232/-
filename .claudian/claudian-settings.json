@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "deepseek-v4-flash",
+  "model": "claude-code/deepseek-v4-flash",
   "thinkingBudget": "high",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -14,11 +14,13 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
@@ -49,8 +51,7 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:66464f62-7974-4665-b20a-c01444ae7bce": "native-windows",
-        "sadeMacBook-Air.local": "native-windows"
+        "device:66464f62-7974-4665-b20a-c01444ae7bce": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -81,7 +82,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-v4-flash",
+    "claude": "claude-code/deepseek-v4-flash",
     "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
@@ -92,22 +93,18 @@
     "codex": "default"
   },
   "savedProviderThinkingBudget": {
-    "codex": "low",
-    "claude": "high"
+    "codex": "low"
   },
   "savedProviderPermissionMode": {
     "codex": "yolo",
     "claude": "yolo"
   },
-  "lastCustomModel": "deepseek-v4-flash",
+  "lastCustomModel": "claude-code/deepseek-v4-flash",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
-  "openInMainTab": false,
-  "hiddenProviderCommands": {},
-  "customModelAliases": {},
-  "requireCommandOrControlEnterToSend": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
-  "chatViewPlacement": "right-sidebar"
+  "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }
