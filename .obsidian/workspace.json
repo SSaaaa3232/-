@@ -164,15 +164,51 @@
             }
           },
           {
-            "id": "cc2d40fe7cb7b686",
+            "id": "3b0d9cb9a95b0864",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/math 2026-07-08 14.41.34.excalidraw.md"
+                "file": "Nezikk.com/xdf/政治.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "math 2026-07-08 14.41.34.excalidraw"
+              "icon": "lucide-file",
+              "title": "政治"
+            }
+          },
+          {
+            "id": "e4575f906dfcd672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nezikk.com/xdf/english.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "english"
             }
           }
         ],
@@ -388,31 +424,35 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "cc2d40fe7cb7b686",
+  "active": "3b0d9cb9a95b0864",
   "lastOpenFiles": [
+    "Nezikk.com/xdf/english.md",
+    "Nezikk.com/xdf/政治.md",
     "Nezikk.com/xdf/math.md",
+    "074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
+    "Screenshot 2026-07-08 at 3.16.25 PM.png",
+    "961c66a5b8a859f68a6d400643fd92d3_MD5.jpg",
+    "Screenshot 2026-07-08 at 3.16.15 PM.png",
+    "Excalidraw/政治 2026-07-08 15.15.41.excalidraw.md",
+    "Excalidraw/math 2026-07-08 14.59.32.excalidraw.md",
+    "Screenshot 2026-07-08 at 3.08.37 PM.png",
+    "Screenshot 2026-07-08 at 3.07.18 PM.png",
+    "Screenshot 2026-07-08 at 2.59.55 PM.png",
+    "Screenshot 2026-07-08 at 2.59.45 PM.png",
     "Excalidraw/math 2026-07-08 14.41.34.excalidraw.md",
     "Screenshot 2026-07-08 at 2.44.24 PM.png",
     "tmp/pdfs/page-2.png",
-    "image/02e23802f19109a8ee2a3cea705dd5e9_MD5.jpg",
-    "image/d21deaef24da06b256c7852c79f1caae_MD5.jpg",
     "记录.md",
     "删除/考试.md",
     "Nezikk.com/x/有感.md",
     "删除",
     "Excalidraw/math 2026-07-08 14.35.43.excalidraw.md",
-    "image/Screenshot 2026-07-08 at 2.37.43 PM.png",
-    "image/Screenshot 2026-07-08 at 2.37.10 PM.png",
     "Excalidraw/xdf 2026-07-08 11.57.41.excalidraw.md",
     "Nezikk.com/xdf",
-    "image/Screenshot 2026-07-08 at 2.15.22 PM.png",
-    "image/Screenshot 2026-07-08 at 2.04.21 PM.png",
     "清单/开通服务.md",
     "清单/mask.md",
     "清单/task list.md",
     "raw/articles/从零开始玩转循环 (Getting started with loops)【译】.md",
-    "image/9bdd0fdce4d6db6f514ab2589722d57e_MD5.jpg",
-    "image/b44b10ac06445749d507a67798a3602a_MD5.jpg",
     "raw/articles/上周做了场内部分享，关于我做AI这三年来总结的内容创作方法论。.md",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果 copy.xlsx",
     "raw/articles/宝玉 on X \"Codex 操控电脑的三种方式。Codex 团队成员 Jason 今天写了一篇详细指南，把三者的区别和适用场景理清楚了，这里做个精简版。【1】Computer Use：最广，也最慢Computer Use 让 Codex 像人一样看屏幕、点鼠标、敲键盘，操作你电脑上的任何图形界面应用。Spotify、Xcode、系统设置、iOS 模拟器，甚至 httpst.coXXgRkV4KW6\".md",
@@ -431,9 +471,6 @@
     "清洗/input/raw/2026-07-04_ai-synthetic-biology-papers-100/index.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "docs/superpowers/plans/2026-07-03-sixtynet-vless-443-migration.md",
-    "docs/superpowers/specs/2026-07-03-sixtynet-vless-443-migration-design.md",
-    "删除/化工原理.md",
-    "Excalidraw/化工原理1-4章重点.zh.cleaned 2026-07-01 16.22.48.excalidraw.md"
+    "docs/superpowers/plans/2026-07-03-sixtynet-vless-443-migration.md"
   ]
 }

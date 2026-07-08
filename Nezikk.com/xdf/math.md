@@ -55,3 +55,6 @@ aliases:
 
 ### 第三讲
 ![[math 2026-07-08 14.41.34.excalidraw]]
+
+### 第四讲
+![[math 2026-07-08 14.59.32.excalidraw]]
