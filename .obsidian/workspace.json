@@ -140,18 +140,6 @@
             }
           },
           {
-            "id": "87ea1f857ee7b4ea",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/task list 2026-07-08 16.22.38.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "task list 2026-07-08 16.22.38.excalidraw"
-            }
-          },
-          {
             "id": "f366ca0db771ea98",
             "type": "leaf",
             "state": {
@@ -224,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -436,12 +424,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "87ea1f857ee7b4ea",
+  "active": "23c11e7b1962c14a",
   "lastOpenFiles": [
-    "清单/task list.md",
-    "Excalidraw/task list 2026-07-08 16.22.38.excalidraw.md",
-    "Nezikk.com/xdf/math.md",
     "Excalidraw/task list 2026-07-08 16.11.50.excalidraw.md",
+    "Nezikk.com/xdf/math.md",
+    "Excalidraw/task list 2026-07-08 16.22.38.excalidraw.md",
+    "清单/task list.md",
     "Nezikk.com/xdf/english.md",
     "Nezikk.com/xdf/政治.md",
     "074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
