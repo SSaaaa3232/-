@@ -10,6 +10,8 @@ category: uncategorized
 
 别被情绪左右
 
+除了相信别无选择
+
 失败总是贯穿人生
 ```
 
