@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -411,8 +411,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "821440f6244c550a",
+  "active": "23c11e7b1962c14a",
   "lastOpenFiles": [
+    "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
     "清单/task list.md",
@@ -457,7 +458,6 @@
     "docs/superpowers/specs/2026-07-06-hello-world-design.md",
     "删除/化工原理1-4章重点.zh.cleaned.md",
     "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article.md"
+    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md"
   ]
 }
