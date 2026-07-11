@@ -198,9 +198,57 @@
               "icon": "lucide-file",
               "title": "day-trading"
             }
+          },
+          {
+            "id": "1c50ecfc40c4ca31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "anki"
+            }
+          },
+          {
+            "id": "c16efaf1f0eeee24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "anki（1）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "anki（1）"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -257,7 +305,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -411,12 +460,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "23c11e7b1962c14a",
+  "active": "c16efaf1f0eeee24",
   "lastOpenFiles": [
+    "anki.md",
+    "anki（1）.md",
+    "清单/task list.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
-    "清单/task list.md",
     "Excalidraw/task list 2026-07-08 16.11.50.excalidraw.md",
     "Nezikk.com/xdf/math.md",
     "Excalidraw/task list 2026-07-08 16.22.38.excalidraw.md",
@@ -456,8 +507,6 @@
     "tmp/annotation_merge/build_annotation_merge.mjs",
     "tmp/annotation_merge/inspect_workbooks.mjs",
     "docs/superpowers/specs/2026-07-06-hello-world-design.md",
-    "删除/化工原理1-4章重点.zh.cleaned.md",
-    "wiki/resources/AI and Synthetic Biology Papers 2024-2026 - Additional 80.md",
-    "tmp/pdfs/wechat-g1pNHS5mzsgZOAZV_M_PrA/article-canonical.md"
+    "删除/化工原理1-4章重点.zh.cleaned.md"
   ]
 }
