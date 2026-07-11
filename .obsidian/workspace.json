@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "23c11e7b1962c14a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/superpowers/specs/2026-07-11-anki-vault-mirror-design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-11-anki-vault-mirror-design"
-            }
-          },
-          {
             "id": "c16efaf1f0eeee24",
             "type": "leaf",
             "state": {
@@ -387,8 +363,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "23c11e7b1962c14a",
+  "active": "c16efaf1f0eeee24",
   "lastOpenFiles": [
+    "docs/superpowers/specs/2026-07-11-anki-vault-mirror-design.md",
     "anki/anki.md",
     "anki/AI/README.md",
     "anki/AI/templates/image-occlusion.md",
@@ -422,7 +399,6 @@
     "anki/生物/README.md",
     "anki/生物",
     "anki/无畏契约/templates/steps.md",
-    "anki/无畏契约/templates/judgment.md",
     "anki/无畏契约/templates",
     "anki/无畏契约/notes",
     "image/074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
