@@ -104,30 +104,6 @@
             }
           },
           {
-            "id": "1c50ecfc40c4ca31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "anki"
-            }
-          },
-          {
             "id": "23c11e7b1962c14a",
             "type": "leaf",
             "state": {
@@ -157,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki（1）.md",
+                "file": "anki/anki.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "anki（1）"
+              "title": "anki"
             }
           }
         ],
@@ -233,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
-    "collapsed": true
+    "width": 224.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -388,11 +363,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "23c11e7b1962c14a",
+  "active": "c16efaf1f0eeee24",
   "lastOpenFiles": [
-    "anki（1）.md",
+    "anki/anki.md",
+    "anki/anki.md",
     "清单/task list.md",
-    "anki.md",
+    "anki",
+    "Nezikk.com/项目.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
@@ -432,9 +409,6 @@
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx.inspect.ndjson",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx",
-    "tmp/annotation_merge/build_annotation_merge.mjs",
-    "tmp/annotation_merge/inspect_workbooks.mjs",
-    "docs/superpowers/specs/2026-07-06-hello-world-design.md",
-    "删除/化工原理1-4章重点.zh.cleaned.md"
+    "tmp/annotation_merge/build_annotation_merge.mjs"
   ]
 }
