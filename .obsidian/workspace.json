@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "anki"
             }
+          },
+          {
+            "id": "9c173ed0d8cdc77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "骑行.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "骑行"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -363,13 +387,18 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c16efaf1f0eeee24",
+  "active": "23c11e7b1962c14a",
   "lastOpenFiles": [
-    "anki/anki.md",
-    "anki/anki.md",
+    "骑行.md",
     "清单/task list.md",
+    "删除/化工原理.md",
+    "未命名",
+    "Nezikk.com/骑行",
+    "anki/anki.md",
+    "image/074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
+    "image/Screenshot 2026-07-08 at 2.44.24 PM.png",
     "anki",
-    "Nezikk.com/项目.md",
+    "Nezikk.com/项目/项目.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
     "Excalidraw/day-trading 2026-06-15 21.19.53.excalidraw.md",
@@ -378,18 +407,16 @@
     "Excalidraw/task list 2026-07-08 16.22.38.excalidraw.md",
     "Nezikk.com/xdf/english.md",
     "Nezikk.com/xdf/政治.md",
-    "074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
     "Screenshot 2026-07-08 at 3.16.25 PM.png",
-    "961c66a5b8a859f68a6d400643fd92d3_MD5.jpg",
+    "image/961c66a5b8a859f68a6d400643fd92d3_MD5.jpg",
     "Screenshot 2026-07-08 at 3.16.15 PM.png",
     "Excalidraw/政治 2026-07-08 15.15.41.excalidraw.md",
     "Excalidraw/math 2026-07-08 14.59.32.excalidraw.md",
-    "Screenshot 2026-07-08 at 3.08.37 PM.png",
-    "Screenshot 2026-07-08 at 3.07.18 PM.png",
-    "Screenshot 2026-07-08 at 2.59.55 PM.png",
-    "Screenshot 2026-07-08 at 2.59.45 PM.png",
+    "image/Screenshot 2026-07-08 at 3.08.37 PM.png",
+    "image/Screenshot 2026-07-08 at 3.07.18 PM.png",
+    "image/Screenshot 2026-07-08 at 2.59.55 PM.png",
+    "image/Screenshot 2026-07-08 at 2.59.45 PM.png",
     "Excalidraw/math 2026-07-08 14.41.34.excalidraw.md",
-    "Screenshot 2026-07-08 at 2.44.24 PM.png",
     "tmp/pdfs/page-2.png",
     "记录.md",
     "删除/考试.md",
@@ -407,8 +434,6 @@
     "tmp/annotation_merge/verify_annotation_merge.mjs",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx.inspect.ndjson",
     "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation匹配合并结果.xlsx",
-    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx.inspect.ndjson",
-    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx",
-    "tmp/annotation_merge/build_annotation_merge.mjs"
+    "outputs/20260707_annotation_merge/PDF基因与S575差异表达_annotation二次合并结果.xlsx.inspect.ndjson"
   ]
 }
