@@ -33,6 +33,8 @@ class AnkiVaultMirrorContractTest(unittest.TestCase):
                 self.assertTrue((deck / "README.md").is_file())
                 self.assertTrue((deck / "notes").is_dir())
                 self.assertTrue((deck / "cards").is_dir())
+                self.assertTrue((deck / "notes" / ".gitkeep").is_file())
+                self.assertTrue((deck / "cards" / ".gitkeep").is_file())
 
                 for template_name in TEMPLATES:
                     self.assertTrue(
@@ -56,8 +58,20 @@ class AnkiVaultMirrorContractTest(unittest.TestCase):
         self.assertEqual(
             [],
             list(ANKI_ROOT.rglob("task list.md")),
-            "task list.md is schedule context, not Anki card material",
+            "the source task list must not be copied into the Anki mirror",
         )
+
+        forbidden_directive = "task list.md 的内容作为制卡素材"
+        global_rules = ANKI_ROOT / "anki.md"
+        for markdown_file in ANKI_ROOT.rglob("*.md"):
+            if markdown_file == global_rules:
+                continue
+            with self.subTest(card_material=markdown_file.relative_to(ROOT)):
+                self.assertNotIn(
+                    forbidden_directive,
+                    markdown_file.read_text(encoding="utf-8"),
+                    f"{markdown_file.relative_to(ROOT)} incorrectly treats task list.md as card material",
+                )
 
 
 if __name__ == "__main__":
