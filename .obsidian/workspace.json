@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nezikk.com/骑行/骑行.md",
+                "file": "anki/无畏契约/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "骑行"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -363,13 +363,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c16efaf1f0eeee24",
+  "active": "9c173ed0d8cdc77e",
   "lastOpenFiles": [
+    "Nezikk.com/骑行/骑行.md",
+    "anki/anki.md",
     "anki/AI/templates/concept.md",
     "anki/AI/templates/error.md",
     "anki/AI/templates/image-occlusion.md",
     "anki/AI/templates/steps.md",
-    "anki/anki.md",
     "tests/__pycache__/test_anki_vault_mirror.cpython-314.pyc",
     "tests/__pycache__",
     "tests/test_anki_vault_mirror.py",
@@ -400,7 +401,6 @@
     "anki/生物/templates/error.md",
     "anki/生物/templates/concept.md",
     "anki/生物/templates/cloze.md",
-    "anki/生物/README.md",
     "image/074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
     "image/Screenshot 2026-07-08 at 2.44.24 PM.png",
     "Screenshot 2026-07-08 at 3.16.25 PM.png",
