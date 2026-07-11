@@ -20,3 +20,7 @@ Thumbs.db
 agent/learning_progress.json
 agent/__pycache__/
 *.pyc
+
+# 忽略本地 Git worktree
+
+.worktrees/
