@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -363,8 +363,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5520dbe8ac07ff10",
+  "active": "4de396d59137e358",
   "lastOpenFiles": [
+    "骗子.md",
     "7e2c77581a641f057bfb41adc6a17172_MD5.jpg",
     "Screenshot 2026-07-13 at 3.33.08 AM.png",
     "ca04c06d7eb31b773e5b67fa06d09041_MD5.jpg",
@@ -374,7 +375,6 @@
     "Screenshot 2026-07-13 at 3.26.44 AM.png",
     "1855c6e54c694b5844213970e815a4f5_MD5.jpg",
     "Screenshot 2026-07-13 at 3.25.16 AM.png",
-    "骗子.md",
     "Nezikk.com/购物.md",
     "Nezikk.com/骑行/骑行.md",
     "anki/anki.md",
@@ -409,7 +409,6 @@
     "anki/英语",
     "anki/网络安全/templates",
     "anki/网络安全/notes",
-    "image/074be2af63bf56f48facf8414a1cb97a_MD5.jpg",
-    "image/Screenshot 2026-07-08 at 2.44.24 PM.png"
+    "image/074be2af63bf56f48facf8414a1cb97a_MD5.jpg"
   ]
 }
