@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "主机.md",
+                "file": "Nezikk.com/购物.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "主机"
+              "title": "购物"
             }
           }
         ],
@@ -341,7 +341,8 @@
   },
   "active": "4de396d59137e358",
   "lastOpenFiles": [
-    "主机.md",
+    "Nezikk.com/骑行/骑行.md",
+    "Nezikk.com/购物.md",
     "anki/anki.md",
     "anki/无畏契约/templates/cloze.md",
     "清单/开通服务.md",
@@ -353,7 +354,6 @@
     "anki/无畏契约/templates/judgment.md",
     "anki/无畏契约/templates/steps.md",
     "anki/无畏契约/README.md",
-    "Nezikk.com/骑行/骑行.md",
     "anki/AI/templates/concept.md",
     "anki/AI/templates/error.md",
     "anki/AI/templates/image-occlusion.md",
