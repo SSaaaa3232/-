@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -363,8 +363,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "44eedf14d6da1d16",
+  "active": "4de396d59137e358",
   "lastOpenFiles": [
+    "清单/task list.md",
     "清单/开通服务.md",
     "Nezikk.com/购物.md",
     "骗子.md",
