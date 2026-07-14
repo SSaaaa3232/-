@@ -49,7 +49,8 @@ category: uncategorized
 | 夜店     |     |
 | 唱歌     |     |
 | 游戏     |     |
-| 做饭     |     |
+| 做饭     | 学一下 |
+|        |     |
 
 
 ![[task list 2026-07-08 16.11.50.excalidraw]]
