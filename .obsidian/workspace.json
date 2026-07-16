@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -411,10 +411,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "02d2bc55aaa30ef1",
+  "active": "44eedf14d6da1d16",
   "lastOpenFiles": [
-    "Nezikk.com/购物.md",
     "Nezikk.com/食谱.md",
+    "Nezikk.com/购物.md",
     "清单/task list.md",
     "Nezikk.com/体态管理.md",
     "anki/anki.md",
