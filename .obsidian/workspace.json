@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/wwqy/notes/error.md",
+                "file": "anki/wwqy/notes/steps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "error"
+              "title": "steps"
             }
           }
         ],
@@ -281,7 +281,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -437,8 +438,8 @@
   },
   "active": "328750f574b4f0af",
   "lastOpenFiles": [
-    "anki/wwqy/templates/error.md",
     "anki/wwqy/notes/error.md",
+    "anki/wwqy/templates/error.md",
     "anki/wwqy/notes/steps.md",
     "anki/wwqy/templates/steps.md",
     "anki/人际交往/templates/steps.md",
