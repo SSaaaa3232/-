@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/wwqy/notes/steps.md",
+                "file": "anki/wwqy/notes/error.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "steps"
+              "title": "error"
             }
           }
         ],
@@ -281,8 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
-    "collapsed": true
+    "width": 224.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -438,13 +437,14 @@
   },
   "active": "328750f574b4f0af",
   "lastOpenFiles": [
+    "anki/wwqy/templates/error.md",
+    "anki/wwqy/notes/error.md",
+    "anki/wwqy/notes/steps.md",
     "anki/wwqy/templates/steps.md",
     "anki/人际交往/templates/steps.md",
-    "anki/wwqy/notes/steps.md",
     "anki/wwqy/notes/wwqy.md",
     "anki/wwqy/templates/judgment.md",
     "anki/wwqy/templates/image-occlusion.md",
-    "anki/wwqy/templates/error.md",
     "anki/wwqy/templates/concept.md",
     "anki/wwqy/templates/cloze.md",
     "清单/开通服务.md",
@@ -476,7 +476,6 @@
     "tests/test_anki_vault_mirror.py",
     "tests",
     "anki/英语/templates/steps.md",
-    "anki/英语/templates/judgment.md",
     "anki/英语/templates",
     "anki/英语/notes",
     "anki/英语/cards",
