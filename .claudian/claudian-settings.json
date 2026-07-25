@@ -32,10 +32,10 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "sonnet",
+      "modelEnvironmentType": "haiku",
+      "titleModelEnvironmentType": "",
       "environmentVariables": "export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nexport ANTHROPIC_AUTH_TOKEN=sk-c5d12dbd3e8348239808d021f0aa6548\nexport ANTHROPIC_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nexport ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nexport CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\nexport CLAUDE_CODE_EFFORT_LEVEL=max",
       "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_MODEL=deepseek-v4-pro[1m]"
     },
@@ -52,7 +52,11 @@
       "environmentHash": "",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
-      "visibleModels": null
+      "visibleModels": null,
+      "discoveredModels": [],
+      "modelAliases": {},
+      "catalogTimestamp": 0,
+      "catalogFingerprint": ""
     },
     "opencode": {
       "cliPath": "",
@@ -77,6 +81,18 @@
       "preferredThinkingByModel": {},
       "toolMode": "all",
       "visibleModels": []
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
     }
   },
   "settingsProvider": "claude",
@@ -98,6 +114,7 @@
     "codex": "yolo",
     "claude": "yolo"
   },
+  "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "claude-code/deepseek-v4-flash",
   "maxTabs": 3,
   "enableAutoScroll": true,
