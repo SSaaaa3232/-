@@ -198,33 +198,9 @@
               "icon": "lucide-file",
               "title": "1"
             }
-          },
-          {
-            "id": "efcdfc779b63fcaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/okx/未命名.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -281,7 +257,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -435,11 +412,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "7ce0b23782dc2947",
+  "active": "42b5f0e2021677f5",
   "lastOpenFiles": [
     "Nezikk.com/okx/未命名.md",
-    "anki/投资/未命名.md",
     "anki/英语/notes/1.md",
+    "anki/投资/未命名.md",
     "Nezikk.com/购物.md",
     "anki/wwqy/notes/1.md",
     "Nezikk.com/食谱.md",
