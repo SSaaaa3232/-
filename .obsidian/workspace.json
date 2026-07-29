@@ -224,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -435,8 +435,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6debc22fcb6caf8a",
+  "active": "52bff1130192a620",
   "lastOpenFiles": [
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/okx/未命名.md",
     "Nezikk.com/okx/day-trading.md",
     "anki/英语/notes/1.md",
@@ -471,7 +472,6 @@
     "Screenshot 2026-07-13 at 3.26.44 AM.png",
     "1855c6e54c694b5844213970e815a4f5_MD5.jpg",
     "Screenshot 2026-07-13 at 3.25.16 AM.png",
-    "Nezikk.com/骑行/骑行.md",
     "tests/__pycache__/test_anki_vault_mirror.cpython-314.pyc",
     "tests/__pycache__",
     "tests/test_anki_vault_mirror.py",
