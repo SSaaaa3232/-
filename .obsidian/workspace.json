@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
+                "file": "anki/投资/notes/1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "100_Live_Trades_Record_Form"
+              "title": "1"
             }
           },
           {
@@ -248,7 +248,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -459,17 +459,21 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "c4bec1e14f6afc9f",
+  "active": "6debc22fcb6caf8a",
   "lastOpenFiles": [
+    "anki/投资/templates/error.md",
+    "anki/投资/notes/1.md",
+    "anki/投资/templates/concept.md",
+    "anki/投资/templates/cloze.md",
+    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
+    "anki/wwqy/notes/1.md",
     "anki/wwqy/templates/judgment.md",
     "anki/wwqy/templates/image-occlusion.md",
     "anki/wwqy/templates/error.md",
     "anki/wwqy/templates/cloze.md",
     "anki/wwqy/templates/concept.md",
-    "anki/wwqy/notes/1.md",
     "anki/英语/notes/1.md",
     "清单/开通服务.md",
-    "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
     "Nezikk.com/okx/未命名.md",
     "Nezikk.com/okx/day-trading.md",
     "Nezikk.com/HTB/st.md",
@@ -483,10 +487,6 @@
     "anki/wwqy/notes/steps.md",
     "anki/wwqy/notes/error.md",
     "anki/wwqy/templates/steps.md",
-    "anki/人际交往/templates/steps.md",
-    "anki/wwqy/notes/wwqy.md",
-    "Nezikk.com/体态管理.md",
-    "骗子.md",
     "7e2c77581a641f057bfb41adc6a17172_MD5.jpg",
     "Screenshot 2026-07-13 at 3.33.08 AM.png",
     "ca04c06d7eb31b773e5b67fa06d09041_MD5.jpg",
