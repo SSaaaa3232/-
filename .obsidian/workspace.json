@@ -268,7 +268,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -459,7 +461,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6debc22fcb6caf8a",
+  "active": "5064f377bc1bbd9d",
   "lastOpenFiles": [
     "anki/投资/templates/error.md",
     "anki/投资/notes/1.md",
