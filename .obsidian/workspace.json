@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anki/投资/notes/1.md",
+                "file": "anki/wwqy/notes/1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -307,7 +307,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 224.5,
+    "collapsed": true
   },
   "right": {
     "id": "b207f00579403524",
@@ -461,10 +462,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
+  "active": "6debc22fcb6caf8a",
   "lastOpenFiles": [
-    "anki/投资/templates/error.md",
     "anki/投资/notes/1.md",
+    "anki/投资/templates/error.md",
     "anki/投资/templates/concept.md",
     "anki/投资/templates/cloze.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
