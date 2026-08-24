@@ -246,9 +246,33 @@
               "icon": "lucide-file",
               "title": "1"
             }
+          },
+          {
+            "id": "9363bc7b2e11fcdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -462,14 +486,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6debc22fcb6caf8a",
+  "active": "9363bc7b2e11fcdb",
   "lastOpenFiles": [
+    "未命名.md",
+    "anki/wwqy/notes/1.md",
     "anki/投资/notes/1.md",
     "anki/投资/templates/error.md",
     "anki/投资/templates/concept.md",
     "anki/投资/templates/cloze.md",
     "Nezikk.com/okx/100_Live_Trades_Record_Form.md",
-    "anki/wwqy/notes/1.md",
     "anki/wwqy/templates/judgment.md",
     "anki/wwqy/templates/image-occlusion.md",
     "anki/wwqy/templates/error.md",
@@ -489,7 +514,6 @@
     "anki/英语/templates/steps.md",
     "anki/wwqy/notes/steps.md",
     "anki/wwqy/notes/error.md",
-    "anki/wwqy/templates/steps.md",
     "7e2c77581a641f057bfb41adc6a17172_MD5.jpg",
     "Screenshot 2026-07-13 at 3.33.08 AM.png",
     "ca04c06d7eb31b773e5b67fa06d09041_MD5.jpg",
