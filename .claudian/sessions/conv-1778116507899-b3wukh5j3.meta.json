@@ -6,12 +6,7 @@
   "createdAt": 1778116507899,
   "updatedAt": 1778226625833,
   "lastResponseAt": 1778153876909,
-  "sessionId": "019e0000-bb19-78e3-8ba1-8ccdea0823a5",
-  "providerState": {
-    "threadId": "019e0000-bb19-78e3-8ba1-8ccdea0823a5",
-    "sessionFilePath": "/Users/saaaaa/.codex/sessions/2026/05/07/rollout-2026-05-07T09-15-08-019e0000-bb19-78e3-8ba1-8ccdea0823a5.jsonl",
-    "transcriptRootPath": "/Users/saaaaa/.codex/sessions"
-  },
+  "sessionId": null,
   "usage": {
     "inputTokens": 77410,
     "cacheCreationInputTokens": 0,
