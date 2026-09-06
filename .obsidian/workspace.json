@@ -8,126 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "616d8c759eeb1c7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/HTB/st.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": false
-                }
-              },
-              "icon": "lucide-file",
-              "title": "st"
-            }
-          },
-          {
-            "id": "52bff1130192a620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "清单/开通服务.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "开通服务"
-            }
-          },
-          {
-            "id": "19330713d81e9775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/x/有感.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "有感"
-            }
-          },
-          {
-            "id": "c16efaf1f0eeee24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki/anki.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "anki"
-            }
-          },
-          {
-            "id": "4de396d59137e358",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/购物.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "购物"
-            }
-          },
-          {
             "id": "44eedf14d6da1d16",
             "type": "leaf",
             "state": {
@@ -150,129 +30,8 @@
               "icon": "lucide-file",
               "title": "task list"
             }
-          },
-          {
-            "id": "02d2bc55aaa30ef1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nezikk.com/食谱.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "食谱"
-            }
-          },
-          {
-            "id": "42b5f0e2021677f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki/英语/notes/1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1"
-            }
-          },
-          {
-            "id": "6debc22fcb6caf8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki/wwqy/notes/1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1"
-            }
-          },
-          {
-            "id": "c4bec1e14f6afc9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "anki/wwqy/notes/1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "1"
-            }
-          },
-          {
-            "id": "9363bc7b2e11fcdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -331,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
-    "collapsed": true
+    "width": 224.5
   },
   "right": {
     "id": "b207f00579403524",
@@ -486,10 +244,19 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "5064f377bc1bbd9d",
+  "active": "7ce0b23782dc2947",
   "lastOpenFiles": [
+    "Screenshot 2026-07-13 at 3.32.04 AM.png",
+    "清单/task list.md",
+    "anki/anki.md",
+    "Nezikk.com/x/有感.md",
+    "Nezikk.com/HTB/st.md",
+    "Nezikk.com/食谱.md",
+    "Nezikk.com/购物.md",
+    "清单/开通服务.md",
     "未命名.md",
     "anki/wwqy/notes/1.md",
+    "anki/英语/notes/1.md",
     "anki/投资/notes/1.md",
     "anki/投资/templates/error.md",
     "anki/投资/templates/concept.md",
@@ -500,25 +267,15 @@
     "anki/wwqy/templates/error.md",
     "anki/wwqy/templates/cloze.md",
     "anki/wwqy/templates/concept.md",
-    "anki/英语/notes/1.md",
-    "清单/开通服务.md",
     "Nezikk.com/okx/未命名.md",
     "Nezikk.com/okx/day-trading.md",
-    "Nezikk.com/HTB/st.md",
-    "Nezikk.com/购物.md",
-    "anki/anki.md",
-    "Nezikk.com/x/有感.md",
-    "清单/task list.md",
     "anki/投资/未命名.md",
-    "Nezikk.com/食谱.md",
     "anki/英语/templates/steps.md",
     "anki/wwqy/notes/steps.md",
-    "anki/wwqy/notes/error.md",
     "7e2c77581a641f057bfb41adc6a17172_MD5.jpg",
     "Screenshot 2026-07-13 at 3.33.08 AM.png",
     "ca04c06d7eb31b773e5b67fa06d09041_MD5.jpg",
     "Screenshot 2026-07-13 at 3.32.15 AM.png",
-    "Screenshot 2026-07-13 at 3.32.04 AM.png",
     "53a50ef035efcc5c3f74837b4f59a684_MD5.jpg",
     "Screenshot 2026-07-13 at 3.26.44 AM.png",
     "1855c6e54c694b5844213970e815a4f5_MD5.jpg",
